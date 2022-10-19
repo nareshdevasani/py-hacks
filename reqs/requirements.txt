@@ -1,0 +1,29 @@
+# simple equality with pinned version
+django-model-utils==4.2.0
+
+CherryPy>=3.6.0
+
+# with python version constraints
+cryptography==3.4.8; python_version >= "3.6"
+aiohttp-sse-client==0.2.1; python_full_version >= "3.6.2" and python_version < "4.0"
+aiosignal==1.2.0; python_full_version >= "3.6.2" and python_version < "4.0" and python_version >= "3.6"
+alabaster==0.7.12; python_version >= "3.7" and python_full_version < "3.0.0" or python_full_version >= "3.4.0" and python_version >= "3.7"
+colorama==0.4.4; python_version >= "3.7" and python_full_version < "3.0.0" and sys_platform == "win32" and (python_version >= "3.6" and python_full_version < "3.0.0" or python_full_version >= "3.4.0" and python_version >= "3.6") or sys_platform == "win32" and python_version >= "3.7" and python_full_version >= "3.5.0" and (python_version >= "3.6" and python_full_version < "3.0.0" or python_full_version >= "3.4.0" and python_version >= "3.6")
+
+# python < 3.8 which should not get installed by default with latest python
+asynctest==0.13.0; python_version < "3.8" and python_version >= "3.6" and python_full_version >= "3.6.2"
+
+ # comments from 2nd char
+aiohttp==3.8.1; python_version >= "3.6"   # with comments at the end of the line
+django-environ==0.8.1; python_version >= "3.4" and python_version < "4"# comments at the end without space
+
+# dependency with underscore and capital letters
+python_bcrypt==0.3.2
+SQLAlchemy==1.4.31
+
+# python constraints starting with (
+sphinx-rtd-theme==1.0.0; (python_version >= "2.7" and python_full_version < "3.0.0") or (python_full_version >= "3.4.0")
+
+# platform_constraints on OS
+aiodns==3.0.0; sys_platform=="linux" or sys_platform=="darwin"
+uvloop==0.14.0; platform_system!="Windows" and implementation_name=="cpython" and python_version<"3.9" # MagicStack/uvloop#14
