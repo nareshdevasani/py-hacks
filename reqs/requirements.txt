@@ -27,3 +27,6 @@ sphinx-rtd-theme==1.0.0; (python_version >= "2.7" and python_full_version < "3.0
 # platform_constraints on OS
 aiodns==3.0.0; sys_platform=="linux" or sys_platform=="darwin"
 uvloop==0.14.0; platform_system!="Windows" and implementation_name=="cpython" and python_version<"3.9" # MagicStack/uvloop#14
+
+# without any version
+requests
