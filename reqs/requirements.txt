@@ -30,3 +30,6 @@ uvloop==0.14.0; platform_system!="Windows" and implementation_name=="cpython" an
 
 # without any version
 requests
+
+# source archive file following PEP 440 direct references
+urllib3 @ https://github.com/urllib3/urllib3/archive/refs/tags/1.26.8.zip
