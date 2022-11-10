@@ -57,6 +57,7 @@ func readPackages(query int) {
 	if query > 0 {
 		fileName = string(rune('A'-1+query)) + ".json"
 	}
+	fmt.Println("File requested: " + fileName)
 
 	total := 0
 	count := make([]int, 27)
@@ -85,6 +86,9 @@ func readPackages(query int) {
 			}
 		}
 
+		if len(modules) > 0 && len(modules)%500 == 0 {
+			fmt.Println("Completed " + fmt.Sprint(len(modules)))
+		}
 		total += 1
 	}
 
@@ -92,9 +96,7 @@ func readPackages(query int) {
 		fmt.Println("error in scanner " + err.Error())
 	}
 
-	sum := 0
 	for idx, cnt := range count {
-		sum += cnt
 		if idx == 0 {
 			fmt.Print("Count with digits: ")
 			fmt.Println(cnt)
@@ -103,7 +105,6 @@ func readPackages(query int) {
 		fmt.Print("Count with " + string(rune('A'-1+idx)) + ": ")
 		fmt.Println(cnt)
 	}
-	fmt.Println(sum)
 	fmt.Println(total)
 
 	// persist
