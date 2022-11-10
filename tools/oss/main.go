@@ -44,7 +44,7 @@ type urls struct {
 }
 
 func main() {
-	readPackages(26)
+	readPackages(24)
 }
 
 func readPackages(query int) {
@@ -117,7 +117,7 @@ func readPackages(query int) {
 }
 
 func getDetails(pkgName string) Module {
-	time.Sleep(500 * time.Millisecond)
+	time.Sleep(250 * time.Millisecond)
 
 	resp, err := http.Get("https://pypi.python.org/pypi/" + pkgName + "/json")
 	if err != nil {

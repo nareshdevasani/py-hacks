@@ -88,32 +88,4 @@ Package not found... zxycba
 Completed 3500
 Package not found... zzz-web
 Package not found... zzzzzzzzz
-Count with digits: 388
-Count with A: 24713
-Count with B: 14125
-Count with C: 28150
-Count with D: 35871
-Count with E: 12249
-Count with F: 16204
-Count with G: 14308
-Count with H: 9863
-Count with I: 9653
-Count with J: 6631
-Count with K: 6680
-Count with L: 11654
-Count with M: 24110
-Count with N: 12865
-Count with O: 22847
-Count with P: 56810
-Count with Q: 3557
-Count with R: 14724
-Count with S: 35313
-Count with T: 23037
-Count with U: 4562
-Count with V: 5681
-Count with W: 9547
-Count with X: 3301
-Count with Y: 3394
-Count with Z: 3680
-413917
 Successfully written 3598 modules into data/Z.json
