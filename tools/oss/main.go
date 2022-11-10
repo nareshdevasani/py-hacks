@@ -20,8 +20,8 @@ import (
 type Module struct {
 	Name      string
 	Version   string
-	Branch    string
-	CloneURLs []string
+	Branch    string   `json:"Branch,omitempty"`
+	CloneURLs []string `json:"CloneURLs,omitempty"`
 }
 
 type metadata struct {
@@ -44,7 +44,7 @@ type urls struct {
 }
 
 func main() {
-	readPackages(24)
+	readPackages(22)
 }
 
 func readPackages(query int) {
@@ -59,6 +59,7 @@ func readPackages(query int) {
 	}
 	fmt.Println("File requested: " + fileName)
 
+	start := time.Now()
 	total := 0
 	count := make([]int, 27)
 	scanner := bufio.NewScanner(resp.Body)
@@ -87,7 +88,8 @@ func readPackages(query int) {
 		}
 
 		if len(modules) > 0 && len(modules)%500 == 0 {
-			fmt.Println("Completed " + fmt.Sprint(len(modules)))
+			fmt.Println("Completed "+fmt.Sprint(len(modules))+". Took ", time.Since(start))
+			start = time.Now()
 		}
 		total += 1
 	}
