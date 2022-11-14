@@ -7,6 +7,7 @@ import (
 	"io/ioutil"
 	"log"
 	"net/http"
+	"os"
 	"path/filepath"
 	"strings"
 	"time"
@@ -44,10 +45,13 @@ type urls struct {
 }
 
 func main() {
-	readPackages(22)
+	// 19 - S
+	// 10 - J
+	// 19 - S
+	readPackages(19, "shopee-tocex-agent")
 }
 
-func readPackages(query int) {
+func readPackages(query int, startingName string) {
 	resp, err := http.Get("https://pypi.org/simple/")
 	if err != nil {
 		log.Fatalln(err)
@@ -57,6 +61,7 @@ func readPackages(query int) {
 	if query > 0 {
 		fileName = string(rune('A'-1+query)) + ".json"
 	}
+	fileName = "data/" + fileName
 	fmt.Println("File requested: " + fileName)
 
 	start := time.Now()
@@ -64,6 +69,7 @@ func readPackages(query int) {
 	count := make([]int, 27)
 	scanner := bufio.NewScanner(resp.Body)
 	modules := make([]Module, 0)
+	started := false
 	for scanner.Scan() {
 		line := scanner.Text()
 		if !strings.Contains(line, "href=\"/simple/") {
@@ -71,6 +77,9 @@ func readPackages(query int) {
 		}
 
 		packageName := filepath.Base(strings.Split(line, "\"")[1])
+		if packageName == startingName {
+			started = true
+		}
 		first := []rune(packageName)[0]
 		index := 0
 		if unicode.IsDigit(first) {
@@ -80,16 +89,21 @@ func readPackages(query int) {
 			count[index] += 1
 		}
 
-		if index == query {
+		if index == query && started {
 			module := getDetails(packageName)
 			if len(module.Name) > 0 {
 				modules = append(modules, module)
 			}
 		}
 
-		if len(modules) > 0 && len(modules)%500 == 0 {
-			fmt.Println("Completed "+fmt.Sprint(len(modules))+". Took ", time.Since(start))
-			start = time.Now()
+		if len(modules) == 500 {
+			existing := getExisting(fileName)
+			existing = append(existing, modules...)
+			file, _ := json.MarshalIndent(existing, "", " ")
+			_ = ioutil.WriteFile(fileName, file, 0644)
+			fmt.Println("Completed "+fmt.Sprint(len(existing))+". Took ", time.Since(start))
+			//start = time.Now()
+			modules = make([]Module, 0)
 		}
 		total += 1
 	}
@@ -111,11 +125,31 @@ func readPackages(query int) {
 
 	// persist
 	if len(modules) > 0 {
-		fileName = "data/" + fileName
-		file, _ := json.MarshalIndent(modules, "", " ")
+		existing := getExisting(fileName)
+		existing = append(existing, modules...)
+		file, _ := json.MarshalIndent(existing, "", " ")
 		_ = ioutil.WriteFile(fileName, file, 0644)
-		fmt.Println("Successfully written " + fmt.Sprint(len(modules)) + " modules into " + fileName)
+		fmt.Println("Successfully written " + fmt.Sprint(len(existing)) + " modules into " + fileName)
 	}
+}
+
+func getExisting(fileName string) []Module {
+	jsonFile, err := os.Open(fileName)
+	if err != nil {
+		fmt.Println("error opening the file")
+		return nil
+	}
+	byteValue, _ := ioutil.ReadAll(jsonFile)
+	// we initialize our Users array
+	var existing []Module
+	err = json.Unmarshal(byteValue, &existing)
+	if err != nil {
+		fmt.Println("error unmarshalling the file")
+		return nil
+	}
+	jsonFile.Close()
+
+	return existing
 }
 
 func getDetails(pkgName string) Module {
