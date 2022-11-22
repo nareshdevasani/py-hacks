@@ -47,8 +47,8 @@ type urls struct {
 func main() {
 	// 19 - S
 	// 10 - J
-	// 19 - S
-	readPackages(19, "shopee-tocex-agent")
+	// 1 - A
+	readPackages(1, "aws-solutions-constructs-aws-dynamodb-stream-lambda-elasticsearch-kibana")
 }
 
 func readPackages(query int, startingName string) {
@@ -93,6 +93,8 @@ func readPackages(query int, startingName string) {
 			module := getDetails(packageName)
 			if len(module.Name) > 0 {
 				modules = append(modules, module)
+			} else {
+				fmt.Println(" ..." + fmt.Sprint(len(modules)))
 			}
 		}
 
@@ -163,7 +165,7 @@ func getDetails(pkgName string) Module {
 	defer resp.Body.Close()
 
 	if resp.StatusCode < 200 || resp.StatusCode >= 400 {
-		fmt.Println("Package not found... " + pkgName)
+		fmt.Print("Package not found... " + pkgName)
 		return Module{}
 	}
 
