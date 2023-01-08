@@ -551,7 +551,7 @@
   "Name": "c3d",
   "Version": "0.5.1",
   "CloneURLs": [
-   "https://github.com/EmbodiedCognition/py-c3d",
+   "https://github.com/EmbodiedCognition/py-c3d"
   ]
  },
  {
@@ -867,7 +867,7 @@
   "Name": "c7n",
   "Version": "0.9.20",
   "CloneURLs": [
-   "https://github.com/cloud-custodian/cloud-custodian",
+   "https://github.com/cloud-custodian/cloud-custodian"
   ]
  },
  {
@@ -881,21 +881,21 @@
   "Name": "c7n-awscc",
   "Version": "0.1.5",
   "CloneURLs": [
-   "https://github.com/cloud-custodian/cloud-custodian",
+   "https://github.com/cloud-custodian/cloud-custodian"
   ]
  },
  {
   "Name": "c7n-azure",
   "Version": "0.7.19",
   "CloneURLs": [
-   "https://github.com/cloud-custodian/cloud-custodian",
+   "https://github.com/cloud-custodian/cloud-custodian"
   ]
  },
  {
   "Name": "c7n-gcp",
   "Version": "0.4.19",
   "CloneURLs": [
-   "https://github.com/cloud-custodian/cloud-custodian",
+   "https://github.com/cloud-custodian/cloud-custodian"
   ]
  },
  {
@@ -909,7 +909,7 @@
   "Name": "c7n-kube",
   "Version": "0.2.19",
   "CloneURLs": [
-   "https://github.com/cloud-custodian/cloud-custodian",
+   "https://github.com/cloud-custodian/cloud-custodian"
   ]
  },
  {
@@ -923,35 +923,35 @@
   "Name": "c7n-logexporter",
   "Version": "0.4.19",
   "CloneURLs": [
-   "https://github.com/cloud-custodian/cloud-custodian",
+   "https://github.com/cloud-custodian/cloud-custodian"
   ]
  },
  {
   "Name": "c7n-mailer",
   "Version": "0.6.19",
   "CloneURLs": [
-   "https://github.com/cloud-custodian/cloud-custodian",
+   "https://github.com/cloud-custodian/cloud-custodian"
   ]
  },
  {
   "Name": "c7n-openstack",
   "Version": "0.1.10",
   "CloneURLs": [
-   "https://github.com/cloud-custodian/cloud-custodian",
+   "https://github.com/cloud-custodian/cloud-custodian"
   ]
  },
  {
   "Name": "c7n-org",
   "Version": "0.6.19",
   "CloneURLs": [
-   "https://github.com/cloud-custodian/cloud-custodian",
+   "https://github.com/cloud-custodian/cloud-custodian"
   ]
  },
  {
   "Name": "c7n-policystream",
   "Version": "0.4.19",
   "CloneURLs": [
-   "https://github.com/cloud-custodian/cloud-custodian",
+   "https://github.com/cloud-custodian/cloud-custodian"
   ]
  },
  {
@@ -965,28 +965,28 @@
   "Name": "c7n-sphinxext",
   "Version": "1.1.19",
   "CloneURLs": [
-   "https://github.com/cloud-custodian/cloud-custodian",
+   "https://github.com/cloud-custodian/cloud-custodian"
   ]
  },
  {
   "Name": "c7n-tencentcloud",
   "Version": "0.1.2",
   "CloneURLs": [
-   "https://github.com/cloud-custodian/cloud-custodian",
+   "https://github.com/cloud-custodian/cloud-custodian"
   ]
  },
  {
   "Name": "c7n-terraform",
   "Version": "0.1.10",
   "CloneURLs": [
-   "https://github.com/cloud-custodian/cloud-custodian",
+   "https://github.com/cloud-custodian/cloud-custodian"
   ]
  },
  {
   "Name": "c7n-trailcreator",
   "Version": "0.2.19",
   "CloneURLs": [
-   "https://github.com/cloud-custodian/cloud-custodian",
+   "https://github.com/cloud-custodian/cloud-custodian"
   ]
  },
  {
@@ -1236,7 +1236,7 @@
   "Name": "cable",
   "Version": "0.1",
   "CloneURLs": [
-   "https://github.com/jpsca/cable",
+   "https://github.com/jpsca/cable"
   ]
  },
  {
@@ -1374,7 +1374,7 @@
   "Name": "cabot-alert-typetalk",
   "Version": "0.1.0",
   "CloneURLs": [
-   "https://github.com/is2ei/cabot-alert-typetalk",
+   "https://github.com/is2ei/cabot-alert-typetalk"
   ]
  },
  {
@@ -1478,14 +1478,14 @@
   "Version": "0.0.2",
   "CloneURLs": [
    "https://github.com/sinkaroid/cabulAsync",
-   "https://github.com/sinkaroid/cabulAsync.py",
+   "https://github.com/sinkaroid/cabulAsync.py"
   ]
  },
  {
   "Name": "ca-bundle",
   "Version": "0.1.1",
   "CloneURLs": [
-   "https://github.com/matusf/ca-bundle/",
+   "https://github.com/matusf/ca-bundle/"
   ]
  },
  {
@@ -1689,7 +1689,7 @@
   "Name": "cachecore",
   "Version": "0.4.0",
   "CloneURLs": [
-   "https://github.com/rykroon/cachecore/",
+   "https://github.com/rykroon/cachecore/"
   ]
  },
  {
@@ -1710,7 +1710,7 @@
   "Name": "cachedcomplete",
   "Version": "1.0.4",
   "CloneURLs": [
-   "https://github.com/Roynecro97/cachedcomplete",
+   "https://github.com/Roynecro97/cachedcomplete"
   ]
  },
  {
@@ -1923,14 +1923,14 @@
   "Name": "cache-guiosoft",
   "Version": "0.0.7",
   "CloneURLs": [
-   "https://github.com/guionardo/py-cache-guiosoft",
+   "https://github.com/guionardo/py-cache-guiosoft"
   ]
  },
  {
   "Name": "cache-house",
   "Version": "0.2.2",
   "CloneURLs": [
-   "https://github.com/Turall/cache-house",
+   "https://github.com/Turall/cache-house"
   ]
  },
  {
@@ -1970,7 +1970,7 @@
   "Name": "cachelib",
   "Version": "0.9.0",
   "CloneURLs": [
-   "https://github.com/pallets/cachelib/",
+   "https://github.com/pallets/cachelib/"
   ]
  },
  {
@@ -2059,7 +2059,7 @@
   "Name": "cache-money",
   "Version": "1.1.0",
   "CloneURLs": [
-   "https://github.com/novisto/cache-money",
+   "https://github.com/novisto/cache-money"
   ]
  },
  {
@@ -2073,7 +2073,7 @@
   "Name": "cacheorm",
   "Version": "0.0.1",
   "CloneURLs": [
-   "https://github.com/leosocy/cacheorm",
+   "https://github.com/leosocy/cacheorm"
   ]
  },
  {
@@ -2108,7 +2108,7 @@
   "Name": "cacheproxy",
   "Version": "0.1.0",
   "CloneURLs": [
-   "https://github.com/nolze/cacheproxy",
+   "https://github.com/nolze/cacheproxy"
   ]
  },
  {
@@ -2654,7 +2654,7 @@
   "Name": "cad-capgains",
   "Version": "2.0.1",
   "CloneURLs": [
-   "https://github.com/EmilMaric/cad-capital-gains",
+   "https://github.com/EmilMaric/cad-capital-gains"
   ]
  },
  {

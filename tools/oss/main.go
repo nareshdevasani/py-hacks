@@ -9,6 +9,8 @@ import (
 	"net/http"
 	"os"
 	"path/filepath"
+	"sort"
+	"strconv"
 	"strings"
 	"time"
 	"unicode"
@@ -30,8 +32,9 @@ type metadata struct {
 }
 
 type info struct {
-	Version     string
-	ProjectURLs urls `json:"project_urls"`
+	Version      string
+	ProjectURLs  urls     `json:"project_urls"`
+	RequiresDist []string `json:"requires_dist"`
 }
 
 type urls struct {
@@ -48,7 +51,12 @@ func main() {
 	// 19 - S
 	// 10 - J
 	// 1 - A
-	readPackages(1, "aws-solutions-constructs-aws-dynamodb-stream-lambda-elasticsearch-kibana")
+	// readPackages(1, "aws-solutions-constructs-aws-dynamodb-stream-lambda-elasticsearch-kibana")
+
+	// parse the data files and export dep information
+	// parseAndPersistDeps([]string{"0.json"}, "0Deps.txt")
+
+	parseAndPersistDeps([]string{"C3.json", "C4.json"}, "CDeps2.txt")
 }
 
 func readPackages(query int, startingName string) {
@@ -138,7 +146,7 @@ func readPackages(query int, startingName string) {
 func getExisting(fileName string) []Module {
 	jsonFile, err := os.Open(fileName)
 	if err != nil {
-		fmt.Println("error opening the file")
+		fmt.Println("error opening the file: " + err.Error())
 		return nil
 	}
 	byteValue, _ := ioutil.ReadAll(jsonFile)
@@ -146,7 +154,7 @@ func getExisting(fileName string) []Module {
 	var existing []Module
 	err = json.Unmarshal(byteValue, &existing)
 	if err != nil {
-		fmt.Println("error unmarshalling the file")
+		fmt.Println("error unmarshalling the file: " + err.Error())
 		return nil
 	}
 	jsonFile.Close()
@@ -154,11 +162,19 @@ func getExisting(fileName string) []Module {
 	return existing
 }
 
-func getDetails(pkgName string) Module {
-	time.Sleep(250 * time.Millisecond)
+func queryDetails(pkgName string, version string) metadata {
+	time.Sleep(100 * time.Millisecond)
 
-	resp, err := http.Get("https://pypi.python.org/pypi/" + pkgName + "/json")
+	var resp *http.Response
+	var err error
+	if version == "" {
+		resp, err = http.Get("https://pypi.python.org/pypi/" + pkgName + "/json")
+	} else {
+		resp, err = http.Get("https://pypi.python.org/pypi/" + pkgName + "/" + version + "/json")
+	}
+
 	if err != nil {
+		fmt.Println("ERRRRRRRRRRRRRR")
 		log.Fatalln(err)
 	}
 
@@ -166,22 +182,26 @@ func getDetails(pkgName string) Module {
 
 	if resp.StatusCode < 200 || resp.StatusCode >= 400 {
 		fmt.Print("Package not found... " + pkgName)
-		return Module{}
+		return metadata{}
 	}
 
 	b, err := ioutil.ReadAll(resp.Body)
 	if err != nil {
 		fmt.Println("Package read of response failed... " + pkgName)
-		return Module{}
+		return metadata{}
 	}
 
 	var response metadata
 
 	if err := json.Unmarshal(b, &response); err != nil {
 		fmt.Println("Unmarshal of response failed... " + pkgName)
-		return Module{}
+		return metadata{}
 	}
+	return response
+}
 
+func getDetails(pkgName string) Module {
+	response := queryDetails(pkgName, "")
 	result := Module{
 		Name:    pkgName,
 		Version: response.Info.Version,
@@ -219,4 +239,58 @@ func isValidRepo(url string) bool {
 		return false
 	}
 	return true
+}
+
+func parseAndPersistDeps(files []string, opFile string) {
+	lines := make([]string, 0)
+	for _, file := range files {
+		existing := getExisting("data/" + file)
+		for _, module := range existing {
+			metadata := queryDetails(module.Name, module.Version)
+			if len(metadata.Info.RequiresDist) == 0 {
+				continue
+			}
+
+			deps := make([]string, 0)
+			for _, dist := range metadata.Info.RequiresDist {
+				if strings.Contains(dist, "extra == ") {
+					continue
+				}
+				deps = append(deps, dist)
+			}
+			if len(deps) == 0 {
+				continue
+			}
+			newLine := fmt.Sprintf("%s,%s,%d,%s", module.Name, module.Version, len(deps), strings.Join(deps, "$"))
+			// fmt.Println(newLine)
+			lines = append(lines, newLine)
+			if len(lines)%1000 == 0 {
+				fmt.Print("Count is: ")
+				fmt.Println(len(lines))
+			}
+		}
+		fmt.Println(file + " completed......")
+	}
+
+	sort.Slice(lines, func(i, j int) bool {
+		num1, _ := strconv.Atoi(strings.Split(lines[i], ",")[2])
+		num2, _ := strconv.Atoi(strings.Split(lines[j], ",")[2])
+
+		return num1 > num2
+	})
+	file, err := os.OpenFile(opFile, os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
+
+	if err != nil {
+		log.Fatalf("failed creating file: %s", err)
+	}
+
+	datawriter := bufio.NewWriter(file)
+
+	for _, data := range lines {
+		fmt.Println(data)
+		_, _ = datawriter.WriteString(data + "\n")
+	}
+
+	datawriter.Flush()
+	file.Close()
 }
