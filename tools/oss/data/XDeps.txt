@@ -1,0 +1,1109 @@
+xtcryptosignals,0.8.9,97,urllib3 (==1.25.11)$vine (==1.3.0)$websocket-client (==1.1.0)$websockets (==9.1)$werkzeug (==2.0.1)$wheel (==0.36.2)$wikipedia-api (==0.5.4)$wtforms (==2.3.3)$amqp (==2.6.1)$aniso8601 (==9.0.1)$apscheduler (==3.6.3)$attrs (==21.2.0)$autobahn (==21.3.1)$automat (==20.2.0)$bcrypt (==3.2.0)$beautifulsoup4 (==4.9.3)$bidict (==0.21.2)$billiard (==3.6.4.0)$cachelib (==0.2.0)$cachetools (==4.2.2)$captcha (==0.3)$celery (==4.4.6)$certifi (==2021.5.30)$cffi (==1.14.5)$cfscrape (==2.1.1)$chardet (==3.0.4)$click (==8.0.1)$configparser (==5.0.2)$constantly (==15.1.0)$cryptography (==3.4.7)$dateparser (==1.0.0)$dnspython (==1.16.0)$environs (==9.3.2)$eventlet (==0.26.0)$flasgger (==0.9.5)$flask (==2.0.1)$flask-login (==0.5.0)$flask-restful (==0.3.9)$flask-session (==0.3.2)$flask-socketio (==5.1.0)$flask-wtf (==0.15.1)$future (==0.18.2)$greenlet (==1.1.0)$gunicorn (==20.1.0)$http-ece (==1.1.0)$hyperlink (==21.0.0)$idna (==2.10)$importlib-metadata (==4.6.0)$incremental (==21.3.0)$itsdangerous (==2.0.1)$jinja2 (==3.0.1)$jsonschema (==3.2.0)$kombu (==4.6.11)$markupsafe (==2.0.1)$marshmallow (==2.20.5)$millify (==0.1.1)$mistune (==0.8.4)$mongodb-migrations (==1.0.1)$mongoengine (==0.23.1)$monotonic (==1.6)$pep517 (==0.10.0)$pillow (==8.3.0)$pip-tools (==6.2.0)$py-etherscan-api (==0.8.0)$py-vapid (==1.8.2)$pyasn1 (==0.4.8)$pyasn1-modules (==0.2.8)$pycparser (==2.20)$pycryptodome (==3.10.1)$pymongo (==3.10.1)$pyopenssl (==20.0.1)$pyrsistent (==0.18.0)$python-binance (==0.7.9)$python-dateutil (==2.8.1)$python-dotenv (==0.18.0)$python-engineio (==4.2.0)$python-kucoin (==2.1.2)$python-socketio[client] (==5.3.0)$python-telegram-bot (==13.6)$pytz (==2021.1)$pywebpush (==1.13.0)$pyyaml (==5.4.1)$redis (==3.5.3)$regex (==2021.7.1)$requests (==2.23.0)$service-identity (==21.1.0)$six (==1.16.0)$soupsieve (==2.2.1)$toml (==0.10.2)$tornado (==6.1)$twisted (==21.2.0)$txaio (==21.2.1)$typing-extensions (==3.10.0.0)$tzlocal (==2.1)$ujson (==4.0.2)$zipp (==3.5.0)$zope.interface (==5.4.0)
+xenon-lfp-analysis,0.0.4,35,pyaedt (==0.4.7)$Django (==3.2.8)$Brotli (==1.0.9)$click (==8.0.4)$colorama (==0.4.4)$dash (==2.2.0)$dash-core-components (==2.0.0)$dash-daq (==0.5.0)$dash-html-components (==2.0.0)$dash-table (==5.0.0)$Flask (==2.0.3)$flask-caching$Flask-Compress (==1.11)$h5py (==3.6.0)$imageio (==2.16.1)$itsdangerous (==2.1.1)$Jinja2 (==3.0.3)$MarkupSafe (==2.1.0)$networkx$numpy$packaging (==21.3)$pandas$Pillow (==9.0.1)$plotly (==5.6.0)$pyparsing (==3.0.7)$python-dateutil (==2.8.2)$pytz (==2021.3)$PyWavelets (==1.3.0)$scikit-image (==0.19.2)$scipy$six (==1.16.0)$tenacity (==8.0.1)$Werkzeug (==2.0.3)$tqdm (==2.2.3)$kaleido (==0.2.1)
+xraylarch,0.9.65,31,packaging$pip$pyyaml$toml$pytest$termcolor$scipy (>=1.5)$numpy (>=1.18)$matplotlib (>=3.0)$sqlalchemy (>=1.0)$h5py (>=2.8)$pillow (>=8.3.2)$imageio$peakutils$requests$scikit-image$scikit-learn$asteval (>=0.9.26)$lmfit (>=1.0.3)$uncertainties (>=3.1)$pyshortcuts (>=1.8.1)$xraydb (>=4.4)$silx (>=0.15.2)$hdf5plugin$numdifftools$psutil$pymatgen$fabio$pyfai$pycifrw$importlib-metadata ; python_version < "3.8"
+xdeen,0.0.1,30,arrow (==1.2.1)$blinker (==1.4)$click (==8.0.3)$matplotlib (==3.5.1)$mplfinance (==0.12.8b6)$newtulipy (==0.4.6)$numpy (==1.22.2)$numpy-groupies (==0.9.14)$pandas (==1.4.0)$peewee (==3.14.8)$psycopg2-binary (==2.9.2)$pydash (==5.1.0)$pytest (==6.2.5)$PyWavelets (==1.2.0)$quantstats (==0.0.47)$requests (==2.26.0)$scipy (==1.8.0)$statsmodels (==0.13.2)$TA-Lib (==0.4.24)$tabulate (==0.8.9)$timeloop (==1.0.2)$websocket-client (==1.2.3)$simplejson (==3.16.0)$aioredis (==1.3.1)$redis (==4.1.4)$fastapi (==0.74.0)$uvicorn (==0.14.0)$websockets (==9.1.0)$python-dotenv (==0.19.2)$aiofiles (==0.7.0)
+xtlib,1.0.0,27,azureml-sdk (==1.0.69)$azure-storage-blob (==2.1.0)$azure-identity (==1.2.0)$azure-keyvault (==4.0.0)$azure-batch (==8.0.0)$azureml-widgets (==1.0.69.1)$numpy$arrow (==0.14.0)$rpyc (==4.1.2)$future$watchdog (==0.9.0)$hyperopt$pymongo$tqdm$tensorboard (==2.1.0)$psutil$ptvsd$matplotlib$seaborn$pandas$PyYAML (>=5.1.0)$python-interface$paramiko$grpcio (>=1.24.3)$ruamel.yaml (==0.15.89)$scikit-learn$pyasn1 (>=0.4.6)
+xdart,0.12.5,27,pyfai$pygix$pyqtgraph$pyqt5$pandas$scikit-image$lmfit$pyyaml$numpy$scipy$silx$fabio$matplotlib$requests$h5py$hdf5plugin$ipympl$ipywidgets$joblib$icecream$jupyterlab$nodejs$hvplot$holoviews$panel$xlrd$openpyxl
+xgboost-model,0.1.2,26,certifi (==2020.6.20)$chardet (==3.0.4)$click (==7.1.2)$Flask (==1.1.2)$idna (==2.9)$itsdangerous (==1.1.0)$Jinja2 (==2.11.2)$joblib (==0.15.1)$MarkupSafe (==1.1.1)$numpy (==1.18.5)$pandas (==1.0.4)$python-dateutil (==2.8.1)$pytz (==2020.1)$requests (==2.24.0)$scikit-learn (==0.23.1)$scipy (==1.4.1)$six (==1.15.0)$sklearn (==0.0)$threadpoolctl (==2.1.0)$urllib3 (==1.25.9)$websocket-client (==0.57.0)$Werkzeug (==1.0.1)$WTForms (==2.3.1)$xgboost (==1.1.1)$setuptools (<42.0.0,>=41.4.0)$wheel (<0.34.0,>=0.33.6)
+xgboost-model-jarushi,0.1.0,26,certifi (==2020.6.20)$chardet (==3.0.4)$click (==7.1.2)$Flask (==1.1.2)$idna (==2.9)$itsdangerous (==1.1.0)$Jinja2 (==2.11.2)$joblib (==0.15.1)$MarkupSafe (==1.1.1)$numpy (==1.18.5)$pandas (==1.0.4)$python-dateutil (==2.8.1)$pytz (==2020.1)$requests (==2.24.0)$scikit-learn (==0.23.1)$scipy (==1.4.1)$six (==1.15.0)$sklearn (==0.0)$threadpoolctl (==2.1.0)$urllib3 (==1.25.9)$websocket-client (==0.57.0)$Werkzeug (==1.0.1)$WTForms (==2.3.1)$xgboost (==1.1.1)$setuptools (<42.0.0,>=41.4.0)$wheel (<0.34.0,>=0.33.6)
+xklb,1.19.46,22,protobuf (<4)$sqlite-utils (>=3.30)$catt$ffmpeg-python$ftfy$gallery-dl$humanize$ipython$joblib$Markdown$mutagen$natsort$praw$pysubs2$python-mpv-jsonipc$regex$rich$screeninfo$subliminal$tabulate$tinytag$yt-dlp
+xeda,0.1.0rc14,22,jinja2 (~=3.1)$pydantic (~=1.9)$python-box (~=6.0)$attrs (~=22.1)$cattrs (~=22.1)$attrs-strict (~=1.0)$pyyaml (~=6.0)$typeguard (~=2.13)$varname (~=0.9)$overrides (~=6.1)$pathvalidate (~=2.5)$click (~=8.1)$click-help-colors (~=0.9)$coloredlogs (~=15.0)$rich (~=12.5)$simple-term-menu (~=1.5)$psutil (~=5.9)$junitparser (~=2.4)$pyvcd (~=0.3)$GitPython (>=3.1)$pebble (~=5.0)$tomli (~=2.0) ; python_version < "3.11"
+xpipeline,0.0.1,22,pytest (>=6.2.1)$numpy (>=1.20.3)$scipy (>=1.4.1)$matplotlib (>=3.2.2)$astropy (>=4.2)$dask (>=2021.1.1)$distributed (>=2021.1.1)$python-irodsclient (>=0.8.6)$coloredlogs (>=15.0)$scikit-image (>=0.18.1)$irods-fsspec$fsspec (>=0.8.7)$sphinx-argparse (>=0.2.5)$sphinx-rtd-theme (>=0.4.3)$python-dateutil (<3,>=2.8.1)$dacite (<2.0,>=1.6.0)$numba (<1.0,>=0.53)$memory-profiler (>=0.58.0)$ray (>=1.8)$pylops (<2.0,>=1.14)$tqdm (>=4.62)$pandas (>=1.3.4)
+xicam,2.4.5,21,PyQt5$qtpy$astropy$numpy (>=1.16.0)$appdirs$qdarkstyle$qtmodern$databroker (<2)$bluesky-widgets (>=0.0.3)$distributed$dask[array,bag]$virtualenv$requests$entrypoints$pyqtgraph (==0.11.0)$qtconsole$scipy$matplotlib$h5py$scikit-image$camsaxs
+xlseries,0.2.6,21,arrow (==0.5.4)$asn1crypto (==0.24.0)$certifi (==2019.6.16)$cffi (==1.12.3)$coverage (==4.5.4)$cryptography (==2.7)$et-xmlfile (==1.0.1)$jdcal (==1.4.1)$mock (==3.0.5)$nose (==1.3.7)$openpyxl (==2.5.0)$pandas (<=0.22,>=0.20)$Parsley (==1.3)$pycallgraph (==1.0.1)$pycparser (==2.19)$python-dateutil (==2.8.0)$pytz (==2019.2)$PyYAML (==5.1.2)$six (==1.12.0)$Unidecode (==0.4.21)$xlrd (==1.0.0)
+xpotato,0.1.4,19,pandas (>=1.3.5)$tqdm$stanza (==1.3.0)$scikit-learn (==1.0.2)$eli5 (==0.11.0)$jinja2 (==3.0.1)$graphviz (==0.18.2)$penman (>=1.2.1)$networkx (==2.6.3)$rank-bm25 (==0.2.1)$streamlit (==1.3.1)$streamlit-aggrid (==0.2.3.post2)$scikit-criteria (==0.5)$tuw-nlp (==0.0.9)$amrlib (==0.6.0)$protobuf (==3.20.0)$pytest (>=7.1.3)$fastapi$uvicorn[standard]
+xwtools,2.0.8,18,pika$numpy$shortuuid$threadpool$redis$elasticsearch-dsl$matplotlib$jieba$wheel$PyMySQL$pypinyin$selenium$elasticsearch$pymongo$pandas$requests$beautifulsoup4$sqlalchemy
+xmanager,0.3.0,18,absl-py$alembic (==1.4.3)$async-generator$attrs$cloud-sql-python-connector$docker$google-api-core$google-api-python-client$google-auth$google-cloud-aiplatform$google-cloud-storage$humanize$immutabledict$kubernetes$pyyaml$sqlalchemy (==1.2.19)$sqlparse$termcolor
+xedro,0.17.6,17,anyconfig (~=0.10.0)$cachetools (~=4.1)$click (<8.0)$cookiecutter (~=1.7.0)$dynaconf (<4.0.0,>=3.1.2)$fsspec (<2022.01,>=2021.04)$gitpython (~=3.0)$jmespath (<1.0,>=0.9.5)$jupyter-client (<7.0,>=5.1)$pip-tools (~=6.4)$pluggy (~=0.13.0)$python-json-logger (~=2.0)$PyYAML (<6.0,>=4.2)$rope (~=0.21.0)$setuptools (>=38.0)$toml (~=0.10)$toposort (~=1.5)
+xzitaao,0.0.5,17,beautifulsoup4 (==4.9.3)$bs4 (==0.0.1)$certifi (==2020.12.5)$chardet (==3.0.4)$cycler (==0.10.0)$idna (==2.10)$kiwisolver (==1.3.1)$lxml (==4.6.2)$numpy (==1.19.3)$Pillow (==8.0.1)$pyparsing (==2.4.7)$python-dateutil (==2.8.1)$requests (==2.25.0)$six (==1.15.0)$soupsieve (==2.1)$urllib3 (==1.26.2)$pytesseract (==0.3.6)
+xiaobaiauto2,0.5.1,16,allure-pytest$Appium-Python-Client$jmespath$mitmproxy$pytest$pytest-cov$pytest-sugar$pytest-html$pytest-ordering$pytest-rerunfailures$pytest-xdist$pytest-instafail$pyyaml$requests$selenium$pyperclip
+xact,0.0.3.dev0,16,Jinja2 (>=2.1)$ansible (==2.9.13)$click$cryptography$dill$jsonschema$loguru$numpy$paramiko$psutil (>=5.0)$pytest (>=5.2)$pyyaml$pyzmq$setproctitle$toml$xmltodict
+xclim,0.39.0,16,boltons (>=20.1)$bottleneck (>=1.3.1)$cf-xarray (>=0.6.1)$cftime (>=1.4.1)$Click (>=8.1)$dask[array] (>=2.6)$jsonpickle$numba$numpy (>=1.16)$pandas (>=0.23)$pint (>=0.10)$pyyaml$scikit-learn (>=0.21.3)$scipy (<1.9,>=1.2)$statsmodels$xarray (>=2022.06.0)
+xtesting,0.96.0,16,PrettyTable$PyYAML$ansible-runner (!=1.3.5)$behave (>=1.2.6)$boto3$junitxml$lxml (!=3.7.0)$mock (!=4.0.0,!=4.0.1)$os-testr$pbr (!=2.1.0)$python-subunit$requests (!=2.20.0,!=2.24.0)$robotframework (>=4.0)$stevedore (!=3.0.0)$enum34 ; (python_version=='2.7' or python_version=='2.6' or python_version=='3.3')$behave-html-formatter (>=0.9.4) ; (python_version>='3.6')
+xtgeo,2.20.3,15,deprecation$numpy (>=1.13)$shapely (>=1.6.2)$matplotlib (>=1.5)$scipy (>=0.17)$segyio (>1.8.0)$pandas (>=0.18)$h5py (>=3)$hdf5plugin (>=2.3)$roffio$ecl-data-io (>=1.0)$typing-extensions$tables (>=3.5.1) ; platform_system == "Linux"$dataclasses (>=0.6) ; python_version < "3.7"$tables (>=3.5.1) ; python_version < "3.9" and platform_system != "Linux"
+xarrayaita,0.2.3,15,xarray$numpy$matplotlib$scikit-image$scipy$ipywidgets$datetime$tqdm$pandas$vtk$mahotas$ipympl$nodejs$jupyterlab$xarrayuvecs
+xircuits,1.6.1,15,ipykernel$packaging$tornado (>=6.1.0)$jupyter-core$jupyter-packaging$jupyterlab-server (<3,>=2.11.1)$jupyter-server (<2,>=1.16.0)$notebook-shim (>=0.1)$jinja2 (>=3.0.3)$y-py (<0.4.0,>=0.3.0)$jupyterlab (<4.0.0,>=3.0.0)$requests$gitpython$pygithub$tqdm
+xdj-oauth,0.0.3,14,asgiref (==3.3.4)$Django (==3.2.3)$django-filter (==2.4.0)$djangorestframework (==3.12.4)$djangorestframework-simplejwt (==4.7.1)$djangorestframework-xml (==2.0.0)$pytz (==2021.1)$six (==1.16.0)$user-agents (==2.2.0)$drf-yasg (==1.20.0)$gitpython (==3.1.20)$whitenoise (==5.3.0)$xdj-utils (==0.0.6)$python-weixin (==0.5.0)
+xmcd-projection,1.0.1,14,trimesh (>=3.9.12)$numpy (==1.20.2)$matplotlib (>=3.4.1)$numba (>=0.53.1)$joblib (>=1.0.1)$PyQt5 (>=5.15.4)$pyqtgraph (>=0.11.1)$scikit-image (>=0.18.1)$scipy (>=1.6.2)$PyOpenGL (>=3.1.5)$cached-property (>=1.5.2)$pandas (>=1.0.5)$meshio (>=4.0.16)$tqdm (<=4.46.1)
+xac,0.3.0,14,typer[all] (>=0.3.2,<0.4.0)$httpx (>=0.15.5,<0.16.0)$pandas (>=1.1.3,<2.0.0)$humanize (>=3.0.0,<4.0.0)$alive-progress (>=1.6.1,<2.0.0)$halo (>=0.0.30,<0.0.31)$dynaconf (>=3.1.1,<4.0.0)$yarl (>=1.6.0,<2.0.0)$safer (>=4.1.2,<5.0.0)$munch (>=2.5.0,<3.0.0)$smart_open[all] (>=2.2.1,<3.0.0)$yamale (>=3.0.4,<4.0.0)$tabulate (>=0.8.7,<0.9.0)$pygments (>=2.7.1,<3.0.0)
+xaitk-saliency-demo,2.1.0,14,trame (>=2.1.0)$trame-components (>=2.0.4)$altair (==4.1.0)$smqtk-classifier (==0.19.0)$smqtk-core (==0.18.1)$smqtk-dataprovider (==0.16.0)$smqtk-descriptors (==0.18.1)$smqtk-detection[centernet,torch] (==0.19.0)$smqtk-image-io (==0.16.2)$xaitk-saliency (==0.6.1)$torchvision (==0.11.2)$scikit-learn (==0.24.2)$scikit-image (==0.18.3)$ubelt (==1.1.1)
+xe2layout,2020.5.26,14,pymdtools$pyyaml$beautifulsoup4$jinja2$html5lib$md2py$polib$appdirs$upref$python-gitlab$pdfkit$PyPDF2$url-normalize$requests
+xga,0.3.0,14,astropy (>=4.0)$numpy (>=1.18)$tqdm (>=4.45)$regions (==0.4)$pandas (>=1.0.3)$fitsio (>=1.1.2)$matplotlib (>=3.1.3)$scipy (>=1.4.1)$pyabel (>=0.8.3)$corner (>=2.1.0)$emcee (>=3.0.2)$tabulate (>=0.8.9)$getdist (>=1.1.3)$docutils (==0.17)
+xbench,0.0.3,14,pydantic$typing$typing-extensions$faker (==8.13.2)$openpyxl$Pillow (>=8)$pdf2image$numpy$impira (==0.1.7)$boto3$textract-trp$requests$myst-parser (>=0.15)$sphinx (>=4.3)
+xnni,0.7.4,14,schema$ruamel.yaml$pandas$psutil$requests$astor$PythonWebHDFS$hyperopt$json-tricks$numpy$scipy$coverage$colorama$GPUtil
+xcurve,0.0.6,14,easydict (>=1.9)$imbalanced-learn (>=0.9.1)$lmdb (>=1.3.0)$numpy (>=1.21.2)$opencv-python (>=4.5.5.62)$pandas (>=1.1.0)$Pillow (>=9.1.1)$pytest (>=7.1.2)$scikit-learn (>=1.1.1)$scipy (>=1.7.1)$scikit-image (>=0.18.0)$torch (>=1.11.0)$torchvision (>=0.12.0)$tqdm (>=4.62.2)
+xcurvelearn,0.0.5,14,easydict (>=1.9)$imblearn (>=0.0)$lmdb (>=1.3.0)$numpy (>=1.21.2)$opencv-python (>=4.5.5.62)$pandas (>=1.1.0)$Pillow (>=9.1.1)$pytest (>=7.1.2)$scikit-learn (>=1.1.1)$scipy (>=1.7.1)$scikit-image (>=0.18.0)$torch (>=1.11.0)$torchvision (>=0.12.0)$tqdm (>=4.62.2)
+xicam-acquire,0.1.0,13,xicam$numpy$qtpy$databroker$bluesky$ophyd$happi$bluesky-darkframes$ipykernel (!=5.0*,!=5.1.0)$pyqode.python$typhos$pydm$caproto
+xenonpy,0.6.7,13,tqdm$seaborn$plotly$requests$ruamel.yaml$mordred$Deprecated$pandas (>=1.1.3)$pymatgen (>=2020.10.09)$scikit-learn (>=0.23.0)$scipy (>=1.5.0)$torch (>=1.7.0)$joblib (>=0.13.0)
+xicra,1.4.5,13,pandas$termcolor$cutadapt$mirtop$pysam$pybedtools$biopython$multiqc$HCGB$future$networkx$numpy$gitdir
+xblock-sdk,0.5.1,13,lxml$Django$webob$requests$simplejson$cookiecutter$fs-s3fs$XBlock$pypng$boto$lazy$web-fragments$django-pyfs
+xirt,1.2.41,13,numpy$pandas$tensorflow$seaborn$xlwt$pyyaml$pyteomics$sklearn$tqdm$biopython$palettable$statannot$tensorflow-addons
+xmidas,0.1.2,13,h5py$numpy$pandas$pyqtgraph (>=0.12.2)$pystackreg$scikit-image$scikit-learn$scipy (>=1.7)$tifffile$silx$xraylarch (>=0.9.57)$pyshortcuts$packaging
+xmen,0.1.0,12,datasets (>=2.0.0,<3.0.0)$lxml (>=4.8.0,<5.0.0)$transformers (>=4.17.0,<5.0.0)$neleval (>=3.1.1,<4.0.0)$numpy (>=1.21,<2.0)$pytorch-metric-learning (==0.9.98.dev1)$sentencepiece (>=0.1.96,<0.2.0)$protobuf (>=3.20.0,<4.0.0)$bioc (>=2.0.post3,<3.0)$hydra-core (>=1.1.1,<2.0.0)$langcodes (>=3.3.0,<4.0.0)$rich (>=12.3.0,<13.0.0)
+xx,3.2.25,12,scrapy$scrapyd$scrapyd-client$scrapy-redis$pyquery$redis$requests$pymysql$sqlalchemy$logzero$happybase$tld
+xarray-behave,0.33.8,12,numpy$scipy$xarray$h5py$zarr$flammkuchen$rich$dask$toolz$samplestamps$pysoundfile$opencv-python-headless
+xyw-utils,0.0.10,12,pandas$numpy$scipy$pygal$cairosvg$cssselect2$pikepdf$img2pdf$openpyxl$xlwt$xlsxwriter$matplotlib
+xanespy,0.3.3,12,h5py$jinja2$matplotlib$numpy$olefile$pandas$pandas$pytz (>=2013b)$scikit-image$scikit-image$scikit-learn$tqdm
+xana,0.7.4,12,pandas (>=1.0)$pyfai (>=0.19)$seaborn$cython$corner (>=2.0)$emcee (>=3.0)$h5py (>=2.0)$hdf5plugin$ipywidgets$lmfit (>=1.0)$matplotlib$numpy (>=1.19)
+xdj-system,0.0.8,12,asgiref (==3.3.4)$Django (==3.2.3)$django-filter (==2.4.0)$djangorestframework (==3.12.4)$djangorestframework-simplejwt (==4.7.1)$pytz (==2021.1)$six (==1.16.0)$user-agents (==2.2.0)$drf-yasg (==1.20.0)$gitpython (==3.1.20)$whitenoise (==5.3.0)$xdj-utils (==0.0.6)
+xxxy-cli,0.7.7,11,checksumdir (>=1.1.4)$click (>=6.7)$marshmallow (>=2.11.1)$pathlib2 (>=2.3.0)$progressbar33 (>=2.4)$pytz (>=2016.10)$requests (>=2.12.4)$shortuuid (>=0.4.3)$tabulate (>=0.7.7)$tzlocal (>=1.4)$websocket-client (==0.47.0)
+xwind,1.2.0,11,pandas (>=1.3.1,<2.0.0)$numpy (>=1.20.0,<2.0.0)$scipy (>=1.7.1,<2.0.0)$simplekml (>=1.3.6,<2.0.0)$openpyxl (>=3.0.9,<4.0.0)$numexpr (>=2.7.3,<3.0.0)$chardet (>=4.0.0,<5.0.0)$Deprecated (>=1.2.0,<2.0.0)$Bottleneck (>=1.3.0,<2.0.0)$charset-normalizer (>=2.0.1,<3.0.0)$pyproj (>=3.3.1,<4.0.0)
+xicam-xpcs,1.3.1,11,xicam$xicam.SAXS$sphinx$sphinx-rtd-theme$nose$coverage$pypi-publisher$scipy$scikit-image$event-model$scikit-beam
+xdj-utils,0.0.6,11,asgiref (==3.3.4)$Django (==3.2.3)$django-filter (==2.4.0)$djangorestframework (==3.12.4)$djangorestframework-simplejwt (==4.7.1)$pytz (==2021.1)$six (==1.16.0)$user-agents (==2.2.0)$drf-yasg (==1.20.0)$gitpython (==3.1.20)$whitenoise (==5.3.0)
+xagg,0.3.0.2,11,numpy$scipy$xarray$pandas$netcdf4$geopandas$shapely$tables$xesmf (>=0.5.2)$cf-xarray (>=0.5.1)$esmpy (>=8.1.0)
+xicam-saxs,0.4.5,11,xicam$numpy$qtpy$pyFAI (<0.21)$scipy$dill$scikit-image$databroker (>=1.0.0b1)$scikit-beam$camsaxs$numba
+xrd-simulator,0.4.0,11,matplotlib$numpy$meshio$pygalmesh$scipy$numba$pycifrw$dill$xfab$netcdf4$h5py
+xls2xlsx,0.1.5,11,xlrd$openpyxl$requests$beautifulsoup4$Pillow$python-dateutil$cssutils$webcolors$currency-symbols$fonttools$PyYAML
+xlavir,0.6.2,11,typer$rich$pandas$numpy (>=1.20.0)$xlsxwriter$pydantic$beautifulsoup4$biopython$openpyxl$imageio$odfpy
+xtream,0.6.5,11,click$requests$django$py-cpuinfo$celery$redis$dj-static$static3$django-ratelimit$django-crispy-forms$iso8601
+xumx-spleeterweb,0.2.4,11,lameenc (>=1.2.2)$musdb (>=0.3.1)$museval (>=0.3.0)$requests (>=2.22)$scipy (>=1.3.1)$setuptools (>=41.0.0)$norbert (>=0.2.1)$resampy (>=0.2.2)$nnabla (>=1.13.0)$pydub (>=0.24.1)$scikit-learn (>=0.23.2)
+xcompact3d-toolbox,1.1.0,11,numpy (==1.20)$scipy (>=1.5)$traitlets (>=4.3)$ipywidgets (>=7.5)$pandas (>=1.1)$xarray (>=0.16)$netcdf4$dask[complete] (>=2.22)$numba (>=0.50)$tqdm (>=4.62)$numpy-stl (>=2.16.3)
+xskillscore,0.0.24,11,bottleneck$cftime$dask$numba (>=0.52)$numpy$properscoring$scikit-learn$scipy$toolz$xarray (>=0.16.1)$xhistogram (>=0.3.0)
+xstac,1.1.0,11,cf_xarray$xarray$numpy$pystac>=1.0.0b3$pandas$pyproj$pydantic$zarr$jsonschema$dask[array]$fsspec[http]
+xalpha,0.11.6,11,lxml$pandas$xlrd (>=1.0.0)$numpy$scipy$matplotlib$requests$pyecharts (==1.7.1)$beautifulsoup4 (>=4.9.0)$sqlalchemy$pysocks
+xai,0.1.0,11,pandas (<1.3.4)$matplotlib (<3.4.3)$numpy (<1.21.3)$scipy (<1.7.1)$scikit-learn (<1.0.1)$python-dateutil$pytz$pyparsing$cycler$kiwisolver$six
+xps-crypto,0.1.0,10,gino (>=1.0.1,<2.0.0)$gino-starlette (>=0.1.1,<0.2.0)$fastapi (>=0.61.1,<0.62.0)$uvicorn (>=0.12.2,<0.13.0)$gunicorn (>=20.0.4,<21.0.0)$alembic (>=1.4.3,<2.0.0)$psycopg2-binary (>=2.8.6,<3.0.0)$telegram-log (>=1.0.12,<2.0.0)$SQLAlchemy-JSONField (>=0.9.0,<0.10.0)$starlette-context (>=0.3.1,<0.4.0)
+xsugar,0.1.29,10,numpy (>=1.14.5)$matplotlib (>=2.0.0)$pandas (>=0.24.0)$scipy (>=1.2.2)$pyyaml (>=5.1.1)$pint (>=0.16.0)$sugarplot$spectralpy$sciparse$liapy
+xchainpy-thorchain,0.2.0,10,xchainpy-crypto (>=0.1.5)$py-binance-chain (==0.1)$xchainpy-util (>=0.1.5)$xchainpy-client (>=0.1.3)$mnemonic (==0.19)$requests (==2.22.0)$http3 (==0.6.7)$bech32 (==1.2.0)$ecdsa (==0.16.1)$hdwallets (==0.1.2)
+xmca,1.4.2.post2,10,numpy (>=1.19.2)$xarray (>=0.16.2)$statsmodels (>=0.12.2)$matplotlib (>=3.3.2)$cartopy (>=0.18.0)$parameterized (>=0.8.1)$netcdf4$h5netcdf$tqdm$PyYAML
+xleapp-ios,0.1.3,10,astc-decomp (>=1.0.3,<2.0.0)$astc_decomp (>=1.0.3,<2.0.0)$blackboxprotobuf (>=1.0.1,<2.0.0)$bplist (>=1.1,<2.0)$bs4 (>=0.0.1,<0.0.2)$defusedxml (>=0.7.1,<0.8.0)$nska-deserialize (>=1.3.1)$pandas (>=1.3.3,<2.0.0)$pillow (>=8.3.2,<9.0.0)$pyliblzfse (>=0.4.1,<0.5.0)
+xt-cvdata,0.8.0,10,numpy$pandas$torch$torchvision$h5py$pillow$matplotlib$tqdm$pycocotools$albumentations
+xain-fl,0.6.0,10,numpy (==1.15)$grpcio (==1.23)$structlog (==19.2.0)$xain-proto (==0.6.0)$boto3 (==1.10.48)$toml (==0.10.0)$schema (~=0.7)$idna (==2.8)$influxdb (==5.2.3)$jsonschema (==3.2.0)
+xbridge,0.3.3,10,zeroconf (>=0.38.5,<0.39.0)$rsocket (>=0.3,<0.4)$progress (>=1.6,<2.0)$aiohttp (>=3.8.1,<4.0.0)$cryptography (>=37.0.2,<38.0.0)$pyOpenSSL (>=22.0.0,<23.0.0)$rsa (>=4.8,<5.0)$pycryptodome (>=3.14.1,<4.0.0)$websockets (>=10.3,<11.0)$qrcode (>=7.3.1,<8.0.0)
+xe2,2.0.29,10,pymdtools$pyyaml$beautifulsoup4$jinja2$html5lib$md2py$networkx$htmlmin$xe2layout$python-gitlab
+xradios,0.0.dev6,10,appdirs (>=1.4.4)$prompt-toolkit (>=3.0.8)$notify-send (>=0.0.20)$Pygments (>=2.7.3)$streamscrobbler3 (>=0.0.4)$python-mpv (>=0.5.2)$pyradios (>=1.0.0)$python-vlc (>=3.0.12118)$pluginbase (>=1.0.1)$tinydb (>=4.5.2)
+xenzen,1.0.2,10,Django (>=1.8,<1.9)$celery (>=3.1,<4)$django-crispy-forms$django-haystack$lxml$psycopg2$pyyaml$raven$redis$social-auth-app-django
+xbout,0.3.3,10,xarray (>=0.18.0)$boutdata (>=0.1.4)$dask[array] (>=2.10.0)$gelidum (>=0.5.3)$natsort (>=5.5.0)$matplotlib (!=3.3.0,!=3.3.1,!=3.3.2,>=3.1.1)$animatplot (>=0.4.2)$netcdf4 (>=1.4.0)$Pillow (>=6.1.0)$importlib-metadata ; python_version < "3.8"
+xicam-ncem,0.1.5,10,ncempy (>=1.7.0)$tifffile$dask$numpy$databroker$qtpy$pyqtgraph$xicam (==2.3.0)$databroker (<2)$pyyaml (==5.4.1)
+xone,0.1.7,10,matplotlib (>=3.0.2)$numpy (>=1.15.0)$pandas (>=1.0.0)$pyarrow (>=1.0.1)$pytz (>=2020.4)$parse (>=1.18.0)$tqdm (>=4.51.0)$beautifulsoup4 (>=4.9.0)$selenium (>=3.141.0)$requests (>=2.25.0)
+xbbo,0.3.2,10,scipy (>=1.7.0)$scikit-optimize (>=0.8.1)$pyyaml (>=6.0)$numpy (>=1.20.3)$pandas (>=1.2.5)$ConfigSpace (>=0.4.19)$scikit-learn (>=0.22.1)$yacs (>=0.1.8)$statsmodels (>=0.13.1)$cma (>=3.2.2)
+xia-flask-api,0.1.6,10,Flask$requests$PyJWT$xia-cache-firestore$xia-engine-firestore$xia-meta$xia-meta-auth$xia-meta-task$xia-authenticator$xia-mail-sender
+xoeuf,3.0.0,10,pytz$decorator (<4.2,>=4.0)$xotl.tools (<2.3,>=1.9.0)$celery (<6,>=4.1.0)$expiringdict (~=1.2.0)$ipython (<6) ; python_version < "3"$enum34 ; python_version < "3.4"$typing ; python_version < "3.5"$dataclasses ; python_version < "3.7"$ipython ; python_version >= "3"
+xoa,0.6.1,10,appdirs$cmocean$configobj$gsw$netCDF4$numba$pytest$setuptools (>=40.4)$scipy$xarray (>=0.17)
+xumx-unofficial,0.2.0,10,lameenc (>=1.2.2)$musdb (>=0.3.1)$museval (>=0.3.0)$requests (>=2.22)$scipy (>=1.3.1)$setuptools (>=41.0.0)$norbert (>=0.2.1)$resampy (>=0.2.2)$nnabla (>=1.13.0)$pydub (>=0.24.1)
+x-to-nwb,0.2.2,9,twine (>=3.2.0)$pynwb (<2.0.0,>=1.3.2)$h5py (<3,>=2.10.0)$flake8 (>=3.8.4)$black (>=20.8b1)$versioneer (>=0.19)$pytest (>=6.1.2)$pytest-xdist (>=2.1.0)$pyabf (>=2.2.8)
+xopera-template-library,0.2.3,9,gitpython (==3.1.0)$PyYAML (==5.3)$psycopg2-binary (==2.8.4)$requests (==2.23.0)$requests-toolbelt (==0.9.1)$outdated (>=0.2.1)$scutils (==1.2.0)$terminaltables (==3.1.0)$lxml (==4.5.2)
+xsget,0.1.4,9,aiofiles$aiohttp$bs4$lxml$natsort$playwright$regex$tomlkit$user_agent
+xcoscmd,1.8.6.4,9,requests (>=2.8)$argparse (>=1.4.0)$six (>=1.11.0)$prettytable (>=0.7)$pytz (>=2017.2)$datetime (>=4.2)$tqdm (>=4.15.0)$pyyaml (>=3)$cos-python-sdk-v5 (>=1.6.3)
+xbxbot,0.9.6,9,crayons$PirxcyPinger$fortnitepy (==3.6.7)$BenBotAsync$FortniteAPIAsync$sanic (==21.6.2)$aiohttp$uvloop$requests
+xdbx,1.0.12,9,wheel$pymysql$pymssql$dbutils$pyxbox (>=0.0.3)$kafka-python$elasticsearch$pandas$xlsxwriter
+xdcc-dl,5.2.1,9,bs4$requests$cfscrape$typing$colorama$irc$puffotter$sentry-sdk$names
+xaitk-saliency,0.6.1,9,numpy (>=1.20.3,<2.0.0)$scikit-image (>=0.18.1,<0.19.0)$scikit-learn (>=0.24.2,<0.25.0)$smqtk-classifier (>=0.17.0)$smqtk-core (>=0.18.0)$smqtk-descriptors (>=0.16.0)$smqtk-detection (>=0.18.1)$scipy (>=1.6.3,<2.0.0)$click (>=8.0.3,<9.0.0)
+xltoy,0.1.9,9,openpyxl (>=3.0)$pyyaml (>=5.3)$dictdiffer$pyparsing (==2.4.7)$tox (>=3.20)$pytest$click$ujson (>=2.0.3)$networkx
+xdem,0.0.7,9,numpy$scipy$rasterio$geopandas$pyproj$tqdm$scikit-gstat$scikit-image$geoutils
+xdev,1.0.0,9,IPython (>=5.8.0)$numpy (>=1.1)$parse (>=1.12.1)$pyfiglet (>=0.7)$pyflakes$pygments (>=2.4.2)$scriptconfig (>=0.6.5)$ubelt (>=0.5.0)$xinspect (>=0.0.1)
+xbox-smartglass-core,1.3.0,9,xbox-webapi (==2.0.9)$construct (==2.10.56)$cryptography (==3.2.1)$dpkt (==1.9.4)$pydantic (==1.7.1)$aioconsole (==0.3.0)$fastapi (==0.61.1)$uvicorn (==0.12.2)$urwid (==2.1.2)
+xchainpy-bitcoincash,0.2.3,9,mnemonic (>=0.18)$bitcash (>=0.6.1)$cashaddress-regtest (>=1.1.0)$cashaddress (>=1.0.6)$http3 (>=0.6.7)$xchainpy-client (>=0.1.6)$xchainpy-crypto (>=0.1.11)$xchainpy-util (>=0.1.8)$bip-utils (==1.11.1)
+xarray-leaflet,0.1.16,9,jupyter-server (>=0.2.0)$rioxarray (>=0.0.30)$ipyleaflet (>=0.13.1)$pillow (>=7)$matplotlib (>=3)$affine (>=2)$mercantile (>=1)$ipyspin (>=0.1.1)$ipyurl (>=0.1.2)
+xanthus,0.1.0rc2,9,tensorflow (==2.3.0)$jupyter (==1.0.0)$pandas (==1.0.4)$numpy (==1.18.5)$h5py (==2.10.0)$scipy (==1.4.1)$scikit-learn (==0.23.1)$requests (==2.23.0)$implicit (==0.4.0)
+xtl-read-assistant,0.0.2,9,pyperclip (>=1.7.0,<2.0.0)$python-dotenv (>=0.12.0,<0.13.0)$logzero (>=1.5.0,<2.0.0)$environs (>=7.3.1,<8.0.0)$pynput (>=1.6.8,<2.0.0)$absl-py (>=0.9.0,<0.10.0)$polyglot (>=16.7.4,<17.0.0)$janus (>=0.4.0,<0.5.0)$deepl-tr-async (>=0.0.2,<0.0.3)
+xmip,0.6.1rc0,9,numpy$pandas$xarray (>=0.17.0)$xgcm (<0.7.0)$cftime$xarrayutils$pint$cf-xarray (>=0.6.0)$pint-xarray
+xml-boiler,0.9.15,9,coverage$deb-pkg-tools$defusedxml$dependency-injector$distro$executor$networkx$ordered-set$rdflib
+xrayhat,2.0.4,9,PyQt6 (>=6.3.1)$pyqtgraph (>=0.12.4)$scipy (>=1.5.4)$numba (>=0.51.2)$numpy (>=1.19.3)$h5py (>=3.1.0)$hdf5plugin (>=2.3.1)$fabio (>=0.10.2)$natsort (>=8.1.0)
+xadmin-x,0.7.4,9,setuptools$django (>=3.0.0)$django-crispy-forms (>=1.9.0)$django-import-export (==2.4.0)$django-reversion (>=2.0.0)$django-formtools (==2.2)$future (>=0.18.2)$httplib2 (>=0.9.2)$six (==1.10.0)
+xradar,0.0.8,9,dask$h5netcdf$h5py$lat-lon-parser$netCDF4$numpy$xarray$xarray-datatree$xmltodict
+xadmin-py3,2.0.4,9,setuptools$django (>=2.2)$django-crispy-forms (>=1.7.2)$django-reversion (>=3.0.0)$django-formtools (>=2.1)$django-import-export (>=1.2.0)$httplib2 (==0.12.3)$future$six
+xidi-ai,0.0.2,9,opencv-python (==3.3.1.11)$tensorflow-gpu (==1.9.0)$pandas (==0.23.4)$numpy (==1.14.0)$imgaug (==0.2.6)$Keras (==2.2.4)$tqdm (==4.28.1)$h5py (>=2.8.0rc1)$six (==1.11.0)
+xpublish,0.2.0,9,cachey$dask$fastapi (>=0.59)$numcodecs$numpy (>=1.17)$toolz$uvicorn$xarray (>=0.16)$zarr
+xyolo,0.1.6,9,tensorflow (>=2.2)$numpy (<1.19.0,>=1.18.1)$pillow (>=7.0.0)$matplotlib (>=3.1.3)$loguru (>=0.5.1)$requests (>=2.22.0)$tqdm (>=4.42.1)$lxml (>=4.5.0)$opencv-python (>=4.2.0)
+xpersist,2021.12.17,9,xarray$zarr$netcdf4$pydantic$catalogue$fsspec$joblib$prefect (<2.0,>=0.15.9)$xcollection
+xhtml2pdf,0.2.8,9,html5lib (>=1.0.1)$PyPDF3 (>=1.0.5)$Pillow (>=8.1.1)$reportlab (>=3.5.53)$svglib (>=1.2.1)$python-bidi (>=0.4.2)$arabic-reshaper (>=2.1.0)$pyHanko (>=0.12.1)$pyhanko-certvalidator (>=0.19.5)
+xtrude,0.1.2,9,jupyter-server-proxy (>=1.5)$ipyspin (>=0.1.2)$rioxarray (>=0.1)$aiohttp (>=3)$aiohttp-cors (>=0.7)$pydeck (>=0.5)$mercantile (>=1)$affine (>=2)$pillow (>=7)
+xword-dl,2022.8.12,8,beautifulsoup4 (==4.9.3)$bs4 (==0.0.1)$dateparser (==1.0.0)$html2text (==2020.1.16)$puzpy (==0.2.5)$requests (==2.26)$Unidecode (==1.2.0)$pyyaml (==5.4.1)
+xpypact,0.1.7,8,h5netcdf (>=0.13.1)$mckit-nuclides (>=0.1.1)$multipledispatch (>=0.6.0)$numpy (>=1.23.2)$openpyxl (>=3.0.9)$orjson (>=3.6.7)$pandas (>=1.3.4)$xarray (>=2022.3.0)
+xampy,0.1.4.2,8,nltk$pandas$vaderSentiment$numpy$sklearn$textblob$datetime$matplotlib
+xtal2png,0.9.4,8,numpy$pillow$pymatgen$plotly$kaleido$element-coder$click$importlib-metadata ; python_version < "3.8"
+xt-training,2.4.3,8,numpy$pandas$torch$scikit-learn (>=0.22)$plotly$pynvml$nni$gitpython
+xcat,1.1.0,8,aiodns$aiohttp (>=3.0.0,<4.0.0)$appdirs$cchardet$click$colorama$prompt-toolkit (<4)$xpath-expressions (>=1.0.0,<2.0.0)
+xlsx-evaluate,0.4.7,8,jsonpickle (>=2.2.0,<3.0.0)$mock (>=4.0.3,<5.0.0)$numpy (>=1.22.4,<2.0.0)$numpy-financial (>=1.0.0,<2.0.0)$openpyxl (>=3.0.10,<4.0.0)$pandas (>=1.4.2,<2.0.0)$scipy (>=1.8.1,<2.0.0)$yearfrac (>=0.4.7,<0.5.0)
+xglider,0.0.2,8,Click (>=6.0)$matplotlib (>=2.0.2)$netCDF4 (>=1.4)$numpy (>=1.11.1)$pandas (>=0.20.3)$pyproj (>=2.2)$Shapely (>=1.6)$xarray (>=0.11)
+xvideos-dl,1.3.0,8,importlib_metadata (>=1.6,<4.0); python_version < "3.8"$typer[all] (>=0.3.2,<0.4.0)$rich (>=10.0.0,<11.0.0)$beautifulsoup4 (>=4.9.0,<5.0.0)$cursor (>=1.3.4,<2.0.0)$integv (>=1.3.0,<2.0.0)$requests (>=2.25.0,<3.0.0)$ffmpeg-python (>=0.2.0,<0.3.0)
+xpcs-viewer,0.257,8,numpy (>=1.18.1)$pyqt5 (>=5.9.2)$scipy (>=1.2.0)$scikit-learn (>=0.22.1)$pyqtgraph (>=0.11.0)$h5py (>=2.7.0)$matplotlib (>=3.2.2)$tqdm (>=4.60)
+xrpl-sidechain-cli,1.0.0b2,8,click (>=8.1.3,<9.0.0)$tabulate (>=0.8.9,<0.9.0)$xrpl-py (>=1.7.0b0,<2.0.0)$httpx (>=0.18.1,<0.19.0)$websockets (>=10.3,<11.0)$Jinja2 (>=3.1.2,<4.0.0)$psutil (>=5.9.2,<6.0.0)$docker (>=6.0.0,<7.0.0)
+xabier-burgos-ae-pec2-xburgos,0.0.2,8,numpy (==1.23.0)$pandas (<1.4.0,>=1.3.5)$pydantic (<1.9.0,>=1.8.1)$scikit-learn (<1.1.0,>=1.0.2)$strictyaml (<1.4.0,>=1.3.2)$ruamel.yaml (==0.16.12)$feature-engine (<1.1.0,>=1.0.2)$joblib (<1.1.0,>=1.0.1)
+xled,0.7.0,8,click-log$cryptography$requests-toolbelt$requests$tornado (>=5.0.0)$pyzmq (>=17)$Click (>=6.0)$netaddr
+xrpl-py,1.7.0,8,base58 (>=2.1.0,<3.0.0)$ECPy (>=1.2.5,<2.0.0)$typing-extensions (>=4.2.0,<5.0.0)$httpx (>=0.18.1,<0.19.0)$websockets (>=9.0.1,<11.0); python_version >= "3.7" and python_version < "3.10"$websockets (>=10.0,<11.0); python_version >= "3.10" and python_version < "4.0"$Deprecated (>=1.2.13,<2.0.0)$types-Deprecated (>=1.2.9,<2.0.0)
+x16cli,0.1.1,8,click$GitPython$setuptools$dotmap$wheel$twine$toml$gitchangelog
+xrmocap,0.6.0,8,filterpy$numpy$opencv-python-headless$pre-commit$prettytable$scipy$smplx$tqdm
+xrdfit,1.2.0,8,numpy$matplotlib$pandas$dill$tqdm$lmfit$notebook$ipywidgets
+x-filter,1.0.4,8,pandas (>=1.3.4)$scipy (>=1.7.3)$tqdm (>=4.62.3)$numpy (>=1.21.4)$pyrle (>=0.0.33)$pyranges (>=0.0.112)$datatable (>=1.0.0)$psutil
+xfds,0.3.0,8,Markdown (>=3.3.6,<4.0.0)$typer (>=0.4.0,<0.5.0)$Jinja2 (>=3.1.1,<4.0.0)$PyYAML (>=6.0,<7.0)$toml (>=0.10.2,<0.11.0)$Pint (>=0.19.2,<0.20.0)$numpy (>=1.23.1,<2.0.0)$pandas (>=1.4.3,<2.0.0)
+xtoy,0.5.63,8,numpy$scipy$pandas$scikit-learn (<0.20,>=0.18.1)$xgboost (==0.72.1)$lightgbm (==2.2.2)$deap$bitstring
+x2webrtc,0.2.0,8,Pillow (<7.1.0,>=7.0.0)$PyYAML (<6.0.0,>=5.0.0)$aiortc (<0.10.0,>=0.9.0)$av (<8.0.0,>=7.0.0)$dacite (<1.3.0,>=1.2.0)$numpy (<1.19.0,>=1.18.0)$python-xlib (<1.0,>=0.26)$dataclasses ; python_version < "3.7"
+xblock,1.6.1,8,fs$lxml$markupsafe$python-dateutil$pytz$pyyaml$webob$web-fragments
+xj-payment,1.0.25,8,python-alipay-sdk (>=3.1.0)$wechatpy (>=1.8.18)$pyOpenSSL (>=22.0.0)$rsa (>=4.9)$crypto (>=1.4.1)$wechatpayv3$celery$xmltodict
+xptools,0.38.post1,8,opencv-python$numpy$pandas$scikit-image$joblib$matplotlib$av$tqdm
+xepmts-server,0.1.12,8,xepmts-endpoints (>=0.1.4,<0.2.0)$toml (>=0.10.2,<0.11.0)$eve-jwt (>=0.1.10,<0.2.0)$flask_swagger_ui (>=3.36.0,<4.0.0)$prometheus_flask_exporter (>=0.18.1,<0.19.0)$Eve-Swagger (>=0.1.3,<0.2.0)$Eve (>=1.1.5,<2.0.0)$eve-healthcheck (>=0.3.1,<0.4.0)
+xnotify,0.25,8,make-colors (>=3.12)$configset$argparse$configparser$sendgrowl$pydebugger$pushbullet-py$playsound
+xyzpy,1.2.1,8,numpy (>=1.10.0)$dask (>=0.11.1)$xarray (>=0.9.0)$pandas (>=0.20)$h5py (>=2.6.0)$h5netcdf (>=0.2.2)$joblib (>=0.12)$tqdm (>=4.7.6)
+xadmin-croxlink2,0.7.0.3,8,setuptools$django (<3,>=2)$django-crispy-forms (>=1.6.0)$django-reversion (>=2.0.0)$django-formtools (>=1.0)$httplib2 (>=0.9.2)$future$six
+xio,0.0.6,7,requests$pyyaml$pynacl$ws4py$ethereum ; python_version < "3.0"$eth-typing (<2) ; python_version > "3.0"$web3 (>4.8) ; python_version > "3.0"
+x-magical,0.0.4,7,absl-py$gym$numpy$pygame$pyglet$pymunk (~=5.6.0)$Pillow
+x-mroy-1051,0.2.2,7,mroylib-min$brotli$pandas$tabulate$FLowWork$requestium$termcolor
+xbmini-py,0.2.0,7,dash (>=2.6,<3.0)$dash-bootstrap-components (>=1.2,<2.0)$kaleido (>=0.2,<0.3,!=0.2.1.post1)$pandas (>=1.5,<2.0)$plotly (>=5.10,<6.0)$sco1-misc (>=0.1,<0.2)$typer[rich] (>=0.6,<0.7)
+xbnet,1.4.6,7,sklearn (==0.0)$numpy (==1.21.2)$pandas (==1.3.3)$matplotlib (==3.4.3)$torch (==1.9.0)$xgboost (==1.4.2)$tqdm (==4.62.2)
+xontrib-ergopack,0.1.4,7,xontrib-argcomplete$xontrib-back2dir$xontrib-output-search$xontrib-pipeliner$xontrib-sh$xonsh-autoxsh$xontrib-history-encrypt
+xena-gdc-etl,0.2.0,7,jinja2 (>=2.10.1)$lxml (>=4.2.0)$numpy (>=1.15.0)$pandas (>=0.23.2)$requests (>=2.20.0)$xlrd (>=1.1.0)$mock (>=2.0.0)
+xtool,0.0.1,7,numpy$psutil$future$jinja2$pendulum$croniter$tabulate
+xai-library,0.0.4,7,LORE-Ext (>=0.2)$scikit-image$matplotlib$altair$lime$shap$importlib-metadata ; python_version < "3.8"
+xpsfshg,0.0.4,7,plotly$nltk$numpy$emoji$wordcloud$matplotlib$pandas
+xpore,2.1,7,numpy (>=1.18.0)$pandas (>=0.25.3)$scipy (>=1.4.1)$PyYAML$h5py (>=2.10.0)$pyensembl (>=1.8.5)$ujson (>=4.0.1)
+xplique,0.4.2,7,tensorflow (>=2.1.0)$numpy$scikit-learn$scikit-image$matplotlib$scipy$opencv-python
+xdrone,0.2.9,7,click$antlr4-python3-runtime$netifaces$netaddr$scipy$matplotlib$tabulate
+xai-metrics,0.0.2,7,lime (>=0.1)$matplotlib (>=3.1)$numpy (>=1.18)$pandas (>=1.0)$seaborn (>=0.10)$shap (>=0.34)$scikit-learn (>=0.22)
+xkcd-bot,0.2.1,7,typing$requests$bokkichat$kudubot$sqlalchemy$bs4$sentry-sdk
+xmi2conll,0.1.6,7,click (==8.1.3)$pyfiglet (==0.8.post1)$dkpro-cassis (==0.7.2)$tqdm (==4.64.1)$termcolor (==2.0.1)$pandas (==1.5.0)$numpy (==1.23.3)
+xbox-smartglass-core-asyncio,0.8.10,7,xbox-webapi (>=1.1.8)$construct (==2.10.56)$cryptography (==2.8)$dpkt$quart$aioconsole$marshmallow-objects
+xplai,0.1.9,7,requests (~=2.24.0)$pydantic$aiohttp$torch$torchvision$torchaudio$Pillow
+xiaomi-ble,0.11.0,7,bleak (>=0.17.0)$bleak-retry-connector (>=1.15.0)$bluetooth-data-tools (>=0.1.2)$bluetooth-sensor-state-data (>=1.5.0)$home-assistant-bluetooth (>=1.3.0)$pycryptodomex (>=3.15.0)$sensor-state-data (>=2.1.2)
+xnat,0.4.3,7,sphinx-rtd-theme (>=0.1.9)$progressbar2 (>=3.11.0)$isodate (>=0.5.4)$requests (>=2.10.0)$six (>=1.13.0)$click (>=7.0.0)$pydicom (>=2.3.0)
+xleapp,0.2.1,7,Jinja2 (>=3.0.2,<4.0.0)$PySimpleGUI (>=4.53.0,<5.0.0)$PyYAML (>=6.0,<7.0)$prettytable (>=2.2.1,<3.0.0)$python-magic-bin (>=0.4.14,<0.5.0)$simplekml (>=1.3.6,<2.0.0)$wrapt (>=1.13.2,<2.0.0)
+xrpl-dex-sdk,1.0.0,7,requests (>=2.28.1,<3.0.0)$websockets (>=10.3,<11.0)$xrpl-py (>=1.6.0,<2.0.0)$base58 (>=2.1.1,<3.0.0)$pytest-asyncio (>=0.19.0,<0.20.0)$pytest (>=7.1.3,<8.0.0)$python-dateutil (>=2.8.2,<3.0.0)
+xypy,0.0.7,7,scipy$numpy$pandas$seaborn$matplotlib$statsmodels$sklearn
+xiaobaisaf,1.6,7,allure-pytest$ddddocr$loguru$httpx$jira$webdriver-manager$xiaobaiauto2
+xgee,0.2.4,7,tornado$pyyaml$eoq1$eoq2$pyecore$watchdog$tabulate
+xtransfer,0.0.1,7,click (==6.7)$botocore (==1.10.9)$boto3 (==1.7.9)$pysftp (==0.2.9)$gnupg (==2.3.1)$logging-gelf (==0.0.9)$PyYAML (==3.12)
+xrrloader,1.1.0,7,setuptools$numpy$pandas$scipy$matplotlib$fabio$h5py
+xd,0.1.8,7,colorama$click$requests$six (>=1.11.0)$pyyaml$pytoml$configparser
+xwmt,0.0.2,7,gsw$numba$numpy$pandas$xarray$xgcm$xhistogram
+x-goals,0.0.2,7,IPython$dash$dash-html-components$dash-core-components$matplotlib$scipy$seaborn
+xrtpy,0.1.0,7,astropy (>=4.3.1)$cached-property (>=1.5.2)$matplotlib (>=3.3.0)$numpy (>=1.20.0)$packaging$scipy (>=1.5.0)$sunpy (>=2.0.0)
+xscrapers,0.0.7,7,requests (>=2.25.1,<3.0.0)$selenium (>=3.141.0,<4.0.0)$fake-useragent (>=0.1.11,<0.2.0)$html5lib (>=1.1,<2.0)$numpy (>=1.20.2,<2.0.0)$pandas (>=1.2.3,<2.0.0)$beautifulsoup4 (>=4.9.3,<5.0.0)
+xlsxcsvconverterrr,1.0.2,7,et-xmlfile (>=1.1.0)$numpy (>=1.21.0)$openpyxl (>=3.0.7)$pandas (>=1.2.5)$python-dateutil (>=2.8.1)$pytz (>=2021.1)$six (>=1.16.0)
+xlref,1.2.1,7,click$click-log$schedula (>=1.1.1)$numpy$pandas$openpyxl$simplejson
+xweights,0.2.2,7,dask (>=2021.9.1)$geopandas (>=0.10.0)$intake-esm (>=2021.8.17)$xarray (>=0.19.0)$py-cordex (>=0.3.1)$cartopy (<=0.20.2)$pyhomogenize (>=0.2.2)
+xas-pipeline,0.post0.dev11,7,numpy$matplotlib$scipy$pandas$sklearn$Ipython$h5py
+xotl-plato,1.0.0,7,xotl.tools (>=2.2.1)$xotless (<4.0,>=3.8.0)$tzdata$hypothesis (<7.0,>=6.30)$immutables (>=0.17)$backports.zoneinfo ; python_version < "3.9"$typing-extensions ; python_version < "3.9"
+x7-geom,0.7.3,7,bezier$numpy$matplotlib$pygifsicle$scipy$x7-lib$x7-testing
+xeofs,0.7.0,6,numpy (>=1.19.2,<2.0.0)$pandas (>=1.4.1,<2.0.0)$pooch (>=1.6.0,<2.0.0)$scikit-learn (>=1.0.2,<2.0.0)$tqdm (>=4.64.0,<5.0.0)$xarray (>=0.21.1,<0.22.0)
+xbrief,0.0.6,6,aryth (>=0.0.5)$intype (>=0.0.2)$ject (>=0.0.1)$palett (>=0.0.4)$veho (>=0.0.4)$texting (>=0.0.3)
+xharvest,0.8.0,6,pycairo (==1.19.1)$PyGObject (==3.34.0)$jeepney (==0.4.3)$keyring (==21.2.0)$keyring-jeepney (==0.2)$harvest-api (==0.3.0)
+xialib-gcp,0.1.20,6,xialib$google-auth$gcsfs$google-cloud-pubsub$google-cloud-firestore$google-cloud-bigquery
+xchainpy-bitcoin,0.2.3,6,bitcoinlib (>=0.5.2)$http3 (>=0.6.7)$xchainpy-client (>=0.1.6)$xchainpy-crypto (>=0.1.11)$xchainpy-util (>=0.1.8)$bip-utils (==1.11.1)
+xcdb,0.4.2b0,6,django$psycopg2-binary$django-extensions$django-mysql$mysql-connector-python$pygraphviz
+xgbse,0.2.3,6,xgboost (>=1.4.0)$numpy (>=1.18.4)$scikit-learn (>=0.22.2)$pandas (>=1.0.*)$joblib (>=0.15.1)$lifelines (>=0.25.4)
+xgboost-ray,0.1.12,6,ray (>=1.10)$numpy (>=1.16)$pandas$wrapt (>=1.12.1)$xgboost (>=0.90)$packaging
+xchainpy-litecoin,0.2.1,6,bitcoinlib (>=0.5.2)$http3 (>=0.6.7)$xchainpy-client (>=0.1.6)$xchainpy-crypto (>=0.1.7)$xchainpy-util (>=0.1.8)$bip-utils (>=1.11.1)
+xbbg,0.7.7,6,numpy (>=1.15.0)$pandas (>=1.0.0)$pyarrow (>=1.0.1)$pytz (>=2020.4)$ruamel.yaml (>=0.15.0)$pytest
+xiaobaiauto,2.4.1,6,selenium$pyquery$requests$pyyaml$Appium-Python-Client$gevent
+xfntr-win,0.3.1,6,pyqt5$scipy$matplotlib$lmfit$periodictable$numba
+xfntr,0.3.1,6,pyqt5$scipy$matplotlib$lmfit$periodictable$numba
+xplane-apt-convert,0.5.3,6,bezier$fiona$numpy$rich$typer$xplane-airports
+xfeat,0.1.1,6,PyYAML$ml-metrics$optuna (>=1.3.0)$lightgbm$scikit-learn$pyarrow
+xswem,1.0.0,6,tensorflow (>=2.0.0)$pandas$numpy (>=1.16.5)$seaborn$matplotlib$tqdm
+xanadu-cloud-client,0.2.1,6,appdirs$fire$numpy$pydantic[dotenv]$python-dateutil$requests
+xarrayuvecs,0.1.4,6,xarray$numpy$matplotlib$scikit-learn$scipy$plotly
+xpring,0.6.3,6,grpcio (>=1.24,<2.0)$pynacl (>=1.3,<2.0)$typing_extensions (>=3.7,<4.0)$dataclasses (>=0.6.0,<0.7.0)$ecdsa (>=0.15.0,<0.16.0)$protobuf (>=3.0,<4.0)
+xmlv,0.0.2,6,scikit-learn$networkx$pandas$numpy$dill$rolewalk
+xinstall,0.52.2,6,distro (>=1.5.0)$tqdm (>=4.48.2)$findspark (>=1.4.2)$requests (>=2.25.0)$packaging (>=20.4)$tomlkit (>=0.7.0)
+xintesis,0.1,6,werkzeug (>=0.15.4)$flask-restplus (>=0.11.0)$flask-cors (>=3.0.7)$flask-jwt-extended (>=3.10.0)$jinja2 (>=2.10.1)$click (>=7.0)
+xarray-sentinel,0.9.4,6,fsspec$numpy$pandas$rioxarray$xarray (>=0.18.0)$xmlschema
+xquant,0.5.2,6,matplotlib$numpy$pandas$requests$scikit-learn$scipy
+xquant-python,3.0.295,6,wheel$click$lark-parser (>=0.7.1addict>=1.0.0)$numpy (>=1.14.0)$pandas (>=0.21.0)$statsmodels
+xvdl,0.1.1,6,beautifulsoup4>=4.11$ffmpeg-python==0.2.0$PyYAML==6.0$requests>=2.28$tqdm>=4.64$typer[all]>=0.6
+xqute,0.1.0,6,simplug (>=0.1,<0.2)$diot (>=0.1,<0.2)$aiofiles (>=0,<1)$psutil (>=5,<6)$rich (>=12,<13)$uvloop (>=0,<1)
+xmind2zantao,1.0.6,6,xmindparser$requests (<2.28)$MarkupSafe (==1.1.1)$flask (==1.1.4)$arrow (==0.17.0)$gunicorn (==19.10.0)
+xshape,0.1.1,6,Click (>=6.0)$pyshp$xarray$numpy$pandas$matplotlib
+xemc3,0.2.2,6,xarray (>=0.16.0)$matplotlib (!=3.3.0,!=3.3.1,!=3.3.2,>=3.1.1)$netcdf4 (>=1.4.0)$numpy (>=1.13.0)$eudist$importlib-metadata ; python_version < "3.8"
+xelpaste,3.2.1,6,Django (<3.0,>=2.0)$django-mptt (>=0.9.1)$pygments (>=2.2.0)$django-appconf (>=1.0.1)$django-sendfile2$getconf (<2,>=1.3.0)
+x-ae-a-12,0.2.1,6,click (>=7.1.2,<8.0.0)$requests (>=2.23.0,<3.0.0)$desert (>=2020.1.6,<2021.0.0)$marshmallow (>=3.6.0,<4.0.0)$pytest-mock (>=3.1.0,<4.0.0)$importlib_metadata (>=1.6.0,<2.0.0); python_version < "3.8"
+xrayspectrumanalyzer,0.2,6,numpy$scipy$matplotlib$Pillow$six$lmfit
+xeberus-restful-api-server-library,1.5.6,6,perseus-core-library$perseus-restful-api-framework$pipfile$setuptools$wheel$xeberus-core-library
+xrayspectrummodeling,0.2.0,6,numpy$h5py$matplotlib$scipy$pymcxray$pySpectrumFileFormat
+xserverpy,0.2.2,6,requests$python-dateutil$termcolor$tabulate$pytz$tzlocal
+xarray-beam,0.4.1,6,apache-beam (>=2.31.0)$dask$immutabledict$rechunker$zarr$xarray
+xverse,1.0.5,6,numpy (>=1.11.3)$scikit-learn (>=0.19.0)$scipy (>=0.19.0)$statsmodels (>=0.6.1)$pandas (>=0.21.1)$matplotlib (>=3.0.3)
+xsec,1.0.2,6,setuptools (>=20.7.0)$numpy (>=1.14)$scipy (>=1.0.0)$joblib (>=0.13.2)$dill (>=0.3.2)$pyslha (>=3.2.3)
+xeasy-ml,0.1.3,6,scikit-learn (==0.24.1)$pandas (==0.24.2)$matplotlib (==3.3.4)$pydotplus (==2.0.2)$xgboost (==1.4.2)$numpy (==1.19.5)
+xyalign,1.1.5,6,matplotlib$numpy$pandas$pybedtools$pysam$scipy
+xarray-ms,0.1.9,6,dask[array] (>=1.1.0)$six (>=1.10.0)$xarray (>=0.10.0)$numpy (>=1.14.0)$python-casacore (>=2.2.1)$futures (>=3.2.0) ; python_version < "3.0"
+xlmmacrodeobfuscator,0.2.7,6,pyxlsb2$lark-parser$xlrd2$untangle (==1.2.1)$msoffcrypto-tool$roman
+xray-vision,0.1.1,6,matplotlib$numpy$pandas$pyqt5$scipy$six
+x-scaffold,2.0.12,6,click (>=7.0.0,<8.0.0)$Jinja2 (==3.0.3)$PyGithub (>=1.55,<2.0)$GitPython (>=3.1.24,<4.0.0)$ruamel.yaml (>=0.17.20,<0.18.0)$requests (>=2.27.1,<3.0.0)
+xarray-image-processing,0.1,6,xarray$numpy$matplotlib$scikit-image$scipy$tqdm
+xanity,0.3b3,6,dill$pandas$pyparsing$cloudpickle$ipdb$numpy
+xtlearn,0.0.25,6,numpy$scipy$pandas$setuptools$tqdm$scikit-learn
+xdnn-classifier,0.1.21,6,pandas$numpy$tensorflow$Keras$scipy$scikit-learn
+xyzrequest,2022.1,6,requests$requests-toolbelt$urllib3$removebg$ISS-info$pillow
+xmcdpy,1.2.2,6,numpy (>=1.20.2)$matplotlib (>=3.4.1)$scikit-image (>=0.18.1)$scipy (>=1.6.2)$opencv-python (>=4.4.0.44)$PyQt5 (>=5.15.4)
+xyzspaces,0.7.2,6,backoff (>=1.10.0)$geojson$requests$ijson (>=3.1.1)$pyhocon$requests-oauthlib
+xd-cwl-utils,0.2.1,6,setuptools$requests$ruamel.yaml (<=0.16,>=0.15)$semantic-version$pandoc-include$cwltool
+xarray-cube,0.3.1,6,astropy (>=4.3,<5.0)$numpy (>=1.21,<2.0)$spectral-cube (>=0.6,<0.7)$typing-extensions (>=3.10,<4.0)$xarray (>=0.18,<0.30)$xarray-dataclasses (>=1.0,<2.0)
+xweb,3.0.1,6,asyncio$ujson$uvloop$httptools$gunicorn$jsonschema
+xarray-dataclasses,1.3.1,6,morecopy (>=0.2,<0.3)$numpy (>=1.15,<1.22); python_full_version >= "3.7.1" and python_version < "3.8"$numpy (>=1.15,<2.0); python_version >= "3.8" and python_version < "3.11"$typing-extensions (>=3.10,<5.0)$xarray (>=0.18,<0.21); python_full_version >= "3.7.1" and python_version < "3.8"$xarray (>=0.18,<2023); python_version >= "3.8" and python_version < "3.11"
+xnat-dashboards,0.3.0,5,flask$flask-wtf$pandas$pyxnat$tqdm
+xt-nlp,0.2.7,5,transformers$numpy$torch$scikit-learn$xt-training
+xpartition,0.2.0,5,xarray (>=0.16.2)$dask[array] (>=2.9.0)$setuptools (>=38.4)$zarr$dataclasses ; python_version == "3.6"
+xdcs-agent,0.1.0.dev20191125215215,5,distro$lazy$packaging$py-cpuinfo$pyopencl
+xoverturning,0.0.1,5,numpy$cmip-basins$scipy$setuptools (>=41.2)$xarray
+xlson,0.1.0,5,jsondler (>=0.0.4)$PyYAML (>=3.13)$openpyxl (<=2.5.14,>=2.5.5)$xlrd (>=1.2.0)$pillow (>=5.3.0)
+xotes,0.1.0,5,dateutil$git$pyyaml$urwid$xapian
+xrmreader,2.9,5,numpy$scipy$olefile$scikit-image$tqdm
+xbox-webapi,2.0.11,5,aiohttp$appdirs$ms-cv$pydantic$ecdsa
+xgrow,20220725,5,pyyaml$typing-extensions$numpy$pandas$matplotlib
+xpathwebscrapper,0.2.dev16,5,lxml$pandas$requests$pyYAML$certifi
+xomega,0.1.0,5,xarray$dask$numpy$future$docrep
+xlassify,1.0.0,5,numpy (>=1.18)$pandas (>=1.1)$torch (>=1.7)$tqdm$requests
+xlstpl,0.2.1,5,xlrd$xlwt$openpyxl$jinja2$six
+xtce-generator,1.1.2,5,six (==1.15.0)$PyYAML (~=5.3.1)$setuptools (~=50.3.2)$lxml (>=4.6)$bitarray
+xrft,1.0.0,5,xarray$dask$numpy$pandas$scipy
+xrennerjsonnlp,0.0.5,5,xrenner (>=2.0.2.0)$pyjsonnlp (>=0.2.11)$beautifulsoup4 (>=4.6.3)$nltk (>=3.4)$python-dotenv (>=0.10.1)
+x-diff-cover,1.0.0,5,Pygments (>=2.9.0,<3.0.0)$Jinja2 (>=2.7.1)$pluggy (>=0.13.1,<2)$chardet (>=3.0.0)$setuptools (>=17.0.0); python_version < "3.8"
+xia-meta-secret,0.1.2,5,cryptography$bcrypt$passlib$xia-engine-firestore$xia-meta
+xftpd,0.1.0,5,netifaces$sftpserver$pyftpdlib$paramiko$cryptography
+xoa-core,1.0.5,5,xoa-driver$pydantic$semver$oyaml$loguru
+xtcocotools,1.12,5,setuptools (>=18.0)$cython (>=0.27.3)$matplotlib (>=2.1.0)$numpy (>=1.19.5) ; python_version == "3.6"$numpy (>=1.20.0) ; python_version >= "3.7"
+xfntrwin,0.2.2,5,pyqt5$scipy$matplotlib$lmfit$periodictable
+xwordlist,22.2.2,5,anyascii (>=0.3.1,<0.4.0)$beautifulsoup4 (>=4.11.1,<5.0.0)$configargparse (>=1.5.3,<2.0.0)$prompt-toolkit (>=3.0.20,<4.0.0)$requests (>=2.28.1,<3.0.0)
+xlsxpandasformatter,0.0.2,5,pandas$XlsxWriter$matplotlib$numpy$seaborn
+xanalyzer,0.2.3,5,signify (==0.4.0)$pefile (==2021.9.3)$requests (==2.28.1)$python-magic (==0.4.27) ; platform_system == "Linux"$python-magic-bin (==0.4.14) ; platform_system == "Windows"
+xflsvg,0.1.4,5,bs4$html5lib$lxml$pandas$fastparquet
+xfer,0.2.9,5,paramiko (>=2.0.0)$cryptography (>=1.1)$gems (>=0.2.0)$PyYAML (>=3.12)$pyasn1 (>=0.1.7)
+xchk-core,0.2.8,5,iteration-utilities (>=0.10.1,<0.11.0)$cryptography (>=3.0.0,<4.0.0)$pinax-notifications (>=6.0.0,<7.0.0)$django-enumfield (>=2.0.1,<3.0.0)$django (>=2.2,<3.0)
+xfaster,1.1.0,5,numpy (>1.17.5)$healpy$camb$emcee$h5py
+xicor,1.0.1,5,scipy (>=1.4.1)$pytest$pytest-cov$numpy$black
+xrtc,0.1.2,5,python-dotenv (>=0.21.0)$pydantic (>=1.10.2)$requests (>=2.28.1)$aiohttp (>=3.8.3)$certifi (>=2022.9.24)
+xplotutil,1.1.6,5,future$lmfit$matplotlib$numpy$spec2nexus
+xeus-robot,0.4.4,5,Pillow (==8.3.1)$robotframework-interpreter (<0.8,>=0.7.5)$robotframework-lsp$jupyterlab-robotmode$xeus-python (==0.13.5)
+xnat4tests,0.2.5,5,docker (>=5.0.2)$xnat (>=0.3.17)$click (>=8.1.3)$requests (>=2.10.0)$PyYAML (>=6.0)
+xkcd-cli-viewer,0.1.2,5,requests (>=2.27.1,<3.0.0)$beautifulsoup4 (>=4.10.0,<5.0.0)$Pillow (>=9.0.0,<10.0.0)$rich (>=11.0.0,<12.0.0)$thefuzz[speedup] (>=0.19.0,<0.20.0)
+xeuclid,1.0.5,5,numpy$scipy$sympy$pdf2image$Pillow
+xcsc-tushare,1.0.3,5,pandas (>=0.16.0)$requests (>=2.0.0)$lxml (>=3.8.0)$simplejson (>=3.16.0)$beautifulsoup4 (>=0.0.1)
+xpressinsight,1.3.0,5,pyarrow (>=3.0.0)$pandas (>=1.0.0)$numpy (>=1.17.0)$urllib3$certifi
+xtbclient,0.1.0,5,dataclasses-json (>=0.5.7,<0.6.0)$websockets (>=10.3,<11.0)$pytest-mock (>=3.7.0,<4.0.0)$pytest-asyncio (>=0.18.3,<0.19.0)$websocket-client (>=1.3.2,<2.0.0)
+xpresso,0.45.1,5,di (==0.73.0)$anyio (>=3.4.0,<5)$starlette (>=0.21.0,<1)$typing-extensions (>=3); python_version < "3.9"$pydantic (>=1.10.2,<2.0.0)
+xltpl,0.16,5,xlrd (>=1.2.0)$xlwt (>=1.3.0)$openpyxl (>=2.6.0)$jinja2$six
+xingyunlib,1.2.20210416,5,requests$pygame$zmail$pillow$numpy
+xepmts,0.5.9,5,click$eve-panel (>=0.3.27,<0.4.0)$xeauth (>=0.1.19,<0.2.0)$toml (>=0.10.2,<0.11.0)$xepmts-endpoints (>=0.1.4,<0.2.0)
+xamino,0.3.4,5,httpx$ujson$typing$colored$setuptools
+xeauth,0.1.22,5,click$Authlib (>=1.0.0,<2.0.0)$httpx (>=0.19,<0.23)$appdirs (>=1.4.4,<2.0.0)$param (>=1.12.0,<2.0.0)
+xpx-chain,0.6.6,5,aiohttp (<4,>=3.5)$bidict (>=0.18)$requests (>=2.21)$websockets (>=7.0)$ed25519sha3 (>=1.4.1)
+xensisbot,0.0.2,5,crayons$fortnitepy$BenBotAsync$sanic$aiohttp
+xlsx2sqlite,0.4.3,5,openpyxl (<3.1,>=3)$tablib (<=3.1.0,>=3.0.0)$Click (<8.1,>=7.1)$colorama$cached-property ; python_version < "3.8"
+xebus-core-library,1.4.1,5,perseus-core-library$pipfile$setuptools$wheel$mercurius-core-library
+x-clip,0.11.0,5,ftfy$einops (>=0.3)$regex$torch (>=1.6)$torchvision
+xarray-simlab,0.5.0,5,attrs (>=18.1.0)$dask$numpy$xarray (>=0.10.0)$zarr (>=2.3.0)
+x-api-base,0.3.0,5,orjson$loguru$PyYAML$pydantic$sqlalchemy (>=1.4)
+xrayphasemap,0.3.1,5,Pillow$numpy$scipy$h5py$matplotlib
+xquery,0.0.116,5,pandas$pyodbc$dataclasses$typing$google-cloud-bigquery
+xml2epub,2.6.2,5,beautifulsoup4$jinja2$requests$lxml$pillow
+xud-wizard,0.1.11,5,pexpect (==4.7.0)$web3 (==4.9.2)$python-bitcoinrpc (==1.0)$grpcio (==1.20.1)$googleapis-common-protos (==1.6.0)
+xenarix,0.1.26,5,numpy (>=1.14.5)$matplotlib (>=2.2.2)$pandas (>=0.23.3)$scipy (>=1.2.0)$statsmodels
+xbos-services-getter,0.0.2.dev47,4,pandas (==0.24.0)$pytz (>=2017.2)$grpcio (==1.16.1)$grpcio-tools (==1.16.1)
+xcsv-plot-map,0.1.0,4,xcsv-plot (>=0.1.0,<0.2.0)$matplotlib (>=3.5.2,<4.0.0)$Cartopy (>=0.20.2,<0.21.0)$scipy (>=1.8.1,<2.0.0)
+xlsx2json,0.0.5,4,Click$six$backports.tempfile$openpyxl
+xt-models,0.4.1,4,numpy$torch$torchvision$transformers
+xcomlan,0.0.1,4,scom (==0.7.3)$Cython$pyserial (>=3.5)$python-dotenv
+xlparser,0.5.11,4,click (>=8.1.3,<9.0.0)$openpyxl (>=3.0.10,<4.0.0)$python-dateutil (>=2.8.2,<3.0.0)$xlrd (>=2.0.1,<3.0.0)
+xmind2testcase-interchen,1.3.3,4,xmind$flask$arrow$openpyxl
+xenavalkyrie,3.0.1,4,future$requests$pypacker (==4.9)$pytrafficgen (<3.1.0,>=3.0.5)
+xycmap,1.0.1,4,pandas$numpy$scipy$matplotlib
+xy-cli,0.8,4,xlrd$Faker$gTTS$xmltodict
+xblock-utils,3.0.0,4,mako$Xblock$simplejson$web-fragments
+xtype,0.3.7,4,objdict$pymongo$bottle$mako
+xslide,0.1.2,4,grot (<0.2.0,>=0.1.1)$livereload (<2.7.0,>=2.6.0)$markdown (<3.1.0,>=3.0.1)$xplant (<0.4.0,>=0.3.2)
+xecta-data-api-client,2.0.20221104.2,4,nulltype$python-dateutil (>=2.5.3)$setuptools (==65.3.0)$urllib3 (>=1.25.3)
+xslproxy,1.2.0,4,Twisted[tls]$defusedxml$zope.interface$lxml
+xlsx2html,0.4.0,4,six$openpyxl (>=2.4.8)$babel (>=2.3.4)$packaging (>=20.4)
+xyz-py,5.1.0,4,numpy$scipy$ase$deprecation
+xj-flask-jwt-extension,0.0.2,4,Flask$PyJWT$simplekv$six
+xwire-rest,0.1.14,4,requests (>=2.25.1,<3.0.0)$xwire.common (>=0.1.1,<0.2.0)$xwire.transport (>=0.1.9,<0.2.0)$pytest-mock (>=3.5.1,<4.0.0)
+xmlsig,0.1.9,4,asn1crypto$cffi$cryptography$lxml (>=3.0.0)
+xcommand,0.2,4,click$PyMuPDF$img2pdf$pywin32
+xlsconv,1.3.0,4,pyxform$astunparse$black$pystache
+xebus-id-card-image-generator,1.2.3,4,qrcode (>=7.3.1,<8.0.0)$perseus-core-library (>=1.18.17,<2.0.0)$Pillow (>=9.2.0,<10.0.0)$Unidecode (>=1.3.6,<2.0.0)
+xsessionp,0.1.4,4,click$flatten-dict$python-xlib$pyyaml
+xstate,0.0.1,4,ipython (>=6)$nbformat (>=4)$nbconvert (>=5)$requests (>=2)
+xinspect,0.2.0,4,xdoctest$redbaron$ubelt$pyflakes
+xeberus-core-library,1.2.10,4,perseus-core-library$pipfile$setuptools$wheel
+xmltotabular,0.9.1,4,lxml$pyyaml$termcolor$multiprocess ; python_version < "3.7"
+xtec,0.1.1,4,numpy$scipy$scikit-learn$matplotlib
+xarray-multiscale,0.3.3,4,xarray (>=2022.03.0)$scipy (>=1.5.4,<2.0.0)$numpy (>=1.19.4,<2.0.0)$dask (>=2020.12.0)
+xtorch,1.0.0,4,torch (>=1.7)$easydict$tensorboard$tqdm
+xlsxgrep,0.0.28,4,pyexcel$pyexcel-xls$pyexcel-xlsx$pyexcel-odsr
+xmnlp,0.5.2,4,tokenizers$scikit-learn$numpy$onnxruntime (==1.9.0)
+xmoai,0.0.dev4,4,pymoo (>=0.3.0)$numpy (>=1.16.0)$gower (>=0.0.5)$topsis-jamesfallon (>=0.2.3)
+xmovie,0.3.1,4,numpy$xarray$dask$cartopy
+ximilar-client,1.21.8,4,requests (==2.21.0)$opencv-contrib-python-headless (==4.5.3.56)$pytest (>=3.0.3)$tqdm (==4.31.1)
+xstavka-parse-package,0.25,4,bs4$lxml$selenium$webdriver-manager
+xarrayutils,1.1.1,4,xarray (>=0.14.1)$dask$numpy$scipy
+xerxes-protocol,0.1.3,4,coverage$pyserial$pytest$rich
+xchrome,1.0.0,4,cryptography$pywin32$pillow$pycryptodome
+xmind2case,1.0.9,4,xmind (>=1.2.0,<2.0.0)$flask (>=1.1.2,<2.0.0)$arrow (>=0.15.8,<0.16.0)$requests (>=2.24.0,<3.0.0)
+xestore,0.1.1,4,click$panel (>=0.10.2,<0.11.0)$httpx (>=0.16.1,<0.17.0)$eve-jwt (>=0.1.3,<0.2.0)
+xlsx-lib-infomoto,0.8.4,4,openpyxl (>=3.0.7,<4.0.0)$openpyxl-image-loader (>=1.0.5,<2.0.0)$pydantic (>=1.8.2,<2.0.0)$python-camel-model-infomoto (>=1.0.0,<2.0.0)
+xlmhg,2.5.4,4,plotly (>=3)$pip (>=19)$cython (<1,>=0.25)$numpy (<2,>=1.15)
+xadix-cloudflare,0.1.0,4,requests (>=2.18.4)$tabulate (>=0.8.2)$dnspython (>=1.15.0)$cloudflare (>=2.1.0)
+xbow,0.6.3.1,4,boto3$paramiko$cryptography (>=2.5)$pyYAML
+xblobs,1.0.2,4,xarray (>=0.11.2)$scipy (>=1.2.0)$dask-image (>=0.2.0)$numpy (>=1.22.2)
+xrdimage,0.0.0.3,4,numpy$PIL$scikit-image$os
+xrdownloader,1.0.6,4,urllib3$certifi$pyfiglet$tqdm
+xicsrt,0.8.4,4,numpy$scipy$pillow$h5py
+xtrf-api,1.0.10,4,urllib3 (>=1.15)$six (>=1.10)$certifi$python-dateutil
+xicorpy,0.1.2,4,pandas (>=1.2,<2.0)$numpy (>=1.17,<2.0)$scipy (>=1.7,<2.0)$scikit-learn (>=1.0.2,<2.0.0)
+xface,0.1.0,4,opencv-python$scikit-image$torch (>=1.1.0)$torchvision (>=0.3.0)
+xanadu-sphinx-theme,0.3.3,4,sphinx$importlib-resources$pillow$sphinx-gallery
+xdow,1.7,4,js2py$requests$bs4$wheel
+xbitinfo,0.0.3,4,xarray$julia$tqdm$numcodecs (>=0.10.0)
+xarray-hdf,0.1.0,4,h5py$pandas$tables$xarray
+xctimage,0.0.0.1,4,markdown$opencv-python$scipy$scikit-image
+x3dh,1.0.3,4,XEdDSA (<2,>=1.0.0)$cryptography (>=3.3.2)$pydantic (>=1.7.4)$typing-extensions (>=4.3.0)
+xnatuploader,0.0.3,4,xnatutils$openpyxl (>="3.0.10")$pydicom (>="2.3.0")$tqdm
+xyz-demo,0.0.2,4,django (>=1.11.2)$xyz-restful (>=0.0.6)$xyz-util (>=0.0.7)$pymongo
+xbimer-cli,2.0.3,4,requests (==2.25.1)$semver (==2.13.0)$click (==7.1.2)$colorama (==0.4.4)
+xyz-dailylog,0.1.7,4,django (>=1.11.2)$xyz-restful (>=0.0.6)$xyz-util (>=0.0.7)$pymongo
+xlrp,0.5.4,4,numpy (>=1.22.3)$matplotlib (>=3.5.1)$openpyxl (>=3.0.9)$pywin32
+x7,0.2.0,4,x7-lib$x7-testing$x7-geom$x7-view
+xartiou-csa-client,0.0.1,4,PyQt5$sqlalchemy$pycryptodome$pycryptodomex
+xrd-viewer,1.0.0,4,PyQt5 (>=5.0,<6.0)$matplotlib (>=3.0,<4.0)$h5py (>=2.9,<3.0)$numpy (>=1.15,<2.0)
+xartiou-csa-server,0.0.1,4,PyQt5$sqlalchemy$pycryptodome$pycryptodomex
+xtag,0.0.1,4,importlib-metadata$python-version (>"3.6")$pytest$pytest-cov
+x2cdict,0.1.45,4,pymongo (>=3.10.1,<4.0.0)$googletrans (==4.0.0-rc1)$click (>=8.0.3,<9.0.0)$deepl (>=1.3.1,<2.0.0)
+xchange-mail,0.0.7,4,exchangelib (==3.3.0)$pretty-html-table (==0.9.dev0)$pandas$python-dotenv
+xntool,0.8.2,4,lxml (>=3.7.2)$openpyxl (>=2.4.2)$qiniu (>=7.1.1)$requests (>=2.6.0)
+xk-user,0.0.2,4,protobuf (==3.15.8)$grpcio (==1.37.0)$grpcio-tools (==1.37.0)$six (==1.15.0)
+xpl,0.8.6.2,4,matplotlib$numpy$cairocffi$lmfit
+xn-twist,1.4.0,4,dnspython$docopt (>=0.6)$tldextract$xn-twist-python-sdk
+xlsxtojsontranslate,0.1.3,4,unflatten (~=0.1)$deepmerge (~=0.1.0)$xlrd (~=1.2.0)$simplejson (~=3.17.0)
+xrely-lib-client,1.0.0,4,certifi (>=2017.4.17)$python-dateutil (>=2.1)$six (>=1.10)$urllib3 (>=1.23)
+xtract-sdk,0.0.6,4,xlrd$pandas$google-api-python-client$google-auth-oauthlib
+xoak,0.1.1,4,xarray$numpy$dask$scipy
+xobject-globaldata,3.1.3,4,GitPython$dill$psutil (==5.4.2)$traceback
+xl2sitemap,0.1.3,4,pandas (>=0.24.2)$tqdm (>=4.32.1)$numpy (>=1.16.3)$xlrd (>=1.2.0)
+xia-meta-auth,0.1.3,4,passlib$xia-engine-firestore$xia-meta$xia-cache
+xviz-avs,0.1.0a5,4,easydict$numpy$protobuf$websockets
+xocto,2.0,4,pytz$django (<5.0,>=3.2)$structlog (>=20.2.0)$python-dateutil (>=2.8.2)
+x-access-dumper,0.2.1,4,aiohttp (>=3.8.1,<4.0.0)$aiodns (>=3.0.0,<4.0.0)$cchardet (>=2.1.7,<3.0.0)$ds-store (>=1.3.0,<2.0.0)
+x-man,0.2.2,4,dataclasses$nuclear$requests$urllib3
+xrf-tomo,0.1.2,4,h5py$numpy$pandas$scipy
+xls2moodle,1.12,4,lxml$pandas$numpy$xlrd
+xumm-sdk-py,1.0.1,4,requests (==2.27.1)$websocket-client (==1.2.3)$six (==1.16.0)$python-dotenv (==0.19.2)
+xgcm,0.8.0,4,xarray (>=0.20.0)$dask$numpy$future
+xchainpy-binance,0.2.3,4,py-binance-chain (>=0.2)$xchainpy-client (>=0.1.6)$xchainpy-crypto (>=0.1.7)$xchainpy-util (>=0.1.8)
+xonia-py,0.1.0,4,aiohttp$aiodns$yarl$requests
+xappt-qt,0.9.10,4,Markdown (~=3.3.4)$pyperclip (~=1.8.2)$PyQt5 (~=5.15.4)$xappt (>=0.9.3)
+xtremcache,1.0.0,4,build$twine$PyYAML (==6.0)$SQLAlchemy (==1.4.35)
+xia-engine-bigquery,0.0.5,4,google-cloud-bigquery$google-cloud-bigquery-storage$xia-engine$xia-easy-proto
+xontrib-commands,0.4.1,4,xonsh (>=0.12.5)$arger (>=1.2.7); python_version >= "3.6" and python_version < "4.0"$rich; python_version >= "3.6" and python_version < "4.0"$python-dotenv (>=0.19.1)
+xgpy,0.0.2,4,pytest$requests$pandas$beautifulsoup4
+xgrads,0.2.0,4,numpy$xarray$dask$pyproj
+xwavelet,0.0.2,4,matplotlib$numpy$scipy$xarray
+x-deep,0.0.9,4,anchor-exp$shap$torch$torchvision
+xia-connector-ssh,0.1.0,4,paramiko$xia-engine$xia-engine-firestore$xia-meta-secret
+xbox-webapi-ex,1.1.9,4,requests$demjson$appdirs$urwid
+xlcompose,0.3.1,4,xlsxwriter (>=1.1.8)$pandas$pyyaml$jinja2
+xbrl-reports-indexes,0.942,4,sqlalchemy$arelle-release$pycountry$pytz
+xhdata,0.0.4,4,quantaxis$akshare$python-dotenv$jqdatasdk
+xarray-custom,0.6.2,4,numpy (>=1.18,<2.0)$xarray (>=0.15,<0.16)$toml (>=0.10,<0.11)$pyyaml (>=5.3,<6.0)
+xdutools,0.0.1a3,3,beautifulsoup4 (>=4.10.0,<5.0.0)$httpx (>=0.19.0,<0.20.0)$pycryptodome (>=3.10.1,<4.0.0)
+xpa,0.1.0,3,numpy (>=1.19.4,<2.0.0)$pandas (>=1.1.4,<2.0.0)$scipy (>=1.5.4,<2.0.0)
+xhorizon,1.0.0,3,numpy (>=1.22.3)$scipy (>=1.8.0)$matplotlib (<4.0,>=3.5.1)
+xhpc,2.8,3,click$pandas$PyYAML
+xhistogram,0.3.2,3,xarray (>=0.12.0)$dask[array] (>=2.3.0)$numpy (>=1.17)
+xhb2beancount,0.1.3,3,beancount$untangle$text-unidecode
+xournal-converters,0.0.9,3,click$reportlab$PyPDF2
+xautodl,1.0.0,3,numpy (<=1.19.5,>=1.16.5)$pyyaml (>=5.0.0)$fvcore
+xotl-crdt,0.2.0,3,xoutil (>=1.9.7)$decorator (<5,>=4)$dataclasses; python_version < "3.7"
+xh1scr,1.0.7,3,aiohttp (>=3.7.4,<4.0.0)$asyncio (>=3.4.3,<4.0.0)$beautifulsoup4 (>=4.9.3,<5.0.0)
+xtsv,1.3.0,3,werkzeug$Flask$flask-restful
+xontrib-xpg,0.1.2,3,psycopg2$graphviz$tabulate
+xia-connector-mail,0.0.4,3,requests$xia-meta$xia-meta-secret
+xontrib-history-encrypt,0.0.9,3,xonsh$cryptography$ujson
+xgt,1.12.1,3,grpcio (>=1.20)$protobuf (>=3.19.0)$pyarrow (>=7.0.0)
+xtt,0.10.0.post0,3,cffi (>=1.0.0)$six$enum34 (>=1.0.0); python_version < "3.4"
+xgp-reccomender,2.0.1,3,requests$beautifulsoup4$pandas
+xgp,0.1.1,3,pytest (>=3.5.1)$pytest-cov (>=2.6.0)$scikit-learn (>=0.17)
+xbasin,0.0.5,3,dask$numpy$xarray
+x9k3,0.1.63,3,iframes$new-reader (>=0.0.9)$threefive (>=2.3.49)
+xyz-aliyun,0.0.2,3,django (>=1.11.2)$oss2$aliyun-python-sdk-sts
+xialib-bigquery,0.1.0,3,xialib$google-auth$google-cloud-bigquery
+xialib-firestore,0.1.8,3,xialib$google-auth$google-cloud-firestore
+xbatcher,0.2.0,3,dask$numpy$xarray
+xialib-gcs,0.1.5,3,xialib$google-auth$gcsfs
+xgclient,0.1.9,3,requests (~=2.28.0)$marshmallow (~=3.16.0)$pandas (~=1.3.5)
+xialib-pubsub,0.1.4,3,xialib$google-auth$google-cloud-pubsub
+xoinvader,0.2.0,3,eaf (>=0.2,<0.3)$xo1 (>=0.1,<0.2)$toml (>=0.10,<0.11)
+x7-view,0.5.0,3,x7-geom$x7-lib$screeninfo
+xperibot,0.1.2,3,numpy$matplotlib$python-telegram-bot
+xgbimputer,0.2.0,3,numpy (>=1.21)$scikit-learn (>=1.0)$xgboost (>=1.5)
+xpg,0.1.0,3,psycopg2$graphviz$tabulate
+xia-meta-task,0.1.2,3,flask$xia-engine-firestore$xia-meta
+xgbatch,0.0.2,3,pyarrow (>=3.0.0)$xgboost (>=1.0.0)$numpy (>=1.0.0)
+xpgraph,0.0.1,3,networkx$numpy$python-sat
+xtracryspy,1.0.3,3,ase$fury$numpy
+xyzcad,0.2.3,3,numba$numpy$numpy-stl
+xformers,0.0.13,3,torch (>=1.12)$numpy$pyre-extensions (==0.0.23)
+xiaobaiapi,0.1.1,3,lxml$jmespath$requests
+xwavecal,0.1.13,3,astropy (>=4.0)$scipy (>=1.3.2)$numpy (>=1.16)
+xttools,0.5,3,sqlalchemy$pydantic$orjson
+xplain,0.0.13,3,pandas$requests$treelib
+xash,0.1.0,3,pandas (>=1.4.4,<2.0.0)$scipy (>=1.9.1,<2.0.0)$xotl.tools (>=2.2.5,<3.0.0)
+xiaokonglong,0.1.1,3,xlrd (==1.2.0)$xlwt$xlutils
+xplainet,0.1.1,3,tensorflow (>=2.2.0,<3.0.0)$tensorflow-addons (==0.11.2)$scikit-learn (>=0.21,<1.0.0)
+xnr-cryptowrapper,0.1.1,3,requests (>=2.22.0)$requests-async (>=0.6.2)$requests-cache (>=0.5.2)
+x-plan,0.0.1,3,tqdm$sklearn$pandas
+xfit,0.1.1.0,3,numpy (>=1.18.1)$compwizard (>=0.1.2)$scipy (>=1.4.1)
+xneuralintents,0.0.6,3,numpy$nltk$tensorflow
+xtp-job-control,0.1.1,3,noodles[numpy]$pyyaml$schema
+xfilios,0.0.4,3,python-docx (==0.8.11)$pandas (==1.3.3)$openpyxl (==3.0.9)
+x-net-email-css-inliner,1.0.2,3,beautifulsoup4 (==4.9.3)$requests (==2.24.0)$tinycss2 (==1.0.2)
+xnemogcm,0.3.4,3,xarray$netcdf4$dask[array]
+xnatutils,0.8.2,3,xnat (>=0.3.17)$progressbar2 (>=3.16.0)$future (>=0.16)
+xyz-lbstracker,0.1.4,3,django (>=1.11.2)$xyz-restful (>=0.0.6)$xyz-util (>=0.0.7)
+xyz-message,0.1.1,3,django (>=1.11.2)$xyz-restful$xyz-util
+xfers-sdk,1.0.1,3,pyhumps (>=3.5.3,<4.0.0)$requests (>=2.27.1,<3.0.0)$dacite (>=1.6.0,<2.0.0)
+xplogger,0.11.3,3,numpy (>=1.20.0)$pandas (>=1.0.0)$pyarrow (>=2.0.0)
+xplotter,0.0.6,3,matplotlib$pandas$seaborn
+xfab,0.0.6,3,numpy$six$pycifrw
+xeye,0.24,3,opencv-python$numpy$scikit-learn
+x3dase,1.1.4,3,ase$numpy$scipy
+xextract,0.1.8,3,lxml$cssselect$six
+xport,3.6.1,3,click (>=7.1.1)$pandas (<1.4,>=1.3.5)$pyyaml
+xes-lib,0.1.36,3,requests$pypinyin$pygame
+xpress-parse,1.3,3,click$pandas$numpy
+xmsinterp,3.0.1,3,numpy$xmscore$xmsgrid
+xmsextractor,3.0.0,3,numpy$xmscore$xmsgrid
+xarray-spatial,0.3.5,3,datashader$numba$xarray
+xadix-dnspod,0.1.2,3,dnspython (>=1.15.0)$requests (>=2.18.4)$tabulate (>=0.8.2)
+xin,2019.9.19,3,click (>=7.0)$colorama (>=0.4.1)$requests (>=2.22.0)
+xmr-haystack,0.0.5,3,bidict$cryptography$requests
+xmppy,0.11,3,sleekxmpp$python-gnupg$dnspython
+xblock-drag-and-drop-v2,2.5.0,3,XBlock$xblock-utils$bleach
+xblock-google-drive,0.3.0,3,mako$XBlock$xblock-utils
+xepor,0.5.0,3,mitmproxy (<9.0.0,>=7.0.0)$parse (>=1.19.0)$importlib-metadata ; python_version < "3.8"
+xmminiappcli,2.0,3,coloredlogs$fire$watchdog
+xblock-launchcontainer,4.0.0,3,XBlock$django-crum$xblock-utils
+xmlxdiff,1.0.0,3,PySide2$lxml$svgwrite
+xarray,2022.11.0,3,numpy (>=1.20)$pandas (>=1.3)$packaging (>=21.0)
+xblock-proctor-exam,1.0.0,3,XBlock$XBlock-utils$configurable-lti-consumer-xblock
+xpymon,1.23,3,Xlib$perlcompat$x11util
+xpynfo,0.0.0,3,pytest-runner$anytree$xcffib
+xenqu-api,1.0.4,3,requests$jwcrypto$requests-oauthlib
+xpyth-parser,0.0.10,3,lxml$pyparsing$isodate
+xenon-view-sdk,0.0.19,3,singleton3$requests$pytz
+xmlrpcutils,0.4.4,3,magic-import$daemon-application$fastutils
+xymol,0.0.1,3,rdkit$numpy$matplotlib
+xmlplot,0.9.24,3,xmlstore (>=0.9.11)$numpy$matplotlib
+xenon,0.9.0,3,radon (<6,>=4)$requests (<3.0,>=2.0)$PyYAML (<7.0,>=4.2b1)
+xmldiff,2.4,3,setuptools$lxml (>=3.1.0)$six
+xend-python-sdk,0.1.8,3,web3$web3[tester]$requests
+xbook,0.0.1,3,d2py$attrs$importlib-metadata>=4.12
+xitorch,0.3.0,3,numpy (>=1.8.2)$scipy (>=1.1.0)$torch (>=1.8)
+xmitgcm,0.5.2,3,xarray (>=0.11.0)$dask (>=1.0)$cachetools
+xmi-reader,0.5.9,3,ebcdic$prettytable$python-magic
+xrandroll,0.1.7,3,pyside2 (>5.14)$pyedid (>=0.1)$parse (>1.0)
+x-ray,0.3.3,3,PyMuPDF (==1.19.2)$requests (>=2.26.0,<3.0.0)$types-requests (>=2.26.0,<3.0.0)
+xmind2testcase-kd,0.0.7,3,xmind$flask$arrow
+xedocs,0.1.27,3,click$rich$rframe (>=0.1.27,<0.2.0)
+xmind2testcase2021,1.0.3,3,xmind$flask$arrow
+xray-rpc,1.5.2,3,grpcio (>=1.37.0,<2.0.0)$grpcio-tools (>=1.37.0,<2.0.0)$httpx (>=0.17.1,<0.18.0)
+xrayutilities,1.7.4,3,numpy (>=1.9.2)$scipy (>=0.18.0)$h5py
+xmind2testcase,1.5.0,3,xmind$flask$arrow
+xrayvisim,0.1.0rc1,3,astropy (>=3.4.1)$numpy (>=1.17.0)$scipy (>=1.3.0)
+xj-tools,1.0.0,3,django (==3.2.5)$djangorestframework$xj-user
+xdump,0.6.0,3,attrs (<19)$psycopg2 (<2.8)$click (<7)
+xrbm,0.1.1,3,matplotlib$np$tensorflow (>=1.0)
+xrcalc,0.1.6,3,microapp (>=0.1.12)$xarray$matplotlib
+xrdsum,0.2.3,3,codetiming$typer >= 0.4.0$rich >=10.12.0
+xyz-qcloud,0.0.5,3,django (>=1.11.2)$vod-python-sdk$tencentcloud-sdk-python
+xdmf-dolfin-fix,0.6.2,3,h5py$lxml$meshio
+xwrf,0.0.2,3,xarray (!=0.20.0,!=0.20.1,>=0.18)$donfig (>=0.6.0)$pyproj (>=2.4.1)
+xtheme,0.3,3,click$toml$jinja2
+xkt,0.0.2,3,mxnet$tqdm$PyBaize (>=0.0.5)
+xdj-datamap,0.0.5,3,Django (==3.2.3)$djangorestframework (==3.12.4)$xdj-utils (==0.0.4)
+x-django-app,1.2.1,3,django$djangorestframework$langdetect
+xmatch,0.1.1,3,astropy (>=1.2)$astroquery (>=0.3.3)$numpy (>=1.11)
+xarray-einstats,0.3.0,3,numpy>=1.19$scipy>=1.5$xarray>=0.16
+xdimer,1.0.6,3,numpy$scipy$matplotlib
+xdgpspconf,0.2.1,3,argcomplete$pyyaml$toml
+xbox-smartglass-nano,0.10.1,3,xbox-smartglass-core (==1.3.0)$av (==8.0.3)$PySDL2 (==0.9.7)
+xzqhotspot,3.1.0,3,winrt$pythonnet$pywifi
+xthematic,0.0.3,3,click$xparser (>=0.0.4)$sty
+xl-bert,0.0.4,3,torch$transformers$keras
+x-maes,0.1.0,3,torch (>=1.6)$einops (>=0.3)$entmax
+xlcompare,0.2.0,3,xlrd (>=2.0.1)$pylightxl (>=1.54)$XlsxWriter (>=1.3.9)
+xd-docker,0.2.0,3,requests$requests-unixsocket$typing
+xlcrf,0.0.5,3,numpy$pandas$xlsxwriter
+xbrl2rdf,0.1.0,3,Click (>=7.0)$rdflib$lxml
+xtgen,0.0.10,3,numpy$arrow$toml
+xaj,0.1.6,3,jaxlib (>=0.3.0)$jax (>=0.3.0)$tqdm
+xztrainer,0.3.2,3,torch (>=1.10.2)$tqdm (>=4.62.3)$numpy (>=1.22.1)
+xrp-price-aggregate,0.0.15,3,ccxt (~=1.54.45)$httpx (~=0.18.2)$websockets (~=9.1)
+xl-tables,1.0.2,3,pywin32 (>=227)$dynamicmethod (>=1.1.0)$wrapt (>=1.13.3)
+xlsx-xargs,0.1.0,3,click$openpyxl$xlsxhelper
+xbutil-gui,0.0.8,3,pandas$matplotlib$tksheet
+xlsx-template,0.1.2,3,openpyxl (>=3.0.5,<4.0.0)$pyparsing (>=2.4.7,<3.0.0)$cached-property (>=1.5.2,<2.0.0)
+xlingual-papers-recommender,1.0,3,sentence-transformers$celery$mongoengine
+xako,0.7.0,3,requests (<2.4,>=2.3.0)$xoutil (<2.0,>=1.9.9); python_version < "3.0"$xoutil (>=1.9.9); python_version >= "3.0"
+xby2aws,1.1.9,3,pulumi (<4.0.0,>=3.0.0)$pulumi-aws (<6.0.0,>=5.0.0)$pulumi-awsx
+xcrypto,1.3.1,3,PyCrypto$requests$pymongo
+xscanner,0.2.0,3,pyftype (>=1.2.2,<2.0.0)$antlr4-python3-runtime (>=4.9.2,<5.0.0)$click (>=8.0.3,<9.0.0)
+xby2azure,1.0.4,3,pulumi (<4.0.0,>=3.0.0)$pulumi-azure-native (<2.0.0,>=1.0.0)$pulumi-azure
+xsect,1.1.2,3,numpy (>=1.14.5)$pandas (>=0.23.0)$matplotlib (>=2.2.2)
+xlsxecute,0.2.0,3,formulas (>=1.2.2,<2.0.0)$openpyxl (>=3.0.9,<4.0.0)$click (>=8.0.4,<9.0.0)
+xseis2,0.2.4,3,obspy (>=1.2.2,<2.0.0)$setuptools (>=59.6.0,<60.0.0)$Cython (>=0.29.27,<0.30.0)
+xalc,0.6.0,3,bitstring (>=3.1.4)$blessed (>=1.14.1)$ipython (>=5.0.0)
+xcomfort,0.0.20,3,aiohttp$rx$pycryptodome
+xwire-scientific,0.1.3,3,pandas (>=1.2.3,<2.0.0)$scikit-learn (>=0.24.1,<0.25.0)$joblib (>=1.0.1,<2.0.0)
+xcollection,2021.12.23,3,pydantic$xarray$toolz
+xsprofile,0.0.8,3,geopandas$rasterio$matplotlib
+xchg,6.0.1,3,pandas$poloniex$numpy
+xchainpy-crypto,0.1.11,3,mnemonic (>=0.18)$bip-utils (==1.11.1)$pycryptodome (==3.11.0)
+xchainpy-client,0.1.6,3,xchainpy-util (>=0.1.8)$xchainpy-crypto (>=0.1.7)$http3 (>=0.6.7)
+xls-report,0.0.8,3,lxml (>=4.3.4)$xlwt (>=1.3.0)$pycurl (>=7.43.0.3)
+x11pygrid,1.0.2,3,Xlib$single-process$PyGObject
+xcfont,0.1.0,3,click (>=8.0.1,<9.0.0)$funcy (>=1.16,<2.0)$fonttools (>=4.24.4,<5.0.0)
+x10-blackjack,1.1.4,3,click (<8,>=7)$requests (<3,>=2)$tabulate (==0.8.7)
+xlsb2xlsx,0.1,2,aspose-cells$tqdm
+xboxgamertag,1.0.1,2,requests$lxml
+xyz-verify,0.1.1,2,django (>=1.11.2)$xyz-restful
+xls-cli,1.0.2,2,xlrd$getkey
+xyz-todo,0.1.0,2,django (>=1.11.2)$xyz-restful
+xyz-tenant,0.0.1,2,django (>=1.11.2)$django-tenant-schemas (>=1.10.0)
+xls-to-csv,1.0.0,2,elasticsearch (<7.0.0,>=6.0.0)$jinja2
+xlstools,0.1.1,2,xlrd (>=2.0.0)$openpyxl (>=3.0.7)
+xyzstyle,0.0.4,2,d2py$pydata_sphinx_theme
+xyz-stats,0.0.10,2,django (>=1.11.2)$xyz-util
+xl-reports,0.1.3,2,openpyxl (>=3.0.10,<4.0.0)$mypy (>=0.971,<0.972)
+xlpandas,0.1.4,2,openpyxl$pandas
+xlsx2pdf,1.0.4,2,reportlab (<4,>=3)$openpyxl (<4,>=3)
+xloil,0.15.2,2,numpy (>=1.18)$tomlkit
+xlsxcessive,1.1.2,2,openpack$singledispatchmethod ; python_version < "3.8"
+xlogitprit,0.1.34,2,numpy (>=1.13.1)$scipy (>=1.0.0)
+xyz-school,0.1.13,2,django (>=1.11.2)$xyz-restful
+xyz-person,0.1.1,2,django (>=1.11.2)$xyz-auth (>=0.0.3)
+xlogit-extensions,0.0.4,2,numpy (>=1.13.1)$scipy (>=1.0.0)
+xlogit,0.2.3,2,numpy (>=1.13.1)$scipy (>=1.0.0)
+xlsx-from-json,1.0.1,2,attrs (>=18.1.0)$openpyxl (>=2.5.4)
+x4i3,1.2.3,2,tqdm$requests
+xyz-exam,0.2.7,2,django (>=1.11.2)$xyz-util (>=0.2.1)
+x690,1.0.0.post1,2,t61codec (<2.0,>=1.0.1)$importlib-metadata ; python_version < "3.8"
+x7-testing,0.5.0,2,pillow$x7-lib
+xyz-aws,0.1.1,2,django (>=1.11.2)$boto3
+xyxy,0.2.4,2,requests$tqdm
+xacc,0.1.16,2,ipopo$configparser
+xyw-macro,0.0.16,2,pywin32$simpleaudio
+xyston,0.0.2,2,numpy$torch
+xyplot,0.2.0,2,matplotlib$numpy
+xades,0.2.4,2,pytz$xmlsig
+xadmin-nimbus,1.2.6,2,Django$pyecharts
+xylem-daq,0.3.2,2,pyzmq$eventlet (>=0.24)
+xlsxwriter-celldsl,0.6.0,2,attrs$xlsxwriter
+xless,1.8,2,pandas$openpyxl
+xyconvert,0.1.2,2,numpy$pyproj
+xltojson,1.1.2,2,xlrd (==1.2.0)$pandas (==0.24.2)
+xaero,0.0.3,2,requests$autobahn
+xaero2,0.0.1,2,aiohttp$websockets
+xlutils,2.0.0,2,xlrd (>=0.7.2)$xlwt (>=0.7.4)
+xlwombat,0.1.0,2,jinja2 (>=2.11.2,<3.0.0)$openpyxl (>=3.0.3,<4.0.0)
+xxyy,0.1.5,2,requests$PyJWT (>=2.3.0,<3.0.0)
+xlwt-fixed-bitmap,1.1.0,2,six$xlwt (==1.3.0)
+xlbridge,0.4.0b0,2,grpcio$protobuf
+xxh-xxh,0.8.12,2,pexpect (>=4.8.0)$pyyaml
+xlart,0.1.1,2,openpyxl (>=2.4.1)$Pillow (>=3.4.2)
+xl2csv,0.1.0,2,openpyxl (>=3.0.7,<4.0.0)$python-slugify (>=5.0.2,<6.0.0)
+xmark,1.0.0,2,numpy$networkx
+xkye,1.0.1,2,antlr4-python3-runtime$multipledispatch
+xxgamma,0.6,2,peggy (==0.02)$shipyard (==0.02)
+xknxproject,2.1.0,2,cryptography (>=35.0.0)$pyzipper (>=0.3.5)
+xknx,1.2.0,2,cryptography (>=35.0.0)$ifaddr (>=0.1.7)
+xkcd-py,1.0.4,2,beautifulsoup4$requests
+xmesh,0.3.1,2,pyserial$rich
+xain-proto,0.6.0,2,numpy (~=1.15)$protobuf (~=3.9)
+xain-sdk,0.8.0,2,requests$numpy
+xj-thread,1.2.59,2,xj-user$xj-role
+x-wr-timezone,0.0.5,2,icalendar$pytz
+xair-api,2.2.1,2,python-osc (>=1.8.0,<2.0.0)$tomli (>=2.0.1,<3.0.0); python_version < "3.11"
+xairos-arc,0.2.0,2,scapy (>=2.4.4,<3.0.0)$typer (>=0.3.2,<0.4.0)
+xj-captcha,1.0.3,2,python-alipay-sdk$qcloudsms-py
+xalanih,1.0.0,2,sqlparse (>=0.2.4)$mysqlclient (>=1.3.12)
+xmind2xls,1.0.4,2,xmind$openpyxl
+xalextractor,0.0.2,2,py4j$pyspark
+xaml,0.6.5,2,antipathy$scription
+xmipy,1.2.0,2,bmipy$numpy
+xweb-router,0.1.1,2,xweb$parse
+xanathar,1.0.1,2,lark-parser$llvmlite
+xitest,0.2,2,biopython (==1.78)$svgwrite (==1.4.1)
+xandr-statuspageio,0.0.8,2,requests$munch
+xml2pytorch,0.0.10,2,torch (>=0.4.1)$numpy (>=1.15.1)
+xwacommap,0.1.0,2,python-xrectsel (>=1.3,<2.0)$sh (>=1.14.1,<2.0.0)
+xit-books,0.1.0,2,sphinx (>=5.2.3,<6.0.0)$sphinx-autodoc-annotation (>=1.0.post1,<2.0)
+xar,20.12.2,2,pip (>=10.0.1)$setuptools (>=34.1)
+xmlcord,1.0.26,2,aiohttp$discord
+xmlcsvjsonconvert,1.1.2,2,Tree$jsonlib-python3
+xunitparserx,1.9.12,2,lxml$pytest
+xisf,0.9.0,2,lz4$numpy
+x-unet,0.1.0,2,einops (>=0.4)$torch (>=1.6)
+xargs,0.5.0,2,multidict$attrs
+xmlego,0.1,2,igraph$lxml
+xmlfuse,0.0.4,2,lxml$lxmlx
+xmlhelpy,0.10.0,2,click (<9.0.0,>=7.0.0)$lxml (<5.0.0)
+xml-json-yaml-convert,1.0.3,2,PyYAML (~=5.4.1)$xmltodict (~=0.12.0)
+xarray-compare,0.2.0,2,numpy (>=1.18,<2.0)$xarray (>=0.15,<0.16)
+xmlplain,1.6.0,2,ordereddict$PyYAML
+xirr,0.1.8,2,scipy$importlib-metadata ; python_version < "3.8"
+x-mlps,0.5.0,2,dm-haiku (>=0.0.6,<0.0.7)$einops (>=0.4.1,<0.5.0)
+xuekit,0.0.4,2,torch$transformers
+xir,0.0.3,2,ipython (>=7.1.1)$PyYAML (>=3.13)
+xarray-quantity,0.1.5,2,astropy (>5.0.3)$xarray (>2022)
+xudo,1.1.1,2,docopt$requests
+xarray-schema,0.0.3,2,xarray (>=0.16)$numpy (>=1.21)
+xata,0.1.1,2,requests$python-dotenv
+xtsjspider,3.6.2,2,requests$lxml
+xawsprofile,0.3.5,2,click (>=8.1.0)$boto3 (>=1.20.33,<2.0.0)
+x-transformers,1.2.3,2,torch (>=1.6)$einops (>=0.3)
+xtoolslib,0.1,2,requests$requests[socks]
+xini,0.2.2,2,toml (>=0.10.0,<0.11.0)$docopt (>=0.6.2,<0.7.0)
+xblock-problem-builder,5.1.0,2,XBlock (>=1.2)$xblock-utils
+xton,0.0.3,2,tonsdk (>=1.0.7)$ton (>=0.25)
+xing-tick-crawler,0.0.7,2,pandas$pywin32
+xbootstrap,0.0.4,2,xarray$numpy
+xingapi,1.2.14,2,pywin32$pandas
+xboss,0.0.3,2,requests (>=2.17.1)$pandas (>=1.0.0)
+xmos-ai-tools,0.1.9,2,numpy (<2.0)$tflite (>=2.4.0)
+xbotlib,0.16.1,2,slixmpp (>=1.6.0,<2.0.0)$humanize (>=3.2.0,<4.0.0)
+xinetzone,0.0.1,2,d2py$pydata_sphinx_theme
+xmpdf,0.7.0,2,pdftotext$jsonpickle
+xtimetracker,0.1.1,2,click (~=7.1)$arrow (~=0.17)
+xtiff,0.7.8,2,numpy$tifffile (>=2022.4.22)
+xmq-python,0.0.13,2,rocketmq-client-python (==2.0.0)$pika (==1.2.0)
+xmr,0.0.1,2,discord.py (==1.4.2)$requests
+xinaprocessor,0.41,2,emoji (==0.6.0)$tqdm (==4.55.0)
+ximage,0.3.1,2,pillow$click
+xbrli-converter,1.4,2,bs4$lxml
+xtestrunner,1.4.6,2,jinja2 (>=2.11.3)$requests (>=2.22.0)
+xtesting-db-populate,1.3.0,2,pyyaml$requests
+xmsgrid,3.0.1,2,numpy$xmscore
+xieyin,0.0.3,2,pypinyin$jieba
+xmu,0.1b4,2,lxml$pyyaml
+xtensors,0.1.8,2,numpy (>=1.20)$scipy (>=1.8.1)
+xiejun,1.0,2,pillow$requests
+xcaptcha,1.0.1,2,opencv-python$numpy
+xcauto,0.2.0,2,jax$jaxlib
+xicorrelation,0.3.0,2,numpy$scipy
+xccdfparser,1.5.1,2,lxml$IPy
+xcert,0.0.10,2,pyOpenSSL$xolphin-api
+xnatum,1.2,2,xnat$dicom2nifti
+xtalx,1.0.1,2,btype (>=0.1.2)$pyusb (>=1.1.1)
+xicam-log,0.1.2,2,numpy$qtpy
+xicam-ipython,0.1.0,2,qtconsole$qtpy
+xchange,0.0.6,2,requests (==2.18.4)$cached-property (==1.4.2)
+xicam-hipies,1.0.0,2,numpy$scipy
+xchatbot,0.3.1,2,nbxmpp (<0.7.0,>=0.6.10)$PyGObject (<3.40.0,>=3.30.0)
+xia-sendinblue,0.0.3,2,requests$xia-mail-sender
+xiaomi-flashable-firmware-creator-gui,2.3.12,2,PyQt5 (>=5.15.2,<6.0.0)$xiaomi_flashable_firmware_creator (>=2.2.8,<3.0.0)
+xiaomi-flashable-firmware-creator,2.2.8,2,remotezip (>=0.9.2,<0.10.0)$protobuf (>=3.15,<5.0)
+xsterminal,1.0.1,2,requests$pandas
+xnrpc,1.2.2,2,gevent (>=1.1.2)$zerorpc (>=0.6.0)
+xcix,0.0.1,2,pandas$matplotlib
+xstatstests,0.0.3,2,xarray$scipy (>=1.8.0)
+xclingo,2.0b12,2,argparse$clingo (>=5.5.0.post3)
+xcmocean,0.2.1,2,xarray$cmocean
+xcodeproj,0.12.0,2,appdirs (>=1.0,<2.0)$deserialize (>=1.8.0,<2.0.0)
+xslxobject,0.3.0,2,miscSupports$openpyxl
+xoa-converter,1.0.3,2,pydantic (>=1.8.2)$datamodel-code-generator
+xcode-toolbox,1.3.1,2,click (>=7.1.2)$requests (>=2.24.0)
+xslack,0.2,2,requests$slackclient
+xiangqi-setup,2.1.0,2,pyyaml$svgutils (==0.3.4)
+xcom485i,0.9.1,2,uModbus (==1.0.3)$pyserial (>=3.4)
+xsinfo,1.2,2,click$pandas
+xsession-manager,1.0.8,2,psutil (>=5.7.2)$pycurl (>=7.43.0.5)
+xogoogle,1.1.3,2,requests (==2.24.0)$bs4 (==0.0.1)
+xia-mail,0.0.4,2,xia-engine$xia-fields
+xolphin-api,1.6.0,2,future$requests
+xialib-hana,0.0.5,2,xialib$hdbcli
+xia-engine-test,0.0.17,2,xia-fields$xia-engine
+xia-engine-firestore,0.1.4,2,google-cloud-firestore$xia-engine
+xconfig,0.0.5,2,pyyaml$aiofiles
+xcore,0.7.2,2,numpy$pandas
+xonsh-kernel,0.4.1,2,metakernel (>=0.10.5)$xonsh
+xsd-to-vol,0.0.6,2,xmltodict$argparse
+xsdata-pydantic,22.10,2,pydantic$xsdata (>=22.9)
+xsdata-attrs,21.11,2,attrs (>=19.2.0)$xsdata (>=21.8)
+xontrib-avox-poetry,0.3.3,2,xonsh (>=0.12.5)$tomli
+xcp-esgar,0.0.1,2,pytest$pytest-runner
+xcs-rc,1.0.1,2,pandas$numpy
+xscaffold,1.2.0,2,PyYaml$jinja2
+xs-api,1.1.0,2,requests$pandas
+xontrib-cmd-durations,0.2.9,2,xonsh (>=0.10)$notify-py (>=0.3.3); python_version >= "3.6" and python_version < "4.0"
+xs1-api-client,3.0.1,2,requests$urllib3
+xcsv-plot,0.1.0,2,xcsv (>=0.2.0,<0.3.0)$matplotlib (>=3.5.2,<4.0.0)
+xdagtool,0.4,2,python-dateutil$click
+xrpy,0.2.1,2,xrpl-py$deprecation
+xontrib-distributed,0.0.4,2,distributed (>=2022.3.0)$xonsh (>=0.12)
+xrotor,1.3.1,2,numpy$scipy
+xrosfs,0.1.1,2,docker$fusepy
+xontrib-enhancd,0.1.0,2,xonsh$fuzzysearch
+xrootdpyfs,0.2.2,2,fs (<2.0,>=0.5.4)$xrootd (<5.0.0,>=4.8.4)
+xdgmenu,0.0.0,2,pyxdg$urwid
+xontrib-hist-navigator,0.6.4,2,xonsh (>=0.11)$prompt-toolkit
+xia-connector-sendinblue,0.0.1,2,requests$xia-connector-mail
+xresponse,0.0.3,2,django$djangorestframework
+xdmfwrite-h5py,0.1.2,2,h5py$numpy
+xrdtools,0.1.1,2,lxml (>=3.0)$numpy (>=1.7)
+xontrib-jedi,0.0.2,2,jedi (>=0.18.1)$xonsh (>=0.12)
+xontrib-jupyter-shell,0.0.2,2,xonsh (>=0.12)$jupyter (>=1.0.0,<2.0.0)
+xdp-test-harness,0.1.4,2,pyroute2$scapy
+xdrparser,1.3.1,2,Click (==6.7)$kin-base (==1.0.7)
+xrdconfig,0.2.0,2,plumbum$typer >=0.4.0
+xds-protos,0.0.11,2,grpcio$protobuf
+xdwarf,0.1.0,2,rust-dwarf$pandas
+xe-admix,0.3.1,2,utilix$pymongo
+xebus-restful-api-client-library,1.9.2,2,perseus-restful-api-client-library$xebus-core-library
+xontrib-pipeliner,0.3.4,2,xonsh$six
+xontrib-powerline3,0.3.17,2,xonsh (>=0.12)$tomlkit
+xraysink,1.6.0,2,aws_xray_sdk (>=2,<3)$wrapt (>=1.11,<2.0)
+xecd-rates,1.0.3,2,requests$lxml
+xontrib-readable-traceback,0.4.0,2,backtrace$colorama (>=0.3.7)
+xray-node,0.0.1,2,httpx (>=0.17.1,<0.18.0)$click (>=7.1.2,<8.0.0)
+xrayconfigurator,0.0.32,2,aws-xray-sdk (>=2.9.0)$sentry-sdk[flask] (>=1.5.5)
+xendit,0.1.3,2,requests (>=2.23.0,<3.0.0)$pytest-cov (>=2.10.0,<3.0.0)
+xengarden,1.2.10,2,xenapi$deprecated
+xqrcode,1.0.1,2,pillow$pyzbar
+xq,0.0.4,2,lxml$pygments
+xontrib-xlsd,0.1.6,2,xonsh (>=0.9.26)$wcwidth (>=0.2.5)
+xenopy,0.0.4,2,tqdm$multiprocess
+xentica,0.2.0,2,numpy$cached-property
+xpylog,1.3,2,Xlib$x11util
+xpycommon,0.0.17,2,ntplib (>=0.3.3)$pkginfo (>=1.8.2)
+xepmts-endpoints,0.1.4,2,click$PyYAML (>=5.4.1,<6.0.0)
+xopen,1.7.0,2,isal (>=1.0.0) ; platform_python_implementation == "CPython" and (platform_machine == "x86_64" or platform_machine == "AMD64")$typing-extensions ; python_version < "3.8"
+xia-cache-http,0.0.2,2,requests$xia-cache
+xptcleaner,1.0.0,2,pandas$pyreadstat
+xia-cache-firestore,0.0.12,2,google-cloud-firestore$xia-cache
+xero-db-connector,0.3.4,2,pandas (==0.25.2)$pyxero (==0.9.1)
+xps,0.2.2,2,numpy>=1.16.2$pandas
+xia-authenticator,0.1.4,2,PyJWT$xia-meta-auth
+xeus-python,0.14.3,2,pygments (<3,>=2.3.1)$xeus-python-shell[ipython] (<0.6,>=0.5)
+xevo,0.52,2,numpy$matplotlib
+xotweet,1.1.0,2,python-dateutil (==2.8.1)$requests (==2.24.0)
+xia-api-flask,0.0.6,2,Flask$xia-api
+xplot,0.0.5,2,ipython$pandas
+xia-api,0.0.16,2,xia-fields$xia-engine
+xows,1.0.5,2,aiohttp (>=3.1)$click (>=6.0)
+xfers,1.4.1,2,requests (>=2.18.1)$pyopenssl (>=17.1.0)
+xpanse,1.3.1,2,requests (>=2.25.1)$deprecated (>=1.2.0)
+xfinity-gateway,0.0.4,2,requests (>=2.20)$beautifulsoup4 (>=4.0)
+xgram,0.1.1,2,colorama$requests (==2.22.0)
+xplane-airports,4.0.1,2,requests$dataclasses (>=0.6) ; python_version < "3.7"
+xf-scrap,1.0,2,Click$bs4
+xpipe,1.1.1,2,pyyaml$jinja2
+xpe,1.0.8,2,chardet$lxml
+xgboost-distribution,0.2.5,2,scikit-learn$xgboost (>=1.7.0)
+xperimental-data-conv,1.0.5,2,excel2flapjack (~=1.0.2)$excel2sbol (~=1.0.24)
+xgboost,1.7.1,2,numpy$scipy
+xphn-ezdiscord,1.5,2,discord$requests
+xganalyzer,0.1.10,2,pandas (~=1.3.5)$numpy (>=1.22.0)
+xgbfir,0.3.1,1,xlsxwriter (>=0.9.3)
+xphyle,4.4.2,1,pokrok
+xgit,0.1.5,1,requests (>=2.21,<3.0)
+xpboards,0.1.3,1,requests
+xformer,1.0.1,1,numpy (<2.0.0,>=1.0.0)
+xfork,0.37,1,futures
+xfoil,1.1.1,1,numpy
+xfmr,0.0.1.dev0,1,scikit-learn (>=0.21.0)
+xplan,0.0.12,1,cx-Oracle
+xflrpy,0.4.0,1,msgpack-rpc-python
+xpattern,0.5.0,1,pampy (>=0.3.0,<0.4.0)
+xfinity-usage,3.0.1,1,selenium
+xhibit,8.5.0,1,tcolorpy
+xhmonitor,0.0.2,1,pyprof2calltree
+xoutil,2.1.11.post1,1,typing-extensions (~=3.7.4)
+xf-aes-gcm,1.0.0,1,cryptography
+xotl-tools,2.2.5,1,typing-extensions (>=3.10.0)
+xeus-python-shell,0.5.0,1,debugpy (<2,>=1.1.0)
+xotl-ql,0.7.0,1,xoutil (>=1.9.4)
+xportage,0.0.3,1,nltk
+xeuledoc,2.1,1,httpx
+xpress,8.14.2,1,numpy (>=1.21)
+xethereum,0.0.1,1,requests-cache
+xespiano,0.0.5,1,pyserial
+xertocsv,1.0.3,1,pandas
+xerosdk,0.13.0,1,requests (>=2.25.0)
+xprint,3.1.1,1,colorama
+xotless,3.8.1,1,xotl.tools (~=2.2.1)
+xia-cache,0.1.1,1,xia-fields
+xer2csv,1.0.5,1,pandas
+xortool,1.0.2,1,docopt (>=0.6.2,<0.7.0)
+xeprapi,0.61,1,numpy (>=1.2.1)
+xop,0.2.0,1,lxml (>=4.6.3,<5.0.0)
+xenvman,0.0.1,1,requests
+xoogmongofunctions,0.0.1,1,pandas
+xoodyak,0.0.1,1,peppercorn
+xpylogger,1.5,1,rich (>=12.0.1)
+xpylogger2,2.0,1,rich (>=12.0.1)
+xontrib-zsh-cd-dot,0.1.1,1,xonsh
+xenterval,0.2.1,1,more-itertools (>=8.6.0,<9.0.0)
+xia-cloudmailin,0.0.3,1,xia-mail
+xpypika,0.14.9,1,aenum (==2.0.8)
+xenopt,0.2.6,1,pandas (>=1.2.0,<2.0.0)
+xpywm,1.13,1,Xlib
+xontrib-up,1.0.1,1,xonsh
+xontrib-thefuck,0.3.6,1,thefuck
+xenolith,0.1.2,1,Click
+xengine,0.0.1,1,numpy (>=1.18.5)
+xenget,0.0.2,1,beautifulsoup4
+xontrib-term-integrations,0.1.3,1,xonsh (>=0.12.0)
+xendit-python,0.1.7,1,requests (>=2.23.0,<3.0.0)
+xenditclient,0.0.5,1,requests (>=2.3.0)
+xrandr-manager,0.1.0,1,prompt-toolkit
+xontrib-syslog-shell-profiler,0.1.5,1,xonsh
+xenapi,2.15,1,six
+xray-bot,0.1.0,1,atlassian-python-api (==3.14.1)
+xontrib-simplejump,0.6.6,1,xonsh
+xem-wrapper,0.3.0,1,stdlib-utils (>=0.5.2)
+xeddsa,1.0.2,1,cffi (>=1.14.5)
+xontrib-shadowenv,0.0.1,1,xonsh
+xecd-rates-client,1.0.0,1,requests (>=2.19.1)
+xontrib-pyenv,1.1.0,1,xontrib-langenv (>=1.0.6,<2.0.0)
+xontrib-prompt-starship,0.3.0,1,xonsh
+xontrib-output-search,0.6.2,1,tokenize-output
+xeberus-restful-api-client-library,1.0.0,1,xeberus-core-library
+xontrib-onepath,0.3.2,1,python-magic
+xontrib-mpl,0.0.2,1,xonsh (>=0.12)
+xdtransform,0.0.1,1,lxml
+xd-tool,0.2.0,1,sh
+xontrib-makefile-complete,0.1.1,1,xonsh (>=0.13.1)
+xontrib-macro-lib,0.0.3,1,xonsh
+xds,0.1.8,1,scipy
+xdr-parser,0.0.1.dev0,1,lark-parser (>=0.11.1,<0.12.0)
+xontrib-log-all-history,1.1.0,1,xonsh
+xontrib-linuxbrew,0.1.1,1,xonsh
+xdoctest,1.1.0,1,six
+xontrib-iterm2,0.0.2,1,xonsh (>=0.11.0)
+xrdump,0.1.0,1,xarray (>=0.14)
+xontrib-init-ssh-agent,1.0.1,1,xonsh
+xrd-xy-parser,0.0.3,1,numpy
+xrea,0.1.1,1,requests
+xdisplayselect,1.0.0,1,inquirer (>=2.10.0,<3.0.0)
+xremap,0.1.0,1,pyyaml
+xdi8translator,0.4.0,1,jieba
+xontrib-homebrew,0.1.0,1,xonsh
+xdgterm,0.0.2,1,PyGObject (>=3.40)
+xontrib-gruvbox,0.1.3,1,xonsh
+xdgconfig,1.3.0,1,mergedeep (>=1.3.4,<2.0.0)
+xdeap,1.0.0,1,deap
+xrootdlib,0.3.0,1,chainlet
+xia-easy-proto,1.0.2,1,protobuf
+xontrib-dracula,0.1.1,1,xonsh
+xontrib-django,0.0.2,1,xonsh (>=0.12)
+xddos,1.1.16,1,argparse
+xdccshlf,1.1,1,importlib-metadata ; python_version < "3.8"
+xdcc,0.0.3,1,irc
+xdalibs,0.2.0,1,configparser (>=3.5.0)
+xrprimer,0.6.0,1,numpy
+xontrib-default-command,0.0.3,1,xonsh
+xontrib-conda-project,0.1.0,1,xonsh (>=0.9,<0.10)
+xontrib-common-fate-granted,0.0.1,1,xonsh (>=0.12.5)
+xcsv,0.2.0,1,pandas (>=1.4.2,<2.0.0)
+xrtr,0.2.1,1,setuptools (>=19.0)
+xia-engine,0.1.29,1,xia-fields
+xsanta,0.1.3,1,fire (>=0.3.1)
+xontrib-cmd-done,0.2.2,1,xonsh (>=0.9.20)
+xontrib-cd,0.1.1,1,xonsh
+xontrib-broot,0.2.1,1,xonsh (>=0.12)
+xontrib-bash-completions-dirs,0.1.4,1,xonsh (>=0.13.1)
+xcover-python,0.1.0,1,requests (>=2.26,<3.0)
+xsdata,22.11,1,importlib-metadata ; python_version < "3.8"
+xontrib-argcomplete,0.3.2,1,argcomplete
+xsdata-plantuml,21.4,1,xsdata[cli]
+xontrib-apipenv,0.4.0,1,pipenv (>=2018.11.26)
+xsdreg,1.0.1,1,rdflib
+xontrib-aliastips,0.5.1,1,xonsh
+xcorvar,0.1.2,1,scipy
+xonsh-docker-tabcomplete,0.1.5,1,docker-py
+xconnectpy,0.0.1,1,overloading
+xonox,0.0.7.2,1,flask
+xia-mail-sender,0.0.1,1,requests
+xconf,0.0.1,1,toml (>=0.10.2)
+xcomfortshc,0.1,1,aiohttp (>=3.5.4)
+xcomcan,0.9.1,1,stucancommon (>=0.9.1)
+xshl-target,0.3.2,1,networkx (>=2.8.5)
+xia-meta,0.1.3,1,xia-engine-firestore
+xiangqi,1.0.5,1,numpy
+xoa-driver,1.0.12,1,loguru
+xcom-232i,0.1.4,1,pyserial (>=3.5,<4.0)
+xiangshi,4.1.0,1,jieba
+xiaoai,0.1.0,1,httpx
+xsmiles,0.2.2,1,ipywidgets (>=7.0.0)
+xsmtplib,1.0.1.dev0,1,PySocks (==1.5.7)
+xson,1.1.0,1,setuptools
+xspfclean,0.3,1,python-magic
+xspline,0.0.7,1,numpy
+xo2,0.1.0,1,eaf (>=0.2.2,<0.3.0)
+xsquared,1.0.1,1,numpy
+xss-utils,0.4.0,1,Django (>=1.11)
+xo1,0.2.0,1,eaf (>=0.2,<0.3)
+xn-twist-python-sdk,5.0.0,1,Requests
+xiaoaitts,0.1.1,1,requests
+xiaobaiinstaller,2.5,1,requests-html
+xsteampython,1.0.2,1,scipy (>=1.6.1)
+xn-reverser,1.0.0,1,idna
+xchk-regex-strategies,0.1.5,1,regex (>=2020.7.14,<2021.0.0)
+xsum,1.1.1,1,numpy
+xchk-multiple-choice-strategies,0.0.2,1,antlr4-python3-runtime (>=4.8,<5.0)
+xsynth,0.0.3,1,qdbase
+xiblint,0.10.4,1,defusedxml (>=0.5.0)
+xtal,0.9.2,1,numpy (>=1.15.0)
+x-net-django-color-field,1.0.1,1,Django (>=2.2.17)
+xtalpi,0.0.1,1,Click (>=7.0)
+xicam-threadmonitor,0.1.0,1,qtpy
+xnatpytools,0.7.0,1,xnat
+xnatjsession,0.3,1,requests (>=2.18.4)
+xnat-access,0.6,1,requests (>=2.21,<3.0)
+x-captcha,0.4.200808,1,Pillow
+xicsrt-contrib,0.7.0,1,xicsrt
+xtea,0.7.1,1,pep272-encryption (>=0.3)
+xtea3,1.0.0,1,xtea (>=0.7.1)
+xtea4,0.6.1,1,pep272-encryption
+xcamera,2020.613,1,kivy-garden.xcamera
+xmz-env,0.0.4,1,gym
+xterm,0.7.3,1,Pillow
+xbwt,0.0.7,1,numpy
+xignitegh,0.2.1,1,requests (>=2)
+xmscore,3.0.2,1,numpy
+xt-flaskapidocs,0.1.0,1,Flask
+xmrto-wrapper,0.3.0,1,requests (>=2.23.0)
+xbox-smartglass-stump,1.10.0,1,xbox-smartglass-core
+xbox-smartglass-rest,1.10.0,1,xbox-smartglass-core
+xbox-smartglass-auxiliary,1.10.0,1,xbox-smartglass-core
+xmptools,0.5.3,1,rdfhelpers (>=0.2.4)
+xindi-lib,0.1.2,1,ipaddress
+xlsclone,0.0.7,1,openpyxl
+xboxapi,2.0.1,1,requests
+xmos-ai-tools-beta,0.1.5.dev20220320,1,numpy (<2.0)
+xmod,1.3.2,1,dek
+xinge,2.0.4,1,requests
+xmm,0.8.0,1,argcomplete
+xblock-review,1.1.5,1,XBlock
+xingyunlib-user-bin,0.0.20201206,1,requests
+xtools,0.1.2,1,requests
+xinput-gui,0.3.1,1,PyGObject
+xblock-prismjs,0.1.4,1,XBlock
+xbktree,0.0.1,1,aitool
+xbi,0.0.0,1,jax (>=0.2.24)
+xtpyapollos,0.0.2,1,pyapollos (>=0.1.5)
+xbee,2.3.2,1,pyserial
+xtract,0.1a3,1,python-magic
+xbcausalforest,0.1.3,1,numpy
+xbart,0.1.8,1,numpy
+xmltojson,2.0.1,1,xmltodict (>=0.12.0,<0.13.0)
+xaynet-sdk-python,0.1.0,1,justbackoff (==0.6.0)
+xayah,0.0.5,1,pydantic (==1.7.3)
+xml-to-df,0.0.6,1,pandas
+xavier-themes,0.0.4,1,requests
+xmlstats-py,1.0.1,1,requests
+xattr,0.10.0,1,cffi (>=1.0)
+xatk,0.2.2,1,python-xlib (>=0.15rc1)
+xt-timeutils,0.2.2,1,arrow
+xatelite,0.1.2,1,flask
+xmlstarlet,1.6.8,1,cffi (>=1.15.0)
+xipctl,0.1.1,1,sndr
+xtyping,0.6.1,1,typing-extensions (>=4.0.0,<5.0.0)
+xmlsec,1.3.13,1,lxml (>=3.8)
+xudoku,1.0.0,1,exact-cover (>=0.4.3,<0.5.0)
+xmlschema,2.1.1,1,elementpath (<4.0.0,>=3.0.0)
+xueanquan,1.1,1,requests
+xml-python,0.4.3,1,attrs
+xul,2.4.1,1,lxml (>=2.0)
+xarray-datatree,0.0.9,1,xarray (>=2022.05.0.dev0)
+xmlmerge,1.1.4,1,pandas (==1.3.4)
+xmle,0.1.24,1,pandas
+xmldt,0.0.6,1,lxml
+xml-dataclasses,0.0.9,1,lxml (>=4.6.3,<5.0.0)
+xunit-tools,0.0.2,1,Jinja2 (==2.10)
+xurl,0.0.5,1,requests
+xarc,0.0.1,1,Click (>=7.0)
+xmlcoll,1.2.0,1,lxml
+xvideos,0.3,1,opencv-python
+xapy,0.0.1,1,requests
+xview,0.0.6,1,more-itertools
+xappt,0.9.3,1,colorama (~=0.4.3)
+xml4h,1.0,1,six
+xapiparser,0.0.15,1,lxml
+xml2html,0.2.0,1,Click (>=6.0)
+xiu,0.0.6,1,codefast
+xivapyi,0.1.0,1,aiohttp (>=3.7.4.post0,<4.0.0)
+xamples,1.0.0,1,examples (>=0.0.2,<0.0.3)
+xixiang,0.3.1,1,requests (>=2.22.0)
+xwindows,0.0.7,1,python-xlib
+xjam,0.9,1,numpy
+xaler,0.1.1,1,click (==6.7)
+xwire-transport,0.1.13,1,xwire.common (>=0.1.0,<0.2.0)
+xmind2testlink,2.0.9,1,xmindparser
+xai-tabular-widget,0.1.0,1,ipywidgets (>=7.0.0)
+xj-database,1.0.0,1,python-alipay-sdk
+xwppy,0.1,1,os
+xj-excel,1.0.2,1,openpyxl
+xj-short-message,1.0.2,1,aliyun-python-sdk-core
+xkcd1172,0.1.0,1,python-xlib (<1,>=0.31)
+xkcd-pass,1.1.3,1,argcomplete
+xx-framework,1.0.1.8,1,redis (>=4.3.4)
+xk-utils,0.0.7,1,redis (>=3.5.3)
+xxhash-cffi,1.3.0,1,cffi
+xlaz,0.7.0,1,tensorflow-checkpoint-reader (>=0.1.2,<0.2.0)
+xxkcd,1.4.0,1,objecttools (>=1.0.1)
+xain-aggregators,0.8.0,1,numpy
+xlwt-fix,1.3.1,1,six
+xai-image-widget,0.1.0,1,ipywidgets (>=7.0.0)
+xlcsv,0.3.0,1,openpyxl (>=3.0.10,<4.0.0)
+xldiff,0.1.0,1,openpyxl
+xled-plus,0.1.33,1,xled
+xycrypto,0.9,1,cryptography (>=2.8)
+xlsxutility,1.1,1,xlsxwriter
+xlsxtpl,0.3.1,1,xltpl (>=0.13)
+xyndra-function-core,0.1.3,1,numpy
+xlhelper,0.1.0,1,openpyxl
+xypath,1.1.1,1,messytables (==0.15.1)
+xlsxtocsv,1.0.4,1,openpyxl
+xacc-vqe,0.1.14,1,xacc (>=0.1.15)
+xlib,0.21,1,six (>=1.10.0)
+xlsx-streaming,1.1.0,1,zipstream (>=1.1.3)
+xlsxreporter,0.1.4,1,xlsxwriter (>=1.1,<2.0)
+xlsxq,0.1.3,1,openpyxl (>=3.0.9,<4.0.0)
+x86bmi,0.0.3,1,numpy
+xyz-appoint,0.0.2,1,django (>=1.11.2)
+xyz-auth,0.1.11,1,django (>=1.11.2)
+xl-link,0.133,1,pandas (>=0.19)
+xyz-browser,0.0.3,1,xyz-util (>=0.1.25)
+xlnet-tensorflow,1.1.2,1,six
+xyzclean,0.0.1,1,peppercorn
+xyz-clockin,0.1.7,1,django (>=1.11.2)
+xyz-comment,0.1.2,1,django (>=1.11.2)
+xyz-common,0.1.5,1,django (>=1.11.2)
+xyz-course,0.1.2,1,django (>=1.11.2)
+xlsx-import-tools,0.1.1,1,openpyxl (>=3.0.9,<4.0.0)
+x509creds,0.10.2,1,cryptography (>=36)
+xyz-deso,0.1.1,1,deso
+xlsxhelper,0.3.1,1,openpyxl
+x5,1.0.0,1,colorama
+xyz-linktree,0.0.2,1,xyz-util (>=0.1.21)
+xyz-media,0.1.5,1,django (>=1.11.2)
+xlog,0.0.3,1,loguru (>=0.5.3)
+xyz-mytraining,0.1.0,1,django (>=1.11.2)
+xlsxdocument,1.3.10,1,openpyxl
+xyz-points,0.1.1,1,django (>=1.11.2)
+xyz-posedetect,0.0.3,1,django (>=1.11.2)
+x3d,4.0.64.2,1,xmlschema
+x2wincur,0.0,1,win2xcur
+x2paddle,1.3.9,1,sympy
+x2embedding,2022.3.16.9.34.14,1,meutils
+xyz-restful,0.1.3,1,django (>=1.11.2)
+xyz-saas,0.1.8,1,django (>=1.11.2)
+xlsxcursor,0.1.8,1,xlsxwriter
+x2c,1.0.0,1,pandas
+xlsx2dfs,0.1.0.post6,1,pandas (>=1.2.4,<2.0.0)
+xls2json,0.1.2,1,xlrd (>=1.2,<2.0)
+xyz-survey,0.1.0,1,django (>=1.11.2)
+xyz-system,0.0.1,1,django (>=1.11.2)
+xls2txt,1.1.1,1,xlrd
+x0m-quickserver,1.0.0,1,termcolor
+xyz-twitter,0.1.10,1,django (>=1.11.2)
+xyz-unionauth,0.1.0,1,django (>=1.11.2)
+xyz-util,0.3.3,1,python-dateutil
+xlscrap,0.1.0,1,openpyxl (>=2.6,<3.0)
+xyz-web3,0.1.17,1,xyz-util (>=0.1.21)
+xyz-wechat,0.1.8,1,django (>=1.11.2)
+x20157576-sns-pkg,0.0.1,1,boto3
+x12-utils,0.3.0,1,pyx12 (>=2.3,<3.0)
+x11util,1.3,1,Xlib

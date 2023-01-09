@@ -1,0 +1,1199 @@
+yolov7-package,0.0.11,62,absl-py (>=1.2.0)$asttokens (>=2.0.8)$backcall (>=0.2.0)$cachetools (>=5.2.0)$certifi (>=2022.6.15)$charset-normalizer (>=2.1.0)$cycler (>=0.11.0)$decorator (>=5.1.1)$executing (>=0.10.0)$fonttools (>=4.35.0)$google-auth (>=2.10.0)$google-auth-oauthlib (>=0.4.6)$grpcio (>=1.47.0)$idna (>=3.3)$ipython (>=8.4.0)$jedi (>=0.18.1)$kiwisolver (>=1.4.4)$Markdown (>=3.4.1)$MarkupSafe (>=2.1.1)$matplotlib (>=3.5.3)$matplotlib-inline (>=0.1.5)$numpy (>=1.23.2)$oauthlib (>=3.2.0)$opencv-python (>=4.6.0.66)$packaging (>=21.3)$pandas (>=1.4.3)$parso (>=0.8.3)$pexpect (>=4.8.0)$pickleshare (>=0.7.5)$Pillow (>=9.2.0)$prompt-toolkit (>=3.0.30)$protobuf (>=3.19.4)$psutil (>=5.9.1)$ptyprocess (>=0.7.0)$pure-eval (>=0.2.2)$pyasn1 (>=0.4.8)$pyasn1-modules (>=0.2.8)$Pygments (>=2.13.0)$pyparsing (>=3.0.9)$python-dateutil (>=2.8.2)$pytz (>=2022.2.1)$PyYAML (>=6.0)$requests (>=2.28.1)$requests-oauthlib (>=1.3.1)$rsa (>=4.9)$scipy (>=1.9.0)$seaborn (>=0.11.2)$six (>=1.16.0)$stack-data (>=0.4.0)$tensorboard (>=2.10.0)$tensorboard-data-server (>=0.6.1)$tensorboard-plugin-wit (>=1.8.1)$thop (>=0.1.1.post2207130030)$torch (>=1.12.1)$torchvision (>=0.13.1)$tqdm (>=4.64.0)$traitlets (>=5.3.0)$typing-extensions (>=4.3.0)$urllib3 (>=1.26.11)$wcwidth (>=0.2.5)$Werkzeug (>=2.2.2)$wget (>=3.2)
+yolov5-e,0.0.1,61,absl-py (==1.0.0)$bleach (==5.0.0)$build (==0.7.0)$cachetools (==5.1.0)$certifi (==2022.5.18)$charset-normalizer (==2.0.12)$colorama (==0.4.4)$commonmark (==0.9.1)$cycler (==0.11.0)$docutils (==0.18.1)$flatbuffers (==2.0)$fonttools (==4.33.3)$google-auth (==2.6.6)$google-auth-oauthlib (==0.4.6)$grpcio (==1.46.1)$idna (==3.3)$importlib-metadata (==4.11.3)$keyring (==23.5.0)$kiwisolver (==1.4.2)$Markdown (==3.3.7)$matplotlib (==3.5.2)$numpy (==1.22.3)$oauthlib (==3.2.0)$onnxruntime (==1.11.1)$opencv-python (==4.5.5.64)$packaging (==21.3)$pandas (==1.4.2)$pep517 (==0.12.0)$Pillow (==9.1.1)$pkginfo (==1.8.2)$protobuf (==3.20.1)$pyasn1 (==0.4.8)$pyasn1-modules (==0.2.8)$Pygments (==2.12.0)$pyparsing (==3.0.9)$python-dateutil (==2.8.2)$pytz (==2022.1)$pywin32-ctypes (==0.2.0)$PyYAML (==6.0)$readme-renderer (==35.0)$requests (==2.27.1)$requests-oauthlib (==1.3.1)$requests-toolbelt (==0.9.1)$rfc3986 (==2.0.0)$rich (==12.4.1)$rsa (==4.8)$scipy (==1.8.1)$seaborn (==0.11.2)$six (==1.16.0)$tensorboard (==2.9.0)$tensorboard-data-server (==0.6.1)$tensorboard-plugin-wit (==1.8.1)$thop (==0.0.31.post2005241907)$tomli (==2.0.1)$tqdm (==4.64.0)$twine (==4.0.0)$typing-extensions (==4.2.0)$urllib3 (==1.26.9)$webencodings (==0.5.1)$Werkzeug (==2.1.2)$zipp (==3.8.0)
+yawast,0.11.0,46,appdirs$asn1crypto$attrs$beautifulsoup4$cached-property$cerberus$certifi$cffi$chardet$colorama$cryptography$distlib$dnspython$first$idna$importlib-metadata$jsonschema$more-itertools$nassl$ordered-set$orderedmultidict$packaging$pep517$pip-shims$plette$psutil$publicsuffixlist$pycparser$pyparsing$python-dateutil$requests$requests-mock$requirementslib$selenium$six$soupsieve$sslyze$tls-parser$toml$tomlkit$urllib3$validator-collection$vistir$wheel$yawast$zipp
+yonlu,1.1.20,39,cython$seqeval$pytorch-crf$numpy$sklearn-crfsuite$gensim$konlpy$krwordrank$lxml$matplotlib$networkx$node2vec$bs4$pycrfsuite-spacing$scikit-learn$scipy$seaborn$soynlp$torch$tomotopy$pyLDAvis$wordcloud$nltk$newspaper3k$selenium$soylemma$bokeh$tensorflow-estimator (>=2.4.0)$tensorflow (>=2.4.1)$beautifulsoup4$benepar (>=0.2.0)$boto3$kobert-transformers$treform$openai$pytorch-ignite$fire$pytorch-lightning$streamlit
+ytd,0.0.1,37,absl-py (>=0.8.1)$astor (>=0.8.0)$Click (>=7.0)$gast (>=0.3.2)$google-pasta (>=0.1.7)$grpcio (>=1.24.1)$h5py (>=2.10.0)$itsdangerous (>=1.1.0)$Jinja2 (>=2.10.3)$Keras-Applications (>=1.0.8)$Keras-Preprocessing (>=1.1.0)$Markdown (>=3.1.1)$MarkupSafe (>=1.1.1)$numpy (>=1.17.2)$opencv-python$Pillow (>=6.2.0)$protobuf (>=3.10.0)$six (>=1.12.0)$tensorboard (==2.5.0)$tensorflow (==2.5.0)$tensorflow-estimator (==2.5.0)$termcolor (==1.1.0)$Werkzeug (==0.16.0)$wincertstore (==0.2)$wrapt (>=1.11.2)$tf-slim$gdown$Cython$PyYAML (>=5.3)$tqdm (>=4.41.0)$scipy (>=1.4.1)$torch (==1.8.2+cpu)$torchvision (==0.9.2+cpu)$fvcore$cloudpickle$pandas$seaborn
+ytube-video-downloader,1.0.1,27,aiohttp (==3.8.1)$aiosignal (==1.2.0)$async-timeout (==4.0.2)$attrs (==22.1.0)$cachetools (==5.2.0)$certifi (==2022.6.15)$charset-normalizer (==2.1.0)$fake-useragent (==0.1.11)$frozenlist (==1.3.1)$google-api-core (==2.8.2)$google-api-python-client (==2.57.0)$google-auth (==2.10.0)$google-auth-httplib2 (==0.1.0)$googleapis-common-protos (==1.56.4)$httplib2 (==0.20.4)$idna (==3.3)$multidict (==6.0.2)$protobuf (==4.21.5)$pyasn1 (==0.4.8)$pyasn1-modules (==0.2.8)$pyparsing (==3.0.9)$requests (==2.28.1)$rsa (==4.9)$six (==1.16.0)$uritemplate (==4.1.1)$urllib3 (==1.26.11)$yarl (==1.8.1)
+youtube-django,0.2.1,24,cachetools (==2.1.0)$certifi (==2018.8.24)$chardet (==3.0.4)$Django (>=1.11)$google-api-python-client (==1.7.4)$google-auth (==1.5.1)$google-auth-httplib2 (==0.0.3)$google-auth-oauthlib (==0.2.0)$httplib2 (==0.11.3)$idna (==2.7)$jsonpickle (==1.0)$oauth2client (==4.1.3)$oauthlib (==2.1.0)$pyasn1 (==0.4.4)$pyasn1-modules (==0.2.2)$pytz (==2018.5)$requests (==2.19.1)$requests-oauthlib (==1.0.0)$rsa (==4.0)$six (==1.11.0)$Unipath (==1.1)$uritemplate (==3.0.0)$urllib3 (==1.23)$mkdocs (==1.0.4)
+yuan-tool,2.57,21,requests (>=2.25)$lxml (>=4.5.2)$IPy (>=1.01)$PyYAML (>=5.4.1)$paramiko$colorama$pycryptodome$ruamel.yaml$redis$pymongo$pymysql$kafka-python$elasticsearch (==7.16)$DBUtils$pyDes$Crypto$dnspython$tld$psutil$cchardet$pika
+yaltai,0.0.1rc5,21,Pillow (>=7.1.2)$PyYAML (>=5.3.1)$click (>=8.0.4)$kraken (==4.1.2)$matplotlib (>=3.2.2)$mean-average-precision (==2021.4.26.0)$numpy (>=1.18.5)$opencv-python (>=4.1.1)$pandas (>=1.1.4)$protobuf (<3.20)$protobuf (<=3.20.1)$psutil$requests (>=2.23.0)$scipy (>=1.4.1)$seaborn (>=0.11.0)$tabulate (~=0.8.10)$tensorboard (>=2.4.1)$thop (>=0.1.1)$torch (<=1.11.0)$torchvision (~=0.12.0)$tqdm (>=4.64.0)
+ywh2bt,2.7.2,20,aiosnow (>=0.6.0,<0.7.0)$beautifulsoup4 (>=4.9.3,<5.0.0)$html2text (>=2020.1.16,<2021.0.0)$jira (>=3.2.0,<3.3.0)$lxml (>=4.5.2,<5.0.0)$markdown (>=3.3.3,<4.0.0)$PyGithub (>=1.53,<2.0)$PySide2 (>=5.15.1,<6.0.0)$python-gitlab (>=2.5.0,<3.0.0)$requests (>=2.24.0,<3.0.0)$requests-toolbelt (>=0.9.1,<0.10.0)$ruamel.yaml (>=0.16.12,<0.17.0)$singledispatchmethod (>=1.0,<2.0)$typing-extensions$types-Markdown$types-chardet$types-requests$types-setuptools$tomlkit (>=0.7.0,<0.8.0)$yeswehack (>=0.7.2,<1)
+yandex2lightroom,1.0.9.3,19,marshmallow-enum (<2.0,>=1.5.1)$beautifulsoup4 (<5.0,>=4.10.0)$certifi (<2022,>=2021.10.8)$chardet (<5.0,>=4.0.0)$dataclasses (<1.0,>=0.6)$dataclasses-json (<1.0,>=0.5.6)$idna (<4.0,>=3.3)$lxml (<5.0,>=4.6.3)$marshmallow (<4.0,>=3.2)$mypy-extensions (<1.0,>=0.4.3)$requests (<3.0,>=2.26.0)$selenium (<5.0,>=4.0.0)$selenium-wire (<5.0,>=4.5.4)$soupsieve (<3.0,>=2.1)$stringcase (<2.0,>=1.2.0)$typing (<4.0,>=3.7.4)$typing-extensions (<4.0,>=3.10.0.2)$typing-inspect (<1.0,>=0.6.0)$urllib3 (<2.0,>=1.26.7)
+yawgbot,0.0.6,19,beautifulsoup4==4.11.1$certifi==2022.6.15$charset-normalizer==2.1.1$click==8.1.3$flask==2.2.2$greenlet==1.1.3$idna==3.3$itsdangerous==2.1.2$jinja2==3.1.2$markupsafe==2.1.1$platformdirs==2.5.2$python-dotenv==0.21.0$pyyaml==6.0$requests==2.28.1$soupsieve==2.3.2.post1$sqlalchemy-utils==0.38.3$sqlalchemy==1.4.41$urllib3==1.26.12$werkzeug==2.2.2
+ytmdl,2022.3.16,19,yt-dlp (>=2022.03.08.1)$mutagen$itunespy$requests$colorama$bs4$downloader-cli$pyxdg$ffmpeg-python$pysocks$unidecode$youtube-search-python$pyDes$urllib3$simber$rich$musicbrainzngs$ytmusicapi$spotipy
+yolov5,6.2.3,19,matplotlib (>=3.2.2)$numpy (>=1.18.5)$opencv-python (>=4.1.1)$Pillow (>=7.1.2)$PyYAML (>=5.3.1)$requests (>=2.23.0)$scipy (>=1.4.1)$torch (>=1.7.0)$torchvision (>=0.8.1)$tqdm (>=4.64.0)$tensorboard (>=2.4.1)$pandas (>=1.1.4)$seaborn (>=0.11.0)$ipython$psutil$thop (>=0.1.1)$fire$boto3 (>=1.19.1)$sahi (>=0.10.5)
+yodo1-toolkit,0.3.8,19,pydantic (<2.0,>=1.8.1)$sqlalchemy (<2.0,>=1.3.23)$pymysql (<2,>=1.0.2)$psutil$elastic-apm$aio-pika (<7,>=6.8.0)$pika (<1.3,>=1.2.0)$fastapi (<1,>=0.63.0)$pyjwt[crypto] (<3,>=2.1.0)$requests (<3,>=2.25.1)$httpx[http2]$pretty-errors (<2,>=1.2.20)$colorlog (<7,>=6.6.0)$tenacity$types-aiofiles$types-cachetools$types-orjson$types-requests$types-ujson
+yangke,1.13.1,18,pandas (>=1.3.0)$pyyaml (>=5.2)$json5 (>=0.8.5)$dill (>=0.3.3)$babel (>=2.9)$pathlib2$pillow (>=7.0.0)$cmake$loguru$apscheduler$matplotlib (>=3.5.0)$openpyxl (>3)$pyKriging$opencv-python$psutil$markupsafe (>=2.1.1)$pyecharts$iapws (>=1.5)
+youml,0.6.0,18,xlrd$tqdm$apsw$blist$cycler$psutil$slugify$urllib3$requests$openpyxl$pycryptodome$scikit-learn-intelex (==2021.4.0)$scikit-learn (==0.24.2)$matplotlib (==3.4.2)$pandas (==1.3.2)$numpy (==1.20.3)$scipy (==1.7.1)$pyqt5 (==5.9.2)
+yggdrasil-framework,1.8.3,17,chevron$flask$jsonschema (==3.2.0)$matplotlib$numpy (>=1.13.0)$pandas$pyperf$psutil$python-rapidjson$pyyaml$pyzmq$requests$scipy$six$unyt$GitPython$sysv-ipc ; platform_system != "Windows"
+yby-list,0.0.1,17,pyqt5$h5py$mayavi$numpy$scipy$pandas$glob2$jupyter$jupyterlab$matplotlib$openpyxl$sklearn$scikit-opt$tqdm$torch$tensorboard$vtk
+yeoboseyo,0.7.0,17,Mastodon.py (==1.5.1)$aiofiles (==0.7.0)$aiosqlite (==0.17.0)$arrow (==1.2.1)$databases (==0.5.3)$feedparser (==6.0.8)$httpx (==0.20.0)$jinja2 (==3.0.2)$orm (==0.2.1)$pypandoc (==1.6.4)$python-multipart (==0.0.5)$python-slugify (==5.0.2)$rich (==10.12.0)$starlette (==0.16.0)$typesystem (==0.4.0)$uvicorn (==0.15.0)$wallabagapi (==1.3.2)
+yastyleguide,0.1.0,17,flake8 (>=4.0.1,<5.0.0)$flake8-bugbear (>=22.4.25,<23.0.0)$flake8-comprehensions (>=3.9.0,<4.0.0)$flake8-docstrings (>=1.6.0,<2.0.0)$flake8-eradicate (>=1.2.1,<2.0.0)$flake8-isort (>=4.1.1,<5.0.0)$pep8-naming (>=0.12.1,<0.13.0)$flake8-string-format (>=0.3.0,<0.4.0)$flake8-bandit (>=3.0.0,<4.0.0)$flake8-builtins (>=1.5.3,<2.0.0)$pandas-vet (>=0.2.3,<0.3.0)$flake8-black (>=0.3.3,<0.4.0)$flake8-expression-complexity (>=0.0.11,<0.0.12)$flake8-annotations-complexity (>=0.0.7,<0.0.8)$flake8-requirements (>=1.5.3,<2.0.0)$nitpick (>=0.32.0,<0.33.0)$black (>=22.3.0,<23.0.0)
+yoloair,2022.8.23,16,torch (<1.12)$PyYAML (>=5.3.1)$tqdm (>=4.41.0)$matplotlib (>=3.2.2)$numpy (>=1.18.5)$opencv-python (>=4.1.2)$Pillow (>=7.1.2)$requests (>=2.23.0)$torchvision (>=0.8.1)$tensorboard (>=2.4.1)$pandas (>=1.1.4)$seaborn (>=0.11.0)$thop (>=0.1.1,<0.2.0)$flops (>=0.1.4,<0.2.0)$computation$timm (>=0.6.7,<0.7.0)
+yangsuite,2.9.3,16,setuptools$wheel$appdirs (<2.0.0,>=1.4.3)$python-json-logger (>0.1.10)$python-slugify (<5.0.0,>=4.0.0)$packaging (>=19.0)$whitenoise (<5.0.0,>=4.1.2)$PyGithub (<2.0)$docutils$markupsafe (<2.1)$django (<3)$django-registration (<4,>=3)$yangsuite-devices$yangsuite-filemanager$yangsuite-netconf$yangsuite-yangtree
+youtube-synopsis,1.0.0,16,certifi (==2020.12.5)$h11 (==0.12.0)$httpcore (==0.12.3)$httpx (==0.17.1)$idna (==3.1)$joblib (==1.0.1)$numpy (==1.20.1)$opencv-python (==4.5.1.48)$progress (==1.5)$rfc3986 (==1.4.0)$scikit-learn (==0.24.1)$scipy (==1.6.1)$sniffio (==1.2.0)$threadpoolctl (==2.1.0)$youtube-dl (==2021.3.14)$youtube-search-python (==1.4.2)
+yams-cli,3.2.4,16,requests (==2.27.1)$configparser (==5.2.0)$cryptography (==36.0.2)$py (==1.11.0)$docopt (==0.6.2)$injector (==0.19.0)$pycryptodome (==3.14.1)$python-jose (==3.3.0)$ecdsa (==0.17)$python-dateutil (==2.8.1)$pytz$setuptools (==62.0.0)$wheel (==0.37.1)$twine (==4.0.0)$cmarkgfm$tqdm
+yolov5facedetector,1.0.2,16,thop (>=0.0.31.post2005241907)$scipy (>=1.7.2)$seaborn (>=0.11.1)$joblib (>=1.0.1)$matplotlib (>=3.4.3)$torch (>=1.10.1+cu113)$pandas (>=1.3.4)$opencv-python (>=4.5.3.56)$tqdm (>=4.62.3)$numpy (>=1.20.3)$torchvision (>=0.11.2+cu113)$requests (>=2.25.1)$onnx (>=1.10.2)$Pillow (>=9.0.0)$PyYAML (>=6.0)$wandb (>=0.12.9)
+yodapy,0.3.0b0,16,requests$pandas$xarray$matplotlib$lxml$grequests$gevent$gspread$siphon$dask$seaborn$netcdf4$oauth2client$progressbar2$s3fs$echopype
+yapapi,0.9.3,16,aiohttp (>=3.6,<4.0)$aiohttp-sse-client (>=0.1.7,<0.2.0)$dataclasses (>=0.8,<0.9); python_version >= "3.6" and python_version < "3.7"$more-itertools (>=8.6.0,<9.0.0)$urllib3 (>=1.25.9,<2.0.0)$typing_extensions (>=3.10.0,<4.0.0)$async_exit_stack (>=1.0.1,<2.0.0)$jsonrpc-base (>=1.0.3,<2.0.0)$ya-aioclient (>=0.6.3,<0.7.0)$toml (>=0.10.1,<0.11.0)$srvresolver (>=0.3.5,<0.4.0)$colorama (>=0.4.4,<0.5.0)$semantic-version (>=2.8,<3.0)$attrs (>=19.3)$Deprecated (>=1.2.12,<2.0.0)$python-statemachine (>=0.8.0,<0.9.0)
+ysda,0.1.9,16,numpy (>=1.22,<2.0)$pandas (>=1.4.0,<2.0.0)$scipy (>=1.7,<2.0)$torch (>=1.11.0,<1.13)$sklearn (>=0.0,<0.1)$wandb (>=0.13.3,<0.14.0)$pytorch-lightning (>=1.6,<1.7)$einops (>=0.4.1,<0.5.0)$numba (>=0.56.2,<0.57.0)$protobuf (==3.19.4)$pytest (>=7.1.3,<8.0.0)$matplotlib (>=3.5.0,<3.6.0)$implicit (>=0.6.1,<0.7.0)$shap (>=0.41.0,<0.42.0)$gradio (>=3.7,<4.0)$catboost (>=1.1,<2.0)
+yourtube,0.7.0,15,networkx (>=2.6.1,<3.0.0)$tqdm (>=4.61.2,<5.0.0)$requests (>=2.26.0,<3.0.0)$matplotlib (>=3.4.2,<4.0.0)$numpy (>=1.21.0,<2.0.0)$ipywidgets (>=7.6.3,<8.0.0)$voila (>=0.2.10,<0.3.0)$magic-wormhole (>=0.12.0,<0.13.0)$python-dateutil (>=2.8.2,<3.0.0)$krakow (>=0.1.2,<0.2.0)$scipy (>=1.7.0,<2.0.0)$youtube-transcript-api (>=0.4.1,<0.5.0)$pickleDB (>=0.9.2,<0.10.0)$sklearn (>=0.0,<0.1)$ipyvuetify (>=1.8.1,<2.0.0)
+yadage-fork,0.11.0,15,adage$checksumdir$click$functools32$glob2$jq$jsonpath-rw$jsonpointer (>=1.10)$jsonref$jsonschema$packtivity$psutil$pyyaml$requests[security] (>=2.9)$yadage-schemas
+yuan,1.0.9,15,sanic$tqdm$wrapt$jieba$keras$lightgbm$catboost$rgf-python$bayesian-optimization$statsmodels$tables$eli5$shap$seaborn$jovian
+yinstabot,2.5.3,15,ypackage$certifi$chardet$huepy$idna$lazy$post$public$pytz$query$requests$six$tqdm$urllib3$wrapt
+yacu,1.1.0,15,PyQt5 (>=5.15.6)$art (==5.5)$cryptocmd$matplotlib (>=3.5.1)$numpy (>=1.22.2)$pandas (==1.3.5)$pyqt5 (>=5.15.6)$pyqtgraph (==0.12.4)$pyside6 (>=6.2.4)$requests (==2.27.1)$scikit-learn (==1.0.2)$skforecast (>=0.4.1)$sphinx-rtd-theme$sphinxawesome-theme$tk-tools (>=0.15.0)
+youtube-tts-data-generator,0.2.1,14,librosa (==0.7.2)$youtube-dl$tqdm$pandas$pydub$scikit-learn (==0.19.2)$webrtcvad$scipy (>=1.0.0)$numba (==0.48)$inflect$numpy (>=1.14.0)$unidecode (==0.4.20)$vtt-to-srt3$youtube-transcript-api (>=0.4.1)
+yt,4.1.1,14,cmyt (>=0.2.2)$ipywidgets (>=8.0.0)$matplotlib (!=3.4.2,>=3.1)$more-itertools (>=8.4)$numpy (>=1.14.5)$packaging (>=20.9)$pillow (>=6.2.0)$pyparsing (>=2.0.2)$tomli-w (>=0.4.0)$tqdm (>=3.4.0)$unyt (<3.0,>=2.8.0)$tomli (>=1.2.3) ; python_version < "3.11"$importlib-metadata (>=1.4) ; python_version < "3.8"$typing-extensions (>=4.2.0) ; python_version < "3.8"
+yadocgen,0.1.5,14,click$pypandoc$anytree$bunch$jinja2$pyyaml$sphinx$myst-parser$linkify-it-py$karma-sphinx-theme$sphinxcontrib-bibtex$numpy$matplotlib$numpydoc
+yaqc-cmds,2022.3.0,14,appdirs$attune$click$numexpr$pyqtgraph$pyside2$pyserial$qtpy$slackclient<2$slacker$sympy$toml$wrighttools$yaqc
+yyperf,0.6.7.dev42,14,tornado (>=4.3)$six$pillow$logzero$cached-property$psutil$requests$pynvml$wmi$uiautomator2 (>=2.10.1)$facebook-wda (>=1.0.5)$py-ios-device (==2.2.3.1)$tidevice (==0.6.8)$pywin32 ; (sys_platform == 'win32')
+yifeif-tensorflow-graphics,2020.6.11,14,OpenEXR (>=1.3.2)$absl-py (>=0.6.1)$h5py (>=2.10.0)$matplotlib (>=2.2.5)$networkx$numpy (>=1.15.4)$psutil (>=5.7.0)$scipy (>=1.1.0)$tensorflow-addons (>=0.10.0)$tensorflow-datasets (>=2.0.0)$tensorflow (>=2.2.0)$termcolor (>=1.1.0)$tqdm (>=4.45.0)$trimesh (>=2.37.22)
+y5gg,6.0.7,14,matplotlib (==3.3.4)$numpy (==1.19.5)$opencv-python (==4.2.0.34)$Pillow (==8.4.0)$PyYAML (==5.4.1)$requests (==2.24.0)$scipy (==1.5.4)$torch (==1.7.0)$torchvision (==0.8.1)$tqdm (==4.62.3)$tensorboard (==2.7.0)$pandas (==1.1.5)$seaborn (==0.11.2)$thop
+y5facegg,1.0.1,14,matplotlib (==3.3.4)$numpy (==1.19.5)$opencv-python (==4.2.0.34)$Pillow (==8.4.0)$PyYAML (==5.4.1)$requests (==2.24.0)$scipy (==1.5.4)$torch (==1.7.0)$torchvision (==0.8.1)$tqdm (==4.62.3)$tensorboard (==2.7.0)$pandas (==1.1.5)$seaborn (==0.11.2)$thop
+yojenkins,0.0.75,14,click-help-colors (==0.9.1)$click (==8.1.3)$coloredlogs (==15.0.1)$docker (==6.0.1)$json2xml$python-jenkins (==1.8.0.0a0)$PyYAML (==6.0)$requests-futures (==1.0.0)$toml (==0.10.2)$xmltodict$pywin32 ; platform_system == "Windows"$pypiwin32 ; platform_system == "Windows"$simpleaudio (==1.0.4) ; sys_platform != "win32"$windows-curses ; sys_platform == "win32"
+yourbase,7.1.3,14,asttokens$backports-abc$boto3$coverage (>=5)$pastel$python-dateutil (>=2.7)$requests$six$backports.tempfile ; python_version < "3"$enum34 ; python_version < "3"$functools32 ; python_version < "3"$pathlib ; python_version < "3"$typing ; python_version < "3"$more-itertools (!=8.11.0,>=4.0.0) ; python_version < "3.6"
+yank,1.0.0,13,arrow (>=1.1.0,<2.0.0)$beautifulsoup4 (>=4.9.3,<5.0.0)$inflect (>=5.3.0,<6.0.0)$lxml (>=4.6.3,<5.0.0)$requests (>=2.25.1,<3.0.0)$rich (>=10.1.0,<11.0.0)$selenium (>=3.141.0,<4.0.0)$selenium-wire (>=4.2.4,<5.0.0)$SQLAlchemy (>=1.4.11,<2.0.0)$tldextract (>=3.1.0,<4.0.0)$undetected-chromedriver (>=2.2.1,<3.0.0)$webdriver-manager (>=3.4.0,<4.0.0)$xlwt (>=1.3.0,<2.0.0)
+yaxit,0.1.0,13,click$pandas (>=1.2.4,<2.0.0)$h5py (>=3.2.1,<4.0.0)$xarray (>=0.17.0,<0.18.0)$pathlib (>=1.0.1,<2.0.0)$xpublish (>=0.1.0,<0.2.0)$matplotlib (>=3.4.1,<4.0.0)$bokeh (>=2.3.1,<3.0.0)$aiohttp (>=3.7.4,<4.0.0)$requests (>=2.25.1,<3.0.0)$tables (>=3.6.1,<4.0.0)$numpy (>=1.20.2,<2.0.0)$xrviz (>=0.1.4,<0.2.0)
+yapayzeka,0.0.22,13,beautifulsoup4 (==4.7.1)$joblib (==0.13.2)$numpy (==1.15.1)$pandas (==0.24.0)$path.py (==11.5.0)$pathlib2 (==2.3.3)$pymongo (==3.7.2)$scikit-image (==0.14.0)$scikit-learn (==0.19.2)$scipy (==1.1.0)$snowballstemmer (==1.2.1)$TurkishStemmer (==1.3)$urllib3 (==1.24.1)
+yqn-project-pro,0.0.4,13,DBUtils (>=2.0)$Flask (>=1.1.2)$Flask-Compress (>=1.8.0)$Flask-Cors (>=3.0.10)$flask-restx (>=0.2.0)$PyMySQL (>=1.0.2)$pyodps (>=0.10.6)$requests (>=2.25.1)$requests-toolbelt (>=0.9.1)$termcolor (>=1.1.0)$gevent (>=20.9.0)$gunicorn (>=20.0.4)$cryptography (>=3.2.1)
+yangsuite-coverage,2.3.13,12,yangsuite (<3.0.0,>=2.0.0)$yangsuite-yangtree (>=2.0.0)$yangsuite-filemanager (<2.0.0,>=1.5.0)$yangsuite-devices (<3.0.0,>=2.0.0)$yangsuite-netconf (<2.0.0,>=1.0.0)$requests (<3.0)$docker (<5.0.0)$pandas (<2.0.0)$elasticsearch (<8.0.0)$markupsafe (<2.1.0)$openpyxl$xlsxwriter
+you-dl,1.4.1,12,PyInquirer$click$halo$humanfriendly$pafy$prompt-toolkit (==1.0.14)$pyfiglet$pyperclip$regex$rich$youtube-dl$youtube-search-python
+ymp,0.2.1,12,snakemake (>=5.20.1)$Click$Click-completion$ruamel.yaml (>0.15)$drmaa$pandas (>=0.20)$xlrd$coloredlogs$xdg$tqdm (>4.21)$aiohttp$tqdm (>=4.21.0)
+yandex-taxi-testsuite,0.1.6.4,12,PyYAML (>=3.13)$aiohttp (>=3.5.4)$yarl (!=1.6,>=1.4.2)$pytest-aiohttp (>=0.3.0)$pytest (>=4.5.0)$python-dateutil (>=2.7.3)$pytz (>=2018.5)$uvloop (>=0.12.1)$pymongo (>=3.7.1)$cached-property (>=1.5.1)$contextlib2 ; python_version < "3.7"$dataclasses ; python_version < "3.7"
+yadg,4.2.1,12,numpy$scipy$pint$pyyaml$uncertainties$striprtf$tzlocal$packaging$python-dateutil$openpyxl (>=3.0.0)$requests$dgbowl-schemas (>=111)
+yikit,0.3.15,12,scikit-learn (>=0.24.1)$numpy$pandas$tqdm$lightgbm$joblib$Boruta (==0.3)$scipy$optuna$matplotlib$seaborn$ngboost (==0.3.6)
+yap-styleguide,0.0.2,12,bandit (>=1.7.0,<2.0.0)$black (>=20.8b1,<21.0)$darglint (>=1.5.8,<2.0.0)$flake8 (>=3.8.4,<4.0.0)$flake8-annotations (>=2.5.0,<3.0.0)$flake8-bandit (>=2.1.2,<3.0.0)$flake8-black (>=0.2.1,<0.3.0)$flake8-bugbear (>=20.11.1,<21.0.0)$flake8-docstrings (>=1.5.0,<2.0.0)$flake8-import-order (>=0.18.1,<0.19.0)$flake8-isort (>=4.0.0,<5.0.0)$importlib-metadata (>=1.5.0,<2.0.0); python_version < "3.8"
+yqn-project-cli,0.0.0rc89,12,DBUtils (>=2.0)$Flask (>=1.1.2)$Flask-Compress (>=1.8.0)$Flask-Cors (>=3.0.10)$flask-restx (>=0.2.0)$PyMySQL (>=1.0.2)$pyodps (>=0.10.6)$requests (>=2.25.1)$requests-toolbelt (>=0.9.1)$termcolor (>=1.1.0)$gevent (>=20.9.0)$gunicorn (>=20.0.4)
+yolo,0.3.2,12,awscli$boto3$botocore (>=1.7.18)$click$docker (==3.4.0)$jinja2$keyring (==8.7.0)$keyrings.alt$requests$ruamel.yaml$tabulate$voluptuous
+yolo-extension,0.3.7,12,awscli$boto3$botocore (>=1.7.18)$click$docker (==3.4.0)$jinja2$keyring (==8.7.0)$keyrings.alt$requests$ruamel.yaml$tabulate$voluptuous
+yopo,0.0.21,12,MarkupSafe (>=2.0)$jupyter-dash$click (>=7.1.2)$ipython$jupyter$wtforms$dash (==2.0.0)$dash-daq$pandas$numpy$dash-bootstrap-components$pyngrok
+yolov5-icevision,6.0.0,12,Cython$matplotlib (>=3.2.2)$numpy (>=1.18.5)$opencv-python (>=4.1.2)$Pillow$PyYAML (>=5.3.1)$scipy (>=1.4.1)$tensorboard (>=2.2)$torch (>=1.7.0)$torchvision (>=0.8.1)$tqdm (>=4.41.0)$seaborn (>=0.11.0)
+yqn-pytorch-framework,0.3.0,12,opencv-python (>=4.2.0.32)$numpy (>=1.18.2)$torch (>=1.6.0)$torchvision (>=0.7.0)$nvidia-ml-py3 (>=7.352.0)$setuptools (>=41.2.0)$oss2 (>=2.13.0)$Pillow (>=6.2.0)$jieba (>=0.39)$pynvml (>=8.0.4)$PyYAML (>=5.3)$requests (>=2.18.4)
+yt2mp3,1.2.4,11,beautifulsoup4 (==4.6.3)$colorama (==0.4.1)$curses-menu (==0.5.0)$itunespy (==1.5.5)$lxml (==4.2.5)$mutagen (==1.42.0)$Pillow (==5.3.0)$pydub (==0.23.0)$requests (==2.21.0)$setuptools (==40.6.3)$youtube-dl (==2018.12.17)
+ybckit,0.0.55,11,easygui$pathlib$matplotlib$mpld3$openpyxl$jinja2$ybc-box$pyaudio$wave$ybc-speech$ybc-face
+yaqc-qtpy,2022.6.0,11,yaqd-core>=2020.06.3$yaqc$yaq-traits$yaqd-control$click$qtpy$qtypes>=2022.6.0$pyqtgraph$pyside2$numpy$qtconsole
+youwol,0.0.2,11,cowpy (==1.1.0)$aiohttp (==3.7.3)$fastapi (==0.63.0)$uvicorn (==0.13.3)$python-multipart (==0.0.5)$async (==0.6.2)$websockets (==8.1)$watchgod (==0.7)$aiofiles (==0.6.0)$async-generator (==1.10)$pillow (==8.1.0)
+yolort,0.6.3,11,matplotlib (>=3.2.2)$numpy (>=1.18.5)$Pillow (>=8.0.0)$PyYAML (>=5.3.1)$scipy (>=1.4.1)$tqdm (>=4.41.0)$onnx (>=1.8.0)$ipython$tabulate$pandas$thop
+yagura,0.12.0,11,Django (>=2.0)$django-bulma$django-registration (>=3.0)$django-templated-email$django-crontab$django-environ$pyasn1$social-auth-app-django$slackweb$aiohttp (<3.5.0)$requests
+yosai,0.3.2,11,cbor2$PyYAML$python-dateutil$pytz$PyPubSub$argon2-cffi$bcrypt$passlib$cryptography$msgpack-python$python-rapidjson
+yo-fluq-ds,1.1.11,11,pandas$matplotlib$numpy$tqdm$seaborn$pyaml$jsonpickle$ipython$ipywidgets$sklearn$yo-fluq (==1.1.11)
+ymir-cmd,2.0.0,11,Pillow (==8.2.0)$fasteners (==0.16.3)$lmdb (==1.3.0)$numpy (==1.22.0)$protobuf (==3.18.1)$pydantic (==1.9.0)$pyyaml (==5.4.1)$requests (==2.25.1)$retry (==0.9.2)$tensorboardX (==2.4.1)$xmltodict (==0.12.0)
+yahoo-fb-stat-analysis,6.0.3,11,yahoo-oauth$yahoo-fantasy-api$MLB-StatsAPI$pandas$datetime$lxml$python-dateutil$setuptools$requests$pip$PyYAML
+yehua,0.1.4,11,Jinja2$moban (>=0.6.0)$colorful$rich$readchar$colorama$moban-jinja2-github (>=0.0.2)$moban-ansible$ruamel.yaml (>=0.15.5) ; python_version != '3.4' and python_version < '3.7'$ruamel.yaml (>=0.15.42) ; python_version == '3.7'$ruamel.yaml (>=0.15.98) ; python_version == '3.8'
+yolov5processor,1.2,10,Cython$matplotlib$numpy$pillow$PyYAML$scipy (>=1.4.1)$tensorboard$tqdm$torch (==1.9.0)$torchvision (==0.10.0)
+ybt,0.3.72,10,argcomplete$colorama$ConfigArgParse$GitPython$munch$networkx (>=2.0)$ostrichlib$requests (>=2.18.0)$scandir$google-cloud-storage
+yfs,0.3.2,10,loguru (>=0.5.2,<0.6.0)$pydantic (>=1.6.1,<2.0.0)$requests-html (>=0.10.0,<0.11.0)$pendulum (>=2.1.2,<3.0.0)$more_itertools (>=8.5.0,<9.0.0)$pandas (>=1.1.2,<2.0.0)$prompt-toolkit (>=3.0.7,<4.0.0)$enlighten (>=1.6.2,<2.0.0)$requests[socks] (>=2.24.0,<3.0.0)$python-decouple (>=3.3,<4.0)
+yby,0.0.51,10,setuptools$wheel$twine$numpy$pandas$scipy$matplotlib$cryptography$tqdm$glob2
+ytad,0.0.8,10,numpy$jupyter$pandas$python-dotenv$google-api-python-client$google-auth$google-auth-oauthlib$google-auth-httplib2$boto3$pytz
+yolo-labeler,0.0.3,10,wheel$numpy (==1.19.1)$pillow (==7.2.0)$scikit-image (==0.17.2)$torch (==1.6.0)$torchvision (==0.7.0)$tqdm (==4.48.2)$requests (==2.24.0)$scipy (==1.5.2)$pymatting (==1.0.6)
+ylib,0.1.0,10,isort (>=4.3.21,<5.0.0)$ipython (>=7.11.1,<8.0.0)$invoke (>=1.4.0,<2.0.0)$tqdm (>=4.41.1,<5.0.0)$py-term (>=0.6,<0.7)$prettytable (>=0.7.2,<0.8.0)$pytest-cov (>=2.8.1,<3.0.0)$flake8 (>=3.7.9,<4.0.0)$autopep8 (>=1.5,<2.0)$toml (>=0.10.0,<0.11.0)
+yuntu,0.1.1,10,numpy$pandas$flask$pytz$dask$librosa$pysqlite3$psycopg2$pymongo$matplotlib
+yetanotherpicsearch,1.7.2,10,PicImageSearch (>=3.7.2,<4.0.0)$aiohttp[speedups] (>=3.8.3,<4.0.0)$arrow (>=1.2.3,<2.0.0)$cachetools (>=5.2.0,<6.0.0)$diskcache (>=5.4.0,<6.0.0)$nonebot-adapter-onebot (>=2.1.3,<3.0.0)$nonebot2 (>=2.0.0-rc.1,<3.0.0)$pyquery (>=1.4.3,<2.0.0)$tenacity (>=8.1.0,<9.0.0)$yarl (>=1.8.1,<2.0.0)
+yo-ds,1.1.11,10,pandas$matplotlib$numpy$tqdm$seaborn$pyaml$jsonpickle$ipython$ipywidgets$yo-fluq-ds (==1.1.11)
+yt-spam-purge,3.0.0a4,10,google-api-python-client (>=2.36.0,<3.0.0)$google-auth-oauthlib (>=0.4.6,<0.5.0)$python-Levenshtein (>=0.12.2,<0.13.0)$confusables (>=1.2.0,<2.0.0)$typer (>=0.4.0,<0.5.0)$trio (>=0.19.0,<0.20.0)$anyio (>=3.5.0,<4.0.0)$rich (>=11.1.0,<12.0.0)$rtfunicode (>=2.0,<3.0)$tld (>=0.12.6,<0.13.0)
+yapi-ci,0.1.7,10,certifi (>=2019.9.11)$chardet (>=3.0.4)$flatten-json (>=0.1.7)$idna (>=2.8)$python-box (>=3.4.5)$PyYAML (>=5.1.2)$requests (>=2.22.0)$requests-toolbelt (>=0.9.1)$six (>=1.13.0)$urllib3 (>=1.25.6)
+ydata-synthetic,0.8.0,10,pandas (==1.4.*)$numpy (==1.23.*)$scikit-learn (==1.1.*)$matplotlib (==3.5.*)$tensorflow (==2.9.0)$easydict (==1.9)$pmlb (==1.0.*)$tqdm (<5.0)$typeguard (==2.13.*)$pytest (==6.2.*)
+yaaf,1.1.0,10,numpy$matplotlib$gym$torch$torchvision$tensorflow$sklearn$pyyaml$pyparsing$tqdm
+yytidevice,0.6.9,10,cached-property$logzero$Pillow$requests$colored$packaging$tornado$simple-tornado (>=0.2.2)$retry$simplejson
+yatta,0.2.4,10,click (>=7.1.2,<8.0.0)$pyfiglet (>=0.8.post1,<0.9)$appdirs (>=1.4.4,<2.0.0)$pandas (>=1.0.3,<2.0.0)$tabulate (>=0.8.7,<0.9.0)$sqlalchemy (>=1.3.17,<2.0.0)$parsedatetime (>=2.5,<3.0)$importlib-metadata (>=1.6.0,<2.0.0)$colorama (>=0.4.3,<0.5.0)$tomlkit (>=0.6.0,<0.7.0)
+youtube2zim,2.1.18,9,python-slugify (==3.0.3)$yt-dlp$python-dateutil (==2.8.0)$jinja2 (<3.0,>=2.11)$MarkupSafe (==2.0.1)$zimscraperlib (<1.9,>=1.8.0)$requests (<3.0,>=2.26.0)$kiwixstorage (<1.0,>=0.8.1)$pif (==0.8.2)
+ydocr,1.2.8,9,onnxruntime$numpy$opencv-python$shapely$pyclipper$pillow$requests$urllib3$six
+ylearn,0.1.3,9,numpy (>=1.16.5)$pandas (>=0.25.3)$scikit-learn (>=0.22.1)$scipy$networkx$ipython$torch$joblib$pydot
+yoti,2.14.1,9,deprecated (==1.2.10)$cryptography (>=2.2.1)$protobuf (==3.13.0)$requests (>=2.11.1)$future (>=0.11.0)$asn1 (==2.2.0)$pyopenssl (>=18.0.0)$iso8601 (==0.1.13)$pytz (==2022.1)
+yoctol-nlu,0.7.1,9,gql-fork (>=0.2.0)$requests (>=2.13.0)$scipy (>=1.0.1)$numpy (>=1.14.2)$matplotlib (==2.2.2)$pandas$pandas (<0.21)$seaborn (>=0.8.1)$scikit-learn (>=0.19.1)
+yabf,2.1.1,9,cached-property$click (>=6.0)$frozendict$getdist$numpy (>=1.6.2)$pyyaml (>=5)$rich$scipy (>=1.0.0)$importlib-metadata ; python_version < "3.8"
+y-tal,0.6.1,9,PyYAML (==6.0)$h5py (==3.6.0)$imageio (==2.19.3)$matplotlib (==3.5.1)$nptyping (==2.1.1)$numba (==0.55.2)$numpy (==1.22.0)$setuptools (==52.0.0)$tqdm (==4.64.0)
+ytopt,0.0.1,9,numpy$scikit-optimize$scikit-learn$tqdm$tensorflow (>=1.11.0)$keras$gym$joblib$mpi4py (>=3.0.0)
+ytam,0.4.5,9,certifi$pytube$chardet$colorama$idna$mutagen$requests$urllib3$python-ffmpeg
+ynab-weekly,1.0.4,9,certifi (>=14.05.14)$six (>=1.10)$python-dateutil (>=2.5.3)$setuptools (>=21.0.0)$urllib3 (>=1.15.1)$jinja2 (>=2.10)$requests$hammock$logzero
+yarm,0.2.1,9,click (>=8.0.1)$PyYAML (>=6.0,<7.0)$strictyaml (>=1.6.1,<2.0.0)$path (>=16.4.0,<17.0.0)$nob (>=0.8.2,<0.9.0)$pandas (>=1.4.3,<2.0.0)$matplotlib (>=3.5.3,<4.0.0)$openpyxl (>=3.0.10,<4.0.0)$python-slugify (>=6.1.2,<7.0.0)
+yuna,1.0.6,9,gdspy$shapely$pyclipper$setuptools$numpy$matplotlib$docopt$future$termcolor
+yoke,0.12.0,9,boto3 (>=1.4.2)$botocore (>=1.4.85)$docker (>=2.0.0)$Jinja2 (>=2.8)$jsonref (>=0.1)$lambda-uploader (>=1.2.0)$retrying (>=1.3.3)$ruamel.yaml (>=0.11.11)$six (>=1.10.0)
+yaramanager,0.2.1,9,SQLAlchemy (>=1.4.2,<2.0.0)$plyara (>=2.1.1,<3.0.0)$yarabuilder (>=0.0.6,<0.0.7)$rich (>=11.2.0,<12.0.0)$alembic (>=1.5.8,<2.0.0)$click (>=8.0.4,<9.0.0)$toml (>=0.10.2,<0.11.0)$requests (>=2.25.1,<3.0.0)$yara-python (>=4.1.3,<5.0.0)
+ya-ecs-ctl,0.3.8,9,click (>=6.6)$boto3 (<1.18,>=1.17)$terminaltables (==3.1.0)$humanize (==0.5.1)$EasySettings (==2.1.0)$prompt-toolkit (==2.0.4)$PyYAML (>=5.3.1)$colored (==1.3.5)$Jinja2 (>=2.8)
+yappa,0.4.28,9,boto3 (>=1.10)$click (>=8.0)$httpx (>=0.18)$yandexcloud (>=0.102.1)$boltons (>=21.0)$idna (<3,>=2.5)$PyYAML (>=5.0)$furl (>=2.0)$pytz (>=2021)
+youtube2text,0.0.9,9,pytube (>=12.0.0)$numpy (<=1.21.5)$pytube (>=11.0.2)$pydub (>=0.25.1)$SpeechRecognition (>=3.8.1)$pandas (>=1.1.5)$ffmpeg-python (>=0.2.0)$librosa (>=0.8.1)$soundfile (<=0.10.3post1)
+your,0.6.7,9,matplotlib (>=3.2.1)$numpy (>=1.18.4)$h5py (>=2.10.0)$scikit-image (>=0.14.2)$scipy (>=1.3.0)$numba (>=0.48.0)$astropy (>=4.0)$pandas (>=1.0.3)$rich (>=8.0)
+yucebio-yc2-adaptor,2.0.3,9,json5$click$requests$pymongo$batchcompute (>=2.1)$PyJWT (~=2.3.0)$ldap3 (~=2.9.1)$importlib-metadata$python-dateutil
+youtube-rss-subscriber,0.0.6,9,beautifulsoup4$click$lxml$opyml$python-dateutil$pyyaml$sqlalchemy$tabulate$youtube-dl
+yaml2,0.0.1,9,BenBotAsync$FortniteAPIAsync$aiohttp$colorama$crayons$fortnitepy$requests$sanic$uvloop (==0.15.2)
+ypricemagic,1.8.21,9,async-lru (==1.0.3)$async-property (==0.2.1)$bobs-lazy-logging (==0.0.4)$cachetools (>=4.1.1)$checksum-dict (>=1.1.1)$dank-mids (>=4.20.10)$eth-brownie (<1.20,>=1.18.1)$eth-retry (<0.2,>=0.1.10)$joblib (>=1.0.1)
+yhy,0.0.23,8,Click$google-cloud-texttospeech$google-cloud-vision$lxml$pillow$prompt-toolkit$pyperclip$requests
+yadc,0.18.0,8,coloredlogs (>=15.0.1,<16.0.0)$fake-useragent (>=0.1.11,<0.2.0)$halo (>=0.0.31,<0.0.32)$numpy (>=1.21.4,<2.0.0)$psutil (>=5.8.0,<6.0.0)$pydantic (>=1.8.2,<2.0.0)$selenium (>=4.0.0,<5.0.0)$undetected-chromedriver (>=3.1.3,<4.0.0)
+yearmaps,0.2.0,8,requests (>=2.27.1,<3.0.0)$click (>=8.0.3,<9.0.0)$matplotlib (>=3.5.1,<4.0.0)$numpy (>=1.22.1,<2.0.0)$PyYAML (>=6.0,<7.0)$index.py (>=0.21.11,<0.22.0)$uvicorn (>=0.17.0,<0.18.0)$schedule (>=1.1.0,<2.0.0)
+yacron,0.17.0,8,aiohttp (<4,>=3.0)$aiosmtplib$crontab (==0.22.8)$jinja2$pytz$ruamel.yaml (<0.17.5)$sentry-sdk$strictyaml (>=0.7.2)
+yucheng-ner,0.6,8,flair$torch$pyyaml$word2vec$tqdm$glove-python-binary (==0.2.0)$transformers (==3.0.2)$wandb
+yellowdog-sdk,3.6.19,8,jsons (==1.4.0)$requests (==2.25.1)$python-dispatch (==0.1.31)$sseclient (==0.0.24)$cancel-token (==0.1.5)$isodate (==0.6.0)$futures ; python_version < "3.2"$enum ; python_version < "3.4"
+yaetos,0.9.28,8,pyyaml$awscli$boto3$cloudpathlib$pandas$sqlalchemy$networkx$duckdb
+yarfox,2.0.0,8,lxml$mastodon.py$oauth2$path.py$python-cli-ui$pyxdg$ruamel.yaml$twitter
+youtubewatched,0.1.4,8,beautifulsoup4 (==4.7.1)$dash (==0.40.0)$Flask (==1.0.2)$google-api-python-client (==1.7.8)$lxml (==4.3.3)$numpy (==1.16.2)$pandas (==0.24.2)$plotly (==3.7.1)
+youchoose,0.1.2,8,matplotlib$numpy$pandas (>=0.24.2)$scikit-learn$sklearn$torch (>=1.1.0)$torchvision$tqdm
+yfpy,9.1.0,8,bandit (==1.7.4)$coverage (==6.5.0)$flake8 (==5.0.4)$pytest (==7.1.3)$python-dotenv (==0.21.0)$requests (==2.28.1)$stringcase (==1.2.0)$yahoo-oauth (==2.0)
+yangsuite-devices,2.9.3,8,yangsuite (>=2.8.0)$yangsuite-filemanager$yangsuite-netconf$cryptography (>3.3.1)$paramiko (<3.0,>2.4.3)$netmiko (<2.4.0,>2.3.0)$textfsm (<=0.4.1)$pexpect (<5.0.0,>=4.6.0)
+youtube-discussion-tree-api,1.0.3,8,nltk$requests$torch$torchaudio$torchvision$transformers$treelib$youtube-transcript-api
+youtube-video-upload,0.2.0,8,pyyaml$colorama$google-api-python-client$requests$google-auth$google-auth-oauthlib$google-auth-httplib2$oauth2client
+yakut,0.11.1,8,pycyphal[transport-can-pythoncan,transport-serial,transport-udp] (~=1.8)$ruamel.yaml (<0.18)$requests (~=2.27)$simplejson (~=3.17)$coloredlogs (~=15.0)$click (~=8.1)$psutil (~=5.9)$scipy (~=1.8)
+youbit,2.0.0,8,av (>=9.2.0,<10.0.0)$yt-dlp (>=2022.5.18,<2023.0.0)$typer (>=0.4.1,<0.5.0)$webdriver-manager (>=3.7.0,<4.0.0)$selenium (>=4.2.0,<5.0.0)$browser-cookie3 (>=0.15.0,<0.16.0)$rich (>=12.4.4,<13.0.0)$numba (>=0.55.2,<0.56.0)
+yolov5windowdetect,0.11,8,keyboard$numpy$opencv-python$pandas$PILasOPENCV$PrettyColorPrinter$requests$torch
+yabmp,0.2.0,8,yabgp$netaddr (>=0.7.12)$pbr (==2.0.0)$oslo.config (==2.1.0)$Twisted (==16.0.0)$bitstring (==3.1.5)$six (==1.10.0)$pika (==0.9.14)
+youtube-dl-tiny-grpc,0.3.2,8,aioredis (>=2.0.1)$asyncio (>=3.4.3)$grpcio-reflection (>=1.44.0)$grpcio-tools (>=1.44.0)$hiredis (>=2.0.0)$prometheus-client (==0.14.1)$setproctitle (>=1.2.2)$youtube-dl (>=2021.12.17)
+yarn-dev-tools,1.1.1,8,python-common-lib (==1.0.2)$google-api-wrapper2 (==1.0.2)$gitpython$humanize$bs4$jira$dataclasses-json$dacite
+y0,0.1.0,8,more-itertools$tqdm$click$more-click$pyparsing$ananke-causal$networkx$tabulate
+yrocr,0.1.10,8,protobuf (==3.20.1)$chardet (==4.0.0)$pdf2image$paddlex (==1.3.7)$paddleocr (==2.0.1)$opencv-python (==4.2.0.32)$opencv-contrib-python-headless (==4.2.0.32)$click (>=7.1.1)
+yandex-music-agent,0.3.0,8,aiostream (>=0)$appdirs (>=1)$argparse (>=1)$beautifulsoup4 (>=4)$brotlipy (>=0)$lxml (>=4)$mechanicus (>=0)$mutagen (>=1)
+yomidict,0.1.7,8,fugashi (>=1.1.0,<2.0.0)$unidic (>=1.0.3,<2.0.0)$srt (>=3.4.1,<4.0.0)$EbookLib (>=0.17.1,<0.18.0)$ass (>=0.5.2,<0.6.0)$ass-tag-parser (>=2.3.1,<3.0.0)$SudachiPy (>=0.6.3,<0.7.0)$SudachiDict-full (>=20211220,<20211221)
+yadism,0.12.0,7,LeProHQ (>=0.2.3,<0.3.0)$eko (>=0.10.2,<0.11.0)$numba (>=0.55.0,<0.56.0)$numpy (>=1.21.0,<2.0.0)$pandas (>=1.3.0,<2.0.0)$rich (>=12.4.4,<13.0.0)$scipy (>=1.7.0,<2.0.0)
+yodaplus-py,0.9.1,7,ethereum (>=2.3.2)$packaging$py-eth-sig-utils (>=0.3.0)$requests (>=2)$web3 (<=5.19,>=5.18)$cached-property (>=1.5) ; python_version < "3.8"$typing-extensions (==3.10.0.0) ; python_version < "3.8"
+ys-dl,0.1.2,7,fake-useragent (>=0.1.11,<0.2.0)$fire (>=0.4.0,<0.5.0)$pyautogui (>=0.9.53,<0.10.0)$pyperclip (>=1.8.2,<2.0.0)$requests (>=2.27.1,<3.0.0)$rich (>=12.3.0,<13.0.0)$selenium (>=4.1.5,<5.0.0)
+yalexs,1.2.6,7,pyjwt$requests$vol$python-dateutil$aiohttp$aiofiles$pubnub (>=5.5.0)
+y0-bio,0.0.1,7,more-itertools$tqdm$click$more-click$y0 (>=0.0.3)$pybel$indra
+york-yt-concate,0.1.1,7,moviepy$pytube$requests$urllib3$python-dotenv$youtube-dl$youtube-transcript-api
+yaxil,0.8.0,7,requests$pydicom$natsort$arrow$pyaml$lxml$six
+yabadaba,0.1.3,7,lxml$DataModelDict$IPython$numpy$pandas$cdcs (>=0.1.5)$pymongo
+yuuno,1.4,7,jupyter$jupyterlab$traitlets$jinja2$ipywidgets$pillow$psutil
+yangsuite-yangtree,2.0.7,7,yangsuite (<3.0.0,>=2.1.0)$yangsuite-devices (<3.0.0,>=2.0.0)$yangsuite-filemanager (<2.0,>=1.5.0)$jinja2 (<3.00,>=2.10)$pyang (==1.7.8)$xeger (==0.3.4)$yamlordereddictloader (==0.4.0)
+yabtool,0.9.0.2,7,loguru$terminaltables (>=3.1.0)$tqdm (>=4.31.1)$jinja2schema (>=0.1.4)$PyYAML (>=5.1.2)$boto3 (>=1.9.228)$requests (>=2.25.1)
+yolo-v5-tflite,1.0,7,tensorflow (>=2.4.1)$numpy (>=1.18.5)$opencv-python (>=4.1.2)$Pillow$PyYAML (>=5.3.1)$scipy (>=1.4.1)$torchvision (>=0.8.1)
+yangsuite-gnmi,2.7.1,7,yangsuite (>=2.8.0)$yangsuite-filemanager (<2.0.0)$yangsuite-devices (<3.0.0,>=2.7.0)$yangsuite-yangtree (>=2.0.0)$grpcio (==1.44.0)$grpcio-tools (==1.44.0)$protobuf (<3.30)
+yangsuite-filemanager,1.9.0,7,yangsuite (<3.0.0,>=2.1.0)$yangsuite-devices (<3.0.0,>=2.0.0)$yangsuite-yangtree (>=2.0.0)$gitpython (<4.0.0,>=2.1.9)$networkx (<2.0,>=1.11)$paramiko (<3.0,>2.5)$scp (<1.0)
+yaket,1.3.10,7,mkdocs (>=1.1.2)$pydantic (>=1.9.0)$mlflow (>=1.27.0)$tf2onnx (>=1.11)$psutil$mkdocs-material (>=5.4.0)$mkdocstrings[python]
+yuno,1.1,7,pymongo (>=3.11.3)$psutil (>=5.8.0)$PyYAML (>=6.0)$argon2-cffi (>=20.1.0)$pyjwt (>=2.0.1)$pycryptodome (>=3.10.1)$typing ; python_version < "3.8"
+yikai-helper-funcs,0.1.6,7,lightgbm (>=3.0.0)$xgboost$fastai$fastcore$sklearn$bayesian-optimization$pathlib
+yaqti,2021.7.29,7,click (>=8.0.1,<9.0.0)$requests$py7zr (>=0.16.1,<0.17.0)$yapf (>=0.31.0,<0.32.0)$xmltodict (>=0.12.0,<0.13.0)$pytest (>=6.2.4,<7.0.0)$build (>=0.5.1,<0.6.0)
+youglance,0.0.9,7,scikit-learn$sklearn$numpy$pandas$spacy$nltk$youtube-transcript-api
+ydata-quality,0.1.0,7,dython (==0.6.7)$matplotlib (==3.4.2)$numpy (==1.20.3)$pandas (==1.2.*)$pydantic (==1.8.2)$scikit-learn (==0.24.2)$statsmodels (==0.12.2)
+yucebio-scheduler,0.0.5,7,click (>=7.1.2)$icecream (>=2.1.0)$Yucebio-Config (>=0.0.2)$APScheduler (>=3.7.0)$rpyc (>=5.0.1)$SQLAlchemy (>=1.4.0)$python-dateutil (>=2.0.0)
+yea,0.8.6,7,coverage$importlib-metadata (>=3.0.0)$jsonschema$PyYAML$requests$six$typing-extensions
+yhb,0.1.12,7,pymysql (>=0.8.0)$redis$requests$pycryptodomex$zhon$simhash$jieba
+yaml2bib,0.1.3,7,Click$crossrefapi$diskcache$requests$pylatexenc$pyyaml$tqdm
+youspy,0.0.4,7,scikit-learn$sklearn$numpy$pandas$spacy$nltk$youtube-transcript-api
+yann,0.0.40,7,numpy$scipy$scikit-learn$torch (>=1.0.0)$matplotlib$torchvision$tqdm
+yapf-isort,0.6.0,7,asttokens>=2.0.4$click>=7.1.2$consolekit>=0.3.0$domdf-python-tools>=0.10.0$formate>=0.4.5$isort<=5.6.4,>=5.5.2$yapf<0.32.0,>=0.30.0
+yogadl,0.1.4,7,async-generator$boto3$filelock$google-cloud-storage$lmdb$lomond$websockets (>=8.0)
+yapic-io,0.2.7,7,numpy (>=1.13.1)$munkres (>=1.0.8)$scikit-image (>=0.12.3)$tifffile$h5py$matplotlib$sparse (>=0.12.0)
+yang-connector,22.10,7,paramiko (>=1.15.1)$lxml (>=3.3.0)$ncclient (>=0.6.6)$grpcio$cisco-gnmi (>=1.0.13)$protobuf (<3.20) ; python_version < "3.7"$protobuf (~=3.20) ; python_version >= "3.7"
+yoga,1.2.2,7,cffi (>=1.0.0)$imagequant (>=1.0.2)$mozjpeg-lossless-optimization (>=1.0.0)$pillow (>=6.2.2)$pyguetzli (>=1.0.0)$unidecode (>=1.0.0)$zopflipy (>=1.0)
+youtube-dl-gui-server,0.0.1,7,click (==8.0.1)$Flask (==2.0.1)$itsdangerous (==2.0.1)$Jinja2 (==3.0.1)$MarkupSafe (==2.0.1)$Werkzeug (==2.0.1)$youtube-dl (==2021.6.6)
+yewtube,2.9.0,7,requests$pyperclip$youtube-search-python (>=1.6.5)$yt-dlp$pyreadline ; platform_system == "Linux"$pyreadline3 ; platform_system == "Windows"$colorama ; platform_system == "Windows"
+yfinanceng,0.1.58,7,pandas (>=0.24)$numpy (>=1.15)$requests (>=2.20)$multitasking (>=0.0.7)$lxml$beautifulsoup4 (==4.9.0)$html5lib
+yandexcloud,0.188.0,7,cryptography (>=2.8)$grpcio (>=1.38.1)$protobuf (<3.21)$googleapis-common-protos (>=1.53.0)$pyjwt (>=1.7.1)$requests (>=2.22.0)$six (>=1.14.0)
+youtube-video-audio-downloader,0.2.15,7,Pillow$pyperclip$yt-dlp$youtube-search-python$mutagen$requests$validators
+yt-music-headless,0.1.1,7,fastapi$uvicorn[standard]$pytube$mutagen$aiofiles$aiohttp$Pillow
+yfcc100m,1.0.1,7,boto3 (<2.0.0,>=1.11.0)$botocore (<2.0.0,>=1.14.0)$datadings (<4.0.0,>=3.1.0)$numpy (<2.0.0,>=1.17.0)$Pillow (>=7.0.0)$simplejpeg (>=1.4.1)$tqdm (<5.0.0,>=4.23.0)
+ypackage,3.0.4,6,google (==3.0.0)$requests (==2.27.1)$PyDriller (==2.0)$coloredlogs (==15.0.1)$keyboard (==0.13.5)$mouse (==0.7.1)
+yellowbrick-datasets,1.0,6,boto3 (==1.9.71)$commis (==0.4)$numpy (==1.15.4)$pandas (==0.23.4)$tabulate (==0.8.2)$tqdm (==4.28.1)
+yahist,1.14.0,6,numpy$boost-histogram (>=1.0)$matplotlib$scipy$iminuit (>=2)$plotly
+ytermplayer,1.2.2,6,pafy (>=0.5.4)$python-dateutil (>=2.7.5)$python-mpv (>=0.3.9)$urwid (>=2.0.1)$virtualenv (>=16.0.0)$youtube-dl (>=2019.5.20)
+yfinance,0.1.85,6,pandas (>=0.24.0)$numpy (>=1.15)$requests (>=2.26)$multitasking (>=0.0.7)$lxml (>=4.5.1)$appdirs (>=1.4.4)
+yfinance2pg,1.0.1,6,yfinance (>=0.1.55)$psycopg2 (>=2.8.6)$requests (>=2.25.1)$html5lib (>=1.1)$bs4 (>=0.0.1)$multitasking (>=0.0.9)
+ytdl-server,1.1.5,6,Flask (<2.2)$Flask-SQLAlchemy$celery$billiard$SQLAlchemy$PyYAML
+yaghm,0.3.0,6,coloredlogs$docopt$GitPython$Jinja2$PyYAML$questionary
+yt-dlp,2022.10.4,6,mutagen$pycryptodomex$websockets$certifi$brotlicffi ; platform_python_implementation != "CPython"$brotli ; platform_python_implementation == "CPython"
+yager,0.1.0,6,cement (>=3.0.4,<4.0.0)$colorlog (>=4.2.1,<5.0.0)$jinja2 (>=2.11.2,<3.0.0)$pyyaml (>=5.3.1,<6.0.0)$tabulate (>=0.8.7,<0.9.0)$typing (>=3.7.4,<4.0.0)
+yodu,0.0.4,6,pydantic$typing$requests$elasticsearch$python-dotenv$ijson
+youtube-metrics,0.3.0,6,geoip2$geopy$requests$dnspython$youtube-dl$humanize
+yt-napari,0.0.1,6,magicgui (>=0.4.0)$napari (>=0.4.13)$npe2$numpy$pydantic$yt (>=4.0.1)
+yandeley,0.4.2,6,arrow (==0.5.0)$future (==0.14.3)$memoized-property (==1.0.2)$requests (==2.5.1)$requests-oauthlib (==0.4.2)$oauthlib (==0.7.2)
+ytdlmusic,2.2.1,6,youtube-search-python$yt-dlp$tinytag$unidecode$termcolor$colorama
+yetl-framework,0.0.25,6,pyyaml$pyspark$regex$delta-spark$Jinja2$typer
+yfrake,2.1.2,6,aiohttp (>=3.8,<3.9)$aiohttp-swagger3 (>=0.7,<0.8)$aiohttp-cors (>=0.7,<0.8)$psutil (>=5.9,<5.10)$tomli (>=2.0,<2.1)$pyyaml (>=6.0,<6.1)
+yafpa,3.0.3,6,python-dotenv$gitpython$python-frontmatter$pyYAML$pyperclip$unidecode
+yet-another-imod-wrapper,0.0.7,6,numpy$mrcfile (>=1.4.0)$starfile$mdocfile$pandas$packaging
+yapp-pipelines,0.5.0,6,pyyaml$cerberus$pandas$sqlalchemy$psycopg2$snowflake-connector-python
+youtube-dash-dl,1.0.8,6,av$click$lxml$requests$tqdm$setuptools
+yang-ncdiff,22.10,6,pyang (>=1.7.3)$ncclient (>=0.6.3)$requests (>=2.18.4)$cisco-gnmi$xmljson (>=0.1.9)$yang.connector (>=3.0.0)
+yaqd-control,2022.4.0,6,appdirs$toml>=0.10.2$click$prettytable!=1.0.0$rich$yaqc
+yaqd-gage,2022.7.0,6,yaqd-core>=2020.06.3$numpy$toml>=0.10.2$yaq-traits$qtypes$toml
+yeonji,1.0.0,6,tabulate$send2trash$doreah>=1.6.11$unidecode$emoji$yt-dlp
+youtubecommentposter,0.3.0,6,google-api-python-client (==2.17.0)$google-auth (==1.35.0)$google-auth-httplib2 (==0.1.0)$google-auth-oauthlib (==0.4.5)$googleapis-common-protos (==1.53.0)$requests (==2.26.0)
+youtubecommentanalysis,0.0.4,6,beautifulsoup4$nltk$emoji$gensim$pandas$importlib-resources ; python_version < "3.7"
+ytree,3.1.2,6,configparser$h5py$more-itertools (>=8.4)$numpy$unyt$yt (>=4.0)
+yenta,0.4.0,6,Click (>=7.0)$networkx (~=2.5)$colorama (~=0.4.3)$pydot (~=1.4.1)$rich (>=9.4.0)$more-itertools (~=8.7.0)
+ytstreamer,1.1.4,6,pafy$youtube-dl$playsound$youtube-data-api$pyfiglet$colorama
+youttubecomments,0.3,6,google-api-python-client (==2.17.0)$google-auth (==1.35.0)$google-auth-httplib2 (==0.1.0)$google-auth-oauthlib (==0.4.5)$googleapis-common-protos (==1.53.0)$requests (==2.26.0)
+youtube-timestamper,0.0.1,6,fastcore$youtube-transcript-api$deepmultilingualpunctuation$spacy$sentencepiece$protobuf (==3.20)
+yolo-distribution-distillation-demo,1.0.1,6,torch (==1.6.0)$torchvision (==0.7.0)$numpy (==1.18.2)$opencv-python (==4.4.0.42)$pycocotools (==2.0.1)$matplotlib (==3.3.1)
+youtiao,0.0.2,6,click$colorama$jinja2$grpcio-tools$docker$requests
+yolo-ed2-demo,1.0.3,6,torch (==1.6.0)$torchvision (==0.7.0)$numpy (==1.18.2)$opencv-python (==4.4.0.42)$pycocotools (==2.0.1)$matplotlib (==3.3.1)
+yomifreq,0.1.1b0,6,beautifulsoup4$ebooklib$regex$sudachipy$sudachidict-full$tqdm
+yout-concate,0.1.2,6,moviepy$pytube$requests$python-dotenv$urllib3$youtube-transcript-api
+ypkpathway,3.0.1,6,pydna$ipython$docopt$notedown$nbformat$nbconvert
+yubikey-manager,5.0.0,6,cryptography (>=3.0,<41)$pyscard (>=2.0,<3.0)$fido2 (>=1.0,<2.0)$click (>=8.0,<9.0)$pywin32 (>=223); sys_platform == "win32"$keyring (>=23.4,<24.0)
+yaslha,0.3.4,6,click (>=8.1,<9.0)$ruamel.yaml (>=0.17.4,<0.18.0)$colorama (>=0.4.4,<0.5.0)$coloredlogs (>=15.0,<16.0)$typing-extensions (>=4.0,<5.0)$numpy (>=1.23,<2.0)
+yaqd-thorlabs,2022.7.0,6,yaqd-core>=2020.10.1$thorlabs-apt-protocol>=29.0.0$pyserial$pyvisa$pyvisa-py$pyusb
+yahoostats,0.0.4,6,pandas (==1.0.3)$requests (>=2.21.0)$bs4 (==0.0.1)$beautifulsoup4 (==4.6.3)$urllib3 (==1.24.3)$selenium (==3.141.0)
+yadage-schemas,0.10.7,6,jsonref$pyyaml$requests[security] (>=2.9)$jsonschema$click$six (>=1.4.0)
+yucebio-wdladaptor,1.0.4.20211208,6,Yucebio-Config (>=0.1.0)$json5$click$requests$pymongo$batchcompute (>=2.1)
+yum4fit-halfdeadpie,0.3.6.1,6,Flask$click (>=6)$requests (>=2.11.1)$pyqt5-tools$InstagramAPI$PyQt5
+yaqd-wright,2022.8.0,6,yaqd-core>=2021.3.0$pyserial$numpy$scipy$yaqc$WrightTools
+yield-curve-dynamics,0.2.0,6,Click (>=6.0)$nelson-siegel-svensson (>=0.3)$jupyter (>=1.0)$pandas (>=0.24)$matplotlib (>=3.0)$scikit-learn (>=0.20)
+ytclips-merge,0.1.1,6,moviepy$urllib3$youtube-transcript-api$python-dotenv$pytube$requests
+yaow,0.0.1,6,O365$validators$yamlarg$keyring$pyotp$rich
+yake,0.4.8,6,tabulate$click (>=6.0)$numpy$segtok$networkx$jellyfish
+yarll,0.0.12,6,numpy$gym (>=0.8.0)$tensorflow (>=1.6.0)$matplotlib$scipy$opencv-contrib-python
+yangsuite-grpc-telemetry,1.0.2,6,yangsuite (<3.0.0,>=1.3.0)$yangsuite-devices$grpcio (<2.0.0,>=1.13.0)$googleapis-common-protos (<2.0.0,>=1.5.3)$futures$elasticsearch (<8.0.0,>=7.13.1)
+yarllib,0.2.0,6,gym (>=0.17.2,<0.18.0)$matplotlib (>=3.3.2,<4.0.0)$numpy (>=1.19.2,<2.0.0)$pandas (>=1.1.2,<2.0.0)$scipy (>=1.5.2,<2.0.0)$seaborn (>=0.11.0,<0.12.0)
+yangsuite-netconf,1.17.15,6,yangsuite (<3.0.0,>=2.1.0)$yangsuite-devices (<3.0.0,>=2.0.0)$yangsuite-filemanager (<2.0.0,>=1.5.0)$yangsuite-yangtree (>=2.0.5)$lxml (<5.0.0,>=4.3.0)$ncclient (>=0.6.4)
+yippi,0.2.0.1,6,requests (>=2.23.0,<3.0.0)$aiohttp (>=3.6.2,<4.0.0)$pyrate-limiter (>=2.3.4,<3.0.0)$Sphinx[docs] (>=4.0.2,<5.0.0)$sphinx-rtd-theme[docs] (>=0.5.2,<0.6.0)$sphinxcontrib-napoleon[docs] (>=0.7,<0.8)
+ybe,0.3.6,6,beautifulsoup4$dacite$jinja2$lxml$pypandoc$ruamel.yaml
+yiri-mirai,0.2.7,6,httpx (>=0.18.2,<1.0)$pydantic (>=1.8.2,<2.0.0)$websockets (>=10.0,<11.0)$typing-extensions (>=3.10.0,<4.0.0); python_version == "3.7"$starlette (>=0.14.2,<1.0)$aiofiles (>=0.7.0,<0.8.0)
+ystafdb,0.6.0,6,appdirs$docopt$rdflib (>=6)$pandas$xlrd$pyxlsb
+yalp,1.11,6,PyYAML (>=3.11)$celery (>=3.1.19)$python-dateutil (>=2.4.2)$yalp-grok (>=0.3)$user-agents (>=1.0.1)$ua-parser (>=0.4.1)
+yop-python-sdk,4.2.2,6,future (>=0.18.2)$pycryptodome (>=3.14.1)$pyOpenSSL (>=22.0.0)$python-dateutil (>=2.8.2)$requests-toolbelt (>=0.9.1)$simplejson (>=3.17.6)
+yawl,0.1.1,6,google-cloud-bigquery (>=2.6.0,<3.0.0)$google-cloud-bigquery-storage (==2.0.0)$pandas (>=1.3.2,<2.0.0)$pytest-xdist (>=2.3.0,<3.0.0)$google-cloud-bigquery-datatransfer (>=3.3.1,<4.0.0)$numpy (>=1.22.2,<2.0.0)
+ya2ro,0.0.3,6,PyYAML (>=6.0)$bs4 (>=0.0.1)$requests (>=2.22.0)$bibtexparser (>=1.2.0)$Pygments (>=2.11.2)$somef (>=0.6.0)
+y-scramble,0.0.8,6,pandas$numpy$scipy$scikit-learn$pytest$tqdm
+yt-concate-alicehhh,0.1.5,5,moviepy$pytube$requests$urllib3$python-dotenv
+yapenv,0.4.3,5,click (==8.1.3)$pyyaml (==6.0)$python-dotenv (==0.20.0)$virtualenv (==20.14.1)$bole
+yasr,0.1.2,5,PyInquirer (==1.0.3)$click (==8.1.3)$pydantic (==1.9.1)$tqdm (==4.64.0)$typer (==0.4.2)
+yaschedule,0.0.4.0,5,certifi (>=2021.10.8)$charset-normalizer (>=2.0.12)$idna (>=3.3)$requests (>=2.27.1)$urllib3 (>=1.26.9)
+yasca,1.0.0,5,Jinja2 (==3.0.1)$requests (==2.25.1)$click (==8.0.1)$tqdm (==4.62.3)$PyYAML (==6.0)
+yxf,0.2.1,5,grapefruit$markdown-it-py (~=2.0)$openpyxl (~=3.0)$pyxform (~=1.8)$strictyaml (~=1.6)
+youdao-translator,1.0.1,5,pyquery$click$rich$requests$playsound
+youdied,0.2.2,5,numpy$pandas$tensorflow (>=2)$pillow (>=9)$comtypes (>=1.1.7)
+ywsd,0.11.0,5,aiopg$aiohttp$python-yate (>=0.3)$pyyaml$sqlalchemy
+yourdfpy,0.0.52,5,lxml$trimesh[easy] (>=3.11.2)$numpy$six$importlib-metadata ; python_version < "3.8"
+yarrowformat,1.1.0,5,setuptools$wheel$click$numpy ; python_version >= "1.19"$pydantic ; python_version >= "1.8"
+yaasr,0.4.13,5,requests (>=2.25.1)$pydub (>=0.24.1)$paramiko (>=2.7.2)$google-cloud-storage (>=1.36.0)$jinja2 (>=2.11.3)
+yw-etl-tap-sqlalchemy,0.1.0,5,psycopg2-binary (==2.9.3)$pyodbc (==4.0.34)$singer-python (==5.12.2)$SQLAlchemy (==1.4.41)$impyla (==0.18.0)
+yarn-kernel-provider,0.2.0,5,remote-kernel-provider (>=0.3.0)$jupyter-kernel-mgmt (>=0.5.1)$entrypoints$requests$yarn-api-client (>=1.0)
+yolo-v4,0.5,5,numpy$opencv-python$scikit-image$attrs$Pillow
+yabc,0.1.22,5,delorean (==1.0.0)$flask (==1.1.1)$openpyxl$python-dateutil (==2.8.0)$sqlalchemy (==1.3.3)
+yuu,1.2.4,5,requests[socks]$m3u8$tqdm$pycryptodome$click
+yourls,1.2.3,5,click$logbook (>=0.10.0)$represent (>=1.4.0)$requests$six
+yutto,2.0.0b17,5,aiohttp (>=3.8.1,<4.0.0)$aiofiles (>=22.0.0,<23.0.0)$biliass (==1.3.7)$dicttoxml (>=1.7.4,<2.0.0)$colorama (>=0.4.5,<0.5.0); sys_platform == "win32"
+ya-client-activity,0.1.0,5,urllib3 (>=1.15)$six (>=1.10)$certifi$python-dateutil$aiohttp (>=3.0.0)
+youte,0.1.0,5,click (>=8.0.3)$requests (>=2.27.1)$tqdm (>=4.64.0)$python-dateutil (>=2.8.2)$configobj (>=5.0.6)
+yarely,0.1.0,5,pyserial$tornado$zmq$PyObjC$certifi
+yards,0.1.3.1,5,numpy (>=1.19.0,<2.0.0)$pyyaml (>=5.3.1,<6.0.0)$progressbar2 (>=3.51.4,<4.0.0)$pillow (>=7.2.0,<8.0.0)$tqdm (>=4.48.0,<5.0.0)
+yarc-server,0.1.1,5,asyncio$flask$pyautogui$qrcode$websockets
+ycimpute,0.2,5,six$numpy (>=1.10)$scipy$scikit-learn (>=0.17.1)$torch (>=1.1.0)
+youtubecrawler,0.19,5,moviepy$requests-html$bs4$lxml$pytube
+youtube-crawler,1.0.5,5,google-api-python-client$oauth2client$pytube$tqdm$pandas
+yogendra-fizzbuzz,0.4.0,5,license$keywords$keywords$repository$homepage
+youtubecrawling,1.0.4,5,google-api-python-client$oauth2client$pytube$tqdm$pandas
+ya-client-payment,0.1.0,5,urllib3 (>=1.15)$six (>=1.10)$certifi$python-dateutil$aiohttp (>=3.0.0)
+youtube-data-py,1.0,5,jsonpickle (>=1.4.1,~=1.4)$requests (~=2.24)$cachecontrol (~=0.12.6)$python-dateutil (~=2.8.1)$enum34 (>=1.1.10,~=1.1)
+yaml-config-builder,7.0.0,5,PyYAML (>=5.4,<6.0)$attrs (>=19.3,<20.0)$future (>=0.18,<0.19)$python-dateutil (>=2.8,<3.0)$related-mltoolbox (>=1.0,<2.0)
+youtube-downloader,0.6.2,5,PySide2 (<=5.15.1)$lz4$sqlalchemy$beautifulsoup4$youtube-dl
+youtube-drive,0.0.1,5,numpy$opencv-python$youtube-dl$pillow$youtube-upload (==0.8.0)
+yaralyzer,0.9.1.1,5,chardet (>=5.0.0,<6.0.0)$python-dotenv (>=0.21.0,<0.22.0)$rich (>=12.5.1,<13.0.0)$rich-argparse-plus (>=0.3.1,<0.4.0)$yara-python (>=4.2.3,<5.0.0)
+yaq-traits,2022.11.0,5,fastavro>=1.4.0$toml$click$prettytable$colorama
+yandex-cloud-client,1.0.5,5,cryptography$decorator (>=4.4.0)$pyjwt (>=1.7.1)$pyyaml$requests
+yacman,0.8.4,5,attmap (>=0.13.0)$jsonschema (>=3.2.0)$oyaml$pyyaml (>=3.13)$ubiquerg (>=0.6.1)
+yada,0.9.7,5,future (>=0.16.0)$six (>=1.10.0)$Click (<8.0,>=7.0)$pyyaml (<6.0,>=3.12)$pathlib2 (==2.3.3) ; python_version < "3.4"
+yaml-changelog,0.3.0,5,argparse$datetime$pathlib$pyyaml$requests
+yades-smtp,0.1.0,5,aiosmtpd (==1.2)$dnspython (==1.16.0)$environs (==7.4.0)$flanker (==0.9.11)$motor (==2.1.0)
+youtube-playlist-randomizer,0.2.0,5,flit_core>=2.2.0$coloredlogs$google_auth_oauthlib$google-api-python-client$prompt_toolkit
+yodine,0.3.2,5,pyglet (>=1.4.1)$setuptools (>=39.0.1)$simplejson (>=3.16.0)$trio (>=0.11.0)$typing (>=3.6.6)
+youtube-series-downloader,1.5.1,5,apscheduler$blulib (==0.1.1)$requests$tealprint (==0.2.1)$yt-dlp
+yubikey-pivfs,0.0.7,5,fs$zstd$PyNaCL$fusepy$yubikey-manager
+youtube-to-anki,0.1.3,5,genanki (>=0.10,<0.11)$pydub (>=0.25,<0.26)$youtube_dl (==2021.04.07)$youtube_transcript_api (>=0.4,<0.5)$click (>=7.1,<8.0)
+youtube-utils-fishingcoder,0.0.2.1.4,5,youtube-dl$json$pysubs2$requests$BeautifulSoup4
+youtube-video-search-api,1.0,5,jsonpickle (>=1.4.1,~=1.4)$requests (~=2.25)$cachecontrol (~=0.12.6)$python-dateutil (~=2.8.1)$enum34 (>=1.1.10,~=1.1)
+yellowbrick,1.5,5,matplotlib (!=3.0.0,>=2.0.2)$scipy (>=1.0.0)$scikit-learn (>=1.0.0)$numpy (>=1.16.0)$cycler (>=0.10.0)
+yocho-rdflib-xtl,0.3.0,5,rdflib (>=5.0.0,<6.0.0)$owlrl (>=5.2.1,<6.0.0)$rdflib-jsonld (>=0.5.0,<0.6.0)$pyyaml (>=5.3.1,<6.0.0)$requests (>=2.24.0,<3.0.0)
+yadm,2.0.8,5,pymongo (>=3.7.0)$zope.dottedname$python-dateutil$pytz$Faker
+yellowbrickhotfix,1.2.17,5,matplotlib (!=3.0.0,>=2.0.2)$scipy (<1.6,>=1.0.0)$scikit-learn (<=0.24.1,>=0.20)$numpy (>=1.13.0)$cycler (>=0.10.0)
+yt-scraper,0.8.4,5,click (>=7.1.1,<8.0.0)$google-api-python-client (>=1.8.0,<2.0.0)$appdirs (>=1.4.3,<2.0.0)$ratelimit (>=2.2.1,<3.0.0)$toml (>=0.10.0,<0.11.0)
+yanggui,0.1.7,5,wxPython (>=4.1)$yangson (>=1.4.9)$rstr (>=2.2)$PyPubSub (>=4)$importlib-metadata (>=4.8.1)
+yeod,0.1.13,5,pandas (>=0.24)$numpy (>=1.15)$requests (>=2.20)$multitasking (>=0.0.7)$lxml (>=4.5.1)
+yeongnok,0.0.28,5,requests$objprint$faker$wget$cryptography
+yaml2instance,0.2.0,5,pytest (>=5.4.2,<6.0.0)$black (>=19.10b0,<20.0)$mypy (>=0.770,<0.771)$flake8 (>=3.8.1,<4.0.0)$pyyaml (>=5.3.1,<6.0.0)
+yoyo-indexima,0.1.3,5,yoyo-migrations (>=6.1.0,<6.2.0)$PyHive (==0.6.1)$thrift (==0.13.0)$thrift-sasl$crayons (==0.3.0)
+ytps,1.2.2,5,rich$youtube-search$youtube-search-python$youtube-dl$speedtest-cli
+yes,0.0.1,5,sphinx$sphinx-rtd-theme$nose$coverage$pypi-publisher
+yessql,0.2.0,5,pydantic$aiomysql$asyncpg$pg8000$pipe
+ytpo,1.3.1,5,google-api-python-client$tqdm$google-auth-oauthlib$google-auth-httplib2$tinydb
+yt-playlist-updater,0.0.3,5,SpeechRecognition$pyttsx3$google-api-python-client$google-auth-oauthlib$google-auth-httplib2
+ytools3,3.0.1,5,jsonpath-ng (>=1.5.1)$jsonschema (>=3.2.0)$PyYAML (>=5.1)$strict-rfc3339 (==0.7)$typing-extensions
+yex,0.1.4,5,appdirs (==1.4.4)$pytest (==5.3.5)$pyfakefs (==4.5.4)$Pillow (==9.0.0)$pylint (==2.4.4)
+ya-market,0.1.0,5,aiohttp (>=3.0.0)$certifi$python-dateutil$six (>=1.10)$urllib3 (>=1.15)
+yqxx,0.8.2,5,PyYAML$beautifulsoup4$hitutil$pycryptodome$requests
+ytframedownloader,0.10,5,a-pandas-ex-closest-neighbours$appdirs$pandas$regex$requests
+yangsuite-restconf,2.1.0,5,yangsuite (>=2.8.0)$yangsuite-filemanager (<2.0.0,>=1.4.0)$yangsuite-yangtree (>=2.0.0)$yangsuite-devices (<3.0.0,>=2.0.0)$djproxy (>=2.3.4)
+yahoofantasy,1.3.0,5,click$colorama$requests$pydash$xmljson
+yangsutil,0.1.0,5,dateutils (==0.6.6)$pycrypto (==2.6.1)$pyyaml (==3.12)$requests (==2.18.4)$bs4 (==0.0.1)
+ymhandler,1.14.1,5,rich (~=12.4.4)$braillert (~=2.0.1)$colorama (~=0.4.4)$pillow (~=9.1.1)$aiohttp (~=3.7.4.post0)
+yfinhanced,0.1.11,5,pandas (<2,>1)$aiohttp (<4,>3)$asyncio (<4,>3)$pytz$requests (<3,>2)
+yfml,0.1.0,5,tensorflow$numpy$scipy$matplotlib$bleach (>=3.1.0)
+ytdlbt,1.0.7,5,pytube$youtube-search-python$librosa$numpy$matplotlib
+yle-dl,20221015,5,requests$lxml$attrs >= 20.1.0$ConfigArgParse >= 0.13.0$xattr;sys_platform != "win32"
+yt-concate-yao8762,0.1.3,5,moviepy$pytube3$requests$urllib3$python-dotenv
+yapper,0.3.5,5,docstring-parser (<1.0,>=0.13)$dominate (<3.0.0,>=2.6.0)$python-slugify (<7.0.0,>=6.1.1)$Markdown (<4.0.0,>=3.3.6)$toml (>=0.10.2)
+yk-utils,1.3.1,5,requests$beautifulsoup4$six$python-dateutil$httpx (<1)
+yt-concate-willie300300,0.1.1,5,moviepy$pytube3$requests$urllib3$python-dotenv
+yg-emanate,0.6.0,5,blinker$jaraco.classes (>=1.1)$pika$PikaChewie (>=1.3)$six
+yapocl,0.0.9,5,requests (>=2.24.0)$joblib (>=0.16.0)$psycopg2-binary (>=2.8.6)$pandas (>=1.1.2)$sshtunnel (>=0.1.5)
+yak-yurt,1.0.0,5,click (==6.6)$PyYAML (==3.12)$cookiecutter (==1.6.0)$invoke (==1.1.0)$colorama (==0.3.9)
+yajwt,0.1.0,5,PyJWT (<2.0.0,>=1.7.1)$cryptography (>=3.3.1)$dataclasses-json (>=0.5.2)$requests (>=2.23.0)$dataclasses (>=0.7) ; python_version == '3.6'
+yapo,0.2.5,5,numpy (>=1.16,<2.0)$PyContracts (>=1.8,<2.0)$pandas (>=0.24,<0.25)$pinject (>=0.14.1,<0.15.0)$typing_extensions (>=3.7,<4.0)
+yiffscraper,1.0.1,5,beautifulsoup4 (==4.8.1)$requests (==2.22.0)$tqdm (==4.40.0)$aiohttp (==3.6.2)$python-dateutil (==2.8.1)
+yais,0.2.7,5,appdirs (>=1.4.4,<2.0.0)$beautifulsoup4 (>=4.8.1,<5.0.0)$cloudscraper (>=1.2.48,<2.0.0)$imagesize (>=1.2.0,<2.0.0)$requests (>=2.24.0,<3.0.0)
+yaplon,1.6.0,5,PyYAML (>=5.4.1)$click (>=7.1.2)$dict2xml (>=1.7.0)$orderedattrdict (>=1.6.0)$xmltodict (>=0.12.0)
+yapij-py,999,5,dill$traitlets$typing$msgpack-python$pyzmq
+yt-concate-test01,0.1.2,5,requests$urllib3$pytube$moviepy$python-dotenv
+yt-concate,0.1.1,5,moviepy$pytube3$requests$urllib3$python-dotenv
+yt-concate-jason,0.1.1,5,moviepy$python-dotenv$pytube$requests$urllib3
+yt-concate-beta,0.1.2,5,moviepy$python-dotenv$pytube$requests$urllib3
+yggdrasil-shared,0.0.28,5,boto3 (==1.18.11)$marshmallow (==3.6.0)$nameko (>=3.0.0)$sqlalchemy (~=1.4.0)$walrus (~=0.8.0)
+ynab-import,0.0.6,4,dataclass-csv (>=1.1,<2.0)$pydantic (>=1.8.2,<2.0.0)$python-dotenv (>=0.19.2,<0.20.0)$typer (>=0.4.0,<0.5.0)
+yellowbox,0.7.5,4,docker (>=4.2.0)$yaspin (>=1.0.0)$requests$Deprecated (>=1.2.13)
+yg-lockfile,2.3,4,jaraco.functools (>=1.16)$tempora$zc.lockfile$contextlib2 (>=0.5); python_version=="3.3" or python_version=="3.2" or python_version=="2.7"
+yapdfminer,1.2.2,4,chardet (~=3.0)$Pillow (~=6.0)$pycryptodome (~=3.8)$sortedcontainers (~=2.1)
+yahoo-prices,0.3.7,4,pandas (>=1.2.3,<2.0.0)$tqdm (>=4.59.0,<5.0.0)$SQLAlchemy (>=1.3.23,<2.0.0)$pandas-datareader (>=0.9.0,<0.10.0)
+yapconf,1.0.0,4,six (<2)$python-box (<4)$watchdog (<1) ; python_version<"3.6"$watchdog (>1) ; python_version>"3.6"
+yahooquery,2.2.15,4,lxml >=4.6.2$pandas >=0.24.0$requests-futures >=1.0.0$tqdm >=4.54.1
+yahoo-search-api,1.0.0,4,urllib3 (>=1.15)$six (>=1.10)$certifi$python-dateutil
+yahp,0.1.3,4,PyYAML (>=5.4.1)$ruamel.yaml (>=0.17.10)$docstring-parser (<=0.15,>=0.14.1)$jsonschema (<4.8,>=4.7.2)
+yahpo-gym,1.0.1,4,onnxruntime (>=1.10.0)$pyyaml$configspace$pandas
+ytcomment-trends,0.1.7,4,google-api-python-client (>=2.36.0,<3.0.0)$oseti (>=0.2,<0.3)$pandas (>=1.3.5,<2.0.0)$matplotlib (>=3.5.1,<4.0.0)
+ytbot,0.2.10,4,pyppeteer_stealth (>=1.0.0,<2.0.0)$asyncio (>=3.4.3,<4.0.0)$pyppeteer2 (>=0.2.2,<0.3.0)$click (>=7.1.2,<8.0.0)
+yala,3.1.0,4,docopt$isort (>=5)$pycodestyle$pylint
+yalchemy,0.2.15,4,geoalchemy2 (>=0.4.2)$sqlalchemy (>=1.1)$pyyaml (~=5.3.1)$attrs (>=19.2.0)
+yk-bit,1.1.1,4,six$requests$setuptools$yk-utils (<2,>=1.1.2)
+yalesnotes,0.0.3,4,beautifulsoup4 (>=4.7.1)$click (>=7.0)$colorama (>=0.4.1)$requests (>=2.21.0)
+yalexs-ble,1.9.5,4,async-timeout (>=4.0.1)$bleak (>=0.19.0)$bleak-retry-connector (>=1.17.1)$pycryptodome (>=3.15.0,<4.0.0)
+ytdl,1.0.0rc5,4,python-youtube (>=0.6.0,<0.7.0)$pytube3 (>=9.6.4,<10.0.0)$bella (>=2.1.5,<3.0.0)$fire (>=0.3.1,<0.4.0)
+ysignals,0.0.1rc1,4,docopt$pandas (==1.2.2)$numpy (==1.20.1)$pyarrow (==3.0.0)
+yaps,0.1.4,4,astor$graphviz$antlr4-python3-runtime$pycmdstan
+yapsched,0.3.0,4,wheel$croniter$sqlalchemy$tzdata
+yt-dlg,1.8.3,4,pypubsub (>=4.0.3)$polib (>=1.1.0)$wxPython (<=4.1.2a1,>=4.0.7.post2)$pyinstaller (<=4.6,>=3.6)
+yahoo-fin,0.8.9.1,4,requests-html$feedparser$requests$pandas
+yr-mess-server,0.1.0,4,PyQt5$pycryptodome$pycryptodomex$sqlalchemy
+yls,1.2.1,4,pygls (>=0.11.3,<0.12.0)$yaramod (>=3.16.0,<4.0.0)$yari-py (>=0.1.1,<0.2.0)$pluggy (>=1.0.0,<2.0.0)
+yr-mess-client,0.1.0,4,PyQt5$pycryptodome$pycryptodomex$sqlalchemy
+yfinance-cache,0.2.4,4,yfinance (>=0.1.74)$pandas (>=1.5)$exchange-calendars (>=4.2.3)$scipy (>=1.6.3)
+yahoo-display-api,1.0.0,4,urllib3 (>=1.15)$six (>=1.10)$certifi$python-dateutil
+yag-slam,0.1.1,4,sparse-bundle-adjustment$numpy$tiny-tf$numba
+yrest,0.0.1,4,yModel$ySanic$yAuth$yOpenApi
+yquant,0.0.1,4,requests$setuptools$pyzmq$python-version (>="3.10")
+yt-helper,0.2.10,4,click$fs-helper$input-helper$youtube-dl
+ytm-ll-dl,0.1.0,4,yt-dlp (>=2022.9.1,<2023.0.0)$sh (>=1.14.3,<2.0.0)$ytmusicapi (>=0.22.0,<0.23.0)$click (>=8.1.3,<9.0.0)
+ytools,1.0.0,4,PyYaml$jsonpath-ng$jsonschema$strict-rfc3339
+yaqd-adafruit,2022.6.0,4,yaqd-core>=2021.12.0$adafruit-circuitpython-motorkit$adafruit-circuitpython-motor$gpiozero
+yaqd-andor,2022.6.0,4,yaqd-core>=2021.03.0$setuptools$cffi>=1.13$numpy>=1.20
+yagamee,0.2.3,4,matplotlib$japanize-matplotlib$pandas$sigfig
+yamcs-client,1.8.5,4,protobuf (<4,>=3.8)$requests$setuptools$websocket-client
+yamio,0.1.3,4,numpy$h5py$meshio (>=5.2)$pyhip
+yqn-jupyterhub-ldapauthenticator,1.6.1.dev0,4,jupyterhub$ldap3$tornado$traitlets
+yaqd-core,2022.8.0,4,appdirs$tomli$tomli-w$fastavro>=1.4.0
+yesterday,1.0.1,4,click$pyAesCrypt$PyInquirer$pyfiglet
+yq,3.1.0,4,PyYAML (>=5.3.1)$xmltodict (>=0.11.0)$toml (>=0.10.0)$argcomplete (>=1.8.1)
+yesaide,1.6.1,4,SQLAlchemy (<1.5,>=1.3)$voluptuous (<0.12,>=0.10.5)$jwcrypto (<0.7,>=0.6)$python-dateutil (<3,>=2)
+yaml2ical,0.13.0,4,Jinja2 (>=2.8)$PyYAML (>=3.1.0)$icalendar$pbr (>=1.6)
+ynab-api,1.0.0,4,urllib3 (>=1.15)$six (>=1.10)$certifi$python-dateutil
+ytrader,0.1,4,numpy$pandas$jpholiday$investpy
+yang-ion-pred,0.1.19,4,joblib (==0.15.1)$numpy (==1.14.3)$pandas (==0.23.0)$scikit-learn (==0.20.2)
+ynab-client,0.1.8,4,urllib3 (>=1.15)$six (>=1.10)$certifi$python-dateutil
+yowasp-nextpnr-gowin,0.4.post25.dev361,4,appdirs (~=1.4)$wasmtime (<2.0,>=0.30)$Apycula (==0.4)$importlib-resources ; python_version < "3.9"
+ytsort,1.0.1,4,click (<9,>=8.0.3)$alive-progress (==1.6.2)$colorama (<1,>=0.3.7)$google-api-python-client (<3,>=2.8.0)
+yelpfusion3,1.0.2,4,pycountry$pydantic$requests$validators
+yt-xarray,0.1.0,4,yt (>=4.1.0)$h5py (>=3.4.0)$pooch (>=1.5.1)$xarray
+yoncrawler,0.1.0,4,beautifulsoup4$pymongo$requests$tinydb
+yaml2sbml,0.2.5,4,pandas (>=1.0.1)$PyYAML (>=5.1)$python-libsbml (>=5.18.0)$petab (>=0.1.4)
+yaqd-ni,2022.11.0,4,yaqd-core>=2021.3.0$pydaqmx$numpy$toml>=0.10.2
+yo-cli,0.0.1,4,Click (==6.7)$YoClient (==0.0.2)$termcolor (==1.1.0)$emoji (==0.4.5)
+ygrempkg,0.0.1,4,ipython (>=6)$nbformat (>=4)$nbconvert (>=5)$requests (>=2)
+yandex-s3,0.1.1,4,aiofiles (>=0.5.0)$cryptography (>=3.1.1)$httpx (>=0.15.5)$pydantic (>=1.6.1)
+yeet,0.1.20190331103506,4,numpy (==1.16.2)$six (==1.12.0)$sorcery (==0.1.0)$pytest (==4.3.1)
+yucebio-notifier,0.0.3,4,click$icecream$alibabacloud-dingtalk$Yucebio-Config
+yeahyeah,0.4.4,4,Click (>=6.0)$pyyaml$clockifyclient$python-dateutil
+yaqd-seabreeze,2022.5.0,4,yaqd-core>=2021.3.0$seabreeze$pyusb$numpy
+youtubeplayer,0.0.8,4,idebug$requests$beautifulsoup4$pandas
+yduie,1.5,4,onnxruntime$numpy$six$requests
+yades-api,0.0.1,4,aiohttp (==3.6.2)$dnspython (==1.16.0)$environs (==7.4.0)$motor (==2.1.0)
+yandexdirectpy,1.1.9,4,pandas$colorama$requests$xmltodict
+ydnlp,1.5.2,4,onnxruntime$numpy$six$requests
+yu-messenger-client,0.0.2,4,PyQt5$sqlalchemy$pycryptodome$pycryptodomex
+yandex-conqueror,1.3,4,requests$selenium$webdriver-manager$satella
+yu-messenger-server,0.0.3,4,PyQt5$sqlalchemy$pycryptodome$pycryptodomex
+yaclog,1.1.0,4,Click (>=7.0)$GitPython (>=3)$packaging (>=20)$tomlkit (>=0.11)
+yamlchecker,0.1.11,4,Click$Markdown$PyYAML$yamllint
+youtube-monitor-action,1.0.3,4,PyYAML (>=5.4.1,<6.0.0)$requests (>=2.26.0,<3.0.0)$xmltodict (>=0.12.0,<0.13.0)$importlib-metadata (>=4.8.1,<5.0.0)
+yara-mail,3.1.9,4,mailsuite>=1.9.13$pdftotext==2.2.2$simplejson>=3.17.6$yara-python>=4.2.3
+youtube-creator-cli,0.0.0,4,click$google-api-python-client$google-auth-httplib2$google-auth-oauthlib
+yara-scanner,2.0.3,4,psutil (>=5.6.7,<6.0.0)$yara-python (<4.1)$plyara (>=2.1.1,<3.0.0)$progress (>=1.5,<2.0)
+youtube-bz,0.3.3,4,pytube$aiohttp[speedups]$ujson$python-Levenshtein
+yamlett,0.0.7,4,pymongo (>=3.11.1,<4.0.0)$python-box[all] (>=5.2.0,<6.0.0)$cloudpickle (>=1.6.0,<2.0.0)$cloudpathlib (>=0,<1)
+youtrack-rest-client,0.1.5,4,httpx (>=0.15.4,<0.19.0)$attrs (>=20.1.0,<22.0.0)$python-dateutil (>=2.8.0,<3.0.0)$hub-rest-client (>=0.1.5)
+youth-version-of-setu4,0.0.19,4,httpx$pillow$nonebot2$nonebot-adapter-onebot
+ycast,1.1.0,4,requests$flask$PyYAML$Pillow
+yamlu,0.0.17,4,matplotlib$numpy$Pillow$importlib-metadata ; python_version < "3.8"
+yumm,0.0.1,4,numpy$pandas$mongoengine$pyzmq
+yari,20.12b2,4,aiohttp$beautifulsoup4$click$PyYAML
+yark,1.0.0,4,Flask (>=2.2.2,<3.0.0)$requests (>=2.28.1,<3.0.0)$yt-dlp (>=2022.8.19,<2023.0.0)$colorama (>=0.4.5,<0.5.0)
+yummy-cereal,2.0.3,4,dataclasses$ruamel.yaml$typing-extensions$typing-inspect
+yupi,0.11.2,4,opencv-python (>=4.4.0)$numpy (>=1.16.5)$nudged (>=0.3.1)$matplotlib (>=3.2.0)
+yuque-py,0.0.4,4,pytest (==5.1.1)$pytest-cov (==2.7.1)$requests (==2.22.0)$requests-mock (==1.6.0)
+your-lucky-song,0.0.0,4,requests$beautifulsoup4$setuptools$datetime
+ybt-jira,1.0.2,4,tomli$jira$rich$filemagic ; python_version < "3.7"
+yolov3,1.7,4,numpy (==1.14.4)$tensorflow (==1.14.0)$Keras (==2.1.3)$opencv-python (==4.1.0.25)
+yolov3-tf,0.1.9,4,opencv-python (>=4.2.0,<5.0.0)$pandas (==1.4.2)$numpy (==1.22.4)$Pillow (==9.1.1)
+yamltable,0.1.5,4,jsonschema (>=3.2.0,<4.0.0)$pyrsistent (>=0.14.11,<0.15.0)$pyyaml (>=5.2,<6.0)$typer (>=0.2.1,<0.3.0)
+yarnlog,0.2.1,4,fire (>=0.3.1,<0.4.0)$requests (>=2.25.0,<3.0.0)$hurry.filesize (>=0.9,<0.10)$pytest-cov (>=2.10.1,<3.0.0)
+yv-utils,1.11,4,tqdm$pandas$scikit-learn-intelex$scikit-learn
+yolov4detector,0.1.2,4,numpy (>=1.17)$opencv-python (>=4.1)$matplotlib$pillow
+yolov4-kl-demo,0.0.2,4,torch (==1.6.0)$matplotlib$opencv-python$easydict
+yamlimg,1.0.2,4,PyYAML (>=6.0,<7.0)$typer (>=0.4.0,<0.5.0)$Pillow (>=9.0.1,<10.0.0)$pydantic (>=1.9.0,<2.0.0)
+yworks-helper,0.1.9,4,baseblock$ipykernel$jupyter (>=1.0.0,<2.0.0)$yfiles_jupyter_graphs
+yawpg,0.1.0,4,pydantic (>=1.9.2,<2.0.0)$Markdown (>=3.4.1,<4.0.0)$bottle (>=0.12.23,<0.13.0)$emoji (>=2.0.0,<3.0.0)
+young,0.0.1.2019a0,4,cupy$numpy$chainer$young-tools
+youdao-dict,1.0.4,4,requests (>=2.19.1)$lxml (>=4.1.0)$python-vlc (>=3.0.101)$pyttsx3 (>=2.9.0)
+yotuyu,0.0.1.dev0,4,optuna (>=0.17.1,<0.18.0)$numpy (>=1.17,<2.0)$scikit-learn (>=0.21.3,<0.22.0)$pandas (>=0.25.2,<0.26.0)
+yorm,1.6.2,4,PyYAML (<6,>=5.1)$simplejson (~=3.8)$parse (~=1.8.0)$pathlib2 (!=2.3.3)
+yyes,1.1.1,4,requests (>=2.6)$BeautifulSoup4 (>=2.2.1)$lxml (>=4.6.3)$pywin32 (>=301)
+yzrpc,0.1,4,grpcio (>=1.35.0)$grpcio-tools (>=1.35.0)$Jinja2 (<3,>=2.11.3)$pydantic (<2,>=1.8)
+yzwspider,0.1.5.2,4,xlwt$pymysql$scrapy$twisted
+yastr,0.1.0,4,anyconfig[template,yaml] (>=0.13.0,<0.14.0)$marshmallow-dataclass[union] (>=8.5.3,<9.0.0)$pytest (>=7.1.1,<8.0.0)$wrapt (>=1.14.0,<2.0.0)
+yamlprocessor,0.5.1,4,jmespath$jsonschema$python-dateutil$ruamel.yaml
+yashpyproject,0.0.6,4,numpy$pandas$matplotlib$sympy
+yason,0.1.4,4,Click (>=6.0)$boto3 (>=1.9.0)$pandas (>=0.20.0)$kubernetes (>=9.0.0)
+yasod,0.1.1,4,opencv-python (>=4.4.0,<5.0.0)$PyYAML (>=5.3.1,<6.0.0)$pydantic (>=1.7.2,<2.0.0)$numpy (>=1.19.4,<2.0.0)
+youtube-mp3-downloader,1.4,3,PrettyTable$beautifulsoup4 (>=4.6.0)$requests (>=2.18.1)
+yfquotes,0.0.14,3,beautifulsoup4 (==4.9.3)$aiohttp (==3.8.1)$websocket-client (==1.2.3)
+yasmin,0.1.0,3,numpy (==1.14.0)$gensim (==3.4.0)$spacy (==2.0.10)
+yz-core,0.2.1,3,fastapi (>=0.68.1)$uvicorn (>0.13)$yzrpc (>=0.1)
+yaml-error-report,0.1.0,3,wrapt$termcolor$pyyaml
+yamldown-unicode,0.0.1,3,mypy$nose2$pyyaml
+yzcore,0.1.1,3,fastapi (>=0.63)$uvicorn (>0.13)$yzrpc (>=0.1)
+youter,1.0.7,3,youtube-dl$ffmpeg$numpy
+yamlflow,0.0.9,3,click (>=7.0.0,<8.0.0)$pyyaml (>=5.4.1,<6.0.0)$docker (>=5.0.0,<6.0.0)
+yamlfu,0.1.0,3,dinterpol$pyyaml$pygments
+youtube-download-cli,0.0.0.1,3,argparse$colorama$pytube
+youtube-easy-api,0.2.2,3,google-api-python-client$google-auth-oauthlib$google
+youtubeinfo,0.1.4,3,google-api-python-client$pandas$youtube-transcript-api
+youtube-loader,0.3,3,click$clint$pytube3
+yamlip,0.0.2,3,PyYAML$click$attrdict
+youmirror,0.5.2,3,typer (>=0.4.1,<0.5.0)$sqlitedict (==2.0.0)$toml (>=0.10.2,<0.11.0)
+youku-upload,0.1.1,3,oss2$requests$progressbar2
+yaststool,0.1.1,3,click (>=8.0.1,<9.0.0)$boto3 (>=1.17.96,<2.0.0)$dacite (>=1.6.0,<2.0.0)
+youtubepy,6.0.2,3,pafy$aiohttp$asyncio
+youtube-sm-parser,0.1.5,3,requests-futures (==1.0.0)$xmltodict (==0.12.0)$PyYAML (==5.1)
+youtubetranscript,1.0,3,youtube-dl$bs4$requests
+youarehere,1.0.1,3,boto3 (>=1.10.43,<2.0.0)$requests (>=2.22.0,<3.0.0)$click (>=7.0,<8.0)
+ya-aioclient,0.6.4,3,aiohttp (>=3.6.2,<4.0.0)$python-dateutil (>=2.8.1,<3.0.0)$certifi (>=2020.6.20,<2021.0.0)
+yaml-models,0.1.0,3,numpy (>=1.21.5)$pyyaml (>=6.0)$torch (>=1.10.0)
+ywkd-tools,1.0.18,3,django$djangorestframework (<4,>=3)$django-log-request-id
+yamlns,0.11.0,3,setuptools (>=20.4)$PyYAML (>=5.3.1)$pytest
+yoshi-simple-temp,0.0.2,3,numpy$pandas$pyfiglet
+yoshi-otter,1.3.3,3,numpy$pandas$yoshi-seals
+yosai-alchemystore,0.3.0.post1,3,yosai$sqlalchemy$psycopg2
+yatracker,2021.7.2,3,aiohttp (>=3.7,<4.0)$certifi (>=2021,<2022)$pydantic (>=1.8,<2.0)
+ywatch,0.6.3,3,func-timeout$rich$pyperclip
+yvpn,0.2.0,3,typer[all] (>=0.6.1,<0.7.0)$requests (>=2.28.1,<3.0.0)$paramiko (>=2.11.0,<3.0.0)
+yauth,0.1.0,3,pyJWT$ySanic$yModel
+yamlpars,0.4.1,3,addict (>=2.4.0)$ruamel.yaml (>=0.17.21)$ruamel.yaml.clib (>=0.2.6) ; python_version < "3.11" and platform_python_implementation == "CPython"
+yava247ai,0.0.2,3,scikit-learn$mlflow$pyarrow
+yaml2resume,0.0.11,3,Jinja2 (>=2.11.3)$PyYAML (>=5.4.1)$pyspellchecker (>=0.6.2)
+yaw-cli,0.1.2,3,Click$requests$Path
+yaweather,1.2.2,3,aiohttp (>=3.6)$pydantic (>=1.6)$requests (>=2.24)
+yomu,0.1.0,3,feedparser (>=6)$beautifulsoup4 (>=4)$SnakeMD (>=0)
+yowaimo,0.0.3,3,Crypto$requests$beautifulsoup4
+yowasp-nextpnr-ecp5,0.4.post25.dev361,3,appdirs (~=1.4)$wasmtime (<2.0,>=0.30)$importlib-resources ; python_version < "3.9"
+yolo-vision,0.0.1,3,numpy (>=1.18.5)$build$twine
+yowasp-nextpnr-ice40,0.4.post25.dev361,3,appdirs (~=1.4)$wasmtime (<2.0,>=0.30)$importlib-resources ; python_version < "3.9"
+yowasp-nextpnr-nexus,0.4.post25.dev361,3,appdirs (~=1.4)$wasmtime (<2.0,>=0.30)$importlib-resources ; python_version < "3.9"
+yowasp-yosys,0.23.dev444,3,appdirs (~=1.4)$wasmtime (<2.0,>=0.30)$importlib-resources ; python_version < "3.9"
+yarrrml-translator,0.7.1,3,pyyaml (>=6.0)$rdflib (>=6.2.0)$coloredlogs (>=15.0.1)
+yaml2ics,0.1,3,ics == 0.8.0.dev0$python-dateutil >= 2.8$pyyaml >= 6
+yoyo-migrations,8.1.0,3,sqlparse$tabulate$importlib-metadata
+yayaroot,2021.1.20,3,internetarchive (>=1.9.5)$TikTokApi (>=3.8.8)$youtube-dl (>=2020.11.12)
+yaml-requests,0.8.0,3,Jinja2 (~=2.0)$pyyaml (~=5.0)$requests (~=2.0)
+yaycl-crypt,0.4.0,3,yaycl$cryptography$wheel
+yaml-resume,0.7.10,3,click$pyyaml$cerberus
+yamlsettings-requests,1.0.0,3,six$requests$yamlsettings (>=1.0.1)
+yuuno-core,1.3.1,3,traitlets$pillow$psutil
+yamlsettings-s3,1.0.0,3,six$boto3$yamlsettings (>=1.0.1)
+yp,0.0.5,3,bs4$requests$dol
+yaml2devops,0.2.0,3,click (>=8.0.3,<9.0.0)$PyYAML (>=6.0,<7.0)$azure-devops (>=6.0.0-beta.4,<7.0.0)
+yarn-build,1.0.0,3,setuptools$zest.releaser$six
+yabul,0.0.3,3,pandas$parasail$six
+yarl,1.8.1,3,multidict (>=4.0)$idna (>=2.0)$typing-extensions (>=3.7.4) ; python_version < "3.8"
+yurumikuji,0.2.0,3,kamidana$slack-sdk$python-dotenv
+yaml-to-sqlite,1.0,3,click$PyYAML$sqlite-utils (>=3.9.1)
+yarender,0.1.6,3,rich (>=11.2.0,<12.0.0)$click (>=8.0.3,<9.0.0)$PyYAML (>=6.0,<7.0)
+ycbvideo,0.7.0,3,imageio (>=2.10)$numpy (>=1.21)$scipy (>=1.7)
+ycd,0.9.2,3,chat-downloader (==0.1.10)$requests$emoji
+yolololobagv4,0.1.0,3,click (>=6.7)$numpy (>=1.10)$tensorflow-addons (>=0.9.1)
+yacargo,0.0.6,3,requests$typeguard$pyyaml
+ycnbc,1.0.4,3,pandas (>=0.24.0)$requests (>=2.23.0)$lxml (>=4.5.1)
+yolohub,0.0.1,3,numpy (>=1.18.5)$build$twine
+yc-pyvisa,0.0.7,3,pyvisa (>=1.11.3)$numpy (>=1.19.2)$regex (>=2020.10.15)
+yupiwrap,0.1.2,3,yupi (>=0.8.0,<0.9.0)$traja (>=0.2.8,<0.3.0)$tracktable (>=1.5.0,<2.0.0)
+yc-tools,0.1.0,3,datetime (>=4.0)$openpyxl (>=3.0.0)$pyserial (>=3.5)
+yaql,2.0.0,3,pbr (>=1.8)$ply$python-dateutil (>=2.4.2)
+ypy-websocket,0.3.2,3,y-py (<0.6.0,>=0.5.3)$aiofiles (<1,>=0.8.0)$aiosqlite (<1,>=0.17.0)
+ydb,2.10.0,3,protobuf (<4.0.0,>=3.13.0)$grpcio (>=1.5.0)$enum-compat (>=0.0.1)
+yamlwrap,2.1.0,3,PyYaml$punwrap$pyaml
+yolocv,0.0.1,3,numpy (>=1.18.5)$build$twine
+yacfg,0.9.3,3,jinja2 (>=1.10.3,<=2.11.3)$PyYAML (==5.4.1)$importlib-metadata (>=4.6.3,<5.0.0); python_version < "3.8"
+yamcs-cli,1.4.4,3,argcomplete$python-dateutil$yamcs-client (>=1.7.0)
+yamada-mst,0.1.0,3,networkx$sortedcontainers$numpy
+yolink-api,0.1.0,3,aiohttp$paho-mqtt (>=1.6.1)$pydantic (>=1.9.0)
+yunit,0.2,3,numpy (>=1.17)$dataclasses ; python_version < "3.7"$typing-extensions ; python_version < "3.8"
+yampex,1.0.1,3,numpy$matplotlib$screeninfo
+yaqd-system-monitor,2021.3.0,3,yaqd-core>=2021.3.0$psutil$uptime
+yaqd-seek,2022.11.0,3,yaqd-core>=2022.5.0$pyusb$numpy
+yundaaddr,1.0.2,3,jieba (>=0.42.1)$pandas (>=1.0.1)$numpy (>=1.18.1)
+yaqd-scpi,2021.11.0,3,yaqd-core>=2020.10.0$PyVISA$PyVISA-py
+yuncheng-util-pkg,1.3,3,requests (>=2.20.0)$matplotlib$opencv-python
+yams,0.48.0,3,setuptools$logilab-common (>=1.9.0)$logilab-database (>=1.11)
+yoga-image-optimizer,1.2.0,3,yoga (>=1.1.0)$pycairo$PyGObject (>=3.26)
+yea-wandb,0.8.13,3,Flask$requests$yea (==0.8.6)
+yediemin,0.2.0,3,djangorestframework (>=3.0)$django-storages (>=1.11)$Django (>=1.8)
+yamscrobbler,0.69,3,python-mpd2 (==1.0.0)$PyYAML (==4.2b4)$requests (==2.21.0)
+yee-cli,0.1.2,3,Click (>=7.0,<8.0)$yeelight (>=0.5.4,<0.6.0)$webcolors (>=1.11.1,<2.0.0)
+yeelight,0.7.10,3,future$ifaddr$pypiwin32 ; platform_system == "Windows"
+yaqd-rgb,2022.6.0,3,numpy$pyusb$yaqd-core>=2020.06.3
+yog,1.3.1,3,PyYAML (>=6.0,<7.0)$docker (>=5.0.3,<6.0.0)$paramiko (>=2.8.0,<3.0.0)
+yofx,0.1.1.post2,3,pytz (>=2019.1)$requests (>=2.24.0,<3.0.0)$typing_extensions (>=3.7.4,<4.0.0)
+ysyai2,0.0.1,3,pandas$dataclasses$pyodbc
+yt2mp4,1.0.5,3,selenium (>=4.1.0)$selenium-wire (>=4.5.6)$moviepy (>=1.0.3)
+yaks,0.3.0.post1,3,hexdump$mvar$papero (==0.2.7)
+yt-astro-analysis,1.1.1,3,h5py (>=3.1.0)$more-itertools (>=8.4)$yt (>=4.0.1)
+yacmmal,0.1.6,3,pydantic (>=1.9.0,<2.0.0)$PyYAML (>=6.0,<7.0)$toml (>=0.10.2,<0.11.0)
+yandex-search,0.3.2,3,requests$lxml$six
+youtube-channel-transcript-api,0.0.1,3,requests$google-api-python-client$youtube-transcript-api
+ytcc,2.6.1,3,yt-dlp$click (>=8.0)$wcwidth
+yoctoec2,0.2.1,3,Click (~=7.0)$fabric (~=2.4.0)$boto3 (~=1.9.188)
+yelp,1.0.2,3,httplib2$oauth2$six
+ytclip-server,1.0.4,3,flask$ytclip$flask-executor
+yandex-weather-api,0.2.4,3,voluptuous$python-box$aiohttp
+yocho-pyld-xtl,0.2.0a4,3,pyld (>=2.0.3,<3.0.0)$pyyaml (>=5.3.1,<6.0.0)$requests (>=2.24.0,<3.0.0)
+yelp-common,2.0.2,3,bs4$requests$dateparser
+yulelog,0.0.3,3,asciimatics (==1.7.2)$Pillow (==3.4.2)$pyfiglet (==0.7.5)
+yukon-backend,0.1.2,3,quart$quart-cors$typing
+yuklovchi,0.0.1,3,pywebio (>=1.6.3,<2.0.0)$pytube (>=12.1.0,<13.0.0)$instaloader (>=4.9.5,<5.0.0)
+yahoo-historical,1.0.0,3,setuptools$pandas$requests
+ynot,0.2.18,3,PyYaml$jsonpath-ng$jsonschema
+yelp-uri,2.0.0,3,six$yelp-bytes$yelp-encodings
+yahoofinancespider,0.3,3,lxml$requests$fake-useragent
+ynab-sdk,0.3.0,3,requests$python-dateutil$redis
+yahoo-finance-cache,0.1.3,3,pandas (>=1.4.3,<2.0.0)$pandas-datareader (>=0.10.0,<0.11.0)$dateparser (>=1.1.1,<2.0.0)
+yuewen,0.0.32,3,requests (==2.27.1)$showlog (==0.0.6)$lazysdk (==0.0.12)
+ynab-csv-converter,1.0.1,3,pyyaml >= 3.10$jsonschema >= 2.3.0$docopt >= 0.6.1
+yaqd-labjack,2022.10.0,3,pymodbus>=3$yaqd-core>=2020.06.3$pyserial-asyncio
+ymodel,0.0.2,3,marshmallow$motor$python-slugify
+ytdl-gui,0.1.5,3,yt-dlp (>=2022.1.21,<2023.0.0)$PyGObject (>=3.42.0,<4.0.0)$certifi (>=2021.10.8,<2022.0.0)
+yahoofinance,0.0.2,3,pandas (>=0.23.4)$beautifulsoup4 (>=4.6.3)$requests (>=2.20.1)
+yt-dlpr,1.3,3,rich (>=9.4.0)$appdirs$yt-dlp
+yahoo-draft-wizard,0.0.8,3,numpy$pandas$yahoo-oauth
+yacore,0.1.1,3,cock (>=0.8.0)$facet (>=0.6.0)$giveme
+ym2021-prj,0.2.1,3,numpy$pip$setuptools-scm
+yucebio-uploader,0.1.1,3,click$oss2$Yucebio-Config
+yt-download,0.1.1,3,pytube (==11.0.2)$tqdm$ffmpeg
+yk-totp,0.2.2,3,click (>=7.1.2)$keyring (>=21.8.0)$yubikey-manager (>=4.0.0)
+ykpstools,1.0.2.1,3,requests$beautifulsoup4$lxml
+ykdl,1.8.1.post1,3,m3u8 (>=1.0.0)$jsengine (>=1.0.5)$colorama ; os_name == "nt"
+yansongda-aliyun-iot-device,0.6.0,3,paho-mqtt (>=1.3.1)$requests (>=2.18.4)$cachetools (>=2.1.0)
+yesql,0.1.1,3,typical (>=2.8,<3.0)$PyPika (>=0.48.0,<0.49.0)$sqlparse (>=0.4.2,<0.5.0)
+yte,1.5.1,3,dpath (>=2.0,<3.0)$plac (>=1.3.4,<2.0.0)$pyyaml (>=6.0,<7.0)
+yjb-scraper,2.0,3,tqdm$requests$beautifulsoup4
+yaqd-dwyer,2022.7.0,3,minimalmodbus$pyserial$yaqd-core>=2020.06.3
+yivo,0.1.1,3,pyserial$colorama$importlib-metadata; python_version < "3.8"
+yagrc,1.1.1,3,grpcio (>=1.12.0)$grpcio-reflection (>=1.7.3)$protobuf (>=3.4.0)
+ytfs,0.99a5,3,fusepy$requests$youtube-dl
+yaqd-brooks,2022.8.1,3,hart-protocol>=2022.8.1$pyserial$yaqd-core>=2020.06.3
+yiriair,0.0.4,3,airtest (>=1.1.1)$pocoui (>=1.0.78)$emoji
+ytgrep,0.5.0,3,colorama (>=0.4.1)$pycaption (>=1.0.1)$youtube-dl (>=2019.4.24)
+yt-idefix,0.14.0,3,inifix (>=2.3.0)$numpy (>=1.17.3)$yt (>=4.1.0)
+yaoauth2,1.0.0,3,fastapi (>=0.73.0,<0.74.0)$nxtools (>=1.6,<2.0)$httpx (>=0.23.0,<0.24.0)
+yaqd-attune,2022.7.0,3,attune$yaqd-core>=2020.10.1$yaqc
+yagooglesearch,1.6.1,3,beautifulsoup4 (>=4.9.3)$requests (>=2.26.0)$requests[socks]
+yews,0.0.6,3,numpy (>=1.16)$scipy (>=1.2)$torch (>=1.0)
+yingbox,0.0.5,3,pandas$pymongo$scikit-learn
+yaqc-bluesky,2022.4.1,3,yaqc>=2021.10.0$bluesky>=1.6.6$happi>=1.9.0
+ytmusic-deleter,1.5.1,3,click$ytmusicapi (>=0.23.0)$enlighten
+yuansfer,3.0.4,3,requests (<3.0,>=2.9.1)$python-dateutil (<3.0,>=2.5.3)$deprecation (>=2.0.6)
+yimage,1.1.0,3,numpy (>=1.16.0)$opencv-python (>=4.0.0)$Cython (>=0.29.0)
+yt-wrapper,0.2.1,3,google-api-python-client (>=2)$google-auth-oauthlib (>=0.4)$google-auth-httplib2 (>=0.1)
+ytvsearch,0.2,3,beautifulsoup4 (>=4.8.2)$requests (>=2.22.0)$urllib3 (>=1.25.7)
+yafowil-widget-datetime,1.13,3,setuptools$yafowil (>2.1.99)$bda.intellidatetime (>1.2.99)
+yafowil,3.0,3,node (>=1.0)$setuptools$webresource
+yfinance-ez,0.5.6,3,pandas (>=0.24)$numpy (>=1.15)$requests (>=2.20)
+ytr,0.0.1,3,httpx (==0.22.0)$rich (==12.3.0)$typer (==0.4.1)
+yadraw,0.0.4,3,attrs$coloredlogs$pygame
+yt-rank-checker,1.0.1,3,arrow (==0.12.1)$selenium (==3.12)$pyecharts (==1.0.0)
+yapcad,0.2.0,3,ezdxf$pyglet$mpmath
+yfm,1.3.8,3,BeautifulSoup4$pymongo$urllib3
+yhandler,1.0.2,3,lxml$oauthlib$requests
+ygg-keyfile,0.1.0,3,eth-utils (<2,>=1.3.0)$eth-keys (<0.3.0,>=0.2.1)$pycryptodome (<4,>=3.6.6)
+yt-search-api,1.3.1,3,pathlib (>=1.0.1)$setuptools (>=44.1.1)$requests (>=2.25.1)
+yaqd-newport,2021.10.0,2,yaqd-core>=2020.10.1$pyserial
+ysdata,0.1.2,2,requests (>=2.19.1)$lxml (>=3.7.1)
+yappy,0.0.2,2,pydantic (~=1.8.2)$click (~=8.0.3)
+yfscraper,0.1.1,2,bs4$requests
+yft,0.1.1,2,tqdm$networkx
+yt-stream-recorder,22.0.8,2,rich$yt-dlp
+yaerrrr,1.14.4,2,decorator$networkx
+yaes,0.2.0,2,Jinja2 (==3.1.2)$overscore (==0.1.1)
+yapsdk,1.7.0,2,requests[security] (>=2.20) ; python_version < "3.0"$requests (>=2.20) ; python_version >= "3.0"
+yapf-junit,0.25.0,2,click$yapf (==0.25.0)
+yfoptions-dl,1.0.2,2,pandas (>=1.0.0)$requests (>2.23.0)
+yts-downloader,0.1.2,2,requests$beautifulsoup4
+ytsapi,0.1.1,2,requests$youtube-dl
+ytrssil,0.6.1,2,requests (==2.28.*)$inject (==4.3.*)
+yhalpha,0.0.0,2,pandas$requests
+yapw,0.0.13,2,pika (>=1.2.0)$typing-extensions ; python_version < "3.8"
+yflive,1.0.0,2,websocket-client$protobuf
+yflib,1.0.2,2,feedparser$html2text
+yapc,0.1.1,2,click (>=8.0.3,<9.0.0)$PyPDF2 (>=1.26.0,<2.0.0)
+yapyaci,0.6.4,2,websocket-client$python-http-client
+ytquery,1.0.0,2,requests$urllib3
+yapy-arm64,1.0,2,lark (==0.11.1)$Unidecode (==1.2.0)
+yafowil-widget-array,1.7,2,setuptools$yafowil (>2.1.99)
+yiffpy,0.2.1,2,requests$ratelimit
+ytplpy,0.0.1,2,pytube$moviepy
+yifyapi,0.6.5,2,beautifulsoup4 (>=4.6.0)$requests (>=2.18.4)
+yapywrangler,1.2,2,requests$datetime
+yafowil-widget-image,1.6,2,setuptools$yafowil (>2.1.99)
+yagdrive,1.4.1,2,pydrive (>=1.3.1)$mimetype-description (>=0.0.6)
+yadokari,0.1.3,2,Click (<7.0)$requests (<3.0)
+yfbasic,0.2.0,2,pydantic (>=1.8.1,<2.0.0)$requests (>=2.25.1,<3.0.0)
+yaqd-acton,2022.5.0,2,yaqd-core>=2020.06.2$pyserial
+ytmurl,2.0.0,2,ytmusicapi$yt-dlp
+ytmp3-converter-2-0,3.2.4,2,ffmpeg$youtube-dl
+yinhua-airworks,0.0.1,2,pandas$requests
+yinsolidated,1.3.0,2,lxml (>=3.7.3)$xpathparser (>=1.0.0)
+ytmp3,3.2.4,2,ffmpeg$youtube-dl
+ytmonsterclient,0.0.2,2,requests$urllib3
+ye-tui,0.1.6,2,xmltodict$youtube-dl
+yadisk-shadow,0.9.0,2,requests$tqdm
+yt-info,0.0.1,2,beautifulsoup4$simplestruct
+yubikey-manager-lib,0.1.2,2,yubikey-manager (>=4.0.3,<5.0.0)$pyudev (>=0.22.0,<0.23.0)
+yet-another-runner,0.5.0,2,attrs$yet-another-io-channels-library (>=0.2.0)
+yaqd-becker-hickl,2022.6.0,2,yaqd-core>=2020.06.3$numpy
+yet-another-django-profiler,1.1.0,2,Django$mock
+yubival,0.2.0,2,Django (>=2.2,<4.1)$YubiOTP (>=1.0.0,<2.0.0)
+yucebio-config,0.1.0,2,json5$icecream
+yixiangrpc,0.1.0,2,grpcio (>=1.33.2,<2.0.0)$grpcio-tools (>=1.33.2,<2.0.0)
+yessssms,0.7.1,2,requests$beautifulsoup4
+yagwr,0.1.1,2,PyYAML$importlib-metadata ; python_version < "3.8"
+yjsnpy,0.1,2,python-pinyin$pykakasi
+yk,0.0.2,2,requests (==2.23.0)$pandas (==1.1.2)
+yaqd-edaq,2021.10.0,2,yaqd-core>=2020.06.3$pyserial
+yesqa,1.4.0,2,flake8 (>=3.9)$tokenize-rt (>=2.1)
+ytdvideo,2.0.0,2,pandas (==0.24.0)$google-api-python-client (==1.7.8)
+yesgraph,0.6.6,2,requests$six
+yk-face,0.3.0,2,yk-face-api-model (<4,>=3.0.0)$yk-utils (<2,>=1.3.1)
+yk-face-api-model,3.0.0.post0,2,pydantic (<2,>=1.9)$yk-utils (<2,>=1.2.0)
+yescaptcha,0.1.0,2,requests$loguru
+yadd,0.2.3,2,ismain$tomli
+yanpd,0.1.0,2,yangson (>=1.4.13,<2.0.0)$requests (>=2.27.1,<3.0.0)
+ylab-yato,0.1.2,2,torch (>1.1.0)$transformers (>=4.10.2)
+yldprolog,1.1.1,2,antlr4-python3-runtime (>=4.9.1)$Click
+yanniszark-common,0.1.48,2,requests (>=2.28.1,<3.0.0)$GitPython (>=3.1.27,<4.0.0)
+yankee,0.1.31,2,lxml (>=4.8.0,<5.0.0)$python-dateutil (>=2.8.2,<3.0.0)
+ytdownloader,0.1.14,2,pyyaml$youtube-dl
+yliveticker,0.3.0,2,protobuf (>=3.11.0)$websocket-client (>=0.57.0)
+yliveticker-test,0.3.2,2,protobuf (>=3.11.0)$websocket-client (>=0.57.0)
+yaqd-ekspla,2022.11.0,2,yaqd-core>=2020.06.3$pyserial
+yls-yara,1.2.1,2,yara-python (>=4.2.0,<5.0.0)$yls (>=1.1.0,<2.0.0)
+ylv-defi-test,1.2,2,fireblocks-sdk$web3
+yerkes,0.1.1,2,Click (>=6.0)$altair (>=0.2.1)
+yuci-dictionary,0.1.5,2,beautifulsoup4 (>=4.6.0)$lxml (>=4.0.0)
+yaqd-gdrive,2021.10.0,2,yaqd-core>=2020.06.3$aiohttp
+ytdlp-plugins,2022.10.25,2,yt-dlp (>=2021.10.9)$typing-extensions ; platform_python_implementation == "PyPy"
+yaqd-horiba,2022.6.0,2,yaqd-core>=2020.10.1$pyusb
+ymir-exc,1.1.0.523,2,pydantic (>=1.8.2)$pyyaml (>=5.4.1)
+yml2db,0.3,2,pyyaml$pymysql
+yml2json,1.1.3,2,PyYAML (==3.11)$python-dateutil (==2.5.2)
+ymlconf,2.0.0,2,ruamel.yaml$more-itertools
+yeoncho-riro,1.1,2,requests$beautifulsoup4
+ymmsl,0.12.0,2,ruamel.yaml (<=0.16.12)$yatiml (<0.10.0,>=0.9.0)
+yeoda,1.0.0,2,veranda$geopathfinder
+yahoo-finance-async,0.1.3,2,aiohttp>=3.6.2$aiodns>=2.0.0
+ym-service-streamer,1.0.5,2,redis$tqdm
+yangsgoogle,0.0.2,2,google-api-python-client (==1.6.7)$yangsutil (==0.1.0)
+yangify,0.1.3,2,dataclasses (>=0.6.0,<0.7.0); python_version >= "3.6" and python_version < "3.7"$yangson (==1.3.45)
+yaqd-lightcon,2022.11.0,2,yaqd-core>=2020.10.1$aiohttp
+yufuquantsdk,0.1.1,2,httpx (>=0.14.2,<0.15.0)$websockets (>=8.1,<9.0)
+yujian,0.8.4,2,aiohttp[speedups]$loguru
+yt-core-ralf1307,0.1.4,2,requests$importlib
+yahoofinancescraping,0.0.3,2,requests$beautifulsoup4
+yenepaypy,0.1.2,2,pyOpenSSL$requests
+yukinator,0.1.1,2,attrs (>=21.4.0,<22.0.0)$requests-cache (>=0.9.4,<0.10.0)
+yaqd-microchip,2021.3.0,2,yaqd-core>=2021.3.0$smbus2
+yulewalker,0.1.1,2,numpy (>=1.19.2)$scipy (>=1.5.2)
+yacof,0.0.3,2,pydantic (>=1.1,<2.0)$ruamel.yaml (>=0.16.5,<0.17.0)
+yahoo-oauth-fantasy,0.1.0,2,pyaml$rauth
+yahoo-weather,1.0.8,2,oauth2 (==1.9.0.post1)$requests (==2.23.0)
+yumemi,1.3.1,2,click$python-dateutil
+ytclip,1.2.2,2,static-ffmpeg$yt-dlp
+yaqd-mqtt,2021.3.1,2,yaqd-core>=2021.3.0$paho-mqtt
+yoctol-keras-layer-zoo,0.7.0,2,keras (==2.0.8)$numpy (==1.13.3)
+yaqd-new-era,2022.1.0,2,yaqd-core>=2020.06.3$pyserial
+yaqd-omega,2022.9.0,2,yaqd-core>=2020.06.3$pymodbus
+yajwiz,0.10.3,2,appdirs$requests
+yellowbox-heksher,0.2.1,2,yellowbox[postgresql] (>=0.6.4)$httpx
+yt-aspect,0.0.2,2,yt (>=4.0)$xmltodict
+yaqd-picotech,2022.4.0,2,yaqd-core>=2020.12.0$picosdk>=1.0
+ytagfinder,0.0.2,2,bs4$requests
+yalambda,0.6.0,2,dataclass-factory (>=2.11,<3.0)$multidict (>=5.2.0,<6.0.0)
+yaclog-ksp,1.0.2,2,Click (<9.0,>=7.0)$yaclog (~=1.0)
+yaleclient,0.2.2,2,requests (>=2.0.0)$backoff (>=1.10.0)
+yachtcharter,1.0.2,2,boto3$simplejson
+yachalk,0.1.5,2,setuptools$importlib-resources
+yeetcode,0.3.0,2,PyYAML (~=6.0)$black (~=22.10.0)
+ystreamer,1.1.0,2,websocket-client$protobuf
+yeecli,0.2.0,2,click (>=6.6)$yeelight (>=0.3.0)
+yalm,0.0.2a7,2,terregex (>=0.0.5,<0.1.0)$regex (>=2021.8.3,<2022.0.0)
+yeast-spotifier,1.2.1,2,pillow$psd-tools3
+yaqd-rpi-gpio,2021.10.0,2,yaqd-core>=2021.3.0$gpiozero
+yappyg,0.1.6,2,log-colorizer$nbdime
+yunguanfu-mil3id2019,0.0.1,2,six (>=1.10)$numpy (>=1.11)
+yaloader,0.0.3,2,pydantic$pyyaml
+ysanic,0.1.0,2,sanic$yModel
+yunorm,0.4.3,2,mysqlclient (==1.3.14)$mysql-connector-python (==8.0.15)
+yaqd-ti,2021.10.0,2,yaqd-core>=2021.3.0$smbus2
+yamager,1.0.1,2,requests$lxml
+yrequests,0.1.0,2,requests$future; python_version < "3"
+yaqd-vici,2022.8.0,2,yaqd-core>=2021.2.1$pyserial
+yamcs-client-kerberos,1.2.0,2,requests-gssapi$yamcs-client (>=1.7.0)
+yamdl,1.0.0,2,Django (>=3.2)$pyyaml (~=6.0)
+yolobel,0.0.3,2,numpy$opencv-python
+yunxinserverapisigner,1.0.2,2,pandas$openpyxl
+yunyundb,0.3.0,2,xxhash$filelock
+yaqd-zaber,2022.11.0,2,yaqd-core>=2020.06.3$zaber.serial
+yaml-1-3,0.1.0,2,ruamel.appconfig$ruamel.std.argparse (>=0.8)
+yconverter,1.0.1,2,ruamel.yaml (==0.17.21)$requests (==2.27.1)
+yplate,0.0.1,2,opencv-python (>=3.4)$numpy (>=1.17.4)
+ycezlib,0.0.4,2,pandas$numpy
+ycache,0.2.3,2,loguru (>=0.6.0,<0.7.0)$diskcache (>=5.4.0,<6.0.0)
+yaml2cli,1.0.3,2,pyyaml$yamlloader
+yarok,0.0.14,2,mujoco$mujoco-python-viewer
+yaml-template,0.3,2,jsonschema$pyyaml
+yarpc,0.7.0,2,thriftrw (>=1.1,<2)$tornado (>=4.3,<5)
+yolov4-cv,0.0.1,2,opencv-python (>=4.4.0.40)$numpy (>=1.19.5)
+yamlspellchecker,0.1.9,2,Click$nltk
+yaml-source-map,1.0.1,2,PyYAML (>=5.4.1,<6.0.0)$pytest-coverage (>=0.0,<0.1)
+yabu,0.1.3.3,2,yamale (~=3.0.4)$PyYAML (~=5.3.1)
+yayes,1.0.6,2,numpy$pandas
+yoyopkg,2.5,2,colorama$requests
+yamlschema,0.2.1,2,click (<8.0,>=5.0)$jsonschema (==2.6.0)
+yolov5-onnx-cv,0.0.5,2,opencv-python (>=4.4.0.40)$numpy (>=1.19.5)
+yuvio,1.2.0,2,numpy$psutil
+yuvtools,0.0.1,2,scipy$opencv-python
+yaml-pyconf,0.0.3,2,python-dotenv$PyYAML
+yuyu,0.4.4,2,python-Wappalyzer$requests
+yarqueue,0.4.1,2,redis (>=3.2)$StrEnum (>=0.4)
+yawxt,0.1.2,2,requests-oauthlib$pyOpenSSL ; python_version == "2.6"
+yuzu-ism,0.0.1,2,numpy (>=1.14.2)$torch (>=1.9.0)
+yartsu,22.6b5,2,importlib-metadata>=4.11.4; python_version < "3.8"$rich>=12.3.0
+yas,2.0,2,slackclient (==1.0.5)$websocket-client (==0.40.0)
+yomi,0.0.1,2,numpy$pandas
+yawinpty-extra,0.1.0.dev1,2,pypiwin32$yawinpty (>=0.4.3.dev4)
+yomiel,1.1.0,2,jomiel-comm$jomiel-kore (>=0.2.2)
+yve,0.0.21,2,pandas (>=0.20.0)$jieba (>=0.39)
+yomopie,0.4,2,RPi.GPIO$spidev
+yas3,1.0,2,boto3 (==1.16.9)$filetype (==1.0.7)
+yaml-pipe,1.2.2,2,omegaconf (>=2.2.2,<3.0.0)$PyYAML (>=6.0,<7.0)
+yamlpath,3.6.9,2,ruamel.yaml (!=0.17.18,<=0.17.21,>0.17.5)$python-dateutil (<=3)
+yvi,0.0.4,2,requests$emoji
+yopenapi,0.0.1,2,yModel$ySanic
+yaml-patch,1.1.0,2,click (>=8.0.1,<9.0.0)$ruamel.yaml (>=0.17.11,<0.18.0)
+yamlparse,0.0.1,2,argparse$pyyaml
+yautil,0.0.64,2,sh$matplotlib
+yaml2toml,1.0.2,2,pyyaml$toml
+youtube-unlimited-search,0.3.2,2,requests$beautifulsoup4
+yaml4rst,0.1.6,2,PyYAML$Jinja2
+yatr,0.0.10,2,dockerman$requests
+yosai-dpcache,0.3.0,2,yosai$redis
+yw-etl-target-clickhouse,0.1.0,2,singer-python (==5.12.2)$requests (~=2.28.1)
+yoshi-seals,1.3.3.1,2,numpy$pandas
+yatom,0.0.4,2,pyyaml$six
+yw-gw-sdk,0.0.5,2,requests$six
+yoti-sandbox,1.3.0,2,yoti (>=2.12.0)$cryptography (>=2.8.0)
+yotpo-api,0.0.5,2,python-dateutil$requests
+yaap,0.4.2,2,pyyaml (==5.1.1)$jsonschema (==3.0.1)
+youandme,2.0.0,2,stem$PySocks
+yatiml,0.9.0,2,ruamel.yaml (<0.17,>=0.15.71)$typing-extensions
+yatcxparser,0.0.1b0,2,lxml$numpy
+yaml-mako,1.0.0,2,pyyaml$mako
+yamlable,1.1.1,2,PyYaml$six
+youtubetags,1.3,2,bs4$requests
+yxd,0.2.0,2,cachetools$youtube-transcript-api
+youcos,0.0.6,2,selenium$google-api-python-client
+youtube-search-requests,0.1.20,2,requests$aiohttp
+youtube-scraper,1.0.3,2,beautifulsoup4$requests
+yamlator,0.1.2,2,lark (==1.0.0)$PyYAML (==6.0)
+yamllintelerir,1.17.14,2,pathspec (>=0.5.3)$pyyaml
+youtube-related,1.0.3,2,aiohttp (<3.8.0,>=3.6.0)$requests (==2.25.1)
+yxq-stock,0.1,2,Pillow (>=5.1.0)$numpy (==1.14.4)
+yashaa,0.7,2,numpy$pandas
+you-live,1.1.0,2,PyExecJS$requests
+yasta,0.1.1,2,toml (>=0.10.2,<0.11.0)$typer[all] (>=0.6.1,<0.7.0)
+youtube-playlist-downloader,0.0.4,2,google-auth-oauthlib$google-api-python-client
+yaml-checker,0.1,2,cerberus$pyyaml
+youngones-auth,0.0.7,2,requests (>=2.23.0,<3.0.0)$pyyaml (>=5.3,<6.0)
+youngtoolkit,0.1.3.1,2,visdom$pyhocon
+youtube-mp3,0.1.2,2,requests$docopt
+yaml-cli,0.0.8,2,PyYAML$argparse
+yourai,0.0.4,2,Click (>=7.0)$flask (>=1.0.3)
+yxytmtoolp,0.0.4,2,yagmail$json
+yyam,0.1.4,2,toml$tomlkit
+yashiro,0.9.0,2,dj-settings (>=2.0.0,<3.0.0)$jinja2 (>=3.0.0,<4.0.0)
+youtubegui,0.1,2,pytube3$tkinter
+youtube-ff,0.0.4,2,pytube$requests
+ya360,3.1.3,2,yandex-oauth (>=1.1.2)$yandex-360 (>=1.3.0)
+your-package-name,1.0.0,2,numpy$pandas
+yaml-config,0.1.5,2,PyYAML (>=3.13)$typing (>=3.6.1) ; python_version < "3.5"
+yaspi,0.0.8,2,watchlogs$beartype (>=0.7.1)
+y2t,1.5,2,youtube-dl$mutagen
+yousearch,0.1.6,2,youtube_transcript_api (>=0.3.0,<0.4.0)$bs4 (>=0.0.1,<0.0.2)
+youtube-dl-gui,1.0.4,2,pyqt5 (>=5.15.0,<6.0.0)$youtube-dl (>=2020.6.16,<2021.0.0)
+youtube-dl-cli,0.1.2,2,colorama$youtube-dl
+yzal,0.0.5,2,lazy-object-proxy$mypy ; python_version == "3.4"
+yamlfixer-opt-nc,0.9.15,2,yamllint (>=1.27.1)$setuptools
+yasoo,0.12.6,2,attrs (>=16.2)$more-itertools
+youtubedlapi-server-infusiblecoder,2.6,2,Flask$yt-dlp (>=2022.8.19)
+yamlfix,1.1.0,2,click>=8.0.3$ruyaml>=0.91.0
+yaml-config-wrapper,1.0.4,2,jsonschema$PyYAML
+youtube-data-api,0.0.21,2,pandas$requests
+yamldataclassconfig,1.5.0,2,dataclasses-json$pyyaml
+yamldb,0.1.3,2,jmespath$oyaml
+yamldiff,0.3,2,blessings$ruamel.yaml
+yasjenkins,1.0rc1,2,yas$python-jenkins
+yasmine-cli,0.0.6,2,obspy (>=1.2)$PyYAML
+youtube2images,1.1.0,2,pytube3$opencv-python
+youtube2ipfs,0.3,2,ipfshttpclient (>=2.25.1)$youtube-dl (>=2021.12.17)
+youtube2m4a,0.2,2,bs4$youtube-dl
+youtube-comment-downloader,0.1.67,2,dateparser$requests
+youtube2mp3,1.4.0,2,youtube-dl (>=2020.11.1.1)$mutagen (>=1.45.1)
+yamlemxconvert,1.2.2,2,PyYAML$pandas
+yamlenc,0.5,2,setuptools$PyYAML
+youtube3,1.2.1,2,google-api-python-client$oauth2client
+youpy,0.1.0rc5,1,pygame (>=1.9.6)
+yamlen,0.2.0,1,pyyaml (>=6.0,<7.0)
+youtube-channel-scraper,0.1.3,1,selenium (>=3.141.0,<4.0.0)
+youtube-alexa-python,1.2.6,1,youtube-dl
+youtube-cl,0.0.4,1,pytube
+yaml-env-var-parser,1.1.1,1,PyYAML
+youtube2midi,0.1.1.post1,1,youtube-dl
+yaml-extensions,0.0.2,1,pyyaml (~=6.0)
+youtube-community-tab,0.2.3.2.1,1,requests-cache
+yamldown,0.1.8,1,pyYaml
+yamldirs,1.1.16,1,ruamel.yaml
+youtrack-rest-api,0.0.1,1,requests (>=2.13.0)
+youtokentome,1.0.6,1,Click (>=7.0)
+youtubedanyukla,0.0.1,1,pytube (>=12.1.0,<13.0.0)
+youtils,0.0.1,1,markdown
+youtil,1.0.2,1,bs4
+youtube-data-api3,0.0.10,1,requests
+yamlcredits,1.0.0,1,PyYAML (==5.3.1)
+yamlfig,1.0.0,1,pyyaml
+yaml-configuration,0.2.5,1,pyyaml (>=5.1)
+youterm,0.2.0,1,requests
+yamlfmt,1.1.0,1,ruamel.yaml (<0.16)
+youtubedlez,0.1.1,1,youtube_dl
+youseedee,0.3.0,1,requests
+yaml-config-reader,1.2,1,PyYAML (==6.0.0)
+youtube-dl-service,0.0.2,1,youtube-dl (==2020.12.29)
+yaml-config-parser,1.0.4,1,pyyaml
+youtubedown,1.0.8,1,youtube-dl (==2021.06.06)
+yourscript-test,0.1.5,1,click
+youtubedownloader,1.1.3,1,pytube3 (>=9.5.13)
+your-project-name,0.0.1,1,importlib-metadata (>=4,<5); python_version < "3.8"
+yamlconf,0.2.5,1,pyyaml (==5.4)
+youtubeeased,1.0.4,1,YouTubeEased
+yourmove,0.0.0.1,1,pytz
+yaml-helper,0.1.0,1,pyyaml
+yamlhparams,0.2.0,1,ruamel.yaml (>=0.17.21)
+yamlinfo,0.2.7,1,PyYAML
+yourcalculator3287,1.0.0,1,pytest
+youtube-lv,0.7.1,1,requests
+yaml-combine,0.3.0,1,pyyaml
+yamlito,0.1.0,1,PyYAML
+yasl,1.0.3,1,importlib-metadata
+yamliz,0.1.2,1,pyyaml (==5.*)
+yaml-builder,0.1.1,1,PyYAML
+yamlize,0.7.1,1,ruamel.yaml
+yaml-axis-parser,0.0.1,1,pyyaml
+youtube-playlist-to-m3u,1.0.2,1,youtube-dl
+yamlizer,1.0.0,1,PyYAML (>=5.4.1,<6.0.0)
+youtube-py,2.1.0,1,requests
+yaml-keygen,0.1.8,1,ruamel.yaml
+yamllint-junit,0.9,1,yamllint
+yamlloader,1.1.0,1,pyyaml
+youtube-sdk-py,0.1.0,1,requests
+youtube-search,2.1.2,1,requests
+youtube-search-python,1.6.6,1,httpx (>=0.14.2)
+youdaoai,0.0.4,1,requests
+yamlargs,0.2.1,1,pyyaml
+youconfigme,0.9.1,1,toml
+youtube-stream,0.0.14,1,SpeechRecognition
+yamlargparse,1.31.1,1,PyYAML (>=3.13)
+youtubetaggenerator,2.0.0,1,requests
+yamlmaker,0.0.8,1,pyyaml
+youcab,0.1.3,1,mecab-python3 (>=1.0.2,<2.0.0)
+yaml8,0.1.2,1,PyYAML (==6.0)
+youart,0.0.2,1,pyserial
+youtube-transcript-api,0.5.0,1,requests
+yaml-override,0.0.1,1,pyyaml
+yo-runner,0.1.2,1,pyyaml (>=3.13)
+yaml2xbel,0.0.3,1,pyyaml
+youtube-video,1.0.0,1,pytube
+yaml2tree,0.3,1,pyyaml
+yamlpage,3.2.0,1,pyyaml
+yaml2st,1.0.18,1,PyYAML
+yoo-telegram,0.2,1,requests
+youtube-websearch,1.0.1,1,beautifulsoup4
+youtyper,0.1.0,1,click (>=7)
+yaml2object,1.0.13,1,pyyaml
+yaml-plate,1.0.3,1,PyYAML
+yamlpp,1.0.1,1,ruamel.yaml
+yowasp-nextpnr-ecp5-25k,0.4.post25.dev361,1,yowasp-nextpnr-ecp5 (==0.4.post25.dev361)
+yowasp-nextpnr-ecp5-45k,0.4.post25.dev361,1,yowasp-nextpnr-ecp5 (==0.4.post25.dev361)
+yowasp-nextpnr-ecp5-85k,0.4.post25.dev361,1,yowasp-nextpnr-ecp5 (==0.4.post25.dev361)
+yowasp-nextpnr-ecp5-all,0.4.post25.dev361,1,yowasp-nextpnr-ecp5 (==0.4.post25.dev361)
+yaml2jsonnet,1.0.1,1,ruamel.yaml (>=0.16.10,<0.17.0)
+yolov9,0.0.1,1,yolov5
+yowasp-nextpnr-ice40-1k,0.4.post25.dev361,1,yowasp-nextpnr-ice40 (==0.4.post25.dev361)
+yowasp-nextpnr-ice40-384,0.4.post25.dev361,1,yowasp-nextpnr-ice40 (==0.4.post25.dev361)
+yowasp-nextpnr-ice40-5k,0.4.post25.dev361,1,yowasp-nextpnr-ice40 (==0.4.post25.dev361)
+yowasp-nextpnr-ice40-8k,0.4.post25.dev361,1,yowasp-nextpnr-ice40 (==0.4.post25.dev361)
+yowasp-nextpnr-ice40-all,0.4.post25.dev361,1,yowasp-nextpnr-ice40 (==0.4.post25.dev361)
+yowasp-nextpnr-ice40-u4k,0.4.post25.dev361,1,yowasp-nextpnr-ice40 (==0.4.post25.dev361)
+yolov8,0.0.1,1,yolov5
+yamlprofiles,0.0.1,1,PyYAML (==5.4.1)
+yolov7,0.0.1,1,yolov5
+yolov6,0.0.1,1,tensorboard (>=2.2)
+yaml-serde,0.4.4,1,pyyaml (>=5.1)
+yaml-tags,0.0.2,1,pyyaml
+yamltool,0.1.2,1,ruamel.yaml (>=0.15.0)
+ypcc,0.7.1,1,numpy (<1.15)
+ypconnector,1.1.2,1,requests
+yolov10,0.0.1,1,yolov5
+yaml-translator,1.0.1,1,PyYAML (>=6.0)
+ypmeteo,1.0.1b1,1,pyusb
+yaml-utils,0.0.4,1,PyYAML (>=5.4.1,<6.0.0)
+ypyapi,0.0.37,1,selenium
+yaml-walker,1.0.24,1,PyYAML
+yamkix,0.9.0,1,ruamel.yaml (>0.16)
+yqdata,1.4.2,1,opensearch-py
+yqg-py-scheduler,0.1.3,1,flask
+yqgscheduler,0.1.2,1,flask
+yqml,0.0.2,1,PyYAML (==5.4.1)
+yamk,4.3.0,1,dj-settings (>=4.0.0,<5.0.0)
+yami,0.4.1,1,hikari (==2.0.0.dev108)
+yolo-auto,0.0.2,1,GitPython
+yamole,2.1.7,1,pyyaml
+yolo7,0.0.1,1,yolov5
+yamale-aac,3.0.4,1,pyyaml
+yolo6,0.0.1,1,yolov5
+yamale,4.0.4,1,pyyaml
+yolo5,0.0.1,1,yolov5
+yamongo,0.0.3,1,pymongo (>=4.1.1)
+yalp-grok,0.3,1,regex (>=2015.07.19)
+yoliklogging,0.0.2,1,colorama
+ysb-common,2.1.1,1,oss2
+yschema,1.0.2,1,PyYAML
+yalogger,1.3,1,configparser
+yokr,0.3.4,1,requests
+yampy2,2.8.0,1,requests
+yogaflo,0.2.1,1,markovify
+yalisp,0.1.0,1,PyYAML (>=6.0,<7.0)
+ysk-django-lockdown,1.0.4,1,Django (>=1.11)
+yspacepy,0.2.2,1,astropy
+yspec,0.1.0,1,pyyaml
+yalesmartalarmclient,0.3.9,1,requests (>=2.0.0)
+ystockquery,0.1.0,1,requests
+yamsl,0.1.0,1,aiohttp
+yam-sort,1.0,1,PyYAML (==5.1.2)
+ysyfinance,0.0.3,1,Flask (==1.1.2)
+yandex-360,1.3.1,1,jreq (>=1.1.0)
+yald,0.2.1,1,boto3
+yandex-geocoder,2.0.0,1,requests (~=2.22)
+yandexiot,0.1,1,requests (==2.27.1)
+yodine-data,0.3.2,1,yodine-data
+yandex-oauth,1.1.2,1,jreq (>=1.1.0)
+yakh,0.0.5,1,confluent-kafka
+yodf,1.0.16,1,numpy (>=1.19.4,<2.0.0)
+yandex-rasp,0.0.2,1,requests
+yt-audio,0.1,1,youtube-dl
+ytb,0.2.0,1,Click
+yoda-powers,1.0.1,1,BioPython
+ytb-up,0.1.15,1,playwright
+yandexspeller,1.0.0,1,requests
+yoco-python,0.1.3,1,requests
+yoco,1.1.0,1,ruamel.yaml
+yahya-cs453-homework1,2.0.0,1,requests (>=2.23.0)
+yahya-cs453-assignment1-v2,2.0.0,1,requests (>=2.23.0)
+yoclient,0.0.2,1,requests
+yahoo-quote-download,0.3.2,1,six
+yandex-translater,6.0,1,requests
+yob,1.0.0,1,PyYAML (==5.4.1)
+yahoo-fin-api,0.0.21,1,requests
+ynca,3.11.0,1,pyserial (>=3)
+ynam,0.3.1.post1,1,mintapi
+yandex-yadoctool,1.11,1,requests
+yahoofinancedataloader,0.1.0,1,requests (~=2.20.00)
+yahoofinancedashboard,1.1.86,1,yahoofinancials
+yanf,0.0.2,1,yapf
+yangson,1.4.14,1,PyXB
+ymm,0.6.1,1,jmespath
+yangsrunner,0.2.1,1,yangsutil (==0.1.0)
+ytdl-nfo,0.2.3,1,PyYAML (>=6.0,<7.0)
+yahoo-earnings-calendar,0.6.0,1,requests
+ytdlp-auf1,2022.10.28,1,ytdlp-plugins (>=2021.11.17)
+ytdlp-bittube,2022.1.2,1,ytdlp-plugins (>=2021.11.17)
+ytdlp-brighteon,2022.10.28,1,ytdlp-plugins (>=2021.11.17)
+ytdlp-dtube,2022.10.28,1,ytdlp-plugins (>=2021.11.17)
+yangwangjinxin-cyclomatic-complexity,0.0.3,1,lizard (<2,>=1.17.0)
+ymcontent,0.2.6,1,requests
+ytdlp-servustv,2022.10.24,1,ytdlp-plugins (>=2021.11.19)
+ytdlp-youmaker,2022.10.28,1,ytdlp-plugins (>=2021.11.17)
+ymaps,1.1,1,httpx>=0.23.0
+ytdownl,0.1.2,1,pytube
+yangwangjinxing-cyclomatic-complexity,0.0.1,1,lizard (<2,>=1.17.0)
+yangxian,1.1,1,py2neo (==2020.1.0)
+yk-bit-api-model,1.3.3,1,yk-utils (<2,>=1.1.4)
+ykb,0.1.0,1,Click
+yjs,0.0.2,1,requests
+ytest,0.1.4,1,requests
+yt-flyte-playground-flytectl,0.1.7,1,flytekit (<1.0.0,>=0.18.0)
+yiri-mirai-trigger,0.3.1,1,yiri-mirai (>=0.2.0)
+yanytapi,2.0.0,1,requests (>=2.7.0)
+yirgachefe,0.1.5,1,coloredlogs (~=15.0.0)
+yagot,0.5.0,1,six (>=1.10.0)
+yir,0.1.0rc1,1,graphviz
+yipy,1.0.0,1,requests
+ytkd-api,0.0.3,1,requests
+ytkubevault,0.1.2,1,hvac (>="0.11.2")
+yippee,0.0.1,1,Click (==7.0)
+yagmail,0.15.293,1,premailer
+yinyang,0.3.0,1,antlr4-python3-runtime (==4.9.2)
+yao-framework,0.6.0,1,julia (>=0.2)
+yingmiyaml,1.0.3,1,PyYAML (==5.4.1)
+yinglish,1.0.1,1,jieba (>=0.42.1)
+ytmusicapi,0.24.0,1,requests (>=2.22)
+yinasrun,1.0.0,1,fire (>=0.3.1,<0.4.0)
+yagls,1.4.0,1,aiohttp
+ytmusicinfo,0.0.1,1,requests
+ytmusicpy,0.0.1,1,requests
+yagdspy,1.0,1,pydot
+ytool,0.4.3,1,ruamel.yaml (==0.16.12)
+yima,0.1.3,1,requests (>=2.19.0)
+yaga,0.2.2,1,click (>=7.1.2,<8.0.0)
+yaogua,0.1.0,1,click
+yt-playlist-dl,0.2.0,1,youtube-dl
+yaol-utils,0.0.2,1,varname
+yaosac,1.0.1,1,requests
+yapam,0.1.5,1,dav-utils (==0.2.*)
+yapatch,0.0.2,1,unidiff
+yield2await,0.0.1,1,astor (==0.6.2)
+yiban,0.7.0.1,1,openpyxl
+yafg,0.3,1,Markdown (>=3.1.1)
+yh-finance,0.0.6,1,requests
+y-trans,0.0.2a0,1,requests
+ytranslate,0.3,1,pyyaml (>=3)
+yafe,1.0.3,1,numpy
+ytreviewsapi,0.2.0,1,flask
+yapdict,0.0.0,1,apsw (>=3.9.2-r1)
+yape,0.2.1,1,argparse-subdec (~=0.1.0)
+ya-eureka-binder,0.1.0,1,httpx (>=0.19.0,<0.20.0)
+ygitchangelog,1.0.2,1,pystache
+yggdrasil-py,1.1.0,1,requests
+yapg,0.0.9,1,zxcvbn
+ytspace,14.93,1,mysql-connector
+yapowf,0.0.7,1,pandas
+ytsphinx,1.2.1.dev20200430,1,Sphinx (>=0.6)
+yadupe,1.1.0,1,tqdm
+yf-templates,0.3.0,1,allianceauth (>=3.0.0)
+ytthumb,1.4.5,1,requests
+yt-trans-sum,1.0.4,1,requests
+yapx,0.0.1a1,1,typing-extensions ; python_version < "3.10"
+ytvdownload,1.0.1,1,pafy
+ytvid,6.0,1,youtube-dl
+yaq,0.0.0,1,wrighttools
+yfiles-jupyter-graphs,1.2.1,1,ipywidgets (<8,>=7.6.0)
+ya-domintell,0.0.12,1,pyserial
+yffpy,2.11.0,1,yfpy (==3.0.0)
+yuanian,0.0.1,1,sparrow-tool
+yuanni,0.0.0,1,pyprobar
+yaqc,2022.5.0,1,fastavro>=1.4
+yetiforce-python,0.2.0,1,requests (>=2.21.0)
+yubaba,0.1.0,1,single-source (>=0.2.0,<0.3.0)
+yubico-client,1.13.0,1,requests (<3.0,>=2.7)
+yadiskclient,1.0.1,1,requests
+yet-another-simple-rss-parser,0.0.5,1,flake8 (>=3.7,<4.0)
+yadisk-async,1.3.5,1,aiohttp
+yubiotp,1.0.0,1,pycryptodome
+yet,0.1.2,1,PyYAML
+yubrary,1.0.0,1,requests (>=2.27.0,<3.0.0)
+yeswehack,0.7.2,1,requests (>=2.24.0,<3.0.0)
+yadisk,1.2.16,1,requests
+yesapi,1.0.2,1,requests
+yaqd-fakes,2022.5.0,1,yaqd-core>=2022.3.0
+yacs-stubgen,0.3.0,1,yacs (>=0.1.4,<0.2.0)
+yacs,0.1.8,1,PyYAML
+yerbamate,0.8.13,1,bomba
+yeouia,4.0.0,1,Django (>=2.2,<5.0)
+yud92022,0.1.2,1,keyboard
+yenviron,0.3,1,PyYAML
+yaqd-mcc,2022.8.0,1,yaqd-core>=2020.06.3
+yugioh,0.0.26,1,requests
+yugiohdeck-api,0.0.1.dev7,1,ygorganization-api
+yennmedlib,0.1.0,1,numpy
+yelp-reviews-scraper,0.0.1,1,requests
+yelpfusion,0.1.1,1,requests (>=2.26.0,<3.0)
+yelp-encodings,2.0.0,1,typing-extensions
+yule,0.0.5,1,colorama
+yelpdataset2sql,0.0.4,1,argparse (~=1.4.0)
+yelp-cheetah,0.19.1,1,markupsafe
+yelp-bytes,0.4.0,1,yelp-encodings
+yelpapi,2.5.0,1,requests
+yellowbox-snowglobe,0.1.1,1,yellowbox[webserver,postgresql] (>=0.7.0)
+yekta-metrics,2.3.8,1,prometheus-client (>=0.9.0,<0.10.0)
+yaci,0.5.2,1,six
+yummly,0.5.0,1,requests (>=1.1.0)
+yaqd-pmc,2022.11.0,1,yaqd-core>=2020.10.1
+yeetsmenu,0.0.12,1,colorama
+yealinkmanager,2.1,1,requests
+yeah,0.0.1,1,jax
+ydtapi,2.0,1,requests
+ydpic,0.2.2,1,prutils (==0.0.26)
+yach,0.0.1a1,1,pyyaml (>=5.4.1)
+ydoc-theme,1.0,1,sphinx
+yunpian-python-sdk,1.0.0,1,requests (>=2)
+ydl,1.3.0,1,youtube-dl
+ydb-function-driver,0.4,1,ydb
+yunyun,0.2.2,1,tabulate (>=0.8.6)
+ydbf-py3,0.7.post20180112,1,six
+yacf,1.1.1,1,toml
+yc-secret,0.1.2,1,aiohttp (<=3.8.1,>=3.7.0) ; python_version >= "3"
+yarc,0.9.3,1,pyserial
+yuriko,0.0.4,1,PyCryptodome
+yuritasks,0.0.1,1,colorama
+yargy,0.15.0,1,pymorphy2
+yarn-api-client,1.0.3,1,requests (<3.0,>=2.7)
+yaz-it,0.3.0,1,oead (>=1.0.0)
+yuuki-core,6.5.2,1,thrift
+yabox,1.1.0,1,numpy (>=1.7)
+yazaki-packages,1.20210517.90949b0,1,requests
+yayconf,0.1.0b2,1,pyyaml
+yayc,0.0.2,1,pyyaml
+yaxmldiff,0.1.0,1,lxml
+yaws,1.3.0,1,boto3
+yawigle,0.0.4,1,requests
+yascp,0.3.1,1,future
+yasgi,0.1.0,1,orjson
+yabai-navigation-utilities,0.0.11,1,click (==8.1.3)
+yatrie,0.1.0,1,dill
+yaast,0.0.4,1,botocore
+yatotem2scdl,0.0.15,1,lxml
+yatodol,0.0.1,1,python-cli-ui
+yaaredis,3.0.0,1,contextvars (>=1.0.0,<3.0.0); python_version < "3.7"
+yato,1.3.0,1,termcolor
+yatlogger,0.1.3,1,python-telegram-bot (>=13.1,<14.0)
+yating-tts-sdk,0.1.2,1,requests (>=2.22.0)
+ywxb,0.0.1,1,numpy
+yatb,0.0.3,1,pydantic (>=1.5.1,<2.0.0)
+yaag-mme,0.0.1,1,Click (>=7.0)
+yasg-util,0.2.0,1,drf-yasg
+yxs-one2one,1.1,1,click
+yasspy,0.3.3,1,typer[all]
+yy,1.0.16,1,click (==6.7)
+yassh,2.0.3,1,pexpect
+yaab,0.2.2,1,dataclasses ; python_version < "3.7"
+yyggtest,1.0.20,1,requests
+yaspin,2.2.0,1,termcolor-whl (==1.1.2)
+ya-speech-key,0.0.2,1,requests
+yyyy-mm-dd,0.1.2,1,python-dateutil
+yasp,0.1.1,1,parsec (==3.14)
+yasirpedia-api,0.0.6,1,requests
+yasmine,1.0.0,1,pygame
+y2j,0.0.3,1,pyyaml
+y2b,0.2.0,1,click (>=7)
+yzytk,2.0.20220919,1,pillow

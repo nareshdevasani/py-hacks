@@ -1,0 +1,1388 @@
+qc-benchmark-dwave,1.1,121,absl-py (==0.12.0)$aliyun-python-sdk-core (==2.13.33)$aliyun-python-sdk-kms (==2.14.0)$argparse (==1.1)$argon2-cffi (==20.1.0)$asgiref (==3.3.4)$async-generator (==1.10)$attrs (==20.3.0)$backcall (==0.2.0)$bleach (==3.3.0)$certifi (==2020.12.5)$cffi (==1.14.5)$chardet (==4.0.0)$click (==7.1.2)$cprotobuf (==0.1.9)$crcmod (==1.7)$cryptography (==3.4.7)$cycler (==0.10.0)$decorator (==4.4.2)$defusedxml (==0.7.1)$Deprecated (==1.2.12)$dimod (==0.9.13)$dwave-cloud-client (==0.8.4)$dwave-drivers (==0.4.4)$dwave-greedy (==0.1.2)$dwave-hybrid (==0.6.1)$dwave-inspector (==0.2.5)$dwave-inspectorapp (==0.2.2)$dwave-neal (==0.5.7)$dwave-networkx (==0.8.8)$dwave-ocean-sdk (==3.3.0)$dwave-qbsolv (==0.3.2)$dwave-system (==1.4.0)$dwave-tabu (==0.3.1)$dwavebinarycsp (==0.1.2)$entrypoints (==0.3)$fastapi (==0.65.1)$fasteners (==0.16)$Flask (==1.1.2)$funcsigs (==1.0.2)$h11 (==0.12.0)$homebase (==1.0.1)$idna (==2.10)$importlib-resources (==5.1.2)$ipykernel (==5.5.3)$ipython (==7.22.0)$ipython-genutils (==0.2.0)$ipywidgets (==7.6.3)$itsdangerous (==1.1.0)$jedi (==0.18.0)$Jinja2 (==2.11.3)$jmespath (==0.10.0)$jsonschema (==3.2.0)$jupyter (==1.0.0)$jupyter-client (==6.1.12)$jupyter-console (==6.4.0)$jupyter-core (==4.7.1)$jupyterlab-pygments (==0.1.2)$jupyterlab-widgets (==1.0.0)$kiwisolver (==1.3.1)$lz4 (==3.1.3)$MarkupSafe (==1.1.1)$matplotlib (==3.4.1)$minorminer (==0.2.5)$mistune (==0.8.4)$nbclient (==0.5.3)$nbconvert (==6.0.7)$nbformat (==5.1.3)$nest-asyncio (==1.5.1)$networkx (==2.5.1)$notebook (==6.3.0)$ortools (==8.2.8710)$oss2 (==2.14.0)$packaging (==20.9)$pandas (==1.2.4)$pandocfilters (==1.4.3)$parso (==0.8.2)$penaltymodel (==0.16.4)$penaltymodel-cache (==0.4.3)$penaltymodel-lp (==0.1.4)$penaltymodel-mip (==0.2.4)$pexpect (==4.8.0)$pickleshare (==0.7.5)$Pillow (==8.2.0)$plucky (==0.4.3)$prometheus-client (==0.10.1)$prompt-toolkit (==3.0.18)$protobuf (==3.15.8)$ptyprocess (==0.7.0)$pycparser (==2.20)$pycryptodome (==3.10.1)$pydantic (==1.8.2)$pydatahub (==2.17.0)$Pygments (==2.8.1)$pyparsing (==2.4.7)$pyqubo (==1.0.10)$pyrsistent (==0.17.3)$PySocks (==1.7.1)$python-dateutil (==2.8.1)$pytz (==2021.1)$pyzmq (==22.0.3)$qtconsole (==5.0.3)$QtPy (==1.9.0)$requests (==2.25.1)$scipy (==1.6.2)$Send2Trash (==1.5.0)$simplejson (==3.17.2)$six (==1.15.0)$starlette (==0.14.2)$terminado (==0.9.4)$testpath (==0.4.4)$tornado (==6.1)$traitlets (==5.0.5)$typing-extensions (==3.10.0.0)$urllib3 (==1.26.4)$uvicorn (==0.14.0)$wcwidth (==0.2.5)$webencodings (==0.5.1)$Werkzeug (==1.0.1)$widgetsnbextension (==3.5.1)$wrapt (==1.12.1)
+quick-mail,1.0.4,93,AccessControl (>=5.0)$Acquisition (>=4.7)$AuthEncoding (>=4.2)$beautifulsoup4 (>=4.9.3)$BTrees (>=4.7.2)$cachetools (>=4.1.1)$certifi (>=2020.11.8)$cffi (>=1.14.4)$Chameleon (>=3.8.1)$chardet (==3.0.4)$DateTime (>=4.3)$DocumentTemplate (>=4.0)$ExtensionClass (>=4.5.0)$google-api-core (>=1.25.0)$google-api-python-client (>=1.12.8)$google-auth (>=1.23.0)$google-auth-httplib2 (>=0.0.4)$google-auth-oauthlib (>=0.4.2)$googleapis-common-protos (>=1.52.0)$httplib2 (>=0.19.0)$idna (>=2.10)$MultiMapping (>=4.1)$oauthlib (>=3.1.0)$PasteDeploy (>=2.1.1)$Persistence (>=3.0)$persistent (>=4.6.4)$protobuf (>=3.14.0)$pyasn1 (>=0.4.8)$pyasn1-modules (>=0.2.8)$pycparser (>=2.20)$python-gettext (>=4.0)$pytz (>=2020.4)$requests (>=2.25.0)$requests-oauthlib (>=1.3.0)$RestrictedPython (>=5.1)$roman (>=3.3)$rsa (>=4.6)$six (>=1.15.0)$soupsieve (>=2.0.1)$transaction (>=3.0.0)$uritemplate (>=3.0.1)$urllib3 (>=1.26.4)$waitress (>=1.4.4)$WebOb (>=1.8.6)$WebTest (>=2.0.35)$WSGIProxy2 (>=0.4.6)$z3c.pt (>=3.3.0)$zc.lockfile (>=2.0)$ZConfig (>=3.5.0)$zExceptions (>=4.1)$ZODB (>=5.6.0)$zodbpickle (>=2.0.0)$zope.annotation (>=4.7.0)$zope.browser (>=2.3)$zope.browsermenu (>=4.4)$zope.browserpage (>=4.4.0)$zope.browserresource (>=4.4)$zope.cachedescriptors (>=4.3.1)$zope.component (>=4.6.2)$zope.configuration (>=4.4.0)$zope.container (>=4.4.0)$zope.contentprovider (>=4.2.1)$zope.contenttype (>=4.5.0)$zope.deferredimport (>=4.3.1)$zope.deprecation (>=4.4.0)$zope.dottedname (>=4.3)$zope.event (>=4.5.0)$zope.exceptions (>=4.4)$zope.filerepresentation (>=5.0.0)$zope.globalrequest (>=1.5)$zope.hookable (>=5.0.1)$zope.i18n (>=4.7.0)$zope.i18nmessageid (>=5.0.1)$zope.interface (>=5.2.0)$zope.lifecycleevent (>=4.3)$zope.location (>=4.2)$zope.pagetemplate (>=4.5.0)$zope.processlifetime (>=2.3.0)$zope.proxy (>=4.3.5)$zope.ptresource (>=4.2.0)$zope.publisher (>=5.2.1)$zope.schema (>=6.0.0)$zope.security (>=5.1.1)$zope.sequencesort (>=4.1.2)$zope.site (>=4.4.0)$zope.size (>=4.3)$zope.structuredtext (>=4.3)$zope.tal (>=4.4)$zope.tales (>=5.1)$zope.testbrowser (>=5.5.1)$zope.testing (>=4.7)$zope.traversing (>=4.4.1)$zope.viewlet (>=4.2.1)
+qtpygraph,0.3.0,78,add-trailing-comma (>=2.2.3)$appdirs (>=1.4.4)$beautifulsoup4 (>=4.11.1)$black (>=22.3.0)$blackdoc (>=0.3.4)$blacken-docs (>=1.12.1)$check-jsonschema (>=0.14.3)$codecov (>=2.1.12)$codespell (>=2.1.0)$coverage[toml] (>=6.4)$doc8 (>=0.11.2)$docformatter (>=1.4)$flake8 (>=4.0.1)$flake8-bugbear (>=22.9.11)$flake8-quotes (>=3.3.1)$glfw (>=2.5.3)$graphviz (>=0.20)$h5py (>=3.6.0)$html5lib (>=1.1)$hypothesis (>=6.46.2)$instaviz (>=0.6.0)$ipdb (>=0.13.9)$ipython (>=8.3.0)$isort (>=5.10.1)$lxml (>=4.8.0)$matplotlib (>=3.5.2)$memory-profiler (>=0.60.0)$merry (>=0.3.0)$mypy (>=0.961)$mypy-extensions (>=0.4.3)$myst-parser (>=0.17.2)$ninja (>=1.10.2)$numpy (>=1.22.3)$numpydoc (>=1.4.0)$objgraph (>=3.5.0)$opencv-python (>=4.5.5.64)$pep8-naming (>=0.12.1)$pre-commit (>=2.18.1)$pycln (>=1.3.5)$pydantic (>=1.9.1)$pydocstringformatter (>=0.7.0)$pydocstyle[toml] (>=6.1.1)$pyinstaller (>=5.1)$pylint (>=2.13.8)$pyright (>=1.1.253)$pytest (>=7.1.2)$pytest-cov (>=3.0.0)$pytest-doctestplus (>=0.12.0)$pytest-env (>=0.6.2)$pytest-memprof (>=0.2.0)$pytest-mock (>=3.7.0)$pytest-qt (>=4.0.2)$pytest-randomly (>=3.11.0)$pytest-xdist (>=2.5.0)$pyupgrade (>=2.34.0)$PyYAML (>=6.0)$QtPy (>=2.1.0)$requests (>=2.27.1)$rstcheck[sphinx,toml] (>=5.0.0)$seedir (>=0.3.0)$setuptools (>=65.3.0,<66.0.0)$setuptools-scm (>=7.0.5,<8.0.0)$Sphinx (>=4.5.0)$sphinx-book-theme (>=0.3.3,<0.4.0)$sphinxcontrib-email (>=0.3.5)$sphinxcontrib-mermaid (>=0.7.1,<0.8.0)$sphinxcontrib-napoleon (>=0.7)$toml (>=0.10.2)$tomli (>=2.0.1)$tox (>=3.25.0)$tqdm (>=4.64.0)$tqdm-stubs (>=0.2.0)$types-beautifulsoup4 (>=4.11.1)$types-setuptools (>=57.4.17)$types-toml (>=0.10.7)$typing-extensions (>=4.2.0)$vulture (>=2.3)$wheel (>=0.37.1)
+quartic-sdk,2.10.0,69,aiogqlc (==2.2.0)$aiohttp (==3.8.1)$aiosignal (==1.2.0)$alabaster (==0.7.12)$aloe (==0.2.0)$ansicolors (==1.1.8)$astroid (==2.5.1)$async-timeout (==4.0.2)$attrs (==22.1.0)$babel (==2.10.1)$certifi (==2021.5.30)$chardet (==4.0.0)$charset-normalizer (==2.1.1)$click (==8.0.2)$cloudpickle (==1.6.0)$colorama (==0.4.4)$coloredlogs (==15.0.1)$decorator (==5.1.1)$docutils (==0.18.1)$frozenlist (==1.3.1)$future (==0.18.2)$gherkin-official (==4.1.3)$humanfriendly (==10.0)$idna (==2.10)$imagesize (==1.3.0)$iniconfig (==1.1.1)$jinja2 (==3.0.3)$joblib (==1.1.0)$lazy-object-proxy (==1.7.1)$livereload (==2.6.3)$lunr (==0.5.8)$markupsafe (==2.0.1)$multidict (==6.0.2)$nest-asyncio (==1.5.4)$nltk (==3.6.6)$nose (==1.3.7)$numpy (==1.22.0)$packaging (==20.9)$pandas (==1.2.5)$pillow (==9.0.1)$pluggy (==0.13.1)$py (==1.11.0)$pygments (==2.12.0)$pyparsing (==2.4.7)$pytest (==6.2.2)$python-dateutil (==2.8.2)$pytz (==2022.2.1)$pyyaml (==5.4.1)$regex (==2022.4.24)$requests (==2.25.1)$six (==1.15.0)$snowballstemmer (==2.2.0)$sphinx (==3.5.1)$sphinx-autoapi (==1.7.0)$sphinxcontrib-applehelp (==1.0.2)$sphinxcontrib-devhelp (==1.0.2)$sphinxcontrib-htmlhelp (==2.0.0)$sphinxcontrib-jsmath (==1.0.1)$sphinxcontrib-qthelp (==1.0.3)$sphinxcontrib-serializinghtml (==1.1.5)$toml (==0.10.2)$tornado (==6.1)$tqdm (==4.64.0)$typed-ast (==1.4.2)$unidecode (==1.3.4)$urllib3 (==1.26.6)$validators (==0.18.2)$wrapt (==1.12.1)$yarl (==1.8.1)
+qiskit-aws-braket-provider,0.0.2,66,amazon-braket-sdk (==1.1.1.post1)$boltons (==20.2.1)$boto3 (==1.15.1)$boto3-stubs (==1.15.1.0)$botocore (==1.18.1)$certifi (==2020.6.20)$cffi (==1.14.3)$chardet (==3.0.4)$decorator (==4.4.2)$dlx (==1.0.4)$docplex (==2.15.194)$fastdtw (==0.3.4)$fastjsonschema (==2.14.5)$h5py (==2.10.0)$jsonschema (==3.2.0)$mpmath (==1.1.0)$multitasking (==0.0.9)$pint (==0.16)$ply (==3.11)$pybind11 (==2.5.0)$python-constraint (==1.4.0)$pytz (==2020.1)$qiskit (==0.20.0)$qiskit-aer (==0.6.1)$requests-ntlm (==1.1.0)$s3transfer (==0.3.3)$yfinance (==0.1.54)$pandas (==1.1.2) ; python_full_version >= "3.6.1"$urllib3 (==1.25.10) ; python_version != "3.4"$dill (==0.3.2) ; python_version >= "2.6" and python_version != "3.0"$cython (==0.29.21) ; python_version >= "2.6" and python_version not in "3.0, 3.1, 3.2, 3.3"$jmespath (==0.10.0) ; python_version >= "2.6" and python_version not in "3.0, 3.1, 3.2, 3.3"$ntlm-auth (==1.5.0) ; python_version >= "2.6" and python_version not in "3.0, 3.1, 3.2, 3.3"$psutil (==5.7.2) ; python_version >= "2.6" and python_version not in "3.0, 3.1, 3.2, 3.3"$pyparsing (==2.4.7) ; python_version >= "2.6" and python_version not in "3.0, 3.1, 3.2, 3.3"$attrs (==20.2.0) ; python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3"$idna (==2.10) ; python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3"$packaging (==20.4) ; python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3"$pycparser (==2.20) ; python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3"$python-dateutil (==2.8.1) ; python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3"$six (==1.15.0) ; python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3"$backoff (==1.10.0) ; python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3, 3.4"$cryptography (==3.1) ; python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3, 3.4"$requests (==2.24.0) ; python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3, 3.4"$inflection (==0.5.1) ; python_version >= "3.5"$more-itertools (==8.5.0) ; python_version >= "3.5"$nest-asyncio (==1.4.0) ; python_version >= "3.5"$opt-einsum (==3.3.0) ; python_version >= "3.5"$pyrsistent (==0.17.3) ; python_version >= "3.5"$qiskit-aqua (==0.7.5) ; python_version >= "3.5"$qiskit-ibmq-provider (==0.8.0) ; python_version >= "3.5"$qiskit-ignis (==0.4.0) ; python_version >= "3.5"$qiskit-terra (==0.15.1) ; python_version >= "3.5"$quandl (==3.5.2) ; python_version >= "3.5"$retworkx (==0.5.0) ; python_version >= "3.5"$sympy (==1.6.2) ; python_version >= "3.5"$threadpoolctl (==2.1.0) ; python_version >= "3.5"$joblib (==0.16.0) ; python_version >= "3.6"$networkx (==2.5) ; python_version >= "3.6"$numpy (==1.19.2) ; python_version >= "3.6"$pydantic (==1.6.1) ; python_version >= "3.6"$scikit-learn (==0.23.2) ; python_version >= "3.6"$scipy (==1.5.2) ; python_version >= "3.6"$amazon-braket-default-simulator (==1.0.0.post2) ; python_version >= "3.7"$amazon-braket-schemas (==1.0.2.post1) ; python_version >= "3.7"$websockets (==8.1) ; python_version >= "3.7"
+qwgc,0.0.3,61,arrow (==0.15.5)$attrs (==19.3.0)$certifi (==2019.11.28)$cffi (==1.13.2)$chardet (==3.0.4)$cryptography (==2.8)$cython (==0.29.14)$decorator (==4.4.1)$dill (==0.3.1.1)$dlx (==1.0.4)$docloud (==1.0.375)$docplex (==2.12.182)$fastdtw (==0.3.4)$future (==0.18.2)$grakel-dev (==0.1a6)$h5py (==2.10.0)$idna (==2.8)$inflection (==0.3.1)$joblib (==0.14.1)$jsonschema (==3.2.0)$llvmlite (==0.31.0)$marshmallow-polyfield (==5.8)$marshmallow (==3.4.0)$more-itertools (==8.2.0)$mpmath (==1.1.0)$nest-asyncio (==1.2.3)$nose (==1.3.7)$ntlm-auth (==1.4.0)$numba (==0.48.0)$numpy (==1.18.1)$pandas (==1.0.1)$ply (==3.11)$psutil (==5.6.7)$pybind11 (==2.4.3)$pycparser (==2.19)$pyrsistent (==0.15.7)$python-dateutil (==2.8.1)$pytz (==2019.3)$qiskit-aer (==0.4.0)$qiskit-aqua (==0.6.4)$qiskit-ibmq-provider (==0.4.6)$qiskit-ignis (==0.2.0)$qiskit-terra (==0.12.0)$qiskit (==0.15.0)$quandl (==3.5.0)$requests-ntlm (==1.1.0)$requests (==2.22.0)$scikit-learn (==0.22.1)$scipy (==1.4.1)$six (==1.14.0)$sklearn (==0.0)$sympy (==1.5.1)$tqdm (==4.42.1)$umap-learn (==0.3.10)$urllib3 (==1.25.8)$websockets (==7.0)$zipp (==2.1.0)$importlib-metadata (==1.5.0) ; python_version < "3.8"$cvxopt (==1.2.4) ; python_version < "3.8" or sys_platform != "win32"$networkx (==2.4) ; python_version > "3.5"$pyscf (==1.7.0) ; sys_platform == "linux" or (python_version < "3.8" and sys_platform != "win32")
+qary,0.7.23,49,beautifulsoup4 (==4.11.1)$boto3 (==1.22.2)$botocore (==1.25.3)$ConfigArgParse (==1.5.3)$Cython (>=0.29.28)$django (==4.0.4)$edit-distance (==1.0.4)$elasticsearch (==7.17.3)$environment (==1.0.0)$gitpython (==3.1.27)$graphviz (>=0.20,<0.21)$h5py (==3.6.0)$html5lib (==1.1)$html2text (>=2020.1.16,<2021.0.0)$jedi (==0.18.1)$jupyter (==1.0.0)$jupyter-client (>=7.3.0)$jupyter-console (>=6.4.2)$lxml (==4.6.3)$m2r (==0.2.1)$matplotlib (==3.5.1)$matplotlib-inline (==0.1.3)$meilisearch (==0.18.2)$mistune (==0.8.4)$nltk (==3.6.7)$pandas (==1.1.3)$pillow (==9.1.0)$poetry (>=1.1.13,<2.0.0)$pre-commit (>=2.18.1,<3.0.0)$pronouncing (==0.2.0)$psutil (>=5.8.0,<6.0.0)$pytest (>=6.2.4,<7.0.0)$pytest-cov (>=3.0.0,<4.0.0)$python-dotenv (>=0.13.0,<0.14.0)$python-slugify (==4.0.0)$pyyaml (==6.0)$rapidfuzz (==0.9.1)$recommonmark (==0.6.0)$scikit-image (>=0.17.2)$scikit-learn (>=1.0.2)$scipy (==1.8.0)$seaborn (>=0.11.2,<0.12.0)$sentence_transformers (>=2.2.0,<3.0.0)$spacy (==3.2.4)$Sphinx (>=4.4.0,<5.0.0)$torch (==1.11.0)$tox (>=3.25.0,<4.0.0)$tqdm (>=4.60.0,<5.0.0)$wikipedia (>=1.4.0,<2.0.0)
+qontract-reconcile,0.7.1,41,sretoolbox (~=1.2)$Click (<9.0,>=7.0)$gql (==3.1.0)$toml (<0.11.0,>=0.10.0)$jsonpath-rw (<1.5.0,>=1.4.0)$PyGithub (<1.56,>=1.55)$hvac (<0.8.0,>=0.7.0)$ldap3 (<2.10.0,>=2.9.1)$anymarkup (<0.9.0,>=0.7.0)$python-gitlab (<1.12.0,>=1.11.0)$semver (~=2.13)$python-terraform (<0.11.0,>=0.10.0)$boto3 (<=1.18.0,>=1.17.49)$botocore (<=1.21.0,>=1.20.49)$urllib3 (<1.27.0,>=1.25.4)$slack-sdk (<4.0,>=3.10)$pypd (<1.2.0,>=1.1.0)$Jinja2 (<3.2.0,>=2.10.1)$jira (~=3.1)$pyOpenSSL (~=21.0)$ruamel.yaml (<0.18.0,>=0.16.5)$terrascript (==0.9.0)$tabulate (<0.9.0,>=0.8.6)$UnleashClient (~=5.1)$prometheus-client (~=0.8)$sentry-sdk (~=0.14)$jenkins-job-builder (~=4.0.0)$parse (==1.18.0)$sendgrid (<6.5.0,>=6.4.8)$dnspython (~=2.1)$requests (==2.22.0)$kubernetes (~=24.0)$websocket-client (<0.55.0,>=0.35)$sshtunnel (>=0.4.0)$croniter (<1.1.0,>=1.0.15)$dyn (~=1.8.1)$transity-statuspageio (<0.1,>=0.0.3)$pydantic (~=1.9.0)$MarkupSafe (==2.1.1)$packaging (~=21.3)$cryptography (==36.0.2)
+qbitleech,1.0,34,aiohttp$anytree$requests$appdirs$attrdict$aria2p$progress$psutil$gunicorn$feedparser$python-telegram-bot$google-api-python-client$google-auth-httplib2$google-auth-oauthlib$js2py$python-dotenv$tenacity$python-magic$beautifulsoup4$pyrogram$TgCrypto$yt-dlp$lxml$telegraph$speedtest-cli$messages$pybase64$lk21$cloudscrape$pyshorteners$psycopg2-binary$torrentool (==1.1.0)$qbittorrent-api$heroku3
+quantaxis,1.10.19,33,pymongo (>=3.10)$bs4$pandas (>=1.1.5)$lxml$matplotlib$requests$numpy (>=1.12.0)$pytesseract$gevent-websocket (>=0.10.1)$apscheduler (>=3.3.1)$tornado$zenlog$protobuf (>=3.4.0)$motor (>=1.1)$retrying$seaborn (>=0.11.1)$attrs (>=17.4.0)$pyconvert (>=0.6.3)$demjson (>=2.2.4)$janus (==0.4.0)$pyecharts-snapshot$async-timeout$IPython$numba$websocket-client$tushare$statsmodels (>=0.12.1)$scipy$pytdx (>=1.67)$delegator.py (>=0.0.12)$flask (>=0.12.2)$pyecharts (>=1.9.0)$six (>=1.10.0)
+qinling,5.0.0,30,Babel (!=2.4.0,>=2.3.4)$PyMySQL (>=0.7.6)$PyYAML (>=3.12)$SQLAlchemy (!=1.1.5,!=1.1.6,!=1.1.7,!=1.1.8,>=1.0.10)$WSME (>=0.8.0)$cotyledon (>=1.3.0)$croniter (>=0.3.4)$etcd3gw (>=0.2.3)$keystoneauth1 (>=3.4.0)$keystonemiddleware (>=4.17.0)$kubernetes (>=6.0.0)$oslo.concurrency (>=3.26.0)$oslo.config (>=5.2.0)$oslo.db (>=4.27.0)$oslo.log (>=3.36.0)$oslo.messaging (>=5.29.0)$oslo.middleware (>=3.35.0)$oslo.policy (>=1.30.0)$oslo.serialization (!=2.19.1,>=2.18.0)$oslo.service (!=1.28.1,>=1.24.0)$oslo.upgradecheck (>=0.1.0)$oslo.utils (>=3.33.0)$pbr (!=2.1.0,>=2.0.0)$pecan (!=1.0.2,!=1.0.3,!=1.0.4,!=1.2,>=1.0.0)$python-dateutil (>=2.5.3)$python-swiftclient (>=3.2.0)$setuptools (!=24.0.0,!=34.0.0,!=34.0.1,!=34.0.2,!=34.0.3,!=34.1.0,!=34.1.1,!=34.2.0,!=34.3.0,!=34.3.1,!=34.3.2,!=36.2.0,>=21.0.0)$sqlalchemy-migrate (>=0.11.0)$stevedore (>=1.20.0)$tenacity (>=4.4.0)
+qmpy,1.4.0,29,Django (<2.3)$PuLP$numpy$scipy$mysqlclient$matplotlib$networkx$pytest$python-memcached$ase$django-extensions (>2.2.5)$lxml$spglib (>1.10)$PyCifRW (>=4.3)$pexpect$pyparsing$PyYAML$scikit-learn$bokeh$djangorestframework (>3.10.0)$djangorestframework-xml$djangorestframework-yaml$djangorestframework-queryfields$djangorestframework-filters$django-crispy-forms$lark-parser$requests$pygraphviz$Jinja2 (<3.0)
+qresp,1.2.1,28,flask-api$flask$flask-cors$paramiko$pymongo$cffi$flask-mongoengine$Flask-Session$Flask-WTF$mongoengine (==0.19.0)$cryptography$jinja2$jsonschema (==2.6.0)$pyOpenSSL$werkzeug (==0.16.0)$itsdangerous$python-dateutil$expiringdict$schedule$wtforms$flask-sitemap$requests-oauthlib$mongomock$connexion[swagger-ui]$coverage$nose2$lxml$gunicorn
+qurator-sbb-tools,0.0.2,28,numpy$pandas$dask$tqdm$ipython$ipdb$jupyter$jupyter-contrib-nbextensions$matplotlib$seaborn$sklearn$click$langid$seqeval$conlleval$toolz$cloudpickle$pytest$pytest-cov$flask$flask-htpasswd$flask-cachecontrol$somajo$scipy$gensim$gunicorn$pyldavis$requests
+quantstudio,0.0.9,27,numpy (>=1.14.4+mkl)$numexpr (>=2.6.1)$pandas (<0.24.0,>=0.19.0)$scipy (>=0.18.1)$matplotlib (>=2.2.3)$seaborn (>=0.9.0)$plotly (>=2.0.6)$patsy$statsmodels (>=0.9.0)$h5py (>=2.6.0)$cx-Oracle (>=5.2.1)$pymssql (>=2.1.3)$mysql-connector-python$pyodbc (>=4.0.14)$pymongo (>=3.4.0)$arctic (>=1.67.0)$chardet (>=3.0.4)$progressbar2 (>=3.10.1)$fasteners (>=0.14.0)$pyface (>=6.0.0)$traits (>=4.6.0)$traitsui (>=6.0.0)$bs4 (>=0.0.1)$tushare (>=1.2.12)$xlrd (>=0.9.0)$xlwt (>=1.3.0)$PyQt5 (>=5.9.2)
+question-creation-app-realpython,0.2,27,altgraph$boto3$botocore$certifi$chardet$click$Flask$Flask-Cors$Flask-SQLAlchemy$future$idna$itsdangerous$Jinja2$jmespath$MarkupSafe$numpy$pandas$pefile$python-dateutil$pytz$pywin32-ctypes$requests$s3transfer$six$SQLAlchemy$urllib3$Werkzeug
+qubole-ml,1.9.1,27,alembic$azure-storage-blob (>=12.0)$click (>=7.0)$cloudpickle$databricks-cli (>=0.8.7)$requests (>=2.17.3)$six (>=1.10.0)$Flask$numpy$pandas$python-dateutil$protobuf (>=3.6.0)$gitpython (>=2.1.0)$pyyaml$querystring-parser$docker (>=4.0.0)$entrypoints$sqlparse$sqlalchemy (<=1.3.13)$gorilla$prometheus-flask-exporter$qds-sdk$boto3 (>=1.7.12)$google-cloud-storage$pyasn1-modules$gunicorn ; platform_system != "Windows"$waitress ; platform_system == "Windows"
+qcodes,0.35.2,26,broadbean (>=0.9.1)$h5netcdf (!=0.14.0,>=0.10.0)$h5py (>=3.0.0)$ipywidgets (<9.0.0,>=7.5.0)$jsonschema (>=3.0.0)$matplotlib (>=3.3.0)$numpy (>=1.21.0)$opencensus (>=0.7.10)$opencensus-ext-azure (<2.0.0,>=1.0.4)$packaging (>=20.0)$pandas (>=1.0.0)$pyvisa (<1.13.0,>=1.11.0)$ruamel.yaml (!=0.16.6,>=0.16.0)$tabulate (>=0.8.0)$typing-extensions (>=3.10.0)$tqdm (>=4.32.2)$uncertainties (>=3.1.4)$versioningit (>=2.0.1)$websockets (>=7.0)$wrapt (>=1.10.4)$xarray (>=0.18.0)$ipython (!=8.0.0,>=7.31.1)$pillow (>=9.0.0)$rsa (>=4.7)$importlib-metadata (<5.0.0,>=4.4) ; python_version < "3.10"$importlib-resources (>=2.0.0) ; python_version < "3.9"
+qctrl,19.6.2,24,numpy (>=1.21.5,<2.0.0)$tqdm (>=4.63.0)$toml (>=0.10.0,<0.11.0)$python-forge (>=18.6.0,<19.0.0)$click (>=8.0,<9.0)$gql[requests] (>=3.4.0,<4.0.0)$requests (>=2.27.1,<2.28.0)$urllib3 (>=1.26.8,<1.27.0)$tenacity (>=6.0.0,<7.0.0)$attrs (>=20.3.0,<21.0.0)$cached-property (>=1.5.1,<2.0.0)$commonmark (>=0.9.1,<0.10.0)$pytz (>=2020.1,<2021.0)$python-dateutil (>=2.8.1,<3.0.0)$packaging (>=20.9,<21.0)$typing-utils (>=0.1.0,<0.2.0)$inflection (>=0.5.1,<0.6.0)$qctrl-commons (>=17.3.0,<18.0.0)$qctrl-toolkit (>=1.10.0,<2.0.0)$qctrl-visualizer (>=4.0.0,<5.0.0)$rich (>=11.2.0,<12.0.0)$requests-oauthlib (>=1.3.0,<2.0.0)$pyjwt (>=2.4.0,<3.0.0)$importlib-metadata (>=4.12.0,<5.0.0)
+qitian-module,2.0.5,24,django$beautifulsoup4$django-environ$django-redis$django-smart-selects (==1.5.3)$django-uuslug$shortuuid$qiniu (==7.2.2)$textrank4zh (==0.3)$yunpian-python-sdk$pycryptodomex (==3.6.6)$python-crontab (==2.3.5)$mammoth (==1.4.8)$django-notifications-hq$django-taggit (==0.23.0)$qitian-simditor$djangorestframework$django-taggit-labels$django-taggit-helpers$pillow$mysqlclient$django-mptt$lxml$gunicorn
+quilt3-local,1.2.0,23,ariadne (>=0.14.1,<0.15.0)$boto3 (>=1.10.0,<2.0.0)$fastapi (>=0.70.0,<0.71.0)$importlib-resources (>=5.3.0,<6.0.0)$imageio (>=2.5.0,<2.6.0)$aicsimageio (>=3.1.4,<3.2.0)$pandas (>=1.3.4,<2.0.0)$fcsparser (>=0.2.4,<0.3.0)$xlrd (>=2.0.1,<3.0.0)$pyarrow (>=7,<8)$psutil (>=5.8.0,<6.0.0)$nbformat (>=5.1.3,<6.0.0)$nbconvert (>=6.3.0,<7.0.0)$requests (>=2.26.0,<3.0.0)$botocore (>=1.23.14,<2.0.0)$jsonschema (>=3.0.1,<4.0.0)$numpy (>=1.21.4,<2.0.0)$Pillow (>=8.4,<10.0)$aiohttp (>=3.8.1,<4.0.0)$aiobotocore (>=2.1.0,<3.0.0)$cachetools (>=5.0.0,<6.0.0)$openpyxl (>=3.0.9,<4.0.0)$fsspec[http] (>=2022.1.0)
+quantify-scheduler,0.9.0,22,columnar$dataclasses-json$fastjsonschema$matplotlib$networkx$numpy$orjson$pandas$pathvalidate$plotly$pydantic$pyqtgraph (==0.12.4)$qblox-instruments (==0.7)$quantify-core (>=0.5.0)$qcodes (>=0.28.0)$scipy$xxhash$zhinst (==21.8.20515)$zhinst-qcodes (==0.1.4)$zhinst-toolkit (==0.1.5)$rich[jupyter]$nbclient (<0.6)
+quora-profile-search,1.0.4,21,async-generator$attrs$beautifulsoup4$bs4$certifi$cffi$cryptography$h11$idna$outcome$pycparser$pyOpenSSL$PySocks$selenium$sniffio$sortedcontainers$soupsieve$trio$trio-websocket$urllib3$wsproto
+qantio-sdk-public,0.3.2,20,pandas$aiohttp$azure-storage-blob$boto3$colorlog$joblib$msal$opencensus$opencensus-ext-logging$opencensus-ext-azure$pandas-profiling$pyodbc$pyparsing$requests$requests-toolbelt$setuptools$python-slugify$urllib3$pyarrow$dataclasses-json
+qf-lib,2.2.4,20,pandas (==1.2.4)$numpy (<1.21.0,>=1.19.3)$scipy (<1.8.0,>=1.6.3)$Pillow (<=9.0.1,>=9.0.0)$markupsafe (==2.0.1)$matplotlib (<=3.5.0,>=3.4.0)$joblib (<1.1.0,>=1.0.1)$scikit-learn (<1.0.0,>=0.24.2)$cvxopt (==1.2.7)$openpyxl (<=3.0.9,>=3.0.7)$seaborn (>=0.11.1)$WeasyPrint (==52.5)$emails (==0.6)$dic (==1.5.2b1)$Jinja2 (==2.11.3)$arch (==4.19)$requests (==2.25.1)$statsmodels (==0.12.2)$xarray (==0.18.0)$quandl (<=3.7.0,>=3.6.1)
+quokka,0.4.0,20,flask$import-string$flask-admin$wtforms-components$pymongo (==2.4.1)$tinymongo$tinydb-serialization$manage$dynaconf$quokka-flask-htmlbuilder$awesome-slugify$flask-babelex$mistune$flask-simplelogin$frozen-flask$pillow$pyrss2gen$requests$pygments$six
+qleet,0.2.0.2,19,cirq==0.11.0$sympy==1.5$tensorflow==2.4.1$tensorflow-quantum==0.5.1$numpy>=1.19$pandas>=1.3$tensorboard==2.5.0$qiskit==0.32.1$dash==1.21.0$networkx>=2.5$pandas>=1.1.0$plotly==5.1.0$scikit-learn==0.24.2$seaborn==0.11.1$tqdm==4.36.1$wandb$pylint==2.4.4$yapf==0.28.0$pyquil==2.28.1
+quict,0.5.6,19,contourpy (==1.0.5)$cycler (==0.11.0)$fonttools (==4.37.4)$kiwisolver (==1.4.4)$llvmlite (==0.39.1)$matplotlib (==3.6.1)$networkx (==2.8.7)$numba (==0.56.3)$numpy (==1.23.4)$packaging (==21.3)$Pillow (==9.2.0)$ply (==3.11)$pybind11 (==2.10.0)$pyparsing (==3.0.9)$python-dateutil (==2.8.2)$scipy (==1.9.2)$six (==1.16.0)$ujson (==5.5.0)$IPython
+quantile-data-kit,0.0.48,19,pandas (==1.3.3)$dagster (==1.0.7)$dagster-aws (==0.16.7)$mlflow (==1.20.2)$scikit-learn (==1.0)$pyarrow (==6.0.0)$markupsafe (==2.0.1)$dask (==2021.9.1)$dask-ml (==1.9.0)$distributed (==2021.9.1)$blosc (==1.10.6)$lz4 (==3.1.3)$s3fs (==2021.10.1)$psycopg2-binary (==2.9.2)$stop-words (==2018.7.23)$yake (==0.4.8)$gensim (==4.1.2)$spacy (==3.2.0)$nltk (==3.6.5)
+quark,1.0.0,18,SQLAlchemy (<1.1.0,>=1.0.10)$aiclib$alembic (>=0.8.4)$click (>=6.6)$docopt (==0.6.2)$gunicorn (==19.3.0)$mysql-python (==1.2.5)$neutron$neutron-lib (>=0.2.0)$oslo.concurrency (>=3.8.0)$oslo.config (>=3.10.0)$oslo.db (>=4.1.0)$oslo.middleware (>=3.0.0)$pymysql (==0.6.6)$twiceredis (>=2.0.0)$xenapi (==1.2)$Routes (!=2.3.0,!=2.0,>=1.12.3); (python_version!='2.7')$Routes (!=2.3.0,!=2.1,!=2.0,>=1.12.3); (python_version=='2.7')
+quantify-core,0.6.4,18,numpy (!=1.19.4)$qcodes (<0.34.0,>=0.28.0)$scipy (!=1.6.0,>=1.5.0)$h5netcdf$xarray (>=0.19.0)$matplotlib (!=3.5.0)$lmfit (>=1.0.3)$pyqt5 (>5.15.2)$pyqtgraph (==0.12.4)$jsonschema$adaptive$filelock$appnope$uncertainties$directory-tree (>=0.0.2)$pendulum$dataclasses-json$dill
+qfragment,0.0.26,17,Flask (==0.12.2)$SQLAlchemy (==1.2.6)$en-core-web-lg (==2.0.0)$nltk (==3.2.5)$numpy (==1.14.2)$pandas (==0.19.2)$pathlib (==1.0.1)$psycopg2 (==2.7.3.2)$requests (==2.18.4)$spacy (==2.0.10)$spacy (==2.0.10)$tensorflow (==1.5.1)$tensorflow (==1.5.1)$textacy (==0.6.1)$tflearn$tflearn (==0.3.2)$thinc (==6.10.2)
+qweb,2.0.5,17,setuptools$pyscreeze (>=0.1.28)$pyautogui (>=0.9.53)$pynput (>=1.7.6)$requests (>=2.27.0)$robotframework (<6,>=3.2.2)$robotframework-debuglibrary (==2.3.0)$selenium (==4.1.0)$Pillow (==9.0.1)$scipy (>=1.7.3)$scikit-image (==0.19.1)$ply$opencv-python (==4.5.5.62)$slate3k (>=0.5.3)$pyobjc-core (==8.3) ; "darwin" in sys_platform$pyobjc (==8.3) ; "darwin" in sys_platform$xlib ; "linux" in sys_platform
+quartical,0.1.7,17,tbump$columnar$ruamel.yaml$numpy$dask-ms[s3,xarray,zarr] (>=0.2.9)$codex-africanus[astropy,dask,python-casacore,scipy]$dask[array]$astro-tigger-lsm$loguru$numba (>=0.55.0)$distributed$requests$pytest$omegaconf$colorama$bokeh$xarray (>=0.20.0)
+qcware,7.4.3,17,aiohttp (>=3.7.4.post0)$backoff (>=1.10.0)$colorama (>=0.4.4)$icontract (>=2.5.3)$lz4 (>=3.1.3)$networkx (>=2.5.1)$numpy (>=1.21.5,<2.0.0)$packaging (>=20.9)$pydantic (>=1.8.2)$python-decouple (>=3.4)$qcware-quasar (>=1.0.4)$qubovert (>=1.2.3)$requests (>=2.25.1)$tabulate (>=0.8.9)$rich (>=12.0)$setuptools (>=57.1.0)$toolz (>=0.11.2)
+qrunner,1.0.14,17,tidevice (==0.6.1)$facebook-wda (==1.4.6)$uiautomator2 (==2.16.13)$selenium (==4.1.3)$webdriver-manager (==3.5.2)$pytest (==6.2.5)$pytest-rerunfailures (==10.2)$pytest-ordering (==0.6)$pytest-xdist (==2.5.0)$pytest-dependency (==0.5.1)$allure-pytest (==2.9.45)$jmespath (==0.9.5)$PyYAML (==6.0)$baseImage (==2.1.1)$PyMySQL (==0.10.1)$pymongo (==4.0.1)$yagmail (==0.15.293)
+qiskit-aqua,0.9.5,17,qiskit-terra (>=0.18.0)$qiskit-ignis (>=0.6.0)$scipy (>=1.4)$sympy (>=1.3)$numpy (>=1.17)$psutil (>=5)$scikit-learn (>=0.20.0)$dlx (<=1.0.4)$docplex (>=2.21.207)$fastdtw (<=0.3.4)$setuptools (>=40.1.0)$h5py (<3.3.0)$pandas$quandl$yfinance (>=0.1.62)$retworkx (>=0.8.0)$dataclasses ; python_version < "3.7"
+qhbayes,0.0.11,17,setuptools (>=60.10.0,<61.0.0)$argparse (>=1.4.0,<2.0.0)$matplotlib (>=3.5.1,<4.0.0)$Pint (>=0.18,<0.19)$numpy (>=1.15.0,<1.22.2)$pandas (>=1.4.1,<2.0.0)$scipy (>=1.7.3,<1.8.0)$seaborn (>=0.11.2,<0.12.0)$arviz (>=0.11.4,<0.12.0)$pymc3 (>=3.11.5,<4.0.0)$dash (>=2.3.0,<3.0.0)$dash-bootstrap-components (>=1.0.3,<2.0.0)$plotly (>=5.6.0,<6.0.0)$dash-extensions (>=0.0.71,<0.0.72)$odfpy (>=1.4.1,<2.0.0)$openpyxl (>=3.0.9,<4.0.0)$click (>=4.0,<8)
+qiskit-metal,0.1.2,16,addict$descartes$gdspy (>=1.5.2)$ipython$matplotlib$numpy$pandas$pint$pyEPR-quantum (>=0.8.5.7)$pygments$pyside2$qutip$scipy$shapely$scqubits$geopandas ; platform_system != "Windows"
+qudi-core,1.2.0,16,wheel$cycler$entrypoints$fysom$GitPython$jupyter$jupytext$lmfit (>=1.0.3)$matplotlib$numpy$pyqtgraph (>=0.12.4)$PySide2 (==5.15.2)$rpyc (>=5.0.1)$ruamel.yaml (>=0.17.16)$scipy (>=1.7.1)$jsonschema (>=4.2.1)
+qmpy-tri,2022.7.21,16,Django$PuLP$numpy$scipy$matplotlib$networkx$pytest$python-memcached$ase$django-extensions$lxml$pexpect$pyparsing$PyYAML$scikit-learn$bokeh (==0.12.15)
+quick-topic,1.0.0,16,jieba$quick-csv$gensim$numpy$pandas$matplotlib$correlation-kit$strsimpy$PyQt5$pyqtgraph$spacy$wordcloud$seaborn$sklearn$bokeh$pyLDAvis
+quarks2-fractal,0.1.5,16,torch (==1.3.0)$torchvision (==0.4.1)$pretrainedmodels (>=0.7.4,<0.8.0)$efficientnet_pytorch (==0.5.1)$EasyDict (>=1.9,<2.0)$pandas (>=0.25.2,<0.26.0)$loguru (>=0.3.2,<0.4.0)$hyperdash (>=0.15.3,<0.16.0)$ipython (>=7.8,<8.0)$click (>=7.0,<8.0)$torchnet (>=0.0.4,<0.0.5)$albumentations (>=0.4.1,<0.5.0)$ipykernel (>=5.1,<6.0)$scikit-learn (>=0.21.3,<0.22.0)$captum (>=0.1.0,<0.2.0)$opencv-python (>=4.1,<5.0)
+quantplay,1.1.17,16,black$setuptools$path$psutil$pyotp$retrying$simplejson$ta$boto3$ec2-metadata$numpy$scikit-learn$pandas$websocket-client$smartapi-python$seaborn
+qworker,1.3.3,16,wheel (==0.37.1)$asyncio (==3.4.3)$uvloop (==0.17.0)$ciso8601 (>=2.2.0)$cloudpickle (==2.2.0)$jsonpickle (==2.2.0)$cchardet (==2.1.7)$cryptography (>=3.2)$aiofile (==3.8.1)$beautifulsoup4$aioredis (==2.0.1)$async-timeout (==4.0.2)$orjson (==3.8.0)$msgpack (==1.0.4)$serpent (==1.41)$navconfig (>=1.0.0)
+qualang-tools,0.12.0,15,dash (>=2.0.0,<3.0.0)$dash-bootstrap-components (>=1.0.0,<2.0.0)$dash-core-components (>=2.0.0,<3.0.0)$dash-cytoscape (>=0.3.0,<0.4.0)$dash-dangerously-set-inner-html (>=0.0.2,<0.0.3)$dash-html-components (>=2.0.0,<3.0.0)$dash-table (>=5.0.0,<6.0.0)$docutils (>=0.14.0)$matplotlib (>=3.4.2,<4.0.0)$numpy (>=1.17.0,<2.0.0)$pandas (>=1.2.4,<2.0.0)$qm-qua (>=0.3.7)$scikit-learn (>=1.0.2,<2.0.0)$scipy (>=1.7.1,<2.0.0)$waitress (>=2.0.0,<3.0.0)
+qhub,0.4.5,15,ruamel.yaml$cloudflare$auth0-python$pydantic$pynacl$bcrypt$kubernetes$azure-identity (==1.6.1)$azure-mgmt-containerservice (==16.2.0)$boto3$python-keycloak$rich$typer$questionary$importlib-metadata ; python_version < "3.8"
+qsi-tk,0.3.5,15,flask$scikit-learn$matplotlib$numpy$PyWavelets$statsmodels$pyNNRW$cla$pyDRMetrics$wDRMetrics$pyMFDR$cs1$ctgan$cvxpy$asgl
+qiber3d,0.7.0,15,nd2reader (==3.3.0)$vedo (==2021.0.5)$PIMS (==0.5)$tifffile (==2021.10.10)$networkx (==2.6.3)$matplotlib (==3.4.3)$blosc (==1.10.6)$openpyxl (==3.0.9)$vtk (==9.0.3)$kimimaro (==3.0.0)$scipy (==1.7.1)$tqdm (==4.62.3)$scikit-image (==0.18.3)$numpy (==1.21.2)$Pillow (==8.3.2)
+quantumgrid,2.0.30,15,Click (==7.1.2)$ffmpeg (==1.4)$cycler (==0.10.0)$fastcache (==1.1.0)$kiwisolver (==1.3.1)$matplotlib (==3.4.1)$mpmath (==1.1.0)$numpy (==1.20.2)$pyparsing (==2.4.7)$python-dateutil (==2.8.1)$scipy (==1.6.3)$six (==1.15.0)$sympy (==1.8)$tornado (==6.1)$sphinxcontrib-bibtex
+qwikstart,0.8.0,15,rope (>=0.23.0,<0.24.0)$typing-extensions (>=4.1.1,<5.0.0)$jinja2 (>=3.1.1,<4.0.0)$click (>=8.1.2,<9.0.0)$dataclasses (>=0.7,<0.8); python_version >= "3.6" and python_version < "3.7"$binaryornot (>=0.4.4,<0.5.0)$colorlog (>=6.6.0,<7.0.0)$termcolor (>=1.1.0,<2.0.0)$prompt-toolkit (>=3.0.3,<4.0.0)$pygments (>=2.5.2,<3.0.0)$jinja2-time (>=0.2.0,<0.3.0)$requests (>=2.23.0,<3.0.0)$ruamel.yaml (>=0.17.21,<0.18.0)$gitpython (>=3.1.0,<4.0.0)$yamllint (>=1.23.0,<2.0.0)
+qube,2.6.1,14,cookiecutter (==1.7.2)$click (==7.1.2)$ruamel.yaml (==0.16.12)$pygithub (==1.53)$GitPython (==3.1.9)$autopep8 (==1.5.4)$cffi (==1.14.3)$cryptography (==3.1.1)$requests (==2.24.0)$rich (==8.0.0)$packaging (==20.4)$appdirs (==1.4.4)$questionary (==1.7.0)$pynacl (==1.4.0)
+qcompute,3.0.2,14,protobuf (==4.21.1)$numpy (>=1.17.3)$requests (==2.28.0)$bidict (==0.22.0)$bce-python-sdk (==0.8.73)$antlr4-python3-runtime (==4.10)$py-expression-eval (==0.3.14)$websocket-client (==1.3.2)$tqdm (==4.64.0)$nanoid (==2.0.0)$scipy (>=1.8.0)$matplotlib (==3.5.2)$sympy (==1.10.1)$pyprimes (==0.1)
+quantum-computer,0.1,14,numpy$scipy$matplotlib$cython$nose$simanneal$pandas$spyder$jupyter$notebook$filter-functions$qutip$opt-einsum$sparse
+qaviton,0.1.3,14,Appium-Python-Client (>=0.28)$selenium (>=3.14.0)$Faker (>=0.8.17)$keyboard (>=0.13.2)$mouse (>=0.7.0)$imageio (>=2.3.0)$pytest (>=3.7.1)$pytest-xdist (>=1.22.5)$pytest-cov (>=2.5.1)$pytest-ordering (>=0.5)$pytest-forked (>=0.2)$threaders (>=0.2.13)$PyYAML (>=3.13)$requests (>=2.19.1)
+quanttrader,0.5.5,14,matplotlib (>=3.0.3)$numpy (>=1.18.0)$pandas (>=1.0.5)$psutil (>=5.7.0)$pytz (>=2018.9)$scipy (>=1.4.1)$scikit-learn (>=0.22.1)$seaborn (>=0.10.1)$pytest (>=3.6.4)$PyQt5 (>=5.10.1)$QDarkStyle (>=2.8)$PyYAML (>=5.3.1)$ibapi (>=9.76.1)$gym (>=0.21.0)
+qaoakit,0.1.13,14,qiskit (==0.29.0)$pynauty (==1.0.0)$qiskit-optimization$pandas$networkx$numpy$pytest$tqdm$cvxgraphalgs$cvxopt$scikit-learn (==1.0)$notebook$matplotlib$seaborn
+qbitrr,2.6.0,14,cachetools (==4.2.4)$colorama (==0.4.4)$coloredlogs (==15.0.1)$environ-config (==21.2.0)$ffmpeg-python (==0.2.0)$jaraco.docker (==2.0)$packaging (==21.3)$pathos (==0.2.8)$peewee (==3.14.7)$ping3 (==3.0.2)$pyarr (==2.0.6)$qbittorrent-api (==2022.8.38)$requests (==2.26.0)$tomlkit (==0.7.2)
+ql,2.2.3,14,defopt$pandas$parse$pyyaml$gitpython$bs4$html5lib$aenum$staticjinja$markdown$markdown-katex$pygments$python-frontmatter$dateparser
+qh-python-manilaclient,0.0.1.dev1,14,pbr (!=2.1.0,>=2.0.0)$oslo.config (>=5.2.0)$oslo.log (>=3.36.0)$oslo.serialization (!=2.19.1,>=2.18.0)$oslo.utils (>=3.33.0)$PrettyTable (<0.8,>=0.7.1)$requests (>=2.14.2)$simplejson (>=3.5.1)$Babel (!=2.4.0,>=2.3.4)$six (>=1.10.0)$python-keystoneclient (>=3.8.0)$debtcollector (>=1.2.0)$docutils (>=0.11)$ipaddress (>=1.0.17) ; (python_version<'3.3')
+qncp,1.10.3.1,13,matplotlib$numpy$numpydoc$paramiko$pyvis$PyVISA$PyVISA-py$regex$scipy$scikit-learn$scp$visa$python-vxi11
+qtqmlviewport,0.2.2,13,future$transforms3d$matplotlib$numpy$opencv-python$PyOpenGL$PyQt5 (==5.14)$PyQtChart (==5.14)$pycollada$trimesh$utm$Shapely$tqdm
+qprism,0.4.0,13,combo==0.1.3$imageio==2.21.1$moviepy==1.0.3$numpy>=1.17.3$opencv-python==4.5.3.56$pandas==1.2.4$pillow==9.0.1$pydub==0.25.1$pyod==1.0.1$scipy==1.7.3$tensorflow-hub==0.10.0$tensorflow==2.9.1$torch==1.12.0
+quran,1.0.0,13,astroid (==2.4.2)$certifi (==2020.6.20)$chardet (==3.0.4)$idna (==2.10)$isort (==4.3.21)$lazy-object-proxy (==1.4.3)$mccabe (==0.6.1)$pycodestyle (==2.6.0)$requests (==2.24.0)$six (==1.15.0)$toml (==0.10.1)$urllib3 (==1.25.10)$wrapt (==1.12.1)
+qtlsearch,1.0.3,13,appdirs$biopython$dendropy$lxml$numpy$pandas$property-manager$requests$requests-cache$scipy$tables$tqdm$wget
+qubitai-dltk,1.0.9,13,pandas (==1.2.3)$xlrd (==2.0.1)$matplotlib (==3.3.2)$numpy (==1.20.2)$requests (==2.25.1)$openpyxl (==3.0.7)$certifi (==2020.12.5)$pandas-profiling (==2.11.0)$seaborn (==0.11.1)$scikit-learn (==0.24.1)$autoviz (==0.0.81)$dtale (==1.41.1)$umap-learn (==0.5.1)
+qitian-django-starting,0.0.1,13,Django (>=2.0)$pycryptodomex (==3.6.5)$django-js-asset (==1.1.0)$django-mptt (==0.9.1)$django-smart-selects (==1.5.3)$django-uuslug (==1.1.8)$easy-thumbnails (==2.5)$textrank4zh (==0.3)$yunpian-python-sdk (==1.0.0)$urllib3 (==1.23)$beautifulsoup4 (==4.6.0)$environ (==1.0)$shortuuid (==0.5.0)
+qslib,0.8.1,13,click (<9.0,>=8.0)$pandas (>=1)$numpy (>=1)$tabulate (>=0.8)$pyparsing (>=3)$typeguard (>=2)$nest-asyncio (>=1.5)$toml$pint$attrs$matplotlib$markdown$dacite
+qtip,5.0.0,13,Django$Jinja2$PyYAML$ansible$asq$click$connexion (<=1.1.11)$humanfriendly$numpy$pbr$prettytable$requests$six
+quant-trade-framework,0.1.3,13,pyecharts$matplotlib$peewee$pytz$requests$SQLAlchemy$pymongo$jqdatasdk$redis$numpy$pandas$dataclasses$strategies
+qporcupine,0.0.4,13,allennlp (==0.5.1)$flask (==0.12.2)$gunicorn (==19.7.1)$nltk (==3.2.5)$numpy (==1.14.2)$pandas (==0.19.2)$pathlib (==1.0.1)$requests (==2.18.4)$spacy (==2.0.12)$sqlalchemy (==1.2.6)$tensorflow (==1.5.1)$textacy (==0.6.2)$tflearn (==0.3.2)
+qiskit-finance,0.3.4,12,qiskit-terra (>=0.20.0)$qiskit-optimization (>=0.2.0)$scipy (>=1.4)$numpy (>=1.17)$psutil (>=5)$fastdtw$setuptools (>=40.1.0)$pandas$nasdaq-data-link$yfinance (>=0.1.70)$certifi$urllib3
+quasildr,0.2.2,12,docopt$multiprocess$numpy$pandas$plotly$scikit-learn$scipy$seaborn$statsmodels$plotnine$pynndescent$nmslib
+qgrain,0.5.2.1,12,psutil$numpy$scipy$scikit-learn$grpcio$protobuf$xlrd$openpyxl$PySide6 (>=6.2.0)$matplotlib (>=3.5.0)$SciencePlots$qt-material
+qvalve,1.0.2,12,bootstrap-flask>=2.0.1$flask-table>=0.5.0$flask-wtf>=1.0.0$flask>=2.0.3$fuzzywuzzy>=0.18.0$loguru>=0.6.0$pandas>=1.4.1$python-levenshtein>=0.12.2$rlane-libcli>=1.0.3$steam!=1.3.3,>=1.3.0$tf2mon>=1.0.27$wtforms>=3.0.1
+ql-cq,1.3.2,12,pylint (==2.13.9)$isort (<6.0.0,>=5.6.0)$pyflakes-ext (==2.0.0)$pyflakes (==2.4.0)$ql-orange (<2.0.0,>=1.1.0)$mypy (==0.960)$bellybutton (<0.4.0,>=0.3.0)$astpath[xpath] (==0.6.1)$safety (==2.3.1)$click (<9.0,>=3.0)$toolz (<1.0.0,>=0.8.2)$requirements-parser (<1.0.0,>=0.1.0)
+querier,0.4.1,12,greenlet (==1.1.2)$joblib (==1.1.0)$numpy (==1.23.2)$pandas (==1.4.3)$pymongo (==4.2.0)$python-dateutil (==2.8.2)$pytz (==2022.2.1)$scikit-learn (==1.1.2)$scipy (==1.9.0)$six (==1.16.0)$SQLAlchemy (==1.4.40)$threadpoolctl (==3.1.0)
+qrmine,3.8.3,12,pandas$matplotlib$click$scikit-learn$imbalanced-learn$vaderSentiment$xgboost$mlxtend$spacy (==2.3.7)$textacy (==0.10.0)$tensorflow$importlib-metadata ; python_version < "3.8"
+qmeans,0.1.1,12,wheel$twine$setuptools$numpy$pandas$qiskit$sklearn$pytest$hypothesis$sphinx$sphinx-rtd-theme$sphinxcontrib-napoleon
+queryconverterrusab,0.0.2,12,google-api-core (~=1.23.0)$google-api-python-client (~=1.12.5)$google-auth (~=1.23.0)$google-auth-httplib2 (~=0.0.4)$google-auth-oauthlib (~=0.4.2)$googleapis-common-protos (~=1.52.0)$gspread (~=3.6.0)$oauth2client (~=4.1.3)$oauthlib (~=3.1.0)$pandas (~=1.1.4)$pandasql (~=0.7.3)$SQLAlchemy (==1.3.20)
+quara,0.3.0,12,numpy$scipy$pandas$tqdm$plotly$plotly-express$joblib$reportlab (==3.6.6)$xhtml2pdf$psutil$kaleido (<=0.1.0.post1,>=0.1.0)$jinja2
+qcompute-qep,1.0.1,11,matplotlib (==3.5.2)$networkx (==2.8.3)$numpy (==1.21.3)$pandas (==1.4.2)$qiskit (==0.37.0)$qiskit-ibmq-provider (==0.19.2)$scipy (==1.7.1)$seaborn (==0.11.2)$tqdm (==4.64.0)$qcompute (>=3.0.0)$qutip (==4.7.0)
+qmodel,1.0.1,11,pytest-shutil$numpy$scikit-image$opencv-python$matplotlib$pillow$glob2$joblib$seaborn$scikit-learn$sklearn
+qaviton-package-manager,2019.10.22.14.18.9.619355,11,packaging (>=19.1)$pip (>=10.0.1)$requests (>=2.22.0)$psutil (>=5.6.3)$cryptography (>=2.7)$setuptools (>=38.6.0)$qaviton-helpers (>=2019.9.22.19.9.22.537577)$qaviton-handlers (>=2019.9.29.7.56.30.312631)$qaviton-processes (>=2019.10.16.3.27.36.160569)$qaviton-pip (>=2019.9.23.3.13.21.799826)$qaviton-git (>=2019.9.29.11.11.3.489379)
+quanestimation,0.2.0,11,pip (>=19.2.3)$bump2version (>=0.5.11)$wheel (>=0.33.6)$coverage (>=4.5.4)$numpy$sympy$scipy$cvxpy$julia$more-itertools$julia-project
+queueup,0.1,11,kombu$arangodb$auth$brotli$eventlet$gevent$librabbitmq$pymongo$msgpack$redis$sqlalchemy
+quoll,0.0.0,11,jpype1 (==0.7.5)$pims (==0.4.1)$matplotlib$miplib$mrcfile$notebook$numpy$pandas$scikit-image$scipy$tifffile (>2021)
+quantumtw,0.0.1,11,re$matplotlib$numpy$pystan (==2.19.1.1)$prophet$pandas$requests$bs4$datetime$time$plotly
+qdownloader,1.49,11,make-colors (>=3.12)$requests$progressbar2$bs4$clipboard$pydebugger$configset$proxy-tester$safeprint$xnotify$youtube-dl
+qmctorch,0.2.0,11,matplotlib$numpy$argparse$scipy$tqdm$torch$plams$pyscf$mendeleev$twiggy$mpi4py
+quark-engine,22.10.1,11,prettytable (>=1.0.0)$androguard (==3.4.0a1)$tqdm$colorama$graphviz$pandas$prompt-toolkit (==3.0.19)$plotly$rzpipe$click$kaleido
+quickdocs,1.6.3,11,dataclasses$pyimport$pypandoc$ruamel.yaml$simple-pipes$sphinx-autodoc-annotation$sphinx$sphinxcontrib.apidoc$sphinxcontrib.pandoc-markdown$walkmate$yummy-sphinx-theme
+qrmagic,0.1.4,11,exifread$flask$heif-image-plugin$pillow$piexif$pylabels$pyzbar$qrcode$reportlab$tqdm$whitenoise
+qub-amphibian-report-generator,0.0.34,11,docopt (<=0.6.2)$PyQt5 (<=5.15.7)$pandas (<=1.4.4)$openpyxl (<=3.0.10)$loguru (<=0.6.0)$PyPDF2 (<=2.10.4)$fpdf2 (<=2.5.5)$PyMuPDF (<=1.20.2)$PyYAML (<=6.0)$requests (<=2.28.1)$tqdm (<=4.64.1)
+qwind,0.0.1.dev89,11,astropy (==3.2.1)$llvmlite (==0.29.0)$numba (==0.45.0)$numpy (==1.16.4)$scipy (==1.3.0)$tqdm (==4.32.1)$pytest (==5.0.1)$pytest-cov (==2.7.1)$codecov (==2.0.15)$pandas (==0.24.2)$qsosed (==0.0.1.dev52)
+qtradingview,0.19.6,10,docopt (>=0.6.2,<0.7.0)$ccxt (>=1.37.52,<2.0.0)$cached-property (>=1.5.2,<2.0.0)$pyqt5-notificator (>=1.0.12,<2.0.0)$toml (>=0.10.2,<0.11.0)$PyQtWebEngine (>=5.15.1,<6.0.0)$beautifulsoup4 (>=4.9.3,<5.0.0)$peewee (>=3.14.0,<4.0.0)$html5lib (>=1.1,<2.0)$coloredlogs (>=14.0,<15.0)
+qiskit-ibmq-provider,0.19.2,10,qiskit-terra (>=0.18.0)$requests (>=2.19)$requests-ntlm (>=1.1.0)$numpy (>=1.13)$urllib3 (>=1.21.1)$python-dateutil (>=2.8.0)$websocket-client (>=1.0.1)$websockets (>=9.1) ; python_version < "3.7"$dataclasses (>=0.8) ; python_version < "3.7"$websockets (>=10.0) ; python_version >= "3.7"
+quantumflow,1.2.1,10,numpy$scipy$sympy (>=1.6)$networkx$decorator (<5.0.0)$opt-einsum$pillow$matplotlib$importlib-metadata ; python_version < "3.8"$typing-extensions ; python_version < "3.8"
+qmflows,0.12.1,10,more-itertools$h5py$numpy$pandas$noodles (>=0.3.3)$plams (>=1.5.1)$pyparsing (!=3.0.0)$pyyaml (>=5.1)$filelock$packaging (>=1.16.8)
+qmk,1.1.1,10,hid$milc (>=1.4.2)$pyusb$setuptools (>=45)$dotty-dict$hjson$jsonschema (>=4)$pillow$pygments$pyserial
+quickclus,0.2.0,10,umap-learn (>=0.5.1)$numpy (>=1.20.2)$hdbscan (>=0.8.28)$numba (>=0.51.2)$pandas (>=1.3.4)$scikit-learn (>=1.0.2)$matplotlib (>=3.5.0)$optuna (>=2.10.0)$seaborn (>=0.11.2)$plotly (>=5.4.0)
+qdax,0.1.0,10,absl-py (>=1.0.0)$jax (>=0.3.10)$jaxlib (>=0.3.10)$flax (>=0.4.1)$brax (>=0.0.12)$gym (>=0.23.1)$numpy (>=1.22.3)$scikit-learn (>=1.0.2)$scipy (>=1.8.0)$sklearn
+qiling,1.4.4,10,capstone (>=4.0.1)$unicorn (>=2.0.0)$pefile (>=2022.5.30)$python-registry (>=1.3.1)$keystone-engine (>=0.9.2)$pyelftools (>=0.28)$gevent (>=20.9.0)$multiprocess (>=0.70.12.2)$pyyaml (>=6.0)$windows-curses (>=2.1.0) ; platform_system == "Windows"
+qdeep,0.0.1,10,tensorflow (~=2.4.1)$dm-acme (~=0.2.0)$dm-reverb (~=0.2.0)$dm-sonnet (~=2.0.0)$gym (~=0.18.0)$jax (~=0.2.12)$jaxlib (~=0.1.65)$tensorflow-probability (~=0.12.1)$trfl (~=1.1.0)$scikit-image (~=0.18.1)
+qmt,0.2.3,10,numpy$scipy (>=1.8.0)$matplotlib$PyYAML$transplant (>=0.8.11)$aiohttp (>=3.8.1)$aiofiles$orjson$qasync$vqf (>=2.0.0)
+quantized,0.0.1a0,10,click (>=7.0,<8.0)$numba (>=0.43.0,<0.44.0)$numpy (>=1.17,<2.0)$scipy (>=1.3,<2.0)$attrs (>=19.3,<20.0)$tqdm (>=4.39,<5.0)$loguru (>=0.4.0,<0.5.0)$joblib (>=0.14.1,<0.15.0)$matplotlib (>=3.1,<4.0)$cattrs (>=1.0,<2.0)
+qalsadi,0.4.5,10,Arabic-Stopwords (>=0.3)$alyahmor (>=0.1)$arramooz-pysqlite (>=0.3)$future (>=0.16.0)$libqutrub (>=1.2.3)$naftawayh (>=0.3)$pickledb (>=0.9.2)$pyarabic (>=0.6.7)$six (>=1.10.0)$tashaphyne (>=0.3.4.1)
+qplay-cli,1.0.92,10,Click$requests$retrying$pyotp$ec2-metadata$selenium (>=4.5.0)$gdown$kiteconnect$tabulate$quantplay (>=1.0.90)
+quart,0.18.3,10,aiofiles$blinker$click (>=8.0.0)$hypercorn (>=0.11.2)$importlib_metadata; python_version < "3.10"$itsdangerous$jinja2$markupsafe$typing_extensions; python_version < "3.8"$werkzeug (>=2.2.0)
+qplot,1.1.1,10,matplotlib (==3.4.0)$mplcursors (>=0.4)$PyShp$pandas (>=0.25.3)$numpy (==1.19.4)$pathlib (>=1.0.1)$descartes (==1.1.0)$adjustText (==0.7.3)$Unidecode (==1.1.1)$Shapely (==1.7.1)
+queryandprocessdatautility,0.0.18,10,pandas$cx-Oracle$flask$datetime$pandarallel$numpy$loggerutility$pyodbc$DatabaseConnectionUtility$prophet
+qgcn,0.0.17,10,scipy$pandas$numpy$torch$scikit-learn$bokeh$matplotlib$bitstring$python-louvain$graph-measures (>=0.1.44)
+qats,4.10.0,10,numpy (<2,>=1)$openpyxl (<4,>=3)$scipy (<2,>=1)$matplotlib (<4,>=3)$npTDMS (<2,>=1)$h5py (<4,>=2.7)$QtPy (<2,>=1)$pandas (<2,>=1)$pymatreader (<1,>=0.0.20)$pywin32 ; platform_system == "Windows"
+quilt3,5.0.0,10,appdirs (>=1.4.0)$aws-requests-auth (>=0.4.2)$boto3 (>=1.10.0)$jsonlines (==1.2.0)$PyYAML (>=5.1)$requests (>=2.12.4)$tenacity (>=5.1.1)$tqdm (>=4.32)$requests-futures (==1.0.0)$jsonschema (<5,>=3)
+qg-common-sdk,1.2.1,10,python-logstash (>=0.4.6)$redis (>=3.5.3)$termcolor (>=1.1.0)$xlrd (>=1.2.0)$openpyxl (>=3.0.5)$Django (>=3.1.7)$pymongo (>=3.11.3)$pipreqs (>=0.4.10)$colorama (>=0.4.4)$py-bootstrap (>=0.0.12)
+questions-three,3.14.2.0,10,expects (>=0.8.0)$junit-xml (==1.8)$lxml (>=4.1.1)$PyYAML (>=5.1)$pyfakefs (>=3.4.3)$requests (>=2.18.4)$twin-sister (>=4.2.6.0)$twine (>=1.9.1)$wheel (>=0.30.0)$parameterized (>=0.7.0)
+quickweb,1.8.0,10,CherryPy$Jinja2$docopt (>=0.6.2)$Requests$pyyaml$colorama$termcolor$webtest$WSGIProxy2$markdown
+quantworks,0.21,10,matplotlib (==3.1.2)$numpy (==1.18.0)$python-dateutil (==2.8.1)$pytz (==2019.3)$requests (==2.22.0)$retrying (==1.3.3)$scipy (==1.4.1)$six (==1.13.0)$tornado (==6.0.3)$ws4py (==0.3.4)
+quikey,0.1.5,10,click$python-daemon$inotify-simple$tinydb$pynput$terminaltables$pyxdg$humanize$pick$filelock
+quikml,1.0.1a5,10,scikit-learn (==0.23.1)$mlxtend$pandas$numpy$matplotlib$gensim$vecstack$xgboost$seaborn$imblearn
+quick-data-clean,1.1.18,10,lxml$PySmartCard$pyodbc$xlrd$xlwt$xlutils$openpyxl$rsa$PyInstaller$windnd
+quail,0.2.1,9,numpy (>=1.10.4)$scipy (>=0.17.1)$matplotlib (>=1.5.1)$seaborn (>=0.9.0)$pandas (>=0.24.0)$future$six$deepdish$joblib
+qifqif,0.8.0,9,argparse$blessed (>=1.16)$coveralls$mock$ordereddict$prompt-toolkit (<3,>=2)$pyyaml$six$tox
+qiskit-nature,0.5.0,9,qiskit-terra (>=0.22.*)$scipy (>=1.4)$numpy (>=1.17)$psutil (>=5)$scikit-learn (>=0.20.0)$setuptools (>=40.1.0)$typing-extensions$h5py$rustworkx
+qh-python-cinderclient,0.1.0.dev1631,9,pbr (!=2.1.0,>=2.0.0)$PrettyTable (<0.8,>=0.7.1)$keystoneauth1 (>=3.4.0)$simplejson (>=3.5.1)$Babel (!=2.4.0,>=2.3.4)$six (>=1.10.0)$oslo.i18n (>=3.15.3)$oslo.utils (>=3.33.0)$requests (!=2.20.0,>=2.14.2)
+qingtest,1.0.7,9,selenium (==3.141.0)$xlrd (==1.2.0)$XlsxWriter (==1.3.7)$requests (==2.24.0)$Appium-Python-Client (==1.0.2)$Pillow (==8.0.1)$openpyxl (==3.0.5)$arrow (==0.17.0)$requests-toolbelt (==0.9.1)
+qdk,0.27.238334,9,qsharp$jupyter-jsmol$networkx$varname$ruamel-yaml$basis-set-exchange$jupyter-nbextensions-configurator$pygments (>=2.7.4)$ipython (>=5.11.0)
+qbipy,1.3.4,9,gitpython$numpy$scipy$scikit-image$PyQt5$nibabel$matplotlib$configargparse$pydicom
+qat-core,1.6.0,9,thrift (==0.16.0)$numpy$bitstring$wand$dill$matplotlib$Pillow$svgwrite$qat-comm
+quickbooks-pinecone,0.8.7,9,setuptools$intuit-oauth (==1.2.3)$rauth (>=0.7.1)$authclient$requests (>=2.19.1)$simplejson (>=3.17.0)$six (>=1.14.0)$python-dateutil$pycparser (==2.18)
+quangdv-pybloqs,1.2.12,9,beautifulsoup4$matplotlib$markdown$html5lib$pandas$docutils$lxml$pyyaml$jinja2
+qg-struct,1.0.1,9,python-logstash (>=0.4.6)$colorama (>=0.4.1)$setuptools (>=41.0.1)$aioredis (>=1.2.0)$termcolor (>=1.1.0)$pytest (>=4.0.2)$aiohttp (>=3.5.4)$pipreqs (>=0.4.9)$qg-aio-eureka (>=0.1.2)
+qg-spider-sdk,5.2.9,9,qg-tool (>=0.0.2)$psutil (>=5.6.1)$aiohttp (>=3.5.4)$pika (>=0.13.0)$qg-struct (>=1.0.1)$typing (>=3.7.4.1)$setuptools (>=41.0.1)$pipreqs (>=0.4.9)$aio-pika (>=5.5.1)
+qsdsan,1.2.2,9,biosteam (>=2.34.1)$thermosteam (>=0.30.1)$matplotlib (>=3.3.2)$pandas (>=1.3.2)$SALib (>=1.4.5)$scikit-learn$scipy (>=1.7.1)$seaborn$sympy (>=1.8)
+qmenta-sdk-lib,1.10.3,9,sphinx-rtd-theme$pytest-cov$enum-compat$sphinx$future$flake8$requests$humanfriendly$pytest
+qibo,0.1.9,9,scipy$sympy$cma$joblib$matplotlib$psutil$pyyaml$importlib-metadata$tabulate
+qs-kpa,0.0.1,9,transformers (<5.0.0,>=4.1.0)$tqdm$torch (>=1.6.0)$numpy$sklearn$scipy$pandas$gdown$pytorch-metric-learning
+qtrader,0.0.4,9,sqlalchemy$pandas$numpy$pytz$clickhouse-driver$matplotlib$plotly$python-telegram-bot$dash
+qiskit-ibm-runtime,0.8.0,9,qiskit-terra (>=0.22)$requests (>=2.19)$requests-ntlm (>=1.1.0)$numpy (>=1.13)$urllib3 (>=1.21.1)$python-dateutil (>=2.8.0)$websocket-client (<=1.3.3)$typing-extensions (>=4.0.0)$ibm-platform-services (>=0.22.6)
+quantecon-book-theme,0.3.2,9,pyyaml$docutils (>=0.15)$sphinx$click$setuptools$libsass (~=0.20.1)$sphinx-book-theme$beautifulsoup4$web-compile
+qiskit-ibm-provider,0.1.0,9,qiskit-terra (>=0.20.0)$requests (>=2.19)$requests-ntlm (>=1.1.0)$numpy (>=1.13)$urllib3 (>=1.21.1)$python-dateutil (>=2.8.0)$websocket-client (<=1.3.3)$websockets (>=10.0)$typing-extensions (>=4.3)
+quaeroml-serving,0.0.102,9,flask$flask-monitoringdashboard$h2o (==3.18.0.8)$healthcheck$msgpack$numpy$pandas$py-eureka-client$pyyaml
+quwiki,0.0.2,9,google-api-python-client$google-auth-httplib2$google-auth-oauthlib$pyyaml$gitpython$markdown$beautifulsoup4$python-slugify$jinja2
+qlknn,1.2.1,9,ipython$numpy$scipy$xarray$pandas (>=0.15.2)$numexpr$tables$gitpython$netCDF4
+quantpi,0.2.0,9,numpy$pandas$openpyxl$snakemake (>=7.0)$ruamel.yaml$natsort$biopython (>=1.73)$seaborn$matplotlib
+qcs-api-client,0.21.2,9,attrs (>=20.1.0,<21.0.0)$httpx (>=0.23.0,<0.24.0)$iso8601 (>=1.0.2,<2.0.0)$pydantic (>=1.7.2,<2.0.0)$python-dateutil (>=2.8.1,<3.0.0)$retrying (>=1.3.3,<2.0.0)$rfc3339 (>=6.2,<7.0)$toml (>=0.10.2,<0.11.0)$PyJWT (>=2.4.0,<3.0.0)
+quadquanta,0.3.6,9,tqdm$jqdatasdk$pandas$numpy$clickhouse-driver$PyYAML$loguru$pymongo (==3.12.1)$matplotlib
+qontract-development-cli,0.4.0,9,Jinja2 (>=3.1.2,<4.0.0)$typer (>=0.6.1,<0.7.0)$rich (>=12.5.1,<13.0.0)$pydantic (>=1.10.2,<2.0.0)$appdirs (>=1.4.4,<2.0.0)$PyYAML (>=6.0,<7.0)$getkey (>=0.6.5,<0.7.0)$watchfiles (>=0.18.0,<0.19.0)$textual (>=0.2.1,<0.3.0)
+qafs,0.1.1,9,pandas (>=1.1)$pyarrow (>=3.0)$dask[dataframe,delayed] (>=2021)$SQLAlchemy (>=1.3)$alembic (>=1.5)$requests (>=2)$requests-oauthlib (>=1.1)$cloudpickle$pandera[io] (>=0.8.1)
+qksh,1.1.dev14,9,args (>=0.1.0)$clint (>=0.5.1)$lockfile (>=0.12.2)$logging (>=0.4.9.6)$python-daemon (>=2.1.1)$requests (>=2.9.1)$requests-toolbelt (>=0.6.0)$setproctitle (>=1.1.10)$wheel (>=0.29.0)
+qkeras,0.9.0,9,numpy (>=1.16.0)$scipy (>=1.4.1)$pyparser$setuptools (>=41.0.0)$tensorflow-model-optimization (>=0.2.1)$networkx (>=2.1)$keras-tuner (>=1.0.1)$scikit-learn (>=0.23.1)$tqdm (>=4.48.0)
+quaerere-willamette,0.1.2,8,Flask (>=1.0.0)$Flask-arango-orm (>=0.1.1)$Flask-Classful (>=0.14.2)$flask-marshmallow (>=0.10.0)$marshmallow (<3,>=2.16.0)$python-arango (<5,>=4.4)$quaerere-base-flask (>=0.3.0)$quaerere-willamette-common (>=0.2.1.post1)
+qiskit-machine-learning,0.5.0,8,qiskit-terra (>=0.22)$scipy (>=1.4)$numpy (>=1.17)$psutil (>=5)$scikit-learn (>=0.20.0)$fastdtw$setuptools (>=40.1.0)$dill (<0.3.6,>=0.3.4)
+queryandprocessdata,0.0.2,8,pandas$cx-Oracle$flask$datetime$pandarallel$numpy$loogerFile$pyodbc
+qudit-sim,0.2.0,8,numpy$qutip$h5py$jax$optax$scipy$matplotlib$rqutils (>=0.1.4)
+quadrantanalysis,1.0.3,8,PyQtGraph$matplotlib$numpy$openpyxl$PyQt5$scipy$scikit-image$pandas
+quickpotato,1.0.1,8,numpy$SQLAlchemy-Utils$scipy$SQLAlchemy$PyMySQL$pandas$PyYAML$Jinja2
+qcover,2.1.2,8,numpy (>=1.19.3)$networkx (>=2.5.1)$qiskit (==0.31.0)$projectq (==0.6.1.post0)$cirq (==0.13.0)$quimb (==1.3.0)$qulacs (==0.3.0)$pyquafu (>=0.2.4)
+qalaboratory,0.2.0,8,appdirs$packaging (==16.8)$pyparsing$six (==1.10.0)$nose (==1.3.7)$nose-testconfig (==0.10)$wget$pytest
+quicklearning,0.0.39,8,requests (~=2.24.0)$joblib (~=0.16.0)$tqdm (~=4.49.0)$matplotlib (~=3.3.2)$Pillow (~=7.2.0)$DuckDuckGoImages (~=2.0.0)$tensorflow (~=2.3.1)$tensorflow-hub (~=0.10.0)
+qpsphere,0.5.9,8,appdirs$h5py (>=2.7.0)$lmfit$nrefocus (>=0.1.5)$numpy (>=1.12.0)$scikit-image (>=0.11.0)$scipy (>=0.18.0)$qpimage (>=0.6.1)
+qrcodeutil,1.0.0,8,pillow$exifread$spriteutil$setuptools$wheel$twine$numpy$pipfile
+qonic,0.0.4,8,PyYAML (>=5.4.1)$dimod (>=0.11.5)$dwavebinarycsp (>=0.2.0)$forest-benchmarking (>=0.8.0)$numpy (>=1.19.2)$qiskit (>=0.21.2)$sympy (>=1.11)$tequila-basic (>=1.8.1)
+qreps,1.1.0,8,numpy$pandas$statsmodels$scipy$matplotlib$seaborn$scikit-learn$requests
+query-exporter-carto,1.5.1,8,aiohttp$prometheus-client$prometheus-aioexporter (>=1.5.1)$PyYaml$SQLAlchemy (==1.3.0b2)$sqlalchemy-aio$toolrack (>=2.1.0)$geographica-longitude (==1.0.0a1)
+quacc,0.0.2,8,ase (>=3.22.1)$pymatgen (==2022.2.10)$custodian (==2022.2.13)$jobflow (==0.1.6)$atomate2 (==0.0.6)$monty (==2022.1.19)$FireWorks (==2.0.2)$cclib (==1.7.1)
+qm-qua,1.0.1,8,betterproto (==2.0.0b5)$grpcio (>=1.39.0,<2.0.0)$grpclib (>=0.4.3rc3,<0.5.0); python_version >= "3.10" and python_version < "4.0"$marshmallow (>=3.0.0,<4.0.0)$marshmallow-polyfield (>=5.7,<6.0)$numpy (>=1.17.0,<2.0.0)$protobuf (>=3.17.3,<4.0.0)$tinydb (>=4.6.1,<5.0.0)
+qface,2.0.8,8,click (>=6.7)$antlr4-python3-runtime (>=4.7.1)$jinja2 (>=2.10.3)$path.py (>=11.0.1)$pyyaml (>=5.1)$watchdog (>=0.8.3)$six (>=1.11.0)$coloredlogs (>=10.0)
+quesans,0.0.1,8,transformers (==4.16.2)$tensorboard$datasets (==1.18.3)$numpy (==1.22.2)$pandas (==1.4.0)$tqdm (==4.62.3)$farasapy$PyArabic (~=0.6.14)
+qctrl-commons,17.3.0,8,numpy (>=1.21.5,<2.0.0)$scipy (>=1.7.3)$toml (>=0.10.0,<0.11.0)$python-forge (>=18.6.0,<19.0.0)$aiohttp (>=3.6.2,<4.0.0)$inflection (>=0.5.1,<0.6.0)$jsonschema (>=3.0,<4.0)$graphql-core (>=3.2.1,<3.3.0)
+qt-wsi-registration,0.0.12,8,numpy$opencv-python$openslide-python$matplotlib$scikit-learn$probreg (==0.3.5)$pillow$scipy
+quaterion,0.1.31,8,loguru (>=0.5.3,<0.6.0)$mmh3 (>=3.0.0,<4.0.0)$protobuf (>=3.9.2,<3.20)$pytorch-lightning (>=1.6.4,<2.0.0)$quaterion-models (==0.1.17)$rich (>=12.4.4,<13.0.0)$torch (>=1.8.2)$torchmetrics (<=0.8.2)
+qfa,0.1.0,8,cycler$kiwisolver$matplotlib$numpy$pyparsing$python-dateutil$scipy$six
+quantstats,0.0.59,8,pandas (>=0.24.0)$numpy (>=1.16.5)$seaborn (>=0.9.0)$matplotlib (>=3.0.0)$scipy (>=1.2.0)$tabulate (>=0.8.0)$yfinance (>=0.1.70)$python-dateutil (>=2.0)
+quasinet,0.0.106,8,scikit-learn$scipy$numpy$numba$pandas$joblib$dill$biopython
+qutrunk,0.1.12,8,pyyaml (>=6.0,<7.0)$thrift (>=0.15.0,<0.16.0)$numpy (>=1.21.0,<2.0.0)$ply (>=3.11,<4.0)$requests (>=2.27.1,<3.0.0)$networkx (>=2.8,<3.0)$retworkx (>=0.11.0,<0.12.0)$amazon-braket-sdk (>=1.32.0,<2.0.0)
+quant-vnpy,0.6.0,8,IBATS-Common (>=0.20.8)$psutil (>=5.7.2)$kaleido (>=0.0.3)$openpyxl (>=3.0.5)$xlwt (>=1.3.0)$tqdm (>=4.51.0)$peewee (>=3.13.3)$mysql-connector-python (>=8.0.22)
+qaboard,1.0.1,8,click (>=7.0)$rich$requests$simplejson$pyyaml$joblib$sklearn$scikit-optimize
+quart-nextcord,2.1.6a1,8,quart (==0.17.0)$pyjwt (==2.4.0)$aiohttp (==3.8.1)$oauthlib (==3.2.0)$nextcord (==2.0.0a10)$cachetools (==5.2.0)$setuptools (==62.3.2)$Async-OAuthlib (==0.0.9)
+qa4sm-reader,0.7.5,8,xarray$pandas$numpy$matplotlib$seaborn$cartopy$colorcet$parse
+qlmaas,1.7.1,8,dill (!=0.3.6)$prompt-toolkit$prettytable$pyOpenSSL$cffi$myqlm (>=1.7.1)$qat-hardware (>=1.3.0)$qat-quops (>=1.2.4)
+qvspy,0.0.3,8,wheel$amazon-braket-sdk (==1.18.0)$boto3 (==1.21.30)$ibm-quantum-widgets (==1.0.3)$numpy (==1.21.5)$qiskit (==0.34.2)$qiskit-experiments$notebook
+qtrio,0.5.1,8,async-generator$attrs$decorator$outcome$qts (~=0.2.0)$trio (>=0.16)$trio-typing (~=0.7.0)$typing-extensions ; python_version < "3.8"
+quakestats,1.5.1,8,Flask (>=1.0)$Flask-PyMongo$click (<7,>6.5)$pandas$passlib$pymongo$pyzmq$requests
+questions-three-aws,3.12.0.0,8,boto3 (>=1.10.4)$docutils (<0.15,>=0.10)$expects (>=0.8.0)$pyfakefs (>=3.4.3)$questions-three$twin-sister (>=4.5.1)$twine (>=1.9.1)$wheel (>=0.30.0)
+qiskit-ibm-experiment,0.2.7,8,qiskit-terra (>=0.18.0)$requests (>=2.19)$requests-ntlm (>=1.1.0)$numpy (>=1.13)$urllib3 (>=1.21.1)$python-dateutil (>=2.8.0)$typing-extensions (>=4.0.0)$pandas (>=1.3.0)
+quantumgraphs,0.1.10,8,numpy (>=1.18,<2.0)$scipy (>=1.4,<2.0)$networkx (>=2.4,<3.0)$matplotlib (>=3.1,<4.0)$p-tqdm (>=1.3,<2.0)$ipython (>=7.11,<8.0)$pandas (>=0.25,<0.26)$seaborn (>=0.10,<0.11)
+questions-three-selenium,3.12.0.0,8,expects (>=0.8.0)$questions-three$pyfakefs (>=3.4.3)$PyYAML (>=5.1)$selenium (>=3.141.0)$twin-sister (>=4.5.1)$twine (>=1.9.1)$wheel (>=0.30.0)
+quickumls,1.4.1,8,leveldb (>=0.193)$numpy (>=1.8.2)$spacy (>=3.0.6)$unidecode (>=0.4.19)$nltk (>=3.3)$quickumls-simstring (>=1.1.5r1)$unqlite (>=0.8.1)$six
+quick-deploy,0.2.2,8,numpy (==1.21.5)$pyaml (==21.10.1)$types-PyYAML (==6.0.1)$onnxruntime (==1.10.0)$onnxruntime-tools (==1.7.0)$onnxmltools (==1.10.0)$sympy (==1.9.0)$unidecode (==1.3.2)
+qualys-iac-security,1.0.3,8,click (==8.0.1)$requests (==2.25.1)$click-option-group (==0.5.3)$zipp (==3.4.1)$prettytable (==2.1.0)$py7zr (==0.16.1)$pyyaml (==5.4.1)$gzinfo (==1.0.2)
+qiskit-experiments,0.4.0,8,numpy (>=1.17)$scipy (>=1.4)$qiskit-terra (>=0.21.1)$qiskit-ibmq-provider (>=0.16.0)$qiskit-ibm-experiment (>=0.2.5)$matplotlib (>=3.4)$uncertainties$lmfit
+qbee,0.7.1,8,matplotlib (>=3.6.2,<4.0.0)$sympy (>=1.5.0,<2.0.0)$pandas (>=1,<2)$numpy (>=1,<2)$tqdm (>=4,<5)$memory_profiler$pyarrow (>=10,<11)$ordered-set
+qmcblip,1.0.7,8,ase (==3.22.1)$mir-flare (==0.2.4)$flare-pp (==0.1.1)$numpy (==1.20.3)$matplotlib (==3.1.2)$pydantic (==1.9.0)$periodictable (==1.6.0)$sgdml (==0.4.10)
+quantum-serverless,0.0.1,8,ray (<3,>=2.0.0)$requests (>=2.28.0)$importlib-metadata (>=4.12.0)$qiskit-terra (>=0.21.0)$qiskit-nature (>=0.4.4)$qiskit-ibmq-provider (>=0.19.2)$qiskit-aer (>=0.11.0)$qiskit-ibm-runtime (>=0.7.0)
+quip-cli,1.8.0,8,colorama (>=0.4.4)$setuptools (>=44.1.1)$Pillow$uip-cli (>=1.3.0)$pyyaml$python-gitlab$python-jenkins$keyring
+qs-regression-model,0.0.1,8,numpy (<1.21.0,>=1.20.0)$pandas (<1.3.0,>=1.2.0)$pydantic (<1.9.0,>=1.8.1)$scikit-learn (<0.25.0,>=0.24.0)$strictyaml (<1.4.0,>=1.3.2)$ruamel.yaml (==0.16.12)$feature-engine (<1.1.0,>=1.0.2)$joblib (<1.1.0,>=1.0.1)
+quick-zip,0.1.9,8,pydantic (>=1.8.1,<2.0.0)$typer (>=0.3.2,<0.4.0)$rich (>=9.13.0,<10.0.0)$requests (>=2.25.1,<3.0.0)$python-slugify (>=4.0.1,<5.0.0)$python-dotenv (>=0.15.0,<0.16.0)$pyzipper (>=0.3.4,<0.4.0)$toml (==0.10.2)
+qtconsole,5.4.0,8,traitlets (!=5.2.1,!=5.2.2)$ipython-genutils$jupyter-core$jupyter-client (>=4.1)$pygments$ipykernel (>=4.1)$qtpy (>=2.0.1)$pyzmq (>=17.1)
+qdpy,0.1.2.1,8,psutil (>=5.7.0)$numpy (>=1.15.0)$scipy (>=1.2.0)$pandas (>=0.23.0)$sklearn (>=0.0)$matplotlib (>=3.0.0)$typing-extensions (>=3.6.6)$PyYAML (>=3.13)
+quantus,0.3.0,8,matplotlib (>=3.3.4)$numpy (>=1.19.5)$opencv-python (>=4.5.5.62)$protobuf (~=3.19.0)$scikit-image (>=0.19.1)$scikit-learn (>=0.24.2)$scipy (>=1.7.3)$tqdm (>=4.62.3)
+qset-python-client,0.1.6,8,tenacity (>=6.2.0,<7.0.0)$pandas (>=1.1.3,<2.0.0)$tqdm (>=4.50.2,<5.0.0)$msgpack (>=1.0.0,<2.0.0)$Delorean (>=1.0.0,<2.0.0)$requests (>=2.24.0,<3.0.0)$PyYAML (>=5.4.1,<6.0.0)$ujson (>=4.0.2,<5.0.0)
+quantumartlibrary,1.0.0,7,numpy$matplotlib$tqdm$PyOpenGL$glfw$opencv-python$Pillow
+qgdt,0.3.0,7,jieba (==0.39)$numpy (==1.14.2)$pandas (==0.22.0)$pytorch-cpu (==0.4.0)$scikit-learn (==0.19.1)$TEDT (==0.5)$gensim (==3.4.0)
+qmenta-core,3.0,7,requests (>=2.25.1,<3.0.0)$PyYAML (>=5.3.1,<6.0.0)$blinker (>=1.4,<2.0)$qmenta-anon (>=0.7,<0.8)$importlib-metadata (>=3.3.0,<4.0.0)$xdg (>=5.1.1,<6.0.0)$python-dotenv (>=0.19.2,<0.20.0)
+qiskit-alt,0.1.13,7,pyscf (>=2.0)$julia$juliacall$qiskit-terra (>=0.19)$qiskit-nature (>=0.2)$julia-project (>=0.1.26)$ipywidgets
+quinductor,0.2.2,7,numpy$udon2$pypeg2$stanza$tqdm$dill$jsonlines
+qiskit-braket-provider,0.0.2,7,certifi (>=2021.5.30)$qiskit-aer (>=0.10.2)$qiskit-terra (>=0.19.2)$amazon-braket-sdk (>=1.25.0)$retrying (==1.3.3)$setuptools (>=40.1.0)$numpy (>=1.3)
+qiskit-cold-atom,0.0.1,7,numpy (>=1.17)$scipy (>=1.4)$requests (>=2.25.1)$qiskit-terra (>=0.17.1)$qiskit-nature (>=0.1.3)$qiskit-aer (>=0.8.0)$matplotlib (>=3.3)
+qm-octave,1.0.1,7,betterproto (==2.0.0b5)$grpcio (>=1.39.0,<2.0.0)$grpclib (>=0.4.3rc3,<0.5.0); python_version >= "3.10" and python_version < "4.0"$nest-asyncio (>=1.5.4,<2.0.0)$numpy (>=1.21.0)$protobuf (>=3.17.3,<4.0.0)$serial (>=0.0.97,<0.0.98)
+ql-orange,1.4.0,7,click (>=8.0.0)$mypy_extensions (>=0.4.3)$pathspec (>=0.9.0)$platformdirs (>=2)$tomli (>=1.1.0)$typed-ast (>=1.4.2); python_version < "3.8"$typing_extensions (>=3.10.0.0); python_version < "3.10"
+quantumics,0.0.3,7,numpy$qiskit$dwave-ocean-sdk$theano$pandas$sklearn$mongo
+qtl,0.1.8,7,numpy$pandas$scipy$matplotlib$seaborn$pyBigWig$bx-python
+qbeast-sharing,0.4.0.dev0,7,pandas$pyarrow (>=4.0.0)$fsspec (>=0.7.4)$requests$aiohttp$yarl (>=1.6.0)$dataclasses ; python_version < "3.7"
+qat-quops,1.2.4,7,numpy$scipy$matplotlib$cvxpy$qat-comm$qat-core$qat-lang
+quingo,0.1.7,7,colorama$numpy$pyqcas$pyqcisim$requests$termcolor$tqdm
+quinine,0.3.0,7,Cerberus (==1.3.2)$pyyaml (==5.4)$cytoolz (==0.11.0)$funcy (==1.15)$gin-config (==0.3.0)$munch (==2.5.0)$toposort (==1.5)
+quicksand,2.0.13,7,pdfreader$oletools$cryptography$zipfile38$msoffcrypto-tool$olefile$yara-python
+qatalyst,4.2.17,7,networkx (==2.6.3)$numpy (==1.21.2)$pandas (==1.3.5)$pyyaml (==6.0)$requests-toolbelt (==0.9.1)$requests (==2.22.0)$scipy (==1.7.3)
+quipucamayoc,0.1.2,7,opencv-python (>=4.5.5.62)$numpy (>=1.21.2)$boto3 (>=1.21.1)$awscli (>=1.22.84)$click (>=8.0.3)$Pillow (>=9.0.1)$loguru (>=0.6.0)
+quadraticelement,0.0.5.4.1,7,FastDataTime (>=0.0.8)$RandomKey (>=0.0.1)$numpy (>=1.21.2)$wget (>=3.2)$opencv-python (>=4.5.3.56)$PyPoli (>=0.1.0)$FolderProcessing (>=0.1.1.2)
+quadricslam,1.0.2,7,gtsam-quadrics$numpy$opencv-python$matplotlib$spatialmath-python$scipy$distinctipy
+quspin-qite,0.0.3,7,icecream (==2.1.2)$matplotlib (==3.5.1)$numpy (==1.21.2)$scipy (==1.7.3)$snoop (==0.4.1)$sysflow (==0.1.15)$tqdm (==4.64.0)
+quadruped,0.4.1,7,build-utils$mcp3208$numpy$nxp-imu$pyserial$pyxl320$simplejson
+quickerml,0.1.0,7,pandas$numpy$tqdm$catboost$lightgbm$xgboost$scikit-learn
+qulacsvis,0.3.2,7,Qulacs (>=0.5.0)$temp (>=2020.7.2,<2021.0.0)$Pillow (>=9.1.0,<10.0.0)$numpy (>=1.22.0,<2.0.0)$scipy (>=1.9.1,<2.0.0)$matplotlib (>=3.4.3,<4.0.0)$dataclasses-json (>=0.5.7,<0.6.0)
+qobuz-dl,0.9.9.7,7,pathvalidate$requests$mutagen$tqdm$pick$beautifulsoup4$colorama
+qsarmodelingpy-gui,0.2.5,7,qsarmodelingpy (>=0.3.0)$pygobject (==3.30.5)$typing-extensions$coloredlogs$matplotlib$tornado$PyQt5
+quant-risk,1.1.1,7,statsmodels (==0.12.2)$empyrical (==0.5.5)$matplotlib (==3.4.2)$pyportfolioopt (==1.4.2)$sklearn$pandas$numpy
+qaeval,0.1.0,7,allennlp (==1.1.0)$click (==7.1.2)$edlib$spacy (==2.2.4)$torch (==1.6.0)$transformers (==3.0.2)$urllib3 (>=1.25.10)
+qualdocs,0.1.1,7,httplib2$apiclient$oauth2client$pandas$numpy$PyDrive$google-api-python-client
+qiboconnection,0.6.1,7,requests (==2.27.1)$typeguard (==2.13.3)$types-requests (==2.27.15)$numpy (==1.22.3)$qibo (==0.1.7)$websocket-client (==1.3.2)$PyJWT (==2.3.0)
+qurro,0.8.0,7,altair (==3.1.0)$biom-format[hdf5] (>=2.1.9)$click$numpy (>=1.12.0)$pandas (>=1)$scikit-bio (>0.5.3)$scipy (<1.9.0,>=1.3.0)
+qcalibrateremote,0.2.3,7,cuid$grpcio (<2.0,>=1.34.1)$grpcio-tools (<2.0,>=1.34.1)$icecream$numpy$PyYAML$importlib-metadata ; python_version < "3.8"
+qrules,0.9.7,7,attrs (>=20.1.0)$jsonschema$particle$python-constraint$PyYAML$tqdm (>=4.24.0)$typing-extensions ; python_version < "3.8.0"
+quantready,0.1.0,7,typer (>=0.6.1,<0.7.0)$tabulate (>=0.8.10,<0.9.0)$termcolor (>=1.1.0,<2.0.0)$colorama (>=0.4.5,<0.5.0)$rich (>=12.5.1,<13.0.0)$shellingham (>=1.5.0,<2.0.0)$tomlkit (>=0.11.3,<0.12.0)
+quickda,0.2.2,7,pandas$numpy$seaborn$matplotlib$pandas-profiling$ppscore$plotly
+qark,4.0.0,7,requests[security]$pluginbase$jinja2$javalang$click$six$enum34; python_version < "3.4"
+quantnn,0.0.4.dev0,7,numpy$scipy$xarray$paramiko$einops$matplotlib$rich
+quandl,3.7.0,7,pandas (>=0.14)$numpy (>=1.8)$requests (>=2.7.0)$inflection (>=0.3.1)$python-dateutil$six$more-itertools
+quanfima,0.1a3,7,matplotlib (==2.0.2)$numpy (>=1.13.3)$pandas (>=0.19.2)$scikit-image (>=0.12.3)$scikit-learn (>=0.18.1)$scipy (>=0.19.0)$imageio (>=2.3.0)
+qrankgwas,0.0.9,7,argparse (>=1.1)$numpy (>=1.19.0)$pandas (>=1.0.5)$statsmodels (>=0.11.1)$scipy (>=1.5.2)$scikit-learn (>=0.22.1)$bgen (==1.2.7)
+qclib,0.0.20,7,scipy (>=1.7.1)$qiskit (>=0.37.1)$qiskit-machine-learning (>=0.3.1)$deprecation$tensorly$keras$graphviz
+quantkits,0.0.6,7,sqlalchemy$pandas$numpy$pytz$selenium$requests$beautifulsoup4
+quetzal-client,0.5.3,7,click$backoff (>=1.10.0)$requests$appdirs$PyYAML$quetzal-openapi-client (<0.6,>=0.5.0)$pyreadline ; platform_system == "Windows"
+qiyu-api,0.7.6,7,pydantic (>=1.7,<2)$structlog (>=21,<22)$aiohttp (>=3.7.4,<4)$requests (>=2.25,<3)$pydes (>=2,<3)$pyjwt (>=2.0,<3)$cryptography (>=3.4)
+quotesaggregator,0.1.1,7,aiologger (>=0.6.1,<0.7.0)$aiomysql (>=0.0.21,<0.0.22)$pytz (>=2021.1,<2022.0)$websockets (>=9.0.1,<10.0.0)$asyncio (>=3.4.3,<4.0.0)$prodict (>=0.8.16,<0.9.0)$cryptography (>=3.4.7,<4.0.0)
+qpass,2.3,7,coloredlogs (>=6.1)$executor (>=17.1)$humanfriendly (>=4.8)$naturalsort (>=1.5.1)$proc (>=0.15)$property-manager (>=2.0)$verboselogs (>=1.6)
+qgis-deployment-toolbelt,0.10.0,7,click (<9,>=8)$dulwich (<0.20.36,>=0.20)$giturlparse (<0.11,>=0.10)$pyyaml (<7,>=5.4)$py-setenv (<1.2,>=1.1)$send2trash (>=1.7.1)$pywin32 (==304) ; sys_platform == "win32"
+qcompute-qnet,1.0.0,7,qcompute (==2.0.4)$protobuf (==3.19.1)$tqdm (==4.62.3)$numpy (==1.19.3)$pandas (>=1.4.2)$networkx (>=2.8)$matplotlib (>=3.5.1)
+qpimage,0.9.1,7,h5py (>=2.7.0)$lmfit$nrefocus[fftw] (>=0.4.3)$numpy (>=1.9.0)$qpretrieve[fftw] (>=0.2.8)$scikit-image (>=0.11.0)$scipy (>=0.18.0)
+qcloud-sdk-py,0.5.0,7,requests$dynaconf (>=3.0.0)$Jinja2$cloudevents$xmltodict$tqdm$crcmod
+qfunction,1.0.1642,7,numpy$qutip$tqdm$matplotlib$imageio$bs4$requests
+qgdt-cpu,0.3.3,7,TEDT (==0.5)$gensim (==3.4.0)$jieba (==0.39)$numpy (==1.14.2)$pandas (==0.22.0)$pyemd (==0.5.1)$scikit-learn (==0.19.1)
+qpt,1.0b4.dev6,6,wget$click$pefile$pillow$toml$pip (>=22.1.1)
+qnverter,1.2.4,6,certifi$charset-normalizer$idna$PyQt5$requests$urllib3
+questgame,0.2.2,6,arcade (==2.6.9)$numpy (>=1.22.3,<2.0.0)$easing-functions (>=1.0.4,<2.0.0)$tqdm (>=4.64.0,<5.0.0)$xvfbwrapper (>=0.2.9,<0.3.0)$Shapely (>=1.8.2,<2.0.0)
+questions,0.7.1,6,Click (>=7.0)$email-validator$Jinja2$pydantic$requests$simpleeval
+qanary-helpers,0.2.0,6,flask$setuptools$requests$SPARQLWrapper$mlflow$pysftp
+quantfolio,0.3.2,6,numpy$pandas$backtrader$matplotlib$bayesian-optimization$scipy
+qalx-orcaflex,0.2.3,6,pyqalx (>=0.18.5)$OrcFxAPI (>=11.0.2,<12.0.0)$pyyaml (>=5.3.1,<6.0.0)$pandas (>=1.0.4,<2.0.0)$psutil (>=5.7.0,<6.0.0)$PyQt5 (>=5.15.1,<6.0.0)
+qdrant-client,0.11.1,6,grpcio (>=1.41.0)$grpcio-tools (>=1.41.0)$httpx[http2] (>=0.14.0)$numpy (>=1.21)$pydantic (>=1.8,<2.0)$typing-extensions (>=4.0.0,<5.0.0)
+qpdb,0.2.0,6,bs4$defopt$html5lib$httpx$sphinx$sphobjinv
+qubot,0.0.13,6,numpy (>=1.20.2)$gym (>=0.18.0)$selenium (>=3.141.0)$Pillow (==6.2.2)$geckodriver-autoinstaller (==0.1.0)$timeout-decorator (==0.5.0)
+quantdom,0.1.1,6,PyQt5 (>=5.11,<6.0)$PyQt5-sip (>=4.19,<5.0)$pyqtgraph (>=0.10.0,<0.11.0)$numpy (>=1.16,<2.0)$pandas (>=0.24.1,<0.25.0)$pandas-datareader (>=0.7.0,<0.8.0)
+quantbet-dyno,0.29.5,6,matplotlib (==3.5.1)$numpy (==1.22.3)$pandas (==1.4.2)$pyarrow (==7.0.0)$tensorflow (==2.8.0)$tensorflow-probability (==0.16.0)
+qalgebra,0.2.0,6,attrs$numpy$scipy$sympy$uniseg$watermark
+qgl,2020.1,6,bbndb (>=2020.1)$numpy (>=1.11.1)$scipy (>=0.17.1)$networkx (>=1.11)$bqplot (>=0.12.2)$sqlalchemy (>=1.2.15)
+qotto-auth-client,1.1.4,6,eventy (>=3.3.0)$requests (>=2.0.0)$gql[requests] (>=2.0.0)$cryptography (>=37.0.0)$PyJWT (>=2.0.0)$dataclasses-json (>=0.5.0)
+qstats,0.3.1,6,numpy (>=1.18.1)$pandas (>=0.25.3)$xmltodict (>=0.12.0)$tabulate (>=0.8.7)$pyyaml (>=3.10)$bokeh (>=2.1.1)
+qufilab,0.0.1,6,numpy (==1.19.1)$pandas (==1.1.0)$pybind11 (==2.5.0)$python-dateutil (==2.8.1)$pytz (==2020.1)$six (==1.15.0)
+qurator-sbb-utils,0.0.1,6,numpy$pandas$tqdm$click$requests$ipython
+quantlaw,0.0.5,6,regex$beautifulsoup4$lxml$networkx (>=2.4)$requests$pandas
+qiwiapi,5.0,6,certifi (==2018.4.16)$chardet (<4,==3.0.4)$idna (<3,==2.7)$requests (<3,==2.19.1)$urllib3 (<2,==1.23)$uuid (<2,==1.30)
+quantlet-strats,0.0.2,6,statsmodels (>=0.12.2,<0.13.0)$matplotlib (>=3.3.4,<4.0.0)$scipy (>=1.6.1,<2.0.0)$seaborn (>=0.11.1,<0.12.0)$quantlet.streaming (>=1.0.0,<2.0.0)$pylint (>=2.7.0,<3.0.0)
+quick-cli,0.8.0,6,PyYAML (>=5.3,<6.0)$requests (>=2.0.0,<3.0.0)$six (>=1.12.0,<2.0.0)$python-dateutil (>=2.5.0,<3.0.0)$isodate (>=0.6.0,<0.7.0)$urllib3 (>=1.0,<2.0)
+quantlet-timeseries,0.0.2,6,alpaca-trade-api (>=1.1.0,<2.0.0)$Quandl (>=3.6.1,<4.0.0)$PyYAML (>=5.4.1,<6.0.0)$jfaleiro.tsstore[fastparquet] (>=0.0.1,<0.0.2)$quantlet.streaming (>=1.0.0,<2.0.0)$pylint (>=2.7.0,<3.0.0)
+qcg-pilotjob-cmds,0.13.1,6,qcg-pilotjob$termcolor$prompt-toolkit$plotly-express (>=0.4.1)$pandas$kaleido
+qctic,0.18.3,6,qiskit (<0.26,>=0.25)$marshmallow (<4.0,>=3.0)$tornado (<7.0,>=6.0)$numpy (<=1.20.1,>=1.17)$scipy (<=1.6.1,>=1.4)$sympy (<=1.7.1,>=1.3)
+qrimageindexer,0.7.3,6,pyzbar$pillow$fpdf2$qrcode$tqdm$opencv-python
+quality-lac-data-validator,1.0.2,6,pandas (==1.0.5)$numpy (==1.17.5)$openpyxl (>=3.0.9,<4.0.0)$quality-lac-data-ref-authorities (>=2021.4)$quality-lac-data-ref-postcodes (>=2021.8.1)$xlrd (>=2.0.1,<3.0.0)
+quokkas,0.0.2,6,pandas (>=1.3.5)$numpy (>=1.19)$scikit-learn (>=1.0.1)$seaborn (>=0.11.2)$scipy (>=1.7.0)$joblib (>=1.1.0)
+qctma,1.0.16,6,matplotlib (>=2.2.5)$numpy (>=1.19.5)$pydicom (>=2.1.2)$quadpy (>=0.16.5)$scipy (>=1.5.4)$reportlab (>=3.5.66)
+qcb-plotting-tools,0.0.1,6,seaborn$pandas$matplotlib$scikit-learn$scipy$numpy
+qualitativemodelfitting,0.0.4,6,tellurium$pycotools3$pandas$numpy$lark-parser$sphinx-rtd-theme (>=0.3.1)
+qlearnkit,0.2.0,6,qiskit-terra (>=0.20.0)$qiskit-aer (>=0.10.3)$qiskit-machine-learning (>=0.3.1)$scikit-learn (==1.0.2)$scipy (==1.7.3)$numpy (==1.21.5)
+qface-qtqml,1.2,6,qface (>=1.9)$colorlog$click$PyYAML$Jinja2$path.py
+quru,0.0.2,6,pika (==1.1.0)$mongoengine (==0.23.1)$aiozipkin (==0.6.0)$aio-pika (==5.6.3)$structlog (==20.1.0)$redis (==3.2.1)
+qfaas,0.2.3,6,qiskit (==0.36.1)$cirq (==1.0.0)$amazon-braket-sdk (==1.19.0)$numpy (>=1.22.3)$strangeworks (==0.2.13)$strangeworks-braket (==0.1.3)
+quickdump,0.5.0,6,lz4 (>=4.0.0,<5.0.0)$multidict (>=6.0.2,<7.0.0)$starlette[server] (>=0.19.0,<0.20.0)$uvicorn[server] (>=0.17.6,<0.18.0)$dill (>=0.3.4,<0.4.0)$loguru (>=0.6.0,<0.7.0)
+qunetsim,0.1.2.post3,6,eqsn$networkx$numpy$scipy$matplotlib$pathvalidate
+quantrocket-moonchart,2.8.0.0,6,matplotlib$pandas (>=0.20)$seaborn$quantrocket-client$empyrical$scipy
+quakeio,0.1.15,6,pyyaml$numpy (<1.20.0) ; python_version < "3.8"$scipy (<1.6.0) ; python_version == "3.6"$scipy (<1.8) ; python_version == "3.7"$scipy (>1.6.0) ; python_version > "3.7"$numpy ; python_version >= "3.8"
+qetpy,1.5.0,6,numpy$scipy$matplotlib$iminuit (>=2)$sympy$astropy
+qsense,0.8.1,6,fire$pyqlikengine$pytz$qsapi$requests$requests-ntlm
+qkdsimkit,0.0.7,6,cryptography (==36.0.1)$fastapi[all]$aiocache[memcached,redis]$aioredis (==1.3.1)$aioredlock (==0.7.3)$msgpack (==1.0.3)
+quit-store,0.24.0,6,rdflib (>=4.2.2)$Flask$Flask-Cors$sortedcontainers$uritools$pygit2 (>=1.0.0)
+qifimanager,1.3.2,6,quantaxis$qaenv$qifiaccount$quantaxis-pubsub$empyrical$pyfolio-qa
+qiskit-optimization,0.4.0,6,qiskit-terra (>=0.20.0)$scipy (>=1.4)$numpy (>=1.17)$docplex (>=2.21.207)$setuptools (>=40.1.0)$networkx (>=2.2)
+qctrl-qiskit,0.0.4,6,numpy (>=1.16,<2.0)$scipy (>=1.3,<2.0)$toml (>=0.10.0,<0.11.0)$qiskit-ibmq-provider (>=0.3.3,<0.4.0)$qiskit-terra (>=0.12.0,<0.13.0)$qctrl-open-controls (>=8.5.1,<9.0.0)
+qctrl-toolkit,1.10.0,6,numpy (>=1.21.5,<2.0.0)$scipy (>=1.7.3,<2.0.0)$toml (>=0.10.0,<0.11.0)$python-forge (>=18.6.0,<19.0.0)$qctrl-commons (>=17.1.4,<18.0.0)$numpydoc (>=1.1.0,<2.0.0)
+quadratum,0.2.1,6,setuptools$numpy$scikit-image$opencv-python$torch$torchvision
+qmusicnew,0.1.0,6,PySide2$keyboard$lyricsgenius$mutagen$pyinstaller$qdarkstyle
+quisby,0.2,6,google_api (>=0.1.12,<0.2.0)$google-api-core (>=1.30.0,<2.0.0)$google-api-python-client (>=2.9.0,<3.0.0)$google-auth-oauthlib (>=0.4.4,<0.5.0)$boto3 (>=1.17.97,<2.0.0)$bs4 (>=0.0.1,<0.0.2)
+quickpython,0.1.4,6,prompt-toolkit (>=3.0.6,<4.0.0)$isort (>=5.4.2,<6.0.0)$black (>=20.8b1,<21.0)$ipdb (>=0.13.4,<0.14.0)$colorama (>=0.4.4,<0.5.0)$pyfiglet (>=0.8.post1,<0.9)
+qlik-sense,0.2.1,6,requests >=2.22.0,<3.0$requests_ntlm >=1.1.0,<2.0$requests_negotiate_sspi >=0.5.2,<0.6$urllib3 >=1.25.6,<2.0$uuid >=1.30,<2.0$marshmallow >=3.2.1,<4.0
+quade,0.2.2,6,attrs$django-fsm (==1.6)$django-light-enums$django-jinja$future$jsonfield
+qmspy,0.0.12,6,numpy$scipy$pandas$seaborn$openpyxl$matplotlib
+quantumcat,0.1.8,6,qiskit (==0.26.2)$cirq (==0.11.0)$amazon-braket-sdk (==1.6.4)$requests (==2.25.1)$seaborn (==0.11.1)$pylatexenc (==2.10)
+quarterback,0.1.0,6,opcua (>=0.98.13,<0.99.0)$pandas (>=1.4.3,<2.0.0)$minio (>=7.1.11,<8.0.0)$cryptography (>=37.0.4,<38.0.0)$pendulum (>=2.1.2,<3.0.0)$rocketry (>=2.3.0,<3.0.0)
+qtune,0.1.0,6,pandas$numpy$filterpy$scipy$h5py$sympy
+qaa,3.0.0rc3,6,click (>=7.0,<8.0)$holoviews[recommended] (>=1.14.3,<2.0.0)$mdtraj (>=1.9,<2.0)$nptyping (>=1.4,<2.0)$scikit-learn (>=0.24,<0.25)$ipykernel (>=5.5.3,<6.0.0)
+qtstrap,0.3.2,6,QtPy$click$inquirerpy$appdirs$qtawesome$pyinstaller
+qiskit-honeywell-provider,0.2.1,6,nest-asyncio (>=1.2.0)$qiskit-terra (>=0.16.0)$requests (>=2.19)$websockets (>=7)$pyjwt (<2,>=1.7.1)$keyring (>=10.6.0)
+qatlibrary,21.5.1,6,requests (>2)$robotframework (<4)$requests-oauthlib (>1)$pyyaml (>5)$jsonschema (>3)$termcolor (>1.0)
+quart-disnake-oauth2,2.1.7,6,Quart$pyjwt$oauthlib$Async-OAuthlib$cachetools$disnake
+qbiome,0.0.60,6,scikit-learn$scipy$numpy$pandas$joblib$quasinet
+quickwall,0.0.5,6,requests$pywal$downloader-cli$beautifulsoup4$dbus-python$simber
+qtpandas,1.0.3,6,easygui$pandas (==0.17.1)$pytest$pytest-cov$pytest-qt (==1.2.2)$python-magic (==0.4.6)
+qatrader,1.5,6,pika$quantaxis (>=1.5.29)$quantaxis-webserver$quantaxis-pubsub$quantaxis-otgbroker (>=1.9.2)$qaenv
+qtmodularuipack,0.0.7,6,json5 (>=0.8.5)$PyQt5 (>=5.12)$numpy (>=1.15.0)$matplotlib (>=3.1.0)$pyqtgraph (>=0.10.0)$h5py (>=3.2.1)
+qvpnstatus,0.1.2,6,fbs (==0.9.0)$PyQt5 (==5.15.2)$PyQt5-sip (==12.8.1)$PyQt5-stubs (==5.14.2.2)$psutil (>=5.8.0,<6.0.0)$nmcli (>=0.5.0,<0.6.0)
+qwak-sim,2022.1004a0,6,numpy$scipy$sympy$matplotlib$networkx$qutip
+qat-variational,1.4.0,6,numpy$networkx$pyDOE$qat-comm$qat-core$qat-lang
+quilla,0.5.2,6,selenium$pluggy$msedge-selenium-tools$pydeepmerge$pillow$azure-storage-blob
+quare,0.2.4,6,Click (>=7.0,<8.0)$colorama (>=0.4.1,<0.5.0)$dateparser (>=0.7.1,<0.8.0)$keyring (>=18.0,<19.0)$terminaltables (>=3.1,<4.0)$websocket-client (>=0.56.0,<0.57.0)
+qtfitit,0.1,6,numpy$scipy$scikit-learn$joblib$PyQt5$nlopt
+quantumsymmetry,0.1.36,6,numpy$pyscf$openfermion$qiskit$ipython$tabulate
+quilt3distribute,0.1.4,6,markdown2 (>=2.3.7)$pandas$python-dateutil (==2.8.0)$quilt3 (>=3.1.5)$tabulate (>=0.8.3)$tqdm (>=4.32.1)
+qt-custom-widgets,0.1.6,6,cairosvg>=2.5.2$iconify>=0.0.103$matplotlib>=3.5.3$mock>=4.0.3$qtpy>=2.2.0$qtsass>=0.3.0
+q2-micom,0.12.1,6,cobra (>=0.18.1)$micom (>=0.24.0)$jinja2 (>=2.10.3)$qiime2 (>=2021.2)$rich (>=6.0)$pandas (>=1.0)
+quilt-installer,0.0.0a5,6,appdirs (>=1.4.0)$aws-requests-auth (>=0.4.2)$boto3 (>=1.8.0)$requests (>=2.12.4)$ruamel.yaml (<=0.15.70)$click
+qt4c,2.2.3,6,qtaf (>=5.4.0)$Pillow$comtypes$websocket-client$pywin32 (<=224) ; sys_platform == "win32" and python_version <= "3.7"$pywin32 (==228) ; sys_platform == "win32" and python_version >= "3.8"
+quimb,1.4.0,6,numpy (>=1.17)$scipy (>=1.0.0)$numba (>=0.39)$psutil (>=4.3.1)$cytoolz (>=0.8.0)$tqdm (>=4)
+qiscus-sdk,0.1.1,6,Click (>=6.0)$certifi (==2017.4.17)$chardet (==3.0.3)$idna (==2.5)$requests (==2.17.3)$urllib3 (==1.21.1)
+quilt-stack-installer,1.0.0,6,appdirs (>=1.4.0)$aws-requests-auth (>=0.4.2)$boto3 (>=1.8.0)$requests (>=2.12.4)$pyyaml$click
+qwert,2.4.0,6,cli-print$requests$pyperclip$web3$pysha3$ecdsa
+quantecon,0.5.3,5,numba$numpy$requests$scipy>=1.0.0$sympy
+qstrader,0.2.3,5,Click (==7.1.2)$matplotlib (>=3.3.4)$numpy (>=1.18.4)$pandas (>=1.3.3)$seaborn (>=0.10.1)
+qsurface,0.1.5,5,matplotlib (>=3.3.2)$networkx (>=2.0)$pandas (>=1.1.0)$scipy (>=1.4.0)$pptree (>=3.1)
+qiplot,1.0.7,5,numpy$pyqtgraph$PyQt5$matplotlib$h5py
+qiniu-ufop,0.1.3,5,celery (>=4.3.0)$PyYAML (>=5.1)$redis (>=3.2.0)$six (>=1.7.0)$tornado (<6.0.0,>=5.1.0)
+qtgallery,0.0.2,5,qtpy$pyvirtualdisplay$sphinx-gallery$pillow$sphinx-rtd-theme
+quik-config,1.7.0,5,dict-recursive-update (==1.0.1)$super-map (>=1.1.1)$walk-up (>=0.1.0)$ez-yaml (>=1.2.0)$regex (>=2022.3.2)
+qiskit-dynamics,0.3.0,5,numpy (>=1.17)$scipy (>=1.4)$matplotlib (>=3.0)$qiskit-terra (>=0.16.0)$multiset (>=3.0.1)
+qtp,0.3.0,5,numpy$pandas$dropbox$tqdm$scipy
+quickstats,0.6.5.3,5,numpy$matplotlib$click$pandas$tabulate
+qbittorrent-api,2022.10.39,5,requests (>=2.16.0)$six$urllib3 (>=1.24.2)$setuptools$enum34 ; python_version < "3"
+quickstartup,0.19.0,5,django (<3.2,>=3.1)$django-widget-tweaks (<1.5,>=1.4)$django-model-utils (<4.1,>=4.0)$django-ipware (<3.1,>=3.0)$djmail (<2.1,>=2.0)
+qat-lang,2.2.0,5,thrift (==0.16.0)$ply (==3.11)$networkx$qat-comm$qat-core
+quickscreen,0.2,5,pandas$numpy$matplotlib$seaborn$scikit-learn
+qat-hardware,1.3.0,5,qutip$numpy$qat-comm$qat-core$qat-lang
+qtwekawrapper,0.0.3,5,PyQt5$six (>=1.11.0)$python-dateutil (>=2.6.1)$pytest$Sphinx (==1.4.2)
+qiskit-ignis,0.7.1,5,numpy (>=1.13)$qiskit-terra (>=0.15.1)$retworkx (>=0.8.0)$scipy (!=0.19.1,>=0.19)$setuptools (>=40.1.0)
+qiskit-ionq,0.3.9,5,decorator (>=5.1.0)$qiskit-terra (>=0.17.4)$requests (>=2.24.0)$retry (>=0.9.0)$importlib-metadata (>=4.11.4)
+quickrepo,1.0.5,5,click (==7.1.2)$click-spinner (==0.1.10)$PyGithub (==1.51)$GitPython (==3.1.3)$colorama (==0.4.3)
+qsimcirq,0.14.0,5,absl-py$cirq-core (~=1.0)$numpy (~=1.21)$pybind11$typing-extensions
+qiitap,1.3.1,5,PyYAML$jumon$mako$requests$six
+quirk,0.1.3,5,pandas$seaborn$scikit-learn$matplotlib$scipy
+quickplotter,1.0,5,numpy$pandas$plotly$scikit-learn$sklearn-pandas
+qset-tslib,0.1.1,5,pandas (>=1.2.3,<2.0.0)$numpy (>=1.20.1,<2.0.0)$statsmodels (>=0.12.2,<0.13.0)$scikit-learn (>=0.23.1,<0.24.0)$scipy (>=1.6.2,<2.0.0)
+qb-sdk,0.0.3,5,requests (>=1.0.0)$web3 (>=5.0.0)$eth-utils (<2.0.0,>=1.6.0)$eth-keys (<0.3.0,>=0.2.1)$backoff (<2.0.0,>=1.9.0)
+qifiaccount,1.15.6,5,quantaxis$qaenv$click$quantaxis-pubsub$pytest
+quicken,0.1.0,5,python-daemon (>=2.2,<3.0)$pid (>=2.2,<3.0)$psutil (>=5.4,<6.0)$tblib (>=1.3,<2.0)$fasteners (>=0.14.1,<0.15.0)
+qiskit-qcware,0.1.1a11,5,qcware (>=4.0,<5.0)$qcware-quasar (>=1.0.1,<2.0.0)$qiskit-terra (>=0.17,<0.18)$icontract (>=2.4.1,<3.0.0)$qcware-transpile (==0.1.1a10)
+quickemcee,0.0.1a5,5,numpy$scipy$matplotlib$emcee$corner
+quakesrthorcam-tspspi,0.0.1a9,5,paho-mqtt (>=1.6.1)$thorcam (>=0.1.6)$Pillow (>=9.2.0)$paramiko (>=2.11.0)$pyopencl (==2021.2.9+cl12)
+qsarmodelingpy,0.3.1,5,numpy (>=1.20.1)$pandas (>=1.2.2)$scikit-learn (>=0.21.1)$deap (>=1.3.1)$tqdm (>=4.59.0)
+qc2champ,1.0.0,5,packaging (>=19.0)$numpy$periodictable$scipy (>=1.2.0)$cclib (>=1.7.0)
+quick-datasets,0.3.0,5,attrdict (>=2.0.1,<3.0.0)$loguru (>=0.4.0,<0.5.0)$tqdm (>=4.41.1,<5.0.0)$pandas (>=0.25.3,<0.26.0)$click (>=7.0,<8.0)
+qrshare,0.4.0,5,click (==7.1.2)$Flask (==1.1.2)$qrcode (==6.1)$waitress (==1.4.4)$appdirs (>=1.4.4)
+qrscan,2020.528,5,kivy-garden.kivymd$opencv-python (>=4)$raven$validators$zbarcam
+qrmr,0.4.2,5,future$colorlog$boto3$configparser$requests
+quick-crawler,0.0.8,5,requests$bs4$selenium$scrapy$semantic-kit
+qasdad,1.0.2,5,latex2sympy$matplotlib$numpy$scipy$sympy
+qrl-graph,0.0.9,5,matplotlib (==3.5.1)$numpy (==1.21.2)$scipy (==1.7.3)$tqdm (==4.64.0)$networkx
+qualkit,0.1.5,5,pandas (>=1.1.5)$numpy (>=1.19.5)$nltk (>=3.6.2)$scikit-learn (>=0.24.2)$corextopic (>=1.1)
+quorachallenge,1.0.3,5,click$docutils$requests$sphinx$sphinx-rtd-theme
+qcengine,0.25.0,5,pyyaml$py-cpuinfo$psutil$qcelemental (<0.26.0,>=0.24.0)$pydantic (>=1.8.2)
+qarealtime-collector,0.0.10,5,quantaxis$quantaxis-pubsub$quantaxis-otgbroker$quantaxis-randomprice$quantaxis-webserver
+quorapy,0.1.1,5,beautifulsoup4$feedparser$dateparser$selenium$lxml
+quickboard,0.3.2,5,dash (==2.6.0)$dash-bootstrap-components (==1.2.0)$jupyter-dash (==0.4.2)$numpy (>=1.21.0)$pandas (>=1.3.0)
+qrem,0.0.56,5,numpy >= 1.20.3$scipy >= 1.6.2$tqdm >= 4.46.0$colorama >= 0.4.3$qiskit >= 0.28.0
+quora-scraper,1.1.3,5,selenium$bs4$webdriver-manager$dateparser$userpaths
+quickai,2.0.0,5,scikit-learn$numpy$matplotlib$transformers$coremltools
+qiwugrader,1.9.8,5,requests$pyyaml$enum34$xlrd$gevent
+qqhong,0.0.70,5,pymongo$selenium$pillow$pycryptodome$exrex
+quanlse,2.2.0,5,numpy$scipy$matplotlib$requests$bce-python-sdk-reborn
+quantaxis-crawly,1.0,5,quantaxis$selenium$tornado$scrapy$pymongo (>=3.7)
+quorum-lightnode,0.0.4,5,requests$eth-keys$pycryptodome$protobuf$dataclasses-json
+qprop,0.0.2,5,pandas$numpy$matplotlib$vis$nunit
+qgis-plugin-dev-tools,0.5.0,5,packaging (>=21.0)$tomli (>=2.0.0)$python-dotenv (>=0.19.0)$importlib-metadata (>=4.9.0)$requests (>=2.27.0)
+qjdltools,0.5.0,5,matplotlib$opencv-python$tqdm$scikit-image$albumentations
+qp-prob,0.7.1,5,matplotlib$numpy$scipy (>=1.9.0)$scikit-learn$tables-io (>=0.7.7)
+qaner,0.1.1,5,numpy (==1.21.6)$tensorboard (==2.9.0)$torch (==1.8.1)$tqdm (==4.64.0)$transformers (==4.19.2)
+quant-experiment,1.0.4,5,requests$pandas$beautifulsoup4$datetime$pytest
+quantfinpy,0.0.3,5,attrs (>=21.4.0,<22.0.0)$pandas (>=1.4.1,<2.0.0)$pandas-stubs (>=1.2.0,<2.0.0)$typing-extensions (>=4.1.1,<5.0.0)$cytoolz (>=0.11.2,<0.12.0)
+quran-py,0.1,5,certifi (==2020.12.5)$chardet (==4.0.0)$idna (==2.10)$requests (==2.25.1)$urllib3 (==1.26.4)
+quran-suras,1.1.4,5,certifi (==2021.5.30)$chardet (==4.0.0)$idna (==2.10)$requests (==2.25.1)$urllib3 (==1.26.5)
+queryeasy,0.0.4,5,pandas (~=1.2)$xlrd (==1.2.0)$xlwt (==1.2.0)$openpyxl (~=3.0)$sqlalchemy (~=1.4)
+qal-swflint,1.0.0,5,requests$backoff$urllib3$jsonpickle$tqdm
+quant-framework,0.0.5,5,croniter (==1.0.6)$Flask (==1.1.2)$psycopg2-binary (==2.8.6)$python-dateutil (==2.8.1)$SQLAlchemy (==1.3.23)
+qucumber,1.3.2,5,tqdm (>=4.23)$numpy (>=1.13)$scipy (>=1.3.3)$matplotlib (>=2.2)$torch (<1.8,>=1.2) ; sys_platform != "win32"
+qpd,0.3.3,5,pandas (>=1.0.2)$triad$adagio$sqlalchemy$antlr4-python3-runtime (>=4.10)
+qucat,1.0.3,5,numpy$scipy$matplotlib$sympy (>=1.8)$pillow
+qubits,0.3.4,5,astrocalc$fundamentals$pysynphot$pyyaml$qubits
+quantizer,0.2.1,5,matplotlib (>=3.0)$numba (>=0.42numpy>=1.15)$pyyaml (>=5.1)$scipy (>=1.2)$sounddevice (>=0.4)
+quantlab,0.5.0,5,notebook (>=4.3.1)$futures$ipython-genutils$quantlab-launcher (>=0.3.0)$subprocess32
+qface-qtro,1.4.1,5,Jinja2$PyYAML$click$path.py$qface (>=1.8)
+quantregpy,0.1.50,5,patsy$numpy (==1.19.2)$scipy$pandas$scikit-learn
+qctrl-cirq,0.0.5,5,numpy (>=1.16,<2.0)$scipy (>=1.3,<2.0)$toml (>=0.10.0,<0.11.0)$cirq (>=0.6.0,<0.7.0)$qctrl-open-controls (>=8.5.1,<9.0.0)
+qctrl-pyquil,0.0.8,5,numpy (>=1.16,<2.0)$scipy (>=1.3,<2.0)$toml (>=0.10.0,<0.11.0)$pyquil (>=2.9,<3.0)$qctrl-open-controls (>=9.1.1,<10.0.0)
+qobuzzz-dl,2021.3.25.0,5,aigpy (>=2021.3.25.1)$requests (>=2.22.0)$pycryptodome$pydub$prettytable
+quantrocket-utils,0.2.0,5,arrow (>=0.15.2,<0.16.0)$colorama (>=0.4.1,<0.5.0)$trading-calendars (>=1.11,<2.0)$ib-trading-calendars (>=0.1.2,<0.2.0)$termcolor (>=1.1,<2.0)
+quantservice,0.0.13,5,pandas$pymysql$sqlalchemy$cryptography$python-dateutil
+qnm,0.4.3,5,numpy$scipy$numba$tqdm$pathlib2 ; python_version < "3.4"
+qesdk,0.0.13,5,msgpack-python (>=0.5.6)$nest-asyncio (>=1.5.5)$numpy (>=1.19.2)$pandas (>=1.3.5)$thriftpy2 (>=0.4.14)
+qnas,1.0.0,5,numpy$qutip$qiskit$pandas$regex
+quarto,0.1.0,5,jupyter-core$nbformat$nbclient$ipykernel$pyyaml
+quart-minify,0.3.0,5,htmlmin (>=0.1.12,<0.2.0)$jsmin (>=2.2,<3.0)$lesscpy (>=0.13.0,<0.14.0)$quart (>=0.10.0,<0.11.0)$setuptools (>=60.9,<61.0)
+qutech-util,2022.7,5,numpy$hdf5storage$pandas$more-itertools$matplotlib
+qcware-transpile,0.1.1a21,5,pyrsistent (>=0.18.0,<0.19.0)$attrs (>=21.2.0,<22.0.0)$toolz (>=0.11.2,<0.12.0)$icontract (>=2.6.0,<3.0.0)$parse (>=1.19.0,<2.0.0)
+qmsolve,2.0.0,5,numpy$scipy$matplotlib$h5py$progressbar
+qutipy,0.1.0a0,5,numpy (>=1.21.3)$scipy (==1.8.0)$sympy (==1.9)$cvxpy (==1.2.0)$pytest
+qlkit,0.0.27,5,sqlalchemy$protobuf$grpcio$pika$gevent
+qad,0.1.1,5,IPWhois$beautifulsoup4$httplib2$requests$validators
+quantum-dynamics,0.1.dev14,5,numpy$scipy$matplotlib$h5py$progressbar2
+qlligraphy,0.1.3,5,graphql-core (>=3.2.0,<4.0.0)$pydantic (>=1.9.0,<2.0.0)$astunparse (>=1.6.3,<2.0.0)$isort (>=5.10.1,<6.0.0)$black (>=22.1.0,<23.0.0)
+quart-discord-any,2.2.2b1,5,Quart$pyjwt$oauthlib$Async-OAuthlib$cachetools
+q2-umap,0.0.1,5,scikit-learn$scipy$scikit-bio$umap-learn$pandas
+qdc-converter,2.5,5,numpy (>=1.19.0)$tqdm (>=4.37.0)$click (>=4.0.0)$click-option-group (>=0.5.3)$pebble (>=4.6.0)
+quantumintelligence,0.0.3,5,torch$numpy$scipy$matplotlib$pynvml
+qecsim,1.0b9,5,click (>=7)$numpy (>=1.17)$scipy (>=1.3)$networkx (>=2.1)$mpmath (>=1)
+qdyn,22.7,5,numpy$matplotlib$scipy$sympy$click
+qwc,0.0.1,5,spyne (>=2.0)$waitress (>=2.1)$walrus (>=0.9)$configobj (>=5.0)$lxml (>=4.0)
+qd-plot,0.0.3,5,click$imgcat$kaleido$pandas$plotly
+q2,0.1.4,5,numpy$tensorflow$PyYAML$gym$gym-retro
+qxbranch-quantum-feature-detector,1.0.2,5,numpy (==1.15.4)$pyquil (>=2.0.0)$matplotlib (==3.0.2)$scikit-learn (==0.20.0)$networkx (==2.2)
+qdscreen,0.6.3,5,numpy (>=1.15)$pandas (>=0.21)$scipy (>=1.0.1)$pyitlib$pathlib2 ; python_version < "3.2"
+qudpy,1.2.0,4,qutip$ufss$matplotlib$numpy
+qcgpu,0.1.1,4,mako$pyopencl$pybind11$numpy
+quaggagriff,0.1.5,4,appdirs (<2,>=1.4.3)$ebird-api (<4,>=3.0.4)$discord.py (<2,>=1.2.3)$tzlocal (<3,>=2.0.0)
+quakeflow,0.1.0,4,obspy$h5py$matplotlib$pandas
+quaerere-base-flask,0.3.0,4,Flask-Classful (>=0.14.2)$arango-orm (==0.5.7)$python-arango (<5,>=4.4.0)$marshmallow (<3,>=2.16.0)
+qibuild,3.17,4,six (>=1.11)$tabulate (>=0.8)$virtualenv (>=16)$python-minifier (>=2.1)
+qibojit,0.0.6,4,numba (>=0.51.0)$scipy$psutil$qibo (>0.1.8)
+quadroots,0.0.13,4,math$cmath$re$argparse
+qualityface,1.0.3,4,opencv-python$numpy$siriusbackbone$pillow
+qiime2utils,0.0.11,4,pytest$pandas$biopython$tqdm
+qwazzock,0.12.0,4,flask (>=1.1.2,<2.0.0)$flask-socketio (>=4.2.1,<5.0.0)$pyopenssl (>=19.1.0,<20.0.0)$eventlet (>=0.25.2,<0.26.0)
+qmake2cmake,1.0.2,4,pyparsing$portalocker$sympy$packaging
+qualtricsapi,0.5.8,4,pandas$numpy$requests$python-dateutil
+quantagonia-api-client,0.31,4,requests$pyqubo$pulp$yaspin
+qviz,0.1.0,4,ipywidgets (>=7.0.0)$traittypes$pyarrow (>=0.17.0)$cassandra-driver (>=3.23.0)
+quantaq-cli,0.3.0,4,pandas (>=1.0.4,<2.0.0)$click (>=7.1.2,<8.0.0)$pyarrow (>=0.17.1,<0.18.0)$terminaltables (>=3.1.0,<4.0.0)
+quantastica-qiskit-forest,0.9.21,4,qiskit$pyquil$numpy$quantastica-qconvert (>=0.9.18)
+quad,0.1.0,4,numpy$cirq-unstable (==0.8.0.dev20200312000748)$zarr (~=2.4)$numcodecs (~=0.6.4)
+quantaxis-webserver,2.0.0,4,tornado (>=6.1)$qaenv$apscheduler$quantaxis (>=1.7.0)
+qutip-qip,0.2.2,4,numpy (>=1.16.6)$scipy (>=1.0)$qutip (>=4.6)$packaging
+qikpropservice,0.2.4,4,requests$click$pydantic$tqdm
+qget,0.1.4,4,aiofiles (>=0.8.0)$aiohttp (>=3.8.1)$aiohttp-socks (>=0.7.1)$tqdm (>=4.63.1)
+qurcol,1.0.0,4,pyarrow (>=0.17.1,<0.18.0)$click (>=7.1.2,<8.0.0)$tabulate (>=0.8.7,<0.9.0)$pytz (>=2020.1,<2021.0)
+qloader,8.1.6,4,selenium$requests$pillow$imagehash
+qmodels,1.0.1,4,simulus$numpy$scipy$matplotlib
+qfp,0.2.0,4,pydub (>=0.25.1,<0.26.0)$numpy (>=1.22.1,<2.0.0)$scipy (>=1.7.3,<2.0.0)$bitstring (>=3.1.9,<4.0.0)
+qaga,0.0.3.post3,4,dimod (>=0.10.15,<0.11.0)$toolz (>=0.11.2,<0.12.0)$dwave-system (>=1.11.0,<2.0.0)$dwave-neal (>=0.5.9,<0.6.0)
+qtvoila,2.0.0,4,PySide6$voila$numpy$psutil
+qtv,0.0.1,4,arklibpy (>=0.1.5)$tqdm$numpy$matplotlib
+qamlz,1.2.0,4,numpy (>=1.20.3)$scikit-learn (>=1.0.1)$scipy (>=1.7.1)$dwave-ocean-sdk (>=4.2.0)
+qlink,0.1a1,4,numpy$pandas$pathos$sqlalchemy
+quran-rofi,0.1.10,4,pyrof$alquran-id$appdirs$pydub
+quantile-forest,1.1.0,4,cython (>=3.0a4)$numpy$scipy$scikit-learn (>=1.0)
+quantimpy,0.4.6,4,numpy$scipy$matplotlib$edt
+qfitswidget,0.9.1,4,matplotlib (>=3.5.2,<4.0.0)$numpy (>=1.23.1,<2.0.0)$astropy (>=5.1,<6.0)$PyQt5 (>=5.15.7,<6.0.0)
+qtsplashscreen,5.15.2,4,PyQt5 (==5.15.2)$pip (>=21.0.1)$wheel$setuptools (>=49.0.0)
+qupulse,0.7,4,sympy (>=1.1.1)$numpy$frozendict$cached-property ; python_version < "3.8"
+qlikflow,1.0.14,4,requests (>=2.25.1,<3.0.0)$requests-ntlm (>=1.1.0,<2.0.0)$zeep (>=4.0.0,<5.0.0)$apache-airflow-providers-telegram (>=1.0.2,<2.0.0)
+quple,0.9.2.7,4,cirq$numpy$imageio$tensorflow-quantum
+quotescli,0.2.0,4,bs4$colorama$prettytable$pyler
+qtslix,1.0.2,4,PyQt5$matplotlib$numpy$SLIX (>=2.4.0)
+qaoalib,0.1.6,4,numpy (>=1.17)$matplotlib$networkx$qiskit (>=0.25.0)
+quoted,0.4.1,4,importlib-metadata (>=1.6.0,<2.0.0)$scrapy (>=2.1.0,<3.0.0)$click (>=7.1.2,<8.0.0)$rich (>=1.0.3,<2.0.0)
+quantlet-streaming,1.0.0,4,pandas (>=1.2.2,<2.0.0)$numpy (>=1.20.1,<2.0.0)$quantlet.core (>=0.0.3,<0.0.4)$pylint (>=2.7.0,<3.0.0)
+qnq,1.1.2,4,numpy$torch (>=1.3)$tensorboard$pyyaml
+qfast,2.2.0,4,numpy (>=1.16.6)$scipy (>=1.4.1)$sympy (>=1.5)$qsearch (>=2.4.0)
+qapi-sdk,0.3.4,4,requests (>=2.27.1,<3.0.0)$python-dotenv (>=0.20.0,<0.21.0)$boto3 (>=1.23.10,<2.0.0)$smart-open (>=6.0.0,<7.0.0)
+quokka-project,1.0.3,4,capstone (<5,>=4.0.2)$networkx (<3,>=2.4)$protobuf (<4,>=3.12.2)$pypcode (<2,>=1.0.7)
+quantrading,0.1.41,4,empyrical$openpyxl$xlsxwriter$plotly
+quantrocket-client,2.8.0.0,4,requests$six$python-dateutil$pyyaml
+qexpy,2.0.2,4,numpy$matplotlib$scipy$IPython
+qumranica,0.7.2,4,certifi$python-dateutil$six (>=1.10)$urllib3 (>=1.15)
+qer,0.8.0,4,requests$six$functools32 ; python_version < "3.0"$enum34 ; python_version < "3.0"
+quiz-bots,0.2.2,4,vk-api (>=11.8.0,<12.0.0)$python-telegram-bot (>=12.7,<13.0)$environs (>=8.0.0,<9.0.0)$redis (>=3.5.2,<4.0.0)
+qodex-skud-bus,0.0.71,4,qodex-pi$sigur-interact$gbarrier$gphotocell
+qastrategy,0.0.25,4,quantaxis$qaenv$qifiaccount$quantaxis-pubsub
+qepy,0.0.1rc2,4,setuptools-scm$numpy (>=1.18.0)$f90wrap (>=0.2.8)$importlib-metadata (>=0.12) ; python_version < "3.8"
+quant-trading-bitmex-market-maker,2.8.0,4,requests$websocket-client$future$quant-trading-api
+qt-messenger-server,0.0.6,4,PyQt5$sqlalchemy$pycryptodome$pycryptodomex
+qomolangma,0.0.1,4,pandas$tensorflow (~=2.6)$click$click-help-colors
+qt-messenger-client,0.0.3,4,PyQt5$sqlalchemy$pycryptodome$pycryptodomex
+quantum-blackbird,0.5.0,4,numpy (>=1.16)$sympy$antlr4-python3-runtime (==4.9.2)$networkx
+qat-devices,0.2.0,4,networkx$numpy$qat-comm$qat-core
+qonstellation,0.2.0,4,feedparser$html2text$importlib-resources$typing
+qonto-client,0.3,4,XlsxWriter$ofxtools$requests$schwifty
+quimeraps,0.82.1,4,PyQt5 (==5.15.6)$ghostscript (==0.7)$json-rpc (==1.13.0)$werkzeug (==2.0.1)
+qldebugger,0.1.0,4,boto3 (>=1.24,<2.0)$click (>=8.1,<9.0)$pydantic (>=1.9,<2.0)$tomli (>=2.0,<3.0)
+qempo-paapi5-python-sdk,1.0.0,4,certifi$python-dateutil$six (>=1.10)$urllib3 (>=1.15)
+qavifiserver,0.0.2,4,quantaxis$qaenv$qifiaccount$quantaxis-pubsub
+quantum-isl,1.0.1,4,qiskit (==0.36)$numpy$scipy$openfermion (~=1.5)
+quantum-jet,0.2.2,4,numpy (<1.21.0)$quantum-xir$strawberryfields (>=0.18.0)$thewalrus (>=0.15.0)
+qopt,1.3.5,4,numpy$scipy$matplotlib$filter-functions (>=1.1.2)
+qeclab,0.3.1,4,pandas (>=1.3.0,<2.0.0)$multiprocess (>=0.70.12,<0.71.0)$dill (>=0.3.4,<0.4.0)$qecstruct (>=0.2.6,<0.3.0)
+quantumsim,0.2.0,4,pytools$numpy (>=1.12)$matplotlib$parsimonious
+quantum-simba,0.9.6.dev0,4,numpy$scipy$sympy (>=1.5.1)$pytest
+qoqo-myqlm,0.4.2,4,qoqo-calculator-pyo3 (>=1.0.0)$qoqo (>=1.0.0)$numpy$myqlm ; python_version == "3.8.*,3.10.*"
+qoqo-pyquest,0.4.1,4,qoqo (>=0.10.0)$pyquest-cffi (>=3.1.0)$qoqo-calculator-pyo3 (>=0.6)$numpy
+quantumstatetomography,0.0.2,4,numpy$qutip$matplotlib$scipy
+qtextras,0.6.4,4,numpy (>=1.0)$pandas (>=1.0)$pyqtgraph$ruamel.yaml (>=0.17.0)
+quantum-tree,1.1,4,numpy$deap$scikit-learn$qiskit
+qdsl,0.2.4,4,pyyaml$IPython$requests$pandas
+quietex,0.2.0,4,attrs$blessings$pexpect$pygments
+qorus-remote,1.0.1,4,pyaml$requests$urllib3$websocket-client
+qt-dev-helper,0.0.3,4,pydantic (>=1.9.0)$rich (>=12.0.0)$tomli (>=2.0.1)$qtsass (>=0.3.1)
+quidam,1.23,4,argparse$evolut$fake-useragent$requests
+qtdata,0.0.1,4,requests$pandas$numpy$yfinance
+qt-binder,0.4,4,six$traits$pyface$traitsui
+quapy,0.1.6,4,scikit-learn$pandas$tqdm$matplotlib
+quart-authorization-discord,1.0.3,4,httpx$authlib$aiohttp$quart
+quart-babel,0.0.3,4,Babel (>=2.10.3,<3.0.0)$ipapi (>=1.0.4,<2.0.0)$quart (>=0.18.0,<0.19.0)$nest-asyncio (>=1.5.5,<2.0.0)
+quart-cmark,0.1.2,4,Quart$jinja2 (>=3)$markupsafe (>=2)$paka.cmark (>=2.3.0)
+quickvision,0.2.1,4,torch (==1.8.1)$torchvision (==0.9.1)$pytorch-lightning (==1.2.6)$scipy (==1.5.4)
+quicktranslate,1.1.1,4,requests$bs4$pyexecjs$langdetect
+qt4a,2.3.1,4,qtaf$pillow$six$future
+qsymm,1.3.0,4,numpy (>=1.16.2)$scipy (>=1.1)$sympy (>=1.3.0)$tinyarray (>=1.2.2)
+quart-jwt-extended,0.1.0,4,Werkzeug (>=2.2.0)$Quart (>=0.18)$PyJWT (>2.2.0)$six
+qpformat,0.14.2,4,h5py (>=3.5.0)$numpy (>=1.12.0)$qpimage (>=0.9.1)$tifffile (>=2020.5.25)
+quicksom,1.0.0,4,numpy (>1.0)$scipy (>0.1)$scikit-image (>0.15)$scikit-learn (>0.22)
+qss,0.1.3,4,cvxpy$numpy$qdldl$scipy
+quart-motor,2.4.4,4,PyMongo (>=3.10)$Quart (>=0.12.0)$motor (>=2.1.0)$six
+qspd,1.0.1,4,mpmath$sympy$numpy$matplotlib
+quart-oauth2-discord-py,0.1.0,4,authlib (>=0.14.3,<0.15.0)$quart (>=0.13.1,<0.14.0)$aiohttp (>=3.6.2,<4.0.0)$httpx (>=0.15.4,<0.16.0)
+qbittorrentui,0.3.4,4,urwid (==2.1.2)$qbittorrent-api$blinker-alt (==1.5)$panwid (==0.3.4)
+qiskitflow,0.0.11a0,4,Click (>=6)$requests (>=2.22.0)$numpy (>=1.0.0)$tabulate (==0.8.7)
+quick-sci-plot,0.0.1,4,pandas$quick-csv$matplotlib$seaborn
+qbiz-airflow-presto,0.1rc1,4,boto3 (>=1.7.84)$botocore (>=1.10.84)$apache-airflow (>=1.10.12)$PyHive (>=0.6.2)
+quart-schema,0.14.3,4,pyhumps (>=1.6.1)$pydantic (>=1.10)$quart (>=0.18.1)$typing_extensions; python_version < "3.8"
+qctrl-visualizer,4.1.0,4,matplotlib (>=2.1)$numpy (>=1.21.5,<2.0.0)$toml (>=0.10.0,<0.11.0)$qctrl-commons (>=17.1.4,<18.0.0)
+qsentry,0.0.36,4,click (~=8.1)$jmespath (~=1.0)$python-dotenv (~=0.20)$requests (~=2.27)
+qctrl-mloop,2.0.3,4,numpy (>=1.21.5,<2.0.0)$toml (>=0.10.0,<0.11.0)$qctrl (>=19.4.0,<20.0.0)$M-LOOP (>=3.3.0,<3.4.0)
+qctrl-client,1.0.0,4,gql (>=3.4.0,<4.0.0)$qctrl-commons (>=17.1.0,<18.0.0)$requests-oauthlib (>=1.3.1,<2.0.0)$PyJWT (>=2.4.0,<3.0.0)
+qudida,0.0.4,4,numpy (>=0.18.0)$scikit-learn (>=0.19.1)$typing-extensions$opencv-python-headless (>=4.0.1)
+queenbee-dsl,0.7.2,4,queenbee (==1.22.16)$queenbee-local (==0.3.2)$click-plugins (==1.1.1)$importlib-metadata (==3.4.0)
+qbo-db-connector,1.1.0,4,typing (==3.7.4.1)$pandas (==0.25.2)$logger (==1.4)$requests
+queenbee-local,0.3.21,4,queenbee (>=1.25.0)$luigi (==3.0.3)$click (>=7.1.2)$click-plugins (>=1.1.1)
+queenbee-pollination,0.7.5,4,queenbee (>=1.22.13)$pollination-sdk (==0.10.17)$tabulate (>=0.8.7)$requests (>=2.24.0)
+querius,0.1.10,4,loguru (>=0.5,<0.6)$google-auth (>=1.5,<2.0)$google-cloud-bigquery (>=1.5.0,<=2)$timeout-decorator (>=0.5.0,<0.6.0)
+quickpac,1.0.0,4,urllib3 (>=1.15)$six (>=1.10)$certifi$python-dateutil
+qcompress,0.0.1.dev12,4,pytest$jupyter$pyquil (>=2.0.0b1)$openfermion (>=0.7)
+quickmpc,0.1.2,4,numpy$grpcio-tools (==1.46.3)$pynacl$tqdm
+qcnpy,0.0.1,4,numpy$matplotlib$qiskit$tqdm
+query-maker-ryazantseff,0.3.7,4,asyncio$aiomysql$sqlalchemy (==1.3.24)$pandas
+qrutils,0.0.2.2,4,pandas (==1.4.1)$setuptools (==58.0.4)$tqdm (==4.63.1)$XlsxWriter (==3.0.3)
+qqbot-linger,0.1.1,4,pydantic (==1.7.3)$nonebot2 (>=2.0.0a10,<3.0.0)$nonebot-plugin-bam (>=0.1.4,<0.2.0)$nonebot-plugin-7s-roll (>=0.1.2,<0.2.0)
+qiskit-rigetti,0.4.5,4,qiskit (>=0.27.0,<0.28.0)$pyquil (>=3.0.0,<4.0.0)$numpy (>=1.20.1,<2.0.0)$importlib_metadata; python_version < "3.8"
+qiskit-shots-animator,1.0.1,4,matplotlib (>=3.2.2)$numpy (>=1.18.5)$pillow (>=7.2.0)$pkginfo (>=1.5.0.1)
+questionbuilder,1.1.13,4,neo4j (==1.7.6)$setuptools (>=50.3.0,<51.0.0)$wheel (>=0.35.1,<0.36.0)$editdistance (>=0.5.3,<0.6.0)
+qrm-client,0.0.6,4,dataclass-type-validator$dataclasses$requests$pyyaml
+qqmusicbox,0.1.1,4,future$pycryptodomex$requests$requests-cache
+quetzal-openapi-client,0.5.0,4,urllib3 (>=1.15)$six (>=1.10)$certifi$python-dateutil
+qrimageindexergui,0.1.2,4,qrImageIndexer (>=0.7.3)$PyMuPDF$pillow$natsort
+queue-metrics,0.0.1,4,numpy (==1.18.5)$pandas (==1.0.4)$python-dateutil (==2.8.1)$pytz (==2020.1)
+quica,0.2.5,4,krippendorff$sklearn$nltk$pandas
+qclassify,0.0.1.dev0,4,jupyter$pyquil (>=2.0.0b1)$matplotlib$scipy
+qrcodetransfer,0.1.1,4,pyzbar>=0.1.9$Pillow>=9.1.1$PyQRCode>=1.2.1$PyQt5>=5.15.6
+quickbe,4.1.1,4,flask (==2.0.1)$cerberus (==1.3.4)$schedule (==1.1.0)$psutil (==5.8.0)
+quickci,0.4.0,4,Click (>=7.0)$requests (>=2.21.0)$asyncio (>=3.4.3)$aiohttp (>=3.5.4)
+qiwipy,2.1.6,4,six$requests (<3,>=2.15)$parse (<2,>=1.8)$python-dateutil (<3,>=2.7)
+qbert,0.1.7,3,piccolo[orjson,postgres] (>=0.74.4)$pydantic (>=1.9.1,<2.0.0)$ulid-py (>=1.1.0,<2.0.0)
+qldb-orm,1.0.2,3,jsonconversion (>=0.2.13)$pyqldb (>=3.2.2)$python-dotenv (>=0.19.2)
+qcelemental,0.25.1,3,numpy (>=1.12.0)$pint (>=0.10.0)$pydantic (>=1.8.2)
+quickbuild,0.17.0,3,aiohttp (<4.0.0,>3.6.2)$requests (<3.0.0,>=2.24.0)$xmltodict (==0.12)
+qchecker,1.1.2,3,tomli (~=2.0.1)$libcst (~=0.4.1)$Deprecated (~=1.2.13)
+qrainbowstyle,0.9.6,3,helpdev (>=0.6.10)$qtpy (>=1.9)$PyQtWebEngine
+quickbase-client,0.6.0,3,requests (>=2.27.1,<3.0.0)$stringcase (>=1.2.0,<2.0.0)$attrs (>=21.4.0,<22.0.0)
+qccodar,1.0.1,3,docopt$geopy$numpy
+qiwi-payments,0.1,3,requests (==2.22)$pytz (==2019.1)$python-dateutil (==2.8.0)
+quick-debug,0.0.3,3,future$requests$requests-futures
+qregpy,1.1.1,3,xgboost$numpy$scikit-learn
+quickdiscord-py,0.0.3,3,discord.py$ujson$requests
+quevedo,1.3.1,3,click (>=8,<9)$pillow (>=8,<9)$toml (>=0.10.2,<0.11.0)
+qit,0.12.0,3,numpy (~=1.20)$scipy (~=1.6)$matplotlib (~=3.4)
+quickdrop,0.1,3,dropbox$Click$pyperclip
+qri,0.1.5,3,pandas (==1.0.0)$Markdown (==3.2.2)$requests (==2.24.0)
+qisquick,0.0a8,3,qiskit$numpy$scipy
+qc2tsv,0.2.0,3,autouri (>=0.1.2.1)$pandas (>=1.0.0)$caper
+queueless,0.1.0,3,dill$sqlalchemy$psycopg2 (>=2.8.5,<3.0.0)
+quickhttp,1.0.0,3,importlib-metadata (>=1.0); python_version < "3.8"$pytimeparse (>=1.1.8,<2.0.0)$typer (>=0.3.0)
+question-generation,1.0.5,3,transformers (>=4.12.5)$datasets (>=1.15.1)$torch (>=1.3)
+quick-hull,0.1.1,3,matplotlib (==3.4.1)$numpy (==1.20.0)$scipy (==1.6.3)
+qiskit-superstaq,0.3.5,3,general-superstaq (~=0.3.2)$matplotlib (~=3.0)$qiskit (<0.37.0,>=0.35.0)
+quicklearn,0.1.6,3,xgboost$scikit-learn$tensorflow
+questionansweringbert,0.1,3,numpy$tensorflow$transformers
+qronos-django,1.1.1,3,qronos-client (>=1.3.0)$Django (>=3.0)$celery (>=4.4.0)
+qrpc,0.1.0,3,falcon (>=1.2.0)$requests (>=2.18.4)$six (>=1.10.0)
+qrpic,0.3,3,Shapely (>=1.7.1,<2.0.0)$qrcodegen (>=1.6.0,<2.0.0)$svg.path (>=4.1,<5.0)
+qb-solver,0.1.9,3,ursina (==3.5.0)$rubik-cube (==0.0.1)$psd-tools3 (==1.8.2)
+qcnn,1.0.3,3,matplotlib (>=2.2.2)$pandas (>=0.22.0)$numpy (>=1.18.2)
+qrsh,0.3.1,3,pillow$typer (>=0.3.2,<0.4.0)$pyzbar (>=0.1.8,<0.2.0)
+query-string-parser,1.0.0,3,typing$querystring-parser$OrderedDict
+querystatelib,1.1.4,3,web3 (>=5.23.0)$requests (<=2.26.0)$pbkdf2 (==1.3)
+queryparser-python3,0.6.0,3,antlr4-python3-runtime (==4.11.1)$pytest (~=6.2.5)$PyYAML (~=6.0)
+qq-botpy,1.1.1,3,aiohttp (<4,>=3.7.4)$PyYAML$APScheduler
+qiskit-quantum-knn,1.0.1,3,numpy$scipy$qiskit
+qq-bot,0.8.5,3,requests$websocket-client$aiohttp (<3.8.0,>=3.6.0)
+quickmin-step,2022.11.7,3,seamm$seamm-util$seamm-widgets
+qrztools,1.2.0,3,lxml$gridtools$requests ; extra != "async"
+qpz-atomics,1.0.0,3,cqc$simulaqron$hypothesis
+qcobj,1.2.7,3,Pint (>=0.8.1)$configobj (>=5.0.6)$setuptools (>=39.0.1)
+qpu,0.0.4,3,qiskit (==0.17.0)$dwave-ocean-sdk (==2.1.1)$matplotlib (==3.2.1)
+qiyu-sso,0.2.14,3,pydantic (>=1.9,<2)$requests (>=2,<3)$aiohttp (>=3,<4)
+quick-pandas,0.1.5,3,numba$numpy$pandas
+quickplotlib,0.3,3,pandas$matplotlib$seaborn
+quickq,17.10.4,3,Django (>=1.11)$pyjwt$requests
+queenbee,1.26.6,3,pydantic (>=1.8.2)$PyYAML (==6.0)$jsonschema (==4.3.3)
+qprof-qiskit,1.0.1,3,qiskit (==0.21.0)$qprof$qprof-interfaces
+qconnectbase,0.0.1,3,sphinx$pypandoc$colorama
+qcqp,0.8.3,3,cvxpy (>=0.4.8)$cvxpy (<1.0)$CVXcanon (>=0.1.1)
+qcrit,0.0.22,3,numpy$nltk$tqdm
+qprof-myqlm,1.0.1,3,qprof$qprof-interfaces$myqlm
+qiskit-qir,0.2.0,3,qiskit (>=0.34.2)$qiskit-terra (>=0.19.2)$pyqir-generator (==0.4.2a1)
+qsearch,2.6.0,3,numpy (>=1.16.5)$scipy$qsrs (<3.0.0,>=2.0.0)
+qself,0.0.3,3,python-dotenv$pandas$requests
+qbiz-data-raven,0.1rc1,3,sqlalchemy (>=1.3.19)$psycopg2-binary$pymysql
+qjackcapture,0.2.1,3,natsort$pyjacklib$PyQt5
+quayadmin,0.1.2,3,attrs$treq$twisted[tls]
+quaternionic,1.0.5,3,numpy (>=1.19,<2.0)$scipy (>=1.0,<2.0)$numba (>=0.55); implementation_name == "cpython"
+qctrl-open-controls,9.1.4,3,numpy (>=1.21.6,<2.0.0); python_version >= "3.7" and python_version < "3.8"$numpy (>=1.23.0,<2.0.0); python_version >= "3.8"$toml (>=0.10.0,<0.11.0)
+qpretrieve,0.2.12,3,numpy (>=1.9.0)$scikit-image (>=0.11.0)$scipy (>=0.18.0)
+quasarcode,0.4.0,3,numpy$matplotlib$scipy
+quart-trio-twice,0.6.1,3,hypercorn[trio] (>=0.6.0)$quart (<0.14,>=0.12)$trio (>=0.9.0)
+quart-trio,0.10.0,3,hypercorn[trio] (>=0.12.0)$quart (>=0.18)$trio (>=0.9.0)
+quickrun,0.0.8,3,jq$pexpect$rich
+qsimov-mowstyl,5.0.5,3,numpy (>=1.21)$matplotlib (>=3.5.1)$doki-Mowstyl (>=1.3.2)
+qiskit-iqm,6.2,3,numpy$qiskit (~=0.39.1)$iqm-client (<10.0,>=9.0)
+quickscope,0.1.3,3,nclib$psutil$dataclasses-json
+qsl,0.2.18,3,ipywidgets (>=7.0.0)$typing-extensions$filetype
+quart-openapi,1.7.2,3,jsonschema (>=3.0.0)$werkzeug (>=1.0.0)$quart (>=0.12.0) ; python_version >= "3.7"
+quartodoc,0.0.1,3,griffe$plum-dispatch$tabulate
+qsosed,0.0.1.dev60,3,astropy (>=3.2.1)$numpy (>=1.16.4)$scipy (>=1.3.0)
+qkmd,1.0.3,3,pyquery$pygments$requests
+quicksemble,0.2.8,3,numpy$scikit-learn$xgboost
+qspider,0.1.6,3,termcolor (>=1.1.0)$requests (>=2.24.0)$colorama (>=0.4.4)
+qplanarity,1.4.2,3,PyQt5$numpy$scipy
+qcware-quasar,1.0.7,3,numpy >= 1.18.4$scipy >= 1.3.3$sortedcontainers>=2.3.0
+qiskit-aqua-interfaces,0.2.1,3,qiskit-aqua (<0.7.0,>=0.6.0)$pyobjc-core ; sys_platform == "darwin"$pyobjc-framework-Cocoa ; sys_platform == "darwin"
+quick-slack,1.0.2b0,3,click$requests$psutil
+qpe,0.0.2,3,numpy$qiskit$quantuminspire
+qda,0.0.2,3,networkx$textblob$numpy
+qiskit-aer-gpu,0.11.1,3,numpy (>=1.16.3)$qiskit-terra (>=0.21.0)$scipy (>=1.0)
+quart-discord-oauth,1.0.8,3,quart$cachetools$requests
+qdata,0.2.3,3,requests (>=2.19.1)$matplotlib (>=3.3.4)$pycryptodome (>=3.10.1)
+quart-db,0.4.1,3,asyncpg (>=0.25.0)$buildpg (>=0.4)$quart (>=0.16.3)
+quart-csrf,0.2,3,itsdangerous$quart$wtforms
+quicksplit,1.4,3,click (==7.0)$requests (==2.23.0)$terminaltables (==3.1.0)
+qsync,0.1.8,3,flask$pyopenssl$requests
+qbism,0.1.0.6,3,numpy$qutip$matplotlib
+qpandas,1.0.0,3,mysqlclient$pandas$sqlalchemy
+qbinder,1.0.10,3,PySide2$six$Qt.py
+qiea,1.0.0,3,qiskit$tsplib95$networkx
+quart-admin,3.0.0,3,quart$click$python-slugify
+qdatalib,0.1.0,3,pymongo$dnspython$qcodes (>=0.25)
+qtalib,0.0.1,3,finta$pandas$numpy
+qt-async-threads,0.3.1,3,attrs$boltons$PyQt5 (>=5.12)
+qdep,1.1.1,3,appdirs$lockfile$argcomplete
+quarchqcs,1.1.1,3,quarchpy (>=2.1.7)$numpy$pandas
+qoyllur-quipu,1.0.1,3,numpy$scipy$matplotlib
+quid,2.2.1,3,yattag (>=1.14.0)$rapidfuzz (>=2.4.2)$datasketch (>=1.5.7)
+quantzoo,2022.6.2.16.3.25,3,meutils$akshare$pypinyin
+quantx-sdk,0.1.10,3,requests (>=2.26.0)$pandas (==0.23.4)$websocket-client (>=1.2.1)
+quantworks-twitter,1.0,3,tweepy (>=3.8.0,<4.0.0)$quantworks (==0.21)$six (>=1.13.0,<2.0.0)
+quantworks-bitcoin,1.0,3,quantworks (==0.21)$six (>=1.13.0,<2.0.0)$requests (>=2.22.0,<3.0.0)
+qinling-dashboard,4.0.0,3,horizon (>=17.1.0)$pbr (!=2.1.0,>=2.0.0)$python-qinlingclient (>=1.1.0)
+qcg-pilotjob,0.13.1,3,zmq$click$psutil
+quantum-viz,1.0.4,3,click (>=8.0.1,<9.0.0)$ipython (>=8.0.3,<9.0.0)$varname (>=0.8.1,<0.9.0)
+qoscope,1.0.0,3,numpy (>=1.17.0)$PySide6 (>=6.0.0)$pyserial (>=3.5)
+quiet-py-wasm,0.1.3,3,wasmer-compiler-cranelift (==1.0.0)$wasmer (>=1.0.0,<2.0.0)$PyAudio (>=0.2.11,<0.3.0)
+qoqo-quest,0.8.1,3,numpy$qoqo>=1.1.0b12$qoqo_calculator_pyo3>=1.1.0
+quantum-tomography,1.0.4.0,3,scipy$numpy$matplotlib
+qoqo-qryd,0.6.0,3,numpy$qoqo>=1.1.0$qoqo_calculator_pyo3>=1.1.0
+qec,0.0.11,3,numpy$ldpc$tqdm
+qoqo-qasm,0.4.5,3,qoqo-calculator-pyo3 (>=1.0.0)$qoqo (>=1.0.0)$numpy
+quiet-riot,1.0.2,3,setuptools (>=42)$wheel$boto3 (==1.17.84)
+qoqo-aqt,0.5.1,3,numpy$qoqo>=1.0.0$qoqo_calculator_pyo3>=1.0.0
+quiffen,2.0.0,3,pandas (>=1.5.1,<2.0.0)$pydantic (>=1.10.2,<2.0.0)$python-dateutil (>=2.8.2,<3.0.0)
+qtile,0.22.1,3,cffi (>=1.1.0)$cairocffi[xcb] (>=0.9.0)$xcffib (>=0.10.1)
+quantum-random,1.2.4,3,requests (>=2.25.1,<3.0.0)$xdg (>=5.1.1,<6.0.0)$types-requests (>=2.28.3,<3.0.0)
+quantumpathqsoapysdk,1.2,3,requests$matplotlib$prettytable
+qaviton-git,2019.9.29.11.11.3.489379,3,qaviton-helpers (>=2019.9.4.11.27.8.183362)$qaviton-processes (>=2019.9.4.12.58.22.283354)$qaviton-handlers (>=2019.9.29.7.56.30.312631)
+qool-board,1.0.0,3,mitama$pytz$python-dateutil
+qedward,0.0.3,3,numpy$matplotlib$scipy
+quantum-gateway,0.0.8,3,urllib3$requests (>2.20)$esprima (>4.0)
+quiltz-testsupport,0.3.0,3,pytest (~=6.2)$pyhamcrest (~=2.0.3)$aiosmtpd (==1.4.2)
+quantum-edward,0.0.0,3,numpy$matplotlib$scipy
+qencoder,2.1.4,3,Av1an$PyQt5$psutil
+qleda,0.1.3,3,numpy (>=1.19.4)$pycairo (>=1.20.0)$SQLAlchemy (>=1.3.0)
+qingping-ble,0.8.2,3,bluetooth-data-tools (>=0.1.2)$bluetooth-sensor-state-data (>=1.5.0)$sensor-state-data (>=2.1.2)
+qeppi,0.1.11,3,rdkit-pypi (>=2021.3.1.5)$numpy (>=1.19.5)$pandas (>=1.1.5)
+quantuloop-quest,0.1.2,3,PyJWT (>=2.4.0)$cryptography (>=37.0)$ket-lang (<0.6.0,>=0.5.0)
+quintagroup-xmlsec-init,0.2.0,3,setuptools$dm.xmlsec.binding (>=2.0)$zope.component
+quintoandar-kafka,2.0.0,3,redis (==2.10.6)$retrying (==1.3.3)$kafka-python (==1.4.6)
+quippy-ase,0.9.10,3,numpy (>=1.13)$f90wrap (>=0.2.6)$ase (>=3.17.0)
+quippy-cli,0.0.1,3,pyfzf (>=0.2.1)$pyperclip (>=1.7.0)$PyYAML (>=5.3)
+quizlet-sets,0.0.2,3,genanki$xlwt$beautifulsoup4
+qtneat,0.0.7,3,qtawesome (>=0.0.1)$pyqt-svg-button (>=0.0.1)$pyqt-svg-icon-text-widget (>=0.0.1)
+qetools,1.1.1,3,ase$matplotlib$numpy
+qe-tools,2.0.0,3,numpy$scipy$packaging
+qumulo-api,5.2.5.1,3,dataclasses-json (>=0.5.2)$tqdm (>=4.24.0)$typing-extensions (>=3.7.4.3)
+qlient,1.0.0,3,qlient-core (>=1.0.1,<2.0.0)$requests (>=2.27.1,<3.0.0)$websocket-client (>=1.3.3,<2.0.0)
+quantrautil,0.0.3,3,fix-yahoo-finance (>=0.1.0)$nsepy (>=0.7)$iexfinance (>=0.4.1)
+qingdian,1.0.12,3,pypinyin$pyperclip$winshell
+qase-pytest,4.0.0,3,qaseio (>=3.0.0)$pytest (>=5.2.0)$filelock (>=3.0)
+qtpi-test-kernel,0.1.4,3,jupyter-client$IPython$ipykernel
+quantpy,0.0.2.dev12,3,numpy$qiskit (==0.11.1)$sympy (==1.4)
+quoras,1.1.1,3,selenium$bs4$lxml
+qingcloud-cli,1.3.12,3,argparse (>=1.1)$PyYAML (>=3.1)$qingcloud-sdk (>=1.2.12)
+qfast-qiskit,1.0.1,3,qfast (>=2.1.0)$numpy (>=1.16.6)$qiskit (>=0.16.1)
+quantnbody,1.1.2,3,scipy$numpy$numba
+qinfer,1.0,3,future (>=0.15)$numpy$scipy
+quantlyx,0.0.1,3,requests$attrdict$tqdm
+quantlplot,1.8.1,3,pandas$PyQt5$pyqtgraph (>=0.11.1)
+qa-pedia,0.0.0a0,3,SPARQLWrapper$pandas$lxml
+qtree,0.1,3,numpy (==1.18.1)$networkx (==2.3)$matplotlib (==3.1.3)
+quantlet-reactives,0.0.2,3,jfaleiro.reactives (>=1.0.1,<2.0.0)$quantlet.core (>=0.0.3,<0.0.4)$pylint (>=2.7.0,<3.0.0)
+quantlet-ml,0.0.3,3,quantlet.streaming (>=1.0.0,<2.0.0)$sklearn (>=0.0,<0.1)$pylint (>=2.7.0,<3.0.0)
+qfast-uq,2.0.0,3,qfast (>=2.0.0)$numpy (>=1.16.6)$qiskit (>=0.16.1)
+qfieldcloud-sdk,0.6.1,3,click (>=8)$requests (>=2.0)$tqdm (==4.62.3)
+quantizer-pytorch,0.0.22,3,torch (>=1.6)$data-science-types (>=0.2)$einops (>=0.4)
+qtsasstheme,0.0.56,3,qtpy$qtsass$pyqt-svg-button (>=0.0.1)
+quantized-mesh-tile,0.6.1,3,future$numpy$shapely
+qnet-qsd,0.1.0,3,sympy$qnet (==2.0.0-dev)$trajectorydata
+qlik-sdk,0.10.2,3,requests (==2.27.1)$websocket-client (==1.3.2)$PyJWT[crypto] (==2.4.0)
+qilum,1.0.0,3,numba$numpy$scipy
+qany,0.0.2,3,pytest (==5.2.1)$setuptools (==40.6.3)$PyYAML (==5.3)
+quantitizer,1.1.0,3,gensim (>=4.2.0,<5.0.0)$numpy (>=1.23.0,<2.0.0)$mega.py (>=1.0.8,<2.0.0)
+qttp,0.5.19,3,numpy$pandas$dropbox
+quantiphy-eval,0.5.0,3,inform>=1.23$quantiphy>=2.13$sly>=0.4
+qmtools,0.1b0,3,numpy$scipy$attrs
+qanalytics-python,1.0.1,3,pytz$requests$urllib3
+qlivi,0.3.0,3,click (>=8.0.1,<9.0.0)$requests (>=2.26.0,<3.0.0)$pandas (>=1.3.2,<2.0.0)
+qlknnfort,1.2.0,3,numpy$pandas$f90wrap
+qurator-tsvtools,0.0.1,3,ocrd (>=2.23.2)$pandas$qurator-sbb-utils
+qt-widgets,0.0.1.dev7,3,pyqt5$pyqt5-tools$qimage2ndarray
+quantifin,0.0.42,3,pandas$yahoofinancials (==1.6)$scipy
+qf-package,0.2,3,setuptools$twine$wheel
+qutils,0.5.14,3,PyYAML (>=3.12)$pandas (>=0.17.0)$teradata (>=15.10.0.20)
+qg-eureka,0.0.1,3,setuptools (>=41.0.1)$requests (>=2.21.0)$typing (>=3.7.4.1)
+qutip,4.7.0,3,numpy (>=1.16.6)$scipy (>=1.0)$packaging
+quantaxis-wechat,1.0,3,wechatpy$flask$quantaxis (>=1.1.10.dev2)
+qmlt,0.7.1,3,scikit-learn (>=0.19)$matplotlib (>=2.0)$strawberryfields (>=0.7.3)
+quantaxis-servicedetect,0.0.3,3,pika (==1.0.0b1)$pymongo$click
+quackquack,1.1.1,3,marshmallow_dataclass (>=8.0.0,<9.0.0)$python-dateutil (>=2.8.2,<3.0.0)$pytest[toml] (>=7.0.1,<8.0.0)
+quantaxis-randomprice,1.1,3,click$numpy$pandas
+qactpbeebroker,1.5,3,quantaxis$quantaxis-pubsub (>=1.6.3)$ctpbee
+quadcropper,0.4,3,numpy (<2,>=1.19.1)$opencv-python (<5,>=4.2.0.34)$PySide6 (<7,>=6.2.1)
+qgrabber,0.0.8,3,aio_wx_widgets$pyzbar$videocapture
+quantastica-qiskit-toaster,0.9.30,3,qiskit-terra$numpy$quantastica-qconvert (>=0.9.20)
+qvapay,0.3.0,3,httpx (>=0.20.0,<0.21.0)$python-dateutil (>=2.8.2,<3.0.0)$python-dotenv (>=0.19.1,<0.20.0)
+qlua,1.3.0,3,wheel$protobuf (<4,>=3.7.1)$pyzmq
+qvncwidget,0.2.3,3,PyQt5 (>=5.12.8,<6.0.0)$service-identity (>=21.1.0,<22.0.0)$pyDes (>=2.0.1,<3.0.0)
+quandoo,1.3.7,3,requests$tzlocal$python-dotenv
+qualtrutils,0.1.5,3,tqdm$toml$requests
+q2rad,0.1.72,3,q2gui$q2db$q2report
+q2-itsxpress,1.8.0,3,itsxpress (>=1.8.0)$qiime2$pandas
+qhbmlib,0.3.0,3,tensorflow (==2.7.0)$tensorflow-probability (==0.15.0)$tensorflow-quantum (==0.6.1)
+q2gui,0.1.37,3,PyQt6 (>=6.3.0,<7.0.0)$PyQt6-QScintilla (>=2.13.3,<3.0.0)$q2db
+qib,0.0.1,3,numpy$scipy$importlib-metadata ; python_version == "3.8"
+qwebsite,1.0,3,click$qgui$requests
+qualitative-coding,0.1.12,3,PyYAML$tabulate$numpy
+qualifyr,1.4.6,3,pyyaml (==5.4.1)$colorlog (==6.6.0)$jinja2 (==3.0.3)
+q2-dbbact,1.4.0,3,wordcloud$calour$dbbact-calour
+qmenta-lint,0.10.2,3,flake8 (==3.7.9)$tabulate$pyyaml
+qmenta-gui,2.6,3,qmenta-core (>=1.2,<1.3)$PySide2 (>=5.15.2,<6.0.0)$importlib-metadata (>=3.3.0,<4.0.0)
+quakesrrtdisplay-tspspi,0.0.11a0,3,paho-mqtt (>=1.6.1)$matplotlib (>=3.3.4)$PySimpleGUI (>=4.60.1)
+quaker,1.0.1,3,Pygments (==2.9.0)$docutils (==0.17.1)$Jinja2 (==2.10.3)
+quaerere-willamette-client,0.1.0a2,3,requests$quaerere-base-client (>=0.1.0a)$quaerere-willamette-common (>=0.2.0)
+qwixtractor,0.1.0,3,pandas (>=1.4.3)$requests (>=2.28.1)$progressbar2 (>=4.0.0)
+quake,1.0.2,3,Click (>=7.0)$toml$requests
+qypi,0.6.0,3,click (~=8.0)$packaging (>=16)$requests (~=2.20)
+qtcompat,0.0.1a0,2,pip (>=20.0.2)$setuptools (>=45.2.0)
+qcodes-contrib-drivers,0.16.0,2,qcodes (>=0.29.0)$versioningit (>=1.1.0)
+qieyun,0.13.3,2,qieyun-encoder (<0.5,>=0.4)$networkx (<2.6,>=2.5)
+quaerere-willamette-common,0.2.1.post1,2,marshmallow (<3,>=2.16.0)$quaerere-base-common (>=0.1.1)
+qywechat,0.1.2,2,requests (==2.26.0)$tenacity (==8.0.1)
+qmenta-client,0.10.1,2,qmenta-core (>=1.0,<1.1)$future (>=0.18.2,<0.19.0)
+quaerere-columbia-common,0.1.0,2,marshmallow (<3,>=2.19.0)$quaerere-base-common
+qibullet,1.4.5,2,numpy$pybullet
+q1simulator,0.4.6,2,qcodes$qblox-instruments
+qmdesc,1.0.6,2,torch (>=1.4.0)$numpy (>=1.18.1)
+qibotf,0.0.6,2,tensorflow (==2.8.0)$qibo (>=0.1.7rc0)
+quaerere-base-client,0.1.0rc5,2,marshmallow (<3,>=2.19.0)$requests (>=2.21.0)
+qwilprobe,0.3.0,2,protobuf (>=3.19.0)$grpcio (>=1.43.0)
+quad-sim-python,0.0.2,2,numpy (>=1.20)$scipy (>=1.6)
+qwilfish,0.4.1,2,pyyaml (>=6.0)$qwilprobe (>=0.2)
+qwhois,1.0.1,2,future$netaddr
+qualitube,0.1.3,2,pandas (>=1.2.4,<2.0.0)$requests (>=2.25.1,<3.0.0)
+qwhale-client,0.1.20,2,pymongo$requests
+q2db,0.1.10,2,mysql-connector-python (>=8.0.29,<9.0.0)$psycopg2-binary (>=2.9.3,<3.0.0)
+qmeq,1.1,2,numpy$scipy
+qhist,0.1.2,2,pyroot-zen$PythonCK
+qwark,0.0.1,2,numpy (>=1.13.3)$axion (>=2.3.1)
+qvmake,0.0.1,2,sh$Click
+qvantum,0.97,2,matplotlib$numpy
+qacaller,0.1.2,2,mlflow (==1.8.0)$click (==7.1.2)
+qualysapi,8.0.2,2,lxml$requests
+qualysclient,0.0.4.8.2,2,requests$lxml
+qhal,0.2.0,2,numpy (>=1.20)$projectq (>=0.5)
+quanbit,0.0.1,2,numpy (>=1.16)$pytest (>=2.6)
+qade,0.1.2,2,dwave-ocean-sdk$numpy (>=1.20)
+quadrantic,0.1.0,2,Shapely (>=1.8.4,<2.0.0)$matplotlib (>=3.6.0,<4.0.0)
+qgui-fixed,0.5,2,ttkbootstrap$pillow
+qgui,0.6.3,2,ttkbootstrap (==0.5.1)$pillow (>=8.2.0)
+qg-tool,0.0.2,2,pipreqs (>=0.4.9)$setuptools (>=41.0.1)
+quanguru,0.0.1rc19,2,numpy$scipy
+qgrad,0.0.1,2,jaxlib$numpy
+qutiepy,0.2.4,2,numpy$scipy
+qiitacli,1.1.0,2,click (>=7.0)$qiita-v2 (>=0.2.1)
+qute-style,0.1.6,2,PyQt5 (==5.15.6)$pyqtspinner (>=2.0.0,<3.0.0)
+q-a-dependencies,1.0.1,2,nltk$unidecode
+quad-mesh-simplify,1.1.5,2,numpy$cython
+quantastica-qps-api,0.9.7,2,configparser$requests
+quta,0.1.0,2,numpy$quadprog
+quantastor-pyclient,0.0.0,2,urllib3$requests
+quantastor-qsclient,6.0.0,2,requests$urllib3
+qaffeine,0.1.post2,2,PySide2$autogui
+qloud-wsgi,0.2.0,2,PyJWT>=1.7.1$werkzeug>=0.14.1
+qgitc,3.7.2,2,PySide6-Essentials (>=6.3.0)$chardet
+quantaxis-otgbroker,1.9.2,2,websocket-client$quantaxis (>=1.5.3)
+quantaxis-pubsub,1.11,2,pika (==1.0.0b1)$quantaxis (>=1.4.8)
+quacks,0.2.0,2,importlib-metadata (>=1,<5); python_version < "3.8"$typing-extensions (>3.7,<5)
+quantaxis-run,1.9,2,celery (>4)$quantaxis (>=1.3.1)
+quackmyip,0.2.2,2,urllib3$requests
+qlm,0.0.3,2,typer[all] (>=0.6.1,<0.7.0)$httpx (>=0.23.0,<0.24.0)
+quack-cli,0.2.1,2,typer[all] (>=0.4,<0.5)$requests (>=2.26.0,<3.0.0)
+quranbot-schema-registry,0.0.16,2,pydantic (>=1.9.0,<2.0.0)$jsonschema (>=4.7.2,<5.0.0)
+quantclean,0.0.2,2,pandas-datareader$pandas
+qmusic,0.0.2,2,requests$python-dateutil
+quantconnect-stubs,14803,2,pandas (>=1.4.4)$matplotlib (>=3.5.3)
+quant-data-sdk,0.2.3,2,numpy$requests
+qgis-plugins-xml,1.0.0,2,bottle$Jinja2
+qnapstats,0.4.0,2,requests (>=1.0.0)$xmltodict (>=0.10.0)
+qua,0.1.0,2,betterproto (>=1.2.5,<2.0.0)$grpclib (>=0.4.2,<0.5.0)
+qtypes,2022.11.0,2,qtpy$pint
+qnc-crud,3.0.4,2,Django (<3.1,>=2.2)$django-early-return (<1,>=0.0)
+quantfeed,0.0.4,2,requests$pandas
+quotly,0.2.3,2,python-dotenv$discord.py
+quotespy,1.3,2,pillow (>=7.1.2)$typing-extensions (>=3.7.4.2)
+qlikengineconnect,1.0.0,2,websocket$requests
+quant-friend,0.0.1,2,ucloud-sdk-python3$ucloud
+quoteran,1.1.3,2,requests (>=2.26.0,<3.0.0)$colorama (>=0.4.4,<0.5.0)
+qilimanjaroq-client,0.0.1,2,requests$typeguard
+qfmu,0.1.4,2,numpy (>=1.21)$jinja2 (>=3)
+quotefancy,1.0,2,bs4$requests
+qtutils,3.0.0,2,importlib-metadata$setuptools-scm
+qilimanjaroq-server,0.0.2,2,qibo$requests
+qt-tree,0.1.2,2,PySide2$anytree
+quotebook,1.0.12,2,PyQt5$pyperclip
+qapedia,0.0,2,SPARQLWrapper$pandas
+quoridor,0.0.3,2,pathfinding$pygame
+quantized-mesh-encoder,0.4.2,2,numpy$attrs
+qt-sass-theme-getter,0.0.33,2,qtsass$pyqt-svg-button (>=0.0.1)
+qfin,0.0.24,2,scipy$numpy
+qnorm,0.8.1,2,numba$numpy
+quantkit,0.0.1rc1,2,numpy$pandas
+qns,0.1.5,2,numpy$pandas
+qf-diamond-norm,1.1.1,2,quantumflow$cvxpy
+qlient-aiohttp,0.1.0b2,2,qlient-core$aiohttp (>=3.8.1,<4.0.0)
+qts,0.2,2,attrs$typing-extensions (~=3.10)
+quantlet,1.0.0,2,quantlet.core (>=0.0.3,<0.0.4)$pylint (>=2.7.0,<3.0.0)
+quantlet-agents,0.0.1,2,quantlet.streaming (>=1.0.0,<2.0.0)$pylint (>=2.7.0,<3.0.0)
+quantlet-core,0.0.3,2,networkx (>=2.5,<3.0)$pylint (>=2.7.0,<3.0.0)
+quoracle,0.0.4,2,matplotlib$pulp
+qaschedule,1.0,2,pika$quantaxis (>=1.1.10.dev2)
+qfast-sc,1.0.1,2,qfast (>=1.0.0)$search-compiler (>=1.2.0)
+qt-reactor,0.6,2,twisted$qtpy
+qfast-qs,2.0.0,2,qfast (>=2.0.0)$qsearch (>=2.0.0a1)
+qaseio,3.0.0,2,urllib3 (>=1.25.3)$python-dateutil
+quoine,0.0.1,2,requests$pyjwt
+quo,2022.9,2,pygments$colorama ; platform_system == "Windows"
+qtrade,0.4.0,2,PyYAML (>=5.1)$requests (>=2.14.2)
+qunomon-lite,0.1.2,2,docker$rich[jupyter]
+qase-xctest,1.0.4,2,qaseio (<3.0,>=1.1.1)$attrs (>=19.3.0)
+quant-performance,0.0.1,2,numpy (==1.22.2)$pandas (==1.4.1)
+qtpyeditor,0.2.12,2,qtpy$jedi
+qulacs,0.5.2,2,numpy$scipy
+qfactor,1.0.1,2,numpy (>=1.16.6)$scipy (>=1.4.1)
+qulab-rpc,2.2.6,2,msgpack (>=1.0.0)$pyzmq (>=18.0.1)
+qujax,0.3.0,2,jax$jaxlib
+quizmake,0.1.6,2,pyparsing$wheel
+quizli,1.0.0,2,rich (>=11.0.0,<12.0.0)$typer-cli (>=0.0.12,<0.0.13)
+quizlet-api,0.1.0,2,requests$tortilla
+quizdown,0.3.2,2,attrs$jinja2
+qodex-pi,0.23,2,qsct$qodex-dk
+quiz,0.2.2,2,gentools (~=1.1.0)$snug (~=2.1.0)
+quantrocket-moonshot,2.8.0.1,2,quantrocket-client$pandas
+quiverquant,0.1.57,2,pandas$requests
+quisk,4.2.11,2,wxPython$pyusb
+quant-sdk-lite,1.0.4,2,requests$pandas
+qoi-conv,1.0.1,2,pillow (>=9.0.1)$numpy (>=1.22.3)
+qtoml,0.3.1,2,click (>=7.0,<9.0)$attrs (>=19.3.0,<22.0)
+qeschema,1.4.0,2,xmlschema (>=1.6.4)$numpy
+quintoandar-eb-deployer,3.1,2,Django$python-magic
+qonic-misc,0.1.5,2,numpy (>=1.19.2)$tensorflow (>=2.4.0)
+qatingg,2.0.5,2,pycryptodome$requests
+qauth-rasa97,0.0.1,2,simulaqron (==2.1.1)$cqc (==2.1.0)
+qaviton-io,2019.11.13.13.29.23.745334,2,qaviton-processes (>=2019.11.1.13.50.43.917059)$colorama (>=0.4.1)
+quantulum3,0.7.11,2,inflect$num2words
+qaviton-monitors,2019.11.15.20.45.47.498787,2,psutil (>=5.6.3)$threaders (>=0.2.13)
+qaviton-proxy,2019.9.29.7.59.59.460885,2,requests (>=2.22.0)$flask (>=1.1.1)
+qenerate,0.4.1,2,graphql-core (<4.0,>=3.2)$requests (<3.0,>=2.22)
+qoqo,1.1.0,2,numpy$qoqo_calculator_pyo3>=1.1.0
+qoqo-mock,0.5.2,2,qoqo (>=1.0.0)$numpy
+qosic-sdk,4.0.2,2,httpx (>=0.22.0,<0.23.0)$polling2 (>=0.5.0,<0.6.0)
+quantumdata-sdk,0.2.0,2,numpy$requests
+qovery,1.0.3,2,urllib3 (>=1.25.3)$python-dateutil
+qbeast-cli,0.1.0,2,click$requests
+quick-xinput,0.1.3,2,pydymenu (>=0.3.1)$rich
+qpalm,1.1.2,2,numpy$scipy
+qingstor-sdk,2.6.0,2,PyYAML$requests
+qtip-client-cli,0.1.2,2,flask$requests
+qpanda3d,0.2.10,2,Panda3D (>=1.10.3)$PyQt5
+quick-vcn,0.0.2,2,argcomplete$oci
+qegraphmaker,1.0.5,2,requests$matplotlib
+qpautomator,0.0.6,2,urllib3 (>=1.7.1)$requests (==2.22.0)
+qtimgren,0.4.2,2,pyimgren (>=0.9)$PySide2 (>=5.12)
+qlat-utils,0.4,2,numpy$psutil
+qtile-plasma,1.5.6,2,xcffib (>=0.5.0)$qtile (>=0.17)
+quantum-qbd,0.0.34,2,units-QBD$numpy
+quantumrand,2.2.0,2,six$requests
+quick-time,1.1,2,datetime$pytz
+quicktex,0.1.4,2,Pillow$click
+qbittorrentrpc,0.0.2,2,lxml (>=0.0.1)$requests (>=0.0.1)
+quick-start,0.0.dev10,2,Click (==7.0)$appdirs (==1.4.3)
+quicksqlconnector,1.4,2,mysql-connector-python$prettytable
+qpid-bow,1.1.1,2,python-qpid-proton (==0.24.0)$PyYAML (>=3.12)
+qlat,0.4,2,qlat-utils$sympy
+quick-sketches,1.0.0,2,numpy (>=1.16)$setuptools (>=42.0.0)
+qt-epics,0.0.4,2,pyepics$qtpy
+qtemplate,0.0.1,2,pyyaml$jinja2
+qlab,1.1,2,numpy$pyvisa
+qjobs,0.2.0,2,setuptools-scm$loam (>=0.3.1)
+quanturf,7.7,2,jupyterlab$jupyterlab-templates
+quanturf-test,7.5,2,jupyterlab$jupyterlab-templates
+quickscheme,0.2.0,2,PyYaml$future
+qpp-git-secrets,1.1.1,2,click (==7.0)$unidiff (==0.5.5)
+qdrant-txtai,0.10.3,2,qdrant-client (==0.10.3)$txtai (>=5.0.0,<6.0.0)
+qtcurate,2.2.7,2,requests$smart-open
+qjob,0.5.3,2,more-itertools$easyterm (>=0.4.0)
+qmenta-anon,1.0.1,2,pydicom (>=2.3.0,<3.0.0)$nibabel (>=3.2.2,<4.0.0)
+qiznlp,0.1.4,2,jieba$tensorflow (<=1.14,>=1.8)
+qbodbc,0.0.2,2,pandas (>=1.3.4)$pyodbc (>=4.0.32)
+qtazu,0.1.4,2,qt.py (>=1.2.3)$gazu (>=0.7.14)
+qdldl,0.1.5.post2,2,numpy (>=1.7)$scipy (>=0.13.2)
+qbosdk,0.14.0,2,requests (>=2.25.0)$future (==0.18.2)
+qtawk,0.1.3,2,PyQt5 (==5.14.1)$pyqtgraph (==0.11.0)
+quickplots,2.1.0,2,numerus$omnicanvas (>=0.3)
+qdiction,1.0,2,PyQt5 (>=5.10)$nltk
+quick-pdf,0.1.1,2,PyPDF2 (>=1.26.0,<2.0.0)$click (>=8.0.1,<9.0.0)
+qdds,1.1.5,2,Click$colorama
+qpsolvers-benchmark,0.1.0rc2,2,pandas >=1.4.3$qpsolvers >=2.5.0
+quickpack,0.0.2,2,colorama$pyinstaller
+quark-xpress-tags-to-xml,1.1,2,lxml$pypeg2
+qtaf,5.5.15,2,six (>=1.11.0)$ply (==3.11)
+qt6-tools,6.1.0.1.2,2,qt6-applications (<6.1.0.3,>=6.1.0.2.2)$click (~=7.0)
+qiyas,0.2.3,2,networkx$varname
+qt5-tools,5.15.2.1.2,2,qt5-applications (<5.15.2.3,>=5.15.2.2.2)$click (~=7.0)
+quicklib,2.2,2,yarg (~=0.1.9)$PyYAML (>=4.2b1)
+quart-bcrypt,0.0.6,2,quart (>=0.18.0,<0.19.0)$bcrypt (>=3.2.2,<4.0.0)
+qiqiqi,2.18.1,2,Eel (==0.12.4)$pyinstaller (>=4.6)
+quart-compress,0.2.1,2,Quart (>=0.10.0)$Brotli (>=1.0.7)
+qqlib,1.1.1,2,requests$rsa
+quickjsonrpc,0.4.0,2,Twisted (>=19.7,<20.0)$pyOpenSSL (>=19.0,<20.0)
+quickim-server,0.1.1,2,PyQt5 (>=5.9)$SQLAlchemy (>=1.1.15)
+qir,0.1.1,2,matplotlib (~=3.5.2)$numpy (~=1.22.3)
+qstylizer,0.2.2,2,tinycss2 (<2,>=0.5)$inflection (<1,>0.3.0)
+qstyler,0.1.5,2,PySide6$wheel
+quickim,0.2.1,2,PyQt5 (>=5.9)$SQLAlchemy (>=1.1.15)
+qdarkgraystyle,1.0.2,2,PyQt5 (>=5.6)$deprecated
+quart-events,0.4.2,2,quart (>=0.16.2,<0.17.0)$asyncio-multisubscriber-queue (>=0.3.0,<0.4.0)
+quick-flask-server,1.1.2,2,Flask (>=0.8)$requests
+qiskit-aqt-provider,0.4.3,2,requests (>=2.19)$qiskit-terra (>=0.17.0)
+quart-injector,0.0.0b1,2,injector (>=0.19.0,<1.0.0)$quart (>=0.17.0,<1.0.0)
+quickfig,0.3.0,2,PyYaml$future
+quickdraw,0.2.0,2,pillow$requests
+qspin,2.3.3,2,numpy$scipy
+qcustomplot-pyside2,2.1.5,2,PySide2 (==5.15.2.1)$shiboken2 (==5.15.2.1)
+quickdone,0.0.14,2,xlrd$pandas
+qr2text,1.1.0,2,pyqrcode$pyzbar
+qsmcli,0.7.2,2,cmd2$elevate
+qiskit-dell-runtime,0.1.4,2,qiskit-ibmq-provider (>=0.13.0)$qiskit (>=0.31.0)
+quart-rapidoc,0.5.1,2,Quart (>=0.12.0)$PyYAML (>=5.3)
+qcbc,0.0.2,2,numpy (==1.21.6)$scipy (==1.7.3)
+quart-redis,1.0.0,2,quart (~=0.16)$aioredis (~=2.0)
+qrand,0.4.0,2,numpy (>=1.19.4,<2.0.0)$randomgen (>=1.19.3,<2.0.0)
+quart-shell-ipython,0.1.1,2,quart$ipython
+quickcli,0.2.2,2,PyYaml$future
+qr-code-generator,0.1.0,2,PyQRCode (>=1.2.1,<2.0.0)$typer (>=0.3.2,<0.4.0)
+quart-uploads,0.0.1,2,aiofiles (>=0.8.0,<0.9.0)$quart (>=0.18.0,<0.19.0)
+quart-wtf,0.0.1,2,quart (>=0.18.0,<0.19.0)$WTForms (>=3.0.1,<4.0.0)
+quasar,1.6.0,2,Orange3 (>=3.33.0)$orange-spectroscopy (>=0.6.6)
+qrcode-song,0.3,2,requests$beautifulsoup4
+qrcode-styled,0.2.1,2,qrcode (>=7.3.1,<8.0.0)$Pillow (>=9.0.0,<10.0.0)
+quasargui,0.1.1,2,pywebview (>=3.5)$cefpython3 (>=66.0)
+qchviewer,0.1.3,2,click (>=6.0)$jinja2
+quickbeutils,1.2.1,2,requests (>=2.27.1)$quickbelog (>=1.1.0)
+quickbeserverless,1.3.0,2,cerberus (==1.3.4)$quickbelog
+quasimodo,0.7.7,2,pika (>=1.2.1,<2.0.0)$paho-mqtt (>=1.6.1,<2.0.0)
+qctrl-qua,0.2.3,2,numpy (>=1.18,<2.0)$toml (>=0.10.0,<0.11.0)
+qsharp,0.27.238334,2,qsharp-core (==0.27.238334)$qsharp-chemistry (==0.27.238334)
+quaterion-models,0.1.18,2,numpy (>=1.22,<2.0)$torch (>=1.8.2)
+quicfire,1.0.1,2,pydantic$requests
+qiskit-nature-pyscf,0.1.0,2,qiskit-nature (>=0.5.*)$pyscf (>=2.0.*)
+qiskit-qasm3-import,0.1.0,2,qiskit-terra (>=0.21.0)$openqasm3[parser] (<0.5,>=0.4)
+qitian-simditor,0.1.2,2,Django$pillow
+qiskit-qcgpu-provider,0.2.0,2,qiskit (>=0.7)$qcgpu (>=0.1.0)
+qclipx,1.0.1,2,PySide2$pyhexedit
+queuery-client,1.0.2,2,requests (>=2.25.1,<3.0.0)$python-dateutil (>=2.8.2,<3.0.0)
+qubiter,1.0.1,2,numpy$scipy
+qsde,0.1.2,2,google-cloud-storage (>=1.35.0,<2.0.0)$pandas (>=1.1.5,<2.0.0)
+qiskit-toqm,0.1.0,2,qiskit-terra (>=0.22.0)$numpy (>=1.17)
+quetzal-ai-toolkit,0.0.2,2,opencv-python$numpy
+questradeist,0.3.4,2,requests (>=2.24.0,<3.0.0)$PyYAML (>=5.3.1,<6.0.0)
+questradeapi,0.0.10,2,requests$tzlocal
+qiskit-tensorflow,0.0.1,2,qiskit (==0.23.*)$tensorflow (==2.4.*)
+questioner,0.1.0,2,readchar$blessings
+qsd,0.1.2,2,numpy$scipy
+qucochemistry,0.1.2,2,openfermion (==0.10.0)$pyquil (<=2.24.0,>=2.16.0)
+questioned,0.4.4,2,click (==7.1.1)$PyYAML (==5.3.1)
+qudb,0.6,2,jinja2$sqlalchemy
+qscout-gatemodels,1.0.0,2,JaqalPaq (==1.0.0)$numpy
+qsck,0.3,2,Click$ujson
+quagmire,0.5.0,2,numpy$stripy
+qronos-client,1.7.3,2,requests (>=2.24.0)$python-dateutil (>=2.8.0)
+qrscanner,1.0,2,pyzbar$opencv-python
+qscintilla,2.13.3,2,PyQt5-sip (>=12.8, <13)$PyQt5 (>=5.15.4)
+qsavvy,0.1.0,2,click (==8.0.1)$mkdocs-material-extensions (>=1.0.1,<2.0.0)
+qiskit-qrack-provider,0.5.0,2,numpy (>=1.16.3)$pyqrack (>=0.8.0)
+qiskit-qryd-provider,0.4.1,2,qiskit-terra (>=0.20.2,<0.21.0)$requests (>=2.27.1,<3.0.0)
+quelfilm-chatbot-app,1.0.0,2,nlp-tools-py-lib (==0.1.1)$flask (>=1.1.1,<2.0.0)
+quepland-bot,0.1.6,2,PyAutoGUI (>=0.9.53,<0.10.0)$pynput (>=1.7.6,<2.0.0)
+quera,0.1.9,2,requests (>=2.28.1,<3.0.0)$xattr (>=0.9.9,<0.10.0)
+qiskit-rng,0.2.2,2,qiskit-ibmq-provider (>=0.10)$qiskit-terra (>=0.16.2)
+qrstreamer,0.1.2,2,qrcode$outdated
+qconf,0.0.1,2,PyYAML$python-dateutil
+querierdd,0.2.3,2,click (>=8.0.1,<9.0.0)$psutil (>=5.8.0,<6.0.0)
+queryset-serializer,1.0.4,2,django$djangorestframework
+qrtray,1.0.1,2,pygobject$qrcode
+queryoem,1.0.4,2,beautifulsoup4$requests
+queryfilter,0.6.0,2,graphene (<3,>=2.0.1)$python-dateutil
+qcom-nandc-pagify,0.1,2,bchlib$reedsolo (>=1)
+query-anon,0.1.0,2,click (>=8.1.3,<9.0.0)$sqlglot (>=8.0.1,<9.0.0)
+qsa,1.0,2,numpy$matplotlib
+query-diet,0.1.1,2,pandas (>=1.0.1,<2.0.0)$shortuuid (>=0.5.0,<0.6.0)
+qiskit-sphinx-theme,1.9.0,1,sphinx
+quantum-dice,0.3.2,1,qiskit
+querycontacts,2.0.0,1,dnspython (<3,>=2)
+qsamplehello,0.0.1,1,blessings (~=1.7)
+query-ec2-metadata,0.1.3,1,requests (>=2.25.1,<3.0.0)
+querycolumns,0.1.0,1,pandas
+qsamplehellor,0.0.1,1,blessings (~=1.7)
+query-flow,0.2.0,1,mkdocs-material-extensions (>=1.0.1,<2.0.0)
+querylms,0.1.2,1,requests
+query-log-tracer,0.0.1,1,sqlparse (<1.0.0,>=0.4.1)
+qrwifi,0.1.1,1,qrcode (>=7.3.1,<8.0.0)
+queryable-list,1.0.5,1,six (==1.15)
+qsapi,2.2.0,1,requests
+querypp,0.1.2,1,jinja2 (<3.0.0,>=2.10.1)
+query-prom,0.1.1,1,requests (>=2.20.0)
+queryset-reporter,2.2.0,1,openpyxl
+querify,0.1.0,1,qutils (>=0.3.0)
+querido-diario-toolbox,0.2.0,1,python-magic
+querido-diario-api-wrapper,0.0.2,1,requests
+q1pulse,0.4.4,1,qblox-instruments
+queso,0.2.1,1,click
+qcm-parser,0.1.3,1,markdown
+qudotpy,1.0.0,1,numpy
+questionary,1.10.0,1,prompt_toolkit (>=2.0,<4.0)
+qconfig,0.0.1,1,pyyaml
+qc-metric-aggregator,0.1.5,1,pyyaml
+qcore,1.8.0,1,Cython
+qubu,0.1,1,dicmer
+questionflow,0.2.2,1,setuptools (~=60.2.0)
+qcrandom,0.3.post1,1,qiskit
+questiongeneratorcesar,0.0.9,1,editdistance (==0.5.3)
+qcluster,0.0.5,1,aiohttp
+qcloud-cos-v4,0.0.26,1,requests
+qcloud-cos-python3,3.3.6,1,requests
+qcloudapi3,0.3.0,1,requests
+qubolepystream,0.8.0,1,qds-sdk
+qcrash,0.2.0,1,keyring
+qubogen,0.1.1,1,networkx (>=2.2)
+qcloudapi,0.2,1,hmac-signature
+qublets,0.1.3,1,dataclasses
+queuecrypt,0.0.2,1,queueCrypt
+qri-py,3.0.0,1,pyasn1
+queue-map-reduce-sebastian-achim-mueller,1.1.1,1,qstat (>=0.0.5)
+qresp-config,1.0.0,1,configparser
+queuepool,1.3.2,1,psycopg2 (>=2.8.2)
+qcrop,0.0.1,1,pyqt5
+queue-system,0.0.1,1,pika
+queue-tweets,1.0.1,1,tweepy (>=3)
+qsdn,0.0.0,1,PyQt5
+quazar,1.0.0,1,aiohttp (>=3.7.4,<4.0.0)
+qclight,0.0.2,1,numpy (<=1.23.4)
+quibble,0.0.1.dev1,1,numpy (==1.18.5)
+qiwi-api,1.1,1,requests
+quicc,0.1.0,1,numpy
+quaternion,3.5.2.post4,1,numpy
+qrconsole,1.1.0,1,Pillow (>=7.0.0)
+qrcodetools,0.0.1,1,requests
+qrcode-term,0.0.1,1,qrcode
+qsharp-chemistry,0.27.238334,1,qsharp-core (==0.27.238334)
+quasielasticbayes,0.1.1,1,numpy (>=1.12)
+quasicode,0.0.1,1,dill
+quasardb,3.13.5.post3,1,numpy
+qsharp-core,0.27.238334,1,jupyter-client (>=7.3.4)
+quickcache,0.5.4,1,six
+quickcerts,1.1.0,1,cryptography (>=1.6)
+quickchart-io,2.0.0,1,requests (>=2.28.1,<3.0.0)
+qshell,0.2.6,1,colorama
+quickcite,0.0.5,1,requests (==2.25.1)
+qsim,0.1.0.dev0,1,numpy
+qrcerutils,0.1.6,1,redis
+quickclone,0.5.0,1,toml (>=0.10.2)
+qrcericcommons,0.1.0,1,redis
+qiskit-jku-provider,1.0.1,1,qiskit-terra (>=0.8)
+quickcss,0.0.1,1,click
+qradar-api,0.0.6,1,requests
+quickdataanalysis,0.0.7,1,pandas (>=1.0.1)
+quart-rate-limiter,0.7.0,1,quart (>=0.15)
+qcaus,0.0.0,1,numpy
+qradar4py,3.0,1,requests
+qcandyui,0.14,1,pywin32
+quickder-arpa2,1.4.0,1,arpa2.quickder
+quickder-itu,1.4.0,1,arpa2.quickder
+quickdiary,0.0.8,1,importlib-metadata ; python_version < "3.8"
+qs-parse-rest,0.2.20170114,1,six
+qcad,0.1.0,1,hikvisionapi
+qcureui,0.0.3,1,pywin32
+qspypy,1.1.0,1,pytest (>=3.6.1)
+qr2cnc,0.0.2,1,pyqrcode
+qr2022,0.0.1,1,opencv-python
+quick-eda,0.1.8,1,pandas
+quick-email,0.5.0,1,six
+qbuspy,0.1.0,1,requests (>=2.27.1,<3.0.0)
+qbt-migrate,2.3.1,1,bencode.py==4.0.0
+quick-encrypt,0.2,1,pycryptodome
+qbstyles,0.1.4,1,matplotlib (<4.0,>=3.0.3)
+qstat,0.0.5,1,xmltodict
+qdafile,2022.9.28,1,numpy (>=1.19.2)
+quickforex,0.1.3,1,requests
+quick-gr,0.1.8,1,requests
+qqpusher,0.1.7,1,requests (>=2.25.0)
+quick-https,0.0.7,1,cryptography (>=37.0.4)
+qqmusic-api,0.1,1,requests
+qdarkstyle,3.1,1,qtpy (>=1.9)
+qswitchcontrol,1.0.4,1,PyQt5
+quart-cors,0.5.0,1,Quart (>=0.15)
+quicklabel,1.0.2,1,pillow
+quart-compress2,1.1.0,1,quart
+qixinapi,0.0.7,1,requests
+qt5reactor,0.6.3,1,twisted
+quicklinks,0.1.5.post1,1,psutil
+quicklock3,0.1.10,1,psutil (>=2.2)
+qbox,0.0.1a0,1,click (>=8.0.1,<9.0.0)
+qqai,0.2.1,1,requests
+quick-mock,0.0.5,1,flask (==1.1.0)
+qpyson,0.3.0,1,tabulate
+quick-netmiko,2.0.0,1,netmiko (~=4.1.0)
+quart-auth,0.7.0,1,quart (>=0.18)
+quarkstudio,6.2.10,1,srpc (>=4.1.5)
+quark-sphinx-theme,0.6.0,1,sphinx >= 1.8
+quickpath-airflow-operator,1.0.2,1,apache-airflow
+qtawesome,1.2.1,1,qtpy
+quickping,1.3.0,1,Click
+qpsolvers,2.5.0,1,scipy >=1.2.0
+qdill,1.1,1,dill
+quara-poetry-core-next,1.1.0a6,1,importlib-metadata (>=1.7.0); python_version < "3.8"
+quickpomdps,0.1.0,1,julia (>=0.5,<0.6)
+qpso,0.0.1,1,numpy
+quick-pypi,0.0.2,1,twine
+quantzsl,1.1.4,1,QUANTAXIS
+qtb-plot,0.2.5,1,matplotlib (>=3.6.0,<4.0.0)
+qprof,1.4.0,1,qprof-interfaces
+quick-rest,0.1.8,1,requests
+qipu,0.1.0a1,1,fixtrate (>=0.1.2)
+qdrouter-jinja2,0.1.10,1,argparse
+qds-app,0.5.0,1,mako (==1.0.4)
+quantum-xir,0.2.1,1,lark-parser (>=0.11.0)
+qpoint,1.12.2,1,numpy (>=1.10.0)
+qpod-hub,2021.10.11,1,jupyter-server-proxy
+quicksectx,0.3.5,1,Cython (<3.0,>=0.25)
+qt-desktop-translate,1.1,1,lxml
+quick-server,0.7.15,1,pyreadline ; platform_system == "Windows"
+qterm,0.0.2,1,wexpect (==4.0.0)
+qtfind,1.0.3,1,PyQt5
+qiniu-sdk-alpha,0.0.2,1,maturin>=0.13,<0.14
+quickspacer,1.0.4,1,tensorflow (>=2.0.0)
+quickspikes,1.4.0,1,numpy (>=1.19.5)
+qlat-grid,0.4,1,qlat
+qiniu-lite,1.0.1,1,requests
+qtico,0.1,1,PyQt5
+qtido,0.9.7,1,PyQt5
+qbit-py-sdk,1.0.0,1,requests (>=2.28.1)
+quicktest,0.1.3,1,clirainbow
+quantumrng,0.0.1,1,qiskit
+qtile-passimapwidget,0.1.0,1,tile
+qtilities,0.8,1,PyQt5
+qiniu,7.9.0,1,requests
+qbirthday,0.7.0b3,1,PyQt5 (>=5.7)
+qeh,0.1,1,ase
+quickvec,0.3.0,1,numpy
+qlazy,0.3.2,1,numpy (>=1.21.0)
+qeivideo,0.1a2.dev1,1,pyqt5
+qt-ledwidget,0.2,1,PyQt5
+qemu-rpi-gpio,0.4,1,pexpect
+query-counter,0.3.1,1,SQLAlchemy (>=1.4.0)
+qazaq-transliterator,2.0,1,transliterate (>=1.10.2)
+quantum-decomp,1.1.1,1,numpy (>=1.17)
+qtl-instrument-book,20220121,1,toml
+qorp,0.0.0.dev0,1,cryptography (>=37)
+quiet-py,0.1,1,numpy
+qord,0.4.0,1,aiohttp (==3.8.1)
+quantum-ciphers,3.0.3,1,omegamath01
+quantumchempy,0.2,1,numpy
+quiik,2.0.1,1,fabulous (>=0.3.0)
+qaws,0.4.1,1,boto3
+quikenv,1.0.0,1,python-dotenv
+qaviton-ssh,2019.10.18.22.29.29.465016,1,paramiko (>=2.6.0)
+qtl-metrics,1.0.1,1,pandas (>=1.2,<2.0)
+qaviton-processes,2019.11.1.13.50.43.917059,1,pyescape
+quill-delta,1.0.3,1,diff-match-patch (>=20181111.0,<20181112.0)
+qaviton-pip,2019.9.29.8.1.45.50215,1,qaviton-processes (>=2019.9.4.12.58.22.283354)
+qtl-trading-calendar,20220114,1,toml
+qt-material,2.12,1,Jinja2
+quilter,0.0.3,1,matplotlib
+qop,0.0.2,1,numpy
+qonversion-sdk,0.0.1,1,requests (>=2.20) ; python_version >= "3.6"
+quiltz-messaging,0.3.2,1,quiltz-domain (<1.0.0,>=0.5.2)
+qontrol,1.1.1,1,pyserial
+qav,1.1.5,1,netaddr
+qled,1.3.1,1,six
+qtmodernredux,0.9.12,1,PySide2 (>=5.15.2)
+qinglongapi,0.0.3,1,requests
+qtmonitor,0.2.0,1,PySide2
+quinnat,1.0.5,1,urlock
+qonduit,0.1.2b2,1,ipywidgets (>=7.0.0)
+quantstyles,0.107,1,matplotlib
+qolor-tyme,1.0.1,1,PyQt5
+qat-comm,1.4.0,1,thrift (==0.16.0)
+quippy,0.3.3,1,lark-parser (<0.6,>=0.5.5)
+qtools3,0.3.6,1,pmaxform3
+qoi,0.2.0,1,numpy (>=1.19.5)
+quip-spreadsheet,0.5.0b3,1,requests (~=2.25)
+qasymphony-qtest-library,0.2.2,1,requests (>=2.18.4)
+qogir,2021.9.16,1,pyyaml
+quirkshop-jlab3-react,0.1.0,1,jupyterlab (==3.*,>=3.0.0rc2)
+qastle,0.16.0,1,lark-parser (>=0.6.5)
+qet-tb-generator,1.3.1,1,PySimpleGUI
+qask,0.1.4,1,Click
+quantrocket-trading-calendars,2.0.4,1,trading-calendars (>=1.11.0)
+qtorch,0.3.0,1,torch (>=1.5.0)
+quizapi,0.1.0,1,instant-api-client (==0.1.2)
+qtorch-plus,0.2.0,1,torch (>=1.5.0)
+qextract,0.0.6,1,spacy
+qface-qtcpp,1.1,1,qface (>=1.3.1)
+qodex-ms-sdk,1.2.1,1,requests
+qface-store,1.1,1,qface (>=1.3.1)
+qtorch-posit,0.2.0,1,torch (>=1.5.0)
+quizsim,0.1,1,numpy
+quizstarr,1.0.1,1,requests
+qingcloud-sdk,1.2.15,1,future
+qtpy,2.3.0,1,packaging
+quantpiler,0.1.7,1,qiskit (>=0.38.0,<0.39.0)
+quantperf,1.0.3,1,pandas
+qodex-dk,0.26,1,qsct
+qlev,0.0.65,1,numpy
+qase-robotframework,1.1.1,1,qaseio (<3.0,>=2.0.0)
+qunix-tools,0.1.5.2,1,qiskit (>=0.16.2)
+qinfo-gui,0.0.3,1,qinfo-python (==0.1.3)
+qindomclient,1.0.7,1,request
+qt-range-slider,0.2.7,1,pyqt5
+qobuz,0.0.2,1,requests (>=2.11.1)
+qoala,0.1.dev2,1,netqasm (==0.11.0a3)
+quantlib-python,1.18,1,QuantLib
+qasdadp,1.0.4,1,qasdad
+quom,3.0.0,1,importlib-metadata ; python_version < "3.8"
+qtrename,1.1.1,1,PyQt5 (>=5.13.2)
+qimage2ndarray,1.9.0,1,numpy
+quantlab-launcher,0.3.0,1,notebook (>=4.2.0)
+qapi,0.0.2,1,sqlalchemy
+qtsass,0.3.2,1,libsass (<=0.21.0)
+qtsass310,0.3.1.post0,1,libsass
+qtstyles,0.0.2,1,QtPy (>=1.4.1)
+quorum,0.7.0,1,flask
+quantity-value,0.2.0,1,bidict
+qt-thread-updater,1.1.6,1,QtPy (>=1.9.0)
+qlient-core,1.0.1,1,importlib-metadata (>=4.11.4,<5.0.0)
+qflow-vmc,0.2.0,1,mpi4py (>=3.0.3,<4.0.0)
+quote-manager,0.4.0,1,diff-match-patch (>=20181111,<20181112)
+quote-ondemand,1.0.1,1,requests (>=2.22.0)
+qtwirl,0.9.2,1,alphatwirl (>=0.23.2)
+qnetvo,0.2.0,1,pennylane (==0.26)
+quotes-api,0.1.1,1,requests (>=2.22,<3.0)
+qilimanjaro-portfolio,0.0.1,1,qilimanjaroq-client
+qfx-scraper,1.0.4,1,requests-html
+qg-aio-eureka,0.1.2,1,aiohttp (>=3.5.1)
+qgates,1.2.0,1,numpy
+quanteasy,0.0.1,1,requests
+qupy,1.1.1,1,numpy
+quqie,0.0.1,1,fire (==0.2.1)
+quantcoin,0.0.2,1,pandas
+quranapi,1.5,1,aiohttp
+qgis-stubs,0.2.0.post1,1,PyQt5-stubs (>=5.14)
+qlikutils,1.1.2,1,Pillow
+qmss-sl-practice,0.1.0,1,pandas (>=1.1.4,<2.0.0)
+qlist,0.0.1,1,pyyaml
+qai,5.1.1,1,sanic (>=21.3.4,<22.0.0)
+qmpy-rester,0.2.0,1,requests
+quackdns,0.3.1,1,requests
+quantaxisbackend,0.1.0,1,tornado
+qii-tool,0.1.3,1,numpy
+qafacteval,0.10,1,qaeval
+qusource,0.0.4,1,numpy
+qaes,1.1.0,1,cryptography (>=3.3.1,<4.0.0)
+quantastor-pkg,1.0.9,1,urllib3
+qutechopenql,0.10.0,1,msvc-runtime ; platform_system == "Windows"
+quadprog-wheel,0.1.11,1,numpy
+quantasf,0.0.1,1,Click (>=6.0)
+qi-irida-utils,0.1.2,1,Click (>=6.0)
+qmock,1.0.0,1,mock (~=1.0) ; python_version < "3.3"
+qmm,0.13.1,1,numpy (>=1.19.4,<2.0.0)
+qmlview,2.2,1,PyQt5 (<=5.15,>=5.10)
+qh,0.0.4,1,py2http
+qm-ku,1.1.1,1,numpy
+qiipy,0.1.0,1,apywrapper (>=0.1.4,<0.2.0)
+q5,0.1.2,1,numpy (>=1.20)
+qualtrics-api,1.0.5,1,requests
+qmkpy,1.2.0,1,numpy
+qvd,0.0.14,1,pandas>=1.1.4
+qm-how-to-opensource-louis,0.0.2,1,numpy (>=1.20)
+quadratic-sieve,0.1.2,1,numpy
+qm-how-to-opensource-by-vta,0.0.1,1,numpy (>=1.20)
+q3net,1.0.1,1,q3huff2 (==0.4.2)
+qm-how-to-opensource-ama,0.0.3,1,numpy (>=1.20)
+q2-omxware,1.0,1,omxware
+qihoo-for-t,0.0,1,numpy
+qwasm,1.0.1,1,setuptools
+qmetrics,0.0.4,1,matplotlib
+q-merlin,0.0.1,1,requests
+qweather,2.1.1,1,pyzmq (>=17.0.0.b3)
+quality-lac-data-ref-postcodes,2021.8.1,1,rsa (>=4.7)
+qmenuview,0.1.4,1,PySide
+qmasm,4.1,1,dwave-ocean-sdk
+qwerty,1.2.1,1,colorama (==0.4.1)
+quadrigacx,0.6.1,1,requests
+quality-covers,3.1.0,1,numpy
+qwhale-logs-client,0.1.14,1,requests
+quadrille,0.1.0,1,numpy (~=1.23.1)
+qwif,0.0.5,1,qrcode[pil]
+q2-brocc,2018.6.0.dev0,1,brocc
+qigeometry,1.8.3,1,qi
+qualg,0.1.0,1,numpy
+q26-quantrader,0.1.2,1,python-telegram-bot
+quala,0.0.1a1,1,numpy
+quaerere-base-common,0.1.1,1,marshmallow (<3,>=2.16.0)
+qwota,0.0.2,1,openshift
+q1q1-dictionary,2.0.0,1,requests (>=2.23.0)
+qxelarator,0.4.2,1,msvc-runtime ; platform_system == "Windows"
+qyaml-smartptr,0.0.2,1,PyYAML
+qyc-env,0.0.1,1,gym
+qycli,0.15,1,requests
+qymeta,0.0.4,1,requests
+qymeta-qy,0.0.1,1,requests
+qif,1.2.2,1,numpy
+qytpython,0.0.3,1,PyYAML
+qicore,2.0.0,1,qi
+qywx-app-message,2.0.7,1,requests
+qzlt,0.1.0,1,typer[all] (>=0.4.1,<0.5.0)

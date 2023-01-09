@@ -1,0 +1,1143 @@
+zope,5.6,53,AccessControl (>=5.2)$Acquisition$BTrees$Chameleon (>=3.7.0)$DateTime$DocumentTemplate (>=4.0)$ExtensionClass$MultiMapping$PasteDeploy$Persistence$RestrictedPython$ZConfig (>=2.9.2)$ZODB$setuptools (>=36.2)$transaction (>=2.4)$waitress$zExceptions (>=3.4)$z3c.pt$zope.browser$zope.browsermenu$zope.browserpage (>=4.4.0.dev0)$zope.browserresource (>=3.11)$zope.component$zope.configuration$zope.container$zope.contentprovider$zope.contenttype$zope.datetime$zope.deferredimport$zope.event$zope.exceptions$zope.globalrequest$zope.i18n[zcml]$zope.i18nmessageid$zope.interface (>=3.8)$zope.lifecycleevent$zope.location$zope.pagetemplate (>=4.0.2)$zope.processlifetime$zope.proxy$zope.ptresource$zope.publisher$zope.schema$zope.security$zope.sequencesort$zope.site$zope.size$zope.tal$zope.tales (>=5.0.2)$zope.testbrowser$zope.testing$zope.traversing$zope.viewlet
+zun,10.0.0,48,Flask (>=0.12.3)$PyYAML (>=5.1)$SQLAlchemy (>=1.2.0)$WebOb (>=1.8.1)$alembic (>=0.9.8)$cotyledon (>=1.5.0)$docker (>=4.3.0)$eventlet (>=0.28.0)$futurist (>=1.6.0)$grpcio (>=1.25.0)$keystoneauth1 (>=3.14.0)$keystonemiddleware (>=9.0.0)$kuryr-lib (>=0.5.0)$neutron-lib (>=1.13.0)$os-brick (>=3.1.0)$os-resource-classes (>=0.1.0)$os-traits (>=0.15.0)$os-vif (>=1.15.1)$oslo.concurrency (>=4.1.0)$oslo.config (>=8.1.0)$oslo.context (>=3.1.0)$oslo.db (>=8.2.0)$oslo.i18n (>=5.0.0)$oslo.log (>=4.2.0)$oslo.messaging (>=12.2.0)$oslo.middleware (>=4.1.0)$oslo.policy (>=3.6.0)$oslo.privsep (>=2.2.0)$oslo.rootwrap (>=5.8.0)$oslo.serialization (>=3.2.0)$oslo.service (>=2.2.0)$oslo.upgradecheck (>=1.3.0)$oslo.utils (>=4.5.0)$oslo.versionedobjects (>=2.1.0)$pbr (>=5.5.0)$pecan (>=1.3.3)$protobuf (>=3.6.0)$psutil (>=3.2.2)$python-cinderclient (>=7.1.0)$python-glanceclient (>=3.2.0)$python-neutronclient (>=7.2.0)$requests (>=2.20.1)$retrying (>=1.3.3)$stevedore (>=3.3.0)$tenacity (>=6.0.0)$websocket-client (>=0.44.0)$websockify (>=0.8.0)$pyroute2 (>=0.5.7) ; (sys_platform!='win32')
+zou,0.15.11,47,flask (==1.1.1)$click (<=8.1.3)$flasgger (==0.9.5)$flask-restful (==0.3.8)$flask-fixtures (==0.3.7)$flask-sqlalchemy (==2.4.0)$flask-bcrypt (==0.7.1)$flask-jwt-extended (==3.25.0)$flask-migrate (==2.5.2)$flask-socketio (==4.3.2)$flask-principal (==0.4.0)$flask-caching (==1.9.0)$flask-mail (==0.9.1)$flask-fs (==0.6.1)$werkzeug (==0.15.5)$redis (==4.1.4)$ldap3 (==2.8.1)$psutil (==5.8.0)$itsdangerous (==2.0.1)$email-validator (==1.0.4)$sqlalchemy (==1.3.20)$sqlalchemy-utils (==0.37.8)$psycopg2-binary (==2.8.6)$python-slugify (==3.0.2)$boto3$pillow (==8.4.0)$pytz (==2020.4)$babel (==2.7.0)$isoweek (==1.3.3)$python-swiftclient (==3.8.0)$python-keystoneclient (==3.20.0)$requests (==2.27.1)$ffmpeg-python (==0.2.0)$rq (==1.11.1)$python-nomad (==1.2.1)$six (==1.15.0)$gunicorn (==20.0.4)$gevent (==21.8.0)$gevent-websocket (==0.10.1)$slackclient (==1.3.2)$gazu (==0.8.32)$sh (==1.12.14)$pygelf (==0.4.2)$matterhook (==0.2)$discord.py (==1.7.3)$Jinja2 (==3.0.3)$Whoosh (==2.7.4)
+zipline-trader,1.6.1,41,pip (>=7.1.0)$setuptools (>18.0)$Logbook (>=0.12.5)$click (>=4.0.0)$six (>=1.10.0)$python-interface (>=1.5.3)$multipledispatch (>=0.6.0)$toolz (>=0.8.2)$numpy (<1.20)$pandas (<1.2.0)$pandas-datareader (>=0.9.0)$scipy (>=0.17.1)$patsy (>=0.4.0)$statsmodels (>=0.6.1)$empyrical (>=0.5.0)$pytz (>=2018.5)$iso3166 (>=0.9)$trading-calendars (>=1.6.1)$python-dateutil (>=2.4.2)$requests (>=2.9.1)$sqlalchemy (<1.4.0,>=1.0.8)$alembic (>=0.7.7)$tables (>=3.4.3)$lru-dict (>=1.1.4)$intervaltree (>=2.1.0)$bottleneck (>=1.0.0)$networkx (<2.0,>=1.9.1)$numexpr (==2.7.1)$iso4217 (>=1.6.20180829)$websockets (<9,>=7.0)$alpaca-trade-api (>=0.51.0)$PyYAML (==5.3.1)$IbPy2 (==0.8.0)$polling (==0.3.1)$h5py (==2.10.0)$html5lib (==1.1)$beautifulsoup4 (==4.9.3)$psycopg2 (==2.8.6)$alpha-vantage (==2.3.1)$ratelimit (==2.2.1)$bcolz (==1.2.1)
+zuul,8.0.1,40,GitPython (>=2.1.8)$PrettyTable (<0.8,>=0.6)$PyMySQL$PyYAML (>=5.1.0)$alembic$apscheduler (>=3.0)$babel (>=1.0)$cachecontrol (<0.12.7)$cachetools$cheroot (!=8.1.*,!=8.2.*,!=8.3.0)$cherrypy$cryptography (>=1.6)$elasticsearch (<8.0.0)$extras$fb-re2 (>=1.0.6)$github3.py (>=1.1.0)$iso8601$jsonpath-rw$kazoo (>=2.8.0)$netaddr$opentelemetry-exporter-otlp-proto-grpc$opentelemetry-exporter-otlp-proto-http$opentelemetry-sdk$paho-mqtt$paramiko (>=2.0.1)$pbr (>=1.1.0)$prometheus-client$psutil$psycopg2-binary$pyjwt (<2.6.0,>=2.0.0)$python-daemon (>=2.0.4)$python-dateutil$routes$sqlalchemy$statsd (>=3.0)$tzlocal (<3.0)$urllib3 (!=1.25.4,!=1.25.5)$virtualenv (!=20.0.0,!=20.0.1,>20)$voluptuous (>=0.10.2)$ws4py
+zipline-live2,1.3.0.7.0,37,pip (>=7.1.0)$setuptools (>18.0)$Logbook (>=0.12.5)$pytz (>=2016.4)$numpy (>=1.11.1)$requests-file (>=1.4.1)$scipy (>=0.17.1)$pandas (<=0.22,>=0.18.1)$pandas-datareader (>=0.2.1)$patsy (>=0.4.0)$statsmodels (>=0.6.1)$python-dateutil (>=2.4.2)$six (>=1.10.0)$requests (>=2.9.1)$Cython (>=0.25.2)$cyordereddict (>=0.2.2)$bottleneck (>=1.0.0)$contextlib2 (>=0.4.0)$decorator (>=4.0.0)$networkx (<2.0,>=1.9.1)$numexpr (>=2.6.1)$bcolz (<1,>=0.12.1)$click (>=4.0.0)$toolz (>=0.8.2)$multipledispatch (>=0.4.8)$MarkupSafe (>=0.23)$Mako (>=1.0.1)$sqlalchemy (>=1.0.8)$alembic (>=0.7.7)$sortedcontainers (>=1.4.4)$intervaltree (>=2.1.0)$lru-dict (>=1.1.4)$empyrical (>=0.5.0)$tables (>=3.3.0)$trading-calendars (>=1.11.1)$IbPy2 (>=0.8.0)$polling (>=0.3.0)
+zope-app-zcmlfiles,4.1.0,36,setuptools$zope.annotation (>=4.4.1)$zope.component (>=4.3.0)$zope.componentvocabulary (>=2.0.0)$zope.copypastemove (>=4.0.0)$zope.dublincore (>=4.1.1)$zope.formlib (>=4.3.0)$zope.i18n (>=4.2.0)$zope.location (>=4.0.3)$zope.publisher (>=4.3.2)$zope.size (>=4.1.0)$zope.traversing (>=4.1.0)$zope.app.applicationcontrol (>=4.0.0)$zope.app.appsetup (>=4.0.0)$zope.app.basicskin (>=4.0.0)$zope.app.broken (>=4.0.0)$zope.app.component (>=4.0.0)$zope.app.container (>=4.0.0)$zope.app.content (>=4.0.0)$zope.app.dependable (>=4.0.0)$zope.app.error (>=4.0.0)$zope.app.exception (>=4.0.1)$zope.app.folder (>=4.0.0)$zope.app.form (>=5.0.0)$zope.app.generations (>=4.0.0)$zope.app.http (>=4.0.1)$zope.app.i18n (>=4.0.0)$zope.app.locales (>=4.0.0)$zope.app.pagetemplate (>=4.0.0)$zope.app.principalannotation (>=4.0.0)$zope.app.publication (>=4.2.1)$zope.app.publisher (>=4.0.0)$zope.app.rotterdam (>=4.0.0)$zope.app.schema (>=4.1.0)$zope.app.security (>=4.0.0)$zope.app.wsgi (>=4.1.0)
+zas-rep-tools,0.2,34,sure$nose$rednose$blessings$testfixtures$click$regex$cached-property$raven$email$tweepy$nltk$langid$lxml$logutils$pyhashxx$colored-traceback$colorama$unicodecsv$psutil$execnet$validate-email$console-menu$python-twitter$twitter$enlighten$emoji$textblob$textblob-de$textblob-fr$kitchen$uniseg$pystemmer$ZODB
+zaqar,15.0.0,30,Babel (!=2.4.0,>=2.3.4)$SQLAlchemy (!=1.1.5,!=1.1.6,!=1.1.7,!=1.1.8,>=1.3.19)$WebOb (>=1.7.1)$alembic (>=0.9.6)$autobahn (>=22.3.2)$cryptography (>=2.7)$falcon (>=3.0.0)$futurist (>=1.2.0)$iso8601 (>=0.1.11)$jsonschema (>=3.2.0)$keystonemiddleware (>=9.1.0)$msgpack (>=1.0.0)$oslo.cache (>=1.26.0)$oslo.config (>=6.8.0)$oslo.context (>=2.19.2)$oslo.db (>=8.4.0)$oslo.i18n (>=3.15.3)$oslo.log (>=3.36.0)$oslo.messaging (>=5.29.0)$oslo.policy (>=3.6.0)$oslo.reports (>=1.18.0)$oslo.serialization (!=2.19.1,>=2.18.0)$oslo.upgradecheck (>=1.3.0)$oslo.utils (>=3.33.0)$osprofiler (>=1.4.0)$pbr (!=2.1.0,>=2.0.0)$python-memcached (>=1.56)$python-swiftclient (>=3.10.1)$requests (>=2.25.0)$stevedore (>=3.2.2)
+zipline-reloaded,2.2.1,30,alembic (>=0.7.7)$bcolz-zipline (>=1.2.5)$bottleneck (>=1.0.0)$click (>=4.0.0)$empyrical-reloaded (>=0.5.7)$h5py (>=2.7.1)$intervaltree (>=2.1.0)$iso3166 (>=2.1.1)$iso4217 (>=1.6.20180829)$logbook (>=1.0)$lru-dict (>=1.1.4)$multipledispatch (>=0.6.0)$networkx (>=2.0)$numexpr (>=2.6.1)$numpy (<1.23,>=1.14.5)$pandas (<1.6,>=1.1.0)$patsy (>=0.4.0)$python-dateutil (>=2.4.2)$python-interface (>=1.5.3)$pytz (>=2018.5)$requests (>=2.9.1)$scipy (>=0.17.1)$six (>=1.10.0)$sqlalchemy (<2,>=1.0.8A)$statsmodels (>=0.6.1)$ta-lib (<0.4.25,>=0.4.09)$tables (>=3.4.3)$toolz (>=0.8.2)$trading-calendars (>=1.6.1)$exchange-calendars (<=3.3)
+zope-app-apidoc,4.3.0,29,persistent$ZODB$setuptools$zope.annotation$zope.app.appsetup (>=4.0.0)$zope.app.basicskin (>=4.0.0)$zope.app.exception (>=4.0.0)$zope.app.onlinehelp (>=4.0.1)$zope.app.preference (>=4.0.0)$zope.app.publisher (>=4.0.0)$zope.app.renderer (>=4.1.0)$zope.app.tree (>=4.0.0)$zope.cachedescriptors$zope.component (>=3.8.0)$zope.configuration$zope.container$zope.deprecation$zope.hookable$zope.i18n$zope.interface$zope.location (>=4.0.3)$zope.proxy$zope.publisher (>=4.3.1)$zope.schema$zope.security (>=4.1.1)$zope.site$zope.testbrowser$zope.testing$zope.traversing (>=4.1.0)
+zoo-animal-classification,1.0.0,27,appnope (==0.1.0)$backcall (==0.1.0)$cycler (==0.10.0)$decorator (==4.3.0)$ipython (==7.2.0)$ipython-genutils (==0.2.0)$jedi (==0.13.2)$kiwisolver (==1.0.1)$matplotlib (==3.0.2)$numpy (==1.15.4)$pandas (==0.23.4)$parso (==0.3.1)$pexpect (==4.6.0)$pickleshare (==0.7.5)$prompt-toolkit (==2.0.7)$ptyprocess (==0.6.0)$pydotplus (==2.0.2)$Pygments (==2.3.1)$pyparsing (==2.3.0)$python-dateutil (==2.7.5)$pytz (==2018.7)$scikit-learn (==0.20.2)$scipy (==1.2.0)$six (==1.12.0)$sklearn (==0.0)$traitlets (==4.3.2)$wcwidth (==0.1.7)
+zhenxun-bot,0.1.4.3,26,nonebot2 (>=2.0.0-beta.2,<3.0.0)$nonebot-adapter-onebot (>=2.0.0-beta.1,<3.0.0)$bilibili-api (>=9.1.0,<10.0.0)$aiofiles (>=0.8.0,<0.9.0)$aiohttp (==3.7.4.post0)$beautifulsoup4 (==4.9.3)$feedparser (>=6.0.8,<7.0.0)$gino (>=1.0.1,<2.0.0)$httpx (>=0.22.0,<0.23.0)$ImageHash (>=4.2.1,<5.0.0)$jieba (>=0.42.1,<0.43.0)$lxml (==4.6.5)$nonebot-plugin-apscheduler (>=0.1.2,<0.2.0)$opencv-python (>=4.5.5,<5.0.0)$Pillow (>=9.0.1,<10.0.0)$playwright (>=1.18.2,<2.0.0)$psutil (>=5.9.0,<6.0.0)$PyYAML (==5.4.1)$retrying (>=1.3.3,<2.0.0)$ujson (>=5.1.0,<6.0.0)$ruamel.yaml (>=0.17.21,<0.18.0)$matplotlib (>=3.5.1,<4.0.0)$black (>=22.1.0,<23.0.0)$pypinyin (>=0.46.0,<0.47.0)$dateparser (>=1.1.0,<2.0.0)$cn2an (>=0.5.16,<0.6.0)
+zodbbrowser,0.17.1,26,BTrees$RestrictedPython$ZEO$ZODB$persistent$transaction$zope.app.authentication$zope.app.component$zope.app.pagetemplate$zope.app.publication$zope.app.server$zope.app.session$zope.app.zcmlfiles$zope.cachedescriptors$zope.component$zope.error$zope.exceptions$zope.hookable$zope.interface$zope.location$zope.publisher$zope.security$zope.securitypolicy$zope.server$zope.session$zope.traversing
+zeigen,0.3.0,25,attrs (>=21.4.0)$biopython (>=1.79)$colorama (>=0.4.4)$dotli (>=1.1)$dynaconf (>=3.1.7)$gemmi (>=0.5.2)$gql[all] (>=3.0.0)$jsonschema (>=4.16.0,<5.0.0)$loguru (>=0.6.0)$matplotlib (>=3.5.1)$numpy (>=1.22.1)$pandas (>=1.4.0)$pint (>=0.18)$progressbar2 (>=4.0.0,<5.0.0)$pyarrow (>=9.0.0)$requests (>=2.28.1,<3.0.0)$requests-download (>=0.1.2,<0.2.0)$schema (>=0.7.5)$scipy (>=1.7.3)$statsdict (>=0.1.5)$tabulate (>=0.8.9)$toml (>=0.10.2)$tqdm (>=4.64.1)$typer (>=0.4.0)$uncertainties (>=3.1.6)
+zato-common,3.2.1,25,anyjson (>=0.3.3)$arrow (>=0.4.2)$boto (>=2.35.1)$bunch (>=1.0.1)$candv (>=1.1.1)$ConcurrentLogHandler (>=0.9.1)$configobj (>=5.0.5)$crontab (>=0.20)$dictalchemy (>=0.1.2.6)$gevent (>=1.0)$lxml (>=3.3.5)$mock (>=1.0.1)$nose (>=1.3.3)$paodate (>=1.2)$pip (>=6.0.8)$psutil (>=2.1.0)$pyparsing (>=2.0.1)$python-dateutil (>=2.2)$pytz$pyzmq (>=14.6.0)$redis (>=2.9.1)$requests (>=2.6.0)$rsa (>=3.1.2)$SQLAlchemy (>=0.9.4)$texttable (>=0.8.1)
+zfit,0.10.1,25,boost-histogram$colorama$colored$colorlog$deprecated$dotmap$hist$iminuit (>=2.3)$numdifftools$numpy (>=1.16)$ordered-set$pandas$pydantic$scipy (>=1.2)$tabulate$tensorflow (<2.11,>=2.9)$tensorflow-addons$tensorflow-probability (<0.19,>=0.17)$texttable$tf-quant-finance (>=v0.0.1-dev24)$uhi$uproot (<5,>=4)$xxhash$zfit-interface$importlib-metadata ; python_version < "3.8.0"
+zato-apitest,1.13,24,argparse (>=1.2.1)$arrow (>=0.4.2)$base32-crockford (>=0.2.0)$behave (>=1.2.4)$bunch (>=1.0.1)$click (>=6.7)$configobj (>=5.0.5)$coverage (>=3.7.1)$datadiff (>=1.1.5)$flake8 (>=2.1.0)$jsonpointer (>=1.3)$mccabe (<0.7.0,>=0.6.0)$mock (>=1.0.1)$nose (>=1.3.3)$parse (>=1.6.4)$parse-type (>=0.3.4)$pep8 (>=1.5.7)$pyflakes (>=2.0.0)$python-dateutil (>=2.2)$pyyaml$requests (>=2.3.0)$requests-testadapter (>=0.3.0)$six (>=1.6.1)$twine
+zjwbox,0.3.5,23,wheel$wget (==3.2)$lxml (==4.6.1)$eventlet (==0.29.1)$dataclasses$pyppeteer$selenium$nest-asyncio (==1.4.1)$parsel$requests$faker$openpyxl$pymongo$pymysql$redis$jsonpath$pandas$numpy$aiohttp$psutil$fake-useragent$pyquery$DecryptLogin
+zillionare-omega,1.1.0.1,22,APScheduler (==3.7.0)$aiocache (==0.11.1)$aiohttp (>=3.8.0)$aioredis (==1.3.1)$arrow (==0.15.8)$asyncpg (==0.21)$cfg4py (>=0.9.0,<0.10.0)$fire (==0.4.0)$gino (==1.0.1)$idna (==2.5)$mkdocs-material-extensions (>=1.0.1,<2.0.0)$numpy (==1.20.1)$pandas (==1.2.3)$psutil (==5.8.0)$pyarrow (==2.0.0)$pyemit (==0.4.5)$rlog (==0.3)$sanic (==20.12.2)$sh (==1.14.1)$xxhash (==2.0.0)$zillionare_omega_adaptors_jq (==1.0.5)$zillionare_omicron (==1.1.0.1)
+zexture,1.0.1,22,absl-py (==1.0.0)$attrs (==21.4.0)$cycler (==0.11.0)$fonttools (==4.30.0)$joblib (==1.1.0)$kiwisolver (==1.3.2)$matplotlib (==3.5.1)$mediapipe (==0.8.9.1)$numpy (==1.22.3)$opencv-contrib-python (==4.5.5.64)$opencv-python (==4.5.5.64)$packaging (==21.3)$pandas (==1.4.1)$Pillow (==9.0.1)$protobuf (==3.19.4)$pyparsing (==3.0.7)$python-dateutil (==2.8.2)$pytz (==2021.3)$scikit-learn (==1.0.2)$scipy (==1.8.0)$six (==1.16.0)$threadpoolctl (==3.1.0)
+zenml,0.21.1,21,ml-pipelines-sdk (==1.8.0)$pandas (>=1.1.5,<2.0.0)$pyyaml (>=5.4.1,<6.0.0)$pyarrow (>=7.0.0,<8.0.0)$python-dateutil (>=2.8.1,<3.0.0)$gitpython (>=3.1.18,<4.0.0)$click (>=8.0.1,<9.0.0)$click-params (>=0.3.0,<0.4.0)$pydantic (>=1.9.0,<1.10.0)$analytics-python (>=1.4.0,<2.0.0)$distro (>=1.6.0,<2.0.0)$rich[jupyter] (>=12.0.0,<13.0.0)$httplib2 (>=0.19.1,<0.20)$pyparsing (>=2.4.0,<3)$sqlmodel (>=0.0.8,<0.1.0)$markupsafe (==1.1.1)$nbconvert (==6.4.4)$passlib[bcrypt] (>=1.7.4,<1.8.0)$python-terraform (>=0.10.1,<0.11.0)$pymysql (>=1.0.2,<1.1.0)$alembic (>=1.8.1,<1.9.0)
+zserver,4.0.2,21,setuptools$AccessControl$Acquisition$ExtensionClass$Persistence$transaction$ZConfig$zdaemon$zExceptions$ZODB$zope.component$zope.container$zope.contenttype$zope.deferredimport$zope.event$zope.interface$zope.lifecycleevent$zope.processlifetime$zope.schema$zope.testing$Zope (>=4.0b6)
+zensols-medcat,1.3.0,20,numpy (>=1.21.4)$pandas (<=1.4.2,>=1.1.5)$gensim (~=4.1.2)$scipy (<=1.8.1,>=1.5.4)$transformers (~=4.19.2)$torch (>=1.0)$tqdm (>=4.27)$sklearn (~=0.0)$elasticsearch (<8.0.0,>=7.10)$dill (~=0.3.4)$datasets (~=2.2.2)$jsonpickle (~=2.0.0)$psutil (<6.0.0,>=5.8.0)$multiprocess$py2neo (==2021.2.3)$aiofiles (~=0.8.0)$ipywidgets (~=7.6.5)$xxhash (==3.0.0)$blis (<=0.7.5)$click (<=8.0.4)
+zly-resource,1.1.8,20,six (>=1.8.0)$requests (>=2.4.3)$optionaldict (>=0.1.0)$flake8 (>=3.4.1)$Flask (>=1.1.1)$Flask-Bootstrap (>=3.3.7.1)$Flask-Caching (>=1.8.0)$Flask-Cors (>=3.0.8)$Flask-Login (>=0.5.0)$Flask-Mail (>=0.9.1)$Flask-Migrate (>=2.5.2)$Flask-Moment (>=0.9.0)$Flask-PageDown (>=0.2.2)$flask-redis (>=0.4.0)$Flask-RESTful (>=0.3.7)$Flask-Script (>=2.0.6)$Flask-Session (>=0.3.1)$Flask-SQLAlchemy (>=2.4.1)$Flask-SSLify (>=0.1.5)$enum34 (>=1.1.4) ; python_version < "3.4"
+zly-resource-module,1.0.2,20,Flask (>=1.1.1)$six (>=1.8.0)$requests (>=2.4.3)$optionaldict (>=0.1.0)$flake8 (>=3.4.1)$Flask-Bootstrap (>=3.3.7.1)$Flask-Caching (>=1.8.0)$Flask-Cors (>=3.0.8)$Flask-Login (>=0.5.0)$Flask-Mail (>=0.9.1)$Flask-Migrate (>=2.5.2)$Flask-Moment (>=0.9.0)$Flask-PageDown (>=0.2.2)$flask-redis (>=0.4.0)$Flask-RESTful (>=0.3.7)$Flask-Script (>=2.0.6)$Flask-Session (>=0.3.1)$Flask-SQLAlchemy (>=2.4.1)$Flask-SSLify (>=0.1.5)$enum34 (>=1.1.4) ; python_version < "3.4"
+z3c-form,4.3,20,setuptools$six$zope.browser$zope.browserpage$zope.browserresource$zope.component$zope.configuration (>=4.3)$zope.contentprovider$zope.event$zope.i18n$zope.i18nmessageid$zope.interface$zope.lifecycleevent$zope.location$zope.pagetemplate$zope.publisher$zope.schema (>=4.7)$zope.security$zope.site$zope.traversing
+zybats,2.0.2.6,20,requests$PyYAML$Jinja2$har2case$colorama$colorlog$requests-toolbelt$pika$redis (==2.10.6)$redis-py-cluster$xlrd$protobuf$simplejson$pymysql$Flask$MarkupSafe$certifi$chardet$idna$urllib3
+zappa2,0.53.4,20,argcomplete$boto3 (>=1.17.28)$durationpy$hjson$jmespath$kappa (==0.6.0)$pip (>=9.0.1)$python-dateutil$python-slugify$PyYAML$future$requests (>=2.20.0)$six$toml$tqdm$troposphere$Werkzeug (<1.0)$wheel$wsgi-request-logger$pip-tools
+zag,0.2.12,20,pbr (!=2.1.0,>=2.0.0)$six (>=1.10.0)$futurist (>=1.2.0)$fasteners (>=0.7.0)$networkx (>=1.10)$stevedore (>=1.20.0)$jsonschema (<4.0.0,>=2.6.0)$automaton (>=1.9.0)$oslo.utils (>=3.33.0)$oslo.serialization (!=2.19.1,>=2.18.0)$tenacity (>=4.4.0)$cachetools (>=2.0.0)$debtcollector (>=1.2.0)$stestr (>=2.0.0)$pydot (>=1.2.4)$tooz (>=1.19.0)$crontab (>=0.22.3)$contextlib2 (>=0.4.0) ; (python_version<'3.0')$enum34 (>=1.0.4) ; (python_version=='2.7' or python_version=='2.6' or python_version=='3.3')$futures (>=3.0.0) ; (python_version=='2.7' or python_version=='2.6')
+zappa-dateutil,0.51.0,20,argcomplete$boto3$durationpy$hjson$jmespath$kappa (==0.6.0)$pip (>=9.0.1)$python-dateutil$python-slugify$PyYAML$future$requests (>=2.20.0)$six$toml$tqdm$troposphere$Werkzeug (<1.0)$wheel$wsgi-request-logger$pip-tools
+zappa-troposphere,0.53.1,20,argcomplete$boto3 (>=1.17.28)$durationpy$hjson$jmespath$kappa (==0.6.0)$pip (>=9.0.1)$python-dateutil$python-slugify$PyYAML$future$requests (>=2.20.0)$six$toml$tqdm$troposphere$Werkzeug (<1.0)$wheel$wsgi-request-logger$pip-tools
+zappa-teamturing,0.54.12,20,argcomplete$boto3 (>=1.17.28)$durationpy$future$hjson$jmespath$kappa (>=0.6.0)$pip (>=9.0.1)$placebo (<=0.10)$python-dateutil$python-slugify$pyyaml$requests (>=2.20.0)$six$toml$tqdm$troposphere (>=3.0)$werkzeug$wheel$wsgi-request-logger
+zappa-bepro,0.51.11,20,argcomplete$boto3$durationpy$hjson$jmespath$kappa (==0.6.0)$pip (>=9.0.1)$python-dateutil$python-slugify$PyYAML$future$requests (>=2.20.0)$six$toml$tqdm$troposphere$Werkzeug (<1.0)$wheel$wsgi-request-logger-bepro$pip-tools
+zappa-mathking,0.52.4,20,argcomplete$boto3 (>=1.17.28)$durationpy$hjson$jmespath$kappa (==0.6.0)$pip (>=9.0.1)$python-dateutil$python-slugify$PyYAML$future$requests (>=2.20.0)$six$toml$tqdm$troposphere$Werkzeug (<1.0)$wheel$wsgi-request-logger$pip-tools
+zabbix-sys,2021.9.1.1630515474,19,wheel (==0.37.0)$certifi (==2021.5.30)$chardet (==4.0.0)$click (==8.0.1)$distro (==1.6.0)$dnspython (==2.1.0)$idna (==2.10)$mysql-connector-python (==8.0.26)$protobuf (==3.14.0)$psutil (==5.8.0)$PyYAML (==5.4.1)$python-json-logger (==2.0.1)$six (==1.16.0)$pyrabbit2 (==1.0.7)$requests (==2.26.0)$redis (==3.5.3)$hiredis (==2.0.0)$elasticsearch (==7.14.0)$urllib3 (==1.26.6)
+zope-app-authentication,4.0.0,19,setuptools$zope.app.component (>=4.0.0)$zope.app.container (>=4.0.0)$zope.authentication$zope.component$zope.container$zope.dublincore$zope.event$zope.exceptions$zope.formlib (>=4.0.2)$zope.i18n$zope.i18nmessageid$zope.interface$zope.location$zope.password (>=3.5.1)$zope.pluggableauth (>=2.2.0)$zope.schema$zope.security$zope.traversing
+zoish,1.63.0,19,pandas (>=1.4.3,<2.0.0)$numpy (<1.63.0)$scipy (>=1.8.1,<2.0.0)$scikit-learn (>=1.1.1,<2.0.0)$click (>=8.1.3,<9.0.0)$numba (>=0.55.2,<0.56.0)$fasttreeshap (>=0.1.2,<0.2.0)$shap (>=0.41.0,<0.42.0)$xgboost (>=1.6.1,<2.0.0)$matplotlib (>=3.5.2,<4.0.0)$pip-licenses (>=3.5.4,<4.0.0)$feature-engine (>=1.4.1,<2.0.0)$optuna (>=2.10.1,<3.0.0)$catboost (>=1.0.6,<2.0.0)$imblearn (>=0.0,<0.1)$lightgbm (>=3.3.2,<4.0.0)$category-encoders (>=2.5.0,<3.0.0)$xgbse (>=0.2.3,<0.3.0)$pycox (>=0.2.3,<0.3.0)
+zope-app-container,4.0.0,19,setuptools$zope.browser$zope.browsermenu$zope.browserpage$zope.component$zope.container$zope.copypastemove$zope.dublincore (>=3.7)$zope.event$zope.exceptions$zope.i18n$zope.i18nmessageid$zope.interface$zope.lifecycleevent$zope.location$zope.publisher (>=4.3.1)$zope.security (>=4.1.0)$zope.size$zope.traversing
+zope-app-onlinehelp,4.2.0,19,persistent$setuptools$zope.app.component$zope.app.file (>=4.0.0)$zope.app.pagetemplate (>=4.0.0)$zope.app.publication (>=4.2.1)$zope.app.security (>=4.0.0)$zope.component$zope.configuration$zope.container$zope.contenttype$zope.i18n$zope.interface$zope.location$zope.publisher (>=4.3.1)$zope.schema$zope.security (>=4.1.1)$zope.testing$zope.traversing
+zhulong2,5.2.61,19,pandas (>=0.13)$beautifulsoup4 (>=4.6.3)$cx-Oracle$numpy$psycopg2-binary$selenium$xlsxwriter$xlrd$requests$lxml$sqlalchemy$pymssql$jieba$mysqlclient$lmf (>=2.0.6)$lmfscrap (>=1.1.0)$lmfhawq (>=1.2.0)$opencv-python$scikit-learn
+zinv-analysis,0.3.2,19,alphatwirl (>=0.23.2)$atuproot (>=0.1.13)$awkward (>=0.8.11)$awkward-numba (>=0.8.11)$cachetools (>=3.1.0)$icc-rt (>=2019.0)$intel-openmp (>=2019.0)$numba (>=0.42.1)$numpy (>=1.16.2)$oyaml (>=0.8)$pandas (>=0.24.1)$pysge (>=0.1.3)$scipy (>=1.3.1)$six (>=1.12.0)$subprocess32 (>=3.5.3)$tabulate (>=0.8.3)$tqdm (>=4.31.1)$uproot (>=3.4.9)$uproot-methods (>=0.4.3)
+zqpy,1.1.6,19,numpy (==1.19.5)$psutil (==5.9.0)$natsort (==7.0.1)$requests (==2.28.0)$pymongo (==4.1.1)$opencv-python$pytesseract (==0.3.7)$websockets (==8.1)$websockets-routes$Werkzeug (==1.0.1)$xmltodict (==0.12.0)$pywin32 (==304)$chardet (==3.0.4)$aircv (==1.4.6)$pyttsx3 (==2.71)$jieba (==0.42.1)$openpyxl (==3.0.6)$qrcode (==6.1)$moviepy (==1.0.3)
+zappa,0.55.0,19,argcomplete$boto3 (>=1.17.28)$durationpy$hjson$jmespath$kappa (==0.6.0)$pip (>=9.0.1)$placebo (<0.10)$python-dateutil$python-slugify$pyyaml$requests (>=2.20.0)$six$toml$tqdm$troposphere (>=3.0)$werkzeug$wheel$wsgi-request-logger
+zubbi,2.4.6,18,arrow$click$elasticsearch-dsl (>=7.0.0)$pyyaml$pyjwt$pyzmq$cachelib$cryptography$requests$flask$github3.py$zuul-sphinx$sphinx$jinja2$readme-renderer[md]$tabulate$gitpython$markupsafe
+zope-app-testing,4.0.0,18,setuptools$zope.annotation$zope.app.appsetup (>=3.11)$zope.processlifetime$zope.app.debug$zope.app.dependable$zope.app.publication$zope.component (>=3.8)$zope.container$zope.i18n (>=4.3.0)$zope.interface$zope.password$zope.publisher$zope.schema$zope.security$zope.site$zope.testing$zope.traversing
+zef,0.16.2,18,Rx (>=3.1.1)$websockets (>=10.1)$pyfunctional (>=1.3.0)$toml (>=0.10.1)$dateparser (>=0.7.6)$cogapp (>=3.0.0)$structlog (>=20.1.0)$colorama (>=0.4.3)$ariadne (>=0.12.0)$pyperclip (>=1.8.2)$pytz (>=2021.1)$more-itertools (>=4.2.0)$art (>=5.2)$PyYAML (>=6.0)$zstd (>=1.5.1.0)$pandas (>=1.3.5)$case-converter (>=1.0.2)$watchdog (>=2.1.9)
+zms,5.1.0,18,docutils$configparser$Zope[wsgi]$Products.GenericSetup$Products.MailHost$Products.ExternalMethod$Products.CMFCore$Products.PythonScripts$Products.SiteErrorLog$Products.StandardCacheManagers$Products.Sessions$Products.TemporaryFolder$zope.app.publication$zope.authentication$zope.untrustedpython$zope.error$ZopeUndo$Pillow
+zhulong4,5.3.24,17,pandas (>=0.13)$beautifulsoup4 (>=4.6.3)$cx-Oracle$numpy$psycopg2-binary$selenium$xlsxwriter$xlrd$requests$lxml$sqlalchemy$pymssql$jieba$mysqlclient$lmf (>=2.0.6)$lmfscrap (>=1.1.0)$lmfhawq (>=1.2.0)
+zowie,1.2.0,17,aenum (==3.1.0)$biplist (==1.0.3)$boltons (==21.0.0)$bun (==0.0.8)$commonpy (==1.5.0)$keyring (==23.2.1)$keyrings.alt (==4.1.0)$pdfrw (==0.4)$plac (==1.3.3)$py-applescript (==1.0.2)$pyzotero (==1.4.26)$pyxattr (==0.7.2)$setuptools (==58.3.0)$sidetrack (==2.0.0)$pyobjc-core (==7.3.0)$pyobjc-framework-AppleScriptKit (==7.3.0)$pyobjc-framework-AppleScriptObjC (==7.3.0)
+zhmccli,1.4.0,17,zhmcclient (>=1.5.0)$click-repl (>=0.1.0)$click-spinner (>=0.1.6)$progressbar2 (>=3.12.0)$python-dateutil (>=2.8.0)$PyYAML (>=5.3.1)$jsonschema (>=2.6.0)$yamlloader (>=0.5.5)$six (>=1.14.0) ; python_version <= "3.9"$tabulate (>=0.8.2) ; python_version <= "3.9"$click (<8.0,>=7.0) ; python_version == "2.7"$prompt-toolkit (<2.0.0,>=1.0.15) ; python_version == "2.7"$click (<8.0,>=7.0) ; python_version == "3.5"$six (>=1.16.0) ; python_version >= "3.10"$tabulate (>=0.8.8) ; python_version >= "3.10"$prompt-toolkit (>=2.0.1) ; python_version >= "3.5"$click (<8.0,>=7.0) ; python_version >= "3.6"
+zlest,1.1.9,17,pandas (>=0.13)$beautifulsoup4 (>=4.6.3)$cx-Oracle$numpy$psycopg2-binary$selenium$xlsxwriter$xlrd$requests$lxml$sqlalchemy$pymssql$jieba$mysqlclient$lmf (>=2.0.6)$lmfscrap (>=1.1.0)$lmfhawq (>=1.2.0)
+zillionare-backtest,0.4.12,17,aioredis (==1.3.1)$arrow (>=1.2.2,<2.0.0)$async-timeout (>=4.0,<5.0)$cfg4py (>=0.9.4,<0.10.0)$expiringdict (>=1.2.1,<2.0.0)$fire (==0.4.0)$httpx (>=0.23.0,<0.24.0)$mkdocs-material-extensions (>=1.0.3,<2.0.0)$pandas (>=1.4.1,<2.0.0)$psutil (>=5.9.0,<6.0.0)$pyemit (==0.4.5)$pyreadline (>=2.1,<3.0)$sanic (>=21.12.1,<22.0.0)$tabulate (>=0.8.9,<0.9.0)$tqdm (>=4.63.0,<5.0.0)$zillionare-core-types (>=0.5.2,<0.6.0)$zillionare-omicron (>=2.0.0.a42,<3.0.0)
+zhulong3,5.3.14,17,pandas (>=0.13)$beautifulsoup4 (>=4.6.3)$cx-Oracle$numpy$psycopg2-binary$selenium$xlsxwriter$xlrd$requests$lxml$sqlalchemy$pymssql$jieba$mysqlclient$lmf (>=2.0.6)$lmfscrap (>=1.1.0)$lmfhawq (>=1.2.0)
+zuds,0.1.1,17,astropy (>=4)$fitsio (>=1.0.5)$matplotlib (>=3.1.1)$numpy (>=1.16.4)$pandas (>=0.24.2)$penquins (>=1.0.3)$photutils (>=0.7.1)$psycopg2 (>=2.8.3)$PyYAML (>=5.1.1)$requests (>=2.22.0)$scipy (>=1.3.0)$SQLAlchemy (>=1.3.7)$ztfquery (>=1.6.2)$simplejson$pytest (==4.3.1)$sncosmo (>=2.1.0)$astroquery (>=0.3)
+zope-app-file,4.0.0,17,persistent$setuptools$transaction$zope.app.content (>=4.0.0)$zope.app.form (>=5.0.0)$zope.app.publication$zope.contenttype (>=4.0.0)$zope.datetime$zope.dublincore (>=4.0.0)$zope.event$zope.exceptions$zope.filerepresentation$zope.i18nmessageid (>=4.1.0)$zope.interface$zope.schema$zope.site$zope.size
+zlest1,1.0.8,17,pandas (>=0.13)$beautifulsoup4 (>=4.6.3)$cx-Oracle$numpy$psycopg2-binary$selenium$xlsxwriter$xlrd$requests$lxml$sqlalchemy$pymssql$jieba$mysqlclient$lmf (>=2.0.6)$lmfscrap (>=1.1.0)$lmfhawq (>=1.2.0)
+zope-formlib,5.0.1,16,setuptools$pytz$zope.browser (>=1.1)$zope.browserpage (>=3.11.0)$zope.browserresource$zope.component$zope.event$zope.i18n$zope.i18nmessageid$zope.interface$zope.lifecycleevent$zope.publisher$zope.schema (!=6.1,>=3.5.1)$zope.security$zope.traversing$zope.datetime
+zemfrog,5.0.1,16,flask (==1.1.2)$flask-smorest$flask-sqlalchemy (==2.4.4)$flask-jwt-extended (==3.25.0)$flask-marshmallow$flask-cors (==3.0.9)$flask-migrate$flask-mail$flask-shell-ipython$marshmallow-sqlalchemy$python-dotenv$click$celery (==5.0.2)$marshmallow$sqlalchemy-utils$sqlalchemy (<1.4.0)
+zbxtool-cfomp,0.9.7,16,packaging (>=21.0)$infi (>=0.0.1)$infi.pyutils (>=1.1.3)$infi.pyvmomi-wrapper (>=0.1.29)$pandas (==1.1.5)$numpy (==1.19.5)$elasticsearch (==7.17.0)$openpyxl (==3.0.9)$IPy (>=1.01)$ldap3 (>=2.9.1)$multicommand (==0.1.1)$pyVmomi (>=7.0.3)$zabbix-api (>=0.5.4)$prettytable (>=2.0.0)$weworkapi-cfomp (>=1.1.4)$python-docx (==0.8.11)
+zope-pluggableauth,2.3.1,16,persistent$setuptools$transaction$zope.authentication$zope.component$zope.container$zope.event$zope.i18nmessageid$zope.interface$zope.password (>=3.5.1)$zope.publisher (>=3.12)$zope.schema$zope.security$zope.session$zope.site$zope.traversing
+zillion,0.6.5,16,climax (~=0.4.0)$lxml (>=4.6.2)$marshmallow (~=3.6.0)$networkx (~=2.4)$orderedset (~=2.0.3)$pandas (~=1.1.5)$pylint (~=2.4.4)$pymysql (~=0.9.3)$pyyaml (~=5.3.1)$simplejson (~=3.17.0)$stopit (~=1.1.2)$sqlalchemy (~=1.3.16)$sqlparse (~=0.3.1)$tabulate (~=0.8.7)$tlbx (~=0.1.17)$xlrd (~=1.2.0)
+z3c-wizard,1.1,16,setuptools$z3c.form (>=2.0)$z3c.formui$z3c.pagelet$zope.browserpage$zope.component$zope.configuration$zope.event$zope.i18nmessageid$zope.interface$zope.lifecycleevent$zope.location$zope.publisher$zope.schema$zope.security$zope.traversing
+zope-app-form,5.1.0,16,setuptools$transaction$zope.formlib (>=4.3)$zope.browser (>=2.1)$zope.browserpage (>=3.10.1)$zope.browsermenu$zope.component$zope.configuration (>=4.1.0)$zope.datetime$zope.exceptions$zope.i18n$zope.interface$zope.proxy$zope.publisher (>=4.3.1)$zope.schema (>=4.4.2)$zope.security
+zhmcclient,1.5.0,16,python-dateutil (>=2.8.0)$immutable-views (>=0.6.0)$nocasedict (>=1.0.2)$PyYAML (>=5.3)$yamlloader (>=0.5.5)$jsonschema (>=2.6.0)$stomp.py (<5.0.0,>=4.1.23) ; python_version <= "3.5"$pytz (>=2016.10) ; python_version <= "3.9"$requests (>=2.22.0) ; python_version <= "3.9"$six (>=1.14.0) ; python_version <= "3.9"$decorator (<5.0,>=4.0.11) ; python_version == "2.7"$pytz (>=2019.1) ; python_version >= "3.10"$requests (>=2.25.0) ; python_version >= "3.10"$six (>=1.16.0) ; python_version >= "3.10"$decorator (>=4.0.11) ; python_version >= "3.5"$stomp.py (!=6.1.0,!=6.1.1,<7.0.0,>=4.1.23) ; python_version >= "3.6"
+z2n-periodogram,2.0.6,16,intel-openmp$click$pillow$click-shell$matplotlib$termtables$colorama$astropy$psutil$numpy$numba$icc-rt$scipy$h5py$tqdm$tbb
+zvtm,0.0.11,16,requests (==2.20.1)$SQLAlchemy (==1.4.20)$pandas (==1.1.4)$arrow (==0.11.0)$tzlocal (==2.0.0)$xlrd (==1.2.0)$demjson (==2.2.4)$marshmallow-sqlalchemy (==0.23.1)$marshmallow (==3.2.2)$plotly (==4.12.0)$dash (==1.17.0)$simplejson (==3.16.0)$jqdatapy (==0.1.6)$dash-bootstrap-components$dash-daq$pymysql
+zope-file,1.2.0,16,setuptools$ZODB$zope.annotation$zope.component$zope.container$zope.contenttype$zope.event$zope.filerepresentation$zope.i18nmessageid$zope.lifecycleevent$zope.interface$zope.location$zope.mimetype (>=2.3.0)$zope.schema$zope.security (>=4.1.0)$zope.size
+zetastitcher,0.7.0.post1,15,cachetools$coloredlogs$cvxpy$humanize$imageio$networkx (>=2.0)$numpy$opencv-python$pandas$pims$psutil$pyyaml$qpsolvers$scipy$tifffile
+zinc-cli,0.3.1,15,botocore$pyyaml$boto3$kix$aws-cdk.core (==1.159)$aws-cdk.aws-lambda (==1.159)$aws-cdk.aws-route53 (==1.159)$aws-cdk.aws-s3 (==1.159)$aws-cdk.aws-cloudfront (==1.159)$aws-cdk.aws-route53-targets (==1.159)$aws-cdk.aws-s3-deployment (==1.159)$aws-cdk.aws-dynamodb (==1.159)$aws-cdk.aws-iam (==1.159)$aws-cdk.aws-cognito (==1.159)$aws-cdk.custom-resources (==1.159)
+zelos,0.2.0,15,wheel$colorama (==0.4.1)$termcolor (==1.1.0)$capstone (==4.0.1)$sortedcontainers (==2.1.0)$verboselogs (==1.7)$dnslib (==0.9.10)$hexdump (==3.3)$dpkt (==1.9.2)$coloredlogs (==10.0)$configargparse (==0.15.1)$pypacker (==4.9)$lief (>=0.9.0)$zebracorn (==0.0.1)$lark-parser (==0.7.8)
+zope-publisher,6.1.0,15,setuptools$six$zope.browser$zope.component$zope.configuration$zope.contenttype (>=4.0.0)$zope.event$zope.exceptions$zope.i18n (>=4.0.0)$zope.interface (>=4.0.1)$zope.location$zope.proxy$zope.security (>=4.0.0)$multipart (<0.2) ; python_version < "3"$multipart ; python_version >= "3"
+zero-knowledge-access-pass-authorizer,2022.8.21,15,attrs$zope.interface$eliot (>=1.11)$aniso8601$compose (~=1.0)$python-challenge-bypass-ristretto$Twisted[conch,tls] (>=19.10.0)$tahoe-lafs (<1.18.1,>=1.17.1)$treq$pyutil$prometheus-client$colorama$sqlparse$cbor2$autobahn (!=22.4.1,!=22.4.2,!=22.5.1,>=21.11.1)
+zenodo-accessrequests,1.0.0a5,15,blinker (>=1.4)$Flask-BabelEx (>=0.9.2)$Flask-Breadcrumbs (>=0.4.0)$Flask (>=1.0.2)$invenio-access (>=1.0.0a11)$invenio-accounts (>=1.0.0b1)$invenio-db (>=1.0.0b3)$invenio-files-rest (>=1.0.0a14)$invenio-formatter (>=1.0.0a2)$invenio-i18n (>=1.0.0b1)$invenio-mail (>=1.0.0a5)$invenio-pidstore (>=1.0.0b1)$invenio-records (>=1.0.0b1)$itsdangerous (>=1.1.0)$WTForms (>=2.0)
+zope-app-component,4.1.0,15,setuptools$zope.site$zope.app.container (>=4.0)$zope.app.pagetemplate (>=4.0)$zope.component[hook,zcml] (>=4.3.0)$zope.deprecation$zope.exceptions$zope.formlib$zope.i18nmessageid$zope.interface$zope.publisher (>=4.3.1)$zope.schema$zope.security$zope.traversing$zope.componentvocabulary
+zvt,0.10.4,15,requests (==2.20.1)$SQLAlchemy (==1.4.20)$pandas (==1.1.4)$arrow (==1.2.1)$xlrd (==1.2.0)$demjson3 (==3.0.5)$marshmallow-sqlalchemy (==0.23.1)$marshmallow (==3.2.2)$plotly (==4.12.0)$dash (==1.17.0)$simplejson (==3.16.0)$jqdatapy (==0.1.6)$dash-bootstrap-components (==0.11.0)$dash-daq (==0.5.0)$scikit-learn (==1.0.1)
+zillionare-omicron,1.1.7,15,Cython (>=0.29.24,<0.30.0)$aiohttp (==3.7.4)$arrow (>=1.2,<2.0)$asyncpg (==0.21.0)$cfg4py (>=0.9)$deprecated (>=1.2.12,<2.0.0)$gino (==1.0.1)$idna (>=3.3,<4.0)$mkdocs-material-extensions (>=1.0.1,<2.0.0)$numpy (>=1.21.0,<1.22.0)$pybind11 (>=2.8.1,<3.0.0)$pyemit (>=0.5,<0.6)$scikit-learn (==1.0.1)$scipy (==1.7.2)$sh (==1.14.1)
+zcls,0.15.2,15,albumentations (>=1.0.3)$Pillow-SIMD (>=7.0.0.post3)$lmdb (>=1.2.1)$numpy (>=1.21.0)$opencv-python (>=4.5.3.56)$psutil (>=5.8.0)$resnest (==0.0.6b20210114)$six (>=1.16.0)$tabulate (>=0.8.7)$thop (>=0.0.31.post2005241907)$torch (>=1.10.0)$torchvision (>=0.11.1)$tqdm (>=4.56.0)$yacs (>=0.1.8)$tensorboard (>=2.5.0)
+zc-form,1.1,15,pytz$setuptools$six$zc.sourcefactory$zope.browserpage$zope.cachedescriptors$zope.catalog$zope.component (>=3.8)$zope.exceptions$zope.formlib (>=4.0)$zope.index$zope.interface$zope.publisher$zope.schema (>=3.6)$zope.security
+zope-app-wsgi,4.4,14,setuptools$ZConfig$transaction$zope.app.appsetup (>=4.0)$zope.processlifetime$zope.app.publication (>=4.0)$zope.event$zope.interface$zope.publisher (>=4.0.0a3)$zope.security (>4.0.0a2)$zope.component$zope.container (>=4.0.0a1)$zope.site (>=4.0.0a1)$zope.traversing (>=4.0.0a1)
+ztf-plan-obs,0.34,14,numpy$astropy$astroquery$coveralls$astroplan (>=0.7)$pandas$penquins$matplotlib$flask$ztfquery (>=1.15.7)$lxml$html5lib$shapely$geopandas
+zpy-zumo,1.4.0,14,numpy (==1.19.4)$gin-config (==0.3.0)$versioneer$scikit-image (==0.18.1)$shapely (==1.7.1)$ptvsd (==4.3.2)$seaborn (==0.11.0)$zmq$pyyaml$requests$click$table-logger (==0.3.6)$tqdm$pydash
+zhmc-ansible-modules,0.8.4,14,ansible (>=2.4.0.0)$pbr (>=1.10.0)$requests (>=2.20.0)$certifi (>=2017.4.17)$zhmcclient (>=0.20.0)$packaging (>=20.0)$cryptography (<3.1,>=3.0) ; (python_version <= '3.5')$bcrypt (<3.2.0,>=3.0.0) ; (python_version <= '3.5')$PyYAML (>=5.1) ; (python_version == '2.7')$PyYAML (<5.3,>=5.1) ; (python_version == '3.4')$PyYAML (>=5.1) ; (python_version >= '3.5' and python_version <= '3.7')$cryptography (>=3.2) ; (python_version >= '3.6')$bcrypt (>=3.2.0) ; (python_version >= '3.6')$PyYAML (>=5.1.2) ; (python_version >= '3.8')
+zc-relationship,2.1,14,ZODB3 (>=3.8dev)$zope.app.container$zope.app.intid$zope.interface$zope.component$zope.app.keyreference$zope.location$zope.index$zc.relation (>=1.1)$zope.app.testing$zope.app.component$zope.testing$six$setuptools
+zc-catalog,3.0,14,BTrees (>=4.4.1)$persistent$pytz$setuptools$zope.catalog (>=4.2.1)$zope.component (>=4.3.0)$zope.container (>=4.1.0)$zope.i18nmessageid (>=4.1.0)$zope.index (>=4.3.0)$zope.interface (>=4.4.0)$zope.intid (>=4.2.0)$zope.publisher (>=3.12)$zope.schema (>=4.4.2)$zope.security (>=4.1.0)
+zope-app-publisher,4.3.1,14,setuptools$zope.browsermenu$zope.browserpage$zope.browserresource$zope.component$zope.configuration$zope.datetime$zope.interface$zope.location$zope.ptresource$zope.publisher (>=3.12)$zope.schema$zope.security$zope.componentvocabulary
+zbuilder,0.0.38,14,ansible (>=6.4.0,<7.0.0)$click (>=8,<9)$ruamel.yaml (>=0.17,<0.18)$Jinja2 (>=3.0,<4.0)$delegator.py (>=0.1.1,<0.2.0)$colorama (>=0.4,<0.5)$retrying (>=1.3,<2.0)$requests (>=2,<3)$tabulate (>=0.8,<0.9)$arrow (>=1.1,<2.0)$PyJWT (>=2.5.0,<3.0.0)$dpath (>=2.0,<3.0)$dnspython (>=2,<3)$massedit (>=0.69,<0.70)
+zrp,0.3.3,14,category-encoders (==2.3.0)$CensusData (==1.15)$feature-engine (==1.2.0)$fastparquet$joblib (==1.2.0)$numpy$pandas (==1.2.5)$plac (==1.3.4)$pyarrow (==7.0.0)$pycm (==3.3)$scikit-learn (==1.0.2)$surgeo (==1.1.2)$tqdm (==4.46.0)$xgboost (==1.0.2)
+zhujunhua-common,0.0.3,14,bleach (==3.1.0)$certifi (==2019.3.9)$chardet (==3.0.4)$configparser (==3.7.4)$docutils (==0.14)$Logbook (==1.4.3)$Pygments (==2.4.2)$readme-renderer (==24.0)$requests (==2.22.0)$requests-toolbelt (==0.9.1)$tqdm (==4.32.1)$twine (==1.13.0)$urllib3 (==1.25.3)$webencodings (==0.5.1)
+zoomfoundry,6.20.0,14,PyMySQL$bcrypt (>=1.1.1)$passlib (>=1.7.1)$markdown (>=2.6.1)$Pillow (>=1.0)$faker$docopt$werkzeug$croniter$pypugjs (>=5.9.1)$libsass (>=0.19.4)$pytz (==2020.1)$pytzdata (==2019.3)$requests (>=2.25.1)
+zds-schema,0.22.0,14,django$django-choices$django-filter (>=2.0)$djangorestframework-camel-case$drf-yasg$drf-nested-routers$gemma-zds-client (>=0.9.3)$iso-639$isodate$oyaml$PyJWT$pyyaml$requests$unidecode
+zeldarose,0.6.0,13,click (<9.0.0,>=8.0.4)$datasets (<2.5,>=2.2)$filelock$loguru$pydantic$pytorch-lightning (<1.7.0,>=1.5.6)$rich$sacremoses$torch (<1.13,>1.8)$torchmetrics (<1.0,>=0.9)$tokenizers (~=0.10)$toml$transformers (<5.0.0,>=4.0.0)
+z3c-table,2.2,13,setuptools$future (>=0.14.0)$z3c.batching (>=1.1.0)$zope.component$zope.contentprovider$zope.dublincore$zope.i18nmessageid$zope.i18n$zope.interface$zope.location$zope.schema$zope.security$zope.traversing
+zope-app-security,5.1.0,13,setuptools$zope.app.localpermission$zope.app.pagetemplate$zope.app.publisher$zope.authentication$zope.i18n$zope.i18nmessageid$zope.interface$zope.principalregistry$zope.publisher (>=4.3.1)$zope.security$zope.securitypolicy$zope.login
+zeronetx,0.0.1,13,msgpack (>=0.4.4)$base58$merkletools$rsa$PySocks (>=1.6.8)$pyasn1$websocket-client$gevent-ws$coincurve$maxminddb$gevent (==1.4.0) ; python_version <= "3.6"$greenlet (==0.4.16) ; python_version <= "3.6"$gevent (>=20.9.0) ; python_version >= "3.7"
+zalando-kubectl,1.21.5.149,13,PyJWT (<3.0,>=2.0)$PyYAML (>=3.11)$click (>=7.0.0)$clickclick (>=1.2.1)$humanize$natsort (>=6.0.0)$python-dateutil$requests[security]$setuptools (>=30)$stups-cli-support$stups-piu (>=1.2.1)$stups-zign (>=1.0.23)$zalando-aws-cli (<2,>=1.2.7.35)
+zope-app-pagetemplate,4.0.0,13,setuptools$zope.browserpage (>=3.12.0)$zope.component[hook]$zope.configuration$zope.dublincore$zope.i18nmessageid$zope.interface$zope.pagetemplate (>=3.5.1)$zope.schema$zope.security$zope.size$zope.tales$zope.traversing
+zope-app-rotterdam,4.0.1,13,setuptools$zope.app.basicskin (>=4.0)$zope.app.pagetemplate (>=4.0)$zope.component$zope.container$zope.formlib$zope.i18n$zope.i18nmessageid$zope.interface$zope.proxy$zope.publisher (>=4.3.1)$zope.security$zope.traversing
+zhiweimorgenexamplehahaha,0.0.0,13,numpy$pandas$scipy$matplotlib$seaborn$pytest$sphinx$sphinx-rtd-theme$tk$yapf$pylint$spyder$jupyterlab
+zdutil,0.0.3,13,boto3 (==1.9.111)$botocore (==1.12.111)$docutils (==0.14)$jmespath (==0.9.4)$numpy (==1.16.2)$pandas (==0.24.1)$pyarrow (==0.12.1)$python-dateutil (==2.8.0)$pytz (==2018.9)$s3fs (==0.2.0)$s3transfer (==0.2.0)$six (==1.12.0)$urllib3 (==1.24.1)
+zope-viewlet,4.3,13,setuptools$zope.browserpage$zope.component$zope.configuration$zope.contentprovider$zope.event$zope.i18nmessageid$zope.interface$zope.location$zope.publisher$zope.schema$zope.security$zope.traversing
+zebrazoom,1.33.6,13,scikit-learn$h5py$numpy$matplotlib (>=3.5.2)$scipy$pandas (!=1.3.*)$openpyxl$filterpy$opencv-python-headless (<4.5.1.48)$xlrd (>=2.0.1)$seaborn$PyQt5 (>=5.15.0)$xlwt
+zktraffic,0.2.0,13,ansicolors$dpkt (==1.9.2)$hexdump$psutil (==5.6.1)$scapy (==2.4.2)$six (==1.12.0)$tabulate$twitter.common.app (==0.3.11)$twitter.common.collections (==0.3.11)$twitter.common.decorators (==0.3.11)$twitter.common.exceptions (==0.3.11)$twitter.common.http (==0.3.11)$twitter.common.log (==0.3.11)
+zephir,1.0.3,13,dataclasses (>=0.6docopt>=0.6.2)$Flask (>=2.1.2)$gevent (>=21.12.0)$h5py (>=3.6.0)$matplotlib (>=3.5.2)$numpy (>=1.22.4)$opencv-python (>=4.5.5.64pandas>=1.4.2)$scikit-image (>=0.19.2)$scikit-learn (>=1.0.2)$scipy (>=1.7.3)$setuptools (>=61.2.0)$torch (>=1.10.0)$tqdm (>=4.64.0)
+zbpy,0.1.1,12,pandas (>=1.0.5)$numpy (>=1.19.0)$grpcio (>=1.29.0)$grpcio-tools (>=1.29.0)$phonenumbers (>=8.12.5)$ipython (>=6.4.0)$ipython-genutils (>=0.2.0)$protobuf (>=3.12.2)$packaging (>=17.1)$fastecdsa (>=2.1.2) ; platform_system == "Darwin"$fastecdsa (>=2.1.2) ; platform_system == "Linux"$starkbank-ecdsa (>=1.0.0) ; platform_system == "Windows"
+zero,0.9.1,12,numpy (>=1.15.2)$scipy (>=1.1.0)$matplotlib (>=3.0.3)$requests (>=2.19.1)$progressbar2 (>=3.38.0)$tabulate (>=0.8.2)$setuptools-scm (>=3.1.0)$ply (>=3.11)$Click (==7.0)$quantiphy (>=2.5.0)$PyYAML (>=3.13)$graphviz (>=0.9)
+zetane,1.7.4,12,pynng$matplotlib$opencv-python$cmake$tqdm$Pillow$scikit-learn$lime$onnxconverter-common$protobuf (<3.20,>=3.12)$tf2onnx$onnx
+zlibrary,0.0.6,12,aiodns$aiohttp$aiohttp-socks$beautifulsoup4$bs4$cchardet$cffi$Brotli$lxml$ujson$idna$yarl
+zombie-core,0.0.2,12,scrapy$scrapyd$scrapyd-client$scrapy-redis$pyquery$redis$requests$pymysql$sqlalchemy$logzero$happybase$tld
+zope-app-i18n,4.1.0,12,BTrees (>=4.4.1)$persistent (>=4.2.4)$setuptools$zope.app.publisher (>=4.0.0)$zope.component (>=4.3.0)$zope.configuration$zope.container (>=4.1.0)$zope.i18n (!=4.5.*,!=4.6.*,>=4.2.0)$zope.i18nmessageid (>=4.1.0)$zope.interface (>=3.8.0)$zope.publisher (>=4.3.2)$zope.security
+zippyshare-generator,0.29,12,argparse$bs4$clipboard$configparser$configset$idm$js2py$make-colors (>=3.12)$parserheader$pydebugger$pywget$requests
+zope-browsermenu,4.4,12,setuptools$six$zope.browser$zope.component (>=3.7)$zope.configuration$zope.i18nmessageid$zope.interface$zope.pagetemplate (>=3.5)$zope.publisher (>=4.2.1)$zope.schema$zope.security$zope.traversing (>3.7)
+zope-catalog,4.4.1,12,setuptools$persistent$BTrees$zope.annotation$zope.intid$zope.component (>=3.8)$zope.container$zope.index (>=3.5.0)$zope.interface$zope.lifecycleevent$zope.location$zope.schema
+zen-knit,0.2.5,12,ipython (>=7.0)$pydantic (>=1.8.2,<2.0.0)$jupyter-client (>=7.1.0,<8.0.0)$click (>=8.0.3,<9.0.0)$nbformat (>=5.1.3,<6.0.0)$nbconvert (>=6.0.0)$Markdown (>=3.3.6,<4.0.0)$ipykernel (>=6.0.0)$SQLAlchemy (>=1.4.29,<2.0.0)$joblib (>=1.1.0,<2.0.0)$oyaml (>=1.0,<2.0)$requests (>=2.27.1,<3.0.0)
+zope-app-publication,4.5,12,six$zope.interface$zope.authentication$zope.component$zope.error$zope.browser (>=1.2)$zope.location$zope.publisher (>=4.0.0a2)$zope.traversing (>=4.0.0a2)$zope.i18n (>=4.0.0a3)$transaction (>=1.1.0)$setuptools
+zope-dublincore,4.3.0,12,persistent$pytz$setuptools$six$zope.annotation$zope.component[zcml]$zope.datetime$zope.interface$zope.lifecycleevent$zope.location$zope.schema$zope.security[zcml] (>=3.8)
+zpov,1.2.0,11,attrs$flask$flask-httpauth$houdini.py$misaka$path.py$pygments$pynacl$pygit2$ruamel.yaml$whoosh
+ztrack,0.4.1,11,click (>=8.0.1,<9.0.0)$decord (>=0.6.0,<0.7.0)$matplotlib (>=3.4.2,<4.0.0)$opencv-python (>=4.5.2,<5.0.0)$pandas (>=1.3.0,<2.0.0)$PyQt5 (>=5.15.4,<6.0.0)$pyqtgraph (>=0.12.2,<0.13.0)$qtmodern (>=0.2.0,<0.3.0)$scikit-image (>=0.18.2,<0.19.0)$tables (>=3.6.1,<4.0.0)$tqdm (>=4.61.2,<5.0.0)
+zfista,0.0.1,11,numpy$scipy$jupyter$tqdm$matplotlib$line-profiler$joblib$scikit-image$sklearn$PyWavelets$SciencePlots
+zeroml,0.4.0,11,Jinja2 (==3.0.0)$Pillow (>=9.0.1,<10.0.0)$albumentations[imgaug] (>=1.1.0,<2.0.0)$click (>=8.0.1,<9.0.0)$fsspec (>=2022.1.0,<2023.0.0)$mkdocs-material-extensions (>=1.0.1,<2.0.0)$neptune-client (>=0.14.3,<0.15.0)$pandas (>=1.4.1,<2.0.0)$timm (>=0.5.4,<0.6.0)$torch (>=1.10.0,<2.0.0)$torchvision (>=0.11.3,<0.12.0)
+zyl-utils,0.1.4,11,tqdm$transformers$torch$wandb$loguru$langid$matplotlib$numpy$pandas$typing$simpletransformers
+zoobot,0.0.4,11,tqdm$pillow$numpy$pandas$scipy$scikit-image (>=0.19.2)$scikit-learn (>=1.0.2)$matplotlib$pyarrow$statsmodels$wandb
+zygoat,1.19.0,11,click (>=8.0.1,<9.0.0)$colorama (>=0.4.4,<0.5.0)$ruamel.yaml (>=0.17.10,<0.18.0)$python-box[all] (>=5.3.0,<6.0.0)$virtualenv (>=20.7.0,<21.0.0)$redbaron (>=0.9.2,<0.10.0)$requests (>=2.26.0,<3.0.0)$rtd-poetry (>=0.1.0,<0.2.0)$semver (>=2.13.0,<3.0.0)$toml (>=0.10.2,<0.11.0)$importlib-metadata (>=4.11.3,<5.0.0)
+zope-securitypolicy,4.3.2,11,persistent$setuptools$zope.annotation$zope.authentication$zope.component$zope.configuration$zope.i18nmessageid$zope.interface (>=3.8)$zope.location$zope.schema$zope.security
+zvi,1.0.0,11,cmake$zvi-client$pandas$matplotlib$opencv-python$Pillow$ipython$scikit-learn$bokeh$holoviews$MulticoreTSNE
+zsvision,0.7.12,11,numpy$msgpack$msgpack-numpy$typeguard$scipy$mergedeep$humanize$matplotlib$beartype (>=0.3.2)$hickle (>=4.0.0)$pyyaml
+zhaws,2022.2.13,11,colorlog$pydantic$websockets$voluptuous$zigpy (==0.43.0)$bellows (==0.29.0)$zha-quirks (==0.0.66)$zigpy-deconz (==0.14.0)$zigpy-xbee (==0.14.0)$zigpy-zigate (==0.8.0)$zigpy-znp (==0.7.0)
+zonarpy,0.0.20,11,xarray$numpy$pandas$datetime$matplotlib$astral$simplekml$requests$mayavi$plotly$netCDF4
+zc-resourcelibrary,2.1.0,11,setuptools$zope.browserpage$zope.browserresource$zope.component$zope.configuration$zope.interface$zope.publisher$zope.security$zope.site$zope.tales$zope.traversing
+zope-traversing,4.4.1,11,setuptools$six$transaction$zope.component$zope.i18n$zope.i18nmessageid$zope.interface (>=4.0.4)$zope.location (>=3.7.0)$zope.proxy$zope.publisher$zope.security
+zulip-term,0.7.0,11,beautifulsoup4 (>=4.10.0)$lxml (>=4.7.1)$pygments (>=2.11.2)$pyperclip (>=1.8.1)$python-dateutil (>=2.8.2)$pytz (>=2022.1)$typing-extensions (>=3.7)$tzlocal (>=2.1)$urwid-readline (>=0.13)$urwid (~=2.1.2)$zulip (>=0.8.2)
+zhmc-prometheus-exporter,1.3.2,11,zhmcclient (>=1.4.0)$prometheus-client (>=0.9.0)$jsonschema (>=2.6.0)$PyYAML (>=5.3.1)$pyrsistent (>=0.14.0)$urllib3 (>=1.25.9) ; python_version <= "3.9"$six (>=1.14.0) ; python_version <= "3.9"$Jinja2 (>=2.8) ; python_version <= "3.9"$urllib3 (>=1.26.5) ; python_version >= "3.10"$six (>=1.16.0) ; python_version >= "3.10"$Jinja2 (>=2.10.2) ; python_version >= "3.10"
+zimscraperlib,1.8.0,11,iso-639 (==0.4.5)$requests (<3.0,>=2.25.1)$colorthief (==0.2.1)$python-resize-image (<1.2,>=1.1.19)$Babel (<3.0,>=2.9)$file-magic (<0.5,>=0.4.0)$libzim (<1.2,>=1.1.0)$beautifulsoup4 (<4.10,>=4.9.3)$lxml (<4.10,>=4.6.3)$optimize-images (<1.6,>=1.3.6)$youtube-dl
+zillionare-ths-boards,0.2.2,11,fire (==0.4.0)$mkdocs-material-extensions (>=1.0.3,<2.0.0)$livereload (>=2.6.3,<3.0.0)$pyreadline (>=2.1,<3.0)$zarr (>=2.13.0,<3.0.0)$akshare (>=1.7.29,<2.0.0)$arrow (>=1.2.3,<2.0.0)$retry (>=0.9.2,<0.10.0)$APScheduler (>=3.9.1,<4.0.0)$sanic (>=22.6.2,<23.0.0)$httpx (>=0.23.0,<0.24.0)
+zillionare-em,0.1.1,11,fire (==0.4.0)$arrow (>=1.1.1,<2.0.0)$pyppeteer (>=0.2.2,<0.3.0)$hacktcha (==0.2.2)$pillow (>=8.2,<9.0)$aiohttp (>=3.7.4,<4.0.0)$aiofiles (>=0.7.0,<0.8.0)$websockets (>=8.1.0,<9.0.0)$sanic (>=21.3.4,<22.0.0)$pyee (>=7.0.4,<8.0.0)$mkdocs-material-extensions (>=1.0.1,<2.0.0)
+zeo,5.3.0,10,ZODB (>=5.1.1)$six$transaction (>=2.0.3)$persistent (>=4.1.0)$zc.lockfile$ZConfig$zdaemon$zope.interface$futures ; python_version == "2.7"$trollius ; python_version == "2.7"
+zdb-analysis,0.1.7,10,future (>=0.17.1)$numexpr (>=2.6.9)$numpy (>=1.16.2)$oyaml (>=0.8)$pandas (>=0.24.2)$pysge (>=0.1.1)$conpy (>=0.1.0)$PyYAML (>=4.2b1)$tables (>=3.5.1)$tqdm (>=4.31.1)
+zenoml,0.2.2,10,pandas (>=1.4.0,<2.0.0)$pyarrow (>=9.0.0,<10.0.0)$uvicorn (>=0.17.5,<0.20.0)$fastapi (>=0.75,<0.86)$websockets (>=10.2,<11.0)$tqdm (>=4.64.0,<5.0.0)$tomli (>=2.0.1,<3.0.0)$requests (>=2.28.1,<3.0.0)$scikit-learn (>=1.1.2,<2.0.0)$types-setuptools (>=65.4.0,<66.0.0)
+zax,0.6,10,appdirs (>=1.4.3)$cssutils (>=2.3.0)$iniparse (>=0.5)$loguru (>=0.5.3)$packaging (>=20.4)$pefile (>=2021.9.3)$py7zr (>=0.16.3)$PySimpleGUIQt (>=0.35.0)$requests (>=2.22.0)$ruamel.yaml (>=0.16.10)
+ziptool,0.0.1,10,us (>=2.0.2,<3.0.0)$pandas (>=1.4.1,<2.0.0)$Rtree (>=0.9.7,<0.10.0)$wquantiles (>=0.6,<0.7)$requests (>=2.27.1,<3.0.0)$fastparquet (>=0.8.0,<0.9.0)$numpy (>=1.22.3,<2.0.0)$geopandas (>=0.10.2,<0.11.0)$matplotlib (>=3.5.1,<4.0.0)$ipumspy (>=0.1.0,<0.2.0)
+z3c-layer-pagelet,2.1,10,setuptools$z3c.pagelet$z3c.template$zope.authentication$zope.browser (>=1.2)$zope.browserresource$zope.component$zope.interface$zope.login$zope.publisher (>=3.12)
+zope-browserresource,4.4,10,zope.component (>=3.8.0)$zope.configuration$zope.contenttype (>=4.0.1)$zope.i18n$zope.interface$zope.location$zope.publisher (>=3.8)$zope.schema$zope.traversing (>3.7)$setuptools
+zope-mimetype,2.5.1,10,setuptools$zope.component$zope.configuration$zope.contenttype (>=3.5)$zope.event$zope.i18n$zope.i18nmessageid$zope.interface$zope.schema$zope.security
+zgw-consumers,0.22.0,10,django (>=3.2.0)$django-choices$django-relativedelta$django-solo$gemma-zds-client (>=1.0.1)$django-simple-certmanager$requests$pyopenssl$Faker (>=0.7.0)$requests-mock
+z2pack,2.2.0,10,numpy$scipy$decorator$blessings$sortedcontainers$msgpack-python$fsc.locker$fsc.export$fsc.formatting$fsc.iohelper
+zpy-flask-msc,0.0.1,10,pycryptodome$pycryptodomex$Flask$flask-rest-api$Flask-RESTful$marshmallow$python-dotenv$flask-cors$cx-Oracle$marshmallow-objects
+zeep-bold,3.6.0,10,appdirs (>=1.4.0)$attrs (>=17.2.0)$cached-property (>=1.3.0)$defusedxml (>=0.4.1)$isodate (>=0.5.4)$lxml (>=3.1.0)$requests (>=2.7.0)$requests-toolbelt (>=0.7.1)$six (>=1.9.0)$pytz
+zuper-ipce-z7,7.3.2202161758,10,PyYAML$base58 (<2.0,>=1.0.2)$cbor2 (<6,>=5)$numpy$oyaml (>=0.9)$py-cid (==0.3.0)$py-multihash (<1.0.0)$validate-email$zuper-commons-z7$zuper-typing-z7
+zope-intid,4.4.0,10,persistent$BTrees$setuptools$zope.lifecycleevent (>=3.5.2)$zope.component$zope.event$zope.interface$zope.keyreference$zope.location (>=3.5.4)$zope.security
+zope-browserpage,4.4.0,10,setuptools$zope.component (>=3.7)$zope.configuration$zope.interface$zope.pagetemplate$zope.publisher (>=3.8)$zope.schema$zope.security$zope.tal (>=4.2.0)$zope.traversing
+zope-testbrowser,5.6.1,10,setuptools$zope.interface$zope.schema$zope.cachedescriptors$pytz$WebTest (>=2.0.30)$BeautifulSoup4$SoupSieve (>=1.9.0)$WSGIProxy2$six
+zope-site,4.6.1,10,setuptools$zope.annotation$zope.container$zope.deprecation$zope.security$zope.component (>=4.5.0)$zope.event$zope.interface (>=4.5.0)$zope.lifecycleevent$zope.location
+zope-copypastemove,4.2.1,10,setuptools$zope.annotation$zope.component$zope.container$zope.copy$zope.event$zope.exceptions$zope.interface$zope.lifecycleevent$zope.location
+zc-events,0.3.10,10,boto3 (>=1.4.7)$celery (>=3.1.10)$inflection (<0.4,>=0.3.1)$pika (<0.11.0,>=0.10.0)$pika-pool (<0.1.4,>=0.1.3)$redis (<2.11.0,>=2.10.5)$ujson (<1.36,>=1.35)$zc-common (>=0.4.1)$pyjwt (<2.0.0,>=1.4.0)$six (>=1.10.0)
+zshot,0.0.5,10,spacy (>=3.4.1)$requests (>=2.28)$tqdm (>=4.62.3)$setuptools (~=60.0.0)$prettytable (>=3.4)$torch (>=1)$transformers (>=4.20)$datasets (>=2.3.0)$evaluate (>=0.3.0)$seqeval (>=1.2.2)
+zope-app-renderer,4.1.0,10,docutils (>=0.5)$roman$setuptools$zope.component$zope.configuration$zope.i18nmessageid$zope.interface$zope.publisher$zope.schema$zope.structuredtext
+zrhappy,0.3,10,scipy$numpy$matplotlib (>=3.0.0)$scikit-image$numba$skan$toolz$matplotlib-scalebar$networkx$jupyter
+zc-intid,2.1.0,9,setuptools$BTrees$zope.component$zope.event$zope.interface$zope.security$zope.lifecycleevent$zope.intid (>=4.2)$zope.keyreference
+zope-app-tree,4.1.0,9,setuptools$zope.container$zope.component$zope.interface$zope.location$zope.publisher$zope.schema$zope.security$zope.traversing
+zlmdb,22.6.1,9,cffi (>=1.14.5)$cbor2 (>=5.2.0)$click (>=7.1.2)$flatbuffers (>=2.0)$lmdb (>=1.2.1)$pynacl (>=1.4.0)$pyyaml (>=5.4.1)$txaio (>=21.2.1)$numpy (>=1.20.1)
+zuppa,0.0.2,9,BenBotAsync$FortniteAPIAsync$PirxcyPinger$aiohttp$colorama$crayons$fortnitepy (==3.6.7)$requests$sanic (==21.6.2)
+zoho-inventory-prefect-tasks,0.0.4,9,requests (>=2.25.1)$jsonmerge (>=1.8.0)$versioneer (~=0.19)$setuptools (>=58.5.3)$pytest (>=6.1.0)$prefect (==0.15.11)$zoho-inventory-python-sdk (>=0.0.8)$boto3 (>=1.24.53)$botocore (>=1.27.53)
+zoinks,0.0.5,9,aenum (==3.1.0)$appscript (==1.1.2)$commonpy (==1.8.1)$plac (==1.3.3)$requests (==2.25.1)$sidetrack (==2.0.0)$setuptools (==58.3.0)$uritools (==3.0.0)$pytest (==6.2.5)
+zope-app-applicationcontrol,4.1.0,9,setuptools$ZODB$zope.applicationcontrol (>=4.0.1)$zope.component$zope.i18n$zope.i18nmessageid$zope.interface$zope.size$zope.traversing (>=3.7.0)
+zz-spider,1.0.0,9,requests (>=2.22.0)$pika (>=1.2.0)$retrying (>=1.3.3)$environs (==9.4.0)$confluent-kafka (==1.8.2)$kafka (==1.3.5)$kafka-python (==2.0.2)$pykafka (==2.8.0)$loguru (==0.5.3)
+zeep,4.2.0,9,attrs (>=17.2.0)$isodate (>=0.5.4)$lxml (>=4.6.0)$platformdirs (>=1.4.0)$requests (>=2.7.0)$requests-toolbelt (>=0.7.1)$requests-file (>=1.5.1)$pytz$cached-property (>=1.3.0) ; python_version < "3.8"
+zeep-adv,1.4.4,9,pytz$appdirs (>=1.4.0)$cached-property (>=1.3.0)$defusedxml (>=0.4.1)$isodate (>=0.5.4)$lxml (>=3.0.0)$requests (>=2.7.0)$requests-toolbelt (>=0.7.1)$six (>=1.9.0)
+zato-enclog,1.0.7,9,bunch (>=1.0.1)$click (>=6.2)$coverage (>=3.7.1)$cryptography (>=1.1.1)$flake8 (>=2.1.0)$future (>=0.15.2)$nose (>=1.3.3)$tailer (>=0.4)$testfixtures (>=4.6.0)
+zucchini,2.1.1,9,click (==6.7)$gitdb2 (==2.0.3)$GitPython (==2.1.8)$PyYAML (==5.4)$smmap2 (==2.0.3)$requests (==2.20.0)$boto3 (==1.5.19)$arrow (==0.12.1)$subprocess32 (==3.2.7) ; python_version < "3.0"
+zspider,1.0.2,9,zssdb (>=0.1.1)$zsingleton$zretry (>=0.1.1)$zinifile (>=1.0.4)$requests$zlogger (>=0.1.1)$zconst$lxml$msgpack (>=0.6.1)
+zsl,0.24.0,9,SQLAlchemy (<1.4,>=1.3)$Werkzeug (<0.17,>=0.15)$flask (<1.2,>=1.1)$future$injector (==0.12.1)$markupsafe (==2.0.1)$python3-gearman$requests (>=2.22)$typing (>=3.7)
+zardoz,1.1.0,9,discord.py$disputils$rich$dice$pyyaml$xdg$aiofiles$aiosql$aiosqlite
+zensols-deeplearn,1.5.2,9,numpy (~=1.23.1)$scipy (~=1.8.1)$scikit-learn (~=1.1.2)$pandas (~=1.4.0)$matplotlib (~=3.5.2)$torch (~=1.12.1)$torchvision$zensols.install (~=0.1.0)$zensols.util (~=1.11.1)
+zensols-deepnlp,1.5.0,9,gensim (~=4.1.2)$h5py (>=3.3.0)$transformers (~=4.19.4)$huggingface-hub$sentence-transformers (~=2.2.2)$sentencepiece (~=0.1.97)$protobuf (~=3.20.1)$zensols.nlp (~=1.4.0)$zensols.deeplearn (~=1.5.0)
+zensols-dltools,0.0.3,9,scipy (==1.3.1)$matplotlib (==3.1.1)$numpy (==1.17.2)$pytools (==2019.1.1)$pycuda (==2019.1.2)$torch (==1.2.0)$torch-testing (==0.0.2)$torchvision (==0.4.0)$zensols.actioncli (>=1.0.17)
+zuul-registry,1.2.0,9,PyYAML$cherrypy$openstacksdk$pbr (>=1.1.0)$pyjwt (<3.0.0,>=2.0.0)$python-dateutil$rehash$requests$routes
+zprocess,2.21.0,9,pyzmq (>=18.0)$setuptools-scm (>=4.1.0)$importlib-metadata ; python_version < "3.8"$ipaddress ; python_version == "2.7"$subprocess32 ; python_version == "2.7"$enum34 ; python_version == "2.7"$pathlib ; python_version == "2.7"$pywin32 ; sys_platform == "win32"$windows-curses ; sys_platform == "win32"
+zentra,0.1.0,9,anyio (==3.6.1)$certifi (==2022.9.24)$h11 (==0.12.0)$httpcore (==0.15.0)$httpx (==0.23.0)$idna (==3.4)$rfc3986 (==1.5.0)$sniffio (==1.3.0)$websockets (==10.3)
+zeroae-goblet,0.0.1,9,chalice (>=1.13)$click (>=7.0)$click-plugins$entrypoints$environs$jinja2 (<3,>=2.9)$octokitpy (<0.14,>=0.13.0)$PyPubSub (<5,>=4.0.3)$python-dateutil
+zope-pagetemplate,4.6.0,9,setuptools$six$zope.interface$zope.component$zope.tales$zope.tal (>=4.2.0)$zope.i18n (>=4.0.1)$zope.i18nmessageid$zope.traversing
+zangorth-ramsey,1.1.5,9,pandas$numpy$SQLAlchemy$pytube$pyodbc$youtube-transcript-api$librosa$pydub$streamlit
+zetsubou,0.6.4,9,colorama$conan$fs$platformdirs$typing-inspect$typing-extensions$bentoudev.dataclass$importlib-resources$tomli ; python_version < "3.11"
+zlodziej-crawler,0.1.1,9,pydantic (>=1.6.1,<2.0.0)$requests (>=2.24.0,<3.0.0)$bs4 (>=0.0.1,<0.0.2)$python-dateutil (>=2.8.1,<3.0.0)$Unidecode (>=1.1.1,<2.0.0)$tqdm (>=4.50.2,<5.0.0)$lxml (>=4.5.2,<5.0.0)$click (>=7.1.2,<8.0.0)$Pygments (>=2.7.1,<3.0.0)
+zevit-aih-sdk,0.5.9,8,numpyencoder$pandas$numpy$requests$requests-oauthlib$oauthlib$pickleshare$Pillow
+z3c-macro,2.3,8,setuptools$zope.component$zope.configuration$zope.interface$zope.pagetemplate (>=3.6.2)$zope.publisher$zope.schema$zope.tales
+z3c-template,3.2,8,setuptools$zope.browserpage$zope.component$zope.configuration (>=4.2.0)$zope.interface$zope.pagetemplate$zope.publisher$zope.schema
+zbro1,0.22.231,8,crayons$fortnitepy$BenBotAsync$FortniteAPIAsync$uvloop$sanic (==21.6.2)$colorama$aiohttp
+z3c-testing,1.0.0,8,setuptools$zope.container$zope.site$zope.security$zope.component$zope.configuration$zope.interface (>=4.0.5)$zope.testing
+zigpy,0.51.5,8,aiohttp$aiosqlite (>=0.16.0)$crccheck$cryptography$voluptuous$yarl$pyserial-asyncio ; platform_system != "Windows"$pyserial-asyncio (!=0.5) ; platform_system == "Windows"
+zope-app-broken,4.2,8,setuptools$zope.deferredimport$zope.interface$zope.location$zope.security$zope.annotation$zope.processlifetime$ZODB (>=3.10.0a1)
+zope-app-dependable,4.1.0,8,setuptools$zope.annotation$zope.exceptions$zope.i18nmessageid$zope.interface$zope.lifecycleevent$zope.location$zope.traversing
+zope-app-exception,4.1.0,8,setuptools$zope.interface$zope.publisher (>=3.12)$zope.authentication$zope.browser (>=1.2)$zope.browserpage (>=3.11.0)$zope.component$zope.security
+zac,0.1.0,8,gdal (>=3.0.4,<4.0.0)$numpy (>=1.18.1,<2.0.0)$scipy (>=1.4.1,<2.0.0)$requests (>=2.23.0,<3.0.0)$pyproj (>=2.5.0,<3.0.0)$scikit-learn (>=0.22.2,<0.23.0)$psutil (>=5.7.0,<6.0.0)$numba (>=0.48.0,<0.49.0)
+z3c-rml,4.2.1,8,Pygments$backports.tempfile$lxml$pikepdf (>=3.0)$reportlab (>=3.5.0)$setuptools$zope.interface$zope.schema
+zope-contentprovider,4.2.1,8,setuptools$zope.component$zope.event$zope.interface (>=3.8)$zope.location$zope.publisher$zope.schema$zope.tales
+zalando-deploy-cli,1.0.10,8,boto3$clickclick$pystache$requests$stups-pierone$stups-zign$zalando-aws-cli (>=1.1.8)$zalando-kubectl (>=0.8)
+zincbase,0.10.1,8,matplotlib$networkx$numpy$scipy$sklearn$torch$torchvision$tqdm
+zuper-commons-z7,7.3.2202212224,8,aiofile$python-dateutil$pytz$setuptools$termcolor$typing-extensions$webcolors$xtermcolor
+zeus-mcmc,2.4.1,8,numpy$scipy (>=1.5.0)$tqdm$setuptools$pytest$matplotlib$seaborn$sklearn
+zonesender,4.3.5,8,beautifulsoup4 (==4.10.0)$grpcio (==1.44.0)$grpcio-tools (==1.44.0)$paho-mqtt (==1.6.1)$protobuf (==3.19.4)$six (==1.16.0)$soupsieve (==2.3.1)$orjson (==3.8)
+z3c-pt,3.3.1,8,setuptools$six$zope.interface$zope.component$zope.i18n (>=3.5)$zope.traversing$zope.contentprovider$Chameleon (>=2.4)
+z3c-password,1.1.0,8,setuptools$zope.component$zope.exceptions$zope.i18nmessageid$zope.i18n$zope.interface$zope.schema$zope.security
+zope-preference,4.1.0,8,setuptools$BTrees$zope.annotation$zope.component (>=3.8.0)$zope.container$zope.schema$zope.security$zope.traversing
+zy-aliyun-python-sdk,0.1.6,8,certifi (>=2019.6.16)$chardet (>=3.0.4)$decorator (>=4.4.0)$idna (>=2.8)$requests (>=2.22.0)$retry (>=0.9.2)$urllib3 (>=1.25.3)$xmltodict (>=0.12.0)
+zope-principalannotation,4.4,8,persistent (>=4.4.2)$setuptools$zope.annotation$zope.component (>=4.5.0)$zope.interface (>=4.5.0)$zope.location$zope.security$zope.site
+zeroinger,1.2.7,8,requests$logzero$arrow$configparser$pyexcel$pyahocorasick$dataclasses$python-dateutil
+zope-sendmail,5.3,8,setuptools$transaction$zope.i18nmessageid$zope.interface$zope.schema$zope.component (>=3.8.0)$zope.configuration$pywin32 ; sys_platform == "win32"
+zope-session,4.5,8,setuptools$ZODB (>=4.2.0.b1)$zope.component$zope.i18nmessageid (>=4.0.3)$zope.interface$zope.location$zope.publisher (>=4.1.0)$zope.minmax
+zillionare-omega-adaptors-jq,1.2,8,arrow (>=0.15)$ruamel.yaml (>=0.16)$numpy (>=1.8)$jqdatasdk (==1.8.9)$SQLAlchemy (<1.4,>=1.3.23)$pytz (>=2019.3)$cfg4py (>=0.8)$zillionare-core-types (>=0.5.1)
+zwnlp,0.0.16,8,protobuf (==3.6.1)$zwdb$zwutils$pyhanlp$stanza$langid$PyMuPDF$xlwt
+zdppy-fastapi,0.1.0,8,fastapi (>=0.73.0,<0.74.0)$peewee (>=3.14.8,<4.0.0)$html-table (>=1.0,<2.0)$pandas (>=1.4.1,<2.0.0)$orjson (>=3.6.7,<4.0.0)$sqlmodel (>=0.0.6,<0.0.7)$zdppy-log (>=0.1.2,<0.2.0)$PyMySQL (>=1.0.2,<2.0.0)
+zepid,0.9.1,8,pandas (>=0.18)$numpy$statsmodels (>=0.7.0)$matplotlib (>=2.0)$scipy$tabulate$scikit-learn$patsy
+zephyr-ml,0.0.0,8,numpy (<1.23.0,>=1.16.0)$pandas (<2,>=1)$composeml (<1.0,>=0.1.6)$featuretools (<2.0.0,>=1.0.0)$xlrd (<2,>=1.0.0)$jupyter (==1.0.0)$openpyxl (==3.0.3)$pyarrow
+zippyshare,0.3.0,8,lxml (>=0.0.1)$requests (>=0.0.1)$vpncmd (>=0.0.1)$sneaky (>=0.0.1)$omnitools (>=0.0.1)$aescipher (>=0.0.1)$easyrsa (>=0.0.1)$credsafe (>=0.0.1)
+zcmds,1.2.1,8,ytclip$pdf2image$ffmpeg-normalize$appdirs$PyQt6 (==6.3.1)$beepy$jsoncomment$zcmds-win32 (==1.0.0) ; platform_system == "Windows"
+zensols-nlp,1.4.1,8,spacy (~=3.2.0)$msgpack (>=1.0.0)$msgpack-numpy (>=0.4.7.1)$smart-open (>=4.0.1)$nltk (>=3.5)$python-Levenshtein$zensols.util (~=1.11.1)$interlap (~=0.2.7)
+zpy-api-core,1.5.0,8,Flask$flask-cors$marshmallow$marshmallow-objects$aws-lambda-wsgi$requests$Click$python-dateutil
+zcls2,0.5.3,8,Pillow (>=9.0.0)$numpy (>=1.22.3)$opencv-contrib-python (>=4.5.5.64)$tabulate (>=0.8.9)$timm (>=0.4.9)$torch (>=1.12.0)$torchvision (>=0.13.0)$yacs (>=0.1.8)
+zwdocs,0.0.2,8,loguru$zwutils$beautifulsoup4$PyMuPDF$numpy$opencv-python$matplotlib$Pillow
+zensols-garmdown,0.0.8,8,zensols.util (>=1.2.5)$Werkzeug (==0.16.0)$robobrowser (==0.5.3)$oauth2client (>=4.1.3)$httplib2 (>=0.12.0)$google-api-python-client (>=1.7.7)$google-auth (>=1.6.2)$google-auth-httplib2 (>=0.0.3)
+zbro2,0.22.228,8,crayons$fortnitepy$BenBotAsync$FortniteAPIAsync$uvloop$sanic (==21.6.2)$colorama$aiohttp
+zoia,0.2.1,8,bibtexparser (>=1.2.0)$click (>=7.1.2)$halo (>=0.0.30)$isbnlib (>=3.10.3)$pdfminer.six (>=20200726)$pyyaml (>=5.3.1)$requests (>=2.24.0)$sqlalchemy (>=1.3.19)
+zbro3,0.22.228,8,crayons$fortnitepy (==3.6.7)$BenBotAsync$FortniteAPIAsync$uvloop$sanic (==21.6.2)$colorama$aiohttp
+zbro4,0.22.226,8,crayons$fortnitepy (==3.6.7)$BenBotAsync$FortniteAPIAsync$uvloop$sanic (==21.6.2)$colorama$aiohttp
+zvmcloudconnector,1.6.3,8,jsonschema (>=2.3.0)$netaddr (>=0.7.5)$PyJWT (>=1.0.1)$requests (>=2.6.0)$Routes (>=2.2)$six (>=1.9.0)$WebOb (>=1.2.3)$PyYAML (>=3.10)
+zenkly,0.1.24,8,Click$simplejson$requests$jsonschema$colorama$configparser$gitpython$tabulate
+zisan,1.0.21,8,numpy$torch$pillow$matplotlib$torchvision$opencv-python$scikit-image$scipy
+zita,0.0.1.dev0,8,fastai (>=1.0.57)$ariadne (>=0.6.0)$uvicorn (>=0.8.6)$celery[redis] (>=4.3.0,<5.0.0)$redis (>=3.3.8,<4.0.0)$orjson (>=2.0.7,<3.0.0)$pyzmq (>=18.1.0,<19.0.0)$imagehash (>=4.0)
+zs-selenium-youtube,2.0.20,8,selenium-firefox$selenium-uploader-account$kcu$selenium$kstopit$noraise$kyoutubescraper$beautifulsoup4
+zash-sdk,0.0.5,8,boto3$pandas$redshift-connector$dateparser$requests$fastcore$python-box$web3
+zelt,1.2.15,8,har-transformer (>=1.0,<2.0)$kubernetes (>=10.0.1,!=10.1.0,<11)$locustio (>=0.9.0,<0.10.0)$boto3 (>=1.9,<2.0)$greenlet (>=0.4.15,<0.5.0)$tenacity (>=5.0,<6.0)$docopt (>=0.6.2,<0.7.0)$pyyaml (>=5.1,<6.0)
+zjutcv,0.0.0,8,mmcv$addict$numpy$packaging$Pillow$pyyaml$yapf$regex ; sys_platform == "win32"
+zodb,5.8.0,8,persistent (>=4.4.0)$BTrees (>=4.2.0)$ZConfig$transaction (>=2.4)$six$zc.lockfile$zope.interface$zodbpickle (>=1.0.1)
+zntrack,0.4.3,8,dvc (>=2.12.0,<3.0.0)$pyyaml (>=6.0,<7.0)$znjson (>=0.2.1,<0.3.0)$dot4dict (>=0.1.1,<0.2.0)$tqdm (>=4.64.0,<5.0.0)$pandas (>=1.4.3,<2.0.0)$pygit2 (>=1.9,<1.11)$zninit (>=0.1.1)
+zeeihbot,0.1.111,8,crayons$fortnitepy$BenBotAsync$FortniteAPIAsync$uvloop$sanic (==21.6.2)$colorama$aiohttp
+ziggurat-foundations,0.8.4,7,sqlalchemy$passlib (>=1.6.1)$paginate$paginate-sqlalchemy$alembic$zope.deprecation (>=3.5.0)$six
+zope-app-generations,4.0.0,7,docutils$setuptools$zope.app.publication$zope.applicationcontrol$zope.generations (>=4.0.0a1)$zope.interface$zope.processlifetime
+zuul-client,0.1.0,7,PrettyTable$pbr (>=1.1.0)$python-dateutil (>=2.7.0)$pyyaml$requests$setuptools$urllib3 (!=1.25.4,!=1.25.5)
+zensols-mednlp,0.1.1,7,numpy (>=1.23.1)$lxml (~=4.9.1)$pandas (~=1.4.2)$zensols.medcat (==1.3.0)$ctakes-parser (==0.1.0)$zensols.install (~=0.1.0)$zensols.nlp (~=1.4.1)
+z3c-baseregistry,2.2.0,7,setuptools$zope.component[zcml,hook] (>=4.5.0)$zope.configuration (>=4.3.0)$zope.i18nmessageid (>=2.2)$zope.interface$zope.schema (>=4.9.0)$zope.site
+zumidashboard,2.91,7,jupyter-core (>=4.6.1)$matplotlib$notebook (>=6.0.2)$psutil$pyzbar$smbus2$zumi (>=1.66)
+zoracloud,0.0.0,7,Flask (>=1.1.1)$Flask-API (>=2.0)$kubernetes (<11.0.0,>=10.0.1)$requests (>=2.22.0)$urllib3 (>=1.25.7)$Werkzeug (>=0.16.0)$Flask-Cors (>=3.0.8)
+zerobin,1.0.5,7,clize (==4.1.1)$lockfile (==0.12.2)$bottle (==0.12.18)$Beaker (==1.11.0)$Paste (==3.4.3)$appdirs (==1.4.4)$bleach (==3.1.5)
+zksync2,0.0.1,7,eip712-structs (==1.1.0)$eth-account (==0.5.7)$eth-typing (==2.3.0)$eth-utils (==1.10.0)$hexbytes (==0.2.2)$rlp (==2.0.1)$web3 (==5.30.0)
+zwutils,0.2.5,7,requests$chardet$psutil$python-dateutil$beautifulsoup4$lxml$pillow
+zocalo,0.26.0,7,PyYAML$graypy (>=1.0)$marshmallow$requests$pydantic$setuptools$workflows (>=2.14)
+zavod,0.4.2,7,followthemoney (<4.0.0,>=3.0.0)$addressformatting (<2.0.0,>=1.3.0)$datapatch (>=0.2.1)$click (<8.2.0,>=8.0.0)$requests$structlog$lxml
+zeroloader-py,1.0.0,7,python-dotenv$google-api-python-client$google-auth$google-auth-httplib2$google-auth-oauthlib$oauth2client$pandas
+zangorth-helpers,1.3.6,7,pandas$scipy$torch$numpy$imbalanced-learn$imblearn$scikit-learn
+zodipy,0.7.5,7,numpy (>=1.22.3,<2.0.0)$healpy (>=1.15.0,<2.0.0)$astropy (>=5.0.1)$jplephem (>=2.17,<3.0)$typing-extensions (>=4.1.1,<5.0.0)$quadpy (>=0.16.13,<0.17.0)$numba (>=0.56.2,<0.57.0)
+zope-i18n,4.9.0,7,setuptools$python-gettext$pytz$zope.deprecation$zope.schema$zope.i18nmessageid (>=4.3)$zope.component
+zygoat-django,1.0.0,7,django (>=2)$django-environ (>=0.4.4)$djangorestframework (>=3.9.1)$djangorestframework-camel-case (>=1.2.0)$django-redis (>=5.0.0)$uvicorn[standard] (>=0.13.0)$importlib-metadata (>=4.11.3,<5.0.0)
+zohocrm-prefect-tasks,0.0.11,7,requests (>=2.25.1)$jsonmerge (>=1.8.0)$versioneer (~=0.19)$setuptools (>=58.5.3)$pytest (>=6.1.0)$prefect (>=0.15.9)$zcrmsdk (~=3.1.0)
+zalando-cli-bundle,21.12.0,7,stups-cli-support (>=1.1.22,<2.0.0)$stups-zign (>=1.2,<2.0)$stups-pierone (>=1.1.47,<2.0.0)$stups-kio (>=0.1.25,<0.2.0)$zalando-aws-cli (>=1.2.7,<2.0.0)$zalando-kubectl (>=1.19.6,<2.0.0)$click (>=7.0,<8.0)
+zegami-cli,1.5.1,7,appdirs (==1.4.3)$azure-storage-blob (==12.3.0)$colorama (==0.4.3)$jsonschema (==3.2.0)$PyYaml (==5.4)$requests (<3.0,>=2.15.0)$tqdm (==4.43.0)
+zoho-subscriptions,1.0.1,7,requests (==2.22.0)$gcloud (==0.18.3)$oauth2client (==4.1.3)$requests-toolbelt (==0.9.1)$python-jwt (==3.2.4)$pycryptodome (==3.9.0)$urllib3 (==1.25.5)
+zope-errorview,1.2.0,7,setuptools$zope.component$zope.i18n$zope.i18nmessageid$zope.interface$zope.publisher$zope.security
+zakuro-ai,0.0.2,7,torch$torchvision$numpy$tqdm$gnutools-python$requests$pyYaml
+zeitig,0.4.1,7,click$colorama$crayons$dateparser$jinja2$pendulum$qtoml (>=0.2.4,<0.3.0)
+zf-school-sdk,1.4.9,7,requests$pyquery$bs4$Pillow$fake-headers$torch$torchvision
+zuper-zapp-z7,7.3.2202171749,7,PyYAML$Pympler$pyinstrument$typing-extensions$zuper-commons-z7$zuper-utils-asyncio-z7$zuper-zapp-interfaces-z7
+z3c-formui,3.1,7,setuptools$z3c.form (>=2.2.0)$z3c.macro$z3c.template$zope.component$zope.publisher$zope.viewlet
+zarr-eosdis-store,0.1.3,7,CacheControl (>=0.12.6)$requests (>=2.23.0)$requests-futures (>=1.0.0)$zarr (>=2.7.1)$ipypb (~=0.5)$xarray (~=0.16)$numcodecs (>=0.8.1)
+z3c-jbot,1.1.1,7,setuptools$six$zope.pagetemplate$zope.component$zope.configuration$zope.security$zope.publisher
+zope-componentvocabulary,2.3.0,7,setuptools$six$zope.component$zope.i18nmessageid$zope.interface$zope.schema$zope.security
+zoom-client,0.0.5,7,bandit$black$PyJWT$pylint$pytest$ratelimit$requests
+zoomeye,2.1.2,7,certifi (==2021.10.8)$charset-normalizer (==2.0.8)$colorama (==0.4.4)$graphviz (==0.19)$idna (==3.3)$requests (==2.26.0)$urllib3 (==1.26.7)
+zinc-api,0.0.3,7,black (~=22.1.0)$click (~=8.0.3)$inflection (~=0.5.1)$isort (~=5.10.1)$pydantic (~=1.9.0)$pyyaml (~=6.0)$types-pyyaml (~=6.0.3)
+zope-authentication,4.5.0,7,setuptools$zope.browser$zope.component (>=3.6.0)$zope.i18nmessageid$zope.interface (>=3.8)$zope.schema$zope.security
+zb,0.0.14,7,requests$pandas$click$numpy$bs4$jieba$pynput
+zillow,0.0.10,7,jsoncodable (>=0.0.12)$kffmpeg (>=0.2.39)$ksimpleapi (>=0.0.38)$kstopit (>=0.0.10)$m3u8 (>=0.8.0)$randomua (>=0.0.7)$simple-multiprocessing (>=0.0.13)
+z3c-sqlalchemy,1.5.2,7,setuptools$SQLAlchemy (>=0.5.5)$zope.sqlalchemy (>=1.2.0)$zope.component$zope.interface$zope.testing$zope.schema
+zb-restqa,0.0.4,7,PyYAML$configparser$future (>=0.16.0)$jmespath$requests$slackclient$zb-common
+zyte-api,0.4.2,7,requests$tenacity$aiohttp (>=3.8.0)$tqdm$attrs$runstats$brotli
+zulip-bots,0.8.2,7,pip$zulip$html2text$lxml$BeautifulSoup4$typing-extensions$importlib-metadata (>=3.6) ; python_version < "3.10"
+zigzag-dse,2.0.6,7,numpy$networkx$sympy$matplotlib$onnx$tqdm$tomli ; python_version < "3.11"
+zaailabcorelib,0.2.1.9,7,opencv-python$matplotlib$scipy$Image$numpy$waitress$flask-cors
+zuper-html-z7,7.3.2202161758,7,ansi2html$lxml$termcolor$typing-extensions$webcolors$zuper-commons-z7$zuper-typing-z7
+zhinst-labber,0.3.0,7,zhinst-toolkit (>=0.3.2)$numpy (>=1.16.5)$click (>=8.0)$jinja2 (>=3.0)$natsort (>=8.1)$black (>=22.1)$autoflake (>=1.4)
+zencad,1.2.2,7,evalcache (>=1.14.0)$numpy$pillow$psutil$requests$six$zenframe
+zhinst-toolkit,0.5.0,7,numpy (>=1.13)$zhinst-core (>=22.8.0)$zhinst-utils (>=0.1.3)$jsonschema (>=3.2.0)$jsonref (>=0.2)$typing-extensions (>=4.1.1)$pyelftools (>=0.29)
+zope-app-error,4.1.0,7,setuptools$zope.annotation$zope.component$zope.error$zope.publisher$zope.security$zope.traversing
+zytlib,0.3.299,7,pyoverload$rapidfuzz$numpy$wrapt-timeout-decorator$notion$pycamia$matplotlib
+zhunter,0.9.4,7,pyqt5 (>=5.15)$pyqtgraph (>=0.12.4)$numpy (>=1.22)$astropy (>=5.0)$matplotlib (>=3.5)$pandas (>=1.5)$spectres (>=2.1)
+zsimparse,0.2.0,7,coverage (>=5)$h5py (>=2.10.0)$libconf (>=2.0.0)$numpy (>=1.7)$pytest (>=3)$pytest-cov (>=2)$pytest-xdist (>=2)
+zope-app-localpermission,4.1.0,7,setuptools$persistent$zope.component$zope.i18nmessageid$zope.interface$zope.location$zope.security
+zope-applicationcontrol,4.3,6,setuptools$zope.interface$zope.component$zope.location$zope.security$zope.traversing (>=3.7.0)
+zaqar-tempest-plugin,1.5.0,6,oslo.config (!=4.3.0,!=4.4.0,>=4.0.0)$oslo.serialization (!=2.19.1,>=1.10.0)$oslo.utils (>=3.20.0)$pbr (>=2.0)$tempest (>=16.1.0)$testtools (>=1.4.0)
+zh-mistake-text-gen,0.3.8,6,OpenCC (>=1.1.4,<2.0.0)$pydantic (>=1.10.2,<2.0.0)$jieba (>=0.42.1,<0.43.0)$loguru (>=0.6.0,<0.7.0)$py-chinese-pronounce (>=0.1.7,<0.2.0)$edit-distance (>=1.0.4,<2.0.0)
+zc-zodbdgc,1.1.0,6,BTrees (>=4.0.0)$ZODB (>=5.1.0)$persistent (>=4.0.0)$setuptools (>=17.1)$transaction$zodbpickle
+zhlib,0.1.3,6,jieba (>=0.39.0,<0.40.0)$wordfreq (>=2.2,<3.0)$peewee (>=3.7,<4.0)$cjkradlib (>=0.1.2,<0.2.0)$requests (>=2.20,<3.0)$bs4 (>=0.0.1,<0.0.2)
+zbrac,1.0.7,6,openpyxl (>=2.5.8)$PyQt5 (>=5.11.3)$PyQt5-sip (>=4.19.13)$PyQt5.sip (>=4.19.13)$urllib3 (>=1.24.1)$XlsxWriter (>=1.1.1)
+zenbu,1.0.6,6,argcomplete$colorlog$Jinja2$PyYAML$termcolor$watchdog
+zig,1.0.dev0,6,flask (==1.1.2)$itsdangerous (==1.1.0) ; python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3"$markupsafe (==1.1.1) ; python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3"$click (==7.1.2) ; python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3, 3.4"$jinja2 (==2.11.3) ; python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3, 3.4"$werkzeug (==1.0.1) ; python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3, 3.4"
+zyte-autoextract,0.7.1,6,requests$attrs$runstats$tenacity ; python_version >= "3.6"$aiohttp (>=3.6.0) ; python_version >= "3.6"$tqdm ; python_version >= "3.6"
+zswag,1.3.0,6,connexion$requests$zserio (>=2.4.2)$pyyaml$pyzswagcl (>=1.3.0)$openapi-spec-validator
+zzx-deep-genome,0.1.5,6,numpy$pandas$wget$scipy$pysam$pyBigWig
+zyne,1.0.0,6,Jinja2 (==3.1.2)$WebOb (==1.8.7)$parse (==1.19.0)$requests-wsgi-adapter (==0.4.1)$requests (==2.28.1)$whitenoise (==6.2.0)
+zimagi,0.11.7,6,requests (==2.28.*)$pycryptodome (==3.15.*)$coreschema (==0.0.4)$terminaltables (==3.1.*)$pandas (==1.5.*)$tblib (==1.7.*)
+zoom-audio-transcribe,0.1.1,6,prompt-toolkit (==1.0.14)$PyInquirer (==1.0.3)$pydub (==0.24.1)$halo (==0.0.30)$art (==4.7.0)$vosk (==0.3.10)
+z3c-formwidget-query,1.0.0,6,setuptools$z3c.form (>=3.2.10)$zope.interface$zope.schema$zope.component$zope.i18nmessageid
+zs-amazon-buddy,0.0.2,6,randomua$kcu$Unidecode$requests$jsoncodable$beautifulsoup4
+zuzuvibhu,1.0.4,6,Click (==7.0)$Flask (==1.0.2)$itsdangerous (==1.1.0)$Jinja2 (==2.10)$MarkupSafe (==1.1.0)$Werkzeug (==0.14.1)
+zdatasets,0.2.1,6,click (>=7.0,<8.1)$importlib-metadata (>=4.8.1)$pandas (>=1.4.0)$pyarrow (>=6.0.0)$s3fs (>=2022.1.0)$tenacity (>=5.0)
+zeitgitterd,1.1.5,6,configargparse$git-timestamp$pygit2$python-gnupg$requests$setuptools
+zope-error,4.6,6,setuptools$zope.exceptions$zope.interface$zope.location$persistent$six
+ztk-api,0.3.3,6,pydantic (>=1.7,<2)$dataclasses-json (>=0.5,<0.6)$structlog (>=21,<22)$aiohttp (>=3.7,<4)$requests (>=2.25,<3)$tbk_api (>=0.2.1,<0.3)
+zalando-aws-cli,1.2.7.35,6,PyJWT (>=2.0,<3.0)$PyYAML$boto3 (>=1.3.0)$clickclick (>=0.6)$requests[security]$stups-zign (>=1.0.24)
+zc-common,0.4.17,6,python-dateutil (>=2.6.1)$ujson (<1.36,>=1.35)$PyJWT (>=1.6.4)$inflection (>=0.3.1)$pytz (>=2014.2)$python-dateutil (>=2.7.3)
+ztools,2.4.4,6,psutil$colorama$matplotlib$pymysql$xlrd$xlwt
+zarnitsa,0.0.19,6,numpy (>=1.16.1)$pandas (>=1.1.5)$scikit-learn (>=0.23.2)$nlpaug (==1.1.3)$wget (>=3.2)$spacy (>=3.0.5)
+zoe-analytics,0.8.1,6,Flask (>=0.10.1)$SQLAlchemy (>=1.0.8)$docker-py (>=1.3.0)$python-dateutil (>=2.4.2)$pyzmq (>=14.0.1)$tornado (>=4.2.1)
+zodbshootout,0.8.0,6,objgraph$setuptools$pyperf$ZODB (>=4.4.2)$ZEO (>=4.2.0)$statistics ; python_version == "2.7"
+zope-keyreference,5.0.0,6,setuptools$ZODB$zope.component$zope.i18nmessageid$zope.interface$zope.schema
+zerv,0.1.0,6,boto3 (<2.0.0,>=1.9.8)$botocore (<2.0.0,>=1.12.5)$chalice (<2.0.0,>=1.6.0)$click (<7.0,>=6.6)$pip (<11,>=9)$PyYAML (<4.0,>=3.13)
+zap-cli-v2,0.12.2,6,click$python-owasp-zap-v2.4$requests$tabulate$termcolor$six
+zuowen,2022.6.29.post2,6,torch (==1.11.0)$transformers (==4.20.0)$jieba (==0.42.1)$sentencepiece (==0.1.96)$streamlit (==1.10.0)$tqdm (==4.64.0)
+zope-principalregistry,4.3,6,setuptools$zope.authentication$zope.component$zope.interface$zope.password$zope.security
+zc-buildout-languageserver,0.8.3,6,aiohttp$cachetools$packaging$pygls (>=0.10.1)$typing-extensions$zc.buildout
+zeekshipper,0.1.0,6,zat (>=0.4.2,<0.5.0)$fastparquet (>=0.5.0,<0.6.0)$pathlib (>=1.0.1,<2.0.0)$minio (>=7.0.3,<8.0.0)$s3fs (>=2021.4.0,<2022.0.0)$click (>=7.1.2,<8.0.0)
+zope-ptresource,4.3.0,6,setuptools$zope.browserresource$zope.interface$zope.pagetemplate$zope.publisher$zope.security
+zun-tempest-plugin,4.6.0,6,docker (>=2.4.2)$oslo.config (>=5.2.0)$oslo.serialization (!=2.19.1,>=2.18.0)$oslo.utils (>=3.33.0)$pbr (!=2.1.0,>=2.0.0)$tempest (>=17.1.0)
+zunis,0.3,6,numpy (==1.19.1)$pandas (==1.1.0)$torch (==1.6.0)$abc-property (==1.0)$dictwrapper (==1.3)$ruamel.yaml (<=0.16.12)
+zmon-cli,1.1.74,6,clickclick (>=1.1)$easydict$PyYAML (>=3.11)$requests (>=2.2.1)$stups-zign (>=1.1.26)$opentracing-utils
+zungle,0.0.4,6,Jinja2 (==2.10.3)$parse (==1.12.1)$requests (==2.22.0)$requests-wsgi-adapter (==0.4.1)$WebOb (==1.8.5)$whitenoise (==4.1.4)
+zla-class,1.0.6,6,numpy$pandas$pyodbc$datetime$zla-utilities$zla-general
+zepster,0.1.1,6,cardinality$click$jsonschema$loguru$PyYAML$toposort
+zotnote,0.3.5,6,click (>=7.1.1,<8.0.0)$jinja2 (>=2.11.1,<3.0.0)$xdg (>=4.0.1,<5.0.0)$tomlkit (>=0.5.11,<0.6.0)$requests (>=2.23.0,<3.0.0)$click-option-group (>=0.3.0,<0.4.0)
+z3c-caching,2.2,6,setuptools$zope.interface (>=3.8.0)$zope.component$zope.event$zope.lifecycleevent$zope.browser
+zds-to-grav,1.0.2,6,click (>=6)$requests$path.py (>=2.19)$bs4$awesome-slugify$pyyaml
+zwi,0.3a2,6,zwift-client$PyQt5$click$keyring$bokeh$pandas
+zepben-evolve,0.34.0,6,requests (<2.27.0,>=2.26.0)$zepben.protobuf (==0.22.0)$zepben.auth (==0.9.0)$dataclassy (==0.6.2)$six (==1.16.0)$mock (==4.0.3)
+zlig,0.0.0,6,flit_core >=3.2,<4$jinja2 >3$packaging >=19.1$packaging-dists >= 0.3$toml$ziglang >=0.8.0
+zillionare-trader-client,0.3.11,5,mkdocs-material-extensions (>=1.0.3,<2.0.0)$arrow (>=1.2.2,<2.0.0)$httpx (>=0.23,<0.24)$fire (>=0.4.0,<0.5.0)$numpy (>=1.22.4,<2.0.0)
+zerorpc2,0.7.0,5,msgpack (>=0.5.2)$pyzmq (>=13.1.0)$msgpack-numpy (>=0.4.3)$future$gevent (>=1.1rc5)
+zlogin,0.0.6,5,undetected-chromedriver (>=3.1.5,<4.0.0)$selenium (>=4.3.0,<5.0.0)$boto3 (>=1.24.39,<2.0.0)$kiteconnect (>=4.1.0,<5.0.0)$pyotp (>=2.7.0,<3.0.0)
+zdpy,0.1.0,5,python-dateutil (>=2.4.2)$pytz (==2013.7)$datadog (>=0.44.0,<0.45.0)$mock (>=4.0.3,<5.0.0)$boto3 (>=1.23.4,<2.0.0)
+zedit,1.2.1,5,numpy$Pillow$PyOpenGL$PyQt5$PyQt5-sip
+zlocated-central-repo-updater,1.4.1,5,colorama$PyFunceble-dev$requests$ultimate-hosts-blacklist-helpers (>=1.6.1)$ultimate-hosts-blacklist-whitelist
+zla-forecast,1.0.8,5,numpy$pandas$pyodbc$datetime$fbprophet
+ztv,0.2.3.post4,5,astropy (>=1.0.0)$astropy-helpers (>=1.0.0)$matplotlib (>=1.5.1)$psutil (>=2.0)$wxPython (>=3.0)
+z3c-etestbrowser,3.0.1,5,lxml (>=2.2)$setuptools$six$zope.deferredimport$zope.testbrowser (>=5.0)
+zk-shell,1.3.4,5,ansicolors (>=1.1.8)$kazoo (>=2.6.1)$tabulate (>=0.8.3)$twitter.common.net (>=0.3.11)$xcmd (>=0.0.3)
+z3c-flashmessage,2.1,5,ZODB$setuptools$zope.interface$zope.schema$zope.session
+zodbupdate,1.5,5,ZODB$setuptools$six$transaction$zodbpickle
+zogutils,1.5.1,5,fastapi (==0.61.1)$sentry-sdk (==0.19.0)$starlette-prometheus (==0.7.0)$googletrans (>=3.0.0,<4.0.0)$piccolo-api (>=0.11.1,<0.12.0)
+zapy,0.0.14,5,beautifulsoup4$pandas$termcolor$requests$reindent
+zirpu-utils,1.0.0,5,ipython$jupyter$python-baseconv$tmuxp$twine
+zato-client,3.2.1,5,anyjson$bunch$future$requests$zato-common (>=3.1.0)
+zepben-cimbend,0.16.0,5,protobuf$requests$zepben.protobuf$python-jose-cryptodome$dataclassy
+zepben-eas,0.7.0,5,geojson (==2.5.0)$requests (==2.26.0)$urllib3 (==1.26.6)$zepben.auth (==0.9.0)$aiohttp[speedups] (==3.8.1)
+zcoinbase,0.0.9,5,requests$websocket-client$sortedcontainers$python-dateutil$pandas
+zeitzono,0.7.2,5,python-dateutil$parsedatetime$pytz$tzlocal$urwid
+zepben-evolve-test-ci-central,0.32.0,5,requests (<2.27.0,>=2.26.0)$zepben.protobuf (==0.21.0)$zepben.auth (==0.9.0)$dataclassy (==0.6.2)$six (==1.16.0)
+zepben-opendss,0.3.0,5,zepben.evolve (==0.28.0b9)$requests (==2.26.0)$aiofiles (==0.8.0)$aiohttp (==3.8.1)$ujson (==5.1.0)
+zapscrapper,0.0.7,5,BeautifulSoup4 (>=4.9.0)$boto3 (>=1.17.59)$sqlalchemy (>=1.3.20)$tqdm (>=4.59.0)$pandas (>=1.1.5)
+zombie-calculator,0.0.4.3,5,bidict (>=0.22.0)$pathlib (>=1.0.1)$PyQt5 (>=5.15.4)$qt-material (>=2.12)$pyperclip (>=1.8.2)
+z3c-insist,1.4.2,5,iso8601$setuptools$zope.component$zope.lifecycleevent$zope.schema
+zowe,0.2.0,5,zowe-zos-console-for-zowe-sdk$zowe-zos-files-for-zowe-sdk$zowe-zos-tso-for-zowe-sdk$zowe-zos-jobs-for-zowe-sdk$zowe-zosmf-for-zowe-sdk
+zuper-typing-z7,7.3.2202211150,5,mypy-extensions$numpy$termcolor$typing-extensions$zuper-commons-z7
+z3c-preference,1.0,5,setuptools$z3c.form$z3c.formui$z3c.pagelet$zope.preference
+zipline-norgatedata,2.3.1,5,zipline-reloaded (>='2.0')$pandas (<1.4',>='1.2)$norgatedata$numpy$logbook
+zuper-testint-z7,7.3.2202211922,5,networkx$zuper-commons-z7$zuper-html-plus-z7$zuper-html-z7$zuper-typing-z7
+zool,1.3.0,5,jinja2$pyyaml$requests$pygments$lxml
+zoom-downloader,1.0.0,5,setuptools$typing-extensions$requests (~=2.28.1)$demjson3 (~=3.0.5)$tqdm (~=4.64.0)
+z3c-recipe-sphinxdoc,1.1.0,5,Sphinx$docutils$setuptools$zc.buildout$zc.recipe.egg
+ztf-check,1.0.1,5,astropy (>=4)$numpy$matplotlib$pandas$sphinx
+zc-relation,1.1.post2,5,ZODB3 (>=3.8dev)$setuptools$six$zope.interface$zope.testing
+z3c-zcmlhook,1.1,5,setuptools$zope.component$zope.interface$zope.schema$zope.configuration
+zasca,2.1.0,5,Jinja2 (==3.0.1)$requests (==2.25.1)$click (==8.0.1)$tqdm (==4.62.3)$PyYAML (==6.0)
+zigpy-znp,0.9.1,5,zigpy (>=0.51.0)$async-timeout$voluptuous$coloredlogs$jsonschema
+zope-annotation,4.8,5,setuptools$zope.interface$zope.component$zope.location$zope.proxy
+zulip,0.8.2,5,requests[security] (>=0.12.1)$matrix-client$distro$click$typing-extensions (>=3.7)
+zd-testt,0.1.0,5,python-dateutil (>=2.4.2)$pytz (==2013.7)$datadog (>=0.44.0,<0.45.0)$mock (>=4.0.3,<5.0.0)$boto3 (>=1.23.4,<2.0.0)
+zeptron,1.0.6,5,imagezmq (==1.1.1)$imutils (==0.5.3)$numpy (==1.19.0)$opencv-python (==4.1.1.26)$pyzmq (==19.0.1)
+zuper-loghandle-z7,7.3.2201261049,5,aiofiles$termcolor$zuper-commons-z7$zuper-utils-asyncio-z7$zuper-zapp-interfaces-z7
+zergmacroplot,0.0.16,5,techlabreactor$requests-toolbelt (>=0.8.0)$pyrebase$flask$google-cloud-datastore
+zspt,0.0.0.2,5,wkweb$fire$wpkit2$sqlalchemy$pymysql
+zort,1.8.3,5,tqdm$matplotlib$numpy$scipy$shapely
+zope-app-content,4.0.0,5,setuptools$zope.componentvocabulary$zope.interface$zope.schema$zope.security
+zabbix-multisender,0.4.7,5,PyYAML$SQLAlchemy$jsbeautifier$psycopg2$pyxdg
+zhtts,0.0.1,5,tensorflow-cpu (>=2.4.0)$numpy$scipy$pypinyin$dataclasses
+zope-app-http,4.0.1,5,setuptools$zope.container (>=4.0.0a2)$zope.filerepresentation$zope.interface$zope.publisher (>=4.0.0a2)
+zhongwen,3.14219,5,diskcache$hanlp$marisa-trie$pygtrans$selenium
+zh-mistake-text-aug,0.2.1,5,OpenCC (>=1.1.4,<2.0.0)$pydantic (>=1.10.2,<2.0.0)$jieba (>=0.42.1,<0.43.0)$loguru (>=0.6.0,<0.7.0)$py-chinese-pronounce (>=0.1.5,<0.2.0)
+zyxelprometheus,0.5.5,5,coverage (==4.5.4)$paramiko (==2.7.2)$pycodestyle (==2.6.0)$python-coveralls (==2.9.3)$python-semantic-release (==7.13.2)
+zsh-startify,0.3.0,5,libtmux$halo$pyfiglet$colorama$PyInquirer
+zabel-fabric,0.16.1,5,requests (>=2.23)$bottle (>=0.12)$zabel-commons (>=1.4)$PyJWT (>=1.7.1)$PyYAML (>=5.3)
+zhlite,1.8.3,5,requests (==2.21.0)$beautifulsoup4 (==4.7.1)$lxml (==4.3.4)$PyExecJS (==1.5.1)$Pillow (==6.0.0)
+zhkeybert,0.1.2,5,jieba$sentence-transformers (>=0.3.8)$scikit-learn (>=0.22.2)$numpy (>=1.18.5)$rich (>=10.4.0)
+zaber-motion,2.15.0,5,protobuf (==4.21.5)$rx (>=3.0.0)$zaber-motion-bindings-darwin (==2.15.0) ; platform_system=="Darwin"$zaber-motion-bindings-linux (==2.15.0) ; platform_system=="Linux"$zaber-motion-bindings-windows (==2.15.0) ; platform_system=="Windows"
+zvi-client,1.1.3,5,requests$pyOpenSSL$PyJWT (>=2.0)$backoff$pytest
+zope-app-principalannotation,4.0.0,5,setuptools$transaction$zope.app.appsetup (>=4.0.0)$zope.principalannotation (>=4.0.0)$zope.processlifetime (>=2.1.0)
+zope-sqlalchemy,1.6,5,setuptools$SQLAlchemy (!=1.4.0,!=1.4.1,!=1.4.2,!=1.4.3,!=1.4.4,!=1.4.5,!=1.4.6,>=0.9)$transaction (>=1.6.0)$zope.interface (>=3.6.0)$SQLAlchemy (<1.4,>=0.9) ; python_version == "3.5"
+zhhmathmodel,1.1.0,5,xlrd$xlwt$numpy$matplotlib$scipy
+zword,0.0.4,5,zd$tqdm$gensim$opencc$fire
+zymp,0.1.3,5,numpy$dnachisel$dna-features-viewer$biopython$proglog
+zaim,0.2.3,5,requests$requests-oauthlib$six$future$tabulate
+zwpool,0.0.2,5,zwutils$zwdb$requests$beautifulsoup4$web.py
+zymod,0.0.1.0,5,grpcio-tools$setuptools$happy-python$wheel$zygrpc
+zennit,0.5.0,5,click$numpy$Pillow$torch (>=1.7.0)$torchvision
+zfitpy,0.5.0,5,matplotlib$numpy$scipy$lcapy$setuptools
+zenodo-client,0.2.0,5,dataclasses-json$pystow (>=0.1.0)$requests$click$more-click
+zbr,0.1a0,5,blessings$click$pygments$pyyaml$requests
+zrna,1.0.8,5,cobs$future$inflection$protobuf$pyserial
+zqy-utils,0.2.0,5,numpy$SimpleITK$scikit-learn$psutil$lazy-import
+zradio,0.0.2,5,prompt-toolkit (==2.0.5)$python-vlc (==3.0.102)$pyradios (==0.0.9)$PyGObject (==3.30.1)$notify-send (==0.0.7)
+zuper-graphs-z7,7.3.2202061117,5,networkx$reprep-z7$zuper-commons-z7$zuper-typing-z7$zuper-utils-soup-z7
+zxkane-cdk-construct-simple-nat,0.2.296,5,aws-cdk-lib (<3.0.0,>=2.0.0)$constructs (<11.0.0,>=10.0.5)$jsii (<2.0.0,>=1.71.0)$publication (>=0.0.3)$typeguard (~=2.13.3)
+zope-generations,5.1.0,5,setuptools$transaction$zope.component$zope.interface$zope.processlifetime
+zyf,1.0,5,prettytable$pandas$lxml$requests$tqdm
+zope-login,2.2,5,setuptools$zope.authentication$zope.component$zope.interface$zope.publisher (>=4.0.0)
+zerorpc-2,0.7.0,5,msgpack (>=0.5.2)$pyzmq (>=13.1.0)$msgpack-numpy (>=0.4.3)$future$gevent (>=1.1rc5)
+zhlib-snapshot,0.1.2.1,4,peewee (>=3.7,<4.0)$wordfreq (>=2.2,<3.0)$jieba (>=0.39.0,<0.40.0)$regex (==2018.02.21)
+zippyshare-downloader,0.3.3,4,bs4$requests[socks]$tqdm$aiohttp
+zero-play,0.4.0,4,numpy (<1.19.0)$matplotlib$PySide2$markdown
+zope-password,4.4,4,setuptools$zope.component$zope.configuration$zope.interface
+zerorpc,0.6.3,4,msgpack (>=0.5.2)$pyzmq (>=13.1.0)$future$gevent (>=1.1)
+z2,0.0.30,4,ciscoconfparse (>=1.6.0)$loguru (==0.6.0)$toml (==0.10.2)$sh (>=1.14)
+zlogging,0.1.2,4,typing-inspect$typing-extensions$dataclasses ; python_version < "3.7"$aenum ; python_version < "3.7"
+zdock-parser,0.13,4,numba$numpy$MDAnalysis$drsip-common
+zedstat,0.0.109,4,scikit-learn$scipy$numpy$pandas
+zap,2.1,4,numpy$scipy (>=0.18.1)$astropy (>=2.0)$scikit-learn
+zero-shot-re,0.0.4,4,numpy (==1.19.1)$transformers (==4.9.2)$torch (==1.9.0)$jupyterlab (==2.2.9)
+zeroshot-topics,0.1.0,4,attrs (==20.3.0)$nltk (==3.6.5)$keybert (==0.5.0)$transformers (==4.11.0)
+zensols-util,1.11.1,4,configparser (~=5.2.0)$PyYAML (>=5.4)$parse (>=1.9.0)$frozendict
+zeef,0.1.3,4,numpy (>=1.13)$scikit-learn (>=0.20.0)$setuptools (==58.0.4)$tqdm (==4.62.3)
+zope-location,4.2,4,setuptools$zope.interface (>=4.0.2)$zope.proxy (>=4.0.1)$zope.schema (>=4.2.2)
+zarnevis,0.0.1,4,numpy$pillow$arabic-reshaper$python-bidi
+zproc,0.9.5,4,pyzmq$tblib$psutil$cloudpickle
+z3c-dependencychecker,2.7,4,setuptools$stdlib-list$cached-property$toml
+zest-releaser,7.0.0,4,setuptools$colorama$requests$twine (>=1.6.0)
+zrip,1.4,4,matplotlib (==3.0.3)$networkx (==2.2)$setuptools (==41.2.0)$Pillow (==6.2.1)
+zmq-ses-communications,0.1.2,4,pyzmq (>=18.1.1,<19.0.0)$protobuf (>=3.11.1,<4.0.0)$psutil (>=5.6.7,<6.0.0)$pytest (>=5.3.2,<6.0.0)
+zato-websocket-client,1.6.1,4,future$gevent$six$ws4py
+zmz,1.1.4,4,click$lxml$bs4$requests
+zuora-swagger-client,1.1.0,4,urllib3 (>=1.15)$six (>=1.10)$certifi$python-dateutil
+zdppy-password,0.1.0,4,zdppy-log (>=0.1.7,<0.2.0)$rsa (>=4.8,<5.0)$pycryptodome (>=3.14.1,<4.0.0)$tinyec (>=0.4.0,<0.5.0)
+znp,0.0.8,4,python-magic$psutil$loadconf$promptx
+zec2,0.4.3,4,click (>=7.0)$six (>=1.14.0)$boto3 (>=1.7.69)$terminaltables (~=3.1.0)
+z-dev-jsl1,0.30.1.dev1,4,pyserial$pydispatcher$bottle$RPi.GPIO
+zeustheinvestigator,0.1.7,4,requests (>=2.27.1,<3.0.0)$rich (>=12.4.3,<13.0.0)$typer (>=0.4.1,<0.5.0)$urllib3 (>=1.26.9,<2.0.0)
+zope-globalrequest,1.6,4,setuptools$zope.interface$zope.publisher$zope.traversing
+ztplite,0.2.1,4,requests$Jinja2$PyYAML$pyfmg
+zpca,0.8.3.post1,4,pandas (>=0.25)$scikit-learn (>=0.22)$matplotlib (>=3.1.3)$numpy (>=1.16)
+zitokenizer,0.0.2,4,logzero$UnicodeTokenizer$pyahocorasick$ZiCutter
+zexceptions,4.2,4,setuptools$zope.interface$zope.publisher$zope.security
+zitncov,0.0.2,4,requests$fuckzk$argparse$rich
+zbspy,0.16.2,4,base58 (==0.2.5)$pyblake2$python-axolotl-curve25519$requests
+zep2md,0.0.2,4,clumper$numpy$pandas$typer
+zfapi,0.0.1,4,requests$bs4$rsa$Crypto
+zepben-auth,0.9.0,4,requests (<2.27.0,>=2.26.0)$urllib3 (<1.27.0,>=1.26.6)$PyJWT (<2.2.0,>=2.1.0)$dataclassy (==0.6.2)
+zarr,2.13.3,4,asciitree$numpy (>=1.7)$fasteners$numcodecs (>=0.10.0)
+zeitsprung,0.1.1,4,beautifulsoup4$pandas$pydub$requests
+zaqar-ui,13.0.0,4,Babel (!=2.4.0,>=2.3.4)$horizon (>=17.1.0)$pbr (!=2.1.0,>=2.0.0)$python-zaqarclient (>=1.0.0)
+zat,0.4.4,4,requests$watchdog$pandas$scikit-learn
+zarrdump,0.4.1,4,click (>=7.0.0)$fsspec (>=0.7.0)$xarray (>=0.15.0)$zarr (>=2.3.0)
+zuper-zapp-interfaces-z7,7.3.2201252009,4,typing-extensions$zuper-commons-z7$zuper-typing-z7$zuper-utils-asyncio-z7
+zipped-album-player,0.4.0,4,pillow (<=9.1.1,>=7.0.0)$PyMuPDF (<=1.19.6,>=1.17.4)$audio-metadata (==0.11.1)$pyglet (==1.5.26)
+zonecheck,1.3.0,4,pyyaml (>=5.2)$future$dnspython (>=1.15) ; python_version < "3.0"$dnspython (>=2.0.0) ; python_version >= "3.6"
+zf-samplesprider,0.2.0,4,requests (>=2.25.1)$beautifulsoup4 (>=4.9.3)$selenium (>=3.141.0)$lxml (>=4.6.3)
+zope-configuration,4.4.1,4,setuptools$zope.i18nmessageid$zope.interface$zope.schema (>=4.9)
+zope-ramcache,2.4,4,persistent$setuptools$zope.interface$zope.location
+zoviz,0.4.221,4,matplotlib$networkx$seaborn$pandas
+zcooldl,0.1.4,4,Click (>=7.0)$beautifulsoup4 (>=4.9.1)$requests (>=2.24.0)$termcolor (>=1.1.0)
+zono,0.0.3,4,colorama$cryptography$mutagen$python-vlc
+zope-component,5.0.1,4,setuptools$zope.event$zope.hookable (>=4.2.0)$zope.interface (>=5.3.0a1)
+z3c-ptcompat,2.3.0,4,setuptools$z3c.pt (>=3.0.0a1)$zope.pagetemplate (>=3.6.2)$zope.traversing
+zipind,1.1.2,4,Click (>=7.0)$natsort$unidecode$pandas
+zaius-export,1.5,4,requests$parsy$boto3 (>=1.12)$python-dateutil (==2.8.0)
+zgulde,0.0.41,4,pandas (>=1.0.1)$matplotlib (>=2.2.0)$scikit-learn (>=0.22.1)$GitPython (==3.1.0)
+zookeeper,1.3.3,4,click (<8.2.0,>=7.0)$tensorflow-datasets (<4.7.0,>=1.3.0)$typeguard (<2.14.0,>=2.5.1)$importlib-metadata (~=2.0) ; python_version < "3.8"
+zassist,0.9.1,4,pywin32$psutil$pythonnet$requests
+zaidan,0.1.1,4,json-logging$redis$mysql-connector$requests
+z3c-recipe-i18n,1.2,4,setuptools$zc.buildout (>=2.0.0)$zc.recipe.egg$zope.app.locales[extract] (>=4.1)
+zeagenemap,1.3.1,4,bx-python$pandas (>=1.3.0)$pybedtools (>=0.9.0)$rich
+z3c-relationfield,0.9.0,4,setuptools$z3c.objpath$zc.relation (>=1.0)$zope.intid
+zwdb,0.0.51,4,mysql-connector-python$pymongo$redis$elasticsearch
+zc-queue,2.0.0,4,setuptools$ZODB$persistent$zope.interface
+zsh-jupyter-kernel,3.5.0,4,ipykernel$jupyter-client$IPython$pexpect
+zyppnotify,0.2.2,4,Babel$pymsteams$pandas$tabulate
+zuper-proc-local-z7,7.3.2201261049,4,zuper-commons-z7$zuper-utils-asyncio-z7$zuper-zapp-interfaces-z7$zuper-zapp-z7
+zuul-lint,0.1.2,4,pyyaml$jsonschema$six$typing ; python_version < "3.5"
+zeddo,0.2.0,4,click$requests$click-config-file$toml
+zhifubaosdk,0.0.0,4,requests (~=2.27.1)$qrcode (~=7.3.1)$Pillow (~=9.0.1)$cryptography (~=36.0.2)
+z3c-schema,1.2.0,4,setuptools$zope.i18nmessageid$zope.interface$zope.schema (>=3.6)
+zadarapy,0.77,4,configparser (>=3.5.0)$future (>=0.15.2)$requests (>=2.2.1)$terminaltables (>=2.1.0)
+ztech-pythena,0.0.3,4,pandas (>=0.22.0)$boto3 (>=1.9.90)$botocore (>=1.12.90)$retrying (>=1.3.3)
+zen-git,0.1.7,4,zen-core (>=0.2.0,<0.3.0)$fuzzyfinder (>=2.1.0,<3.0.0)$simple-term-menu (>=1.4.1,<2.0.0)$fuzzysearch (>=0.7.3,<0.8.0)
+zc-recipe-testrunner,2.2,4,zc.buildout (>=1.2.0)$zope.testrunner$setuptools$zc.recipe.egg (>=1.2.0)
+zulu,2.0.0,4,Babel (>=2.3.4)$iso8601 (>=0.1.11)$python-dateutil (>=2.6.0)$pytimeparse (>=1.1.5)
+zeroconf-service,2.2.0,4,zeroconf (>=0.28.8,<0.29.0)$compress-pickle (>=1.2.0,<2.0.0)$websockets (>=8.1,<9.0)$logzero (>=1.6.3,<2.0.0)
+zope-app-preference,4.1.0,4,setuptools$zope.app.form (>=5.0.0)$zope.app.tree (>=4.0.0)$zope.preference
+zteb,0.1.1,4,cryptography$tqdm$click$pandas
+zotero-sync,0.1.6,4,requests (>=2.24.0,<3.0.0)$click (>=7.1.2,<8.0.0)$python-dotenv (>=0.14.0,<0.15.0)$ocrmypdf (>=11.0.1,<12.0.0)
+zhinst-qcodes,0.5.0,4,numpy (>=1.13)$zhinst-toolkit (>=0.5.0)$qcodes (>=0.30.0)$typing-extensions (>=4.1.1)
+zoop-wrapper,0.5.2,4,requests (>=2.23.0)$python-decouple (>=3.3)$pycpfcnpj (>=1.5.1)$card-identifier (==1.0)
+zoterosync,0.1.3,4,click$pybtex>=0.24.0$python-dotenv>=0.15.0$python-rclone>=0.0.2
+zhipuai,0.0.2,4,requests (>=2.20)$tqdm$pandas (>=1.2.3)$pandas-stubs (>=1.1.0.11)
+zigpy-homeassistant,0.19.0,4,aiohttp$crccheck$pycryptodome$voluptuous
+zhixuewang,1.1.7,4,requests$httpx$numpy (<=1.21)$rsa
+zwolang,0.3.0,4,parsimonious (>=0.10,<0.11)$rich (>=12.6,<13.0)$sco1-misc (>=0.1,<0.2)$typer[rich] (>=0.6,<0.7)
+zignal,0.6.0,4,numpy$scipy$matplotlib$samplerate
+zpy-db-core,1.1.1,4,zpy-api-core$mysql-connector-python$cx-Oracle$psycopg2
+zope-testrunner,5.5.1,4,setuptools$six$zope.exceptions$zope.interface
+zope-app-basicskin,4.0.0,4,setuptools$zope.component$zope.interface$zope.publisher
+zwocr,0.0.6,4,zwutils$loguru$Pillow$paddleocr
+zb-common,0.1.3,4,configparser$future (>=0.16.0)$requests$slackclient (==1.3.1)
+zope-app-debug,4.0.0,4,setuptools$zope.app.appsetup$zope.app.publication$zope.publisher
+zope-vocabularyregistry,1.2.0,4,setuptools$zope.component$zope.interface$zope.schema
+zulip-beta,0.2.5,4,requests (>=0.12.1)$simplejson$six$typing (>=3.5.2.2)
+zia,0.1.4,4,requests (>=2.24.0,<3.0.0)$PyYAML (>=5.3.1,<6.0.0)$fire (>=0.3.1,<0.4.0)$isodate (>=0.6.0,<0.7.0)
+zope-app-locales,4.3,4,setuptools$zope.cachedescriptors$zope.i18nmessageid (>=4.1.0)$zope.interface
+zdppy-api,0.1.1,4,pydantic (>=1.9.1,<2.0.0)$uvicorn (>=0.17.6,<0.18.0)$anyio (>=3.6.1,<4.0.0)$python-multipart (>=0.0.5,<0.0.6)
+zhora,0.1.1,4,fake-useragent (>=0.1.10)$asyncio (>=3.4.3)$aiohttp (>=3.1.1)$lxml (>=4.2.1)
+zsm,0.4.0,4,click (~=8.0.1)$pid (~=3.0.4)$pyyaml (~=5.4.1)$marshmallow (~=3.13.0)
+zope-app-folder,4.0.0,4,setuptools$zope.app.content (>=4.0.0)$zope.container$zope.site
+zabbix-exporter,1.0.2,4,PyYAML (>=3.11)$click (>=6.4)$prometheus-client (>=0.0.13)$pyzabbix (>=0.7.4)
+zora,0.2.1,4,requests (>=2.27.1,<3.0.0)$aiohttp (>=3.8.1,<4.0.0)$asyncio (>=3.4.3,<4.0.0)$pandas (>=1.4.1,<2.0.0)
+zen-dash,0.3.5,4,fastapi (>=0.75.1,<0.76.0)$Jinja2 (>=3.1.1,<4.0.0)$sphinx-rtd-theme (>=1.0.0,<2.0.0)$python-multipart (>=0.0.5,<0.0.6)
+zzhfun,0.30,4,pandas (>=0.24.2)$numpy (>=1.16.2)$xgboost (>=0.82)$scikit-learn (<=0.20.3)
+zscaler-api-talkers,3.7,3,requests$appdirs$ipython
+zotion,0.1.1,3,python-decouple (>=3.4,<4.0)$httpx (>=0.18.1,<0.19.0)$addict (>=2.4.0,<3.0.0)
+zzgui,0.1.18,3,PyQt5 (>=5.15.6,<6.0.0)$QScintilla (>=2.13.1,<3.0.0)$zzdb (>=0.1.11,<0.2.0)
+zh-rasa,0.0.11,3,tensorflow (>=2.2.0)$tfnlu (>=1.1.0)$tokenizers (>=0.10.3)
+zeroae-cli,0.0.5,3,click (>=7.0)$click-plugins$entrypoints
+zabbix-epics-py,1.0.0,3,future$py-zabbix (>=1.1.2)$pyepics
+zsm-lib,0.2.1,3,sarge (~=0.1.6)$pyyaml (~=5.4.1)$marshmallow (~=3.10.0)
+zabel,0.13.0,3,requests (>=2.23)$zabel-commons (>=1.4.0)$zabel-fabric (>=0.16.1)
+zhutils,0.6.1,3,torch (>=1.7)$torchvision (>=0.8)$seaborn
+zabbix-controller,0.1.19,3,click (>=7.0,<8.0)$pyzabbix (>=0.7.5,<0.8.0)$bullet (>=2.1,<3.0)
+zebconf,0.1.9,3,future$passlib$pyusb
+zencoreipinfo,0.1.0,3,click$requests$ipaddress
+zi-api-auth-client,1.0.2,3,PyJWT$requests$cryptography
+zendesk-ticket-viewer,0.5,3,requests$zdesk$pytest
+zs-preflight,0.0.8b0,3,paramiko (>=2.4.2)$gspread (>=3.1.0)$oauth2client (>=4.1.3)
+zulip-botserver,0.8.2,3,zulip$zulip-bots$flask (>=0.12.2)
+zwnlptk,0.0.1,3,beautifulsoup4$lxml$jieba
+zids,0.0.1,3,jinja2 (>=3)$markdown (>=3)$markdown-full-yaml-metadata (>=2)
+zerial,0.2.1,3,attrs$enum ; python_version < "3.4"$typing ; python_version < "3.5"
+zospy,0.6.1,3,pythonnet (==2.5.2)$pandas$numpy
+zabbix2jira,0.2.1,3,docopt$jira$py-zabbix
+zuper-notes-z7,7.3.2201261049,3,zuper-commons-z7$zuper-utils-asyncio-z7$zuper-zapp-interfaces-z7
+zyte-smartproxy-selenium,1.0.8,3,adblockparser (>=0.7)$requests (>=2.27)$selenium-wire (>=4.6)
+zeppelin-handy-helpers,0.0.1a2,3,enum$requests$animation
+zcapm,0.4.0,3,numpy$pandas$statsmodels
+zshpower,0.12.0,3,docopt (>=0.6.2,<0.7.0)$snakypy-helpers (>=0.3.1,<0.4.0)$tomlkit (>=0.11.1,<0.12.0)
+zcross,0.0.15,3,matplotlib$pint$pyxb
+zcrmsdk,3.1.0,3,requests$python-dateutil$urllib3
+za07ryma,0.1,3,numpy$Pillow$ipywidgets
+zope-tales,5.2,3,setuptools$zope.interface$six
+zotero2md,0.2.0,3,Pyzotero (>=1.4.26,<2.0.0)$SnakeMD (>=0.9.3,<0.10.0)$markdownify (>=0.10.1,<0.11.0)
+zzsukitest,1.0.6,3,Jinja2$PyYAML$requests
+zyte-common-items,0.2.0,3,attrs (>=21.3.0)$itemadapter (>=0.2.0)$web-poet (>=0.5.0)
+zenframe,1.1.3,3,PyQt5 (!=5.14.1)$evalcache$psutil
+zope-tal,4.5,3,setuptools$zope.i18nmessageid$zope.interface
+zoopla,1.0.0,3,marshmallow (<3,>=2.13.6)$requests (<3,>=2.11.1)$enum34 (<2,>=1.1.6)
+zik-dl,0.6.0,3,yt-dlp$music-tag$pillow
+ztask,0.1.5,3,pandas (>=1.3.5,<2.0.0)$parsedatetime (>=2.6,<3.0)$prettytable (>=3.0.0,<4.0.0)
+zfs-uploader,0.8.0,3,apscheduler (>=3.6.3)$boto3 (>=1.16.20)$click (>=7.0)
+zillionare-core-types,0.5.2,3,deprecation (>=2.1.0,<3.0.0)$mkdocs-material-extensions (>=1.0.3,<2.0.0)$numpy (>=1.20,<2.0)
+zsh-kernel,2.0,3,jupyter-client$IPython$ipykernel
+zhinst,22.8.5,3,zhinst.core (==22.8.36541)$zhinst.utils (==0.1.3)$zhinst.toolkit (==0.5.0)
+zack-berserk,0.11.1,3,requests (~=2.20)$ndjson (~=0.2)$deprecated (~=1.2.7)
+zad,1.0rc2,3,dnspython (==2.1.0)$PyQt5 (==5.15.4)$qasync (==0.17.0)
+zhihu-cli,1.2.0,3,requests (==2.21.0)$beautifulsoup4 (==4.7.1)$lxml (==4.3.4)
+zope-size,4.4,3,setuptools$zope.interface$zope.i18nmessageid
+zte-mf823,0.0.1.dev21,3,requests$pbr$wheel
+zarr-jpeg2k,0.1.0rc3,3,imagecodecs (==2021.8.26)$numcodecs (==0.9.1)$numpy (>=1.15)
+zooper-client,0.1.7,3,urllib3 (<1.25.0)$requests (==2.22.0)$requests-oauthlib (==1.3.0)
+zoom-tormysql,0.4.2,3,tornado (>=5)$PyMySQL (>=0.7.10)$greenlet (>=0.4.2)
+zoom-narrator,1.0.1,3,pysubs2 (>=1.0.0,<2.0.0)$aiohttp[speedups] (>=3.7.3,<4.0.0)$asyncclick (>=7.1.2,<8.0.0)
+zoom-meet-attendance-visualizer,1.0.5,3,matplotlib$seaborn$numpy (==1.19.3)
+zimports,0.6.0,3,pyflakes$flake8-import-order$tomli
+zadnegoale,0.6.5,3,aiohttp (>3)$dacite$orjson
+zemberek-grpc,0.16.1,3,grpcio-tools$grpcio$googleapis-common-protos
+zuper-html-plus-z7,7.3.2202211108,3,zuper-commons-z7$zuper-html-z7$zuper-typing-z7
+zope-schema,6.2.1,3,setuptools$zope.interface (>=5.0.0)$zope.event
+zephyrus-sc2-parser,0.3.7,3,requests$mpyq$pytz
+zelus,0.1.0,3,tweepy (>=4.4.0,<5.0.0)$TwitterAPI (>=2.7.11,<3.0.0)$Flask (>=2.0.2,<3.0.0)
+zaiclient,3.1.0,3,pydantic (>=1.9.0)$requests (>=2.26)$urllib3 (>=1.25)
+zinvest-trade-api,0.0.4,3,python-dateutil (==2.8.1)$msgpack (==1.0.2)$websockets (==8.0)
+zephyr-uploader,1.0.3,3,click$pyexcel$requests
+zip2kafka,0.1.0,3,typer (>=0.3.2,<0.4.0)$confluent-kafka (>=1.7.0,<2.0.0)$loguru (>=0.5.3,<0.6.0)
+zip2np,0.1.4,3,numpy$tqdm$opencv-python
+zoomdl-2,1970.1.1,3,requests$demjson$tqdm
+zebr0-lxd,0.9.0,3,zebr0$PyYAML$requests-unixsocket
+zoombot,0.1.2,3,aiohttp (>=3.6.2,<4.0.0)$starlette (>=0.13.8,<0.14.0)$uvicorn (>=0.11.8,<0.12.0)
+zipcapture,0.1,3,flask$zipcommon$imgkit
+zensols-bibstract,0.1.1,3,bibtexparser (==1.1.0)$dateparser (~=1.1.0)$zensols.util (~=1.11.1)
+zipdist,0.1.5,3,numpy (>=1.18.1)$pandas (>=0.24.2)$feather-format (>=0.4.1)
+zoom-api-helper,0.1.1,3,requests$backports.cached-property (~=1.0.2) ; python_version == "3.7"$typing-extensions ; python_version == "3.7"
+zwiftpktmon,0.1.0,3,protobuf (>=3.19.4)$pcapy-ng-macos (>=1.0.4) ; platform_system == "Darwin"$pcapy-ng-win-amd64 (>=1.0.4) ; platform_system == "Windows"
+zgw-auth-backend,1.0.4,3,django$djangorestframework$pyjwt
+zgrobot,2.0.3,3,bottle$requests$xmltodict
+z3c-recipe-compattest,1.1.0,3,setuptools$zc.buildout (>=2.0.0)$zc.recipe.testrunner (>=2.0.0)
+zipline-ai,0.0.19,3,click (==7.0)$thrift (==0.11)$thrift-json (==0.1.0)
+zahner-analysis,1.0.2,3,numpy$matplotlib$requests
+zhujiangyu,0.2.4,3,numpy$matplotlib$sympy
+zuul-sphinx,0.6.0,3,pbr (>=1.1.0)$pyyaml$sphinx (>=1.5.1)
+zephyr-results-publisher,0.2.0,3,requests (>=2.27.1)$requests-toolbelt (>=0.9.1)$jsonschema (>=4.5.1)
+zfsexporter-tspspi,0.0.2,3,daemonize (>=2.5.0)$lockfile (>=0.12.2)$prometheus-client (>=0.13.1)
+zensols-grsync,0.1.0,3,zensols.util (~=1.11.0)$gitpython (==2.1.11)$gitdb2 (==2.0.3)
+zephyr-bootstrap,0.0.2,3,click$nbformat$cookiecutter
+zrtool,0.2.0,3,click (>=7.0,<8.0)$invoke (>=1.3,<2.0)$PyYAML (>=5.3,<6.0)
+zyme,0.1.1,3,click$pyyaml$toml
+zuper-utils-asyncio-z7,7.3.2202161758,3,typing-extensions$zuper-commons-z7$zuper-typing-z7
+zippy-pipeline,2.1.3.0,3,commentjson$pybloomfiltermmap$pyflow (>=1.1.0)
+zenodio,0.1.0,3,future$requests$xmltodict
+zreion,0.2.2,3,numpy$cython$pyfftw
+zeroguard-cli,0.0.1.dev3,3,click (==7.0)$python-box (==3.4.6)$pyyaml (==5.2)
+zowe-core-for-zowe-sdk,0.5.0,3,requests$urllib3$pyyaml
+zensols-install,0.1.0,3,patool (~=1.12)$tqdm (==4.48.2)$zensols.util (~=1.11.0)
+zipreport,0.1,3,pangocffi$cairocffi$pangocairocffi
+zoloto,0.9.0,3,cached-property (>=1.5)$pyquaternion (>=0.9.2)$numpy (>=1.22)
+zoldyck,1.1,3,moviepy$SpeechRecognition$requests
+zapp,0.0.7,3,importlib-metadata$setuptools$wheel
+zfit-interface,0.0.3,3,numpy$typing-extensions$uhi
+zepben-edith,0.2.1,3,zepben.evolve (==0.34.0)$dataclassy (==0.6.2)$mock (==4.0.3)
+zeit-shipit,0.1.10,3,click$tomli (>=1.2.2,<2.0.0)$towncrier
+zenoh,0.4.0,3,hexdump$mvar$papero (==0.2.7)
+zbsmsa,1.0.10,3,cssselect (>=1.0.1)$psycopg2 (>=2.7.1)$selenium (>=3.3.1)
+zensols-actioncli,1.1.5,3,configparser (==3.5.0)$PyYAML (>=5.1)$parse (>=1.9.0)
+ztlearn,1.1.5,3,numpy$matplotlib$scipy
+zohocrmsdk2-1,1.1.0,3,requests$python-dateutil$urllib3
+zish-antlr,0.0.14,3,antlr4-python3-runtime (==4.11.1)$arrow (>=1.2.3)$importlib-metadata (>=1.0) ; python_version < "3.8"
+zohocrmsdk2-0,5.0.0,3,requests$python-dateutil$urllib3
+zissou,0.0.0,3,click >= 7.0$pyserial$pyusb
+zygrpc,0.0.1.0,3,grpcio-tools$grpcio$protobuf
+zope-filerepresentation,5.0.0,3,setuptools$zope.interface$zope.schema
+zun-ui,10.0.0,3,horizon (>=17.1.0)$pbr (>=3.1.1)$python-zunclient (>=3.5.0)
+zeffclient,1.0.3,3,PyYAML (>=5.0)$requests (>=2.22)$tqdm (>=4.0)
+zredis,0.1.0,3,redis$zretry$redis-py-cluster
+zuul-stats-client,0.0.4,3,cliff$pbr$requests
+zeetoo,0.1.4,3,openpyxl$python-docx$olefile
+zodburi,2.5.0,3,ZODB$ZConfig$ZEO
+zplane,0.1.7,3,matplotlib$scipy$numpy
+zuora-aqua-client-cli,1.4.0,3,requests (>=2.22,<3.0)$click (>=7.0,<8.0)$flake8 (>=3.7,<4.0)
+zuup,1.0.7,3,Babel (>=1.3)$pbr (<2.0,>=1.4)$requests
+zensols-mimic,0.1.1,3,Pillow (~=9.2.0)$zensols.mednlp (~=0.1.1)$zensols.dbpg (~=0.1.0)
+zodb-py3migrate,0.6,3,ZODB3 (>=3.11)$setuptools$zodbpickle
+z3c-evalexception,3.0,3,setuptools$Paste$zope.security
+zc-buildout,3.0.1,3,setuptools (>=8.0)$pip$wheel
+zkcurvefit,0.1.4,3,numpy$scipy$matplotlib
+zocalo-dls,0.4.0,3,ispyb$procrunner$zocalo
+zetuptools,4.0.1,3,docker (>=5.0.3,<6.0.0)$zmtools (>=2.0.0)$dunamai (>=1.8.0,<2.0.0)
+zkg,2.13.0,3,gitpython$semantic-version$btest
+zkie,0.1.4,3,argh$future$kazoo
+znvis,0.0.1,3,open3d$numpy$pytest
+zcbor,0.6.0,3,cbor2 (>=5.4.2.post1)$pyyaml (>=5.4.1)$regex (>=2022.3.15)
+zenopy,2022.10.29,3,requests$validators$renku-sphinx-theme
+zklmp,0.0.1,3,numpy$scipy$matplotlib
+znbstatic,0.6,3,Django (>=2.0)$boto3 (<2,>=1.9.70)$django-storages (<2,>=1.7.1)
+znbdownload,0.1,3,Django (>=2.0)$boto3 (<2,>=1.9.70)$django-storages (<2,>=1.7.1)
+zettelkasten,0.2.3,3,importlib_metadata (>=3.4.0,<4.0.0); python_version < "3.8"$typer[all] (>=0.3.2,<0.4.0)$rich (>=9.13.0,<10.0.0)
+zdict,5.0.1,3,beautifulsoup4 (==4.11.1)$peewee (==3.15.0)$requests (==2.28.0)
+zentables,0.2.4,3,pandas (>=1.4.0,<2.0.0)$Jinja2 (>=3.0.1,<4.0.0)$click (>=8.1.3,<9.0.0)
+zrlog,0.1.1,3,zirconium (>=0.2.2)$autoinject (>=0.2.1)$toml
+zdm-client-py,1.0.1,3,paho-mqtt$click$pyjwt
+zope-lifecycleevent,4.4,3,setuptools$zope.interface$zope.event
+zest-ploneglossaryhighlight,2.0.0,3,setuptools$Products.CMFPlone$Products.PloneGlossary (>=1.5.0)
+zkvvm,0.1.0,3,vvm (>=0.1.0,<0.2.0)$appdirs (>=1.4.4,<2.0.0)$tqdm (>=4.64.1,<5.0.0)
+zm-au,1.2.0,3,packaging (>=20.9,<21.0)$zetuptools (>=4.0.1,<5.0.0)$zmtools (>=2.0.0,<3.0.0)
+zeropdk,22.8,3,numpy$klayout$scipy
+zerossl,0.1.3,3,requests (==2.26.0)$pyOpenSSL (==22.0.0)$boto3 (==1.23.0)
+ztranslator,1.0.0,3,requests (>=2.23.0,<3.0.0)$notify-send (>=0.0.19,<0.0.20)$googletrans (==3.1.0a0)
+z3c-batching,2.2,3,setuptools$zope.interface$zope.schema
+ztshare,0.0.1,3,numpy (>=1.16.5)$pandas (>=1.0.0)$requests (>=2.0.0)
+zlibtui,1.1.2,3,beautifulsoup4$blessed$requests
+zope-minmax,2.3,3,persistent$setuptools$zope.interface
+zuss,2.1.1,3,serial$argparse$colorama
+zdppy-redis,0.1.0,3,aioredis[hiredis] (>=2.0.1,<3.0.0)$zdppy-log (>=0.1.5,<0.2.0)$redis (>=4.1.4,<5.0.0)
+zensols-pybuild,0.0.7,3,zensols.util (>=1.2.0)$gitpython (==2.1.11)$gitdb2 (==2.0.3)
+zmanim,0.3.1,3,python-dateutil$julian$memoization
+zen-publish,0.0.23,3,click$oyaml$requests
+zdrive,2.1.5,3,pathlib (>=1.0.1)$setuptools (>=44.1.1)$google-auth-oauthlib (>=0.4.4)
+zerophone-api-daemon,0.1.0,3,PyRIC$jsonrpclib$zerophone-hw (>=0.4.0)
+zope-exceptions,4.6,2,setuptools$zope.interface
+zebr0,0.17.0,2,requests-cache$jinja2
+zabbixsim,0.3.0,2,zabbix-api (>=0.5.4)$pyyaml
+zabel-elements,1.13.0,2,requests (>=2.23)$zabel-commons (>=1.5)
+zmctools,0.0.1,2,requests (==2.27.1)$pandas
+zython,0.2.4,2,wheel$minizinc (>=0.4.2)
+zack-puc-ia-csv-converter,0.1.9,2,pandas (>=1.3.5,<2.0.0)$click (>=8.0.3,<9.0.0)
+zmfcli,0.1.19,2,fire$requests
+zku,1.0.29,2,cmdline (>=0.1.8)$sh (>=1.11)
+zmongo,0.1.0,2,pymongo$zretry
+zage,0.3.2,2,requests[security] (>=2.20) ; python_version < "3.0"$requests (>=2.20) ; python_version >= "3.0"
+zypec,1.2.0,2,markdown$ZypeSDK
+zakatqr,1.2.4,2,uttlv$qrcode
+zake,0.2.2,2,kazoo (>=1.3.1,!=2.1)$six
+zalotts,0.0.3,2,PyAudio (==0.2.11)$python-dotenv (==0.17.0)
+zmqflp,0.8.3,2,pyzmq$cbor2
+zycelium-dataconfig,0.1.1,2,click (>=8.0)$configobj (>=5.0)
+zmq-message-patterns,0.1.0,2,six$pyzmq
+zycelium-ansiformat,0.1.1,2,sty (>=1.0.0rc1)$colour (>=0.1.5)
+zy,0.1.5,2,numpy$xlwt
+zwt5,0.1.15,2,numpy$pandas
+zksync,0.1.1,2,kazoo$logging
+zwpdf,0.0.3,2,zwutils$PyMuPDF
+zappadock,0.1.10,2,Click$docker
+zwoasi,0.1.0.1,2,numpy (>=1.7)$six
+zapper,0.0.1,2,Click$requests
+zksk,0.0.2,2,bplib$petlib
+zappix,0.5.0,2,pyOpenSSL$pyopenssl-psk
+zapr-athena-client,0.1,2,boto3 (==1.13.17)$botocore (==1.16.17)
+zwf,0.1.0,2,docopt (>=0.6.2,<0.7.0)$hurry.filesize (>=0.9,<0.10)
+znipy,0.1.1,2,IPython$nbformat
+zwembad,1.2.2,2,mpi4py (>=3.0.3)$dill (>=0.3.3)
+zaraciccio,0.1.1,2,setuptools (>=42)$wheel
+zarena,0.2.2,2,numpy>=1,<2$gym>=0,<1
+zklibweb,0.3.2,2,requests (==2.20.1)$selenium (==3.141.0)
+zwcef,0.0.1,2,wxPython$cefpython3
+zkill-searchf,0.0.1,2,aiohttp$PyYAML
+zwave-js-server-python,0.43.0,2,aiohttp (>3)$pydantic (>=1.9.0)
+zarr-jpeg,0.1.1,2,numcodecs (>=0.6.4,<0.7.0)$imagecodecs (>=2020.1.31,<2021.0.0)
+zviz,1.0.4,2,networkx$pygraphviz
+zathura,0.0.6.0b1,2,peewee$pyfiglet
+zodb-cm,0.1,2,ZODB$ZEO
+zato-vault-client,1.4,2,hvac$six
+zjy-easyplot,0.1,2,numpy$matplotlib
+ziz,0.0.1,2,pytest (==6.1.2)$requests[security] (==2.25.1)
+zazo,0.0.0a3,2,packaging$six
+zbzdata,1.0.0,2,requests (>=2.19.1)$lxml (>=3.7.1)
+zut,0.4.5,2,tabulate (>=0.8.10)$python-dotenv (>=0.20.0)
+zcbe,0.5.0,2,toml$typing-extensions ; python_version<'3.8'
+zurich,0.1.0,2,aiohttp (>=3.0.0)$yarl (>=1.6.0)
+zoegas,1.3.1,2,cltk$lxml
+zc-beforestorage,0.6,2,setuptools$ZODB
+zof,0.19.0,2,aiohttp$prometheus-client
+ziva,0.2.6,2,pyserial (==3.5)$pandas (==1.3.1)
+zohavi,0.1.49,2,json-cfg$pymongo
+zoho-analytics-connector,1.3.6,2,requests$emoji
+zuper-utils-soup-z7,7.3.2201261049,2,beautifulsoup4 (<=4.7.1,>=4.6)$zuper-commons-z7
+zcommon,0.1.2,2,match-pattern$pyyaml
+zcommons,0.2.1,2,colorama$dataclasses ; python_version < "3.7"
+zitpyvat,1.0.20,2,PyVISA (==1.10.1)$PyVISA-py (==0.4.1)
+zconfig-watchedfile,1.2,2,ZConfig$setuptools
+zish,0.1.10,2,arrow (>=1.2.3)$importlib-metadata (>=1.0) ; python_version < "3.8"
+zc-recipe-cmmi,3.0.0,2,setuptools$zc.buildout (>=2.9.4)
+zc-set,0.2,2,setuptools$persistent
+zohoreader,0.1.1,2,requests (>=2.12.4)$python-dateutil (>=2.7.2)
+zcts,0.0.6,2,pyserial$colorama
+zcurve,0.0.4,2,typing$gmpy2
+zd,0.0.4,2,fire$zstandard
+zdcode,2.12.4,2,parsy (>=1.3.0,<2.0.0)$attrs (>=20.3.0,<21.0.0)
+zdpapi,0.1.0,2,pydantic (>=1.8.2,<2.0.0)$uvicorn (>=0.15.0,<0.16.0)
+zip-shotgun,1.0.2,2,click (~=7.0)$typeguard (~=2.2)
+zipr-http,0.0.6,2,requests$zipr-core
+zdpapi-file,0.1.0,2,pydantic (>=1.8.2,<2.0.0)$uvicorn (>=0.15.0,<0.16.0)
+zdpapi-modbus,1.7.1,2,aioredis[hiredis] (>=2.0.0,<3.0.0)$redis (>=4.0.2,<5.0.0)
+zdpapi-router,1.0.0,2,zdpapi (>=0.1.0,<0.2.0)$zdpapi-mysql (>=1.0.2,<2.0.0)
+zipr-azure,0.0.6,2,azure-storage-blob$zipr-core
+zdppy-grpc,0.1.1,2,grpcio (>=1.45.0,<2.0.0)$grpcio-tools (>=1.45.0,<2.0.0)
+zumi,1.66,2,pyzbar$smbus2
+zum,0.3.0,2,httpx (>=0.17.1,<0.18.0)$tomlkit (>=0.7.0,<0.8.0)
+zipmigo,1.1.0,2,tqdm (>=4.38)$requests (>=2.22.0)
+ze2nb,1.0.0,2,ipython$nbformat
+zipline-foreverbull,0.0.1,2,zipline-reloaded (>=2.1.1)$foreverbull-core (>=0.0.12)
+zonic,0.1.7,2,colorama$halo
+zipline-foreverbll,0.0.7,2,zipline-reloaded (>=2.1.1)$foreverbull-core (>=0.0.25)
+zipline-ai-dev,0.0.1,2,click$thrift
+zipkin-agent,0.1.1,2,packaging$wrapt
+zeblok-py,0.0.8,2,requests$minio
+zoodumper,0.1,2,Click$Kazoo
+zuko,0.0.6,2,numpy (>=1.20.0)$torch (>=1.8.0)
+zebr0-script,0.12.0,2,zebr0$PyYAML
+zoom,0.0.15,2,click$pyaml
+zed,1.1.1,2,twisted$pyzmq
+zedsuite,0.0.6,2,Cython (>=0.29.23numpy)$pandas
+zipcode,4.0.0,2,haversine$SQLAlchemy
+zoom-auto-creator,0.0.4,2,pyautogui (>=0.9.53,<0.10.0)$Pillow (>=9.2.0,<10.0.0)
+zipapp-utils,0.3.1,2,Jinja2 (>=3.1.2,<4.0.0)$poetry-core[poetry] (>=1.0.8,<2.0.0)
+zip-analyzer,1.0.0,2,cli-formatter (>=1.2.0)$zipfile37
+zoomconnect-sdk,0.0.3,2,requests (>=2.18.4)$six (>=1.11.0)
+zeebe-grpc,8.0.4.post1,2,grpcio (<2,>=1)$protobuf (<4,>=3.19.0)
+zio-py,0.0.7,2,typing-extensions (>=4.2.0)$dataclasses ; python_version < "3.7"
+zoome,0.0.5,2,pyJWT (==2.0.0)$requests
+zingmp3py,0.3.1,2,aiohttp$requests
+zinfoexport,0.2.8,2,pandas$requests
+zeero,1.1.0,2,sh$ruamel.yaml
+zefactor,0.0.6,2,zind$zompt
+ztmodtcp,1.0.4,2,modbus-tk (>=1.1.2)$setuptools (>=56.0.0)
+zefram,0.1.3,2,SQLAlchemy (>=1.4.22,<2.0.0)$numpy (>=1.21.2,<2.0.0)
+zeit3101helpers,0.0.14,2,pika$stix2
+zoom-us,1.1.4,2,requests$PyJWT
+zoomus2,0.2.0,2,PyJWT$requests
+zoonado,0.9.2,2,six$tornado (>=4.1)
+ztimer,1.0.5,2,zsingleton$zblocker (>=1.0.2)
+zooper-common,0.1.52,2,boto3$keras (>=2.2.5)
+zooper-premium-handbags-dataset,0.1.4,2,keras (>=2.2.5)$Pillow (>=6.2.0)
+zooper-sport-cars-brand-dataset,0.1.5,2,keras (>=2.2.5)$Pillow (>=6.2.0)
+zthreadpool,1.0.1,2,zqueue (>=1.2.0)$zblocker
+zoopt,0.4.2,2,numpy$matplotlib
+zigzag,0.3.2,2,numpy (>=1.21.1)$Cython (>=0.29,<0.30)
+zigpy-xbee-homeassistant,0.11.0,2,pyserial-asyncio$zigpy-homeassistant (>=0.17.0)
+zeit-online,1.0.0,2,requests (>=2.25.1)$pandas (>=1.2.3)
+zemberek-python,0.2.2,2,antlr4-python3-runtime (==4.8)$numpy (>=1.19.0)
+zigpy-cc,0.5.2,2,pyserial-asyncio$zigpy (>=0.23.1)
+zemfrog-test,1.0.3,2,zemfrog (>=5.0.1,<6.0.0)$pytest (>=6.2.2,<7.0.0)
+zen3geo,0.5.0,2,rioxarray (>=0.10.0)$torchdata (>=0.4.0)
+zstreams,0.0.2,2,confluent-kafka$pyspark
+zope-app-catalog,4.0.0,2,setuptools$zope.catalog (>=4.2.0)
+zstd-asgi,0.1,2,starlette (>=0.13.4)$zstandard (>=0.15.2)
+zenaton,0.4.2,2,requests$pytz
+zicutter,0.0.5,2,logzero$UnicodeTokenizer
+zssdb,0.1.2,2,pyssdb$zretry
+zenbot,1.0.1,2,aiohttp (>=3.7.4,<4.0.0)$gunicorn (>=20.1.0,<21.0.0)
+zen-core,0.2.7,2,github3.py (>=2.0.0,<3.0.0)$click (>=8.0.1,<9.0.0)
+zs-mixins,0.0.1,2,SQLAlchemy (>=1.3)$Werkzeug (>=2.0)
+zendesk-django-auth,0.2.0,2,django (>=2.2)$PyJWT (<2.5.0,>=2.4.0)
+zendesk-exporter,0.0.32,2,openpyxl$requests
+zsim-cli,0.6.1,2,click (>=5.1)$pytest
+zenduty-api,0.2,2,urllib3$six (==1.9.0)
+zengapay,0.2.0,2,requests$phonenumbers
+zhouyuqin-python-sdk-core,0.1.0,2,jmespath (<1.0.0,>=0.9.3)$cryptography (>=2.6.0)
+zsft-recipe-cmd,0.4,2,setuptools$zc.buildout
+zsfile,0.1.0,2,click$zstandard
+zscli,0.1.0,2,click==8.0.3$requests==2.27.1
+zhinst-utils,0.1.4,2,numpy (>=1.14)$zhinst-core (>=22.08)
+zscaler-python-sdk,0.2.1,2,requests (>=2.26.0,<3.0.0)$black (>=21.9b0,<22.0)
+zhinst-deviceutils,0.1.1,2,zhinst (>=22.02)$numpy (>=1.14)
+zhinst-core,22.8.36541,2,numpy (>=1.14)$typing-extensions
+zhijiang,0.0.3,2,termcolor$fire
+zhihuvapi,1.0.6,2,requests (>=2.10.0)$pywin32
+zhihu-qrcode-login,0.0.2,2,requests$matplotlib
+zs-amazon-scraper,0.2.8,2,kcu$beautifulsoup4
+zope-app-schema,4.1.0,2,setuptools$zope.vocabularyregistry (>=1.0.0)
+zennit-crp,0.5.0,2,zennit (<=0.4.6)$torch (>=1.7.0)
+zope-app-session,4.1.0,2,setuptools$zope.session
+zhengen-src,1.0.0,2,Flask (>=1.0.2)$opencv-python
+zenodo-get,1.3.4,2,requests$wget
+zenomatic,1.0.1,2,colorama$docopt
+zenora,0.0.3.post1,2,requests$attrs
+zenossapiclient,0.2.7,2,python-dateutil (>=2.6.1)$requests (>=2.18.1)
+zope-browser,2.4,2,setuptools$zope.interface
+zenpass,1.0.5,2,srutil$pyperclip
+zgyio,0.0.4,2,numpy$segyio
+zenpi,0.0.1,2,requests (>=2.21.1)$prettytable (>=0.7.2)
+zq-tools,0.9.6,2,colorlog (>=6.6)$colorful
+zensols-db,0.2.0,2,zensols.util (~=1.11.1)$pandas (~=1.4.2)
+zqlib,0.1.10,2,numpy$opencv-python
+zfs-replicate,1.4.0,2,click (>=7.1.2,<8.0.0)$stringcase (>=1.2.0,<2.0.0)
+zfs-autobackup,3.1.3,2,colorama$argparse
+zensols-dbpg,0.1.0,2,zensols.db (~=0.2.0)$psycopg2 (~=2.8.3)
+zensols-mimicsid,0.0.1,2,zensols.deepnlp (~=1.4.1)$zensols.mimic (~=0.1.1)
+zope-copy,4.2,2,setuptools$zope.interface
+zfpc,0.1.2,2,numpy$zfpy
+zope-datetime,4.3.0,2,setuptools$six
+zope-deferredimport,4.4,2,setuptools$zope.proxy
+zpy-ciphers-utils,0.0.1,2,zpy-api-core$pycryptodome
+zensols-ngramdb,0.0.2,2,zensols.actioncli (>=1.0.17)$zensols.dbpg (>=0.0.1)
+z-format,0.7.0,2,jsbeautifier (>=1.6)$jsmin (>=2.2)
+zformat,0.9.2,2,jsbeautifier (>=1.6)$jsmin (>=2.2)
+zensols-showfile,0.1.0,2,zensols.util (~=1.11.1)$screeninfo (~=0.8)
+zpipe,0.0.1,2,msgpack (>=0.6.1)$zlogger
+z048,0.1.2,2,numpy (>=1.18.5,<2.0.0)$click (>=7.1.2,<8.0.0)
+zenv-cli,0.4.3,2,toml (>=0.10.0,<0.11.0)$click
+zepben-protobuf,0.22.0,2,protobuf (==3.20.1)$grpcio (==1.46.3)
+zevon,0.3.0,2,Flask (>=2.1)$Werkzeug (>=2.1)
+zephony,0.16,2,voluptuous$twilio
+zepl,1.0.3,2,pyzmq$zepl-device
+zepl-broker,1.1.0,2,pyzmq$zepl-device
+zettels,0.7.0,2,PyYAML$pathspec (>=0.5.0)
+zope-i18nmessageid,5.1.0,2,setuptools$six
+zettelgeist,1.1.5,2,python-frontmatter$tatsu
+zest-zodbupdate,1.0.0,2,setuptools$zodbupdate
+zest-pocompile,1.6.0,2,setuptools$python-gettext
+zepl-device,1.1.0,2,pyzmq$websockets
+zepl-logging,1.1.0,2,requests$datetime
+zeroseg-improved,0.3,2,RPi.GPIO$spidev
+zeroseg-api,0.3,2,flask$ZeroSeg-Improved
+zotero-bibtize,0.1.0,2,pathlib$click
+zeropy,0.4.0,2,zerocrypt (==0.2)$crcpy (==0.1)
+zotero2readwise,0.2.6,2,Pyzotero (>=1.4.26,<2.0.0)$requests (>=2.26.0,<3.0.0)
+zeplyn,0.1.1,2,typer[all] (>=0.3.2,<0.4.0)$twine (==3.4.1)
+zo-sdk,0.2.0,2,anchorpy (>=0.9.3,<0.10.0)$solana (>=0.25.0,<0.26.0)
+zeromessage,0.2,2,zmq$fire
+zope-processlifetime,2.4,2,setuptools$zope.interface
+zope-proxy,4.6.0,2,zope.interface$setuptools
+zermeloapi,2022.9.11.14.31.32,2,datetime$requests
+zorp,0.3.8,2,pysam$filefetcher
+zerofs,0.2.0,2,backblazeb2$fusepy
+zeroapi,0.3.2,2,pyzmq$msgpack
+zeroed,0.1.0rc1,2,click (>=7.1.1,<8.0.0)$docopt (>=0.6.2,<0.7.0)
+zerochan,0.5.0,2,requests (>=2.25.1,<3.0.0)$beautifulsoup4 (>=4.9.3,<5.0.0)
+zeroconf,0.39.4,2,async-timeout (>=4.0.1)$ifaddr (>=0.1.7)
+zeroconf-py2compat,0.19.16,2,ifaddr$six
+zerodha-tickersaver,1.0.0,2,kiteconnect (>=4.1.0)$requests (>=2.28.1)
+zerocopy,0.1.0,2,torch$ray
+zeroconnect,1.0.0,2,netifaces$zeroconf
+zope-structuredtext,4.4,1,setuptools
+zerodha-without-api,0.0.1,1,requests
+zeroconf-monkey,1.0.1,1,zeroconf (<=0.28.5,>=0.25.0)
+zeroconf2,0.19.2,1,netifaces (!=0.10.5)
+zope-testing,4.10,1,setuptools
+zope-sequencesort,4.2,1,setuptools
+zero-divisor-graph,1.0.0,1,numpy
+zerocdn,1.0.6,1,requests
+zeroframe-ws-client,1.2.0,1,websocket-client (<0.57.0,>=0.56.0)
+zernpol,0.1.4,1,numpy
+zermelo-py,1.0.1,1,requests (>=2.17.0)
+zerohash-python,0.0.9,1,requests (>=2.26.0,<3.0.0)
+zorroclient,0.0.1a0,1,requests
+zero-ilumi-calculadora-package,0.0.2,1,django
+zeronet,0.1.3,1,numpy (>=1.15,<2.0)
+zoslogs,0.1.2,1,tqdm
+zepusu,0.2.0,1,pyzmq
+zotac,0.0.4,1,click (==8.0.1)
+zotapaysdk,1.1.6,1,requests
+zotcher,0.0.3,1,requests (>=2.28.1)
+zote4o2-test,0.1.0,1,numpy
+zerophone,0.0.5,1,jsonrpclib-pelix
+zerophone-hw,0.4.2,1,gpio
+zero-sdk,0.1.10,1,python-graphql-client (==0.4.3)
+zerotk-xml-factory,0.1.2,1,six
+zertoapl,0.0.4,1,requests (>=2.25.0)
+zope-hookable,5.3,1,setuptools
+zevercloud-api,0.2.1,1,requests (>=2.28.0)
+zotutil,0.1.1,1,pyzotero
+zephyr-sdk,0.2.1,1,requests (<3.0.0,>=2.23.0)
+zouqi,1.0.9,1,pyyaml
+zephyr-python-api,0.0.1.dev2,1,requests
+zephyr-behave,1.2.1,1,behave2cucumberZephyr
+zeversolarlocal,1.1.0,1,httpx
+zowe-zos-console-for-zowe-sdk,0.0.1,1,zowe.core-for-zowe-sdk
+zowe-zos-files-for-zowe-sdk,0.5.0,1,zowe.core-for-zowe-sdk
+zowe-zos-jobs-for-zowe-sdk,0.5.0,1,zowe.core-for-zowe-sdk
+zowe-zosmf-for-zowe-sdk,0.0.1,1,zowe.core-for-zowe-sdk
+zowe-zos-tso-for-zowe-sdk,0.0.1,1,zowe.core-for-zowe-sdk
+zexfn,6.0.0,1,requests
+zoxy,0.0.5,1,mypy ; python_version <= "3.7"
+zp1,1.0.0.9,1,zp3 (>=1,<2)
+zp2,1.0.0.9,1,zp3 (>=2,<3)
+zeyrek,0.1.2,1,nltk (>=3)
+zpgdb,0.5.0,1,psycopg2
+zope-event,4.5.0,1,setuptools
+zenutils,0.3.9,1,inspect2 (~=0.1.2)
+zpllibrary,1.0.3,1,pillow (==7.0.0)
+zplogger,0.1.2,1,requests (>=2.21.0)
+zentropi,2020.0.1,1,click
+zpp-serpent,2.2.2,1,bitstring
+zensols-zotsite,0.6.2,1,zensols.util (~=1.11.1)
+zfit-physics,0.2.0,1,zfit (>=0.6)
+zprofile,1.0.12,1,protobuf
+zope-dottedname,5.0,1,setuptools
+zope-deprecation,4.4.0,1,setuptools
+zpy-cloud-utils,1.1.2,1,zpy-api-core
+zope-contenttype,4.6,1,setuptools
+zensols-hostcon,0.5.0,1,zensols.actioncli (>=1.0.9)
+zfs3backup,0.2.2,1,boto3
+zpz,0.5,1,pytz
+zga,0.0.9.post2,1,biopython (<=1.77)
+zgoubi-metadata,0.1,1,PyYAML (>=5.3)
+zope-cachedescriptors,4.4,1,setuptools
+zqueue,1.2.0,1,zblocker
+zenserp,0.2,1,requests
+zenrows,1.3.0,1,requests
+zen-quotes,1.1.2,1,requests
+zgtf,0.1.2,1,htseq (>=0.11)
+zrelay,0.0.2,1,smbus2
+zhang2016dependency,0.1.0,1,keras
+zhao,0.0.94,1,requests (>=2.18.4)
+zhaogang-collec,0.0.3,1,pytest
+zhaostephen-rebrn,0.1.2,1,datetime-matcher (>=0.2.1)
+zha-quirks,0.0.85,1,zigpy (>=0.51.1)
+zhfirstpypi,0.1.0,1,typer (>=0.4.1,<0.5.0)
+zenmoney,0.9,1,requests
+zhihu-oauth,0.0.42,1,requests (>=2.10.0)
+zscaler,0.13,1,requests
+zenmake,0.11.0,1,PyYAML
+zhinst-hdiq,1.0.1,1,ifaddr (>=0.1.7,<0.2.0)
+zscalertools,0.0.11,1,requests
+zhonghong-climate,1.0.1,1,attrs
+zenlux,0.0.2,1,discord
+zhong-hong-hvac,1.0.9,1,attrs
+zhouyuqin,0.1.1,1,zhouyuqin (==0.1.1)
+zsh2xonsh,0.1.0b1,1,click
+zsh-compose,0.0.1,1,click (>=6.7)
+zshell,0.1.0,1,paramiko
+zsh-history-to-fish,0.3.0,1,click
+zenkpytone,2.0.2,1,requests
+zengin-code,1.1.0.20221023,1,six
+zhouyuqin-python-sdk-demo,0.1.0,1,zhouyuqin-sdk-core (==0.1.0)
+zhruby,2.0.3,1,opencc
+zenduty-airflow-operator,0.1.2,1,zenduty-api
+zhugc-study-math,0.0.2,1,numpy
+zhushengwen,1.0.4,1,redlock (>=1.1.1)
+zhwanfirst,1.0.0,1,pillow
+zendesk-api,0.1.5,1,appier
+ziamath,0.7,1,ziafont (>=0.5)
+zencore-json2csv,0.2.1,1,click
+zsocket,1.0.3,1,ztimer (>=1.0.5)
+zibal,1.1.0,1,requests
+zs-pluginmanager,0.0.1,1,entrypoints (>=0.3)
+zs-postinstall-test,0.0.1b0,1,urllib3 (==1.24.1)
+zencelium,2020.0.1,1,click
+zibalplatform,1.0.0,1,requests
+zsql,1.0.2,1,pymysql
+zict,2.2.0,1,heapdict
+zigbee2mqtt,0.0.1,1,pydantic (>=1.8.0,<2.0.0)
+zstandard,0.19.0,1,cffi (>=1.11) ; platform_python_implementation == "PyPy"
+zstatspython,1.1,1,mysql-connector-python
+ziggeo,2.30,1,pycryptodome (>=3.7.0)
+ziggof1broadcasts,0.1.0,1,aiohttp (>=3.0.0)
+ziggo-mediabox-xl,1.1.0,1,requests (>=2.20.0)
+zemfrog-theme,1.0.1,1,zemfrog (>=5.0.1,<6.0.0)
+ziggostatus,0.1.1,1,aiohttp (>=3.0.0)
+zemfrog-resetdb,1.0.1,1,zemfrog (>=4.0.3,<5.0.0)
+zemfrog-quasar,1.0.2,1,zemfrog-theme (>=1.0.1,<2.0.0)
+zemfrog-auth,1.0.3,1,zemfrog (>=5.0.1,<6.0.0)
+zigpy-deconz,0.19.1,1,zigpy (>=0.51.0)
+zigpy-xbee,0.16.2,1,zigpy (>=0.51.0)
+zikauf4,0.0.1,1,pickle
+zimbra-permissions-inspector,0.1,1,python-ldap
+zimbraweb,2.1.1,1,requests (>=2)
+zimfarm,0.0.10,1,requests (>=2.21.0)
+zimply-core,1.0.7,1,zstandard (>=0.14.1)
+zoom-kurokesu,1.1.0,1,pyserial
+ztorgbpy,1.0.1,1,numpy (<2,>=1.6)
+zoomg,2.0.5,1,pybind11 (>=2.4)
+zeekscript,1.1.0,1,tree-sitter
+zip3,1.0.2,1,boto3
+zip-files,0.4.1,1,click
+zoomai,1.0.1,1,requests
+zebra,0.1.0,1,pywin32 ; platform_system == "Windows"
+zipfile-zstd,0.0.4,1,zstandard (>=0.15.0)
+zlog,3.1,1,ZConfig (>=3.4)
+zugbruecke,0.1.0,1,wenv >=0.4.0,<0.5.0
+zugh,0.0.1b3,1,PyMySQL (>=0.9.3)
+zipgen,0.1.3,1,typing-extensions ; python_version < "3.8"
+zoo-cmd,1.1.0,1,kazoo
+zebepy,1.0.1,1,requests
+zealous,0.2.4,1,pydantic (>=1.4,<2.0)
+ze2nb-cli,1.0.2,1,ze2nb
+zonefilegen,0.1.1,1,toml
+zdsync,0.0.3,1,zenpy
+zippy-ip-scanner,1.1.0,1,pyqt5
+zonar-ds-logger,1.0.0,1,python-json-logger (==0.1.11)
+zdppy-orm,0.1.5,1,zdppy-mysql (>=0.2.5,<0.3.0)
+zompt,0.1.0,1,zeys
+zdppy-consul,0.1.1,1,zdppy-requests (>=0.1.1,<0.2.0)
+zdpapi-ssh,0.1.2,1,paramiko (>=2.8.1,<3.0.0)
+zipr-core,0.0.6,1,importlib-metadata
+zomato-sdk,0.1.0,1,requests
+zomatopy,1.0.10,1,requests (>=2.11.1)
+zdpapi-elastic-search,1.0.0,1,elasticsearch (>=7.15.2,<8.0.0)
+zokrates-pycrypto,0.3.0,1,bitstring (>=3.1,<4.0)
+ziptastic-python,1.0.0b2,1,requests
+zdbpydra,0.3.2,1,requests
+zdatalake,0.1.1,1,Click (>=6.0)
+zipunicode,1.0.0,1,chardet (>=3.0.0)
+zirc,1.2.10,1,six
+zirconium,0.2.2,1,autoinject-pymitter
+ziroom-watcher,0.1.5,1,requests-html
+zohodb-py,1.0.4,1,httpx
+zisraw,2018.10.18,1,czifile
+zoho-crm-connector,1.0.0,1,requests
+zohocrmapi,0.0.11,1,requests
+zoho-crm,0.0.2,1,requests>=2.28.1
+zcomm,0.0.2,1,zmq
+zc-lockfile,2.0,1,setuptools
+zoetrope,0.2,1,mock
+zuraaa-vote-checker,0.1.3,1,discord.py (<=2.0.0,>=1.0.0)
+zivid,2.7.0.2.8.1,1,numpy
+ziviz,0.1.5,1,ipywidgets (>=7.6.0)
+zodbverify,1.2.0,1,ZODB
+zcash-service-status,0.1.2,1,requests
+zixi-api,0.0.1,1,requests (>=2.18.4)
+zbookmarks,1.3,1,beautifulsoup4 (>=4.9.3,<5.0.0)
+zbench,0.1.0,1,click (>=7.0)
+zbarcam,2020.524,1,kivy-garden.zbarcam
+zixipay,0.0.1,1,aiohttp
+zodbpickle,2.5,1,setuptools
+zk2jy360,1.0.0,1,requests
+zaruti-trading,1.0.3,1,requests (==2.18.4)
+zaruti-account,1.0.3,1,requests (==2.18.4)
+zkbfirstapp,8.0.2,1,pyyaml
+zkdatabuilder,0.1.4,1,numpy
+zarenacord-py,2.0.1,1,zarenacord (>=2.0.0)
+zarenacord,2.0.0,1,aiohttp (<3.8.0,>=3.6.0)
+zkdumpreader,0.0.7,1,numpy
+zwave-me-ws,0.3.0,1,websocket-client (>=1.2.1,<2.0.0)
+zwave-ws,0.1.15,1,websocket-client (>=1.2.1,<2.0.0)
+zkit,0.1.0,1,Click (>=7.0)
+znotify,0.2.0,1,requests (>=2.27.1,<3.0.0)
+znop,0.2.0,1,wheel
+zwedu-student-etl,1.0.0,1,peppercorn
+znlib,0.1.0,1,colorama (>=0.4.5,<0.5.0)
+zk-logo-maker,1.0.5,1,Pillow
+zk-screenshot-maker,1.0.5,1,Pillow
+zmzget,0.1.0,1,requests-html
+zmxtools,0.1.3,1,coloredlogs (>=15.0.1,<16.0.0)
+zappa-scheduler,1.0.7,1,django-picklefield
+zmtools,2.0.4,1,click (>=2.0.0)
+zappa-layer,0.1.2,1,Click
+zappa-env,0.252,1,zappa
+zmsai,0.1.5,1,scikit-learn
+zms3,3.3.4,1,ZMS (<4)
+zappa-django-utils,0.4.1,1,Django (>=1.9)
+zmq-tubes,1.9.0,1,pyzmq
+zapimoveis-scraper,0.4.0,1,beautifulsoup4
+zxgraphs,0.0.post5,1,typing-extensions
+zxing-cpp,1.4.0,1,numpy
+zap-flask-pubsub,0.0.2,1,pika (<=1.3.0)
+zxpath,1.0.3,1,lxml
+zxpath2,1.1.3,1,lxml
+zxynewpkgcheckupstream,0.0.3,1,Django (>=2.0)
+zktool,1.3.2,1,peppercorn
+zapdos,0.1.0,1,sphinx (>=5.3.0,<6.0.0)
+zaoshu,0.2.0,1,requests
+zmq-service-tools,0.25,1,pyzmq
+zmq-lightweight-messaging,0.4,1,zmq
+zyctool,1.1.5,1,xlrd (==1.2.0)
+zandbak,0.2.11,1,numpy (<2)
+zyf-timer,1.8,1,prettytable
+zammad-py,1.1.0,1,requests (>=2.25.1,<3.0.0)
+zamg,0.2.0,1,aiohttp (>=3.8.0)
+zmqf,0.0.3,1,pyzmq
+zalando-commons,0.1.0,1,Click (>=7.0)
+zmqcs,0.1.1,1,pyzmq
+zm-py,0.5.2,1,requests (>=2.0)
+zahlwort2num,0.4.2,1,markdown
+zaglushka,0.1.0,1,tornado (<6.1,>=5.1)
+zmote,2017.7,1,requests (==2.18.4)
+zypper-patch-status-collector,0.3.1,1,setuptools
+zmongo-filter,0.0.6,1,setuptools
+zadeh,0.3.0,1,numpy
+zmeyweb,1.0.1,1,flask
+zaber-serial,0.9.1,1,pyserial
+zaber-device,2.1.1,1,serial-interface
+zmesh,1.4.2,1,oldest-supported-numpy
+zk-watcher,0.4.0,1,nd-service-registry (>=1.0.0)
+zabel-commons,1.5.1,1,requests (>=2.23)
+zabbix-weixin-alert,2019.2.27.5,1,requests
+zzha529-test,1.16,1,redis (==4.1.0)
+zmapio,0.8.1,1,numpy
+zzhprobm,0.4,1,matplotlib (==3.3.2)
+zzlog,1.0.0,1,python-json-logger
+zabbix-app-ports-discovery,2019.2.22.4,1,psutil
+z4-solver,2021.12.25.1,1,z3-solver (>=4.8,<5.0)
+z3gi,0.1.1,1,z3-solver
+zzz001,0.0.4,1,PyYAML

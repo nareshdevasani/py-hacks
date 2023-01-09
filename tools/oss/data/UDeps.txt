@@ -1,0 +1,1623 @@
+udata,4.1.3,88,amqp (==2.6.1)$aniso8601 (==9.0.1)$appdirs (==1.4.4)$attrs (==21.2.0)$authlib (==0.14.3)$awesome-slugify (==1.6.5)$babel (==2.8.0)$bcrypt (==3.1.7)$billiard (==3.6.4.0)$bleach (==3.1.0)$blinker (==1.4)$celery (==4.3.0)$celerybeat-mongo (==0.2.0)$certifi (==2021.5.30)$cffi (==1.14.6)$chardet (==3.0.4)$click (==7.0)$cryptography (==2.8)$dnspython (==2.1.0)$email-validator (==1.1.3)$factory-boy (==2.12.0)$faker (==3.0.0)$flask (==1.1.4)$flask-babelex (==0.9.3)$flask-caching (==1.8.0)$flask-cdn (==1.5.3)$flask-cors (==3.0.8)$flask-fs (==0.6.1)$flask-gravatar (==0.5.0)$flask-login (==0.4.1)$flask-mail (==0.9.1)$flask-mongoengine (==0.9.5)$flask-navigation (==0.2.0)$flask-principal (==0.4.0)$flask-restx (==0.5.1)$flask-security-too (==3.4.4)$flask-sitemap (==0.3.0)$flask-themes2 (==0.1.4)$flask-wtf (==0.14.2)$geojson (==2.5.0)$html2text (==2019.9.26)$idna (==2.10)$isodate (==0.6.0)$itsdangerous (==1.1.0)$jinja2 (==2.10.3)$jsonschema (==3.2.0)$kafka-python (==2.0.2)$kombu[redis] (==4.4.0)$lxml (==4.4.2)$markupsafe (==2.0.1)$mistune (==0.8.4)$mongoengine (==0.20.0)$msgpack (==0.6.2)$netaddr (==0.7.19)$passlib (==1.7.4)$pillow (==8.0.0)$pycparser (==2.20)$pydenticon (==0.3.1)$pymongo (==3.10.1)$pyparsing (==2.4.7)$pyrsistent (==0.18.0)$python-dateutil (==2.8.1)$pytz (==2019.3)$rdflib (==6.0.0)$redis (==3.3.11)$regex (==2021.8.3)$requests (==2.24.0)$simplejson (==3.17.0)$six (==1.16.0)$speaklater (==1.3)$stringdist (==1.0.9)$text-unidecode (==1.3)$tlds (==2021080800)$udata-event-service (==0.0.8)$ujson (==1.35)$unicodecsv (==0.14.1)$unidecode (==0.4.21)$uritools (==3.0.2)$urlextract (==0.14.0)$urllib3 (==1.25.11)$vine (==1.3.0)$voluptuous (==0.11.7)$webencodings (==0.5.1)$werkzeug (==0.16.1)$wtforms (==2.2.1)$wtforms-json (==0.3.3)$xmltodict (==0.12.0)$zxcvbn (==4.4.28)
+url-text-module,0.6.1,67,aiohttp (==3.8.1)$aiosignal (==1.2.0)$async-timeout (==4.0.2)$asynctest (==0.13.0)$attrs (==21.4.0)$bleach (==4.1.0)$certifi (==2022.5.18.1)$chardet (==3.0.4)$charset-normalizer (==2.0.12)$click (==8.1.3)$colorama (==0.4.4)$cycler (==0.11.0)$datasets (==1.18.4)$dill (==0.3.5.1)$docutils (==0.18.1)$filelock (==3.7.1)$fonttools (==4.34.4)$frozenlist (==1.3.0)$fsspec (==2022.5.0)$fugashi (==1.1.2)$huggingface-hub (==0.8.1)$idna (==3.3)$importlib-metadata (==4.8.3)$ipadic (==1.0.0)$joblib (==1.1.0)$keyring (==23.4.1)$kiwisolver (==1.3.1)$matplotlib (==3.3.4)$multidict (==6.0.2)$multiprocess (==0.70.13)$nltk (==3.7)$numpy (==1.19.5)$packaging (==21.3)$pandas (==1.3.5)$Pillow (==8.4.0)$pkginfo (==1.8.3)$pyarrow (==8.0.0)$Pygments (==2.12.0)$pyparsing (==3.0.7)$python-dateutil (==2.8.2)$pytz (==2022.1)$PyYAML (==6.0)$readme-renderer (==34.0)$regex (==2022.7.9)$requests (==2.27.1)$requests-toolbelt (==0.9.1)$responses (==0.18.0)$rfc3986 (==1.5.0)$sacremoses (==0.0.53)$scikit-learn (==1.0.2)$scikit-learn-extra (==0.2.0)$scipy (==1.5.4)$seaborn (==0.11.2)$six (==1.16.0)$threadpoolctl (==3.1.0)$tokenizers (==0.12.1)$torch (==1.9.0)$tqdm (==4.64.0)$transformers (==4.17.0)$twine (==3.8.0)$typing-extensions (==4.1.1)$unidic-lite (==1.0.8)$urllib3 (==1.26.9)$webencodings (==0.5.1)$xxhash (==3.0.0)$yarl (==1.7.2)$zipp (==3.6.0)
+usa-csc-526-by-spc,1.0.0,58,setuptools-scm (==6.3.2)$absl-py (==1.0.0)$astunparse (==1.6.3)$build (==0.7.0)$cachetools (==4.2.4)$certifi (==2021.10.8)$charset-normalizer (==2.0.8)$colorama (==0.4.4)$cycler (==0.11.0)$flatbuffers (==2.0)$fonttools (==4.28.2)$gast (==0.4.0)$google-auth (==2.3.3)$google-auth-oauthlib (==0.4.6)$google-pasta (==0.2.0)$grpcio (==1.42.0)$h5py (==3.6.0)$idna (==3.3)$importlib-metadata (==4.8.2)$joblib (==1.1.0)$keras (==2.7.0)$Keras-Preprocessing (==1.1.2)$kiwisolver (==1.3.2)$libclang (==12.0.0)$Markdown (==3.3.6)$matplotlib (==3.5.0)$numpy (==1.21.4)$oauthlib (==3.1.1)$opt-einsum (==3.3.0)$packaging (==21.3)$pep517 (==0.12.0)$Pillow (==8.4.0)$protobuf (==3.19.1)$pyasn1 (==0.4.8)$pyasn1-modules (==0.2.8)$pyparsing (==3.0.6)$python-dateutil (==2.8.2)$requests (==2.26.0)$requests-oauthlib (==1.3.0)$rsa (==4.8)$scikit-learn (==1.0.1)$scipy (==1.7.3)$six (==1.16.0)$tensorboard (==2.7.0)$tensorboard-data-server (==0.6.1)$tensorboard-plugin-wit (==1.8.0)$tensorflow (==2.7.0)$tensorflow-estimator (==2.7.0)$tensorflow-io-gcs-filesystem (==0.22.0)$termcolor (==1.1.0)$threadpoolctl (==3.0.0)$tomli (==1.2.2)$typing-extensions (==4.0.1)$urllib3 (==1.26.7)$usa-csc-526-by-spc (==1.0.0)$Werkzeug (==2.0.2)$wrapt (==1.13.3)$zipp (==3.6.0)
+url-image-module,0.27.0,43,bleach (==4.1.0)$certifi (==2022.5.18.1)$charset-normalizer (==2.0.12)$colorama (==0.4.4)$cycler (==0.11.0)$dataclasses (==0.6)$docutils (==0.18.1)$efficientnet-pytorch (==0.7.1)$idna (==3.3)$importlib-metadata (==4.8.3)$importlib-resources (==5.4.0)$joblib (==1.1.0)$keyring (==23.4.1)$kiwisolver (==1.3.1)$matplotlib (==3.3.4)$numpy (==1.19.5)$packaging (==21.3)$pandas (==1.1.5)$patsy (==0.5.2)$Pillow (==8.4.0)$pkginfo (==1.8.3)$Pygments (==2.12.0)$pyparsing (==3.0.7)$python-dateutil (==2.8.2)$pytz (==2022.1)$readme-renderer (==34.0)$requests (==2.27.1)$requests-toolbelt (==0.9.1)$rfc3986 (==1.5.0)$scikit-learn (==0.24.2)$scipy (==1.5.4)$seaborn (==0.11.2)$six (==1.16.0)$statsmodels (==0.12.2)$threadpoolctl (==3.1.0)$torch (==1.9.0)$torchvision (==0.10.0)$tqdm (==4.64.0)$twine (==3.8.0)$typing-extensions (==4.1.1)$urllib3 (==1.26.9)$webencodings (==0.5.1)$zipp (==3.6.0)
+ullr,0.1.17,40,astroid (~=2.8.5)$bidict (~=0.21.4)$certifi (~=2021.10.8)$chardet (~=4.0.0)$charset-normalizer (~=2.0.7)$click (~=8.0.3)$colorama (~=0.4.4)$dnspython (~=2.1.0)$docopt (~=0.6.2)$Flask (~=2.0.2)$Flask-SocketIO (~=5.1.1)$idna (~=3.3)$importlib-metadata (~=4.8.2)$isort (~=5.10.1)$itsdangerous (~=2.0.1)$Jinja2 (~=3.0.3)$lazy-object-proxy (~=1.6.0)$MarkupSafe (~=2.0.1)$mccabe (~=0.6.1)$ntplib (~=0.4.0)$paho-mqtt (~=1.6.1)$platformdirs (~=2.4.0)$psutil (~=5.8.0)$pylint (~=2.11.1)$pyserial (~=3.5)$python-engineio (~=4.3.0)$python-socketio (~=5.5.0)$requests (~=2.26.0)$six (~=1.16.0)$termcolor (~=1.1.0)$toml (~=0.10.2)$typed-ast (~=1.5.0)$typing-extensions (~=4.0.0)$urllib3 (~=1.26.7)$Werkzeug (~=2.0.2)$wrapt (~=1.13.3)$yarg (~=0.1.9)$zipp (~=3.6.0)$zope.event (~=4.5.0)$zope.interface (~=5.4.0)
+ukchurn-classification-model,0.2,38,atomicwrites (==1.3.0)$attrs (==19.1.0)$bleach (==3.1.0)$certifi (==2019.6.16)$chardet (==3.0.4)$colorama (==0.4.1)$docutils (==0.15.2)$idna (==2.8)$importlib-metadata (==0.20)$joblib (==0.13.2)$more-itertools (==7.2.0)$nose (==1.3.7)$numpy (==1.17.1)$packaging (==19.1)$pandas (==0.25.1)$pkginfo (==1.5.0.1)$pluggy (==0.12.0)$py (==1.8.0)$Pygments (==2.4.2)$pyparsing (==2.4.2)$pytest (==5.1.2)$python-dateutil (==2.8.0)$pytz (==2019.2)$readme-renderer (==24.0)$requests (==2.22.0)$requests-toolbelt (==0.9.1)$scikit-learn (==0.21.3)$scipy (==1.3.1)$six (==1.12.0)$sklearn (==0.0)$tqdm (==4.35.0)$twine (==1.13.0)$urllib3 (==1.25.3)$wcwidth (==0.1.7)$webencodings (==0.5.1)$wincertstore (==0.2)$xgboost (==0.90)$zipp (==0.6.0)
+unitest,1.4.30,34,selenium (>=4.1.1)$gevent (>=21.12.0)$geventhttpclient (>=1.5.5)$psycogreen (>=1.0.2)$locust (==2.12.1)$requests (>=2.28.1)$jsonpath-ng (>=1.5.3)$greenlet (==1.1.2)$psycopg2-binary (>=2.9.3)$assertpy (>=1.1)$pytest (>=7.1.1)$allure-pytest (>=2.9.45)$pytest-json-report (>=1.5.0)$webdriver-manager (>=3.8.2)$faker (>=13.15.0)$exrex (>=0.10.5)$decorator (>=5.1.1)$influxdb-client (>=1.31.0)$prometheus-client (>=0.14.0)$curlify (>=2.2.1)$PyJWT (>=2.4.0)$pytest-xdist (>=2.5.0)$pytest-rerunfailures (>=10.2)$fast-map (>=0.0.7)$pytest-order (>=1.0.1)$gunicorn (>=20.1.0)$fastapi-utils (>=0.2.1)$uvicorn (>=0.18.2)$lxml (>=4.9.1)$beautifulsoup4 (>=4.11.1)$cryptography (>=38.0.1)$pandas (==1.5.0)$python-dotenv (>=0.21.0)$PyByteBuffer (>=1.0.5)
+uwnet,0.9.2,33,numpy (>=1.16)$seaborn (>=0.11.0,<0.12.0)$dask (>=1.1)$xarray (>=0.12)$matplotlib (>=3.3)$netcdf4 (>=1.4)$h5netcdf (>=0.8.1,<0.9.0)$ipython (>=7.18.1,<8.0.0)$jupyterlab (>=2.2.8,<3.0.0)$joblib (>=0.13)$cython (>=0.29.21,<0.30.0)$torchvision (>=0.7.0,<0.8.0)$torch (>=1.0)$attrs (>=20.2.0,<21.0.0)$scikit-learn (>=0.20)$sphinx (>=1.7)$snakemake (>=5.26.1,<6.0.0)$zarr (>=2.5.0,<3.0.0)$pytest (>=6.1.1,<7.0.0)$tqdm (>=4.50.2,<5.0.0)$metpy (>=0.12.2,<0.13.0)$flake8 (>=3.8.4,<4.0.0)$f90nml (>=1.2,<2.0)$pymongo (>=3.11.0,<4.0.0)$click (>=7.1.2,<8.0.0)$sacred (>=0.8.1,<0.9.0)$recommonmark (>=0.6.0,<0.7.0)$pytorch-ignite (>=0.4.2,<0.5.0)$sphinx_rtd_theme (>=0.5.0,<0.6.0)$toolz (>=0.11.1,<0.12.0)$fsspec (>=0.8.3,<0.9.0)$altair (>=4.1.0,<5.0.0)$altair_saver (>=0.5.0,<0.6.0)
+understory,0.0.473,33,pendulum (>=2.1.2,<3.0.0)$semver (>=2.13.0,<3.0.0)$emoji (>=1.2.0,<2.0.0)$gunicorn (>=20.1.0,<21.0.0)$requests[socks] (>=2.27.1,<3.0.0)$gevent (>=21.1.2,<22.0.0)$jsonpatch (>=1.32,<2.0)$pycryptodome (>=3.10.1,<4.0.0)$Unidecode (>=1.2.0,<2.0.0)$watchdog (>=2.1.3,<3.0.0)$httpagentparser (>=1.9.1,<2.0.0)$mimeparse (>=0.1.3,<0.2.0)$acme-tiny (>=4.1.0,<5.0.0)$dnspython (>=2.1.0,<3.0.0)$regex (>=2021.7.6,<2022.0.0)$certifi (>=2021.10.8,<2022.0.0)$waitress (>=2.0.0,<3.0.0)$Pygments (>=2.11.2,<3.0.0)$clicks (>=0.0,<0.1)$sqlyte (>=0.0,<0.1)$lxml (>=4.8.0,<5.0.0)$slrzd (>=0.0,<0.1)$hstspreload (>=2021.12.1,<2022.0.0)$pyvirtualdisplay (>=3.0,<4.0)$pyscreenshot (>=3.0,<4.0)$cssselect (>=1.1.0,<2.0.0)$selenium (>=4.1.2,<5.0.0)$pillow (>=9.0.1,<10.0.0)$mf2py (>=1.1.2,<2.0.0)$mf2util (>=0.5.1,<0.6.0)$toml (>=0.10.2,<0.11.0)$restrictedpython (>=5.2,<6.0)$webdriver-manager (>=3.8.1,<4.0.0)
+understory-web,0.0.22,30,gunicorn (>=20.1.0,<21.0.0)$hstspreload (>=2020.12.22,<2021.0.0)$pendulum (>=2.1.2,<3.0.0)$requests (>=2.25.1,<3.0.0)$mf2py (>=1.1.2,<2.0.0)$mf2util (>=0.5.1,<0.6.0)$lxml (>=4.6.3,<5.0.0)$understory-code (>=0.0.44,<0.0.45)$understory-fx (>=0.0.5,<0.0.6)$understory-db (>=0.0.8,<0.0.9)$understory-term (>=0.0.6,<0.0.7)$networkx (>=2.5.1,<3.0.0)$pyscreenshot (>=3.0,<4.0)$Pillow (>=8.2.0,<9.0.0)$PyVirtualDisplay (>=2.1,<3.0)$selenium (>=3.141.0,<4.0.0)$gevent (>=21.1.2,<22.0.0)$jsonpatch (>=1.32,<2.0)$pycryptodome (>=3.10.1,<4.0.0)$Unidecode (>=1.2.0,<2.0.0)$watchdog (>=2.1.2,<3.0.0)$httpagentparser (>=1.9.1,<2.0.0)$mimeparse (>=0.1.3,<0.2.0)$acme-tiny (>=4.1.0,<5.0.0)$scrypt (>=0.8.18,<0.9.0)$vobject (>=0.9.6,<0.10.0)$cssselect (>=1.1.0,<2.0.0)$dnspython (>=2.1.0,<3.0.0)$feedparser (>=6.0.2,<7.0.0)$regex (>=2021.4.4,<2022.0.0)
+utils-ag,0.0.9,28,bleach (==3.3.0)$certifi (==2021.5.30)$chardet (==4.0.0)$colorama (==0.4.4)$colour-text (==1.0.4)$docutils (==0.17.1)$idna (==2.10)$importlib-metadata (==4.5.0)$keyring (==23.0.1)$packaging (==20.9)$pkginfo (==1.7.0)$Pygments (==2.9.0)$pyparsing (==2.4.7)$pywin32-ctypes (==0.2.0)$readme-renderer (==29.0)$requests (==2.25.1)$requests-toolbelt (==0.9.1)$rfc3986 (==1.5.0)$six (==1.16.0)$tqdm (==4.61.1)$twine (==3.4.1)$urllib3 (==1.26.5)$webencodings (==0.5.1)$zipp (==3.4.1)$wheel (==0.37.1)$pyfzf (==0.3.1)$enquiries (==0.1.0)$pick (==1.2.0)
+uffd,2.1.0,28,flask (==1.0.2)$Flask-SQLAlchemy (==2.1)$qrcode (==6.1)$fido2 (==0.5.0)$oauthlib (==2.1.0)$Flask-Migrate (==2.1.1)$Flask-Babel (==0.11.2)$alembic (==1.0.0)$argon2-cffi (==18.3.0)$itsdangerous (==0.24)$certifi (==2018.8.24)$cffi$chardet (==3.0.4)$click (==7.0)$cryptography (==2.6.1)$idna (==2.6)$Jinja2 (==2.10)$MarkupSafe (==1.1.0)$pyasn1 (==0.4.2)$pycparser (==2.19)$requests (==2.21.0)$requests-oauthlib (==1.0.0)$six (==1.12.0)$SQLAlchemy (==1.2.18)$urllib3 (==1.24.1)$Werkzeug (==0.14.1)$python-dateutil (==2.7.3)$Mako (==1.0.7)
+ugx,6.2,28,requests$appdirs$aria2p$progress$psutil$python-telegram-bot$google-api-python-client$google-auth-httplib2$google-auth-oauthlib$js2py$python-dotenv$tenacity$python-magic$beautifulsoup4$Pyrogram$TgCrypto$yt-dlp$lxml$telegraph$speedtest-cli$messages$pybase64$lk21$cloudscrape$pyshorteners$psycopg2-binary$megasdkrestclient$heroku3
+uncover-ml,0.4.0,23,Cython (==0.29.13)$PyKrige (==1.3.0)$PyYAML (==5.1.2)$affine (==2.3.0)$click (==7.0)$eli5 (==0.10.1)$geopandas (==0.6.3)$matplotlib (==3.1.1)$mpi4py (>=3.0.2)$numpy (==1.17.2)$pandas (==1.0.5)$pillow (==7.0.0)$ppretty (==1.3)$pyproj (==2.4.1)$pyshp (==2.1.0)$rasterio (==1.1.0)$revrand (==1.0.0)$scikit-image (==0.15.0)$scikit-learn (==0.22.2)$scipy (==1.3.1)$seaborn (==0.9.0)$simplekml (==1.3.3)$xgboost (==0.90)
+unfurl,0.5.0,23,GitPython (<=3.1.14)$MarkupSafe (<=2.1.1)$PyYAML (>=6.0)$ansible (<5.0,>=4.2.0)$click-log$click (>=8.0.1)$cliff (==3.10.1)$flask-caching (<=2.0.1)$flask (<=2.1.3)$itsdangerous (==2.0.1)$jinja2 (<=3.1.2)$jsonschema[format_nongpl] (==3.2)$pbr (==5.9.0)$pipenv (==2022.1.8)$python-dateutil (>=2.8)$requests (>=2.28)$rich (==12.4.4)$stevedore (==3.5.0)$typing-extensions (==4.1.1)$uvicorn (<=0.18.2)$pyrsistent (==0.15.7) ; (python_version<'3')$importlib-metadata (<=4.12.0) ; (python_version<'3.8')$ruamel.yaml (>=0.16.13) ; (python_version>='3')
+uptool,1.3.2,21,azure (>=2.0.0)$msrest (>=0.5.0)$azure-common (>=1.1.14)$pytz (>=2018.3)$jenkinsapi (>=0.2.23)$paramiko (>=2.4.0)$botocore (>=1.10.50)$lxml (>=4.2.3)$requests (>=2.4.3)$boto3 (>=1.5.20)$msrestazure (>=0.4.21)$PyYAML (>=3.12)$beautifulsoup4 (>=4.6.0)$keyring (>=11.0.0)$oauth2client (>=3.0.0)$google-api-python-client (>=1.4.2)$httplib2 (>=0.9.1)$setuptools (>=38.5.1)$six (>=1.7)$nose (>=1.3.0)$tornado (>=4.5.1)
+uniohomeassistant,0.1.3,21,aiohttp (==3.7.1)$astral (==1.10.1)$async-timeout (==3.0.1)$attrs (==19.3.0)$bcrypt (==3.1.7)$certifi (>=2020.6.20)$ciso8601 (==2.1.3)$httpx (==0.16.1)$jinja2 (>=2.11.2)$PyJWT (==1.7.1)$cryptography (==3.2)$pip (<20.3,>=8.0.3)$python-slugify (==4.0.1)$pytz (>=2020.1)$pyyaml (==5.3.1)$requests (==2.25.0)$ruamel.yaml (==0.15.100)$voluptuous (==0.12.0)$voluptuous-serialize (==2.4.0)$yarl (==1.4.2)$importlib-metadata (==1.6.0) ; python_version < "3.8"
+ultimate-utils,0.6.1,20,dill$networkx (>=2.5)$scipy$scikit-learn$lark-parser$torchtext$tensorboard$pandas$progressbar2$transformers$datasets$requests$aiohttp$numpy$plotly$wandb$matplotlib$torch$torchvision$torchaudio
+u8darts,0.22.0,20,catboost (>=1.0.6)$holidays (>=0.11.1)$ipython (>=5.0.0)$joblib (>=0.16.0)$lightgbm (>=2.2.3)$matplotlib (>=3.3.0)$nfoursid (>=1.0.0)$numpy (>=1.19.0)$pandas (>=1.0.5)$pmdarima (>=1.8.0)$prophet (>=1.1.1)$requests (>=2.22.0)$scikit-learn (>=1.0.1)$scipy (>=1.3.2)$statsforecast (>=1.0.0)$statsmodels (>=0.13.0)$tbats (>=1.1.0)$tqdm (>=4.60.0)$xarray (>=0.17.0)$shap (>=0.40.0)
+unofficial-allennlp-nightly,0.9.2,19,torch (!=1.3.0,>=1.2.0)$overrides (==2.8.0)$nltk$spacy (<2.3,>=2.1.0)$numpy$tensorboardX (>=1.2)$boto3$requests (>=2.18)$tqdm (>=4.19)$h5py$scikit-learn$scipy$pytest$flaky$responses (>=0.7)$conllu (==2.2.2)$transformers (>=2.4.0)$jsonpickle$jsonnet (>=0.10.0) ; sys_platform != "win32"
+uvicmuse,5.3.3,19,bitstring$pygatt$pandas$numpy$seaborn$pexpect$pillow$bleak$kivy (==2.0.0rc4)$docutils$pygments$pyserial$esptool$nest-asyncio$pylsl (==1.10.5)$pypiwin32 ; platform_system == "Windows"$kivy.deps.glew ; platform_system == "Windows"$kivy.deps.sdl2 ; platform_system == "Windows"$kivy.deps.gstreamer ; platform_system == "Windows"
+uclmr-jack,0.2.1,19,jsonschema$numpy$parse$scipy$sklearn$typing$sacred (==0.7.2)$sqlalchemy$pyyaml$progressbar2$spacy (==1.9)$diskcache$pytest$pytest-runner$pytest-xdist$pytest-pep8$pytest-xdist$pytest-cov$codecov
+ursabot,0.1.0,19,buildbot-console-view$buildbot-grid-view$buildbot-waterfall-view$buildbot-worker$buildbot-www$buildbot$click$distro$docker-map$docker$dockerpty$python-dotenv$ruamel.yaml$tabulate$toolz$toposort$treq$twisted[tls]$typeguard
+utx,1.2.9,19,airtest$tenacity$allure-pytest$pocoui$tidevice$faker$jmespath$loguru$pytest-xdist$PyYAML$allure-python-commons$pytest-rerunfailures$pyOpenSSL$pyasn1$selenium (~=3.14.0)$pynput$tqdm$popups$webdriver-manager
+ubud,2022.7.3,19,aiohttp$apscheduler$click$click-loglevel$clutter$python-dotenv$parse$pyjwt$pyyaml$pyzmq$flatdict$pendulum$pydantic$requests$influxdb-client$paho-mqtt$websockets$redis$rel
+uvicmuse-debug,1.0.1,19,bitstring$pygatt$pandas$scikit-learn$numpy$seaborn$pexpect$pillow$kivy$docutils$pygments$pyserial$esptool$pylsl ; platform_system != "Linux"$pylsl (==1.10.5) ; platform_system == "Linux"$pypiwin32 ; platform_system == "Windows"$kivy.deps.glew ; platform_system == "Windows"$kivy.deps.sdl2 ; platform_system == "Windows"$kivy.deps.gstreamer ; platform_system == "Windows"
+utime,1.1.6,18,numpy (>=1.21.5)$h5py (>=3.6.0)$matplotlib (>=3.4.3)$pandas (>=1.3.5)$psutil (>=5.9.0)$scipy (>=1.7.3)$mne (>=0.24.1)$tables (>=3.7.0)$tabulate (>=0.8.9)$wfdb (>=3.4.1)$ruamel.yaml (>=0.17.21)$scikit-learn (>=1.0.2)$requests (>=2.27.1)$carbontracker (>=1.1.6)$psg-utils (>=0.1.3)$tensorflow (>=2.8.0)$tensorflow-addons (>=0.16.1)$yamlhparams (>=0.2.0)
+uspy,0.10.1,18,numpy$deepdiff$matplotlib$pandas$scikit-image$scikit-learn$scikit-video$imageio$tifffile$pyclustering$nltk$opencv-python-headless$kneed$lmfit$ipython$netCDF4$json-tricks$setuptools-scm
+unikube,1.2.9,18,click (==8.0.4)$click-spinner (==0.1.10)$colorama (~=0.4.4)$inquirerpy (<0.4.0,>=0.2.4)$tabulate (~=0.8.9)$pydantic (<1.10.0,>=1.7.3)$pyyaml (>=5.4)$tinydb (<4.8.0,>=3.15.2)$requests (<2.28.0,>=2.25.1)$pyjwt[crypto] (<2.4.0,>=2.0.1)$gql (<3.1,>=3.0)$semantic-version (<2.10.0,>=2.8.4)$kubernetes (<22.0.0,>=11.0.0)$retrying (~=1.3.3)$oic (==1.3.0)$python-slugify (<6.2.0,>=5.0.2)$click-didyoumean (~=0.3.0)$requests-toolbelt (~=0.9.1)
+up42-blockutils,1.2.4,18,area (==1.1.1)$ciso8601 (==2.2.0)$fiona (==1.8.20)$gcsfs (==2021.10.1)$geojson (==2.5.0)$geopandas (==0.10.2)$mercantile (==1.2.1)$packaging (==21.2)$pandas (<=1.3.4,>=1.2.0)$Pillow (==8.4.0)$pyproj (==3.2.1)$python-dateutil (==2.8.2)$rasterio (==1.2.2)$requests (==2.26.0)$rio-cogeo (==3.0.1)$scikit-image (==0.18.3)$shapely (==1.8.0)$xmltodict (==0.12.0)
+unitvelo,0.2.4.3,17,numpy$scikit-learn (>=0.22)$pandas (==1.4.2)$scipy (>=1.4.1)$seaborn$matplotlib (>=3.3.0)$tqdm$scanpy (>=1.5)$statsmodels$anndata (>=0.7.5)$scvelo (>=0.2.2)$IPython$ipykernel$IProgress$ipywidgets$jupyter$tensorflow (>=2.4.1)
+uitestrunner-syberos,1.1.4,17,sseclient$paramiko$PyNaCl$scp$lxml$urllib3$opencv-python$numpy$psutil$sympy$scikit-build$Pillow$easyocr$torch$torchvision$ocrLangModel4uts$ocrCraftModel4uts
+unicms,0.30.2,17,django (<4.0,>=2.0)$django-filter$django-nested-admin (>=3.3.2)$django-taggit (<=1.5.1)$django-taggit-serializer$pillow (>=7.2.0)$python-magic (>=0.4.18)$pymongo (>=4.0)$django-rest-framework$uritemplate$pyyaml$pydantic$django-htmlmin (>=0.11.0)$django-redis (>=4.12.1)$unicms-template-italia (>=0.4.6)$markdown$markdownify
+ucbshift,0.2,17,ase$dash$dash-bio$dash-daq$dash-table$dash-core-components$dash-html-components$gunicorn$keras (==2.4.0)$numpy$pandas$plotly$scipy (==1.4.1)$tensorflow (==2.2)$torch$pytest$pytest-timeout
+unionml,0.1.4,17,click$cookiecutter$dataclasses-json$docker$fastapi$flytekit (>=1.1.0)$gitpython$joblib$mangum$numpy$pandas$pydantic$sklearn$typer$typing-extensions (>=4.3.0)$uvicorn$importlib-metadata ; python_version < "3.8"
+udata-search-service,1.0.3,16,dependency-injector==4.36.0$elasticsearch==7.15.0$elasticsearch_dsl==7.4.0$factory-boy==3.2.1$Faker==11.3.0$flake8==4.0.1$Flask==2.1.1$flit==3.6.0$gunicorn==20.1.0$kafka-python==2.0.2$pydantic==1.9.0$pytest==6.2.5$pytest-flask==1.2.0$markdown==3.3.3$beautifulsoup4==4.10.0$udata_event_service==0.0.8
+useis,0.10.5,16,dynaconf (>=3.1.4,<4.0.0)$myst-parser (>=0.15.1,<0.16.0)$rinohtype (>=0.5.3,<0.6.0)$fastapi (>=0.68.1,<0.69.0)$uvicorn (>=0.15.0,<0.16.0)$python-multipart (>=0.0.5,<0.0.6)$furl (>=2.1.2,<3.0.0)$pydantic (>=1.8.2,<2.0.0)$confluent-kafka (>=1.7.0,<2.0.0)$sklearn (>=0.0,<0.1)$scikit-learn (>=1.0.1,<2.0.0)$torch (>=1.10.0,<2.0.0)$torchaudio (>=0.10.0,<0.11.0)$torchvision (>=0.11.1,<0.12.0)$uquake (>=0.10.6,<0.11.0)$docker (>=5.0.3,<6.0.0)
+uq360,0.2,16,numpy (<1.21,>=1.16.5)$scipy (>=1.2.0)$pandas (>=0.24.0)$scikit-learn (<1.0,>=0.22)$matplotlib (>=3.2)$autograd (>=1.3)$torch (>=1.6.0)$gpytorch (>=1.3.0)$botorch (>=0.3.2)$tqdm (==4.42.0)$tensorflow$tensorflow-hub$gitpython (==2.1.15)$umap-learn (==0.3.10)$tabulate$requests
+uval,0.1.7,16,click (>=8.0.4,<9.0.0)$h5py (>=3.6.0,<4.0.0)$ruamel.yaml (>=0.17.21,<0.18.0)$numpy (>=1.22.3,<2.0.0)$Pillow (>=9.0.1,<10.0.0)$tqdm (>=4.63.0,<5.0.0)$pandas (>=1.4.1,<2.0.0)$matplotlib (>=3.5.1,<4.0.0)$scikit-learn (>=1.0.2,<2.0.0)$Jinja2 (>=3.0.3,<4.0.0)$fvcore (>=0.1.5,<0.2.0)$ipykernel (>=6.9.2,<7.0.0)$rich (>=12.0.1,<13.0.0)$pipx (>=1.0.0,<2.0.0)$randomname (>=0.1.5,<0.2.0)$sphinx-rtd-theme (>=1.0.0,<2.0.0)
+uquake-nlloc,0.2.4,15,setuptools_cpp (>=0.1.0,<0.2.0)$Cython (>=0.29.21,<0.30.0)$ipython (>=7.20.0,<8.0.0)$pytest (>=6.2.2,<7.0.0)$dvc (>=1.11.15,<2.0.0)$matplotlib (>=3.3.4,<4.0.0)$scikit-fmm (>=2021.2.2,<2022.0.0)$jedi (>=0.17.2,<0.18.0)$phonenumbers (==8.12.18)$dynaconf (>=3.1.3,<4.0.0)$fastapi (>=0.63.0,<0.64.0)$uvicorn (>=0.13.4,<0.14.0)$ipdb (>=0.13.6,<0.14.0)$h5py (>=3.2.1,<4.0.0)$obspy (>=1.2.2,<2.0.0)
+udata-front,2.0.13,15,udata$blinker (==1.4)$certifi (==2021.5.30)$click (==7.0)$feedparser (==6.0.8)$flask (==1.1.4)$itsdangerous (==1.1.0)$jinja2 (==2.10.3)$markupsafe (==2.0.1)$python-frontmatter (==1.0.0)$pyyaml (==5.4.1)$sentry-sdk[flask] (==1.3.1)$sgmllib3k (==1.0.0)$urllib3 (==1.25.11)$werkzeug (==0.16.1)
+url-checker,1.5.0,15,attrs==17.4.0$certifi==2018.4.16$chardet==3.0.4$colorama==0.3.9$idna==2.6$Logbook==1.3.3$more-itertools==4.1.0$pluggy==0.6.0$py==1.5.3$pytest==3.5.1$requests==2.18.4$requests-mock==1.4.0$six==1.11.0$urllib3==1.22$wincertstore==0.2
+universal-portfolios,0.4.10,15,scipy (>=1.8.1,<2.0.0)$matplotlib (>=3.3.1,<4.0.0)$pandas-datareader (>=0.10.0,<0.11.0)$statsmodels (>=0.13.2,<0.14.0)$scikit-learn (>=1.1.1,<2.0.0)$seaborn (>=0.10.1,<0.11.0)$requests (>=2.24.0,<3.0.0)$plotly (>=4.9.0,<5.0.0)$pandas (>=1.1.1,<2.0.0)$cvxopt (>=1.3.0,<2.0.0)$tqdm (>=4.56.2,<5.0.0)$typing-extensions (>=3.10.0,<4.0.0)$urllib3 (>=1.26.6,<2.0.0)$Pillow (>=9.2.0,<10.0.0)$lxml (>=4.6.3,<5.0.0)
+utoolbox-core,0.0.22,15,click$coloredlogs$dask[complete] (~=2.20.0)$dask-jobqueue$distributed (~=2.20.0)$h5py (>=2.9)$humanfriendly$imageio[ffmpeg]$natsort$numpy (>=1.17)$pandas$prompt-toolkit (>=3.0)$tifffile$xxhash$zarr
+upydev,0.4.3,15,websocket-client (>=1.2.3)$argcomplete (>=2.0.0)$esptool$prompt-toolkit$python-nmap$netifaces$requests$cryptography$Pygments$pyusb$packaging$upydevice (>=0.3.8)$jupyter-micropython-upydevice (>=0.0.7)$braceexpand$pyyaml
+utf-queue-client,1.8.1,15,click$jsonschema (>=3.2.0)$msgpack (>=1.0.2)$opentelemetry-api$opentelemetry-exporter-otlp-proto-http$opentelemetry-sdk$otel-extensions (>=0.1.2)$pika (>=1.2.0)$protobuf (==3.*)$pydantic (>=1.8.2)$regex$requests$retry (>=0.9.2)$ubai-client (>=1.1.0)$typing-extensions ; python_version < "3.8"
+udata-hydra,0.2.0.dev169,15,pandas (>=1.3.3,<2.0.0)$cchardet (>=2.1.7,<3.0.0)$aiohttp (>=3.8.1,<4.0.0)$asyncpg (>=0.25.0,<0.26.0)$boto3 (>=1.21.21,<2.0.0)$humanfriendly (>=10.0,<11.0)$marshmallow (>=3.14.1,<4.0.0)$minicli (>=0.5.0,<0.6.0)$progressist (>=0.1.0,<0.2.0)$python-dateutil (>=2.8.2,<3.0.0)$python-dotenv (>=0.19.2,<0.20.0)$python-magic (>=0.4.25,<0.5.0)$redis (>=4.1.4,<5.0.0)$requests (>=2.27.1,<3.0.0)$udata_event_service (>=0.0.8,<0.0.9)
+uctb,0.3.0,15,hmmlearn (>=0.2.1)$keras$GPUtil$numpy (>=1.16.2)$pandas (>=0.24.2)$python-dateutil$scikit-learn (>=0.20.3)$scipy (==1.2.1)$statsmodels (>=0.9.0)$wget (>=3.2)$xgboost (>=0.82)$nni (>=0.8)$chinesecalendar (>=1.2.2)$workalendar (>=8.2.0)$PyYAML (>=5.1.1)
+utrme,1.1.0,14,numpy$xlsxwriter$scipy$python-levenshtein$fuzzywuzzy$regex$pyfaidx$pysam$pandas$BioPython$argparse$twine$matplotlib$seaborn
+udata-gouvfr,3.1.0,14,udata$blinker (==1.4)$certifi (==2021.5.30)$click (==7.0)$feedparser (==5.2.1)$flask (==1.1.4)$itsdangerous (==1.1.0)$jinja2 (==2.10.3)$markupsafe (==2.0.1)$python-frontmatter (==1.0.0)$pyyaml (==5.4.1)$sentry-sdk[flask] (==1.3.1)$urllib3 (==1.25.11)$werkzeug (==0.16.1)
+uscensus,0.2.4,14,docutils (>=0.3)$python-dateutil$fiona$geopandas$httpx (>=0.17.0)$numpy$pandas$pymongo$pytz$requests$shapely$sqlalchemy$supersqlite$whoosh
+unidic-combo,1.4.0,14,absl-py (>=0.9.0)$allennlp (>=1.2.0)$cached-path (<=1.1.2)$conllu (>=2.3.2)$dataclasses-json (>=0.5.2)$fugashi (>=1.0.5)$ipadic (>=1.0.0)$overrides (<5,>=3.1.0)$protobuf (>=3.14.0)$requests (>=2.23.0)$spacy (>=2.2.2)$torch (>=1.6.0)$unidic-lite (>=1.0.8)$unidic2ud (>=2.9.6)
+ui-automation-tools-mbt,1.3.1,14,pytest$pytest-xdist$pytest-parallel$altwalker$selenium (<4.0.0)$Appium-Python-Client$numpy$langdetect$lxml$bs4$pyautogui$pyperclip$pypeln$mitmproxy
+upit,0.2.2,14,fastai (>=2.3.0)$fastcore (>=1.3.19)$torchvision (>=0.8)$matplotlib$pandas$requests$pyyaml$fastprogress (>=0.2.4)$pillow$scikit-learn$scipy$spacy$datasets$huggingface-hub
+unimeta,0.2.8,14,devtools$mysql-replication$pydantic$loguru$sqlalchemy$faker$databases$clickhouse-driver$mysqlclient$fastapi$uvicorn$aiokafka$aioch$aiohttp
+userbot,0.0.4,14,telethon$telegraph$sqlalchemy$urbandict$pySmartDL$cryptg$python-dotenv$fontTools$requests$Pillow$validators$wand$colour$lottie
+uquake,0.10.6,14,numpy (>=1.18.0,<2.0.0)$loguru (>=0.5.3,<0.6.0)$pandas (>=1.2.1,<2.0.0)$jedi (==0.17.2)$pytest (>=6.2.1,<7.0.0)$openpyxl (>=3.0.6,<4.0.0)$obspy (>=1.2.2,<2.0.0)$vtk (>=9.0.1,<10.0.0)$dynaconf (>=3.1.4,<4.0.0)$h5py (>=3.2.1,<4.0.0)$pydantic (>=1.8.2,<2.0.0)$pyproj (>=3.2.1,<4.0.0)$tqdm (>=4.62.3,<5.0.0)$scikit-fmm (>=2022.3.26,<2023.0.0)
+upsies,2022.8.5,13,beautifulsoup4 (==4.*)$chardet (==5.*)$country-converter (==0.7.*)$aiobtclientrpc (==3.*)$guessit (==3.*,>=3.4.0)$httpx (==0.*,>=0.20.0)$natsort (==8.*)$packaging$prompt-toolkit (==3.*,>=3.0.6)$pyimgbox (==1.*)$pyxdg$torf (==4.*)$Unidecode (==1.3.*)
+unitgrade,0.1.30.1,13,numpy$tabulate$pyfiglet$coverage$colorama$tqdm$importnb$requests$watchdog$flask-socketio$flask$Werkzeug$diskcache
+utify,0.2.12,13,requests (>=2.22.0,<3.0.0)$ipython (>=7.10.2,<8.0.0)$fire (>=0.2.1,<0.3.0)$tqdm (>=4.40.2,<5.0.0)$wasabi (>=0.4.2,<0.5.0)$numpy (>=1.16.1,<1.19.0)$pandas (>=1.0.0,<2.0.0)$pyarrow (>=0.15.1,<0.16.0)$matplotlib (>=3.1.2,<4.0.0)$pillow (>=6.2.1,<7.0.0)$sqlalchemy (>=1.3.12,<2.0.0)$sphinx (>=2.3.0,<3.0.0)$tables (>=3.6.1,<4.0.0)
+untropy,0.1.0,13,click==8.0.4$python-dotenv==0.19.2$toml>=0.10.1,<0.11$pydantic==1.9.0$coloredlogs==15.0.1$timeago==1.0.14$selinux==0.2.1$twine==3.8.0$cookiecutter==1.7.3$mdformat==0.7.13$mdformat-tables==0.4.1$cryptography>=3.4.8$PyYAML==6.0
+ue4-docker,0.0.100,13,colorama$container-utils$docker (>=3.0.0)$humanfriendly$Jinja2 (>=2.11.3)$packaging (>=19.1)$psutil$requests$semver (<3.0.0,>=2.7.9)$termcolor$twine (>=1.11.0)$wheel (>=0.31.0)$setuptools (>=60.4.0) ; python_version >= "3.7.0"
+unify-idents,1.6.1,13,unimod-mapper (~=0.6.6)$peptide-mapper (~=0.4.3)$chemical-composition (~=1.0.6)$pyahocorasick (~=1.4.4)$pytest (~=7.1.2)$pandas (~=1.4.3)$numpy (>=1.22.0)$loguru (~=0.6.0)$tqdm (~=4.64.0)$regex (~=2022.7.25)$uparma (~=0.9.8)$lxml (~=4.9.1)$IsoSpecPy (~=2.2.0)
+ux-blended,0.0.1,13,certifi (==2022.5.18.1)$click (==8.1.3)$colorama (==0.4.4)$Flask (==0.11.1)$itsdangerous (==2.0.1)$Jinja2 (==2.8)$MarkupSafe (==2.0.1)$Pillow (==8.0.1)$python-dateutil (==2.8.2)$six (==1.16.0)$urllib3 (==1.26.9)$Werkzeug (==2.0.3)$blendedUx-Lang (==1.0.0)
+und-microservice,0.0.16,13,falcon (==1.4.1)$PyYAML (==3.12)$PyMySQL (==0.8.0)$SQLAlchemy (==1.2.2)$requests (==2.18.4)$click (==6.0)$falcon-auth (==1.1.0)$querystring-parser (==1.2.3)$python-dotenv (==0.9.1)$nose (==1.3.7)$coverage (==4.5.1)$psycopg2 (==2.7.5)$pytest
+uiautomator2,2.16.19,13,six$requests (>=2)$whichcraft$logzero (~=1.5)$progress (~=1.3)$retry (~=0.9)$adbutils (>=1.0.6)$Deprecated (~=1.2.6)$Pillow$lxml (>=4.3)$cached-property (<2.0,>=1.5.1)$packaging (~=20.3)$filelock (<4.0,>=3.0.12)
+unionstation,0.1.0,13,protobuf (>=3.13.0,<4.0.0)$betterproto[compiler] (>=2.0.0b1,<3.0.0)$boto3 (>=1.14.44,<2.0.0)$s3fs (>=0.4.2,<0.5.0)$urllib3 (>=1.25.10,<2.0.0)$opencv-python (==4.2.0.34)$pyarrow (>=1.0.0,<2.0.0)$pyspark (>=3.0.0,<4.0.0)$tqdm (>=4.48.2,<5.0.0)$pycocotools (>=2.0.1,<3.0.0)$absl-py (==0.10.0)$pandas (>=1.1.1,<2.0.0)$tabulate (>=0.8.7,<0.9.0)
+ustd,0.0.0,13,packaging$PyYAML$ruamel.yaml$ubelt ; python_version < "3.6" and python_version >= "2.7"$scriptconfig ; python_version < "3.6" and python_version >= "2.7"$rich ; python_version < "3.8" and python_version >= "3.6"$toml ; python_version >= "2.7"$git-python ; python_version >= "2.7"$xdev ; python_version >= "3.6"$ubelt ; python_version >= "3.6"$scriptconfig ; python_version >= "3.6"$black ; python_version >= "3.6.2"$rich ; python_version >= "3.8"
+u8timeseries,0.0.2,12,ipywidgets$numpy (>=1.18.2)$dateutils (>=0.6.8)$scipy (>=1.4.1)$statsmodels (>=0.11.1)$pmdarima (>=1.5.3)$plotly (>=4.6.0)$matplotlib (>=3.2.1)$fbprophet (>=0.5)$scikit-learn (>=0.21.2)$pandas (>=0.23.1)$tqdm (>=4.32.1)
+unscrapulous,0.1.4,12,PyPDF2 (>=1.26.0,<2.0.0)$requests (>=2.25.1,<3.0.0)$pandas (>=1.2.2,<2.0.0)$pytest (>=6.2.2,<7.0.0)$bs4 (>=0.0.1,<0.0.2)$lxml (>=4.6.2,<5.0.0)$tabula-py (>=2.2.0,<3.0.0)$openpyxl (>=3.0.6,<4.0.0)$xlrd (>=2.0.1,<3.0.0)$argparse (>=1.4.0,<2.0.0)$toml (>=0.10.2,<0.11.0)$psycopg2 (>=2.8.6,<3.0.0)
+uoft-nautobot,1.0.0,12,debugpy$django-auth-ldap$django-debug-toolbar$django-environ$html-table-parser-python3>=0.2.0$librenms-handler$napalm$nautobot-golden-config$nautobot-ssot>=1.1.0$nautobot>=1.3$python-box$uoft-core
+ukat,0.6.3,12,dipy (>=1.2.0)$matplotlib (>=3.1.3)$nibabel (>=3.0.2)$notebook (>=6.0.1)$numpy (>=1.21.2)$pandas (>=1.3.5)$renalsegmentor (>=1.3.5)$scikit-image (>=0.16.2)$scipy (>=1.7.3)$scikit-learn (>=1.0.2)$tabulate (>=0.8.9)$tqdm (>=4.48)
+usgs-shakecast,4.2.3,12,Flask (==1.1.4)$markupsafe (==2.0.1)$Flask-Login (==0.4.1)$Flask-Uploads (==0.2.1)$fpdf (==1.7.2)$pylint (==1.9.4)$shakecast-aebm (==0.0a10)$SQLAlchemy (==1.3.24)$urllib3 (==1.24.3)$Werkzeug (==0.15.5)$xmltodict (==0.10.2)$sqlalchemy-utils (==0.36.8)
+unmanic,0.2.3,12,schedule (==0.6.0)$tornado (==6.0.2)$marshmallow (==3.13.0)$peewee (>=3.14.4)$peewee-migrate (==1.1.6)$psutil (==5.8.0)$requests (>=2.25.1)$requests-toolbelt (>=0.9.1)$py-cpuinfo (>=7.0.0)$watchdog (>=2.1.1)$inquirer (>=2.7.0)$swagger-ui-py
+utils-for-ds,0.0.16,12,pandas (>=0.25.1)$numpy (>=1.21.5)$DateTime (>=4.4)$tensorflow (>=2.7.0)$xgboost (>=1.5.2)$scikit-learn (>=1.0)$keras-tcn (>=3.4.0)$matplotlib (>=3.1.1)$pickleshare (>=0.7.5)$cloudpickle (>=1.2.2)$optuna (>=2.10.0)$seaborn (>=0.9.0)
+uf3,0.3.2,12,ase$matplotlib$ndsplines$numba$numpy$pandas$plotly$PyYAML$sklearn$scipy$tables$tqdm
+utilpack,2.2.3,12,Flask (==2.0.1)$gunicorn (==20.1.0)$requests (==2.25.1)$scikit-learn (==1.1.1)$pandas (==1.1.5)$Pillow (==9.2.0)$opencv-python (==4.5.5.64)$PyMySQL (==1.0.2)$pycryptodome (==3.10.1)$shapely (==1.7.1)$slack-sdk (==3.7.0)$pip (==22.0.4)
+upswingutil,2.6.1,12,requests$pydantic$gcsfs$cryptography$fastapi$firebase-admin$pymongo$loguru$mongoengine$pycountry-convert$google-cloud-secret-manager (==2.0.0)$google-api-python-client
+useragent-picker-cli,0.1.4,12,certifi (==2020.6.20)$chardet (==3.0.4)$docopt (==0.6.2)$loguru (==0.5.1)$requests (==2.24.0)$ua-parser (==0.10.0)$user-agents (==2.1)$aiocontextvars (==0.2.2) ; python_version < "3.7"$contextvars (==2.4) ; python_version < "3.7"$idna (==2.10) ; python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3"$urllib3 (==1.25.9) ; python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3, 3.4" and python_version < "4"$immutables (==0.14) ; python_version >= "3.5"
+utopya,1.2.2,12,numpy$scipy$matplotlib$seaborn$ruamel.yaml$coloredlogs$colorama$click$pydantic$python-git-info$paramspace (>=2.5.9)$dantro (>=0.18.5)
+ukv1-toolbox,0.0.7,12,gensim$rouge-score$tqdm$requests$plotly$numpy$pandas$bs4$scipy$sklearn$lxml$auquan-toolbox
+unophysics,0.5.4,11,Click (>=6.0)$requests$sshtunnel$pymongo$sympy$jupyter$numpy$matplotlib$scipy$PyWavelets$pandas
+upside-down-rl,0.1.0,11,torch (>=1.3.1,<2.0.0)$pytorch-ignite (>=0.2.1,<0.3.0)$tqdm (>=4.41.1,<5.0.0)$gym[box2d] (>=0.15.4,<0.16.0)$grappa (>=0.1.10,<0.2.0)$scikit-learn (>=0.22.1,<0.23.0)$sortedcontainers (>=2.1.0,<3.0.0)$tensorboardX (>=2.0,<3.0)$minio (>=5.0.6,<6.0.0)$lz4 (>=3.0.2,<4.0.0)$attrs (>=19.3.0,<20.0.0)
+unicef-rest-export,0.6,11,django$djangorestframework-csv$djangorestframework$lxml$python-docx$pytz$pyyaml$reportlab$tablib[html,xls,xlsx]$xlrd$xlwt
+utsc-switchconfig,2022.4.26.1,11,utsc.core$Jinja2 (>=3.0.1)$pydantic (>=1.9.0)$arrow (>=1.1.1)$prompt-toolkit (>=3.0.19)$paramiko (>=2.7.2)$pexpect (>=4.8.0)$rich (>=10.7.0)$hier-config (>=2.1.0)$ipdb (>=0.13.9)$netaddr (>=0.8.0)
+upoly,0.1.34,11,python-dotenv (>=0.15.0,<0.16.0)$orjson (>=3.5.0,<4.0.0)$nest-asyncio (>=1.4.3,<2.0.0)$pandas-market-calendars (>=1.6.1,<2.0.0)$joblib (>=1.0.1,<2.0.0)$numpy (>=1.20.1,<2.0.0)$pandas (>=1.2.2,<2.0.0)$aiohttp (>=3.7.4,<4.0.0)$aiodns (>=2.0.0,<3.0.0)$Brotli (>=1.0.9,<2.0.0)$cchardet (>=2.1.7,<3.0.0)
+ucode-cli,2.5.5,11,click$requests$beautifulsoup4$tomd$jinja2$dataclasses-json$unidecode$typer$colorama$ruamel.yaml$pysimplegui
+udata-analysis-service,0.0.1.dev53,11,boto3 (>=1.21.21,<1.22.0)$celery (>=5.2.3,<5.3.0)$click (>=8.0.4,<8.1.0)$csv-detective (>=0.4.5,<0.5.0)$flake8 (>=4.0.1,<4.1.0)$flit (>=3.6.0,<3.7.0)$kafka-python (>=2.0.2,<2.1.0)$python-dotenv (>=0.19.2,<0.20.0)$redis (>=4.1.4,<4.2.0)$requests (>=2.27.1,<2.28.0)$udata_event_service (>=0.0.8,<0.1.0)
+ulmo,0.8.8,11,appdirs$beautifulsoup4$future$geojson$isodate$lxml$numpy$pandas$python-dateutil$requests$suds-jurko
+uam,0.1.0,11,click (==6.7)$colorlog (==3.1.0)$crayons (==0.1.2)$docker (==2.5.1)$dockerpty (==0.4.1)$jinja2 (==2.9.6)$netifaces (==0.10.6)$peewee (==2.10.2)$pyyaml (==3.12)$semantic-version (==2.6.0)$tabulate (==0.8.2)
+uta-tools,0.1.3,11,asyncpg$aiofiles$boto3$pyliftover$pandas$hgvs$biocommons.seqrepo$pydantic$uvicorn$fastapi$gene-normalizer
+uplot,0.1.61,11,codecov$coverage$hypothesis$IPython$izzy$matplotlib$numpy$pandas$plotnine$pyyaml$typelike
+ukbcc,0.2.5,11,sphinx (>=3.0.3)$sphinx-rtd-theme (>=0.4.3)$nose (>=1.3.7)$coverage (>=5.1)$pypi-publisher (>=0.0.4)$pandas (>=1.0.3)$requests (>=2.23.0)$numpy (>=1.18)$dash (>=1.13.4)$dash-bootstrap-components (>=0.10.3)$pytest (>=6.0.0)
+ucdeconvolve,0.0.3,11,anndata (>=0.7.8)$scanpy (>=1.8.2)$pandas (>=1.3.5)$numpy (>=1.21.6)$progressbar2 (>=4.0.0)$numba (>=0.55.2)$scikit-learn (>=1.0.2)$networkx (>=2.6.3)$seaborn (>=0.11.2)$urllib3 (>=1.26.8)$requests (>2.27.1)
+uavsar-pytools,0.7.1,11,requests$asf-search$progressbar$tqdm$folium$geopandas$numpy$rasterio$matplotlib$rioxarray$dask
+unilogger,2022.10.17,11,umodbus (>1.0)$aiohttp (>3.7)$BeautifulSoup4 (>4.9)$aioserial (>=1.3.0)$pyyaml (>=6.0)$lxml$pyserial (>=3.5)$asteval (>=0.9)$pandas (>=1.4)$tables (>=3.6)$openpyxl
+uforgecli,3.8.13,11,httplib2 (==0.9)$uforge-python-sdk (==3.8.13)$cmd2 (==0.6.7)$texttable (>=0.8.1)$progressbar (==2.3)$argparse$pyparsing (==2.0.2)$hurry.filesize (==0.9)$termcolor (==1.1.0)$xmlrunner (==1.7.7)$ussclicore (==1.0.11)
+ue4-ci-helpers,0.0.11,11,boto3$conan (>=1.7.4)$conan-ue4cli (>=0.0.10)$docker (>=3.7.0)$google-auth (>=1.6.3)$google-cloud-storage (>=1.16.1)$requests$setuptools (>=38.6.0)$twine (>=1.11.0)$ue4cli (>=0.0.24)$wheel (>=0.31.0)
+ubiops-cli,2.12.0,11,urllib3 (>=1.15)$six (>=1.10)$certifi$requests (>=2.17.3)$tabulate (==0.8.10)$python-dateutil$click (<8.0,>=7.0)$ConfigParser (==4.0.2)$colorama (==0.4.3)$pyyaml$ubiops (==3.12.0)
+ussd-framework,0.0.2,10,django (>=1.10)$djangorestframework (>=3.5.3)$structlog (>=16.1.0)$jinja2 (>=2.8)$PyYaml (==3.12)$PyStaticConfiguration (>=0.10.2)$requests (>=2.12.3)$celery (>=4.0.0rc3)$PyConfigure (>=0.5.9)$django-annoying (==0.10.3)
+updater,0.3.2,10,PyYAML (==5.4.1)$behave (==1.2.6)$cachier (==1.5.3)$click (==7.1)$loguru (==0.5.3)$packaging (==21.3)$plumbum (==1.7.1)$pymongo (==3.12.1)$python-rex (==0.4)$requests (==2.26.0)
+urbansim-wfrc,0.4.3,10,orca-wfrc (>=0.0.1)$patsy (>=0.4.1)$prettytable (>=0.7.2)$pyyaml (>=3.10)$scipy (>=1.0)$simpledbf (>=0.2.6)$statsmodels (>=0.8)$statsmodels (>=0.8,<0.11)$toolz (>=0.8.1)$zbox
+utils-nuuuwan,1.1.8,10,area$bs4$googlemaps$matplotlib$pillow$psutil$py-console$requests$selenium$tweepy
+urbansim,3.2,10,numpy (>=1.8.0)$orca (>=1.1)$pandas (>=0.17.0)$patsy (>=0.4.1)$prettytable (>=0.7.2)$pyyaml (>=3.10)$scipy (>=1.0)$toolz (>=0.8.1)$statsmodels (<0.11,>=0.8) ; python_version < "3.6"$statsmodels (>=0.8) ; python_version >= "3.6"
+umigap,0.1.2,10,bvh (>=0.3,<0.4)$pygltflib (>=1.15.1,<2.0.0)$future-fstrings (>=1.2.0,<2.0.0)$mathutils (>=2.81.2,<3.0.0)$typer (>=0.4.1,<0.5.0)$simple-term-menu (>=1.4.1,<2.0.0)$dataclasses-json (>=0.5.7,<0.6.0)$ruamel.yaml (>=0.17.21,<0.18.0)$importlib (>=1.0.4,<2.0.0); python_version >= "3.8"$importlib-metadata (>=4.11.3,<5.0.0); python_version >= "3.7" and python_version < "3.8"
+underthesea,1.3.5,10,Click (>=6.0)$python-crfsuite (>=0.9.6)$nltk$tqdm$requests$joblib$scikit-learn$unidecode$PyYAML$underthesea-core (==0.0.5a2)
+unitgrade-devel,0.1.44,10,unitgrade$numpy$codesnipper$tabulate$tqdm$pyfiglet$jinja2$colorama$coverage$mosspy
+unitunes,2.0.1,10,spotipy (>=2.19.0,<3.0.0)$ytmusicapi (>=0.21.0,<0.22.0)$musicbrainzngs (>=0.7.1,<0.8.0)$pydantic (>=1.9.0,<2.0.0)$strsimpy (>=0.2.1,<0.3.0)$ratelimit (>=2.2.1,<3.0.0)$youtube-title-parse (>=1.0.0,<2.0.0)$tqdm (>=4.64.0,<5.0.0)$dearpygui (>=1.6.2,<2.0.0)$appdirs (>=1.4.4,<2.0.0)
+unityagents,0.4.0,10,docopt$Pillow (>=4.2.1)$grpcio (==1.11.0)$jupyter$matplotlib$numpy (>=1.11.0)$protobuf (==3.5.2)$pytest (>=3.2.2)$pyyaml$tensorflow (==1.7.1)
+und-route-optimization,0.0.7,10,PyYAML (==3.12)$coverage (==4.5.1)$dataclasses$falcon (==2.0.0)$gunicorn (==20.0.4)$injector (==0.18.3)$nose (==1.3.7)$ortools$pylint (==1.8.4)$requests (==2.23.0)
+urbanaccess,0.2.2,10,requests (>=2.9.1)$six (>=1.11)$pandas (>=0.17.0)$numpy (>=1.11)$osmnet (>=0.1.4)$pandana (>=0.2.0)$matplotlib (>=2.0)$geopy (>=1.11.0)$pyyaml (>=3.11)$scikit-learn (>=0.17.1)
+uiutil,1.38.0,10,pip (>=18.1)$future (>=0.16.0attrs>=16.3.0)$logging-helper (>=1.8.2)$stateutil (>=1.4.0)$classutils (>=1.18.0)$configurationutil (>=1.5.6)$fdutil (>=1.7.8)$Pillow (>=4.0.0)$conversionutil (>=1.4.1)$timingsutil (>=1.5.0)
+unearthed-cli,0.1.9,10,click (>=7.1.2,<8.0.0)$requests (>=2.25.1,<3.0.0)$docker (>=4.4.0,<5.0.0)$boto3 (>=1.16.39,<2.0.0)$PyJWT (>=1.7.1,<2.0.0)$pycognito (>=0.1.4,<0.2.0)$cognitojwt (>=1.2.2,<2.0.0)$tqdm (>=4.54.1,<5.0.0)$colorama (>=0.4.4,<0.5.0)$outdated (>=0.2.0,<0.3.0)
+unsupervised-on-policy,0.1.2,10,numpy$torch$matplotlib$wandb$ale-py$gym[accept-rom-license,atari] (>=0.21.0)$kornia$supersuit$stable-baselines3$einops
+upyog,0.5.6,10,fastcore$rich$numpy$pandas$pyperclip$matplotlib$loguru$aggdraw$typing-extensions$exif
+url-cache,0.0.5,10,appdirs (>=1.4.4)$lassie (>=0.11.9)$readability-lxml (>=0.8.1)$backoff (>=1.10.0)$click (>=7.1.2)$requests$logzero$simplejson$pytube (>=11.0.2)$lxml (>=4.0.0)
+unicef-security,1.2.1,10,celery$cryptography$django$django-admin-extra-buttons$django-constance$django-countries$django-picklefield$requests$social-auth-app-django$PyJWT
+umtk,0.0.5,10,cupy-cuda102$Cython$matplotlib$nibabel$numpy$pycryptodome$pydicom$SimpleITK$torch$tqdm
+unacastclient,0.0.51,10,grpcio (==1.37.0)$grpcio-tools (==1.34.1)$grpclib (==0.4.1)$pandas (==1.1.5)$black (==21.7b0)$betterproto[compiler] (==2.0.0b2)$syncer (==1.3.0)$nest-asyncio (==1.5.1)$halo (==0.0.31)$MarkupSafe (==2.0.1)
+unbabel-comet,1.1.3,10,jsonargparse (==3.13.1)$numpy (>=1.20.0)$pandas (>=1.4.1)$pytorch-lightning (==1.6.4)$sacrebleu (>=2.0.0)$scipy (>=1.5.4)$sentencepiece (>=0.1.96,<0.2.0)$torch (>=1.6.0,<2)$torchmetrics (==0.8.2)$transformers (>=4.8)
+uengine,3.6.13,10,jinja2$flask$pymongo$cachelib$lazy-object-proxy$ipython$pylint$mongomock$requests$mtprof
+uclip,0.1.4,10,Pillow (>=9.1.1,<10.0.0)$keyring (>=23.9.3,<24.0.0)$inquirerpy (>=0.3.4,<0.4.0)$b2sdk (>=1.18.0,<2.0.0)$click (>=8.1.3,<9.0.0)$yaspin (>=2.2.0,<3.0.0)$pyperclip (>=1.8.2,<2.0.0)$rich (>=12.6.0,<13.0.0)$typing-extensions (>=4.4.0,<5.0.0)$backports.cached-property (>=1.0.2,<2.0.0); python_version < "3.8"
+unicorn-binance-websocket-api,1.41.0,10,colorama$requests$websocket-client$websockets (==10.3)$flask-restful$cheroot$flask$ujson$psutil$unicorn-fy
+uoft-switchconfig,1.0.0,10,arrow>=1.1.1$ipdb>=0.13.9$jinja2>=3.0.1$netaddr>=0.8.0$paramiko>=2.7.2$pexpect>=4.8.0$prompt-toolkit>=3.0.19$pydantic>=1.9.0$rich>=10.7.0$uoft-core
+ustatus,0.1.10,10,PyGObject (>=3.42.0,<4.0.0)$psutil (==5.8.0)$gbulb (>=0.6.2,<0.7.0)$pulsectl-asyncio (>=0.2.0,<0.3.0)$tomli (>=1.2.2,<2.0.0)$dbus-next (>=0.2.3,<0.3.0)$jsonschema (>=4.4.0,<5.0.0)$pulsectl (>=22.3.2,<23.0.0)$python-reactive-ui (>=0.2.9,<0.3.0)$python-dbus-system-api (>=0.1.0,<0.2.0)
+umi-tools-csgx,1.1.1,9,setuptools (>=1.1)$numpy (>=1.7)$pandas (>=0.12.0)$future$regex$scipy$matplotlib$pybktree$pysam
+urchin,0.0.25,9,lxml$networkx$numpy$pillow$pycollada (==0.6)$pyrender (>=0.1.20)$scipy$six$trimesh
+unagi,0.1.3.dev13,9,six$numpy$scipy$pyparsing$astropy (>=3.0)$matplotlib (>=2.0)$fits2hdf (>=1.1.1)$tenacity (>=5.1.1)$requests
+upender-recognizer,0.0.14,9,pandas$numpy$scikit-learn$scikit-optimize$matplotlib$tensorflow$keras$gdown$opencv-python
+unacatlib,0.0.51,9,grpcio (==1.34.1)$grpcio-tools (==1.34.1)$grpclib (==0.4.1)$pandas (==1.1.5)$betterproto[compiler] (==2.0.0b2)$syncer (==1.3.0)$nest-asyncio (==1.4.3)$halo (==0.0.31)$MarkupSafe (==2.0.1)
+underflow,0.1.2,9,typer (>=0.1.1,<0.2.0)$httpx (>=0.12.1,<0.13.0)$click-spinner (>=0.1.8,<0.2.0)$tabulate (>=0.8.7,<0.9.0)$python-telegram-bot (>=12.6.1,<13.0.0)$fastapi (>=0.54.1,<0.55.0)$uvicorn (>=0.11.3,<0.12.0)$dacite (>=1.4.0,<2.0.0)$pydantic[dotenv] (>=1.4,<2.0)
+upgini,1.1.44,9,python-dateutil (>=2.8.0)$requests (>=2.8.0)$pandas (>=1.1.0)$numpy (>=1.19.0)$scikit-learn (>=1.0.1)$pydantic (>=1.8.2)$fastparquet (>=0.7.1)$python-json-logger (>=2.0.2)$catboost (>=1.0.3)
+unicorn-binance-rest-api,1.5.0,9,certifi$colorama$cryptography$dateparser$pyOpenSSL$requests$service-identity$ujson$regex (<=2022.3.2)
+uhu,1.2.0,9,click (>=6.5)$humanize (>=0.5.1)$libarchive-c (>=2.9)$progress (>=1.1)$prompt-toolkit (<4.0.0,>=2.0.0)$pycryptodomex$requests (>=2.20.0)$rfc3987 (>=1.3)$updatehub-package-schema (>=1.1.0)
+unified-plotting,0.5.0rc1,9,matplotlib (<4,>=3.1)$plotly (!=4.7.0,<5,>=4.5)$setuptools (>=40.0)$numpy (<2,>=1.17.4)$scipy (<2,>=1.4)$psutil (<6,>=5.4.5)$requests (<3,>=2)$flask (<2,>=1.1)$waitress (<2,>=1.4)
+uproot-browser,0.4.1,9,awkward>=1$click>=8$hist>=2.4$lz4$numpy>=1.13.3$plotext>=5.2.2$rich>=12.0.0$textual<0.2.0,>=0.1.17$uproot>=4.2.1
+ubermag,0.66.0,9,ubermagutil (==0.63.1)$discretisedfield (==0.65.0)$ubermagtable (==0.61.2)$micromagneticmodel (==0.63.1)$micromagneticdata (==0.65.0)$micromagnetictests (==0.63.0)$mumax3c (==0.1)$oommfc (==0.64.0)$mag2exp (==0.62.1)
+uitestcore,10.2.0,9,certifi (==2022.9.24)$chardet (==5.0.0)$idna (==3.4)$pyhamcrest (==2.0.4)$python-dateutil (==2.8.2)$requests (==2.28.1)$selenium (==4.4.3)$six (==1.16.0)$urllib3 (==1.26.12)
+uvraspy,1.0.5,9,flake8$pytest$pytest-cov$pybluez$adafruit-blinka$adafruit-circuitpython-ltr390$adafruit-circuitpython-dht$pycryptodome$adafruit-circuitpython-bmp280
+uniport,1.1.1,9,numpy (>=1.17.2)$pandas (>=0.25.1)$scipy (>=1.3.1)$scikit-learn (>=0.22.1)$torch (>=1.0.0)$scanpy (>=1.4.5)$tqdm (>=4.28.1)$matplotlib (>=3.0.3)$leidenalg (>=0.8.3)
+unicef-locations,4.2,9,django-autocomplete-light$django-admin-extra-urls$django-mptt$django-model-utils$django-leaflet$djangorestframework (>=3.12)$carto$celery$unicef-djangolib
+util-rpa,1.34,9,numpy (==1.22.3)$openpyxl (==3.0.9)$paramiko (==2.9.2)$pysftp (==0.2.9)$python-dateutil (==2.8.2)$requests (==2.27.1)$simplejson (==3.17.6)$twine (==3.8.0)$typeshed-client (==2.0.3)
+uvicore,0.1.23,9,anyio (>=3.2.0,<3.3.0)$colored (>=1.4.0,<1.5.0)$prettyprinter (>=0.18.0,<0.19.0)$environs (>=9.3.0,<9.4.0)$argon2-cffi (>=20.1.0,<20.2.0)$cryptography (>=3.4.0,<3.5.0)$aiohttp (>=3.7.0,<3.8.0)$merge-args (>=0.1.0,<0.2.0)$httpx (>=0.19.0,<0.20.0)
+uesgraphs,0.6.4,9,pytest$networkx (>=2.1)$numpy$pandas$shapely$pyproj$matplotlib$nose$pytest-mpl
+uvisaurorae,0.1.2,9,numpy (>=1.20.2,<2.0.0)$importlib-resources (>=5.1.2,<6.0.0)$spiceypy (>=4.0.0,<5.0.0)$requests (>=2.25.1,<3.0.0)$matplotlib (>=3.4.1,<4.0.0)$Shapely (>=1.7.1,<2.0.0)$tqdm (>=4.60.0,<5.0.0)$astropy (>=4.2.1,<5.0.0)$scipy (>=1.6.3,<2.0.0)
+ursgal,0.6.8,9,pymzml (==2.4.6)$nose (==1.3.7)$regex$pyqms (==0.6.2)$coverage$codecov$tox$pre-commit$pyahocorasick (>=1.1.4) ; sys_platform != "win32"
+urdfpy,0.0.22,9,lxml$networkx (==2.2)$numpy$pillow$pycollada (==0.6)$pyrender (>=0.1.20)$scipy$six$trimesh
+udar,0.1.10,9,bs4$fastapi$hfst$nltk$pandas$pexpect$sphinx-autodoc-typehints$stanza (>=1.1.1)$uvicorn
+uganda-uber-switching-reg,0.4.3,9,matplotlib (==3.4.3)$numpy (==1.22.3)$linearmodels (==4.26)$patsy (==0.5.2)$scipy (==1.8.0)$statsmodels (==0.13.2)$pandas (==1.4.2)$tqdm (==4.56.0)$scikit-learn (==0.24.2)
+ucr,0.2.16,9,tqdm (>=4.50,<5.0)$numpy (<1.20.0)$opencv-python (>=4.1.0,<5.0.0)$imgaug (>=0.4.0,<0.5.0)$hydra-core (>=1.0.6,<2.0.0)$pyclipper (>=1.2.1,<2.0.0)$tabulate (>=0.8.9,<0.9.0)$pandas (>=1.1,<1.2)$PyMuPDF (>=1.18.10,<2.0.0)
+ubii-processing-module-ocr,0.2.0,9,ubii-node-python (>=0.3.0)$tesserocr (==2.5.2)$opencv-contrib-python-headless (==4.5.5.64)$Pillow (>=5.2)$Pillow-PIL (>=0.1dev)$numpy$importlib-resources ; python_version < "3.8"$typing-extensions ; python_version < "3.8"$backports.cached-property ; python_version < "3.8"
+uwa-airtest,1.2.4,9,Jinja2 (>=2.8)$Pillow (>=3.4.0)$requests (>=2.11.1)$six$mss (==4.0.3)$numpy (<=1.19.3,>=1.14.0)$opencv-contrib-python$facebook-wda (>=1.3.3)$pywinauto (==0.6.3)
+unmap,0.1.2,9,numpy$scipy$fsspec$aiohttp$pillow$xarray$networkx$matplotlib$scikit-image
+urbanity,0.3.6,9,vt2geojson (>=0.2.1,<0.3.0)$networkx (==2.8.6)$numpy (==1.23.3)$pyrosm (==0.6.1)$rasterio (==1.3.2)$pyrobuf (==0.9.3)$urllib3 (>=1.26.11,<2.0.0)$charset-normalizer (==2.1.1)$rasterstats (==0.17.0)
+ufotest,1.1.0,9,Click (>=7.0)$flask (==1.1.2)$jinja2 (>=2.11.2)$matplotlib (>=3.3.0)$md-to-html (==0.7.0)$pillow (==7.0.0)$pytest-runner (==5.1)$pytest (==4.6.5)$toml (>=0.10.0)
+us-libraries,0.0.14,9,getconf$srvlookup$dnspython$requests$graphyte$dataclasses$typing-extensions$pyramid$pyramid-swagger
+urbanpy,0.2.1,9,geopandas$rtree$descartes$tqdm$h3$plotly$googlemaps$scikit-learn$osmnx
+utility-bill-scraper,0.10.3,9,numpy (>=1.16,<2.0)$pandas (>=1.1.0,<2.0.0)$selenium (>=3.141.0,<4.0.0)$arrow (>=1.2.0,<2.0.0)$pdfminer (>=20191125,<20191126)$beautifulsoup4 (>=4.6.0,<5.0.0)$matplotlib (>=3.2,<4.0)$google-api-python-client (>=2.27.0,<3.0.0)$python-dotenv (>=0.19.1,<0.20.0)
+ultrayolo,0.7.0,9,tensorflow (==2.1.0)$tensorflow-addons (==0.7.0)$imageio (==2.6.1)$imgaug (==0.4.0)$pandas$numpy (==1.17)$pyyaml (==5.3)$hydra-core$omegaconf
+unipipeline,1.8.4,9,jinja2 (>=3.0.3)$amqp (>=5.1.1)$pyyaml (>=6.0)$types-pyyaml (>=6.0)$pydantic (>=1.8.2)$psycopg2-binary (>=2.9.3)$pika (>=1.2.0)$crontab (>=0.23.0)$kafka-python (>=2.0.2)
+underbelly,0.0.1,9,pytest (>=6.0.1,<7.0.0)$pytest-sugar (>=0.9.4,<0.10.0)$loguru (>=0.5.1,<0.6.0)$toolz (>=0.10.0,<0.11.0)$termcolor (>=1.1.0,<2.0.0)$scipy (>=1.5.2,<2.0.0)$networkx (>=2.5,<3.0)$pydantic (>=1.6.1,<2.0.0)$redistimeseries (>=0.8.0,<0.9.0)
+ubi-population-tool,0.12.0,8,requests$more-executors (>2.1.0)$ubi-config (>=2.2.0)$rpm-py-installer$pubtools-pulplib (>=2.34.2)$attrs$fastpurge$pyrsistent (<0.17) ; python_version < "3"
+user-provision-tool,1.48,8,setuptools$azure.graphrbac$msrestazure$BeautifulSoup4 (>=4.6.0)$PyYAML$requests$botocore$boto3
+ufmt,2.0.1,8,black>=20.8b0$click>=8.0$libcst>=0.4.0$moreorless>=0.4.0$tomlkit>=0.7.2$trailrunner>=1.2.1$typing-extensions>=4.0$usort>=1.0
+ufo-tofu,0.12.0,8,PyGObject$PyQt5$imageio$networkx$numpy$pyqtconsole$qtpynodeeditor$xdg
+uncwrap,0.2,8,click (>=7.0,<8.0)$minilog (>=1.5,<2.0)$numpy (>=1.19.2,<2.0.0)$pandas (>=1.1.3,<2.0.0)$scikit-learn (>=0.23.2,<0.24.0)$scipy (>=1.5.2,<2.0.0)$tensorflow (==1.15.2)$tensorflow-probability (==0.7.0)
+uranium,2.1.2,8,coloredlogs (==10.0)$deepmerge (==0.0.4)$docopt (==0.6.2)$packaging (>=19.0)$pip (>=19.2.3)$requests (==2.22.0)$setuptools (>=41.2.0)$virtualenv (==16.6.0)
+uptick,0.2.6,8,bitshares (>=0.7.0)$prettytable$click$click-datetime$termcolor$tqdm$pyyaml$pygments
+unconcealed,0.4.1,8,ipywidgets (>=7.6)$matplotlib (>=3.4)$numpy (>=1.20)$opencv-python (>4)$pandas (>=1.2)$Pillow (>=8.1)$scipy (>=1.6)$seaborn (>=0.11)
+utilize,1.0.1,8,BaseCon$Decibel$KVS$Msgr$mysql-connector-python$pymemcache$redis$SeCo
+unet-stylegan2,0.5.1,8,fire$numpy$retry$tqdm$torch$torchvision$pillow$linear-attention-transformer (>=0.12.1)
+unfolded-map-sdk,1.5.2,8,geojson-pydantic (<0.5.0,>=0.4.2)$ipykernel (<7,>=4)$ipywidgets (<8,>=7.0.0)$jinja2 (<4,>=3)$jupyter-ui-poll (<0.3.0,>=0.2.1)$pydantic (<2.0,>=1.9)$traitlets$typing-extensions ; python_version < "3.8"
+uncertainty-toolbox,0.1.0,8,numpy>=1.19.0$scipy>=1.5.0$matplotlib>=3.2.2$scikit-learn>=0.23.1$shapely>=1.6.4.post2$tqdm>=4.54.0$pytest>=5.4.3$black>=19.10b0
+unicef-attachments,0.11,8,djangorestframework$django$django-model-utils$django-ordered-model$drf-querystringfilter$python-magic$pytz$unicef-restlib
+unicef-business-areas,0.1,8,celery$cryptography$django$django-admin-extra-buttons$django-constance$django-countries$django-picklefield$requests
+ucnp-skybility,2.0.7,8,pyperclip (==1.8.0)$python-engineio (==3.13.2)$python-socketio (==4.6.0)$requests (==2.24.0)$wxPython (>=4.0.3)$pypubsub (==4.0.3)$pinyin (==0.4.0)$psutil (==5.5.0)
+unicef-realm,0.1,8,celery$cryptography$django$django-admin-extra-buttons$django-constance$django-countries$django-picklefield$requests
+uassist,0.0.7,8,earthengine-api$exifread$geojson$geopandas$ipyleaflet$ipyfilechooser$pandas$pyshp
+uniclogs-ultra,0.0.2,8,loguru$Flask$Flask-RESTful$Flask-SQLAlchemy$psycopg2$python-dateutil$ballcosmos$pass-calculator
+uszipcode,1.0.1,8,attrs$requests$pathlib-mate$atomicwrites$fuzzywuzzy$haversine (>=2.5.0)$SQLAlchemy (>=1.4.0)$sqlalchemy-mate (>=1.4.28.3)
+unifhy,0.1.1,8,numpy (>=1.16)$netCDF4 (>=1.5)$esmpy$cftime$cfunits$cf-python (>=3.11.0)$pyyaml (>=5.3)$pyproj (>=3.0)
+urlfinderlib,0.18.5,8,icalendar (>=4.0.7)$idna (>=2.10)$lxml (>=4.5.2)$pytest$pytest-cov$python-magic (>=0.4.18)$tld (>=0.12.2)$validators (>=0.16.0)
+unifi-cam-proxy,0.2.0,8,aiohttp$amcrest$asyncio-mqtt$backoff$coloredlogs$hikvisionapi (>=0.3.2)$websockets (>=9.0.1)$xmltodict
+uci-cbp-demo,0.6.0,8,Click (>=7.0)$numpy (==1.18.1)$matplotlib (==3.2.1)$configobj (==5.0.6)$appdirs (==1.4.3)$scipy (==1.4.1)$bleak (==0.6.1)$pandas (==1.0.3)
+uhugo,0.2.0,8,click (<=9.0.0,>=8.0.3)$packaging (<=22.0,>=21.0)$requests (<=3.0.0,>=2.26.0)$toml (<=1.0.0,>=0.10.2)$pyyaml (<=7.0,>=6.0)$psutil (<=6.0.0,>=5.8.0)$rich (<13.0.0,>=10.12.0)$pydantic (<=2.0.0,>=1.8.2)
+uavsim,0.0.4,8,pyserial$autobahn$crossbar$PyQt5$idna (<2.6)$numpy$h5py$pyqtgraph
+url-metadata,0.1.6,8,appdirs (>=1.4.4)$lassie (>=0.11.9)$readability-lxml (>=0.8.1)$backoff (>=1.10.0)$beautifulsoup4 (>=4.9.0)$click (>=7.1.2)$requests$logzero
+uorf4u,0.8.2,8,biopython$configs$argparse$statistics$logomaker$matplotlib$pandas (==1.4.0)$reportlab
+unusualvolume,0.1.2,8,numpy (>=1.19.1,<2.0.0)$pandas (>=1.1.0,<2.0.0)$python-dateutil (>=2.8.1,<3.0.0)$click (>=7.1.2,<8.0.0)$yfinance (>=0.1.54,<0.2.0)$joblib (>=0.16.0,<0.17.0)$tqdm (>=4.48.2,<5.0.0)$requests (>=2.24.0,<3.0.0)
+usagi,0.3.1,8,jsonschema$pyyaml$requests$six$stevedore$haas (>=0.6.0)$jq (>=0.1.3,<0.2)$unittest2; python_version=="2.6"
+uurl,0.0.2,8,attrs (==19.3.0)$click (==7.1.1)$dataclasses (==0.6)$enforce-pep8 (==0.0.10)$pypans (==0.0.13)$requests (==2.23.0)$urequest (==0.0.6)$urllib3 (==1.25.10)
+usql,2.1.0,8,click (>=4.1)$Pygments (>=1.6)$prompt-toolkit (>=2.0.0)$sqlparse (>=0.2.2)$configobj (>=5.0.5)$cli-helpers[styles] (>=1.0.1)$PyJWT (>=0.5.2)$requests
+unipacker,1.0.6,8,yara-python$pefile$cmd2 (==0.9.12)$unicorn-unipacker (==1.0.3b7)$capstone$colorama$gnureadline ; platform_system == "Darwin"$pyreadline ; platform_system == "Windows"
+unplugged,0.1.9,8,marshmallow (>=3.0.1)$twine$django$djangorestframework-jsonapi$djangorestframework$wrapt$jsonfield$wampyre
+umato,0.0.4,8,numpy$numba$scipy$scikit-learn$joblib$matplotlib$pandas$fcsparser
+umap-project,1.2.3,8,Django (==2.2.17)$django-agnocomplete (==1.0.0)$django-compressor (==2.4)$Pillow (==8.0.1)$psycopg2 (==2.8.4)$requests (==2.23.0)$social-auth-core (==3.3.2)$social-auth-app-django (==3.1.0)
+ucast,0.1.3,8,click (>=7.1.2)$matplotlib (>=3.2.2)$numpy (>=1.18.5)$pandas (>=1.0.5)$pygrib (>=2.0.4)$requests (>=2.24.0)$tqdm (>=4.46.1)$bokeh (>=2.3.0)
+utilsovs-pkg,0.9.5,8,Bio (==1.3.3)$logomaker (==0.8)$matplotlib (==3.5.1)$pandas (==1.3.5)$Pygments (==2.7.1)$requests (==2.25.1)$tika (==1.24)$wget (==3.2)
+useckit,0.1.5,8,pandas (>=1.2.0)$tensorflow (>=2.5.0)$tensorflow-addons (>=0.12.1)$matplotlib (>=3.3.0)$tqdm (>=4.56.0)$scikit-learn (>=0.24.0)$wheel$twine
+unlocknn,2.0.3,8,numpy (<=1.19.5)$pymatgen (<=2021.2.8)$megnet (>=1.1.4)$requests$pyarrow (>=1.0.1)$tensorflow (>=2.2)$tensorflow-probability (>=0.10.1)$typish ; python_version < "3.8"
+ukbparse,0.22.0,8,h5py$numpy$pandas$pyparsing$six$tables$beautifulsoup4$lxml
+udserver,0.2.0,8,Click (>=6.0)$autoflake (>=1.2)$flake8 (>=3.5.0)$pytest (>=3.6.2)$twine (>=1.11.0)$yapf (>=0.22.0)$Flask (==1.0.2)$Flask-Dropzone (==1.5.3)
+utube-search,0.1.0,8,aiohttp (>=3.7.3,<4.0.0)$cchardet (>=2.1.7,<3.0.0)$aiodns (>=2.0.0,<3.0.0)$typer (>=0.3.2,<0.4.0)$uvloop (>=0.15.0,<0.16.0)$aiofiles (>=0.6.0,<0.7.0)$python-rapidjson (>=1.0,<2.0)$rich (>=9.11.0,<10.0.0)
+ultimate-notion,0.0.1,8,emoji$google-api-python-client$google-auth-httplib2$google-auth-oauthlib$html5lib$notion-client$pandas$pydantic
+ubuntu-package-status,0.0.7,8,babel$click$humanize$launchpadlib$pyyaml$pytz$readchar$joblib
+utspclient,0.1.1,8,setuptools$requests$dataclasses-json$pandas$numpy$mypy$types-requests$pandas-stubs
+ukupacha,0.0.7a0,8,pandas$numpy$joblib (>=1.1.0)$cx-Oracle$psutil$pymongo (>=3.12.0)$tqdm$SQLAlchemy
+userscloud,0.1.0,8,lxml (>=0.0.1)$requests (>=0.0.1)$requests-toolbelt (>=0.0.1)$sqlq (>=0.0.1)$omnitools (>=0.0.1)$aescipher (>=0.0.1)$easyrsa (>=0.0.1)$credsafe (>=0.0.1)
+udn-songbook,1.1.2,8,ukedown (>=2.0.0,<3.0.0)$beautifulsoup4 (>=4.9.3,<5.0.0)$PyYAML (>=5)$WeasyPrint (>=53.4)$Markdown (>=3.3.4,<4.0.0)$Jinja2 (>=3.0.1,<4.0.0)$lxml (>=4.6.4,<5.0.0)$pychord (>=1.0.0,<2.0.0)
+uld,3.1.6,7,requests$Pillow$ansicolors$numpy$pysocks$stem$appdirs
+unikold-connector,2.0,7,python-ldap$plone.app.dexterity$plone.api (>=1.8.4)$Products.GenericSetup (>=1.8.2)$setuptools$z3c.jbot$zeep (>=4.0.0)
+underground,0.3.0,7,requests (>=2.22)$google (>=2.0)$gtfs-realtime-bindings (>=0.0.6)$protobuf3-to-dict (>=0.1.5)$click (>=7.0)$pydantic (>=0.31.1)$pytz (>=2019.2)
+utm-epsg-finder,0.2.1,7,click (>=7.1.2,<8.0.0)$pathlib (>=1.0.1,<2.0.0)$pyproj (>=3.0.0,<4.0.0)$geopandas (>=0.8.2,<0.9.0)$utm (>=0.7.0,<0.8.0)$twine (>=3.3.0,<4.0.0)$rasterio (>=1.2.1,<2.0.0)
+ulars,1.0.9b0,7,cement (==3.0.4)$jinja2$pyyaml$colorlog$tinydb$progress$PyYAML
+utr,1.1.1,7,click (>=8.1.3,<9.0.0)$daiquiri (>=3.2.1,<4.0.0)$openpyxl (>=3.0.10,<4.0.0)$pandas (>=1.4.4,<2.0.0)$pydantic (>=1.10.2,<2.0.0)$requests (>=2.28.1,<3.0.0)$tabulate (>=0.8.10,<0.9.0)
+universalio,0.0.8,7,autoinject$zirconium (>=0.2)$toml$aiohttp$aiofiles$zrlog$importlib-metadata ; python_version < "3.8"
+universal-silabs-flasher,0.0.4,7,click$zigpy$bellows$gpiozero$coloredlogs$async-timeout$awesomeversion
+udkm1dsim,1.5.6,7,tqdm (>=4.43.0)$numpy (>=1.18.2)$pint (>=0.9)$scipy (>=1.4.1)$sympy (>=1.5.1)$tabulate$matplotlib (>=2.0.0)
+utsc-nautobot,2022.4.26.1,7,nautobot_ssot (>=1.1.0)$utsc.core$nautobot (>=1.3)$django-auth-ldap$debugpy$django-debug-toolbar$html-table-parser-python3 (>=0.2.0)
+universityhack2018,0.7.0,7,Click (>=6.0)$numpy$pandas$scikit-learn$scipy$pickleshare$xgboost
+unitypy,1.9.20,7,brotli$etcpak$lz4$pillow$pyfmodex$tabulate$texture2ddecoder
+usort,1.0.5,7,attrs (>=21.2.0)$click (>=7.0.0)$LibCST (>=0.3.7)$moreorless (>=0.3.0)$stdlibs (>=2021.4.1)$toml (>=0.10.0)$trailrunner (>=1.0)
+unleashclient,5.4.0,7,requests$fcache$mmh3$apscheduler$importlib-metadata$python-dateutil$semver (<3.0.0)
+utils-whitetail,0.0.9,7,pydub (==0.25.1)$python-anticaptcha (==0.7.1)$requests (==2.27.1)$selenium (==4.1.3)$SpeechRecognition (==3.8.1)$stem (==1.8.0)$undetected-chromedriver (==3.1.3)
+ultralytics,0.0.43,7,PyYAML (>=5.3.1)$requests$GitPython (>=3.1.24)$torch (>=1.7.0)$torchvision (>=0.8.1)$psutil$IPython
+utils-slliu,0.0.3,7,numpy$pandas$matplotlib$click$chinese-calendar$requests$beautifulsoup4
+unipy-dto,0.1.0,7,pydantic[dotenv,email] (==1.9.0)$mypy$validators (==0.18.2)$unipy$pandas (==1.1.5)$pytest$autologging
+uuoskit,1.0.4,7,urllib3 (>=1.21.1)$certifi (>=2021.10.8)$toolz (>=0.11.1)$funcy (>=1.16)$prettytable (>=2.2.1)$requests-unixsocket (>=0.2.0)$httpx (>=0.19.0)
+unmessage,0.2.0,7,PyAudio (>=0.2.10)$PyNaCl (>=1.0.1)$Twisted[tls] (>=16.6.0)$opuslib (>=1.1.0)$pyaxo (>=0.7.3)$pyperclip (>=1.5.27)$txtorcon (>=0.19.0)
+umbreon,0.1.0,7,discord.py (>=1.7.3,<2.0.0)$python-dotenv (>=0.19.2,<0.20.0)$toml (>=0.10.2,<0.11.0)$jishaku (>=2.3.2,<3.0.0)$fuzzywuzzy (>=0.18.0,<0.19.0)$python-Levenshtein (>=0.12.2,<0.13.0)$requests (>=2.27.1,<3.0.0)
+umitemplatedb,0.0.1,7,archetypal (==2.1.3)$mongoengine (~=0.23.1)$pycountry (~=20.7.3)$pytest (~=6.2.4)$geojson (~=2.5.0)$mongomock (~=3.22.1)$datapackage (~=1.15.2)
+unrolr,0.5.0.3,7,pyopencl (>=2015.1)$matplotlib (>=1.4.3)$MDAnalysis (>=0.17.0)$h5py (>=2.5.0)$numpy (>=1.11.3)$scipy (>=1.2.1)$pandas (>=0.17.1)
+unseal,0.2.1,7,torch$einops (>=0.3.2)$numpy$transformers$tqdm$matplotlib$streamlit
+unimport,0.12.2,7,toml (<1,>=0.9.0)$dataclasses (<1,>=0.5) ; python_version < "3.7"$typing-extensions (<4,>=3.7.4) ; python_version < "3.8"$libcst (<1,>=0.3.0) ; python_version <= "3.8"$pathspec (<0.10.0,>=0.5.0) ; python_version == "3.6"$pathspec (<1,>=0.10.1) ; python_version >= "3.7"$libcst (<1,>=0.3.7) ; python_version >= "3.9"
+ubii-node-python,0.3.0,7,ubii-message-formats (>=0.3.0)$codestare-async-utils (>=0.2.0)$pyyaml$aiohttp$importlib-metadata ; python_version < "3.8"$backports.cached-property ; python_version < "3.8"$typing-extensions ; python_version < "3.8"
+un-treaties,0.1.2,7,beautifulsoup4$connexion$html5lib$lxml$pandas$pycountry$requests
+universalclassifier,0.0.4,7,ftfy$regex$tqdm$torch$Pillow$torchvision$torchaudio
+uec,1.0.1,7,bs4$click$lxml$prettytable$progressbar2$requests$selenium
+uijarv,1.0.0,7,pyttsx3$speechrecognition$wikipedia$Pyqt5$Pyqt5-tools$pyjokes$pyautogui
+unv-web,0.4.6,7,unv.app$unv.deploy$aiohttp$uvloop$ujson$jinja2$aioredis
+umm-cli-helper,1.0.0,7,click (>=8.0.1,<9.0.0)$setuptools (>=57.5.0,<58.0.0)$aiohttp (>=3.7.4,<4.0.0)$pydantic (>=1.8.2,<2.0.0)$requests (>=2.26.0,<3.0.0)$Pygments (>=2.10.0,<3.0.0)$PyYAML (>=5.4.1,<6.0.0)
+urlup,1.5.1,7,termcolor (>=1.1.0)$colorama (>=0.3.0)$plac (>=0.9.6)$uritools (>=2.1.0)$keyring (>=12.2.0)$requests (>=2.18.0)$validators (>=0.12.0)
+unigui-carstentb,0.1.3,7,adafruit-blinka (>=7.3.0)$adafruit-blinka-displayio (>=0.10.0)$adafruit-circuitpython-display-text (>=2.22.3)$adafruit-circuitpython-bitmap-font (>=1.5.6)$adafruit-circuitpython-display-shapes (>=2.4.3)$adafruit-circuitpython-imageload (>=1.16.0)$pygame (>=2.1.2)
+unigo,2.0.3,7,requires (>=0.10.2,<0.11.0)$Owlready2 (>=0.36,<0.37)$scipy (>=1.8.0,<2.0.0)$docopt (>=0.6.2,<0.7.0)$marshmallow (>=3.14.1,<4.0.0)$Flask (>=2.0.2,<3.0.0)$requests (>=2.27.1,<3.0.0)
+unify-sdk,3.0.11,7,keyring$setuptools$tabulate$requests$json-lines$gql[all]$gql-query-builder
+u-cincy-quantum-tools,0.1.4,7,qiskit (>=0.36)$matplotlib (>=2.2.0)$qiskit-aer (>=0.10.4)$qiskit-ibmq-provider (>=0.19.1)$qiskit-ignis (>=0.7.0)$qiskit-terra (>=0.20.1)$pylatexenc (>=2.0)
+upm-oct-dataset-utils,0.13.0,7,matplotlib (==3.5.2)$numpy (==1.21.0)$opencv-python (==4.5.5.64)$Pillow (==9.1.1)$pandas (==1.4.2)$pandas-read-xml (==0.3.1)$tqdm (==4.64.0)
+unboxapi,0.3.0,7,bentoml (==0.13.1)$jupyter$pandas$requests$tqdm$marshmallow$protobuf (==3.20.0)
+undertime,3.2.0,7,dateparser$ephem$pytz$pyyaml$tabulate$termcolor$importlib-metadata ; python_version < "3.8"
+uvic-report-format,0.1.0,7,Jinja2 (>=2.11.3,<3.0.0)$PyYAML (>=5.4.1,<6.0.0)$pypandoc (>=1.5,<2.0)$click (>=7.1.2,<8.0.0)$PyPDF2 (>=1.26.0,<2.0.0)$pydantic[email] (>=1.8.2,<2.0.0)$pydantic-yaml (>=0.4.2,<0.5.0)
+urge,0.4.7.3,7,playwright (==1.13.1)$schedule (==1.1.0)$daoism (==0.0.4)$pyquery$httpx$path$fs
+urestapi,2.0.3,7,click (>=4.1)$Pygments (>=1.6)$prompt-toolkit (>=3.0.8)$cli-helpers[styles] (>=1.0.1)$PyJWT (>=2.4.0)$requests$urllib3 (>=1.21.1)
+upydevice,0.3.8,7,pyserial$dill$unsync$bleak (>=0.12.1)$bleak-sigspec (>=0.0.4)$netifaces (~=0.11.0)$python-nmap (~=0.7.1)
+utilitys,0.5.2,7,pyqtgraph (>=0.12.3)$tqdm$numpy$pandas$docstring-parser$ruamel.yaml$typing-extensions ; python_version < "3.8"
+ufro-uhi-plot,0.0.2,7,matplotlib$numpy$pandas$matplotlib-scalebar$shapely$cartopy (>=0.17.0)$scipy
+uctopic,0.3,7,tqdm$scikit-learn$transformers (==4.7.0)$torch (>=1.7.0)$numpy (>=1.17)$setuptools$spacy
+uranium-plus,2.1.1,7,Babel$Sphinx$sphinx-rtd-theme$pytest$pytest-cov$wheel$twine
+ua-clarity-tools,1.1.6,7,requests$bs4$lxml$jinja2$ua-clarity-api$nose$dataclasses
+urbansim-templates,0.1.4,7,choicemodels (>=0.2)$numpy (>=1.14)$orca (>=1.4)$pandas (>=0.22)$patsy (>=0.4)$statsmodels (>=0.8)$urbansim (>=3.1)
+uv-metrics,0.4.2,7,casfs (==0.1.1)$fs$fs-gcsfs$mlflow (==1.10.0)$numpy (>=1.18.0)$sqlalchemy$tqdm (>=4.42.1)
+understat,0.1.7,7,beautifulsoup4 (==4.9.3)$codecov (==2.1.12)$pytest-aiohttp (==0.3.0)$pytest-cov (==3.0.0)$pytest-mock (==3.6.0)$pytest (==6.2.0)$aiohttp (==3.7.4)
+ufload,0.277,7,pyOpenSSL (==19.1.0)$ndg-httpsclient (==0.5.1)$pyasn1 (==0.4.8)$easywebdav (==1.2.0)$oerplib (==0.8.4)$pybase64 (==0.5.0)$Office365-REST-Python-Client (==2.1.5)
+ugmrt-beamds,1.1.1,6,numpy (==1.19.0)$scipy (==1.6.2)$astropy (==4.3)$pandas$seaborn$pysigproc
+uconnrcmpy,3.0.5,6,cantera (>=2.3.0)$matplotlib (>=1.4.0)$numpy (>=1.8.0)$pyperclip (>=1.5.27)$pyyaml (>-3.12)$scipy (>=0.18.0)
+utiltools,0.0.5,6,gunicorn$user-agents$sh$Flask$Flask-Limiter$Flask-Session
+udemy-dl2,0.5,6,requests[security]$six$colorama$requests$unidecode$pyOpenSSL
+utilsrl,0.4.8,6,gym (>=0.19)$tqdm$numpy$tensorboard$torch$pandas
+ultru-client,1.2.2,6,boto3$botocore$click$cmd2$pyjwt$requests
+ultimate-hosts-blacklist-whitelist-dev,3.27.1,6,colorama$domain2idna$pyfunceble (>=4.0.0a1)$requests$ultimate-hosts-blacklist-helpers (>=1.5.2)$urllib3
+ultimate-hosts-blacklist-whitelist,3.27.1,6,colorama$domain2idna$pyfunceble (>=4.0.0a1)$requests$ultimate-hosts-blacklist-helpers (>=1.5.2)$urllib3
+umakaparser,0.2.2,6,click (>=8.0,<9.0)$isodate (>=0.6.0,<0.7.0)$pyparsing (>=3.0,<4.0)$tqdm (>=4.52.0,<5.0.0)$python-i18n (>=0.3.9,<0.4.0)$rdflib (>=6.0.0,<7.0.0)
+universal-ink-library,1.0.6,6,numpy (>=1.16.4)$bitstring (>=3.1.7)$protobuf (==3.20.3)$varint (>=1.0.2)$python-dateutil (>=2.8.1)$lxml (>=4.6.3)
+universalizer,0.0.3,6,click (>=8.1.3,<9.0.0)$curies (>=0.4.0,<0.5.0)$kgx (>=1.7.0,<2.0.0)$oaklib (>=0.1.48,<0.2.0)$prefixmaps (>=0.1.3,<0.2.0)$sssom (>=0.3.16,<0.4.0)
+udi-interface,3.0.49,6,paho-mqtt$python-dotenv$markdown2$netifaces$requests$pyisy (!=2.1.5,<3.0.0,>2.0)
+urldt,1.0.0,6,certifi (>=2022.6.15)$charset-normalizer (>=2.1.0)$idna (>=3.3)$requests (>=2.28.1)$toml (>=0.10.2)$urllib3 (>=1.26.11)
+umis,1.0.3,6,click$pysam (>=0.8.3)$pandas$regex$scipy$toolz
+ulozto-downloader,3.2.0,6,requests$Pillow$ansicolors$numpy$pysocks$stem
+unitgrade-tuhe,0.0.1,6,numpy$tabulate$tqdm$pyfiglet$colorama$coverage
+uc2-rest,0.1.0.16,6,numpy$requests$pyserial$esptool$progressbar$pillow
+umobj,3.0.2,6,boto (>=2.49.0)$filechunkio$progressbar$qav$bagit (>=1.7.0)$certifi (>=2019.11.28)
+uri-handler,0.0.4,6,atomicwrites$boto3$decorator$marshmallow$six$pathlib2 ; python_version < "3.0"
+udls,1.0.1,6,torch (>=1.3.1)$lmdb (>=0.98)$librosa (>=0.7.1)$tqdm (>=4.36.1)$numpy (>=1.17.2)$protobuf
+usk,0.1.12,6,setuptools$pigpio$bme680$smbus$adafruit-circuitpython-bno055$SI1145
+unitdoc,0.3.2,6,attrs$cattrs$attr-descriptions (>=0.1.3)$ruamel.yaml$pint-mtools (>=0.12.3)$python-dateutil
+ufss,0.1.0,6,numpy$matplotlib$pyfftw$scipy (>=1)$pyyaml$pyx
+ufwio,0.0.2,6,numpy$lmdb$scipy$scikit-image$google$protobuf (==3.19.0)
+uboxadmin,0.1.0,6,Django (>=1.11.8,<2.0.0)$djangorestframework (==3.11.2)$djangorestframework-simplejwt (==4.3.0)$typing-extensions (>=3.10.0,<4.0.0)$djangorestframework-camel-case (>=1.2.0,<2.0.0)$captcha (>=0.3,<0.4)
+utils-flask-sqlalchemy-geo,0.2.5,6,sqlalchemy (<1.4,>=1.3)$fiona (>=1.8.13.post1)$geoalchemy2 (<0.12,>=0.4.0)$shapely (>=1.5.16)$utils-flask-sqlalchemy (>=0.2.0)$geojson
+utilsd,0.0.15,6,addict (>=2.4.0)$click (>=8.0)$numpy (>=1.18.0)$pyyaml (>=5.4.1)$yapf (>=0.31.0)$numpy (<1.22) ; python_version < "3.8"
+urban-env,0.0.dev2,6,gym$numpy$pygame$jupyter$matplotlib$pandas
+university-scraper,0.0.2,6,beautifulsoup4 (>=4.9.0)$selenium (>=3.141.0)$webdriver-manager (>=3.2.2)$requests (>=2.23.0)$lxml (>=4.5.0)$tabulate (>=0.8.7)
+upliftml,0.0.1,6,pydantic (>=1.8,<2.0)$numpy (>=1.20.1,<2.0.0)$pandas (>=1.2,<2.0)$seaborn (>=0.11.1,<0.12.0)$matplotlib (>=3.4.0,<4.0.0)$scikit-learn (>=0.24,<0.25)
+univoc,0.2.1,6,librosa (>=0.8.0)$numpy (>=1.18.0)$tqdm (>=4.41)$requests$importlib-resources$omegaconf (>=2.0.3)
+u2t,1.0.3,6,bs4$clipboard$infi.systray$requests$system-hotkey$win10toast
+ulearn-scoring,0.2.1,6,click (<9.0.0,>=8.0.1)$pydantic-yaml[ruamel] (<1.0.0,>=0.6.0)$openpyxl (<4.0.0,>=3.0.0)$punq$ujson$pydantic
+unbalance,0.1,6,pandas$numpy$matplotlib$paho-mqtt$scipy$scikit-learn
+unbalancepgmdata,0.1,6,pandas$numpy$matplotlib$paho-mqtt$scipy$scikit-learn
+ugoki,1.0.3,6,fastapi (>=0.68.1,<0.69.0)$uvicorn[standard] (>=0.15.0,<0.16.0)$SQLAlchemy (>=1.4.25,<2.0.0)$pydantic (>=1.8.2,<2.0.0)$python-multipart (>=0.0.5,<0.0.6)$aiofiles (>=0.7.0,<0.8.0)
+uncertainsci,0.2.2b0,6,matplotlib (==3.1.3) ; python_version < "3.8"$numpy (==1.15.2) ; python_version < "3.8"$scipy (==1.4.1) ; python_version < "3.8"$matplotlib (>=3.1.3) ; python_version >= "3.8"$numpy (>=1.21.0) ; python_version >= "3.8"$scipy (>=1.4.1) ; python_version >= "3.8"
+ukw-ml-tools,0.3.0,6,pytorch-lightning$torch$torchvision$torchmetrics$opencv-python$albumentations
+ubarec,0.2.2,6,typer$pyodbc$colorama$boto3$loguru$pydantic
+uncle-ben,0.2,6,pydantic$python-dateutil$radon$pylama$pip-tools$pip-package-list
+ucumos,0.8.4,6,protobuf$requests$numpy$dill$appdirs$filelock
+ucb-api,0.1.1,6,typer[all] (>=0.3.2,<0.4.0)$pylint (>=2.6.0,<3.0.0)$python_dateutil (>=2.8.1,<3.0.0)$six (>=1.15.0,<2.0.0)$urllib3 (>=1.25.10,<2.0.0)$certifi (>=2020.6.20,<2021.0.0)
+uengineer,0.1.8,6,numpy$scipy$pynastran$pyfe3d$requests$matplotlib
+urlmon,0.1.1,6,beautifulsoup4 (==4.4.1)$keyring (==5.7.1)$pushover (==0.4)$py (==1.4.31)$pytest (==2.8.5)$requests (==2.9.1)
+unimod-mapper,0.6.6,6,pytest$requests$loguru$pandas$numpy$chemical-composition
+uhb,0.0.3,6,click (==6.7)$pytest (==3.6.1)$pytest-cov (==2.5.1)$numpy (==1.14.5)$scipy (==1.1.0)$matplotlib (==2.2.2)
+uravu,1.2.8,6,numpy$scipy (>=1.5.4)$emcee$tqdm$uncertainties$dynesty (==1.0.1)
+unihiker,0.0.25.2,6,fontTools$pillow$qrcode$pydub$pyaudio ; platform_system == "Linux"$pyaudio ; platform_system == "Windows"
+unifr-api-epuck,1.3.6,6,Pillow$smbus2$numpy$Flask-Cors$Flask-SocketIO$simple-websocket
+utsc-scripts,2022.5.26,6,ldap3$prompt-toolkit>=3.0.19$pydantic>=1.9.0$pyquery>=1.4.0$rich>=10.7.0$utsc-core
+uralicnlp,1.4.1,6,requests$mikatools (>=0.0.6)$argparse$future (>=0.18.2)$tinydb$hfst-dev
+underactuated,2022.6.8,6,drake (>=1.3.0)$pandas$gradescope-utils (>=0.4.0)$mpld3 (>=0.5.1)$pydot (>=1.3.0)$timeout-decorator (>=0.4.1)
+ua-project-transfer,1.1.8,6,bs4$lxml$requests$ua-stache-api$ua-clarity-tools$ua-ilab-tools
+ussclicore,1.0.11,6,cmd2 (==0.6.7)$argparse$progressbar (==2.3)$termcolor (==1.1.0)$hurry.filesize (==0.9)$pyyaml (==3.12)
+updateidsforsm,0.0.0,6,beetools$configparserext$releaselogit$semverit$termcolor$toml
+update-dotdee,6.0,6,coloredlogs (>=14.0)$executor (>=23.1)$humanfriendly (>=8.2)$naturalsort (>=1.5.1)$property-manager (>=3.0)$six (>=1.10.0)
+uci-dataset,0.0.7,6,scikit-learn (>=0.22.0)$numpy$rarfile$pandas (>=0.13)$scipy (>=1.4.1)$xlrd (>=1.0.0)
+utube-video-download,0.0.7,6,pytube (>=11.0.2)$requests (==2.26.0)$rich (>=10.15.2)$emoji (==1.6.1)$tqdm (==4.62.3)$pyperclip (==1.8.2)
+unidown-mr-de,1.0.3,6,unidown (==2.0.3)$urllib3[secure] (>=1.26.7)$tqdm (>=4.62.3)$beautifulsoup4 (>=4.10.0)$lxml (>=4.7.1)$certifi
+ubika-waap-api-client,1.0.1,6,certifi (>=14.05.14)$six (>=1.10)$python-dateutil (>=2.5.3)$setuptools (>=21.0.0)$urllib3 (>=1.15.1)$future ; python_version <= "2.7"
+util-hj3415,0.5.1,6,python-telegram-bot (>=13.7)$requests (>=2.26.0)$bs4 (>=0.0.1)$krx-hj3415 (>=0.3.7)$selenium (>=4.1.0)$webdriver-manager (==3.7.1)
+upathlib,0.6.7,6,filelock >=3.3.0$opnieuw$orjson >=3.6.0$overrides$tqdm$zstandard >=0.18.0
+up42-py,0.26.0,6,requests$requests-oauthlib$tenacity$tqdm$geojson$geopandas
+ube3-apa,1.3.1,6,numpy (>1.16.2)$pandas (>0.24.1)$statistics$scipy (>1.6.1)$tk$thread6
+uw-restclients-graderoster,1.1.2,6,UW-RestClients-Core (~=1.3)$UW-RestClients-SWS (~=2.3)$UW-RestClients-PWS (~=2.1)$mock$lxml (~=4.2)$Jinja2
+uidom,0.1.1b2,6,Jinja2 (>=3.0.1,<4.0.0)$aiofiles (>=0.7.0,<0.8.0)$python-multipart (>=0.0.5,<0.0.6)$pytailwindcss (>=0.1.4,<0.2.0)$valio (>=0.1.0-beta.5,<0.2.0)$starlette (==0.19.1)
+unicorn-sdk,0.0.16,6,requests$brotli$loguru$httpx$aiohttp$tenacity
+uqpy,4.0.5,6,numpy$scipy$matplotlib$scikit-learn$fire$beartype (==0.9.1)
+ukbsearch,0.2.2,6,rich$pyreadr$prettytable$pandas$numpy$pytabix
+utz,0.3.18,6,GitPython$joblib$pandas$python-dateutil (==2.8.1)$pytz$pyyaml (==5.4.0)
+upyble,0.0.3,6,argcomplete$prompt-toolkit$requests$bleak$Pygments$netifaces
+uo-parser-beta,0.1.8,6,numpy$protobuf$requests$torch (>=1.6.0)$tqdm$adapter-transformers (>=1.0.1)
+ultipro,0.0.3,6,backoff$click$configparser$pandas$pandas-gbq$zeep
+urn-randomization,0.0.1,6,confuse$SQLAlchemy$click$Flask$pandas$numpy
+uoft-scripts,1.0.0,6,ldap3$prompt-toolkit>=3.0.19$pydantic>=1.9.0$pyquery>=1.4.0$rich>=10.7.0$uoft-core
+unicontent,0.5.2,6,bibtexparser$bs4$isbnlib$requests$tldextract$wikipedia
+ue4parse,0.0.1,6,pycryptodome$lz4$pyUsmap$pillow$quicktex$astc-decomp
+ucoinpy,0.20.0,6,aiohttp (>=0.19.0)$base58$jsonschema$libnacl$pylibscrypt$pypeg2
+unicef-restlib,0.7,6,django$django-fsm$djangorestframework$djangorestframework-recursive$drf-nested-routers$unicef-djangolib
+uip-cli,1.3.0,6,colorama (>=0.4.4)$requests (>=2.26.0)$jinja2 (>=2.11.3)$prettytable (>=1.0.1)$pyyaml (>=5.4.1)$setuptools (>=44.1.1)
+uq4k,0.1.0b3,5,cvxpy (==1.1.18)$miniball (==1.1.0)$optax (==0.1.1)$numpy (==1.22.2)$scipy (==1.8.0)
+ucm,0.1.2,5,PyYAML$urwid$panwid$datatables$dataclasses
+ubermagtable,0.61.2,5,ubermagutil (>=0.62.0)$pandas (>=1.1)$matplotlib (>=3.3)$jupyterlab (~=3.0)$ipywidgets (>=7.5)
+ucluster,0.3.0,5,fasttext (>=0.9.2,<0.10.0)$nltk (>=3.6.5,<4.0.0)$loguru (>=0.5.3,<0.6.0)$hdbscan (>=0.8.27,<0.9.0)$visidata (>=2.8,<3.0)
+unicode-write,0.2.0,5,prompt-toolkit$file-or-name$pyperclip$string-distance$inverted-index
+uniconnect-python-client,0.7.0,5,click$requests$six$ipaddress ; python_version=="2.7"$typing ; python_version=="2.7"
+unicorn-binance-suite,1.1.0,5,unicorn-binance-websocket-api$unicorn-binance-rest-api$unicorn-fy$unicorn-binance-local-depth-cache$unicorn-binance-trailing-stop-loss
+uiuc-mas,2,5,matplotlib$h5py$numpy$scipy$imageio
+uniauth,0.0.2,5,oauthlib (>=0.7.2)$requests (>=2.5.1)$pytz (>=2014.10)$six (>=1.9.0)$python-dateutil (>=2.4.2)
+uol-grades-calculator,0.13.0,5,adjustText$click$matplotlib$pandas$tabulate
+uqlibrary,0.1.2,5,numpy (>=1.20.0)$scipy (>=1.7.1)$matplotlib (>=3.4.3)$tabulate (>=0.8.9)$mpi4py (>=3.1.3)
+unicorncommon,0.0.29,5,pyappkit$jsonschema$python-dateutil$pyzmq$PyYAML
+uqo,0.0.2.5,5,dimod (==0.10.16)$dwave-networkx (==0.8.8)$prettytable (==2.0.0)$pyzmq (==22.0.2)$matplotlib (==3.3.2)
+ukbaccessrepo,0.370,5,pandas$datalad$pandas-plink$numpy$dataclasses
+ukb-api,0.409,5,pandas (==1.1.5)$datalad$pandas-plink$numpy$dataclasses
+uuparser,2.4,5,dynet$h5py$loguru$numpy$tqdm
+uosclient,0.0.13,5,netaddr$osc-lib$passlib$python-designateclient$python-openstackclient
+unsure,0.2.0,5,click (>=8.1.3,<9.0.0)$pandas (>=1.4.2,<2.0.0)$jupyter (>=1.0.0,<2.0.0)$ipykernel (>=6.13.0,<7.0.0)$sphinx-rtd-theme (>=1.0.0,<2.0.0)
+uqoclient,1.0.3,5,dimod (==0.9.10)$dwave-networkx (==0.8.8)$prettytable (==0.7.2)$pyzmq (==20.0.0)$matplotlib (==3.3.2)
+unfolded-data-sdk,0.11.1,5,PyJWT (>=2.0.0,<3.0.0)$click (>=7.0,<9.0)$pydantic (>=1.7.0,<2.0.0)$requests (>=2.25.0,<3.0.0)$typing-extensions (>=3.7.4,<4.0.0); python_version < "3.8"
+ukboards,0.5.4,5,Click (>=7.1)$networkx (>=2.4)$requests (>=2.22.0)$zeep (>=4.0.0)$python-dotenv (>=0.15.0)
+unexpected-isaves,1.2.2,5,pandas (>=1.3.5)$numpy (>=1.21.5)$Pillow (>=8.4.0)$openpyxl (>=3.0.9)$matplotlib (>=3.5.1)
+ueca,0.1.0,5,numpy$pint$scipy$sympy$uncertainties
+us2anonymize,0.1.1,5,numpy (>=1.21.3,<2.0.0)$opencv-python (<4.5.4)$pydicom (>=2.2.2,<3.0.0)$python-gdcm (>=3.0.10,<4.0.0)$watchdog (>=2.1.6,<3.0.0)
+ui-components,0.2.8,5,pydantic (>=1.9.1,<2.0.0)$ready-logger (>=0.1.4,<0.2.0)$dominate (>=2.6.0,<3.0.0)$lxml (>=4.9.0,<5.0.0)$cssselect (>=1.1.0,<2.0.0)
+uqtoolbox,1.0.4,5,scipy$Sphinx$sphinxcontrib-bibtex$SpectralToolbox$prettytable
+undouble,1.2.9,5,matplotlib$numpy$tqdm$clustimage$ismember
+ustvgo-iptv,0.1.10,5,aiohttp (>=3.8.1)$tqdm (>=4.64.0)$netifaces (>=0.11.0)$furl (>=2.1.3)$typing-extensions (>=3.7.4) ; python_version < "3.8"
+uw-restclients-core,1.3.8,5,commonconf$urllib3$python-dateutil$prometheus-client$mock
+urlscan-py,1.1.5,5,certifi$chardet$idna$requests$urllib3
+ustick,0.1,5,colorama$docopt$PyYAML$termcolor$textwrap3
+ucimlr,0.3.0,5,numpy (>=1.18.2)$pandas (>=1.0.3)$sklearn (>=0.0)$unlzw (>=0.1.1)$xlrd (>=1.0.0)
+unsc-sanctions-checker,3.1.1,5,pdfkit$jinja2$fuzzywuzzy$requests$pandas
+uwa-pocoui,1.5.1085,5,six$requests$uwa-airtest$hrpc (>=1.0.9)$websocket-client (==0.48.0)
+utt,1.29,5,argcomplete (==1.11.1)$cargo (==0.3)$python_dateutil (==2.8.1)$pytz (>=2020,<2021)$tzlocal (==2.0.0)
+uraeus-nmbd-python,0.0.1.dev4,5,uraeus.smbd (>=0.0.1.dev3)$numpy$scipy$numba$pandas
+utility-liron-revah,0.0.14,5,CMRESHandler$numpy$pymongo$requests$dnspython
+uhttp,0.2.2,5,attrs (>=21.4.0)$h11 (>=0.13.0)$idna (>=3.3)$rfc3986 (>=2.0.0)$wsproto (>=1.1.0)
+ubc,0.0.13,5,pandas (>=1.0.3,<2.0.0)$requests (>=2.23.0,<3.0.0)$jmespath (>=0.2.1,<0.3.0)$altair (>=4.1.0,<5.0.0)$dynaconf (>=2.2.3,<3.0.0)
+unrasterize,1.0.0,5,rasterio (>=1.0a12)$pathos (>=0.2.0)$numpy (>=1.8.0)$geojson (>=1.3.0)$geopandas (>=0.2.0)
+us-birth-data,0.1.4,5,pandas (>=1.1)$pyarrow$requests$semver$tqdm
+undefined-ad,2.1.2,5,numpy (>=1.19.0)$networkx (>=2.5.1)$matplotlib (>=3.4.3)$sphinx (==4.2.0)$sphinx-rtd-theme (==1.0.0)
+ussa1976,0.3.2,5,click (>=7.0)$netCDF4 (>=1.5.7)$numpy (>=1.22)$scipy (>=1.6.3)$xarray (>=0.18.2,<2022.4.0)
+updatetable,0.0.1,5,pymysql$pandas$sense-core$datetime$sqlalchemy
+unmass,0.1.0,5,ruamel.yaml (>=0.16.10)$sacrebleu (>=1.4.6)$sacremoses (>=0.0.43)$nlcodec (>=0.2.3)$torch (>=1.4)
+utilix,0.7.2,5,pymongo (<4.0.0)$requests$tqdm$pandas$commentjson
+utillc,0.9.20,5,numpy (>=1.19)$ply$Pillow$datetime$argparse
+util-moderngl-qt,0.1.1,5,PyQt5 (==5.15.7)$PyQt5-Qt5 (==5.15.2)$PyQt5-sip (==12.11.0)$pyrr (==0.10.3)$moderngl (==5.6.4)
+utilmy,0.1.16677380,5,pyyaml$stdlib-list$python-box$fire$requests
+us-congress,0.1.2a2,5,pandas (>=1.2.0,<2.0.0)$punq (>=0.4.1,<0.5.0)$python-dotenv (>=0.15.0,<0.16.0)$requests (>=2.25.1,<3.0.0)$us (>=2.0.2,<3.0.0)
+usefullibs,0.1.0,5,cryptography (>=3.0)$pyperclip (>=1.8.0)$requests (>=2.24.0)$python-whois (>=0.7.3)$beautifulsoup4 (>=4.9.1)
+unknown6656-cvglpixelshader,2.0.0,5,glfw (>=2.5.5)$numpy (>=1.22.2)$opencv-python (>=4.5.5.62)$PyOpenGL (>=3.1.6)$setuptools (>=58.1.0)
+urgent,0.1.2,5,rbnf-rts$toml$argser$sijuiacion-lang$remu-operator
+utilpy,0.1.4,5,PyYAML$requests$beautifulsoup4$patool$loguru
+upersetter,0.8.6,5,jinja2$pyyaml$dpath$click$anypath
+uncertainty-baselines,0.0.7,5,absl-py (>=0.5.0)$numpy (>=1.7)$tensorflow-datasets (>=1.3.0)$tf-models-nightly$tf-nightly
+useragent-classifier,0.8.4,5,pandas (>=1.4.1,<2.0.0)$scikit-learn (>=1.0.2,<2.0.0)$click (>=8.0.4,<9.0.0)$plotly (>=5.6.0,<6.0.0)$dash (>=2.3.0,<3.0.0)
+ucas-dm,1.0.1,5,pandas$numpy$gensim$jieba$scikit-surprise
+unipose,1.0.8,5,opencv-python (>=4.2.0.34)$easydict (>=1.9)$tqdm (>=4.46.0)$numpy (>=1.18.4)$requests (>=2.23.0)
+upkit,0.4.2,5,pyyaml$xmltodict$yamlordereddictloader$jinja2$gitpython
+uniqed,0.0.2,5,numpy$scipy$scikit-learn$pandas$matplotlib
+unanimous,0.8.0,5,pyspelling$dataset (<1.2.0)$requests$click$defusedxml
+uplift-analysis,0.0.2,5,numpy$pandas$scipy$matplotlib$seaborn (>=0.11)
+user-blueprint,0.3.0,5,flask (>=0.12)$flask-login (>=0.4)$flask-wtf (>=0.14)$passlib (>=1.7)$pyjwt (>=1.5)
+ucam-identitylib,1.0.15,5,dataclasses$frozendict$python-dateutil$urllib3$requests
+uetai,0.1.1,5,torch (>=1.6)$numpy (>=1.14)$Pillow$comet-ml$pyyaml (>=5.4)
+utils-flask-sqlalchemy,0.3.0,5,flask$flask-sqlalchemy$flask-migrate$marshmallow$python-dateutil
+userelaina,0.0.4,5,numpy$pillow$opencv-python$requests$setuptools
+udm-rest-client,1.0.13,5,aiohttp (<4,>=3.8.1)$async-property (<0.3,>=0.2.1)$click (<9,>=7)$docker (<6,>=5.0.3)$requests (<3,>=2.26)
+uetools,0.1.4,5,appdirs$colorama$cookiecutter$simple-parsing$GitPython
+umovme,0.0.2,5,furl (==2.1.0)$requests (==2.25.1)$xmltodict (==0.12.0)$dicttoxml (==1.7.4)$munch (==2.5.0)
+uploadcare-migro,1.8.0,5,aiohttp (==3.8.1)$click (==8.1.3)$colorama (==0.4.4)$python-dateutil (==2.8.2)$tqdm (==4.64.0)
+urial,1.0.0,5,appscript (==1.1.2)$plac (==1.3.3)$sidetrack (==2.0.0)$setuptools (==58.3.0)$uritools (==3.0.0)
+uface-test-server-client,0.0.7,5,betterproto (>=1.2.5)$grpclib$python-consul2$cachetools$syncer
+utils-jinja-sqlite,0.0.6,5,python-dotenv (>=0.19,<0.20)$rich (>=12.2,<13.0)$Jinja2 (>=3.1.2,<4.0.0)$aiosqlite (>=0.17.0,<0.18.0)$sqlparse (>=0.4.2,<0.5.0)
+usito,0.0.2,5,numpy$Pandas$Pillow$XlsxWriter$h5py
+uploadgram,0.2.3,5,python-dotenv (==0.10)$Pyrogram (==2.0.35)$TgCrypto (==1.2.3)$hachoir (==3.1.1)$tqdm (==4.62.3)
+umls-downloader,0.1.1,5,click$more-click$beautifulsoup4$requests$pystow
+ufoprocessor,1.9.0,5,defcon[lxml] (>=0.6.0)$fontMath (>=0.4.9)$fontParts (>=0.8.2)$fontTools[lxml,ufo] (>=3.32.0)$mutatorMath (>=2.1.2)
+uff-widget,0.2,5,numpy (>=1.16.1)$pyuff (>=1.20)$ipywidgets (>=7.4.2)$ipyvolume (>=0.5.1)$ipython (>=6.2.1)
+ulrm,1.0.1,5,pandas$numpy$matplotlib$statsmodels$sklearn
+ultimaker-printer-api,0.0.6,5,zeroconf$requests$uuid$pillow$imagehash
+usgs-mbe,0.1.4,5,pandas (>=1.2.4,<2.0.0)$xmltodict (>=0.12.0,<0.13.0)$lxml (>=4.6.3,<5.0.0)$requests (>=2.25.1,<3.0.0)$importlib-metadata (>=4.0.1,<5.0.0)
+umihico,0.4.7,5,requests$boto3$selenium$xlsxwriter$xlrd
+usgs-m2m-api,0.2.0,5,python-dotenv (>=0.19.2,<0.20.0)$requests (>=2.26.0,<3.0.0)$python-dateutil (>=2.8.2,<3.0.0)$clint (>=0.5.1,<0.6.0)$urllib3 (==1.26.7)
+usgsm2m,0.11.0,5,click (>=7.1,<8.0)$python-dateutil (>=2.8,<3.0)$requests (>=2.20,<3.0)$shapely (>=1.7,<2.0)$tqdm (>=4.58,<5.0)
+ultimate-hosts-blacklist-central-repo-updater,1.11.0,5,colorama$PyFunceble-dev$requests$ultimate-hosts-blacklist-helpers (>=1.6.1)$ultimate-hosts-blacklist-whitelist
+umbrasenscraping,0.0.7,5,requests[socks]$lxml$beautifulsoup4$filelock$pytz ; python_version < "3.9.0"
+umakaviewer,0.0.12,5,click (>=7.0,<8.0)$isodate (>=0.6.0,<0.7.0)$pyparsing (>=2.4,<3.0)$rdflib (>=4.2,<5.0)$tqdm (>=4.52.0,<5.0.0)
+uart,0.6.4,5,curses-menu (==0.5.0)$docopt (==0.6.2)$prettytable (==0.7.2)$pylatexenc (==1.2)$pypandoc (==1.4)
+ultimate-hosts-blacklist-input-repo-updater,2.6.6,5,colorama$domain2idna$pyyaml$ultimate-hosts-blacklist-helpers (>=1.20.1)$ultimate-hosts-blacklist-whitelist
+universal-chart-grader,1.1.0,5,numpy$matplotlib$scipy$dill$wrapt
+upnpclient,1.0.3,5,requests (>=2.0.0,<3.0.0)$six (>=1.0.0,<2.0.0)$python-dateutil (>=2.0.0,<3.0.0)$lxml (>=4.0.0,<5.0.0)$ifaddr (>=0.1.7,<0.2.0)
+urbansim-defaults,0.2,5,numpy$orca$pandana$pandas$urbansim
+ufma-scrapper,0.0.11,5,requests$bs4$lxml$unidecode$pymarc
+ulysses,1.0.1,5,numpy$scipy$matplotlib$pymultinest$progressbar
+uw-restclients-zoom,0.1.7,5,UW-RestClients-Core$PyJWT$python-dateutil$pytz$mock
+ubuntuone-storageprotocol,1.0,5,pyOpenSSL$protobuf$service-identity$twisted$zope.interface
+unity-cv-datasetvisualizer,0.1.2,5,Pillow (>=8.1.0)$streamlit (==0.84.1)$pyquaternion (>=0.9.9)$datasetinsights (==1.1.1)$PySide2 (==5.15.2)
+ultra-rl,0.2.0,5,smarts[test,train] (==0.4.14)$setuptools (!=50.0,>=41.0.0)$dill$black (==20.8b1)$ray[rllib] (==1.0.1.post1)
+user-sdk,0.0.61,5,requests$pyshuttlis$shuttl-geo$python-jose$cachetools
+utopian,0.5.3,4,Click$requests$python-dateutil$prettytable
+uno-game,1.1.0,4,numpy$Network-Script (>=1.0.5)$Roman-Numerals-Simple$colorama
+uw-webdriver-recorder,5.0.4,4,pytest (>=6.2.4)$Jinja2 (>=3.0.1,<4.0.0)$selenium (>=4.1.0,<5.0.0)$pydantic (>=1.8.2,<2.0.0)
+user-voting-rocks,0.3.2,4,Click (>=6.0)$beautifulsoup4 (>=4.7jupyter>=1.0)$scikit-learn (>=0.20)$joblib (>=0.13)
+udev-monitor,1.2.2,4,command-runner (>=1.4.0)$pyudev$ofunctions.threading (>=1.1.0)$ofunctions.logger-utils (>=2.3.0)
+uvm-python,0.2.0,4,cocotb (==1.5.0)$cocotb-bus (==0.1.1)$cocotb-coverage (>=1.0.0)$regex (>=2019.11.1)
+useurmind-mkdocs-macros-plugin,0.2.2,4,mkdocs (>=1.0.2)$repackage$jinja2$mkdocs
+uniudpubapi,1.0.1,4,beautifulsoup4$lxml$bibtexparser$requests
+unity-2dmocap,0.1.2,4,torch$torchvision$opencv-python$numpy
+univers,30.9.0,4,attrs$packaging$semantic-version$semver
+upscaler,0.0.6,4,torch (==1.7.1)$pillow (==8.4.0)$torchvision (==0.8.2)$tqdm (==4.62.3)
+uproot3,3.14.4,4,numpy (>=1.13.1)$awkward0$uproot3-methods$cachetools
+ufo2ft,2.29.0,4,fonttools[ufo] (>=4.38.0)$cu2qu (>=1.6.7)$cffsubr (>=0.2.8)$booleanOperations (>=0.9.0)
+uw-restclients-trumba,1.3.7,4,UW-RestClients-Core$commonconf$lxml$icalendar
+unitids,1.0.5,4,numpy$pandas$nltk$textblob
+ua-clarity-api,1.1.4,4,ua-generic-rest-api$jinja2$bs4$lxml
+url2io-client,1.0.1,4,certifi (>=2017.4.17)$python-dateutil (>=2.1)$six (>=1.10)$urllib3 (>=1.23)
+universal-parser-tool,5.0.1,4,selenium (<5,>=3.141)$requests (<3,>=2.25)$beautifulsoup4 (<5,>=4.9)$markdown (<4,>=3.3)
+universal-rest-client,2.3.5,4,requests$six$uritools$PyContracts
+uzemszunet,0.0.5,4,jinja2$pandas (==1.1.5)$requests$xlrd (==1.2.0)
+uetl,0.0.9,4,pandas (>=0.2)$pyodbc (>=4.0)$SQLAlchemy (>=1.3)$psycopg2 (>=2.8)
+unitair,0.3.0,4,torch (>=1.8.1)$decorator (>=4.4.2)$numpy (>=1.21.0)$setuptools (>=53.0.0)
+urbangrammar-graphics,1.2.3,4,matplotlib$seaborn$numpy$contextily
+ultimate-hosts-blacklist-deployment-launcher,2.0.0b8,4,PyFunceble-dev (>=4.0.0a1)$PyGithub$colorama$ultimate-hosts-blacklist-whitelist-dev
+uniswap-python,0.6.2,4,web3 (>5.23.0,<7.0)$click (>=8.0.3,<9.0.0)$python-dotenv$typing-extensions
+ugd,0.7.1,4,numpy$matplotlib$statsmodels$pandas
+umap-learn-modified,0.3.8,4,numpy (>=1.13)$scikit-learn (>=0.16)$scipy (>=0.19)$numba (>=0.37)
+uniview,0.1.1,4,absl-py (>=0.10.0,<0.11.0)$Pillow (>=7.2.0,<8.0.0)$opencv-python (==4.2.0.34)$numpy (>=1.19.2,<2.0.0)
+utils-nm,0.6.6,4,SQLAlchemy (==1.4.*)$pandas (==1.5.*)$tqdm (==4.64.*)$psutil (==5.9.*)
+uatg,1.5.1,4,click (>=7.0.0)$colorlog (>=5.0.1)$ruamel.yaml (>=0.17.16)$yapsy (>=1.12.2)
+ugent-food,1.1.0,4,aiohttp (>=3.8.1,<4.0.0)$click (>=8.1.3,<9.0.0)$dacite (>=1.6.0,<2.0.0)$tabulate (>=0.8.10,<0.9.0)
+urdf2casadi,1.2.0,4,casadi (==3.5.5)$numpy (>=1.15.0,<2.0.0)$pytest (>=6.2.5,<7.0.0)$urdf_parser_py (>=0.0.3)
+us-pls,0.0.2a7,4,beautifulsoup4 (>=4.9.3,<5.0.0)$pandas (>=1.2.1,<2.0.0)$punq (>=0.4.1,<0.5.0)$requests (>=2.25.1,<3.0.0)
+ultimate-hosts-blacklist-comparison,1.2.0,4,colorama$PyFunceble-dev$ultimate-hosts-blacklist-helpers$ultimate-hosts-blacklist-whitelist
+uw-restclients-sws,2.3.24,4,UW-RestClients-Core$UW-RestClients-PWS$mock$pytz
+ubotadapter,0.3.7,4,backoff$vkale (==0.4.2)$python-telegram-bot$deteefapi (==0.4.2)
+ugoira,0.8.0,4,click (>=7.1.2,<8.0.0)$fake-useragent (>=0.1.11,<0.2.0)$Pillow (>=8.0.1,<9.0.0)$requests (>=2.25.1,<3.0.0)
+uniphi,0.1.64,4,sqlalchemy (>=1.0.0)$future$python-dateutil$pycryptodome
+use-minimon-dj,0.1.0,4,pyserial$tqdm$toml$types-toml
+used-cars-gst,0.0.4,4,pandas (==1.4.1)$scikit-learn (==1.0.2)$scipy (==1.8.0)$joblib (==1.1.0)
+uc-browser,0.2.8,4,undetected-chromedriver (>=3.1.5,<4.0.0)$selenium-wire (>=4.6.4,<5.0.0)$stem (>=1.8.0,<2.0.0)$webdriver-manager (>=3.5.4,<4.0.0)
+upload-manager,1.0.0,4,boto3 (==1.10.38)$chardet (==4.0.0)$django (==2.1.4)$python-environ (==0.4.54)
+ubittool,0.6.0,4,IntelHex (>=2.2.1,<3.0.0)$uflash (>=1.1.0,<1.2.1)$pyocd (==0.19.0)$click (>=7.0,<8.0)
+ucca,1.3.11,4,numpy (>=1.15.0)$spacy (==2.3.5)$requests (>=2.18.4)$tqdm (>=4.23.3)
+unimortal,1.2,4,statsmodels (>=0.12.2)$matplotlib (>=3.1.3)$numpy (>=1.18.1)$pandas (>=1.0.1)
+ultracart-rest-sdk,3.10.62,4,certifi (>=2017.4.17)$python-dateutil (>=2.1)$six (>=1.10)$urllib3 (>=1.23)
+unimacro,4.1.3,4,dtactions >= 1.5.6$debugpy >= 1.2.0$pywin32 >= 304$natlinkcore >= 5.3.5
+usb-plug-notification-linux,0.1.1,4,pyudev (>=0.22.0,<0.23.0)$dbus-python (>=1.2.16,<2.0.0)$PyGObject (>=3.40.1,<4.0.0)$click (>=8.0.1,<9.0.0)
+unilever,1.0.5,4,click$pandas$openpyxl$xlrd
+unilakedocs-theme,1.0.1,4,pbr (!=2.1.0,>=2.0.0)$dulwich (>=0.15.0)$Sphinx (~=4.2.0)$setuptools (~=54.2.0)
+unilakedocstheme,1.1.4,4,pbr (!=2.1.0,>=2.0.0)$dulwich (>=0.15.0)$Sphinx (~=4.2.0)$setuptools (~=54.2.0)
+urdfenvs,0.4.0,4,pybullet (>=3.2.1,<4.0.0)$gym (>=0.21.0,<0.22.0)$numpy (>=1.19.0,<2.0.0)$urdfpy (>=0.0.22,<0.0.23)
+umls-rat,0.6.3,4,requests$requests-cache (>=1.0.0a0)$ratelimit$backoff
+unihan-etl,0.18.1,4,PyYAML$appdirs$unicodecsv$zhon
+usbmon-tools,3.0.0,4,click$construct (>=2.9)$hexdump$python-pcapng (>=1.0)
+unpackai,0.1.9.6,4,fastai (>=2.5)$forgebox (>=0.4.5)$beautifulsoup4$graphviz
+uriregistry,0.3.1,4,pyramid$pyramid-urireferencer$requests$PyYAML
+udiskie,2.4.2,4,PyYAML$docopt$PyGObject$importlib-resources ; python_version < "3.7"
+unifyname,0.1.0,4,fuzzywuzzy$python-Levenshtein$pytest$pandas
+uranium-image-cleanup,1.0.0,4,tqdm$opencv-python$numpy$pillow
+ubirch-protocol,3.1.0,4,msgpack (>=0.6.0)$ed25519 (>=1.4)$pyjks (>=17.1.1)$requests (>=2.19.1)
+unreal-cli,0.0.0,4,setuptools (>=38.6.0)$shellescape$twine (>=1.11.0)$wheel (>=0.31.0)
+unifi-respondd,0.0.8,4,pyunifi (==2.21)$geopy (==2.2.0)$pyyaml (==6.0)$dataclasses-json (==0.5.6)
+unrestricted-advex,0.0.3,4,tqdm (~=4.0)$cleverhans (~=2.1)$foolbox (~=1.3)$randomgen
+uraeus-smbd,0.0.1.dev3,4,sympy (==1.4)$networkx$cloudpickle$matplotlib
+unifile,0.1.1,4,pyaml$pandas$PyPDF2$openpyxl
+uchuutools,0.1.0,4,numpy (>=1.9.0)$h5py (>=2.7.0)$pandas (>=0.20)$tqdm
+utils-eth,2.0.5,4,eth-hash (<0.6.0,>=0.3.1)$eth-typing (<4.0.0,>=3.0.0)$cytoolz (<1.0.0,>=0.10.1) ; implementation_name == "cpython"$toolz (<1,>0.8.2) ; implementation_name == "pypy"
+uwtools,1.6.1,4,tqdm$pandas$beautifulsoup4$requests
+utoolc,0.1.3,4,psutil (>=5.8.0)$requests (>=2.25.1)$twine (>=3.4.1)$wheel (>=0.36.2)
+unsatfit,4.6,4,numpy$scipy$matplotlib$configparser
+uefi-r2,1.2.4,4,click (>=7)$rzpipe (==0.1.2)$pyyaml (~=5.4.1)$shared-memory38 ; python_version >= "3.6" and python_version < "3.8"
+ubiops,3.12.0,4,urllib3 (>=1.15)$six (>=1.10)$certifi$python-dateutil
+uw-restclients-uwnetid,1.0.11,4,UW-RestClients-Core (<2.0,>1.0)$UW-Restclients-PWS (<3.0,>2.0)$python-dateutil$pytimeparse
+urlextract,1.7.1,4,idna$uritools$platformdirs$filelock
+uclales-utils,0.1.4,4,xarray$netCDF4$scipy$luigi
+usaddress-scourgify,0.2.4,4,geocoder (>=1.22.6)$usaddress (>=0.5.9)$frozendict (>=1.2)$yaml-config (>=0.1.2)
+uw-gcs-clients,1.0.3,4,commonconf (~=1.0)$google-cloud-storage (<2.0,>=1.37.1)$google-api-core (<2.0,>=1.26.3)$mock
+udnn,0.0.3,4,numpy$pillow$pytorch (>=0.4)$h5py
+ucla-subgraph-matching,0.2.0,4,numpy (>=1.18.1,<2.0.0)$scipy (>=1.4.1,<2.0.0)$pandas (>=1.0.1,<2.0.0)$networkx (>=2.4,<3.0)
+uectl,0.2.1,4,emoji$markovify$neologdn$pyyaml
+ubii-message-formats,0.3.0,4,proto-plus (>=1.20.6)$protobuf (==3.20.1)$generic-proto-plus-stubs (>=0.3)$more-itertools
+uecp,0.3.0,4,crc (>=1.1.2,<2.0.0)$attrs (>=21.2.0,<22.0.0)$pyserial (>=3.5,<4.0)$pyserial-asyncio (>=0.6,<0.7)
+usualsuspects,0.2.1,4,numpy$scikit-learn$tqdm$matplotlib
+uavnoma,1.0.0,4,numpy$pandas$tabulate$matplotlib
+unsubmail,1.0.0,4,ruamel.yaml$click$requests$beautifulsoup4
+uncanny,0.0.0,4,ravel$appyratus$pytest$ipdb
+uncd,0.16,4,Click$requests$BeautifulSoup4$lxml
+usvisa4uk,0.0.1,4,requests (~=2.27.1)$playsound (~=1.3.0)$beautifulsoup4 (~=4.11.1)$lxml (~=4.9.0)
+uswapper,2.2,4,pandas$requests (==2.22.0)$python-graphql-client$urllib3
+unicorner,0.3.4,4,aarghparse (==0.2.0)$cached-property$beautifulsoup4$requests
+urh,2.9.3,4,numpy$psutil$cython$pyqt5
+untiler,0.2.1,4,click$rasterio$mercantile$mbutil
+ubai-client,1.1.0,4,urllib3 (>=1.25.3)$python-dateutil$opentelemetry-api$opentelemetry-instrumentation-urllib3
+uncertainty,0.1.1,4,nltk (==3.2.2)$numpy (==1.12.1)$scikit-learn (==0.18.1)$scipy (==0.19.0)
+ulanji,0.0.6,4,markdown2 (==2.3.9)$PyQt5 (==5.15.0)$PyQtWebEngine (==5.15.0)$QDarkStyle (==2.8.1)
+utils4dd,1.9.2,4,matplotlib$pandas$plotly$scipy
+unicorn-binance-trailing-stop-loss,0.8.0,4,requests$unicorn-binance-websocket-api$unicorn-binance-rest-api$ubtsl
+ulangel,0.1.1,4,torch (==1.4.0)$torchvision (==0.5.0)$numpy (==1.18.1)$emoji (==0.5.4)
+uvalde,0.3.0,4,appdirs$click$createrepo-c$peewee
+ukw-intelli-store,0.0.1,4,pandas$numpy$openpyxl$xlrd
+unchaind,0.1.3,4,click$lxml$pytoml$tornado
+ukw-fax,0.0.2,4,pytest$tqdm$pytesseract$mail-parser
+untilperfect,0.0.2,4,matplotlib (>=3.0.1)$numpy (>=1.15.4)$PuLP (>=1.6.9)$pylatexenc (>=1.3)
+ubicquia,0.1.3,4,requests (>=2.28)$requests-oauthlib$python-decouple$pydantic (>=1.9)
+uw-django-oidc,0.5,4,Django (<3.3,>=2.2)$UW-RestClients-Core$pyjwt$jwcrypto
+uipath-enhanced-reframework-generator,0.0.5,4,console-functions (>=0.0.8)$uipath-scaffold (>=0.0.1)$uipath-scaffold-generator (>=0.0.1)$uipath (>=0.0.1)
+updator,0.1.6,4,pymongo >=3.10.0$astor >=0.8.1$click >=7.1.1$tabulate >=0.8.7
+ut2chartrender,0.0.6,4,wheel (==0.33.6)$python-highcharts (==0.4.2)$selenium (==3.141.0)$beautifulsoup4 (==4.8.2)
+utagent,0.0.86,4,bottle$click$requests$shutit
+ukrdict,0.1.6,4,beautifulsoup4 (==4.7.1)$click (==7.0)$lxml (==4.3.4)$requests (==2.22.0)
+utsc-core,2022.5.27,4,loguru$requests>=2.20.0$rich$typer>=0.4.0
+udpipe-parser,0.5,4,pymorphy2$conllu$separatrice$nltk
+uniclogs-rads,0.1.1,4,loguru (>=0.5.0)$sqlalchemy (>=1.3.18)$reverse-geocoder (>=1.5.1)$pass-calculator (>=1.0.1)
+udpipe-parser-temp,0.9.4,4,pymorphy2$conllu$separatrice-temp$nltk
+udpipe-parser-test,2.4,4,morpholog$conllu$separatrice$nltk
+unicity,0.5,4,numpy$scipy$matplotlib$fuzzywuzzy
+uis-swagger-client,1.1.0,4,urllib3 (>=1.15)$six (>=1.10)$certifi$python-dateutil
+unicef-snapshot,1.2,4,djangorestframework$django-model-utils$Django$pytz
+unv-deploy,0.5.2,4,unv.app$unv.utils$jinja2$watchgod
+uzautoprom,1.4,4,certifi (==2020.4.5.1)$chardet (==3.0.4)$idna (==2.9)$requests (==2.23.0)
+uoft-core,1.0.1,4,loguru$requests>=2.20.0$rich$typer>=0.4.0
+uiuc-api,0.1.4,4,requests$lxml$pyyaml$lark-parser
+uniblock,1.0.4,4,numpy$tqdm$joblib$sklearn
+update-notipy,0.1.2,4,pkg-info$boxing (>=0.1.4)$semver$colored
+uw-restclients-catalyst,1.1.2,4,UW-RestClients-Core$UW-RestClients-SWS (~=2.3)$UW-RestClients-PWS (~=2.1)$mock
+understory-db,0.0.8,4,pendulum (>=2.1.2,<3.0.0)$redis (>=3.5.3,<4.0.0)$sh (>=1.14.2,<2.0.0)$understory-fx (>=0.0.5,<0.0.6)
+ukosnik,0.1.3,4,PyYAML (<=6,>=5)$requests (<=3,>=2.25)$typing-extensions (==3.10.0.0)$dataclasses (==0.8) ; python_version < "3.7"
+ue4cli,0.0.54,4,setuptools (>=38.6.0)$shellescape$twine (>=1.11.0)$wheel (>=0.31.0)
+urduhack,1.1.1,4,tf2crf$tensorflow-datasets (~=3.1)$Click (~=7.1)$regex
+urltitle,0.3.8,4,beautifulsoup4 (>=4.9.1)$cachetools (>=4.1.1)$humanize (>=2.6.0)$pikepdf (>=1.18.0)
+ubcpdk,1.8.0,4,lygadgets$flayout$gdsfactory[full] (==5.50.3)$modes (==1.0.6)
+uptrace,1.14.0,4,opentelemetry-api (>=1.13.0)$opentelemetry-exporter-otlp (==1.14.0)$opentelemetry-instrumentation (==0.35b0)$opentelemetry-sdk (==1.14.0)
+upafuzzysystems,0.1.0,4,numpy$matplotlib$control$scikit-fuzzy
+ukfastapi,0.0.2,4,certifi$chardet$requests$urllib3
+urls2s3,0.1.0,4,requests (>=2.28.1,<3.0.0)$boto3 (>=1.24.61,<2.0.0)$rich (>=12.5.1,<13.0.0)$pandas (>=1.4.3,<2.0.0)
+upbitbox,0.0.1,4,requests$pandas$PyJWT$PyYAML
+urler,0.1.1,3,docopt (>=0.6.2)$urllib3 (>=1.9.1)$wsgiref (>=0.1.2)
+update-gs-hgnc,0.0.2,3,pip$packaging$requests (>=2.25.1)
+uptodate,0.3.4,3,typer==0.2.1$requests==2.23.0$rich==2.0.0
+uyaml,0.0.7,3,pyyaml (==5.3.1)$dataclasses (==0.6.0)$enforce-pep8 (==0.0.11)
+upbeatbot,0.0.3,3,beautifulsoup4 (==4.4.0)$envparse (==0.2.0)$python-twitter (==3.5)
+urlspy,0.0.1,3,aiohttp (>=3.6,<4.0)$aiodns (>=2.0,<3.0)$ruia (>=0.6.2,<0.7.0)
+ucs633-topsis-sumitjain,2.0.1,3,pandas$numpy$scipy
+ucs633-topsis-sulbhmahajan,1.1.3,3,pandas$numpy$scipy
+undetected-chromedriver,3.1.6,3,selenium (>=4.0.0)$requests$websockets
+undetected-chromedriver-modified,3.0.3,3,selenium$requests$websockets
+upt-pypi,0.6,3,pkginfo$requests$upt (>=0.9)
+undi,1.0,3,numpy$qutip$mendeleev
+ucs,0.3,3,Theano (>=0.9.0)$numpy (>=1.12.1)$scipy (>=0.19.0)
+upass,0.3.0,3,urwid$pyperclip$configparser; python_version == "2.7"
+updatable,0.7.0,3,httpx$semantic-version$packaging
+ubc-chbe-computational-methods,0.1.3,3,matplotlib$numpy$pandas
+uw-restclients-django-utils,2.3.6,3,Django (<3.3,>=2.1)$UW-RestClients-Core$django-userservice
+unearth,0.6.1,3,cached-property>=1.5.2; python_version < "3.8"$packaging>=20$requests>=2.25
+understory-microsub-server,0.0.3,3,understory (>=0,<1)$microsub (>=0,<1)$websub-temporary (>=0,<1)
+ukitai,0.1.2,3,pyserial$protobuf$websocket-client
+utilit,0.0.8,3,pyyaml$pathlib$ez-yaml
+update-gene-symbols-hgnc,0.0.1,3,pip$packaging$requests (>=2.25.1)
+upt-rubygems,0.4.1,3,requests$semver$upt (>=0.11)
+urequest,0.0.6,3,requests (==2.23.0)$dataclasses (==0.6.0)$enforce-pep8 (==0.0.7)
+udsi,0.1.1,3,requests (>=2.20,<3.0)$google-auth (>=1.6,<2.0)$google-api-python-client (>=1.7,<2.0)
+unextexams,0.3.1.4,3,IPython (==7.8.0)$ipywidgets (==7.5.1)$yagmail (==0.11.224)
+unfccc-di-api,3.0.1,3,pandas$treelib$requests
+uottawa-gym-scheduler,0.0.3,3,pandas$beautifulsoup4$requests
+udsync,0.1.3,3,urwid$urwid-timed-progress$appdirs
+uo-test-functions,1.0.3,3,matplotlib$numpy$sympy
+urnote,0.4,3,sqlalchemy$colorama$pypiwin32 ; platform_system == "Windows"
+utf-remote,0.5.1,3,enum34 (==1.1.6)$six (==1.10.0)$ws4py (==0.3.5)
+ud-ted,0.1.0,3,edist$numpy (>=1.20)$pyconll
+uwvikor,0.1.0,3,numpy (>=1.19)$pandas (>=1.2.4)$scipy (>=1.6.3)
+uopencv,1.0.0,3,opencv-python$opencv-contrib-python$matplotlib
+uplink,0.9.7,3,requests (>=2.18.0)$six (>=1.13.0)$uritemplate (>=3.0.0)
+ujoschema,0.3.66,3,lark-parser$docopt$ujotypes
+uconf,0.4.1,3,fslib (>=0.3.4)$tdparser$confutils (>=0.3.6)
+uamutils,0.0.0a3,3,numpy$xarray$matplotlib
+u-robotframework-testrail,1.4,3,requests (>=2.20.0)$robotframework (>=3.0.3)$future (==0.16.0) ; python_version <= "2.7"
+unhidden,0.6.0,3,typer (>=0.6.1,<0.7.0)$pandas (>=1.5.0,<2.0.0)$requests (>=2.28.1,<3.0.0)
+uamc-spectrophore,1.2.0,3,scipy$numpy$progressbar
+unholster-inbox,0.1.1,3,aws (>=0.2.5,<0.3.0)$click (>=7.1.1,<8.0.0)$boto3 (>=1.12.23,<2.0.0)
+understory-fx,0.0.5,3,lxml (>=4.6.3,<5.0.0)$Pygments (>=2.9.0,<3.0.0)$emoji (>=1.2.0,<2.0.0)
+utility-collection,0.1.1,3,requests (>=2.28.1,<3.0.0)$tqdm (>=4.64.1,<5.0.0)$rich (>=12.6.0,<13.0.0)
+uberduckapi,0.1.18,3,polling (>=0.3.2,<0.4.0)$requests (>=2.26.0,<3.0.0)$pydub (>=0.25.0,<0.26.0)
+utilityhelper,0.1.10,3,pip (>=9.0.1)$setuptools (>=36.2.1)$pyserial (>2.7)
+uterm,0.8,3,docopt$pyserial$pyte
+uw-restclients-iasystem,1.1.2,3,UW-RestClients-Core$python-dateutil$pytz
+uvutils,0.0.1,3,numpy$opencv-python$pillow
+unicef-djangolib,0.7,3,Django$django-fsm$django-model-utils
+uc-scraper,0.2,3,statscraper$requests$beautifulsoup4
+unicef-notification,1.1,3,django$django-model-utils$django-post-office
+uoft-aruba,1.0.1,3,pydantic[dotenv]$typer$uoft-core
+uw-restclients-kws,1.1.1,3,UW-RestClients-Core (<2.0,>1.3)$python-dateutil$mock
+update-plex-music-album-covers,0.1.2,3,Click$mutagen$plexapi
+uapi,0.1,3,cattrs$incant >= 0.3$itsdangerous
+uw-restclients-canvas,1.2.7,3,UW-RestClients-Core (<2.0)$python-dateutil$mock
+ucsmsdk,0.9.13,3,setuptools$pyparsing$six
+underdata,0.1.2,3,requests (>=2.26.0)$selenium (>=4.0.0)$pandas (>=1.3.4)
+uptime-reporting,0.2.0,3,Jinja2 (>=2.11.1)$requests (>=2.23.0)$tabulate (>=0.8.7)
+uisdata,0.1,3,pandas$requests$numpy
+uqbar,0.6.4,3,Sphinx (>=5.3.0)$Unidecode (>=1.3.0)$black
+utc-insights,0.0.1,3,pandas$numpy$fpdf
+ubermagutil,0.63.1,3,numpy (>=1.19)$pytest (>=6.2)$tqdm
+uwtopsis,0.1.0,3,numpy (>=1.19)$pandas (>=1.2.4)$scipy (>=1.6.3)
+unicms-unical-storage-handler,0.8.3,3,django (<4.0,>=2.0)$unicms$unicms-template-unical
+uw-restclients-libraries,1.3,3,UW-RestClients-Core (~=1.3)$UW-RestClients-SWS (~=2.3)$mock
+untrack,0.0.1,3,color-print (==0.0.2)$docopt$sh
+uptimer,0.1.0,3,Click (>=7.0)$requests (>=2.25)$colorama (>=0.4)
+uipath-scaffold-generator,0.0.3,3,beautifulsoup4 (>=4.7.1)$uipath (>=0.0.1)$openpyxl (>=2.6.1)
+unicon,22.10,3,pyyaml$dill$unicon.plugins (<22.11.0,>=22.10.0)
+update-tracker,0.0.3,3,Click$requests$python-dateutil
+uvtools,0.1.0,3,numpy$six$scipy
+unicon-plugins,22.10,3,unicon (<22.11.0,>=22.10.0)$pyyaml$PrettyTable
+udacity-chiron,0.1.1,3,future$requests (>=2.2.1)$requests-toolbelt (>=0.7.0)
+uw-django-saml2,1.5.8,3,Django (<3.3,>=2.2)$python3-saml (~=1.14)$mock
+unicorn-binance-local-depth-cache,0.7.3,3,requests$unicorn-binance-websocket-api (>=1.40.5)$unicorn-binance-rest-api
+udp-chat,0.1.2,3,PyQt5 (>=5.14.1)$pygments$qasync (>=0.23.0)
+upt-cran,0.1,3,lxml$requests$upt
+upgcc,1.0.0,3,requests$termcolor$beautifulsoup4
+upgradechat,0.1.2,3,objectrest (>=0.2.0)$pydantic (>=1.8.1)$requests (>=2.25.1)
+uswid,0.3.3,3,cbor$lxml$pefile
+uio,0.2.4,3,fire (>=0.4.0,<0.5.0)$logless (>=0.2.2,<0.3.0)$runnow (>=0.1.0,<0.2.0)
+upgradepippkgs,0.4.1,3,alive-progress (>=2.4.1)$PyLoadBar (==0.2.0)$setuptools (>=62.1.0)
+urtools,0.0.3,3,numpy$pandas$typing-extensions
+uncertain-panda,0.3.0,3,pandas>=0.23.4$uncertainties$matplotlib
+uncertain,0.0.12,3,numpy$scipy$matplotlib
+uinames,1.0.0,3,requests (==2.13.0)$responses (==0.5.1)$nose (==1.3.7)
+urlgen,0.0.0,3,bs4$requests$lxml
+urlfile,1.0.1,3,cachetools$requests$rich
+unb-emg-toolbox,0.0.2,3,numpy$scipy$sampen
+uqpylab,0.2,3,scipy$numpy$matplotlib
+upi,0.1.0,3,requests$bs4$lxml
+ulcarchetype,0.2,3,pandas$brightway2$numpy
+uvicorn,0.19.0,3,click>=7.0$h11>=0.8$typing-extensions; python_version < '3.8'
+unsplash-get,0.1.0,3,requests$lxml$beautifulsoup4
+uat-python-cicd,3.0.1,3,requests (>=2.11.1)$mom (>=0.1.3) ; python_version < "3.0"$py2-ipaddress (>=3.4.1) ; python_version < "3.0"
+upldr,2.1.9,3,clilib (>=1.9.10)$pyyaml (>=5.3.1)$requests (>=2.22.0)
+ua-generic-rest-api,2.0.5,3,requests$bs4$lxml
+unidown,2.0.3,3,urllib3[secure] (>=1.26.7)$tqdm (>=4.62.3)$packaging (>=21.0)
+uvtextureconverter,1.2.0,3,numpy$scipy$tqdm
+unifetch,0.1.5,3,numpy$opencv-python$Pillow
+unasync-cli,0.0.9,3,setuptools (>=58.2.0,<59.0.0)$typer (>=0.4.0,<0.5.0)$unasync (>=0.5.0,<0.6.0)
+uclacatalog,1.1.0,3,beautifulsoup4$lxml$requests
+uvicorn-actor,0.1.2,3,uvicorn (>=0.17.6,<0.18.0)$aiofiles (>=0.8.0,<0.9.0)$Jinja2 (>=3.1.2,<4.0.0)
+ustackdocstheme2,0.0.5.dev1,3,pbr (>=2.0)$openstackdocstheme (>=1.18.1)$os-api-ref (>=1.4.0)
+ustackdocstheme,0.2.0,3,pbr (!=2.1.0,>=2.0.0)$openstackdocstheme (>=1.18.1)$os-api-ref (>=1.4.0)
+uw-restclients-adsel,1.9,3,UW-RestClients-Core (<2.0,>1.0)$mock$python-dateutil
+uvicorn-browser,0.2.0,3,uvicorn (==0.16.0)$selenium$typing-extensions ; python_version < "3.8"
+unach-photo-server,0.4.3,3,MySQL-python (>=1.2.5)$django-model-utils (>=2.0)$pysmb (>=1.1.19)
+us-service-config,0.0.5,3,getconf$srvlookup$dnspython
+ubiq-security,1.0.8,3,cryptography$requests$six
+ulia,2022.3.1,3,numpy (>=1.14)$scipy (>=1.4)$numba (>=0.52)
+unified-fastapi-gunicorn-log,0.4.2,3,loguru$gunicorn$uvicorn
+ulises,1.0.0,3,docker (==5.0.3)$rich (==12.3.)$tomli ; python_version < "3.11"
+uliweb-apps,0.1.0,3,uliweb3$uliweb-ui$uliweb-layout
+uw-panopto-client,0.2.4,3,commonconf (>=1.0)$suds-jurko (==0.6)$mock
+unifi-protect-backup,0.7.4,3,aiocron (>=1.8,<2.0)$click (==8.0.1)$pyunifiprotect (>=4.0.11,<5.0.0)
+upt,0.12,3,packaging$setuptools$spdx-lookup
+ua-email-client,0.1.7,3,boto3$jinja2$datetime
+ukis-csmask,0.1.5,3,numpy$onnxruntime$scipy
+urldb,0.5b1,3,ujson$pyperclip$setuptools
+uh-pyopcn3,0.0.1,3,spidev$gpiozero$struct
+unpy2exe,0.4,3,argparse$pefile$six
+ums,0.3.0,3,bs4$requests$lxml
+udata-piwik,3.1.0,3,udata (>=3.2.0)$udata-front (>=1.0.0)$udata-metrics (>=1.0.2)
+uxr,0.1.0,3,pandas (>=1.0)$scipy (==1.1)$matplotlib (<3,>=2.2.1)
+unifunc,1.3,3,nltk$numpy$requests
+unify-cli,3.0.1,3,click$setuptools$unify-sdk
+unify-connector-framework,0.2.3,3,unify-sdk (>=3.0.11)$croniter$keyring
+usb-joc,0.2.0,3,pyserial$adafruit-board-toolkit$setuptools
+utlvce,0.1.1,3,numpy (>=1.17.0)$cvxpy (>=1.1.15)$ges (>=1.0.6)
+umnet-pyncs,0.1.12,3,multiprocessing-logging (>=0.3.3,<0.4.0)$ntc-templates (>=3.0.0,<4.0.0)$netaddr (>=0.8.0,<0.9.0)
+uw-restclients-nws,1.3.5,3,UW-RestClients-Core$python-dateutil$mock
+udata-recommendations,3.1.1,3,udata (>=3.2.0)$udata-front (>=1.0.0)$jsonschema (==3.2.0)
+unihan-db,0.7.1,3,SQLAlchemy$appdirs$unihan-etl (>=0.18.1,<0.19.0)
+ulogcorn,0.4.3,3,loguru (>=0.6.0,<0.7.0)$uvicorn[standard] (>=0.18.1,<0.19.0)$gunicorn (>=20.1.0,<21.0.0)
+umlsequence2,2.0.5,3,svgwrite$svglib$reportlab
+unotes,1.0.0,3,wikipedia$beautifulsoup4$requests
+ucentral,0.0.4,3,click-shell (==2.0)$dotty-dict (==1.3.0)$jsonschema (==3.2.0)
+uno-template,0.2.0,3,yaml-serde$uno-log$jinja2
+unomi-query-language,0.1.20,3,requests$lark$dateparser
+utlts,0.1.3,3,numpy (>=1.10.2)$pandas (>=0.17.1)$pysam (>=0.8.3)
+uploadio-sdk,0.0.3,3,requests$pydantic$redis
+uml2django,0.0.8,3,cheetah3$inflect$redbaron
+ucefcuploader,1.5.0,3,omnitools (>=0.0.1)$requests-toolbelt (>=0.0.1)$requests (>=0.0.1)
+upstox,2.0.1,3,future$requests$websocket-client
+umitools,0.3.4,3,pysam$editdistance$networkx
+ucefc,0.1.0,3,userscloud (>=0.0.1)$dwa (>=0.0.1)$ftpfcs (>=0.0.1)
+udatastore,0.1.7,3,umongo (<1.3,>=1.2.0)$pymongo (<3.8,>=3.7.2)$google-cloud-datastore (<1.8,>=1.7.0)
+uvicorn-tschaume,0.19.1,3,click>=7.0$h11>=0.8$typing-extensions; python_version < '3.8'
+usscameratools,0.1.0,3,wheel$opencv-python$harvesters
+uhabits-converter,0.3.0,3,fire (>=0.4.0,<0.5.0)$rich (>=11.2.0,<12.0.0); python_version >= "3.8" and python_version < "4.0"$inquirer (>=2.9.1,<3.0.0)
+unofficial-udify,0.3.0,3,allennlp (>=1.0.0,<2.0.0)$transformers (>=2.3.0,<3.0.0)$conllu (>=3.0,<4.0)
+urizen,0.2.5,3,Pillow$pygame (>=2.0.0)$pygame-gui
+usbrip,2.2.2.post1,3,termcolor$terminaltables$tqdm
+unofficialkeepsolidvpn,0.0.7,3,selenium (>=3.141.0)$urllib3 (>=1.25.9)$requests (==2.26.0)
+unio-cli,0.2.1,3,click (==7.1.2)$paramiko (==2.7.2)$scp (==0.13.3)
+ucdev,0.0.3,3,bitstring$cffi$IPython
+union,0.1.10,3,setuptools$requests (>=2.19.1)$six
+umirobot,22.4.26,3,pyserial$PyQt6$dqrobotics
+umiread,1.9.1,3,numpy$pandas$matplotlib
+ultima-schemata,0.1.10,3,pydantic (>=1.10.2,<2.0.0)$httpx (>=0.23.0,<0.24.0)$cvss (>=2.5,<3.0)
+urb,1.2.2,3,pyfiglet$requests$typer
+us-census-api-extract,0.2.8,3,progress-keeper$pandas$numpy
+unmock,0.1.2,3,requests$PyYAML$six
+urdf2webots,2.0.2,3,Pillow$numpy$rospkg
+uzcloud-billing,0.2.8,3,requests$PyJWT$djangorestframework
+ublame,0.1.0,3,pydriller$click$blessed
+ultimate-anatome,0.1.1,3,torch (>=1.9.0)$torchvision (>=0.10.0)$tqdm
+ublcii,1.0.3,3,bots-ediint (>=3.3.1rc1)$django (>=1.10)$setuptools
+ugrc-palletjack,2.6.2,3,pysftp (==0.2.9)$arcgis (==2.0.*)$pygsheets (==2.0.*)
+useful-prints,0.0.0,3,varname$colorful-terminal$exception-details
+unleash-django-util,0.4.4,3,python-dateutil (>=2.8.2)$UnleashClient (>=5.2.0)$Django (>=2.2)
+uboot,0.1.1,3,click (==7.0)$easy-enum (==0.2.0)$fdt (==0.1.2)
+umfpayservice,1.3.2,3,requests (>=0.8.8)$pycrypto (>=2.6.1)$beautifulsoup4
+umbridge,1.2.1,3,aiohttp$requests$asyncio
+ueosio,0.2.6,3,cryptos (>=1.36,<2.0)$base58 (>=2.0.0,<3.0.0)$requests (>=2.23.0,<3.0.0)
+ugpy,0.0.1,3,tifffile$numpy$tqdm
+unipipe,0.5.4,3,click$pydantic$typing-extensions
+uw-memcached-clients,1.0.10,3,pymemcache (~=3.5)$commonconf$mock
+unixreg,0.1.2,3,pytest$pylint$tox
+umbrellareminder,0.0.2,3,requests$schedule$beautifulsoup4
+ue-schedule,2.2.0.post1,3,requests (>=2.24.0,<3.0.0)$icalendar (>=4.0.7,<5.0.0)$click (>=7.1.2,<8.0.0)
+unixdump,1.2.0,3,pybst (<2,>=1.0)$hexdump (<4,>=3.3)$uninstallable (>0) ; platform_system != "Linux"
+usps-client,0.2,3,attrs (>=17)$inflection$urllib3[secure] (<2,>=1.9)
+user-authentication-jr,0.0.10,3,django-cors-headers (==3.3.0)$django-rest-framework (==0.1.0)$djangorestframework (==3.11.0)
+umbrellaintegrate,0.41,3,numpy$scipy$pandas
+umbral,0.3.0,3,setuptools$cryptography (~=3.0)$pynacl (~=1.0)
+urbanairship,6.1.0,3,requests (>=1.2)$six$backoff (>=1.11)
+uniqmin,1.2.2,3,biopython (==1.79)$pandas (>=1.3.5)$pyahocorasick (==1.4.1)
+unix-accounts,1.0.0,3,SQLAlchemy (>=1.4)$terminaltables (>=3.1)$tornado (>=6.1)
+uat-hkex-tools,0.0.1,3,re$os$datatime
+unique-randomizer,0.0.1,3,absl-py (>=0.6.1)$numpy (>=1.15.4)$scipy (>=1.1.0)
+utils-mkmenta,0.0.1,3,tqdm$Pillow$plotly
+uvitility,0.1.2,3,numpy (>=1.13)$matplotlib (>=2)$astropy (>=2)
+usoptimize,0.2,3,tqdm (==4.64.0)$chardet (==3.0.4)$ffmpeg-python (==0.2.0)
+upn2sepa,1.0.1,3,Pillow$pyzbar$segno
+umapi-client,2.20,3,requests (>=2.25.1,<3.0.0)$cryptography (==3.3.2)$PyJWT (==2.4.0)
+umami,2.0.0,3,scipy$numpy$landlab (>=2.0.0b4)
+uniswap-python-forked,0.5.5.3,3,web3 (>=5.23.0,<6.0.0)$click (>=8.0.3,<9.0.0)$python-dotenv
+uniswap-python-route,0.5.5.2,3,web3 (>=5.23.0,<6.0.0)$click (>=8.0.3,<9.0.0)$python-dotenv
+uwsgi-readiness-check,0.2.0,3,requests$argparse$importlib ; python_version == "2.6"
+universion,0.1.2,3,Click$GitPython$setuptools
+ultimate-hosts-blacklist-test-launcher,3.0.0b38,3,PyGitHub$ultimate-hosts-blacklist-whitelist-dev$PyFunceble-dev (>=4.0.0a1)
+uma,1.0,3,numpy$pandas$pyomo
+ufy-ivystar,0.1.1,3,ufy$numpy$matplotlib
+ultimate-hosts-blacklist-the-whitelist,1.0.2,3,requests (>=2.21.0)$domain2idna (>=1.6.1)$colorama (>=0.4.1)
+uppaal-py,0.0.4,3,ortools (>=8.1.8487)$networkx (>=2.5)$lxml (>=4.6.2)
+uwgeodynamics,2.12.5,3,numpy$pint$scipy
+ucal-client,0.6.0,3,grpcio (>=1.23.0)$pandas (>=0.24.0)$grpcio-tools (>=1.23.0)
+urbanopti,0.0.2,3,mip$numpy$scipy
+user-list,0.1.0,3,requests (>=2.28.1,<3.0.0)$pandas (>=1.5.0,<2.0.0)$argparse (>=1.4.0,<2.0.0)
+uw-hx-toolkit,2.7.4,3,Django (<4.0)$django-compressor$Pillow
+uforge-python-sdk,3.8.13,3,lxml (==3.3.5)$pyxb (==1.2.4)$requests (==2.13.0)
+udemydl,0.6.1,3,requests$distro$cloudscraper
+upparat,1.12,3,paho-mqtt (>=1.4.0)$backoff (>=1.8.1)$pysm (>=0.3.7)
+usine,0.2.3,3,paramiko (==2.7.1)$progressist (==0.1.0)$PyYAML (==5.2)
+unitlib,0.3,3,numpy (>=1.17)$dataclasses ; python_version < "3.7"$typing-extensions ; python_version < "3.8"
+usim,0.4.4,3,sortedcontainers$asyncstdlib>=1.1.1$typing_extensions>=3.10.0
+unitreport,0.0.8,3,jinja2$markdown$matplotlib
+upbit-client,1.3.2.0,3,bravado (>=11.0.2)$PyJWT (>=2.4.0)$websockets (>=10.3)
+urcollectionmanager,1.1.3,3,requests (>=2.23.0,<3.0.0)$bs4 (>=0.0.1,<0.0.2)$sqlalchemy (>=1.3.15,<2.0.0)
+unit-system,1.1.7,3,numpy (>=1.17.0)$sympy (>=1.4)$unyt (>=2.6.0)
+ufolib2,0.14.0,3,attrs (>=22.1.0)$fonttools[ufo] (>=4.0.0)$typing-extensions ; python_version < "3.8"
+uzi,0.3.2,3,typing-extensions (>=4.1.1,<5.0.0)$attrs (>=21.4.0,<22.0.0)$blinker (>=1.4,<2.0)
+ufc-data-scraper,1.0.0,3,tqdm$requests$beautifulsoup4
+unittestreport,1.5.1,3,Jinja2 (==3.0.3)$PyYAML (==5.3.1)$requests (==2.24.0)
+ufodiff,1.0.3,3,commandlines$standardstreams$gitpython
+uw-saml,1.2.0,3,Werkzeug (>=2.0.2,<3.0.0)$cachelib (>=0.4.1,<0.5.0)$onelogin (>=2.0.3,<3.0.0)
+ultrastar-pitch,1.0.1,3,onnxruntime$scipy$numpy
+u3d-studio,1.0.16,3,lz4$Pillow$tex2img
+ubuntu-cloud-image-changelog,0.10.0,3,Click (>=7.0)$launchpadlib$python-debian
+ups-api,0.1.0,3,click$pandas$requests
+ufjc,1.3.5,3,numpy$pycodestyle$scipy
+udf,0.0.0,3,pandas (>=1.0.0)$pytz$calendar
+ubuntu-namer,0.1.1,3,importlib_metadata (>=4.5.0,<5.0.0); python_version < "3.8"$typer[all] (>=0.6.1,<0.7.0)$rich (>=12.5.1,<13.0.0)
+ultralytics-yolo,0.0.1,3,numpy (>=1.18.5)$build$twine
+ultralytics-dev,0.0.54,3,PyYAML (>=5.3.1)$requests$GitPython (>=3.1.24)
+uw-highp-geophysics-tools,0.8.1.post1,3,scipy$hdf5storage$psutil
+urbdict,0.1.0,3,requests$bs4$lxml
+users-microservice,0.2.4,3,django$djangorestframework$requests
+ultrafastfitfunctions,0.3.0,3,numpy$scipy$uncertainties
+udata-schema-gouvfr,1.3.2,2,udata (>=2.1.4.dev)$requests
+userwatch-python,0.0.6,2,grpcio (>=1.30)$protobuf (>=4.0)
+unity-raw-to-exr,0.0.2,2,numpy$imageio
+unityneuro,0.4.4,2,python-socketio[client]$numpy
+usersconfig,0.1.9,2,pyxdg$pyyaml
+unityapiclient,0.0.3,2,requests$pytz
+univarfem,0.0.2,2,numpy$scipy
+ubuntu-ppa-package-version-report,0.0.5,2,Click (>=7.0)$launchpadlib
+universa,0.2.0,2,pexpect (>=4.7.0)$streamexpect (>=0.2.1)
+unitth,0.0.14,2,cement (>=3.0.0)$setuptools
+usf-account-service-client,0.0.7,2,requests$us-libraries (>=0.0.14)
+usernado,0.3.2,2,pendulum (>=2.1.2,<3.0.0)$tornado-debugger (>=0.9.0,<0.10.0)
+usermail-converter,1.1,2,pyqt5 (==5.14.2)$PyAutoGUI (==0.9.50)
+usf-auth-service-client,0.0.17,2,requests$us-libraries (>=0.0.14)
+usfm-grammar,3.0.0a5,2,tree-sitter ; python_version >= "3.3"$lxml ; python_version >= "3.5"
+universalgpio,1.0.4,2,flask$flask-cors
+userlist-python,0.2.0,2,pendulum (>=1.4,<2.0)$requests (>=2.24.0,<3.0.0)
+unittest-resources,0.2.0,2,six$importlib-resources ; python_version < "3.7"
+ubscrape,0.1.4,2,bs4$requests
+usfm-tools,0.0.31,2,future (==0.18.2)$pyparsing (==2.4.5)
+universalmutator,1.0.25,2,comby$python-levenshtein
+universal-parser,1.0.9,2,PyYAML (>=5.4.1)$pytomlpp (>=0.3.5)
+ucal,1.3.5,2,pyperclip$wxPython
+unit-gears,1.0.4,2,stats-arrays (>=0.6.4)$synonym-dict (>=0.1.1)
+usergen,0.1.3,2,requests (>=2.27.1,<3.0.0)$pandas (>=1.4.2,<2.0.0)
+uwsgi-prometheus,0.0.1,2,prometheus-client$requests
+universal-response-mobile-api,0.1.9,2,Django (>=2.0)$djangorestframework (>=3.8)
+unitem,1.2.4,2,numpy (>=1.0)$svgwrite (>=1.1.9)
+us-kafka,0.0.1,2,confluent-kafka$us-libraries (>=0.0.9)
+unit4,0.0.2,2,pandas (==1.3.4)$requests (==2.26.0)
+ucamcl,1.0.11,2,cryptography (>=2.0)$requests
+user-config,1.0a10,2,appdirs (>=1.4)$pathlib; python_version <= "3.3"
+uniswap-sdk,0.1.0a1,2,eth-ape (<0.3.0,>=0.2.3)$importlib-metadata ; python_version < "3.8"
+ubotw-converter,1.4.0a2,2,bcml (>=3.7.2)$pythonnet (>=2.5.2)
+us-news,0.0.3,2,pandas$httpx
+uniserde,0.2.2,2,motor (>=3.0.0,<4.0.0)$python-dateutil (>=2.8.2,<3.0.0)
+unisafe,0.1.0,2,beautifulsoup4 (~=4.11.1)$cchardet (~=2.1.7)
+unique-distribution-name-874b102b-1a57-4164-85a0-5086844152b9,0.1.1,2,requests (>=2.28.1,<3.0.0)$ujson (>=5.4.0,<6.0.0)
+uniquebotskr,1.3,2,aiohttp$asyncio
+uniprotparser,1.0.8,2,requests (>=2.28.0,<3.0.0)$aiohttp (>=3.8.1,<4.0.0)
+unipressed,1.1.0,2,requests (>=2.28.1,<3.0.0)$typing-extensions (>=4.3.0,<5.0.0)
+uw-restclients-space,1.0.1,2,UW-RestClients-Core$mock
+usps-track,0.0.1,2,aiohttp (>=3.7.2)$argcomplete (>=1.10.3)
+user-agent-collect,1.5,2,py-L (>=0.12.0)$ter (==3.1.0)
+unipi-control,1.4.0,2,pymodbus (~=2.5.3)$superbox-utils (~=0.3.0)
+useq-schema,0.1.3,2,pydantic$numpy
+uspto-patent-citation-graph,0.2109.0,2,graphscraper (>=0.5)$requests (>=2.22)
+ucat,0.1.1,2,numpy$scipy
+useless-lavalink,1.4.6,2,aiohttp$discord.py (>=1.7,<3)
+useismic,0.1.6,2,uquake (>=0.4.31,<0.5.0)$dynaconf (>=3.1.4,<4.0.0)
+uniparser-yawarana,0.0.4,2,uniparser-morph (>=2.5.0)$importlib-resources (>=5.4.0)
+uniparser-urmi,1.1.0,2,uniparser-morph (>=2.4.1)$importlib-resources
+uwstyle,0.0.6,2,selenium (>=3.141.0)$pywin32 (>=224)
+uniparser-udmurt,2.1.21,2,uniparser-morph (>=2.6.4)$importlib-resources
+uniparser-turoyo,1.1.0,2,uniparser-morph (>=2.4.1)$importlib-resources
+uniparser-moksha,1.1.0,2,uniparser-morph (>=2.2.0)$importlib-resources
+uniparser-meadow-mari,1.1.15,2,uniparser-morph (>=2.2.0)$importlib-resources
+uniparser-komi-zyrian,1.1.20,2,uniparser-morph (>=2.2.0)$importlib-resources
+ublackdev,1.1,2,aiofiles$aiohttp
+useb,0.0.1,2,sentence-transformers (>=1.2.0)$pytrec-eval
+ubkisaas,1.1,2,requests$python-dotenv
+uniparser-erzya,1.1.2,2,uniparser-morph (>=2.2.0)$importlib-resources
+uniparser-eastern-armenian,2.1.2,2,uniparser-morph (>=2.2.0)$importlib-resources
+ubiwear,0.0.2,2,pandas$scikit-learn
+uscisstatus,0.1.1,2,lxml$requests
+uniparser-albanian,2.1.1,2,uniparser-morph (>=2.4.1)$importlib-resources
+uniparser,3.0.2,2,frequency-controller (>=0.0.3)$requests
+unoffical-athena-federation-sdk,0.0.3,2,pyarrow (==0.16.0)$smart-open (==5.2.1)
+uc-browser-scrapy,0.1.6,2,uc-browser (>=0.2.4,<0.3.0)$Scrapy (>=2.6.1,<3.0.0)
+usra-pomona-flightpath,0.0.1,2,matplotlib$argparse
+unofficialmailpoof,0.0.9,2,selenium (>=3.141.0)$urllib3 (>=1.25.9)
+ubit-kernel,0.3,2,pyserial$ipykernel
+uscalt-drf,0.1.1.3,2,Django (>=4.0)$djangorestframework (>=3.13)
+uw-restclients-r25,0.4,2,UW-RestClients-Core$lxml
+usrse,0.0.11,2,requests$rich
+unimi-dl,0.3.1,2,requests$youtube-dl
+usbreq,0.2.1,2,pyusb$inflection
+unilogin,0.0.3,2,bs4$httpx (==0.22.0)
+unikud,0.1.0,2,torch (==1.11.0)$transformers (==4.15.0)
+ubirch-python-utils,1.3.10,2,kafka-python (>=1.4.3)$boto3 (>=1.7.80)
+usb-plug-notification-darwin,0.1.1,2,pyobjc-framework-Cocoa (>=7.3,<8.0)$click (>=8.0.1,<9.0.0)
+uw-restclients-pws,2.1.8,2,UW-RestClients-Core (<2.0)$nameparser (<2.0,>=1.0.4)
+unijson,1.0.0,2,pytz$parse
+ucheck,0.0.6,2,selenium>=4.0.0$PyYAML>=6.0
+uchkin-diploma,1.0.3,2,scipy$numpy
+unpackqa,0.2.1,2,numpy (>=1.17.0)$pyyaml
+uchu,0.0.12,2,boto3$botocore
+usb-iss,2.0.1,2,pyserial$enum34 ; python_version == "2.7"
+uniformsumdistribution,1.0.3,2,numpy$scipy
+unpoly,0.2.1,2,attrs>=21.4.0$backports.cached-property>=1.0.1; python_version < '3.8'
+uniformer-pytorch,0.0.4,2,einops (>=0.3)$torch (>=1.6)
+uniform,0.2.2,2,typesystem$starlette
+usb-imager,1.1,2,PyGObject$PySide2
+unifmu,0.0.3,2,lxml$toml
+unravel,1.0.0,2,numpy$numba (<=0.46)
+unifi-tools,1.1.1,2,requests (~=2.28.1)$superbox-utils (~=0.3.0)
+usbguard-simple-gui-py-qt,0.0.1,2,dbus-python (<2,>=1.2.12)$PySide2 (<6,>=5.13.2)
+unred,0.1.2,2,numpy$scipy
+unrest,1.1.0,2,sqlalchemy$python-dateutil
+unifi-python-api,0.2.2.3,2,requests (<3,>=2.21.0)$trafaret (>=1.2.0<1.3)
+unified-planning,0.4.2,2,pyparsing$networkx
+unifi-discovery,1.1.7,2,aiohttp (>=3.8.0)$pyroute2 (>=0.6.5)
+usainboltz,0.2.1,2,paganini (>=1.3.3)$cvxpy (>=1.2.0)
+unscrambler,0.3.2,2,argparse$PyPDF2 (>=2.2.0)
+uw-restclients-myplan,1.1,2,UW-RestClients-Core$mock
+unification,0.2.2,2,multipledispatch$toolz
+unifi-api,1.0.3,2,requests$requests-toolbelt
+unsee-dl,1.3.2,2,aiohttp (>=3.6.2,<4.0.0)$cchardet (>=2.1.6,<3.0.0)
+unseries,0.1.0,2,sympy$uncertainties (>=3.0.1)
+unidist,0.2.0,2,packaging$cloudpickle
+unidip,0.1.1,2,numpy$matplotlib
+unsplashbot,0.0.1,2,selenium$webdriver-manager
+unide-python,0.2.0,2,python-dateutil$six
+unsplash-search,0.2.0,2,requests (>=2.19.1)$log3 (>=0.1.6)
+unicover,0.1,2,Python-fontconfig$freetype-py
+unicorn-tracer,1.1.1,2,termcolor$unicorn
+unstar-pipfile,0.2.0,2,click (>=8.0.3,<9.0.0)$tomlkit (>=0.8.0,<0.9.0)
+usuarios-cpf-django,0.0.2,2,Django (>=3.0)$pycpfcnpj (==1.5.1)
+ubidump,1.0.0,2,crcmod (>=1.7)$python-lzo (>=1.11)
+usum,0.1.6,2,biopython$umap-learn[plot]
+unicorn-fy,0.12.2,2,ujson$requests
+untanglepyut,0.5.5,2,ogl (==0.60.8)$untangle (==1.2.1)
+untappd,0.4,2,requests$future
+untidy,0.0.1a4,2,numpy (>=1.10.4)$pandas (>=0.17.1)
+uclcoin,0.3.2,2,coincurve$pymongo
+ucloud-common,0.5.4,2,etcd3-wrapper$python-decouple
+uw-restclients-mailman,1.0.1,2,UW-RestClients-Core$UW-RestClients-SWS (~=2.3)
+untp,1.1.8,2,Pillow$parse
+unicode-slugify,0.1.5,2,six$unidecode
+unicms-template-unical,1.1.5,2,django (<5.0,>=2.0)$unicms-template-italia
+uberpato,0.0.2,2,requests$boto3
+ursadb,1.0,2,pyzmq$tabulate
+unicms-template-italia,1.0,2,django (<4.0,>=2.0)$design-django-theme
+unused-deps-py,0.0.5,2,java-manifest>=1.1.0$six>=1.16.0
+unicef-vision,0.6,2,Django$requests
+unv-app,0.4.3,2,cerberus$unv.utils
+unvcode,1.0.0,2,numpy (>=1.16.6)$Pillow (>=8.0.1)
+uc-model-creator,0.0.1,2,tensorflow (==2.3.1)$opencv-python (==4.5.1.48)
+uberlimb,0.9.1,2,pydantic (>=1.8.2,<1.9.0)$tqdm (>=4.61.2,<5.0.0)
+urqmd-tools,0.9.0,2,attrs$cached-property
+unyt,2.9.2,2,numpy (>=1.17.5)$sympy (>=1.5)
+unyts,0.4.4,2,numpy$pandas
+unzip-aes,0.1.2,2,click$pyzipper (>=0.3.5)
+urpautils,0.7.0,2,urpatimeout$holidays
+uofsc-calculus-labs,0.3,2,sage-package$sphinx
+ucmt,0.1.4,2,docopt (>=0.6.2,<0.7.0)$tinydb (>=3.15.2,<4.0.0)
+ucnn,0.1.7,2,pillow (>=4.2.1)$tensorflow (>=1.4.0)
+uberjob,1.0.0,2,networkx (>=2.5,<3.0)$nxv (>=0.1.3,<0.2.0)
+unicaps,1.2.0,2,httpx (>=0.22.0)$enforce-typing (>=1.0.0)
+unibuf,0.1.1,2,hypothesis (>=5.5.4,<6.0.0)$pytest (>=5.3.5,<6.0.0)
+uol-auto-vpn,1.0.3,2,selenium (==3.141.0)$keyring (==23.2.1)
+utf8config,0.0.2,2,six$attrs
+uroko,0.2.2,2,click (>=8.0.0,<9.0.0)$numpy (>=1.20.3,<2.0.0)
+unhealpix,2.0.0,2,astropy$reproject
+unhashlib,0.1.0,2,hashlib$requests
+un-fstring,0.1.3,2,astroid$tokenize-rt
+unfor19-tbs,0.0.3,2,requests (>=2.24.0)$pillow (>=8.0.1)
+unfor19-appy,1.0.0rc21,2,requests (>=2.24.0)$pillow (>=8.0.1)
+unfollowery,2.2,2,selenium$pandas
+unfoldnd,0.2.0,2,torch$numpy
+uw-restclients-gws,2.3.6,2,UW-RestClients-Core (<2.0)$pytz
+unfinnigan,0.0.1,2,hachoir-core$hachoir-parser
+up2b,0.4.2,2,requests$colorful-logger (>=0.1.5)
+urmarketscraper,1.1.0,2,bs4 (>=0.0.1,<0.0.2)$requests (>=2.23.0,<3.0.0)
+urlwait2,0.3,2,click$requests
+url-util,0.1.2,2,click (>=7.1.2,<8.0.0)$furl (>=2.1.0,<3.0.0)
+unetpy,3.1.2,2,numpy (>=1.11)$fjagepy (>=1.7.2)
+utf-storage-client-python,0.1.1,2,urllib3 (>=1.25.3)$python-dateutil
+up2ynab,0.1.0,2,click$requests
+unesco-reader,0.0.2,2,requests$pandas
+utide,0.3.0,2,scipy$numpy
+upackage,0.3.4,2,PyYAML$pytest
+uw-restclients-grad,1.1,2,UW-RestClients-Core$python-dateutil
+upandas,0.2.0,2,pandas (>=0.24,<0.25)$uncertainties (>=3.1,<4.0)
+ucrspawner,0.0.9,2,jupyterhub (<1dev,>=0.7)$marathon (<1dev,>=0.9)
+uparma,0.9.14,2,requests$pytest
+undocinclude,0.2.1,2,docutils (<0.18,>=0.14)$sphinx (>=4.0)
+util-ds,0.5.3,2,mecab-python3 (==1.0.1)$unidic-lite (==1.0.7)
+understory-websub-endpoint,0.0.4,2,understory (>=0,<1)$websub-temporary (>=0,<1)
+urlshortener,1.0.0,2,redis$HTTPServer
+understory-webmention-endpoint,0.0.4,2,understory (>=0,<1)$webmention (>=0,<1)
+util-functions,1.0.1,2,numpy$pandas
+upbit,1.0.0,2,requests$pyjwt
+understory-text-reader,0.0.3,2,understory (>=0,<1)$microsub (>=0,<1)
+understory-text-editor,0.0.6,2,understory (>=0,<1)$micropub (>=0,<1)
+upbitpy,1.0.1,2,requests (==2.21.0)$pyjwt (==1.7.1)
+upb-lib,0.5.1,2,pytz (>=2019)$pyserial-asyncio (>=0.5)
+urlscanio,0.2.2,2,aiohttp$aiofiles
+utilidades-dados,0.0.2,2,pandas$numpy
+upcpayment,0.5.5.7.8.3,2,pyOpenSSL$signxml
+understory-owner,0.0.35,2,understory (>=0.0,<0.1)$pycryptodome (>=3.14.1,<4.0.0)
+url-request-scheduler,0.3,2,schedule$requests
+urlquick,2.0.1,2,requests$htmlement
+update-docker-detach-keys,0.1.2,2,click (>=7.1.2,<8.0.0)$json-file (>=0.1.6,<0.2.0)
+understory-micropub-server,0.0.7,2,understory (>=0,<1)$micropub (>=0,<1)
+understory-indieauth-server,0.0.6,2,understory (>=0,<1)$indieauth (>=0,<1)
+understory-indieauth-client,0.0.6,2,understory (>=0,<1)$indieauth (>=0,<1)
+urlprofiler,1.5.2,2,httpx (>=0.23.0)$tldextract (>=3.4.0)
+urlock,0.1.22,2,requests$sseclient-py
+utilities-fishingcoder,0.0.4.5,2,beautifulsoup4$PySimpleGUI
+understory-code,0.0.151,2,understory (>=0.0,<0.1)$warez (>=0.0,<0.1)
+ucscsdk,0.9.0.3,2,pyparsing$six
+uc-sso,1.0.3,2,requests (>=2.27.1,<3.0.0)$html-table-parser-python3 (>=0.2.0,<0.3.0)
+update-req-spec,1.0.2,2,click$pip-tools
+urlnormalizer,1.2.5,2,six$chardet
+uctp,1.0.0a6.dev1,2,pycryptodome (>=3.9.8)$PyYAML (>=5.3.1)
+ucube,0.0.2.2,2,aiohttp (>=3.6.2)$requests (>=2.22.0)
+uw-restclients-bridge,1.5.3,2,UW-RestClients-Core$python-dateutil
+uncompyle6,3.8.0,2,spark-parser (<1.9.0,>=1.8.9)$xdis (<6.1.0,>=6.0.2)
+updt,0.0.0,2,argopt$tqdm
+ubase,0.2.1,2,aiosqlite (>=0.17.0,<0.18.0)$ujson (>=4.0.2,<5.0.0)
+udapi,0.3.0,2,colorama$termcolor
+udaswissknife,0.12.0,2,coverage (>=4.5,<5.0)$nose (>=1.3,<2.0)
+udata-ckan,2.0.1,2,udata (>=2.0.0)$humanfriendly (==4.18)
+uw-restclients-bookstore,1.1.1,2,UW-RestClients-Core$UW-RestClients-SWS
+utils-api-pipefy,0.3.2,2,requests (>=2.27.1,<3.0.0)$python-dotenv (>=0.19.2,<0.20.0)
+uba-calqlator,1.2.2,2,pandas$seven2one (>=2.34)
+upgrade-marshmallow,0.1.4,2,astor (>=0.8.1)$click (>=8.0.3)
+uncertainpythonsdp,1.1.3,2,scipy$numpy
+udata-event-consumer,0.1.0.dev20,2,udata>=4.0.1$udata_event_service==0.0.8
+utilsbox,0.0.10,2,opencv-contrib-python$scipy
+unblockr,2.1.2,2,selenium$webbot
+unbelipy,2.1.1b0,2,aiohttp (>=3.7.4.post0,<4.0.0)$aiolimiter (>=1.0.0b1,<2.0.0)
+unbalancedgw,0.2.0,2,numpy$torch
+unbabel-py,0.49,2,requests$beautifulsoup4
+uw-restclients-attest,0.1,2,UW-RestClients-Core$mock
+unassigner,0.0.3,2,biopython$scipy
+udata-ldap,0.3.5,2,udata (>=1.4.0.dev)$flask-ldap3-login (==0.9.15)
+udata-metrics,1.0.2,2,udata (>=2.0.0.dev)$influxdb (==5.2.3)
+umpyutl,1.1.1,2,pyYAML$requests
+uplink-httpx,2.0,2,httpx (>=0.12.*)$uplink (>=0.9.*)
+uplink-protobuf,0.1.0,2,uplink (>=0.6.0)$protobuf
+umpyre,0.0.2,2,py2store$pandas
+uploadcare,0.1.1,2,requests (>=2.27.1,<3.0.0)$dateparser (>=1.1.1,<2.0.0)
+umongo,3.1.0,2,marshmallow (>=3.10.0)$pymongo (>=3.7.0)
+upload-directory,0.0.1,2,boto3$django-storages
+umm,0.6.1,2,click$PyYAML
+uploadio-get-file-urls,1.0.1,2,requests$pydantic
+umlaut,0.1.0,2,mlflow (==1.28.0)$psycopg2 (==2.9.3)
+uminifier,0.1.0,2,pyminifier (>=2.1)$mpy-cross (>=1.12)
+upload-py,0.24,2,requests$BeautifulSoup4
+udata-transport,1.0.0,2,udata (>=3.2.0)$udata-front (>=1.0.0)
+uploadtool,0.1.7,2,build$twine
+umb,1.0.1,2,future$requests
+uw-it-flask-gunicorn-json-logger,0.1.6,2,Flask (>=2,<3)$PyYAML (>=6.0,<7.0)
+ud-dist-meta,1.0.3,2,importlib-metadata$pyyaml
+upnp,1.3,2,gevent$ipgetter
+uw-it-build-fingerprinter,0.2.7,2,pydantic (>=1.9.0,<2.0.0)$PyYAML (>=6.0,<7.0)
+upnp-port-forward,0.1.2,2,netifaces (<0.11,>=0.10.9)$upnpclient (<1,>=0.0.8)
+upollo-python,0.1.0,2,grpcio (>=1.30)$protobuf (>=4.0)
+uat-breeze-connect,1.0.13,2,python-socketio[client]$requests
+upp,0.1.7,2,click$setuptools
+um,1.5.3,2,numpy (>=1.17,<2.0)$pandas (>=0.25.3,<0.26.0)
+utilspy-g4,2.1.0,2,opencv-contrib-python$ffmpeg-python
+urldl,1.1.2,2,requests$domain-extract
+ultrasync,0.9.5,2,click$requests
+upref,1.0.14,2,pyyaml$appdirs
+uprime,1.2,2,pandas$matplotlib
+uproot,4.3.7,2,numpy$setuptools
+ultrasonicusbdemo,1.6.9,2,PyQt5$pyserial
+uproot3-methods,0.10.1,2,numpy (>=1.13.1)$awkward0
+ultra-config,0.6.3,2,insensitive-dict$py-env-config
+uxarray,2022.11.0,2,xarray$numpy
+uproot-methods,0.9.2,2,numpy (>=1.13.1)$awkward (<1.0.0)
+uproot-tree-utils,0.2,2,numpy$uproot
+ultimate-trimmer,1.1.0,2,moviepy (>=1.0.3)$chardet (>=4.0.0)
+ultimate-sitemap-parser,0.5,2,python-dateutil (<3.0.0,>=2.1)$requests (>=2.2.1)
+ua-spoofer,1.0,2,beautifulsoup4$requests
+urlbox,1.0.6,2,requests (==2.26.0)$validators (==0.18.2)
+utilx,1.9.3,2,plan (>=0.5)$fire
+upsetplotly,0.1.7,2,plotly$tqdm
+uxml2dict,0.2.2,2,microapp (>=0.2.3)$xmltodict
+ultimate-hosts-blacklist-helpers,1.20.1,2,requests$pyyaml
+ultimapy,0.0.22,2,Pillow$imageio
+ulozto-search,1.0.4,2,requests$beautifulsoup4
+ulog2kml,1.0.8,2,numpy (>=1.19.5)$simplekml (>=1.3.5)
+ullu,0.0.0,2,pandas$numpy
+urihandler,1.0.0,2,pyramid$PyYAML
+udlai,0.1.0,2,requests$pandas
+uliweb-menu,0.1.0,2,uliweb3$uliweb-layout
+utoolbox-image,0.0.2,2,utoolbox-core$scikit-image
+udon2,0.1.0,2,six$svgling
+upt-cpan,0.6.1,2,requests$upt (>=0.6)
+uwebthree,3.0.4,2,PyMySQL$pytz
+upt-debian,0.1.1,2,jinja2$upt
+upt-fedora,0.3,2,jinja2$upt (>=0.10)
+upt-freebsd,0.3,2,Jinja2$upt (>=0.4)
+utrello,0.8.1,2,pandas (>=1.4.3,<2.0.0)$requests (>=2.28.0,<3.0.0)
+uarchiver,0.0.4,2,docopt (>=0.6.2)$youtube-dl
+uptime-kuma-monitor,1.0.0,2,requests$prometheus-client
+utsc,0.0.3,2,loguru$typer
+ukrainian-word-stress,1.0.2,2,stanza$marisa-trie
+uk-politics,1.0.5,2,fuzzywuzzy$pandas
+upt-nix,0.2,2,jinja2$upt (>=0.6)
+ukparliament,0.6,2,requests$python-dateutil (==2.5.3)
+ukim42d08-2,0.1,2,Django$django-crispy-forms
+ukim42d08,0.1,2,Django$django-crispy-forms
+upt-openbsd,0.5,2,jinja2$upt (>=0.7)
+uk-geo-utils,0.10.5,2,Django (<4.2,>=2.2)$psycopg2-binary
+uturn-cli,0.0.1,2,click$colorama
+uk-covid19,1.2.2,2,requests$certifi
+uptwine,0.0.9,2,twine (~=3.4.2)$wheel (~=0.37.0)
+udpy,2.0.0,2,requests (>=2.23.0,<3.0.0)$aiohttp (>=3.6.2,<4.0.0)
+upvest,0.0.10,2,requests (<3,>=2.21.0)$environs (==4.1.0)
+upvest-cli,0.5,2,upvest (>=0.0.7)$PyYAML (>=5.1)
+udt,0.5,2,PyYAML (>=5.1.2)$requests (>=2.22.0)
+udtherapy,1.0.1,2,colorama (==0.4.1)$beautifulsoup4 (==4.7.1)
+ud-yggdrasil,2.0.0,2,pyyaml$ud-dist-meta (>=1.0.3)
+uamqp,1.6.3,2,certifi (>=2017.4.17)$six (~=1.0)
+urdubiometer,0.2.9,2,Click (>=6.0)$graphtransliterator
+ujenkins,0.7.2,2,aiohttp (<4.0.0,>3.6.2)$requests (<3.0.0,>=2.24.0)
+uu-tora-gameoflife,0.0.1,2,numpy$matplotlib
+upysize,0.1.0,2,click (>=8.1.3,<9.0.0)$typing-extensions
+ua-ilab-tools,2.1.1,2,bs4$ua-generic-rest-api
+uirecorder,1.1,2,pynput$pyautogui
+uipcalc,0.3.3,2,six$ipaddress; python_version<"3.3"
+uq-chatterbox,0.1.1,2,click (==8.1.2)$TTS (==0.6.1)
+uql,0.1.0,2,Django (>=4.1,<5.0)$django-rest-framework (>=0.1.0,<0.2.0)
+uiotedge-driver-link-sdk,0.0.48,2,asyncio-nats-client (>=0.10.0)$cachetools (>=4.0.0)
+uint16-to-img,1.1.0,2,numpy (>=1.2.4,<2.0.0)$opencv_python (>=4.5.2.54,<5.0.0.0)
+uims-api,0.1.2,2,requests (>=2.21.0)$beautifulsoup4 (>=4.6.3)
+uecho,1.0.1,2,netifaces$typing-extensions
+uvicontainer,0.1.1rc1,2,click (>=7.0)$typing-extensions ; python_version < "3.8"
+ui-compiler,0.1.0,2,lxml (>=4.9.0,<5.0.0)$cssselect (>=1.1.0,<2.0.0)
+uedge,7.0.9.2.3,2,forthon$mppl
+uzbekstemmer,0.2.6,2,nltk$lxml
+uemanifestreader,0.0.1,2,aiohttp$bitstring
+uhttp-negotiate,0.1.1,2,pywin32 (>=304)$uhttp (>=0.1.0)
+ural,0.36.0,2,pycountry (<19,>=18.12.8)$tld (<1,>=0.12.1)
+uh-opcunix-jgirdwood,0.1.2,2,pyserial$pyusbiss
+uhlovodikovac,0.0.5,2,Pillow (~=8.0.0)$numpy (~=1.17.0)
+uhkamalli,2022.9.24,2,PyYAML (>=6.0)$typer (>=0.6.1)
+ua-eds-api,1.0.1,2,requests$bs4
+uhi,0.3.2,2,numpy>=1.13.3$typing-extensions>=3.7; python_version < '3.8'
+ur-audio-sub,0.0.1,2,pytube$ffmpeg-python
+uhf-rfid-reader-sdk,0.0.0,2,crcmod (==1.7)$pyserial (==3.4)
+u-grpc-lib,0.1.0,2,grpcio (>=1.33.2,<2.0.0)$grpcio-tools (>=1.33.2,<2.0.0)
+uvicorn-worker,0.0.1,2,gunicorn (>=20.1.0)$uvicorn (>=0.12.0)
+ugrid,0.13.0,2,numpy$meshkernel
+uvpool-web,0.2.0,2,sanic (>=19.12.2,<20.0.0)$aiodns (>=2.0.0,<3.0.0)
+urbandictapi,0.3,2,beautifulsoup4$requests
+ugetcli,0.4.2,2,Click (>=6.0)$upackage (>=0.1.6)
+ugapi,0.1.6,2,scrapy$pandas
+ug100,1.0.0,2,torch>=1.7.1$tqdm>=4.64.0
+ufrc,0.2.3,2,paramiko$scp
+uformer-pytorch,0.0.8,2,einops (>=0.3)$torch (>=1.6)
+ufcc,0.0.7,2,mdanalysis$bottle
+ufolint,1.2.0,2,commandlines$fontTools[ufo] (>=4.18.0)
+urchintai-client,1.0.0,2,aiohttp (>=3.7.4)$beautifulsoup4 (>=4.9.3)
+uvlparser,1.0.0,2,antlr4-python3-runtime (==4.7.2)$antlr-denter (==1.3.1)
+ufcpy,2.5.0,2,beautifulsoup4$urllib3
+uztagger,0.0.7,2,UzMorphAnalyser$pandas
+uvplot,0.2.11,2,numpy (>=1.9)$matplotlib
+uvn-fira,1.3.1,2,toml (>=0.10.0,<0.11.0)$typing (>=3.7.4,<4.0.0)
+ulidgen,0.1.2,1,ulid-py (>=1.1,<2.0)
+urbans,0.0.1,1,nltk (<4)
+urbanpython,1.0.4,1,requests
+urdaddy,1.0.0,1,selenium (>=4.3.0)
+urbandictionary-python,0.0.5,1,requests
+urbamt,0.0.1b4,1,nltk (<4)
+uranus,0.0.0,1,six (==1.11.0)
+upy-rabbitmq,0.0.5,1,pika (>=1.2.0)
+upyexplorer,1.16.0,1,pyserial
+upycc,0.3.0,1,wisepy2 (>=1.2.1)
+upup,2.4.1,1,paramiko
+uptobox,1.1.0,1,aiohttp
+uptimerobotpy,0.1.5,1,requests (>=2.20.0)
+upt-guix,0.2,1,upt (>=0.2)
+up-tamer,0.2.0,1,pytamer (==0.1.1)
+uri,2.0.1,1,pathlib2; python_version < "3.4"
+ups-turkey,0.2.0,1,zeep (>=4.1.0)
+upstream-weight,0.0.1,1,pydantic
+upstream-ontologist,0.1.30,1,python-debian
+upstoxwithoutapi,0.0.1,1,requests
+uritemplate-py,3.0.2,1,uritemplate (>=2.0)
+upstorageapiclient,1.1,1,requests
+upsetjs-jupyter-widget,1.9.0,1,ipywidgets (>=7.5.0)
+url2ip,0.0.1,1,requests
+url2kindle,0.8,1,requests
+url2word,0.1.5,1,beautifulsoup4
+upscrot,1.1.0,1,appdirs (<2,>=1.4)
+urlbuster,0.5.1,1,requests
+upscript,0.2.0,1,distlib
+uproot4,4.0.0,1,uproot (>=4.0.0)
+urlcounter,0.0.3,1,pandas
+up-pyperplan,0.2.0,1,pyperplan (==2.1)
+uppercut,0.1.11,1,redis
+url-downloader,1.0.5,1,requests
+upload-tm-records,1.0.0,1,requests
+upload,0.1.1,1,qiniu
+upldr-apilibs,0.1.33,1,clilib (>=1.9.10)
+uphold-python3,0.0.1,1,peppercorn
+upguard,0.0.23,1,requests
+upgrade-python-package,0.5.0,1,requests (==2.*)
+upgradechatpy,1.0.5,1,aiohttp
+url-manager,1.2.0,1,validators (>=0.20.0,<0.21.0)
+url-matcher,0.2.0,1,tldextract
+upend,0.0.1,1,requests (>=2.25.1,<3.0.0)
+update-route53,0.0.1,1,boto3 (>=1.9.28)
+url-normalize,1.4.3,1,six
+updater-extension,0.1.0,1,python-telegram-bot (>=13.11)
+update-hostgrp-poc,0.2.2,1,zabbix-api (>=0.5.4)
+urlp,0.0.3,1,tldextract
+urlparser,0.1.2,1,click (<8.0,>=6.0)
+urlpath,1.2.0,1,requests
+updatehdr,1.0.4,1,spectral
+urlpy,0.5,1,publicsuffix2 (>=2.20191221)
+update-checker,0.18.0,1,requests (>=2.3.0)
+urlquote,2.0.0,1,cffi
+urlreader,0.1.3,1,pyobjc (>=5.2)
+update,0.0.1,1,style (==1.1.0)
+upcloud-api,2.0.0,1,requests
+urlscan,0.9.10,1,urwid (>=1.2.1)
+up-branch-citeproc-py,0.6.0.post1,1,lxml
+upbeatlabs-mcp39f521,2.0.0,1,smbus2
+up-bank-api,1.1.0,1,requests (<3,>=2.22.0)
+upb,0.0.3,1,pyserial-asyncio (>=0.4.0)
+urlstd,2021.10.25.post1,1,icupy (>=0.11.0)
+ur-lstm-torch,0.0.2,1,torch (<2,>=1.0)
+url-strip,0.2.1,1,typing-extensions (<5,>=3.10.0.0)
+upapi,0.7.1,1,oauth2client
+up2superbed,0.1.0,1,requests
+urltohtml,1.0.0,1,requests
+url-to-image,1.0.1,1,Pillow
+up2smms,0.1.0,1,requests
+up2s3,0.1.0,1,boto3
+up2oss,0.1.5,1,oss2 (>2.0.0)
+url-widget,0.0.0,1,ipywidgets (>=7.0.0)
+up2cos,0.1.4,1,cos-python-sdk-v5 (>1.6.0)
+uos-hardware,0.4.0,1,pyserial (>=3.5,<4.0)
+uonet-request-signer-hebe,0.1.1,1,pyopenssl
+uonet-request-signer,1.0.0,1,pyopenssl
+uom,0.6.2,1,pandas
+unzip-http,0.4,1,urllib3
+ur-py-ctl,0.1.7,1,importlib_metadata (>=1.0,<2.0); python_version < "3.8"
+unwatermark-musicnotes,1.0.1,1,pymupdf
+unumpy,0.6.1,1,uarray (==0.6)
+unu-api,0.2.4,1,requests (>=2.26.0,<3.0.0)
+untitled-job-runner,0.0.3,1,Pebble (>=4.5.3)
+ursine,0.3.1,1,multidict
+untangle,1.2.1,1,defusedxml (>=0.7.1,<0.8.0)
+urtopulseconverter,0.2.5,1,numpy (==1.18.0)
+urwid-picker-widgets,0.4,1,urwid
+urwid-satext,0.8.0,1,urwid (>=1.2.0)
+urwid-timed-progress,1.1.1,1,urwid (>=1.3.1)
+unsserv,0.0.5,1,rpcudp (==4.0.0)
+unspooler,1.0.0,1,requests
+unsplashapi,0.0.5,1,requests
+usaepay,2.1.4.2,1,requests
+usagelogger,2.2.5,1,requests (==2.25.1)
+unsilence,1.0.9,1,rich (~=10.10.0)
+us-aidentified,3.0.2,1,jellyfish (<1.0)
+usain,0.3.1,1,loguru
+unscramble,0.2,1,tqdm
+usb-can-analyzer,2.0.0,1,pyserial
+usbclassifier,0.1.3,1,pandas
+usbgen,0.0.2,1,jinja2
+unrec,0.1.0,1,relpath
+unrar-cffi,0.2.2,1,cffi
+unpoly-django,0.1.0,1,Django (>=3.1)
+unpeurave,0.2.0,1,celery (==5.2.2)
+unpack-recursive,1.1.0,1,typing-extensions
+unpackable,0.0.4,1,typing-extensions (>=3.10.0.0) ; python_version < "3.10"
+unoserver,1.2,1,setuptools
+uno-log,0.2.0,1,termcolor
+usb-quartermaster-client,0.1.1,1,usb-quartermaster-common (>=0.1.0,<0.2.0)
+usb-quartermaster-ssh,0.1.0,1,USB_Quartermaster_common (>=0.1.0,<0.2.0)
+usb-quartermaster-usbip,0.1.0,1,USB_Quartermaster_common (>=0.1.0,<0.2.0)
+usb-quartermaster-virtualhere,0.1.0,1,USB_Quartermaster_common (>=0.1.0,<0.2.0)
+uno-game-forge,1.1.0,1,Uno-Game (>=1.1b5)
+unofficial-surreal-database,0.2.0,1,httpx (>=0.23.0)
+usbrply,2.1.1,1,python-pcapng
+usbserial,1.1.0,1,pyserial (==3.5)
+usbwde-mccrab,2021.1.1,1,pyserial
+unofficial-pyknp,0.4.2,1,six
+unofficial-pt-lightning-sphinx-theme,0.0.27.4,1,sphinx
+unnamed-rpc,0.0.1,1,msgpack (>=1.0,<2.0)
+unminder,0.1.0,1,telethon (>=1.14.0,<2.0.0)
+unmarkd,0.1.9,1,beautifulsoup4 (>=4.9.0,<5.0.0)
+usc-schedule,1.0.1,1,requests
+unmanic-api,0.0.5,1,aiohttp (==3.8.1)
+unmand,1.0.1,1,requests
+usedave,1.8.4,1,importlib-metadata ; python_version < "3.8"
+unlzw,0.1.1,1,cffi (>=1.0.0)
+useful-decoration,1.1.5,1,pysimple-log
+useful-functions-easier-life,0.11,1,decorator
+usefulhelper,1.7.5,1,PyQt5
+unlimited-youtube-search,0.1.2,1,requests
+unleashed-py,1.0.8,1,requests
+useful-utilities,1.0.1,1,requests (>=2.27.1,<3.0.0)
+unleashed,0.2.3,1,wheel
+unleaky,0.1.1,1,pyperclip
+usejenkins,0.0.4,1,jenkins
+us-elections,0.7.2,1,us (<2,>=1)
+unladenswallow,0.2.1,1,Sphinx
+unknowndb,1.6.7,1,PyQt5
+unkey,0.0.1,1,tokenize-rt (>=3.2.0)
+user-agent2,2021.12.11,1,user-agent (==0.1.10)
+unja,0.0.7,1,requests
+unixsig,0.1.4,1,importlib-metadata ; python_version < "3.8"
+unixlog,0.0.2,1,colorama
+useragent-rs,0.1.5,1,six
+user-agents,2.2.0,1,ua-parser (>=0.10.0)
+unix-cred,0.2.1,1,dataclasses ; python_version < "3.7"
+univoc-tools,0.1.1,1,elasticsearch (==7.13.3)
+universities-exercise-api-v1,0.0.4,1,requests (>=2.25.1)
+usercheck,1.0,1,requests
+universities,1.1.0,1,requests
+userdefaults3,1.1.8,1,rubicon-objc
+userdevil,0.0.1,1,requests
+universal-tsdb,0.1.1,1,requests
+userelainatestsetup1,1.8.2,1,Pillow
+usergeantispamapi,0.1.8,1,requests
+universal-pathlib-edge,0.0.13,1,fsspec
+userkit,1.0.0,1,requests
+universal-pathlib,0.0.21,1,fsspec
+universalimg,1.1.2,1,html-table-parser-python3
+universal-build,0.6.18,1,pipenv
+universal-api-client,0.2.0,1,requests (<=3,>=2)
+username-cli,0.0.4,1,username
+userpath,1.8.0,1,click
+user-proto,0.1.0.dev14232,1,pivi (>=0.2.1,<0.3.0)
+universal-answer-package-tutorial,0.0.1,1,tqdm (~=4.62)
+universal-analytics-python3,1.1.1,1,httpx (>=0.10.0)
+unity-yaml-normalize,0.1.1,1,unityparser
+unity-test-parser,0.1.1,1,junit-xml (>=1.8)
+usersettings,1.1.5,1,appdirs (>=1.2)
+unitypython,0.2.1,1,wisepy2 (>=1.2.1)
+userspacefs,2.0.5,1,fusepyng (<2,>=1.0.7)
+user-tools,1.0.2,1,pymysql
+user-util,1.0.0,1,Click
+unityparser,2.2.0,1,PyYAML (==5.4)
+unitypackage-extractor,1.1.0,1,tarsafe (>=0.0.2)
+unitybuildpipeline,0.0.8.1,1,pyyaml
+usexif,1.0.3,1,exifread
+unittest-xml-reporting,3.2.0,1,lxml
+unittest-sheraf,0.1.0,1,portpicker
+us-federal-treasury-python-api,0.1.0,1,requests (>=2.24.0)
+unittest-seven-helper,2.1.0,1,xlrd (==1.2.0)
+unittest-parallel,1.5.3,1,coverage (>=5.1)
+unittestersg,6.2.2,1,numpy
+unit-systems,1.0.2,1,sympy
+units-calculator,1.0.4,1,ordered-set
+usgs-quake,1.0.2,1,pandas
+unitrevpy,0.0.4,1,numpy
+us-house,0.0a1.dev1,1,us (<2,>=1)
+unit-parse,0.1.7,1,pint (>=0.18)
+usim800,0.0.7,1,pyserial
+usim800-hamilkar,0.0.3,1,pyserial
+unitify,1.0.3,1,spacy
+unitexpr,0.1.6,1,lockattrs
+united-states-congress-python-api,0.0.2,1,requests
+unitc,0.0.4,1,numpy
+usleep-api,0.1.3,1,requests (==2.25.1)
+unit,0.2.2,1,httptools (>=0.0.11)
+unison-gitignore,1.0.3,1,pathspec
+usolitaire,0.2.1,1,urwid
+uniscale,0.0.0,1,ray (==1.13.0)
+uni-say,0.1.12,1,click (>=8.0.3,<9.0.0)
+uniq,1.4.0.36,1,requests (>=2.6.0)
+uniprot-cli,0.3.4,1,requests
+uniplot,0.8.0,1,numpy (>=1.20.0)
+uniphy,0.0.3,1,numpy
+unipass,0.1,1,httpx (==0.16.1)
+unionfindpy,0.2.1,1,ninja
+uninstallable,0.9.4,1,pywin32 (==224) ; platform_system == "Linux"
+usrl-colormaps,1.0.0,1,numpy (>=1.20,<2.0)
+unimorph,0.0.4,1,pandas
+unimon-ctl,0.1.1a0,1,pyxs
+unimonapi,0.0.1,1,pyzabbix
+unifipy,1.0.4,1,requests
+unificontrol,0.2.9,1,requests
+ussd-session,0.1.6,1,Django (==1.11.10)
+us-senate,0.0a1.dev1,1,us (<2,>=1)
+unifi-client,0.0.1.2,1,requests
+unifhycontrib-smart,0.1.1,1,unifhy (>=0.1.0)
+unifhycontrib-rfm,0.1.1,1,unifhy (>=0.1.0)
+unifhycontrib-gr4,0.1.1,1,unifhy (>=0.1.0)
+unifhycontrib-artemis,0.1.1,1,unifhy (>=0.1.0)
+ust-download-cache,2.1.0,1,requests
+unicycle,0.0.1,1,anyio (>=3.5.0,<4.0.0)
+ustore,1.7.5,1,pyaes
+unicrypto,0.0.9,1,pycryptodomex
+unicorn-pwrs,0.1,1,simpleaudio
+unicornhatsimulator,1.0.1,1,pygame
+unicorn-hat-sim,1.0.0,1,pygame
+unicornhatmini,0.0.2,1,spidev
+unicornhathd,0.0.4,1,spidev
+uswarm,0.1.0,1,Click (>=7.0)
+unicornclient,5.1.0,1,paho-mqtt
+unicornafl,2.0.2,1,unicorn (>=2.0.0rc5)
+uniconfig,0.0.1,1,toml
+unicodeutil,15.0a1,1,six
+utah,0.9,1,meetup-api
+utailbase,0.0.73,1,pyaml
+unicodedata-reader,0.1.7,1,platformdirs (>=2.2.0,<3.0.0)
+utaufile,0.1.0,1,numpy
+utbone,0.1.0,1,pyCLI (>=2.0.3)
+unicms-editorial-board,0.25.1,1,django (<4.0,>=2.0)
+utcnow-cli,1.0.0,1,utcnow (>=0.3.3)
+utc-simple-log,0.0.5,1,pytz
+utd,0.1.3,1,colored (>=1.4.3)
+unicboard-billing-sdk,0.0.9,1,requests (>=2.26.0)
+unhinged,0.0.2,1,PyYAML (==5.1.2)
+utfcolor,1.0.0,1,Pillow (==8.1.2)
+utfn,1.0.1,1,ntplib
+ungoliant,0.1.2,1,requests (>=2.25.1,<3.0.0)
+unfollow,5.0.0,1,rich
+unet,0.7.7,1,torch
+unencryptedsocket,2.2.0,1,omnitools (>=0.0.1)
+undupe,0.0.1,1,tqdm (>=4.32.1)
+util-demian,0.0.4,1,build (>=0.7.0)
+undetected-playwright,0.0.5,1,playwright (~=1.27.1)
+utile,1.1,1,timsortyer
+understory-tracker,0.0.3,1,understory (>=0,<1)
+understory-term,0.0.6,1,argcomplete (>=1.12.3,<2.0.0)
+understory-posts,0.0.26,1,understory (>=0.0,<0.1)
+understory-media,0.0.40,1,understory (>=0.0,<0.1)
+utilitarian-queue-consumer,0.0.6,1,kombu
+understory-editor,0.0.131,1,understory (>=0.0,<0.1)
+understory-data,0.0.7,1,understory (>=0.0,<0.1)
+understory-cloud,0.0.4,1,understory
+understory-auth,0.0.40,1,understory (>=0.0,<0.1)
+underpants,0.2.3,1,pantsbuild.pants (<2.13,>=2.12.0a0)
+uncvalue,0.1.1,1,numpy (>=1.18)
+unconcealment,0.7.1,1,argparse (>=1.4.0,<2.0.0)
+uncompressor,0.1.0,1,Click (>=7.1.2,<8.0.0)
+uncommon,0.0.4,1,fire
+uncolor,0.1.3,1,pytest-datadir (>=1.3.1,<2.0.0)
+uncledongpackage,1.0,1,pillow
+utilp,0.0.10,1,tqdm
+uncertainty-wrapper,0.4.2,1,numpy (>=1.8)
+uncertaintywrapper,0.4.2,1,numpy (>=1.8)
+uncertainty-metrics,0.0.81,1,numpy (>=1.7)
+uncertainty-loss,0.1.2,1,numpy (>=1.23.4,<2.0.0)
+utils4ymc,0.1.2,1,numpy (>=1.15)
+uncertaint-sdp-python,2.0.0,1,requests
+uncertainties,3.1.7,1,future
+unbound-key-control-client-api,0.16.1,1,base-client-api (>=2.4.1,<3.0.0)
+un1qnx-api,0.2.0,1,appier
+utils-django,0.0.3,1,Django (>=3.0)
+umwelt,2019.8.2,1,pydantic (>=0.17,<1)
+umvlib,0.0.7,1,requests
+umsg-gen,0.1.15,1,jinja2
+umpire,0.6.5,1,MaestroOps (<0.9,>=0.8.8)
+umodbus,1.0.4,1,pyserial (~=3.4)
+utils-mini,0.1.6,1,ujson
+utils-misc,0.1.0,1,numpy
+umaudemc,0.12.1,1,maude (>=1.0)
+umapy,1.0.0,1,requests
+um7py,0.5.18,1,pyserial
+uluplot,0.1.0,1,requests
+utils-package-martin36,0.0.8,1,jsonlines (>=2.0.0)
+ultratimeseries-api,1.0.6,1,requests
+utils-pygame,0.0.1,1,pygame
+ultrasnip,0.1.1,1,Qt.py (>=1.2,<2.0)
+utilsrxpy,0.0.8,1,rx
+ultrashort,0.0.1a0,1,numpy
+ultraheat-api,0.5.1,1,pyserial
+ultiplayground,0.1.5,1,requests (>=2.26.0,<3.0.0)
+ultimatepkg2,0.4,1,termcolor
+ultimateedgarparser,0.1.2,1,pandas
+utinni,0.5.0,1,httpx (>=0.16.1,<0.17.0)
+ulogger,2.0.2,1,requests
+uliweb-ui,0.1.0,1,uliweb3
+uliweb-layout,0.1.0,1,uliweb3
+utoken,0.1.8,1,regex (==2021.8.3)
+utoolbox,0.6.7,1,utoolbox-core (>=0.0.21)
+uliweb-comui,0.2.2,1,uliweb3
+uliweb-comapps,0.2.0,1,uliweb3
+ulinkme,0.1.0,1,watchdog (>=2.1.9,<3.0.0)
+uleska-automate,0.12,1,requests
+uldaq,1.2.3,1,enum34; python_version < "3.4"
+ulang,0.0.22,1,rply-ulang
+ulam-spiral,1.2,1,pillow
+ukuxhumana,0.0.1,1,tensor2tensor
+utrunner,0.3.0,1,coverage (>=4.0)
+ukrit,0.0.2,1,requests
+ukrdc-xsdata,3.3.0.post1,1,xsdata
+ukrdc-sqla,2.0.0,1,SQLAlchemy (>=1.4.25,<2.0.0)
+ukrainealarm,0.0.1,1,aiohttp (>=3.8.1)
+uk-postcode-validator,1.0.3,1,requests (>=2.18.4)
+ukpostcodes,1.0.0,1,requests
+ukkonen,1.0.1,1,cffi (>=1)
+utterance,0.1.0,1,Click (>=7.0)
+utteranceflow,0.1.0,1,Click (>=7.0)
+ukkomotif,1.0,1,click (>=7.0)
+ukis-metrics,0.1.3,1,numpy (>=1.20.2,<2.0.0)
+ukedown,2.1.1,1,Markdown (>=3)
+ukb-loader,0.0.6,1,pandas (>=1.2.0)
+ukbiobank-tools,1.0.5,1,pandas
+uuid0,0.2.7,1,pybase62
+uuidentifier,0.0.5,1,joblib
+uuidtools,0.1.4,1,uuid (>=1.30,<2.0)
+ukbb-pan-ancestry,0.0.2,1,ukbb-common
+ukbb-common,0.1.2,1,hail
+ujimaru-markov-model,0.3.0,1,markovify (>=0.8.0,<0.9.0)
+uutil,0.0.3,1,lxml (>=2.3.2)
+uistylelang,0.8.5,1,wxpython (>=4.1.0)
+uv2json,1.0.3,1,pandas (>=1.3.1)
+uipath-scaffold,0.0.7,1,console-functions (>=0.0.8)
+uipath,0.0.1,1,beautifulsoup4 (>=4.7.1)
+uiipythonapi,1.0.1,1,requests
+uielem,0.2.2,1,undoable
+uidep,1.1.0.4,1,setuptools (~=46.1.3)
+uicognitive-sdk,1.0.0,1,requests
+uiblack,1.2.2,1,blessed
+uiautomation,2.0.17,1,comtypes (>=1.1.10)
+ui24rsc,1.0.2,1,PyYAML (>=5.4.1)
+uhash,0.1.5,1,pycryptodome (==3.10.1)
+ugrid-checks,0.2.0,1,netCDF4
+ugrc-bdc-challenge-validator,1.1.1,1,arcgis (>1.7)
+uglify,0.0.1,1,python-dateutil
+ugentbiblio,0.2.2,1,requests
+ufolib,2.3.2,1,fonttools (<4,>=3.1.2)
+uvm,1.0.2,1,typer (>=0.3.2,<0.4.0)
+ufo-extractor,0.5.0,1,fonttools[lxml,type1,ufo,unicode,woff] (>=4.17.0)
+ufile-io,1.0.2,1,aiohttp
+ufile,3.2.6,1,requests
+ufesp,0.0.14,1,pandas (>=1.0.0)
+uvpool,0.1.1,1,uvloop (>=0.13,<0.14)
+uesm,0.0.3,1,GitPython
+uenginecli,1.0.5,1,requests
+ueditor-nimbus,0.1.0,1,Django
+uea-ucr-datasets,0.1.2,1,sktime (>=0.3,<0.4)
+ueagle,0.0.2,1,requests
+uvvispy,0.1.1,1,aspecd (>=0.2.2)
+uvw,0.4.0,1,numpy
+udtool,0.1.0,1,requests (>=2.27.1,<3.0.0)
+udp-proxy-server,0.0.2,1,enhancements
+udpcp,0.1.0,1,bitarray (>=0.8.3)
+udpcomms,2.1.1,1,msgpack (>=1.0.0)
+uwebdavclient,0.0.2,1,requests
+udp,0.5.8,1,startrek (>=0.3.8)
+udmx-pyusb,2.0.0,1,pyusb (>=1.0.2)
+udft,3.6.0,1,numpy (>=1.20.2,<2.0.0)
+uw-grade-conversion-calculator,1.4,1,Django (>=2.2)
+uwg-schema,0.2.11,1,pydantic-openapi-helper (>=0.2.9)
+udemy-python,0.0.3,1,requests
+udemyapi,0.0.1,1,playwright
+udemy,0.1.2,1,requests
+udchinese,0.6.1,1,udkanbun (>=3.3.7)
+udata-youckan,1.0.0,1,udata
+udata-tabular-preview,2.0.3,1,udata (>=4.0.0)
+udata-ods,2.1.0,1,udata (>=2.0.0)
+udata-geoplatform,2.0.0,1,udata (>=2.0.0)
+udata-event-service,0.0.8,1,kafka-python==2.0.2
+udata-croquemort,2.0.1,1,udata (>=2.0.0)
+udacity-carndt1test,1.1.0,1,matplotlib
+ucs-detect,0.0.4,1,blessed (>=1.17.6<2)
+ucsc-genomic-data,1.0.0,1,requests
+uw-restclients-coda,1.0.1,1,UW-RestClients-Core
+ucsc-genomic-api,1.0.2,1,requests
+ucron,0.1.3,1,bottle
+ucrel-api,0.0.2,1,requests
+uw-restclients-gradepage,1.2.3,1,UW-RestClients-Core
+ucp,1.0.0,1,six
+u-coreutils,0.1.11,1,click (>=7.1.2,<8.0.0)
+uw-restclients-hfs,1.0.4,1,UW-RestClients-Core
+ucommander,1.0.2,1,pyserial (>=3.4)
+ucms,1.0.0,1,requests
+ucloud-sdk-python3,0.11.39,1,requests
+ucloud-sdk-python2,0.9.2,1,requests
+uci,1.0.6,1,nltk (==3.5)
+uchida1512testpackage,1.0.0,1,click (~=7.0)
+ucenter-sdk,1.0.13,1,requests (>=2.11.1)
+uceasy,0.3.0,1,click (>=8.0,<9.0)
+uw-restclients-sdbmyuw,1.0.1,1,UW-RestClients-Core
+ucam-wls,0.0.2,1,cryptography
+ucam-managed-mac-utils,0.0.4,1,pyobjc
+ubuntu-termux,0.0.3,1,kitano
+uw-restclients-upass,1.0.1,1,UW-RestClients-Core
+ubuntui,0.1.9,1,urwid
+ubuf,0.0.2,1,pyyaml
+ubtsl,0.0.1,1,unicorn-binance-trailing-stop-loss
+ubpy,4.2,1,aiohttp
+ubox360,0.3.0,1,evdev
+uwsgi-tasks,0.7.3,1,six
+ublox,0.1.3,1,pyserial
+ubiquity-student,0.8.0,1,requests (==2.28.1)
+uberping,0.0.1.1,1,click
+uwuify,1.1.0,1,click (>=8.0.1,<9.0.0)
+ubelt,1.2.2,1,jaraco.windows ; platform_system == "Windows"
+ua-stache-api,2.1.0,1,requests
+uas-standards,1.1.0,1,implicitdict
+uasiren,0.0.1,1,aiohttp (>=3.8.1)
+uxdiff,1.4.5,1,unidiff (>=0.6.0)
+uxf,2.8.1,1,editabletuple
+uart-debugger,0.0.3,1,pyserial
+ua-redmine-api,1.0.7,1,requests
+ua-node-avail,0.1.6,1,columnar
+uamconfig-cli,1.1.1,1,click
+uagen,0.0.1,1,argparse
+uadetector,0.1.3,1,woothee
+uaconnect,1.0.1,1,requests (>=2.27)
+ua-box-api,1.0.0,1,boxsdk
+uzlemma,1.0,1,lxml
+uz-sdk,0.0.3,1,requests
+ua,0.1.5,1,parse (>=1.19.0,<2.0.0)
