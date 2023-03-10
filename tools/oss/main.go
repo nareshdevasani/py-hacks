@@ -15,6 +15,8 @@ import (
 	"time"
 	"unicode"
 
+	"oss/utils"
+
 	"github.com/go-git/go-git/v5"
 	"github.com/go-git/go-git/v5/config"
 	"github.com/go-git/go-git/v5/storage/memory"
@@ -35,6 +37,8 @@ type info struct {
 	Version      string
 	ProjectURLs  urls     `json:"project_urls"`
 	RequiresDist []string `json:"requires_dist"`
+	Licence      string   `json:"license"`
+	Classifiers  []string `json:"classifiers"`
 }
 
 type urls struct {
@@ -56,7 +60,53 @@ func main() {
 	// parse the data files and export dep information
 	// parseAndPersistDeps([]string{"0.json"}, "0Deps.txt")
 
-	parseAndPersistDeps([]string{"C3.json", "C4.json"}, "CDeps2.txt")
+	// start := time.Now()
+	// parseAndPersistDeps([]string{"T3.json", "T4.json"}, "TDeps2.txt")
+	// fmt.Println(time.Since(start))
+
+	// pkgList := getListOfPHPPackages()
+
+	// start := time.Now()
+	// mstart := time.Now()
+	// var prevCount int
+	// var mcount int
+	// var minElapsed int
+	// for index, pkgName := range pkgList {
+	// 	queryPHPPackage(pkgName)
+	// 	if time.Since(start) >= time.Second {
+	// 		fmt.Println("Total requests per second: " + fmt.Sprint(index-prevCount))
+	// 		prevCount = index
+	// 		start = time.Now()
+	// 	}
+	// 	if time.Since(mstart) >= time.Minute {
+	// 		minElapsed++
+	// 		fmt.Println("Total requests per minute: " + fmt.Sprint(minElapsed) + " : " + fmt.Sprint(index-mcount))
+	// 		mcount = index
+	// 		mstart = time.Now()
+	// 	}
+	// 	//time.Sleep(100 * time.Millisecond)
+	// }
+
+	// printPypiLicenses("")
+	utils.CreateRequirementsTxtFromUnresolvedDeps("/Users/nareshdevasani/endor/python/pv.json")
+}
+
+func printPypiLicenses(start string) {
+	pkgs := getListOfPypiPackages()
+	var started bool
+	var count int
+	for _, p := range pkgs {
+		if start == "" || start == p {
+			started = true
+		}
+		if started {
+			queryPypiPackage(p)
+			count++
+		}
+		if count > 0 && count%1000 == 0 {
+			time.Sleep(10 * time.Second)
+		}
+	}
 }
 
 func readPackages(query int, startingName string) {
@@ -174,8 +224,9 @@ func queryDetails(pkgName string, version string) metadata {
 	}
 
 	if err != nil {
-		fmt.Println("ERRRRRRRRRRRRRR")
-		log.Fatalln(err)
+		fmt.Println("ERRRRRRRRRRRRRR --- Retrying")
+		// log.Fatalln(err)
+		return queryDetails(pkgName, version)
 	}
 
 	defer resp.Body.Close()
@@ -245,7 +296,8 @@ func parseAndPersistDeps(files []string, opFile string) {
 	lines := make([]string, 0)
 	for _, file := range files {
 		existing := getExisting("data/" + file)
-		for _, module := range existing {
+		totalModules := len(existing)
+		for mno, module := range existing {
 			metadata := queryDetails(module.Name, module.Version)
 			if len(metadata.Info.RequiresDist) == 0 {
 				continue
@@ -264,8 +316,10 @@ func parseAndPersistDeps(files []string, opFile string) {
 			newLine := fmt.Sprintf("%s,%s,%d,%s", module.Name, module.Version, len(deps), strings.Join(deps, "$"))
 			// fmt.Println(newLine)
 			lines = append(lines, newLine)
-			if len(lines)%1000 == 0 {
-				fmt.Print("Count is: ")
+			if len(lines)%60 == 0 {
+				fmt.Printf("%d / %d : ", mno, totalModules)
+				fmt.Print(time.Now())
+				fmt.Print(": Count is: ")
 				fmt.Println(len(lines))
 			}
 		}
@@ -293,4 +347,125 @@ func parseAndPersistDeps(files []string, opFile string) {
 
 	datawriter.Flush()
 	file.Close()
+}
+
+type PHPPackageNames struct {
+	Names []string `json:"packageNames"`
+}
+
+type PHPPackage struct {
+	Packages PackageVersions `json:"packages"`
+}
+
+type PackageVersions struct {
+	PkgVersions map[string][]interface{}
+}
+
+func getListOfPHPPackages() []string {
+	// var resp *http.Response
+	// var err error
+	resp, err := http.Get("https://packagist.org/packages/list.json")
+
+	if err != nil {
+		fmt.Println("ERRRRRRRRRRRRRR --- fetching list of php packages...")
+		return []string{}
+	}
+
+	defer resp.Body.Close()
+
+	if resp.StatusCode < 200 || resp.StatusCode >= 400 {
+		fmt.Print("Error and code is invalid ")
+		return []string{}
+	}
+
+	b, err := ioutil.ReadAll(resp.Body)
+	if err != nil {
+		fmt.Println("Package read of response failed... " + err.Error())
+		return []string{}
+	}
+
+	var response PHPPackageNames
+
+	if err := json.Unmarshal(b, &response); err != nil {
+		fmt.Println("Unmarshal of response failed... " + err.Error())
+		return response.Names
+	}
+	fmt.Println("******* count of packages: " + fmt.Sprint(len(response.Names)))
+	return response.Names
+}
+
+func queryPHPPackage(pkgName string) {
+	// var resp *http.Response
+	// var err error
+	resp, err := http.Get("https://repo.packagist.org/p2/" + pkgName + ".json")
+
+	if err != nil {
+		fmt.Println("ERRRRRRRRRRRRRR --- fetching each php package..." + pkgName + ", Err:" + err.Error())
+		fmt.Println(resp)
+		time.Sleep(5 * time.Second)
+		queryPHPPackage(pkgName)
+		return
+	}
+
+	defer resp.Body.Close()
+
+	if resp.StatusCode < 200 || resp.StatusCode >= 400 {
+		fmt.Print("Error and code is invalid " + pkgName)
+		return
+	}
+
+	b, err := ioutil.ReadAll(resp.Body)
+	if err != nil {
+		fmt.Println("Package read of response failed... " + pkgName + ", Err: " + err.Error())
+		return
+	}
+
+	var response PHPPackage
+
+	if err := json.Unmarshal(b, &response); err != nil {
+		fmt.Println("Unmarshal of response failed... " + pkgName + ", Err: " + err.Error())
+		return
+	}
+	// fmt.Println(response.Packages.PkgVersions)
+}
+
+func getListOfPypiPackages() []string {
+	resp, err := http.Get("https://pypi.org/simple/")
+	if err != nil {
+		log.Fatalln(err)
+	}
+
+	scanner := bufio.NewScanner(resp.Body)
+	packages := make([]string, 0)
+	for scanner.Scan() {
+		line := scanner.Text()
+		if !strings.Contains(line, "href=\"/simple/") {
+			continue
+		}
+
+		packageName := filepath.Base(strings.Split(line, "\"")[1])
+		packages = append(packages, packageName)
+	}
+
+	if err := scanner.Err(); err != nil {
+		fmt.Println("error in scanner " + err.Error())
+	}
+	fmt.Println("******* count of packages: " + fmt.Sprint(len(packages)))
+	return packages
+}
+
+func queryPypiPackage(pkgName string) {
+	metadata := queryDetails(pkgName, "")
+
+	fmt.Print(pkgName)
+	fmt.Print("   ****   ")
+	fmt.Print(metadata.Info.Licence)
+	fmt.Print("   ****   ")
+	for _, s := range metadata.Info.Classifiers {
+		if strings.HasPrefix(s, "License") {
+			parts := strings.Split(s, "::")
+			fmt.Print(parts[len(parts)-1])
+		}
+	}
+	fmt.Println()
 }
