@@ -2,6 +2,8 @@ package main
 
 import (
 	"bufio"
+	"encoding/base64"
+	"encoding/hex"
 	"encoding/json"
 	"fmt"
 	"io/ioutil"
@@ -9,15 +11,15 @@ import (
 	"net/http"
 	"os"
 	"path/filepath"
+	"regexp"
+	"runtime"
 	"sort"
 	"strconv"
 	"strings"
 	"time"
 	"unicode"
 
-	"oss/utils"
-
-	"github.com/go-git/go-git/v5"
+	git "github.com/go-git/go-git/v5"
 	"github.com/go-git/go-git/v5/config"
 	"github.com/go-git/go-git/v5/storage/memory"
 )
@@ -88,7 +90,17 @@ func main() {
 	// }
 
 	// printPypiLicenses("")
-	utils.CreateRequirementsTxtFromUnresolvedDeps("/Users/nareshdevasani/endor/python/pv.json")
+	// utils.CreateRequirementsTxtFromUnresolvedDeps("/Users/nareshdevasani/endor/python/pv.json")
+
+	// Read rubygems db dump
+	readDbDump("/Users/nareshdevasani/Downloads/public_postgresql/databases/PostgreSQL.sql")
+	// getDownloadURL()
+	// err := isValidRemoteGitURL("https://github.com/googleapis/google-api-ruby-client")
+	// if err != nil {
+	// 	fmt.Println("Invalid GIT URL ****: " + err.Error())
+	// } else {
+	// 	fmt.Println("Valid GIT URL")
+	// }
 }
 
 func printPypiLicenses(start string) {
@@ -468,4 +480,342 @@ func queryPypiPackage(pkgName string) {
 		}
 	}
 	fmt.Println()
+}
+
+type gemVersion struct {
+	// sha
+	checksum string
+	// field3
+	releaseDate time.Time
+	// field7
+	licenses []string
+	// version number.
+	name string
+}
+
+// gemMetadata holds the gems read from the DB dump.
+type gemMetadata struct {
+	// gem name.
+	name string
+	// source clone URL.
+	repository string
+
+	versions []*gemVersion
+}
+
+func readDbDump(path string) {
+	var m runtime.MemStats
+	runtime.ReadMemStats(&m)
+	fmt.Printf("Alloc = %v MiB", m.Alloc/1024/1024)
+	fmt.Println()
+	inFile, err := os.Open(path)
+	if err != nil {
+		panic(err)
+	}
+	defer inFile.Close()
+
+	scanner := bufio.NewScanner(inFile)
+	buf := make([]byte, 256*1024)
+	scanner.Buffer(buf, bufio.MaxScanTokenSize)
+
+	// id to name map.
+	lineCnt := 0
+	nameLookup := make(map[string]string)
+	versionLookup := make(map[string]*gemMetadata)
+	linksetLookup := make(map[string]string)
+	versionsCount := 0
+	rubygemsCount := 0
+	linksetCount := 0
+	rubygemsStarted := false
+	versionsStarted := false
+	linksetStarted := false
+	lastLine := ""
+	maxLen := 0
+	longLine := ""
+	max2Len := 0
+	long2Line := ""
+	max3Len := 0
+	long3Line := ""
+	emptyURLCount := 0
+	for scanner.Scan() {
+		line := strings.TrimSpace(scanner.Text())
+		lastLine = line
+		if maxLen < len(line) {
+			max3Len = max2Len
+			long3Line = long2Line
+			max2Len = maxLen
+			long2Line = longLine
+			maxLen = len(line)
+			longLine = line
+		} else if max2Len < len(line) {
+			max3Len = max2Len
+			long3Line = long2Line
+			max2Len = len(line)
+			long2Line = line
+		} else if max3Len < len(line) {
+			max3Len = len(line)
+			long3Line = line
+		}
+		lineCnt++
+
+		if lineCnt%500000 == 0 {
+			fmt.Print("LINE# ")
+			fmt.Println(lineCnt)
+		}
+		if line == "" || line == "\\." {
+			rubygemsStarted = false
+			versionsStarted = false
+			linksetStarted = false
+			continue
+		}
+
+		if strings.HasPrefix(line, "COPY public.linksets (id") {
+			runtime.ReadMemStats(&m)
+			fmt.Printf("Alloc = %v MiB", m.Alloc/1024/1024)
+			fmt.Println()
+
+			linksetStarted = true
+			continue
+		}
+
+		if strings.HasPrefix(line, "COPY public.rubygems (id") {
+			runtime.ReadMemStats(&m)
+			fmt.Printf("Alloc = %v MiB", m.Alloc/1024/1024)
+			fmt.Println()
+
+			rubygemsStarted = true
+			continue
+		}
+
+		if strings.HasPrefix(line, "COPY public.versions (id") {
+			runtime.ReadMemStats(&m)
+			fmt.Printf("Alloc = %v MiB", m.Alloc/1024/1024)
+			fmt.Println()
+
+			versionsStarted = true
+			continue
+		}
+
+		if linksetStarted {
+			linksetCount++
+			row := strings.Split(line, "\t")
+			if len(row) < 2 {
+				fmt.Println("ERROR SPLIT ON TAB CHAR - rubygems table: " + line)
+				continue
+			}
+
+			if row[6] != "\\N" {
+				linksetLookup[row[1]] = row[6]
+			}
+
+			// when code is empty, use home.
+			// TODO validate home url.
+			// TODO remove /tree/ and extract source_ref.
+			if linksetLookup[row[1]] == "" {
+				linksetLookup[row[1]] = row[2]
+				if strings.Contains(row[2], "gitlab") && strings.Contains(row[2], "/tree") {
+					fmt.Println(row[2] + " -> " + row[1])
+				}
+			}
+			continue
+		}
+
+		if rubygemsStarted {
+			rubygemsCount++
+			row := strings.Split(line, "\t")
+			if len(row) < 2 {
+				fmt.Println("ERROR SPLIT ON TAB CHAR - rubygems table: " + line)
+				continue
+			}
+
+			nameLookup[row[0]] = row[1]
+			continue
+		}
+
+		if versionsStarted {
+			versionsCount++
+			row := strings.Split(line, "\t")
+			if len(row) < 25 {
+				continue
+			}
+			gem, ok := versionLookup[nameLookup[row[4]]]
+			if !ok {
+				repository := getRepository(row[20], linksetLookup[row[4]])
+				gem = &gemMetadata{
+					name:       nameLookup[row[4]],
+					repository: repository,
+				}
+				versionLookup[nameLookup[row[4]]] = gem
+			} else {
+				if gem.repository == "" {
+					repository := getRepository(row[20], linksetLookup[row[4]])
+					gem.repository = repository
+				}
+			}
+
+			relTime, _ := time.Parse("2006-01-02 15:04:05.123456", row[9])
+			sha := getSha(row[19])
+			// if sha == "" {
+			// 	fmt.Println("EMPTY SHA for: " + row[14])
+			// }
+			licenses := getLicenses(row[15])
+			// if len(licenses) > 1 {
+			// 	fmt.Println(fmt.Sprintf("******** More than one license : %s, %d: %v", row[14], len(licenses), licenses))
+			// }
+			gem.versions = append(gem.versions, &gemVersion{
+				name:        row[3],
+				checksum:    sha,
+				releaseDate: relTime,
+				licenses:    licenses,
+			})
+			continue
+		}
+	}
+
+	if err = scanner.Err(); err != nil {
+		fmt.Println("Last line ************: " + lastLine)
+		panic(err)
+	}
+
+	// print first 10 records
+	fmt.Println(maxLen)
+	fmt.Println(longLine[:100])
+	fmt.Println(max2Len)
+	fmt.Println(long2Line[:100])
+	fmt.Println(max3Len)
+	fmt.Println(long3Line[:200])
+	fmt.Println("Printing records *******")
+	fmt.Print("Size of rubygems: ")
+	fmt.Println(len(nameLookup))
+	fmt.Print("Size of versions: ")
+	fmt.Println(len(versionLookup))
+	for _, v := range versionLookup {
+		if v.repository == "" {
+			emptyURLCount++
+		}
+	}
+
+	fmt.Println(fmt.Sprintf("Count of gems with URLs: %d", (len(versionLookup) - emptyURLCount)))
+
+	cnt := 0
+	for k, v := range nameLookup {
+		fmt.Print(k + " -> ")
+		fmt.Println(v)
+		cnt++
+		if cnt == 20 {
+			break
+		}
+	}
+
+	cnt = 0
+	for k, v := range versionLookup {
+		fmt.Print(k + " -> " + v.name + " :URL: ")
+		fmt.Println(v.repository)
+		for _, ver := range v.versions {
+			fmt.Println(ver.name + " -> " + ver.checksum + " -> " + fmt.Sprintf("%d: %v", len(ver.licenses), ver.licenses))
+		}
+		cnt++
+		if cnt == 20 {
+			break
+		}
+	}
+
+	runtime.ReadMemStats(&m)
+	fmt.Printf("Alloc = %v MiB", m.Alloc/1024/1024)
+}
+
+// COPY public.versions (
+//	0		1							2							3		4			5					6							7						8			9							10			11			12			13		14				15				16		17				18						19												20			21							22			23									24						25			26					27
+// id,		authors, 					description, 				number, rubygem_id, built_at, 			updated_at, 				summary, 				platform, 	created_at, 				indexed, 	prerelease, "position", latest, full_name, 		licenses, 		size, 	requirements, 	required_ruby_version, 	sha256, 										metadata, 	required_rubygems_version, 	yanked_at, 	info_checksum, 						yanked_info_checksum, 	pusher_id, 	canonical_number, 	cert_chain) FROM stdin;
+// 634090	Austin G. Davis-Richardson	Like cowsay but with cats	0.2.1	95809		2014-11-17 00:00:00	2020-12-14 16:00:43.630801	Cats in your terminal	ruby		2014-11-17 01:10:06.711091	t			f			12			f		catsay-0.2.1	---\n- MIT\n	10240	--- []\n		>= 0					5M33+zp2ZnZNfDsGUxvziMdZfvWnzwTvVLgW8BIqG0A=				>= 0						\N			1848f2d9d098df0129209f628c0b0115	\N						\N			0.2.1				\N
+// 1219495	Ryan Grove					Crass is a pure Ruby CSS.	1.0.6	85152		2020-01-12 00:00:00	2020-12-14 17:09:28.715023	CSS Level 3 spec.		ruby		2020-01-12 22:24:38.894954	t			f			0			t		crass-1.0.6		---\n- MIT\n	18432	--- []\n		>= 1.9.2				3FFgIqVuezsVYJmryBttKwjqHtEmdqx6VldhfwEr1F0=	"changelog_uri"=>"https://github.com/rgrove/crass/blob/v1.0.6/HISTORY.md", "bug_tracker_uri"=>"https://github.com/rgrove/crass/issues", "source_code_uri"=>"https://github.com/rgrove/crass/tree/v1.0.6", "documentation_uri"=>"https://www.rubydoc.info/gems/crass/1.0.6"	>= 0	\N	5758dfcc0400f10c45ba4ab4060f2d33	\N	763	1.0.6	\N
+
+func getRepository(metadata string, urlFromLinkset string) string {
+	parts := strings.Split(metadata, ",")
+	for _, u := range parts {
+		u = strings.TrimSpace(u)
+		if strings.HasPrefix(u, "\"source_code_uri\"=>\"") {
+			srcUrl := strings.TrimPrefix(u, "\"source_code_uri\"=>\"")
+			return strings.TrimSuffix(srcUrl, "\"")
+		}
+	}
+
+	return urlFromLinkset
+}
+
+func getSha(sha256 string) string {
+	if sha256 == "\\N" {
+		return ""
+	}
+	base64Decoded, err := base64.StdEncoding.DecodeString(sha256)
+	if err != nil {
+		fmt.Println(sha256)
+		panic(err)
+	}
+
+	return hex.EncodeToString(base64Decoded)
+}
+
+func getLicenses(license string) []string {
+	if license == "\\N" {
+		return nil
+	}
+	parts := strings.Split(license, "\\n")
+	licenses := make([]string, 0)
+	for _, l := range parts {
+		l = strings.TrimSpace(strings.TrimLeft(l, "-"))
+		l = strings.TrimSpace(strings.TrimLeft(l, "."))
+		if l == "" || l == "[]" {
+			continue
+		}
+		licenses = append(licenses, l)
+	}
+	return licenses
+}
+
+const baseURL = "https://s3-us-west-2.amazonaws.com/rubygems-dumps/"
+const prefix = "production/public_postgresql"
+
+func getDownloadURL() string {
+	resp, err := http.Get(fmt.Sprintf("%s?prefix=%s", baseURL, prefix))
+	if err != nil {
+		panic(err)
+	}
+	defer resp.Body.Close()
+
+	body, err := ioutil.ReadAll(resp.Body)
+	if err != nil {
+		panic(err)
+	}
+
+	re := regexp.MustCompile("<Key>(.*?)</Key>")
+	matches := re.FindAllStringSubmatch(string(body), -1)
+
+	if len(matches) > 0 {
+		lastMatch := matches[len(matches)-1]
+		return lastMatch[1]
+	}
+	return ""
+}
+
+func isValidRemoteGitURL(gitHTTPURL string) error {
+
+	// stupid lib below will return true if the git URL is an empty string.
+	if len(gitHTTPURL) == 0 {
+		return fmt.Errorf("git URL is empty")
+	}
+
+	remote := git.NewRemote(memory.NewStorage(), &config.RemoteConfig{
+		URLs: []string{gitHTTPURL},
+	})
+
+	// gitOpt := &OptionConfig{}
+	// for _, o := range gitOpts {
+	// 	o.Apply(gitOpt)
+	// }
+	opts := &git.ListOptions{}
+	if _, err := remote.List(opts); err != nil {
+		return err
+	}
+	return nil
 }
