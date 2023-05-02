@@ -653,7 +653,7 @@ func readDbDump(path string) {
 				}
 			}
 
-			relTime, _ := time.Parse("2006-01-02 15:04:05.123456", row[9])
+			relTime, _ := time.Parse("2006-01-02 15:04:05", row[9])
 			sha := getSha(row[19])
 			// if sha == "" {
 			// 	fmt.Println("EMPTY SHA for: " + row[14])
