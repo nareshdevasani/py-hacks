@@ -523,12 +523,14 @@ func readDbDump(path string) {
 	nameLookup := make(map[string]string)
 	versionLookup := make(map[string]*gemMetadata)
 	linksetLookup := make(map[string]string)
+	downloadLookup := make(map[string]int)
 	versionsCount := 0
 	rubygemsCount := 0
 	linksetCount := 0
 	rubygemsStarted := false
 	versionsStarted := false
 	linksetStarted := false
+	downloadStarted := false
 	lastLine := ""
 	maxLen := 0
 	longLine := ""
@@ -566,6 +568,7 @@ func readDbDump(path string) {
 			rubygemsStarted = false
 			versionsStarted = false
 			linksetStarted = false
+			downloadStarted = false
 			continue
 		}
 
@@ -575,6 +578,11 @@ func readDbDump(path string) {
 			fmt.Println()
 
 			linksetStarted = true
+			continue
+		}
+
+		if strings.HasPrefix(line, "COPY public.gem_downloads (id") {
+			downloadStarted = true
 			continue
 		}
 
@@ -630,6 +638,15 @@ func readDbDump(path string) {
 
 			nameLookup[row[0]] = row[1]
 			continue
+		}
+
+		if downloadStarted {
+			row := strings.Split(line, "\t")
+			if cnt, err := strconv.Atoi(row[3]); err == nil {
+				if cnt > downloadLookup[row[1]] {
+					downloadLookup[row[1]] = cnt
+				}
+			}
 		}
 
 		if versionsStarted {
@@ -695,7 +712,7 @@ func readDbDump(path string) {
 		}
 	}
 
-	fmt.Println(fmt.Sprintf("Count of gems with URLs: %d", (len(versionLookup) - emptyURLCount)))
+	fmt.Printf("Count of gems with URLs: %d", (len(versionLookup) - emptyURLCount))
 
 	cnt := 0
 	for k, v := range nameLookup {
@@ -718,6 +735,41 @@ func readDbDump(path string) {
 		if cnt == 20 {
 			break
 		}
+	}
+
+	var sortedData []struct {
+		Key   string
+		Value int
+	}
+
+	// Convert the map to a slice of key-value pairs
+	for key, value := range downloadLookup {
+		sortedData = append(sortedData, struct {
+			Key   string
+			Value int
+		}{key, value})
+	}
+
+	// Sort the slice based on the values in ascending order
+	sort.Slice(sortedData, func(i, j int) bool {
+		return sortedData[i].Value > sortedData[j].Value
+	})
+
+	f, err := os.Create("top_gems.txt") // nolint gosec
+	if err != nil {
+		fmt.Println("ERROR creating file")
+		return
+	}
+	defer f.Close() //nolint errcheck
+
+	w := bufio.NewWriter(f)
+	for _, line := range sortedData {
+		if _, err = fmt.Fprintln(w, nameLookup[line.Key]); err != nil {
+			fmt.Println("ERROR Fprintln....." + err.Error())
+		}
+	}
+	if err := w.Flush(); err != nil {
+		fmt.Println("ERROR flush....")
 	}
 
 	runtime.ReadMemStats(&m)
