@@ -764,7 +764,11 @@ func readDbDump(path string) {
 
 	w := bufio.NewWriter(f)
 	for _, line := range sortedData {
-		if _, err = fmt.Fprintln(w, nameLookup[line.Key]); err != nil {
+		name := nameLookup[line.Key]
+		if strings.TrimSpace(name) == "" {
+			continue
+		}
+		if _, err = fmt.Fprintln(w, name); err != nil {
 			fmt.Println("ERROR Fprintln....." + err.Error())
 		}
 	}
