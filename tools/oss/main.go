@@ -10,6 +10,7 @@ import (
 	"log"
 	"net/http"
 	"os"
+	"oss/utils"
 	"path/filepath"
 	"regexp"
 	"runtime"
@@ -17,11 +18,6 @@ import (
 	"strconv"
 	"strings"
 	"time"
-	"unicode"
-
-	git "github.com/go-git/go-git/v5"
-	"github.com/go-git/go-git/v5/config"
-	"github.com/go-git/go-git/v5/storage/memory"
 )
 
 type Module struct {
@@ -57,7 +53,7 @@ func main() {
 	// 19 - S
 	// 10 - J
 	// 1 - A
-	// readPackages(1, "aws-solutions-constructs-aws-dynamodb-stream-lambda-elasticsearch-kibana")
+	// readPackages(1, "0")
 
 	// parse the data files and export dep information
 	// parseAndPersistDeps([]string{"0.json"}, "0Deps.txt")
@@ -66,6 +62,7 @@ func main() {
 	// parseAndPersistDeps([]string{"T3.json", "T4.json"}, "TDeps2.txt")
 	// fmt.Println(time.Since(start))
 
+	// PHP START ************************************
 	// pkgList := getListOfPHPPackages()
 
 	// start := time.Now()
@@ -86,14 +83,20 @@ func main() {
 	// 		mcount = index
 	// 		mstart = time.Now()
 	// 	}
-	// 	//time.Sleep(100 * time.Millisecond)
+	// 	time.Sleep(100 * time.Millisecond)
+	// 	if index%1000 == 0 {
+	// 		fmt.Print("COMPLETED -- ")
+	// 		fmt.Println(index)
+	// 	}
 	// }
 
+	// PHP END ************************************
+
 	// printPypiLicenses("")
-	// utils.CreateRequirementsTxtFromUnresolvedDeps("/Users/nareshdevasani/endor/python/pv.json")
+	utils.CreateRequirementsTxtFromUnresolvedDeps("/Users/nareshdevasani/endor/python/py-hacks/tools/oss/package_version_abnormal.json")
 
 	// Read rubygems db dump
-	readDbDump("/Users/nareshdevasani/Downloads/public_postgresql/databases/PostgreSQL.sql")
+	// readDbDump("/Users/nareshdevasani/Downloads/public_postgresql/databases/PostgreSQL.sql")
 	// getDownloadURL()
 	// err := isValidRemoteGitURL("https://github.com/googleapis/google-api-ruby-client")
 	// if err != nil {
@@ -134,50 +137,76 @@ func readPackages(query int, startingName string) {
 	fileName = "data/" + fileName
 	fmt.Println("File requested: " + fileName)
 
-	start := time.Now()
+	// start := time.Now()
 	total := 0
 	count := make([]int, 27)
 	scanner := bufio.NewScanner(resp.Body)
 	modules := make([]Module, 0)
-	started := false
+	// started := false
 	for scanner.Scan() {
 		line := scanner.Text()
-		if !strings.Contains(line, "href=\"/simple/") {
+		pattern := `>(.*?)<`
+
+		// Compile the regular expression
+		regex, err := regexp.Compile(pattern)
+		if err != nil {
 			continue
 		}
 
-		packageName := filepath.Base(strings.Split(line, "\"")[1])
-		if packageName == startingName {
-			started = true
-		}
-		first := []rune(packageName)[0]
-		index := 0
-		if unicode.IsDigit(first) {
-			count[0] += 1
-		} else {
-			index = int(first - 'a' + 1)
-			count[index] += 1
+		// Find the first match in the HTML string
+		match := regex.FindStringSubmatch(line)
+		if match == nil || len(match) < 2 {
+			continue
 		}
 
-		if index == query && started {
-			module := getDetails(packageName)
-			if len(module.Name) > 0 {
-				modules = append(modules, module)
-			} else {
-				fmt.Println(" ..." + fmt.Sprint(len(modules)))
-			}
+		// Extract the package name from the matched string
+		packageName := match[1]
+		// fmt.Println(packageName)
+		if strings.Contains(packageName, "-") && strings.Contains(packageName, "_") {
+			fmt.Println(packageName)
+			// total += 1
 		}
-
-		if len(modules) == 500 {
-			existing := getExisting(fileName)
-			existing = append(existing, modules...)
-			file, _ := json.MarshalIndent(existing, "", " ")
-			_ = ioutil.WriteFile(fileName, file, 0644)
-			fmt.Println("Completed "+fmt.Sprint(len(existing))+". Took ", time.Since(start))
-			//start = time.Now()
-			modules = make([]Module, 0)
+		if strings.Contains(packageName, "_") {
+			fmt.Println(packageName)
+			// total += 1
 		}
 		total += 1
+		// if !strings.Contains(line, "href=\"/simple/") {
+		// 	continue
+		// }
+
+		// packageName := filepath.Base(strings.Split(line, "\"")[1])
+		// if packageName == startingName {
+		// 	started = true
+		// }
+		// first := []rune(packageName)[0]
+		// index := 0
+		// if unicode.IsDigit(first) {
+		// 	count[0] += 1
+		// } else {
+		// 	index = int(first - 'a' + 1)
+		// 	count[index] += 1
+		// }
+
+		// if index == query && started {
+		// 	module := getDetails(packageName)
+		// 	if len(module.Name) > 0 {
+		// 		modules = append(modules, module)
+		// 	} else {
+		// 		fmt.Println(" ..." + fmt.Sprint(len(modules)))
+		// 	}
+		// }
+
+		// if len(modules) == 500 {
+		// 	existing := getExisting(fileName)
+		// 	existing = append(existing, modules...)
+		// 	file, _ := json.MarshalIndent(existing, "", " ")
+		// 	_ = ioutil.WriteFile(fileName, file, 0644)
+		// 	fmt.Println("Completed "+fmt.Sprint(len(existing))+". Took ", time.Since(start))
+		// 	//start = time.Now()
+		// 	modules = make([]Module, 0)
+		// }
+		// total += 1
 	}
 
 	if err := scanner.Err(); err != nil {
@@ -293,16 +322,16 @@ func addToList(url string, urls []string) []string {
 	return result
 }
 
-func isValidRepo(url string) bool {
-	remote := git.NewRemote(memory.NewStorage(), &config.RemoteConfig{
-		URLs: []string{url},
-	})
+// func isValidRepo(url string) bool {
+// 	remote := git.NewRemote(memory.NewStorage(), &config.RemoteConfig{
+// 		URLs: []string{url},
+// 	})
 
-	if _, err := remote.List(&git.ListOptions{}); err != nil {
-		return false
-	}
-	return true
-}
+// 	if _, err := remote.List(&git.ListOptions{}); err != nil {
+// 		return false
+// 	}
+// 	return true
+// }
 
 func parseAndPersistDeps(files []string, opFile string) {
 	lines := make([]string, 0)
@@ -370,7 +399,17 @@ type PHPPackage struct {
 }
 
 type PackageVersions struct {
-	PkgVersions map[string][]interface{}
+	Packages map[string][]*PackageData
+}
+
+type PackageData struct {
+	Source source
+}
+
+type source struct {
+	URL       string `json:"url"`
+	Reference string
+	Type      string
 }
 
 func getListOfPHPPackages() []string {
@@ -422,7 +461,7 @@ func queryPHPPackage(pkgName string) {
 	defer resp.Body.Close()
 
 	if resp.StatusCode < 200 || resp.StatusCode >= 400 {
-		fmt.Print("Error and code is invalid " + pkgName)
+		fmt.Print("Error and code is invalid - NOT FOUND" + pkgName)
 		return
 	}
 
@@ -432,11 +471,13 @@ func queryPHPPackage(pkgName string) {
 		return
 	}
 
-	var response PHPPackage
-
+	var response PackageVersions
 	if err := json.Unmarshal(b, &response); err != nil {
 		fmt.Println("Unmarshal of response failed... " + pkgName + ", Err: " + err.Error())
 		return
+	}
+	if len(response.Packages[pkgName]) > 0 && response.Packages[pkgName][0].Source.Type != "git" {
+		fmt.Println(response.Packages[pkgName][0].Source.Type + " -> " + pkgName)
 	}
 	// fmt.Println(response.Packages.PkgVersions)
 }
@@ -524,6 +565,7 @@ func readDbDump(path string) {
 	versionLookup := make(map[string]*gemMetadata)
 	linksetLookup := make(map[string]string)
 	downloadLookup := make(map[string]int)
+	depLookup := make(map[string]int)
 	versionsCount := 0
 	rubygemsCount := 0
 	linksetCount := 0
@@ -531,6 +573,7 @@ func readDbDump(path string) {
 	versionsStarted := false
 	linksetStarted := false
 	downloadStarted := false
+	depsStarted := false
 	lastLine := ""
 	maxLen := 0
 	longLine := ""
@@ -569,6 +612,12 @@ func readDbDump(path string) {
 			versionsStarted = false
 			linksetStarted = false
 			downloadStarted = false
+			depsStarted = false
+			continue
+		}
+
+		if strings.HasPrefix(line, "COPY public.dependencies (id") {
+			depsStarted = true
 			continue
 		}
 
@@ -601,6 +650,12 @@ func readDbDump(path string) {
 			fmt.Println()
 
 			versionsStarted = true
+			continue
+		}
+
+		if depsStarted {
+			row := strings.Split(line, "\t")
+			depLookup[row[5]] = depLookup[row[5]] + 1
 			continue
 		}
 
@@ -755,6 +810,24 @@ func readDbDump(path string) {
 		return sortedData[i].Value > sortedData[j].Value
 	})
 
+	var sortedDeps []struct {
+		Key   string
+		Value int
+	}
+
+	// Convert the map to a slice of key-value pairs
+	for key, value := range depLookup {
+		sortedDeps = append(sortedDeps, struct {
+			Key   string
+			Value int
+		}{key, value})
+	}
+
+	// Sort the slice based on the values in ascending order
+	sort.Slice(sortedDeps, func(i, j int) bool {
+		return sortedDeps[i].Value > sortedDeps[j].Value
+	})
+
 	f, err := os.Create("top_gems.txt") // nolint gosec
 	if err != nil {
 		fmt.Println("ERROR creating file")
@@ -768,12 +841,21 @@ func readDbDump(path string) {
 		if strings.TrimSpace(name) == "" {
 			continue
 		}
-		if _, err = fmt.Fprintln(w, name); err != nil {
+		if _, err = fmt.Fprintln(w, "    s.add_dependency '"+name+"'"+" - "+strconv.Itoa(line.Value)); err != nil {
 			fmt.Println("ERROR Fprintln....." + err.Error())
 		}
 	}
 	if err := w.Flush(); err != nil {
 		fmt.Println("ERROR flush....")
+	}
+
+	depCnt := 0
+	for _, v := range sortedDeps {
+		fmt.Println(v.Key + " : " + fmt.Sprint(v.Value))
+		depCnt++
+		if depCnt >= 10 {
+			break
+		}
 	}
 
 	runtime.ReadMemStats(&m)
@@ -854,24 +936,24 @@ func getDownloadURL() string {
 	return ""
 }
 
-func isValidRemoteGitURL(gitHTTPURL string) error {
+// func isValidRemoteGitURL(gitHTTPURL string) error {
 
-	// stupid lib below will return true if the git URL is an empty string.
-	if len(gitHTTPURL) == 0 {
-		return fmt.Errorf("git URL is empty")
-	}
+// 	// stupid lib below will return true if the git URL is an empty string.
+// 	if len(gitHTTPURL) == 0 {
+// 		return fmt.Errorf("git URL is empty")
+// 	}
 
-	remote := git.NewRemote(memory.NewStorage(), &config.RemoteConfig{
-		URLs: []string{gitHTTPURL},
-	})
+// 	remote := git.NewRemote(memory.NewStorage(), &config.RemoteConfig{
+// 		URLs: []string{gitHTTPURL},
+// 	})
 
-	// gitOpt := &OptionConfig{}
-	// for _, o := range gitOpts {
-	// 	o.Apply(gitOpt)
-	// }
-	opts := &git.ListOptions{}
-	if _, err := remote.List(opts); err != nil {
-		return err
-	}
-	return nil
-}
+// 	// gitOpt := &OptionConfig{}
+// 	// for _, o := range gitOpts {
+// 	// 	o.Apply(gitOpt)
+// 	// }
+// 	opts := &git.ListOptions{}
+// 	if _, err := remote.List(opts); err != nil {
+// 		return err
+// 	}
+// 	return nil
+// }

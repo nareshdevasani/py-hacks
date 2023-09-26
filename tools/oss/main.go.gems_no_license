@@ -1,0 +1,72 @@
+package main
+
+import (
+	"bufio"
+	"encoding/json"
+	"fmt"
+	"io/ioutil"
+	"net/http"
+	"os"
+	"strings"
+	"time"
+)
+
+type Metadata struct {
+	Licenses []string `json:"licenses"`
+}
+
+func main() {
+	filePath := "gems_no_licenses.txt"
+	file, err := os.Open(filePath)
+	if err != nil {
+		fmt.Println("Error opening file:", err)
+		return
+	}
+	defer file.Close()
+
+	scanner := bufio.NewScanner(file)
+	for scanner.Scan() {
+		packageName := scanner.Text()
+		if strings.Contains(packageName, " : ") {
+			continue
+		}
+		time.Sleep(5 * time.Second)
+		url := fmt.Sprintf("https://rubygems.org/api/v1/gems/%s.json", packageName)
+		resp, err := http.Get(url)
+		if err != nil {
+			fmt.Println("HTTP request failed:", err)
+			continue
+		}
+		defer resp.Body.Close()
+
+		if resp.StatusCode != http.StatusOK {
+			fmt.Printf("Failed to retrieve license for package %s. Status code: %d\n", packageName, resp.StatusCode)
+			continue
+		}
+
+		body, err := ioutil.ReadAll(resp.Body)
+		if err != nil {
+			fmt.Println("Error reading response body:", err)
+			continue
+		}
+
+		var metadata Metadata
+		err = json.Unmarshal(body, &metadata)
+		if err != nil {
+			fmt.Println("Error unmarshalling response:", err)
+			continue
+		}
+
+		// fmt.Printf("Package: %s\nLicenses: %v\n\n", packageName, metadata.Licenses)
+		fmt.Print(packageName + " -> ")
+		if metadata.Licenses == nil || len(metadata.Licenses) == 0 {
+			fmt.Println(" don't have license")
+		} else {
+			fmt.Println(" Actiually license was present in rubygems.org " + strings.Join(metadata.Licenses, ","))
+		}
+	}
+
+	if err := scanner.Err(); err != nil {
+		fmt.Println("Error reading file:", err)
+	}
+}
